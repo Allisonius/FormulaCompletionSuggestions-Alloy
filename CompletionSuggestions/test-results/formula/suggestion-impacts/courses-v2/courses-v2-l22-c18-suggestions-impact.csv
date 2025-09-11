@@ -1,0 +1,10 @@
+modelname,filename,position-line,position-character,incompleteline,removedtext,baseline,suggestionedExpression,A_iff_B,A_and_B,not_A_and_B,A_and_not_B,not_A_and_not_B,suggestionImpactTime
+courses-v2,completion/courses-v2-complete.als,22,18,"all p : Person -","Student | no p.enrolled","{}","\tall p : Person - Course",,,,,,13.647416
+courses-v2,completion/courses-v2-complete.als,22,18,"all p : Person -","Student | no p.enrolled","{}","\tall p : Person - Grade",,,,,,13.647416
+courses-v2,completion/courses-v2-complete.als,22,18,"all p : Person -","Student | no p.enrolled","{}","\tall p : Person - Person",,,,,,13.647416
+courses-v2,completion/courses-v2-complete.als,22,18,"all p : Person -","Student | no p.enrolled","{}","\tall p : Person - Professor",,,,,,13.647416
+courses-v2,completion/courses-v2-complete.als,22,18,"all p : Person -","Student | no p.enrolled","{}","\tall p : Person - Project",,,,,,13.647416
+courses-v2,completion/courses-v2-complete.als,22,18,"all p : Person -","Student | no p.enrolled","{}","\tall p : Person - Student",,,,,,13.647416
+courses-v2,completion/courses-v2-complete.als,22,18,"all p : Person -","Student | no p.enrolled","{}","\tall p : Person - iden",,,,,,13.647416
+courses-v2,completion/courses-v2-complete.als,22,18,"all p : Person -","Student | no p.enrolled","{}","\tall p : Person - none",,,,,,13.647416
+courses-v2,completion/courses-v2-complete.als,22,18,"all p : Person -","Student | no p.enrolled","{}","\tall p : Person - univ",,,,,,13.647416

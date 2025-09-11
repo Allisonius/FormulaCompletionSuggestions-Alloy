@@ -1,0 +1,5327 @@
+hits: 34539 (33.069396039983154)
+var.rel
+
+hits: 5556 (5.319597104668531)
+((var.rel) = (var.rel))
+
+hits: 3254 (3.115545172532649)
+(var.rel).var
+
+hits: 2768 (2.6502240435065683)
+sig.rel
+
+hits: 2654 (2.5410746428708206)
+((var.rel) = sig)
+
+hits: 2023 (1.9369231358431314)
+(var.rel).rel
+
+hits: 1909 (1.8277737352073837)
+#sig
+
+hits: 1866 (1.786603347248286)
+var.(var.rel)
+
+hits: 1807 (1.730113745164873)
+var->var
+
+hits: 1520 (1.455325341809965)
+(var in (var.rel))
+
+hits: 1451 (1.3892612308988548)
+rel.var
+
+hits: 1284 (1.2293669334763127)
+(sig.rel).var
+
+hits: 1037 (0.9928765654321933)
+((var.rel) = var)
+
+hits: 839 (0.80330129064379)
+(var in sig)
+
+hits: 767 (0.7343648270843706)
+~rel
+
+hits: 660 (0.6319175826280112)
+var.var
+
+hits: 606 (0.5802152349584466)
+#(var.rel)
+
+hits: 564 (0.5400022978821186)
+((#sig) = 2)
+
+hits: 554 (0.5304277890544216)
+((var->var) in rel)
+
+hits: 543 (0.5198958293439546)
+sig->sig
+
+hits: 496 (0.47489563785377814)
+var.(~rel)
+
+hits: 469 (0.4490444640189958)
+(((var.rel).var) = ((var.rel).var))
+
+hits: 443 (0.42415074106698325)
+(no (var.rel))
+
+hits: 440 (0.42127838841867415)
+sig + sig
+
+hits: 429 (0.41074642870820727)
+(var = var)
+
+hits: 428 (0.40978897782543755)
+#rel
+
+hits: 415 (0.3973421163494313)
+((var.rel) in sig)
+
+hits: 373 (0.3571291792731033)
+((sig.rel) = sig)
+
+hits: 369 (0.35329937574202447)
+((#sig) = 1)
+
+hits: 364 (0.34851212132817583)
+fun_call[].rel
+
+hits: 343 (0.3284056527900119)
+(var != var)
+
+hits: 308 (0.2948948718930719)
+sig.(var.rel)
+
+hits: 292 (0.2795756577687565)
+(var.rel) - var
+
+hits: 289 (0.27670330512044733)
+(var.rel) + var
+
+hits: 276 (0.26425644364444106)
+(var !in (var.rel))
+
+hits: 267 (0.2556393856995136)
+var.fun_call[]
+
+hits: 264 (0.2527670330512045)
+((var.rel) = ((var.rel) + var))
+
+hits: 260 (0.24893722952012565)
+sig->(sig->sig)
+
+hits: 249 (0.23840526980965876)
+(var in ((var.rel).var))
+
+hits: 238 (0.2278733100991919)
+((rel.var) = (rel.var))
+
+hits: 236 (0.2259584083336525)
+((var.rel).rel).rel
+
+hits: 226 (0.21638389950595532)
+((var.rel) != (var.rel))
+
+hits: 225 (0.21542644862318563)
+^rel
+
+hits: 213 (0.20393703802994906)
+(var.rel).(var.rel)
+
+hits: 212 (0.20297958714717937)
+var.(ordering/next[])
+
+hits: 207 (0.19819233273333076)
+((#sig) = 0)
+
+hits: 196 (0.18766037302286392)
+#fun_call[]
+
+hits: 195 (0.1867029221400942)
+(((var.rel).var) = sig)
+
+hits: 194 (0.1857454712573245)
+((var.rel).var).rel
+
+hits: 193 (0.18478802037455477)
+#(var.(var.rel))
+
+hits: 189 (0.18095821684347593)
+((var.rel) in (var.rel))
+sig - var
+
+hits: 185 (0.17712841331239706)
+(var in ((var.rel).rel))
+
+hits: 184 (0.17617096242962735)
+(var = sig)
+
+hits: 183 (0.17521351154685766)
+((var->var) in (var.rel))
+
+hits: 177 (0.16946880625023936)
+(var in fun_call[])
+
+hits: 176 (0.16851135536746964)
+(var in (sig.rel))
+
+hits: 169 (0.16180919918808165)
+(((var.rel).rel) = sig)
+
+hits: 165 (0.1579793956570028)
+sig - sig
+((var.rel) = ((var.rel) - var))
+((#(var.rel)) = 0)
+
+hits: 160 (0.15319214124315422)
+((var.rel).rel).var
+
+hits: 159 (0.1522346903603845)
+(sig + sig) + sig
+
+hits: 155 (0.14840488682930567)
+((var.rel) != sig)
+(var.rel) & sig
+
+hits: 153 (0.14648998506376623)
+var + var
+
+hits: 147 (0.14074527976714796)
+sig - fun_call[]
+((#sig) = 3)
+
+hits: 146 (0.13978782888437824)
+var->sig
+
+hits: 142 (0.13595802535329937)
+var.(^rel)
+
+hits: 140 (0.13404312358775997)
+(no ((var.rel).var))
+
+hits: 138 (0.13212822182222053)
+(some (var.rel))
+var.(sig.rel)
+
+hits: 134 (0.12829841829114166)
+(((sig.rel).var) = sig)
+
+hits: 131 (0.1254260656428325)
+rel.sig
+((#(var.(var.rel))) = 1)
+
+hits: 130 (0.12446861476006282)
+(some rel)
+
+hits: 129 (0.12351116387729309)
+((var.rel) = fun_call[])
+(some sig)
+
+hits: 125 (0.11968136034621424)
+(no ((sig.rel).var))
+
+hits: 117 (0.11202175328405653)
+(var !in ((var.rel).var))
+
+hits: 116 (0.11106430240128683)
+(var in ((sig.rel).var))
+((var.(var.rel)) = sig)
+(fun_call[] = sig)
+
+hits: 114 (0.10914940063574739)
+((#rel) = 0)
+
+hits: 113 (0.10819194975297766)
+(var.rel) + (var.rel)
+(var.(var.rel)).rel
+
+hits: 108 (0.1034046953391291)
+~(var.rel)
+((var.rel).var) + var
+(var in (var.(var.rel)))
+
+hits: 104 (0.09957489180805025)
+(((var.rel).var) = (((var.rel).var) + var))
+
+hits: 103 (0.09861744092528053)
+rel + rel
+
+hits: 102 (0.09765999004251083)
+((var->var) in fun_call[])
+
+hits: 101 (0.0967025391597411)
+(((var.rel).rel) = ((var.rel).rel))
+
+hits: 100 (0.09574508827697138)
+(fun_call[] = fun_call[])
+(var = fun_call[])
+
+hits: 99 (0.09478763739420168)
+*rel
+
+hits: 98 (0.09383018651143196)
+(var.rel) + (var->var)
+
+hits: 97 (0.09287273562866225)
+((var.(var.rel)) = (var.(var.rel)))
+
+hits: 95 (0.09095783386312281)
+(var.rel).sig
+(some var)
+
+hits: 94 (0.09000038298035311)
+((var.rel) = ((var.rel) + (var->var)))
+
+hits: 92 (0.08808548121481367)
+(var = (var.rel))
+sig.(~rel)
+
+hits: 90 (0.08617057944927425)
+((#rel) = 1)
+
+hits: 89 (0.08521312856650454)
+(no (rel.var))
+
+hits: 88 (0.08425567768373482)
+((#sig) = 4)
+
+hits: 87 (0.0832982268009651)
+(var in var)
+
+hits: 86 (0.08234077591819539)
+(((var.rel).var) = var)
+
+hits: 84 (0.08042587415265597)
+var.(fun_call[].rel)
+
+hits: 83 (0.07946842326988625)
+#((var.rel) & sig)
+
+hits: 82 (0.07851097238711655)
+var->(var->var)
+(one (var.rel))
+var->(var.(var.rel))
+((#(var.rel)) = 1)
+
+hits: 81 (0.07755352150434683)
+(((sig.rel).var) = ((sig.rel).var))
+
+hits: 80 (0.07659607062157711)
+(var.(~rel)) & (var.(~rel))
+
+hits: 79 (0.07563861973880741)
+#((var.rel).rel)
+
+hits: 78 (0.07468116885603769)
+((sig + sig) + sig) + sig
+var.(var.(var.rel))
+sig.(sig.rel)
+
+hits: 76 (0.07276626709049826)
+(((var.rel).var) in sig)
+
+hits: 75 (0.07180881620772855)
+#((var.rel).var)
+sig <: var
+(((var.rel).rel) = var)
+
+hits: 73 (0.06989391444218912)
+(sig <: var).rel
+
+hits: 72 (0.0689364635594194)
+(var in (var.(^rel)))
+
+hits: 70 (0.06702156179387998)
+var.((var.rel).var)
+
+hits: 69 (0.06606411091111027)
+(sig in (var.rel))
+((var.rel) = 1)
+var <: (var.rel)
+
+hits: 68 (0.06510666002834055)
+^var
+(var in (var.var))
+(var.rel) & (var.rel)
+
+hits: 66 (0.06319175826280113)
+var.(~(var.rel))
+(var.rel) - (var <: (var.rel))
+
+hits: 65 (0.06223430738003141)
+fun_call[] + fun_call[]
+(((var.rel).var).rel).var
+(fun_call[].rel).var
+
+hits: 64 (0.061276856497261695)
+((var.rel).var) - var
+(sig.rel).rel
+
+hits: 63 (0.06031940561449198)
+#var
+
+hits: 62 (0.05936195473172227)
+(ordering/last[]).rel
+((var.(var.rel)) = fun_call[])
+
+hits: 61 (0.05840450384895255)
+(((var.rel).rel) in sig)
+
+hits: 60 (0.05744705296618284)
+((((var.rel).rel).rel) = sig)
+
+hits: 59 (0.056489602083413124)
+(no var)
+((var.rel) = 0)
+((var.rel) !in sig)
+sig->var
+var.((sig.rel).var)
+
+hits: 58 (0.05553215120064341)
+((var.(var.rel)) = var)
+^fun_call[]
+((var->var) in var)
+
+hits: 56 (0.053617249435103986)
+~var
+
+hits: 55 (0.05265979855233427)
+(var.rel) - (var->var)
+(((sig.rel).var) = (sig + sig))
+(one sig)
+
+hits: 54 (0.05170234766956455)
+(((var.rel).var) = (((var.rel).var) - var))
+(one (var.(~rel)))
+
+hits: 53 (0.05074489678679484)
+rel.rel
+
+hits: 52 (0.049787445904025125)
+((var.(~rel)) & (var.(~rel))) & (var.(~rel))
+rel.(~rel)
+(no sig)
+(var.rel) - (var->(var.(var.rel)))
+
+hits: 51 (0.048829995021255415)
+(((var.rel).rel) = (var.rel))
+
+hits: 50 (0.04787254413848569)
+(var in (sig & (var.(~rel))))
+(var.rel).(*rel)
+(var in (rel.var))
+sig & (var.(~rel))
+
+hits: 49 (0.04691509325571598)
+((var.rel) = ((var.rel) ++ (var->var)))
+(var in (rel.sig))
+(rel.var).var
+
+hits: 48 (0.045957642372946264)
+((var.rel) = ((var.rel).rel))
+
+hits: 47 (0.045000191490176554)
+((sig.rel).var) - var
+
+hits: 46 (0.04404274060740684)
+(some ((var.rel).var))
+((sig.(var.rel)) = sig)
+
+hits: 45 (0.04308528972463713)
+(var->var) + (var->var)
+var.sig
+(sig.(sig.rel)).rel
+var & ((sig.rel).var)
+(var.fun_call[]).rel
+(var.rel) & var
+
+hits: 44 (0.04212783884186741)
+sig - (ordering/last[])
+(some fun_call[])
+((((var.rel).rel).var) in sig)
+fun_call[] - fun_call[]
+
+hits: 43 (0.04117038795909769)
+*(ordering/next[])
+((var->var) in (rel.(~rel)))
+
+hits: 42 (0.04021293707632798)
+#((var.rel) & var)
+var & (var.rel)
+((var.rel) = ((var.rel) - (var->var)))
+(var.rel) :> var
+
+hits: 41 (0.03925548619355827)
+(var !in fun_call[])
+(var.(var.rel)).(var.rel)
+((var.rel) != var)
+(one (var.(var.rel)))
+(var.rel)->(var.rel)
+
+hits: 40 (0.038298035310788556)
+^(var.rel)
+var.(rel + rel)
+((#(var.rel)) = 2)
+((#((var.rel).rel)) = 0)
+
+hits: 39 (0.037340584428018846)
+(var.var) - var
+var.(var.var)
+((rel.var) = sig)
+
+hits: 38 (0.03638313354524913)
+(no fun_call[])
+((var.rel) - var) + var
+(sig.(var.rel)).rel
+
+hits: 37 (0.03542568266247942)
+((var.rel) = (((var.rel) - var) + var))
+(((var.rel).var) = fun_call[])
+(some (var.(var.rel)))
+#(sig.rel)
+
+hits: 36 (0.0344682317797097)
+((#sig) = 5)
+(((var.(~rel)) & (var.(~rel))) & (var.(~rel))) & (sig.(~rel))
+
+hits: 35 (0.03351078089693999)
+((#rel) = 2)
+sig & sig
+(no (var.(var.rel)))
+
+hits: 34 (0.032553330014170274)
+((var.rel) = ((var.rel) + (var.rel)))
+((sig.rel) = (((sig + sig) + sig) + sig))
+(ordering/first[]).rel
+var & sig
+
+hits: 33 (0.031595879131400564)
+var.(time/ordering/next[])
+(((var.rel) - (var <: (var.rel))) = ((var.rel) - (var <: (var.rel))))
+(var !in var)
+((var.(var.rel)) = 0)
+
+hits: 32 (0.030638428248630847)
+(sig->sig) + (sig->sig)
+(var.var).var
+(var.rel) - (var.rel)
+#(var.(~rel))
+(var !in (var.(^rel)))
+sig - (var.rel)
+((sig.rel).var).rel
+
+hits: 31 (0.029680977365861134)
+fun_call[] & var
+*(var.rel)
+((var.rel) = (sig + sig))
+((sig.rel).var) + var
+var.(*rel)
+(var !in ((var.rel).rel))
+var - sig
+
+hits: 30 (0.02872352648309142)
+var.(^fun_call[])
+(var !in sig)
+(var.rel).fun_call[]
+((var.rel) = ((var.rel) - (var->(var.(var.rel)))))
+iden & var
+
+hits: 29 (0.027766075600321707)
+sig.var
+(((var.rel).rel).rel).var
+((sig->sig) + (sig->sig)) + (sig->sig)
+(rel.var) + var
+(var.rel).(var.(time/ordering/next[]))
+fun_call[].fun_call[]
+fun_call[].var
+(var.rel) - (var->sig)
+((var.(var.rel)) in var)
+(one var)
+(no (iden & var))
+fun_call[] :> sig
+(((sig.rel).var) = (((sig.rel).var) + var))
+
+hits: 28 (0.026808624717551993)
+((rel.var) = ((rel.var) + var))
+(var in (sig.(var.rel)))
+((var->(var->var)) in var)
+(var in (fun_call[] & (var.(~rel))))
+(fun_call[] = var)
+var.(^var)
+fun_call[] & (var.(~rel))
+
+hits: 27 (0.025851173834782276)
+(sig in var)
+var + (~var)
+var.((var.rel).rel)
+(((sig->sig) + (sig->sig)) + (sig->sig)) + (sig->sig)
+((((sig->sig) + (sig->sig)) + (sig->sig)) + (sig->sig)) + (sig->sig)
+0 + 1
+(var + var) + var
+
+hits: 26 (0.024893722952012563)
+(((((sig->sig) + (sig->sig)) + (sig->sig)) + (sig->sig)) + (sig->sig)) + (sig->sig)
+((#fun_call[]) = 0)
+((var->var) !in (var.rel))
+(var.(~rel)).rel
+sig & (fun_call[] + fun_call[])
+(var = ((sig <: var).rel))
+(((ordering/last[]).rel) = sig)
+
+hits: 25 (0.023936272069242846)
+(sig in sig)
+fun_call[] + var
+(some ((var.rel) & sig))
+(var.(ordering/next[])).rel
+(sig - fun_call[]) - (sig.rel)
+
+hits: 24 (0.022978821186473132)
+(no (var & ((sig.rel).var)))
+(sig in (var.fun_call[]))
+((var->var) in (^rel))
+(var in (var.(^var)))
+((var.rel).rel) - var
+(fun_call[] = 0)
+(((var.rel) + (var.rel)) in sig)
+(one (rel.var))
+var.(^(var.rel))
+((var.var) in var)
+*var
+
+hits: 23 (0.02202137030370342)
+(sig.(var.rel)) + var
+fun_call[].(var.rel)
+rel + (~rel)
+(var.rel) + sig
+var - var
+(one ((var.rel).var))
+((var.rel) in (sig + sig))
+((#(var.rel)) = 3)
+~(rel.var)
+((var.rel) in var)
+(sig in ((var.rel).rel))
+
+hits: 22 (0.021063919420933705)
+((var->var) in (var + (~var)))
+((var + var) in (var.rel))
+var.((var.(var.rel)).rel)
+(var !in (sig.rel))
+(((sig.rel).var) = fun_call[])
+(var != fun_call[])
+(sig in (one (sig.rel)))
+(fun_call[] in fun_call[])
+*fun_call[]
+((var.rel) = (sig.rel))
+(var in (var.(^(var.rel))))
+((var.rel) = (var + var))
+((#(var.(var.rel))) = 0)
+(no ((var.rel).(var.rel)))
+(var !in (var.(var.rel)))
+(var = (var.(var.rel)))
+
+hits: 21 (0.02010646853816399)
+var.(ordering/prev[])
+((var.rel) = ((var.rel) - (var->sig)))
+(((sig <: var).rel) = sig)
+#(rel.var)
+(some (var & ((sig.rel).var)))
+((var.rel) in ((var.rel).rel))
+var->fun_call[]
+(var.rel).(var.(var.rel))
+(some (rel.var))
+var + (var.rel)
+(((var.rel).rel) != ((var.rel).rel))
+(((sig.rel).var) = ((sig + sig) + sig))
+(rel.var) + (var->var)
+((var.var) = ((var.var) - var))
+(rel.var) - var
+
+hits: 20 (0.019149017655394278)
+(var != (var.rel))
+((var.(~rel)) & (var.(~rel))) & (sig.(~rel))
+((var.rel) = ((((var.(~rel)) & (var.(~rel))) & (sig.(~rel))) & (sig.(~rel))))
+(lone (var.var))
+sig - (sig.rel)
+fun_call[] & fun_call[]
+(sig = (var.rel))
+(var.rel).(*(var.rel))
+(lone fun_call[])
+((var.rel).var) & sig
+(one (var.var))
+(var.rel).(sig.rel)
+var.(*var)
+(((sig + sig) + sig) + sig) + sig
+(var = (pred_call[] => sig else sig))
+(((var.rel).var) = (var.rel))
+(((var.(~rel)) & (var.(~rel))) & (sig.(~rel))) & (sig.(~rel))
+((((var.rel).var).rel) = (((var.rel).var).rel))
+(sig in (sig.rel))
+
+hits: 19 (0.018191566772624564)
+sig & fun_call[]
+var->(var->sig)
+((#(var.rel)) = fun_call[])
+((#fun_call[]) = 2)
+((#fun_call[]) = 1)
+((var.(fun_call[].rel)) = sig)
+fun_call[] & sig
+((var.(sig.rel)) = (var.(sig.rel)))
+((sig.(sig.rel)) = sig)
+(var in ((var.rel).sig))
+#(sig.(var.rel))
+((var.rel) = 2)
+^(~rel)
+(fun_call[] in sig)
+((var->var) in iden)
+((#sig) = 6)
+((var.rel).var).(var.rel)
+fun_call[] - var
+(var = ((var.rel).var))
+
+hits: 18 (0.01723411588985485)
+(some (sig.rel))
+var.(~(rel.var))
+((((sig + sig) + sig) + sig) + sig) + sig
+#((var.rel) & (rel.sig))
+((sig.((sig.(sig.rel)).rel)) = sig)
+sig.((sig.(sig.rel)).rel)
+(~((var.rel).rel)).sig
+(((var.rel) - var) = ((var.rel) - var))
+(rel = (~rel))
+(fun_call[] != fun_call[])
+(((~((var.rel).rel)).sig) = sig)
+((var.rel) = ((((((sig->sig) + (sig->sig)) + (sig->sig)) + (sig->sig)) + (sig->sig)) + (sig->sig)))
+var & ((fun_call[].rel).var)
+(sig.rel) & (var.(~rel))
+(var in ((sig.rel) & (var.(~rel))))
+(fun_call[] = (var.rel))
+~((var.rel).rel)
+0.(var.rel)
+(var.rel) & (rel.sig)
+((var.rel) = 3)
+(var.(sig.rel)).rel
+var->(var.rel)
+#({ var: (one var) {
+(var in (var.(var.rel)))
+} })
+0.((var.(var.rel)).rel)
+(sig.rel).fun_call[]
+(((sig.rel).var) = (((sig.rel).var) - var))
+(((var.rel).(var.rel)) = var)
+
+hits: 17 (0.016276665007085137)
+((rel.var) = ((rel.var) + (var->var)))
+((fun_call[].rel) = var)
+(var = 0)
+(no ((var.rel) & (var.rel)))
+((sig.rel).var).var
+(some (((var.rel).var) & sig))
+(no (var.(~(var.rel))))
+(rel.var).rel
+(var.var).rel
+((var.rel) = ((var.rel) + sig))
+(var.fun_call[]).fun_call[]
+
+hits: 16 (0.015319214124315424)
+((var.(ordering/prev[])).rel).rel
+(((sig.rel).var) = var)
+(var.(ordering/prev[])).rel
+((((var.rel).var).rel) = fun_call[])
+((((var.(~rel)) & (var.(~rel))) & (var.(~rel))) & (var.(~rel))).rel
+((var.(var.rel)) != var)
+(no (((((var.(~rel)) & (var.(~rel))) & (var.(~rel))) & (var.(~rel))).rel))
+(no (sig & sig))
+(((var.(~rel)) & (var.(~rel))) & (var.(~rel))) & (var.(~rel))
+(var.rel) - ((var.rel) :> var)
+(var in (fun_call[].rel))
+((var.rel) in fun_call[])
+((var->var) !in fun_call[])
+(some (var & ((fun_call[].rel).var)))
+((sig.rel).rel).rel
+((var + var) + var) + var
+((var.rel) in ((var.rel)->(var.rel)))
+(var.var) + var
+((var.var) = var)
+((#(sig.rel)) = 1)
+var->(var->(var->var))
+((var.var) = ((var.var) + var))
+((var.((var.rel).var)) = (var.((var.rel).var)))
+(((var.rel).var) in ((var.rel).var))
+
+hits: 15 (0.01436176324154571)
+((var.rel) = ((var.rel).(sig.rel)))
+0->var
+((var->var) + (var->var)) + (var->var)
+(var.rel).(^var)
+(var.rel)->sig
+(rel + rel) + rel
+(var in ((fun_call[].rel) + (fun_call[].rel)))
+(((var.(~rel)).rel) = sig)
+((rel.rel) in rel)
+iden & rel
+^(rel.var)
+rel & (~rel)
+((#((var.rel).var)) = 1)
+(sig in (var.(*rel)))
+(some (var.var))
+(var.rel)->var
+#((var.rel) & (var.rel))
+var <: (rel.var)
+(no (rel & (~rel)))
+(no (iden & rel))
+rel - (sig->var)
+(((var.rel).var) != ((var.rel).var))
+(some (var & sig))
+(fun_call[].rel) + (fun_call[].rel)
+
+hits: 14 (0.013404312358775997)
+~fun_call[]
+(no (var.var))
+((var.rel) !in (var.rel))
+(no ((var.rel).rel))
+var + sig
+#(var & (var.rel))
+(no (fun_call[] :> sig))
+(((sig.rel).var).rel).var
+((var.var) = (var.var))
+((sig.rel).var).sig
+((sig.(sig.rel)).rel).rel
+(((var.rel).rel) = ((((var.rel).rel) - var) + var))
+((#((var.rel).var)) = 0)
+((var.(var.rel)) in (var.rel))
+(var.rel).(~rel)
+((rel.var) = ((rel.var) ++ ((var.rel)->fun_call[])))
+(((var.rel).rel).rel).rel
+((rel.var) = ((rel.var) - var))
+((var.rel) = (sig->sig))
+(((var.rel).rel) - var) + var
+(var in ((var.rel).(var.(time/ordering/next[]))))
+var->(sig->sig)
+(some ((var.rel) :> var))
+(sig - sig) - sig
+((#(var.rel)) = 5)
+((var.rel) = ((var.rel).(var.rel)))
+(var.rel) - sig
+(var.(var.rel)).var
+(((var.rel).(var.rel)) = sig)
+(var.rel)->fun_call[]
+((var->var) in (*fun_call[]))
+
+hits: 13 (0.012446861476006281)
+(var in (((sig.rel).rel).rel))
+((var->sig) in (var.rel))
+(no rel)
+var.(^(rel.var))
+(var in (var.(rel + rel)))
+(fun_call[] & var) & (var.var)
+(var.rel) <: (var.rel)
+(sig in (var.(*(rel + (~rel)))))
+(var.(sig.rel)).var
+#((fun_call[] & var) & (var.var))
+(no ((var.rel) & sig))
+((var.(var.rel)).(var.rel)).rel
+sig.((var.rel).rel)
+(sig in fun_call[])
+((rel.var) = ((rel.var) - (var <: (rel.var))))
+((var->var) in (sig.rel))
+*(rel + (~rel))
+var.(*(rel + (~rel)))
+(rel.var) - (var <: (rel.var))
+(var in (var.(^fun_call[])))
+(((var.rel).var).rel).rel
+((var->(var->var)) in rel)
+
+hits: 12 (0.011489410593236566)
+((#rel) = 3)
+#(var.(fun_call[].rel))
+(rel.rel).(~(rel.rel))
+(one ((var.rel) :> var))
+((#rel) = 7)
+(fun_call[] = (fun_call[] + var))
+var.({ var: (one ({ var: (one sig) {
+((0 <= var) && (var <= 1))
+} })),var: (one ({ var: (one sig) {
+((0 <= var) && (var <= 1))
+} })),var: (one fun_call[]) {
+
+} })
+(((sig.rel).var) != ((sig.rel).var))
+(~(var.rel)).sig
+(some (sig & sig))
+(rel.var).sig
+(((var.rel).var).(var.rel)).var
+var.(var.({ var: (one ({ var: (one sig) {
+((0 <= var) && (var <= 1))
+} })),var: (one ({ var: (one sig) {
+((0 <= var) && (var <= 1))
+} })),var: (one fun_call[]) {
+
+} }))
+(((var.rel).rel) = (((var.(ordering/prev[])).rel).rel))
+((sig.rel) = (sig + sig))
+(var = (var.var))
+((#((var.rel) & sig)) = 1)
+(var !in ((sig.rel).var))
+(((~(var.rel)).sig) = sig)
+((var & (var.rel)) = (var & (var.rel)))
+sig.fun_call[]
+((var.rel) & sig).rel
+((var.rel).var) + ((var.rel).var)
+(ordering/last[]).(ordering/prev[])
+((var.rel) = (var.((var.rel).var)))
+(^rel).var
+~(rel.rel)
+((((var.rel).rel).var) = (((var.rel).rel).var))
+(((var.rel).var) = 3)
+((var->var) in ((rel.rel).(~(rel.rel))))
+
+hits: 11 (0.010531959710466852)
+(some ((sig.rel).var))
+((var.rel) - (var->(var.(var.rel)))) + (var->sig)
+(var - sig) - var
+((var.(var.(var.rel))) = (var.(var.(var.rel))))
+((var->var) !in (^fun_call[]))
+(var.rel) + fun_call[]
+(((var.fun_call[]).rel) = fun_call[])
+((var.rel) = (var.((sig.rel).var)))
+((#fun_call[]) = 3)
+(var in (var.(^(rel.var))))
+((var.(~(var.rel))) = (var.(~(var.rel))))
+((sig.(var.rel)) = var)
+^(rel + rel)
+((fun_call[].rel) = sig)
+(one fun_call[])
+((var->var) in (((sig.rel).var).rel))
+(((var.rel).rel) in (((var.rel).rel).(*(declarations/ordering/next[]))))
+(var.rel) + (var->sig)
+(var !in ((var.rel).(var.rel)))
+(var.rel) & (rel.var)
+var.(var.((var.(var.rel)).rel))
+*(declarations/ordering/next[])
+((var.rel) = (((var.rel) - (var->(var.(var.rel)))) + (var->sig)))
+((sig.(var.rel)) = (sig.(var.rel)))
+(fun_call[] = (fun_call[] - var))
+var.(sig + sig)
+((var.rel).rel) & sig
+1->var
+var - (var.rel)
+0.var
+(sig in (var.(var.rel)))
+((var.rel) = ((var.rel).fun_call[]))
+(var in ((var.rel).(*rel)))
+(lone var)
+(((sig.(sig.rel)).rel) = sig)
+(sig.rel).(ordering/last[])
+((var.rel).rel).(*(declarations/ordering/next[]))
+
+hits: 10 (0.009574508827697139)
+(var in ((var.rel).(var.rel)))
+((sig.rel).var) - (sig->var)
+var.(((var.(var.rel)).(var.rel)).rel)
+(no (var.(sig.rel)))
+((var.(ordering/next[])).rel).rel
+(sig in (rel.var))
+(((var.rel).rel) = (((var.rel).rel) - var))
+((sig - fun_call[]) - (sig.rel)) - (sig.rel)
+((rel.var) != (rel.var))
+((var.(sig.rel)).rel).rel
+(some ((sig.rel).rel))
+((sig.(var.rel)) + var) - var
+((sig.(var.rel)) = ((sig.(var.rel)) - var))
+#((ordering/last[]).rel)
+#({ var: (one sig),var: (one sig) {
+((var in ((var.rel).rel)) && ((var.rel) >= var) && ((var.rel) <= var))
+} })
+((var.((sig.rel).var)) = ((var.rel).var))
+(var in ((var.rel) & (var.rel)))
+(some ((var.rel).rel))
+((var.rel) in ((var.rel).(*(ordering/next[]))))
+#({ var: (one sig),var: (one sig) {
+(var in ((var.rel).rel))
+} })
+((#(var.rel)) = var)
+((((sig.(sig.rel)).rel).rel) = sig)
+(var.rel).(ordering/first[])
+((var.rel) = 5)
+var.(rel.var)
+(var != ((var.rel).var))
+(var.(var.rel)) + var
+(var !in (rel.var))
+var.((ordering/first[]).rel)
+(var != sig)
+((var.rel) = (var->var))
+(var.((ordering/first[]).rel)).rel
+(fun_call[] in (var.rel))
+(var->var)->(var->var)
+(var in ((sig.(var.rel)) + var))
+(sig.(var.rel)) - var
+(var = (sig.rel))
+((#(var.rel)) = 4)
+(rel.var) + (var->fun_call[])
+((((sig.rel).var) - var) = (((sig.rel).var) - var))
+((var.fun_call[]).fun_call[]).rel
+(no (var.(~rel)))
+rel & rel
+(((var.rel).rel) = 0)
+(((var->var)->(var->var)) in var)
+(var.rel).(*(ordering/next[]))
+(((((sig + sig) + sig) + sig) + sig) + sig) + sig
+(((var.rel).var) = 0)
+((var.(var.var)) = var)
+(sig in (fun_call[].rel))
+((sig.((var.rel).rel)) = fun_call[])
+((var->var) in (^(sig.rel)))
+^(sig.rel)
+
+hits: 9 (0.008617057944927425)
+(var in (var.fun_call[]))
+(var in (((var.rel).rel).rel))
+(var + var) + sig
+((var.(var.rel)) = ((var.(var.rel)) + var))
+((var.rel).rel).(*(ordering/next[]))
+(no ((sig - var).(var.rel)))
+((sig + sig) in (var.rel))
+(((var.rel).rel) != fun_call[])
+(((((var.rel).var).rel).var) = sig)
+(var + var).rel
+(fun_call[] = (fun_call[].fun_call[]))
+((var.rel) != ((var.rel).rel))
+(var != (ordering/last[]))
+(((var.var) - var) = ((var.var) - var))
+((var.rel) in ((var.rel) one->(var.rel)))
+((var.(var.(var.rel))) = sig)
+(fun_call[] = 1)
+var & fun_call[]
+((var.(var.rel)) != sig)
+(var.(rel + rel)).rel
+(var.rel).(ordering/next[])
+((var.rel).(ordering/next[])).(*(ordering/next[]))
+(((var.rel).rel) in (((var.rel).rel).(*(ordering/next[]))))
+(var.(var.rel)) - var
+(var in ((sig.rel).rel))
+(((var.rel).rel) = ((sig + sig) + sig))
+((var.rel) = ((var.rel) + (var->sig)))
+(((var.var).var) = var)
+sig <: rel
+(var in ((var.rel) - (var.rel)))
+(var in (var.(~rel)))
+(((rel.var).var) = var)
+((var.rel) in ((var.rel).(^var)))
+((#sig) = 8)
+(lone (var.(var.rel)))
+(((var.rel).rel) = fun_call[])
+(no (var.fun_call[]))
+(var - (var.rel)) + sig
+((var.rel) + (var.rel)) - var
+(var in (sig + sig))
+*(sig <: rel)
+(sig - var).(var.rel)
+(((var->var) + (var->var)) + (var->var)) + (var->var)
+#((sig.rel).var)
+(0->var) + (1->var)
+(var.rel) + 1
+(one (fun_call[] :> sig))
+((var.rel) = ((var.rel) + 1))
+(((var.rel).rel).rel) - var
+
+hits: 8 (0.007659607062157712)
+((var + var) in (rel.var))
+(((var.rel).var) in (sig + sig))
+^(~fun_call[])
+((#((var.rel) & (var.rel))) = 0)
+((#rel) = 5)
+((var->(var->(var->var))) in var)
+((var.rel) = ((var.(var.rel)).var))
+(no ((var.rel) + (var.rel)))
+(var.var).(var.rel)
+(((((var.rel).var).rel).var) = ((((var.rel).var).rel).var))
+((sig.(var.rel)) = ((sig.(var.rel)) + (var.rel)))
+(sig = (sig.rel))
+(sig.(var.rel)) + (var.rel)
+(sig = sig)
+((var.(var.rel)) != (var.(var.rel)))
+((var->var) in (^fun_call[]))
+sig & (var.rel)
+((var.rel) = ((var.rel) ++ (var->(var->sig))))
+(((var.rel) - ((var.rel) :> var)) = ((var.rel) - ((var.rel) :> var)))
+((rel.var) = ((rel.var) ++ ((var.rel)->var)))
+((var.rel) in (fun_call[].rel))
+(var.rel) & ((var.rel).rel)
+((var + var).rel).var
+((var.rel) = (var.(var.rel)))
+((var.(~(rel.var))).rel).var
+(sig->(sig->sig)) + (sig->(sig->sig))
+(no ((sig.rel).(ordering/last[])))
+var.(^(rel + rel))
+#(rel.sig)
+(sig in (((sig.rel).var).var))
+((var.((sig.rel).var)) = var)
+(sig !in sig)
+((sig->(sig->sig)) + (sig->(sig->sig))) + (sig->(sig->sig))
+(var in (var.(*(ordering/next[]))))
+sig.((var.rel).sig)
+var.(*(ordering/next[]))
+(((var.fun_call[]).rel) in sig)
+#({ var: (one sig) {
+((var.rel) = sig)
+} })
+(no (((var + var).rel).var))
+((var.rel) + (var.rel)) + (var.rel)
+(some ((var.rel) & (var.rel)))
+(((sig.(var.rel)).rel) = var)
+((var.(sig.rel)) = sig)
+((var->var) !in var)
+(((sig.rel).var) = ((((sig.rel).var) - (sig->var)) + (sig->var)))
+(((var.rel).rel) = (((var.rel).rel) + var))
+(var - var) - sig
+(((var.rel).var) = (((var.rel).var).rel))
+(~rel).rel
+((var.rel).var).sig
+((var->var) in (var.(var.rel)))
+((var->var) !in rel)
+((var.rel).rel) + var
+((#(var.(~rel))) = 1)
+(sig.rel) & sig
+(((var.rel).rel) = (((sig + sig) + sig) + sig))
+((sig.rel) = (sig->sig))
+(((var.rel).(var.rel)) in sig)
+iden :> var
+(var.(~(rel.var))).rel
+((var.rel).var) & ((var.rel).var)
+((((var.rel).rel).var) = fun_call[])
+var->(sig->var)
+var - (var->sig)
+(some (((fun_call[].rel).var) & sig))
+(ordering/first[]).(ordering/next[])
+(((var.rel).var) != var)
+((var.var) = sig)
+((((var.rel).rel).rel) = ((((var.rel).rel).rel) - var))
+((fun_call[].rel).var) & sig
+((((var.rel).rel).rel) = (var.rel))
+(rel.var) - (rel.var)
+(one (var.(sig.rel)))
+(var.rel) - fun_call[]
+(((sig.rel).var) - (sig->var)) + (sig->var)
+((var.rel) = (((var + var) + var) + var))
+
+hits: 7 (0.006702156179387998)
+(((((((((((((((((((((((((((((sig->(sig->sig)) + (sig->(sig->sig))) + (sig->(sig->sig))) + (sig->(sig->sig))) + (sig->(sig->sig))) + (sig->(sig->sig))) + (sig->(sig->sig))) + (sig->(sig->sig))) + (sig->(sig->sig))) + (sig->(sig->sig))) + (sig->(sig->sig))) + (sig->(sig->sig))) + (sig->(sig->sig))) + (sig->(sig->sig))) + (sig->(sig->sig))) + (sig->(sig->sig))) + (sig->(sig->sig))) + (sig->(sig->sig))) + (sig->(sig->sig))) + (sig->(sig->sig))) + (sig->(sig->sig))) + (sig->(sig->sig))) + (sig->(sig->sig))) + (sig->(sig->sig))) + (sig->(sig->sig))) + (sig->(sig->sig))) + (sig->(sig->sig))) + (sig->(sig->sig))) + (sig->(sig->sig))) + (sig->(sig->sig))
+(var.rel) + (var->(var.(var.rel)))
+((var.rel) = (((var.rel) - (var->var)) + (var->var)))
+(var.var)->(var.var)
+((((((((((((((((((((((((((((((sig->(sig->sig)) + (sig->(sig->sig))) + (sig->(sig->sig))) + (sig->(sig->sig))) + (sig->(sig->sig))) + (sig->(sig->sig))) + (sig->(sig->sig))) + (sig->(sig->sig))) + (sig->(sig->sig))) + (sig->(sig->sig))) + (sig->(sig->sig))) + (sig->(sig->sig))) + (sig->(sig->sig))) + (sig->(sig->sig))) + (sig->(sig->sig))) + (sig->(sig->sig))) + (sig->(sig->sig))) + (sig->(sig->sig))) + (sig->(sig->sig))) + (sig->(sig->sig))) + (sig->(sig->sig))) + (sig->(sig->sig))) + (sig->(sig->sig))) + (sig->(sig->sig))) + (sig->(sig->sig))) + (sig->(sig->sig))) + (sig->(sig->sig))) + (sig->(sig->sig))) + (sig->(sig->sig))) + (sig->(sig->sig))) + (sig->(sig->sig))
+(((var->var) + (var->var)) in (^rel))
+(fun_call[] != (var.rel))
+(var in (sig - (sig.rel)))
+((sig + sig) !in (var.rel))
+((sig <: var).rel)->((sig <: var).rel)
+(((((((((((sig->(sig->sig)) + (sig->(sig->sig))) + (sig->(sig->sig))) + (sig->(sig->sig))) + (sig->(sig->sig))) + (sig->(sig->sig))) + (sig->(sig->sig))) + (sig->(sig->sig))) + (sig->(sig->sig))) + (sig->(sig->sig))) + (sig->(sig->sig))) + (sig->(sig->sig))
+((((((((((((((((((((((sig->(sig->sig)) + (sig->(sig->sig))) + (sig->(sig->sig))) + (sig->(sig->sig))) + (sig->(sig->sig))) + (sig->(sig->sig))) + (sig->(sig->sig))) + (sig->(sig->sig))) + (sig->(sig->sig))) + (sig->(sig->sig))) + (sig->(sig->sig))) + (sig->(sig->sig))) + (sig->(sig->sig))) + (sig->(sig->sig))) + (sig->(sig->sig))) + (sig->(sig->sig))) + (sig->(sig->sig))) + (sig->(sig->sig))) + (sig->(sig->sig))) + (sig->(sig->sig))) + (sig->(sig->sig))) + (sig->(sig->sig))) + (sig->(sig->sig))
+(fun_call[] != sig)
+#(((var.rel).rel).var)
+(((((((((((((((((((((sig->(sig->sig)) + (sig->(sig->sig))) + (sig->(sig->sig))) + (sig->(sig->sig))) + (sig->(sig->sig))) + (sig->(sig->sig))) + (sig->(sig->sig))) + (sig->(sig->sig))) + (sig->(sig->sig))) + (sig->(sig->sig))) + (sig->(sig->sig))) + (sig->(sig->sig))) + (sig->(sig->sig))) + (sig->(sig->sig))) + (sig->(sig->sig))) + (sig->(sig->sig))) + (sig->(sig->sig))) + (sig->(sig->sig))) + (sig->(sig->sig))) + (sig->(sig->sig))) + (sig->(sig->sig))) + (sig->(sig->sig))
+((((((((((((((((((((((((((((((((sig->(sig->sig)) + (sig->(sig->sig))) + (sig->(sig->sig))) + (sig->(sig->sig))) + (sig->(sig->sig))) + (sig->(sig->sig))) + (sig->(sig->sig))) + (sig->(sig->sig))) + (sig->(sig->sig))) + (sig->(sig->sig))) + (sig->(sig->sig))) + (sig->(sig->sig))) + (sig->(sig->sig))) + (sig->(sig->sig))) + (sig->(sig->sig))) + (sig->(sig->sig))) + (sig->(sig->sig))) + (sig->(sig->sig))) + (sig->(sig->sig))) + (sig->(sig->sig))) + (sig->(sig->sig))) + (sig->(sig->sig))) + (sig->(sig->sig))) + (sig->(sig->sig))) + (sig->(sig->sig))) + (sig->(sig->sig))) + (sig->(sig->sig))) + (sig->(sig->sig))) + (sig->(sig->sig))) + (sig->(sig->sig))) + (sig->(sig->sig))) + (sig->(sig->sig))) + (sig->(sig->sig))
+(^rel) + (^(~rel))
+(sig !in (var.rel))
+sig->(var->var)
+((((((((((((((((((sig->(sig->sig)) + (sig->(sig->sig))) + (sig->(sig->sig))) + (sig->(sig->sig))) + (sig->(sig->sig))) + (sig->(sig->sig))) + (sig->(sig->sig))) + (sig->(sig->sig))) + (sig->(sig->sig))) + (sig->(sig->sig))) + (sig->(sig->sig))) + (sig->(sig->sig))) + (sig->(sig->sig))) + (sig->(sig->sig))) + (sig->(sig->sig))) + (sig->(sig->sig))) + (sig->(sig->sig))) + (sig->(sig->sig))) + (sig->(sig->sig))
+(var = 1)
+((var.rel) = ((var.rel) <: (var.rel)))
+(((sig->(sig->sig)) + (sig->(sig->sig))) + (sig->(sig->sig))) + (sig->(sig->sig))
+((var.rel).var) + (var->(var.rel))
+(var in (var->var))
+((((sig->(sig->sig)) + (sig->(sig->sig))) + (sig->(sig->sig))) + (sig->(sig->sig))) + (sig->(sig->sig))
+((sig.rel) in var)
+(no (rel.sig))
+((var.rel) in (var.var))
+((var.rel).var).var
+(lone ((rel.var).var))
+((var.rel) = ((var.rel) - (var.rel)))
+(var in (((sig.rel).var).sig))
+(var = (((var - var) - sig) - (var.rel)))
+(sig.rel).sig
+var.(~var)
+(((((((sig->(sig->sig)) + (sig->(sig->sig))) + (sig->(sig->sig))) + (sig->(sig->sig))) + (sig->(sig->sig))) + (sig->(sig->sig))) + (sig->(sig->sig))) + (sig->(sig->sig))
+(var.rel)->((var.rel).(var.rel))
+((((((((((((((((((((((((((sig->(sig->sig)) + (sig->(sig->sig))) + (sig->(sig->sig))) + (sig->(sig->sig))) + (sig->(sig->sig))) + (sig->(sig->sig))) + (sig->(sig->sig))) + (sig->(sig->sig))) + (sig->(sig->sig))) + (sig->(sig->sig))) + (sig->(sig->sig))) + (sig->(sig->sig))) + (sig->(sig->sig))) + (sig->(sig->sig))) + (sig->(sig->sig))) + (sig->(sig->sig))) + (sig->(sig->sig))) + (sig->(sig->sig))) + (sig->(sig->sig))) + (sig->(sig->sig))) + (sig->(sig->sig))) + (sig->(sig->sig))) + (sig->(sig->sig))) + (sig->(sig->sig))) + (sig->(sig->sig))) + (sig->(sig->sig))) + (sig->(sig->sig))
+((((((((sig->(sig->sig)) + (sig->(sig->sig))) + (sig->(sig->sig))) + (sig->(sig->sig))) + (sig->(sig->sig))) + (sig->(sig->sig))) + (sig->(sig->sig))) + (sig->(sig->sig))) + (sig->(sig->sig))
+(var.rel) - ((var.rel)->((var.rel).(var.rel)))
+((var.((sig.rel).var)) = sig)
+(some (((var.rel).var) & ((var.rel).var)))
+((((((((((((((((((((sig->(sig->sig)) + (sig->(sig->sig))) + (sig->(sig->sig))) + (sig->(sig->sig))) + (sig->(sig->sig))) + (sig->(sig->sig))) + (sig->(sig->sig))) + (sig->(sig->sig))) + (sig->(sig->sig))) + (sig->(sig->sig))) + (sig->(sig->sig))) + (sig->(sig->sig))) + (sig->(sig->sig))) + (sig->(sig->sig))) + (sig->(sig->sig))) + (sig->(sig->sig))) + (sig->(sig->sig))) + (sig->(sig->sig))) + (sig->(sig->sig))) + (sig->(sig->sig))) + (sig->(sig->sig))
+(((((((((((((sig->(sig->sig)) + (sig->(sig->sig))) + (sig->(sig->sig))) + (sig->(sig->sig))) + (sig->(sig->sig))) + (sig->(sig->sig))) + (sig->(sig->sig))) + (sig->(sig->sig))) + (sig->(sig->sig))) + (sig->(sig->sig))) + (sig->(sig->sig))) + (sig->(sig->sig))) + (sig->(sig->sig))) + (sig->(sig->sig))
+(((((((((((((((((((sig->(sig->sig)) + (sig->(sig->sig))) + (sig->(sig->sig))) + (sig->(sig->sig))) + (sig->(sig->sig))) + (sig->(sig->sig))) + (sig->(sig->sig))) + (sig->(sig->sig))) + (sig->(sig->sig))) + (sig->(sig->sig))) + (sig->(sig->sig))) + (sig->(sig->sig))) + (sig->(sig->sig))) + (sig->(sig->sig))) + (sig->(sig->sig))) + (sig->(sig->sig))) + (sig->(sig->sig))) + (sig->(sig->sig))) + (sig->(sig->sig))) + (sig->(sig->sig))
+fun_call[]->var
+((var.rel) = (fun_call[] + fun_call[]))
+((sig.rel) = ((((((((((((((((((((((((((((((((((((sig->(sig->sig)) + (sig->(sig->sig))) + (sig->(sig->sig))) + (sig->(sig->sig))) + (sig->(sig->sig))) + (sig->(sig->sig))) + (sig->(sig->sig))) + (sig->(sig->sig))) + (sig->(sig->sig))) + (sig->(sig->sig))) + (sig->(sig->sig))) + (sig->(sig->sig))) + (sig->(sig->sig))) + (sig->(sig->sig))) + (sig->(sig->sig))) + (sig->(sig->sig))) + (sig->(sig->sig))) + (sig->(sig->sig))) + (sig->(sig->sig))) + (sig->(sig->sig))) + (sig->(sig->sig))) + (sig->(sig->sig))) + (sig->(sig->sig))) + (sig->(sig->sig))) + (sig->(sig->sig))) + (sig->(sig->sig))) + (sig->(sig->sig))) + (sig->(sig->sig))) + (sig->(sig->sig))) + (sig->(sig->sig))) + (sig->(sig->sig))) + (sig->(sig->sig))) + (sig->(sig->sig))) + (sig->(sig->sig))) + (sig->(sig->sig))) + (sig->(sig->sig))))
+((((((((((((((((((((((((((((sig->(sig->sig)) + (sig->(sig->sig))) + (sig->(sig->sig))) + (sig->(sig->sig))) + (sig->(sig->sig))) + (sig->(sig->sig))) + (sig->(sig->sig))) + (sig->(sig->sig))) + (sig->(sig->sig))) + (sig->(sig->sig))) + (sig->(sig->sig))) + (sig->(sig->sig))) + (sig->(sig->sig))) + (sig->(sig->sig))) + (sig->(sig->sig))) + (sig->(sig->sig))) + (sig->(sig->sig))) + (sig->(sig->sig))) + (sig->(sig->sig))) + (sig->(sig->sig))) + (sig->(sig->sig))) + (sig->(sig->sig))) + (sig->(sig->sig))) + (sig->(sig->sig))) + (sig->(sig->sig))) + (sig->(sig->sig))) + (sig->(sig->sig))) + (sig->(sig->sig))) + (sig->(sig->sig))
+((sig.rel) = (((((sig + sig) + sig) + sig) + sig) + sig))
+(0.(var.rel)).rel
+((var.rel) in ((sig + sig) + sig))
+(var.fun_call[]).(var.rel)
+((((var.rel).var).rel).var).rel
+(((((((((((((((((((((((((((sig->(sig->sig)) + (sig->(sig->sig))) + (sig->(sig->sig))) + (sig->(sig->sig))) + (sig->(sig->sig))) + (sig->(sig->sig))) + (sig->(sig->sig))) + (sig->(sig->sig))) + (sig->(sig->sig))) + (sig->(sig->sig))) + (sig->(sig->sig))) + (sig->(sig->sig))) + (sig->(sig->sig))) + (sig->(sig->sig))) + (sig->(sig->sig))) + (sig->(sig->sig))) + (sig->(sig->sig))) + (sig->(sig->sig))) + (sig->(sig->sig))) + (sig->(sig->sig))) + (sig->(sig->sig))) + (sig->(sig->sig))) + (sig->(sig->sig))) + (sig->(sig->sig))) + (sig->(sig->sig))) + (sig->(sig->sig))) + (sig->(sig->sig))) + (sig->(sig->sig))
+(((((((((((((((((((((((((sig->(sig->sig)) + (sig->(sig->sig))) + (sig->(sig->sig))) + (sig->(sig->sig))) + (sig->(sig->sig))) + (sig->(sig->sig))) + (sig->(sig->sig))) + (sig->(sig->sig))) + (sig->(sig->sig))) + (sig->(sig->sig))) + (sig->(sig->sig))) + (sig->(sig->sig))) + (sig->(sig->sig))) + (sig->(sig->sig))) + (sig->(sig->sig))) + (sig->(sig->sig))) + (sig->(sig->sig))) + (sig->(sig->sig))) + (sig->(sig->sig))) + (sig->(sig->sig))) + (sig->(sig->sig))) + (sig->(sig->sig))) + (sig->(sig->sig))) + (sig->(sig->sig))) + (sig->(sig->sig))) + (sig->(sig->sig))
+(fun_call[].rel).(var.(fun_call[].rel))
+((var.rel) - (var->var)) + (var->var)
+(((((((((((((((((((((((((((((((((((sig->(sig->sig)) + (sig->(sig->sig))) + (sig->(sig->sig))) + (sig->(sig->sig))) + (sig->(sig->sig))) + (sig->(sig->sig))) + (sig->(sig->sig))) + (sig->(sig->sig))) + (sig->(sig->sig))) + (sig->(sig->sig))) + (sig->(sig->sig))) + (sig->(sig->sig))) + (sig->(sig->sig))) + (sig->(sig->sig))) + (sig->(sig->sig))) + (sig->(sig->sig))) + (sig->(sig->sig))) + (sig->(sig->sig))) + (sig->(sig->sig))) + (sig->(sig->sig))) + (sig->(sig->sig))) + (sig->(sig->sig))) + (sig->(sig->sig))) + (sig->(sig->sig))) + (sig->(sig->sig))) + (sig->(sig->sig))) + (sig->(sig->sig))) + (sig->(sig->sig))) + (sig->(sig->sig))) + (sig->(sig->sig))) + (sig->(sig->sig))) + (sig->(sig->sig))) + (sig->(sig->sig))) + (sig->(sig->sig))) + (sig->(sig->sig))) + (sig->(sig->sig))
+((((((((((((((((((((((((((((((((((sig->(sig->sig)) + (sig->(sig->sig))) + (sig->(sig->sig))) + (sig->(sig->sig))) + (sig->(sig->sig))) + (sig->(sig->sig))) + (sig->(sig->sig))) + (sig->(sig->sig))) + (sig->(sig->sig))) + (sig->(sig->sig))) + (sig->(sig->sig))) + (sig->(sig->sig))) + (sig->(sig->sig))) + (sig->(sig->sig))) + (sig->(sig->sig))) + (sig->(sig->sig))) + (sig->(sig->sig))) + (sig->(sig->sig))) + (sig->(sig->sig))) + (sig->(sig->sig))) + (sig->(sig->sig))) + (sig->(sig->sig))) + (sig->(sig->sig))) + (sig->(sig->sig))) + (sig->(sig->sig))) + (sig->(sig->sig))) + (sig->(sig->sig))) + (sig->(sig->sig))) + (sig->(sig->sig))) + (sig->(sig->sig))) + (sig->(sig->sig))) + (sig->(sig->sig))) + (sig->(sig->sig))) + (sig->(sig->sig))) + (sig->(sig->sig))
+(sig - var) - var
+(var.(~rel)) & sig
+(var = ((var + var) + sig))
+2->var
+var.(*(var.rel))
+((var->var) in ((^rel) + (^(~rel))))
+(var.(^fun_call[])) & (var.(^fun_call[]))
+#({ var: (one sig),var: (one sig) {
+((var in ((var.rel).rel)) && ((var.rel) = var))
+} })
+(((var.rel).rel) = (((var.rel).rel).rel))
+(((var.rel).var) = (((var.rel).var) + (var->(var.rel))))
+(var.var) & (var.var)
+sig->(sig.rel)
+(var.rel) <: sig
+((0->var) + (1->var)) + (2->var)
+((sig->(sig.rel)) = ((var.rel).var))
+(((((((((((((((((sig->(sig->sig)) + (sig->(sig->sig))) + (sig->(sig->sig))) + (sig->(sig->sig))) + (sig->(sig->sig))) + (sig->(sig->sig))) + (sig->(sig->sig))) + (sig->(sig->sig))) + (sig->(sig->sig))) + (sig->(sig->sig))) + (sig->(sig->sig))) + (sig->(sig->sig))) + (sig->(sig->sig))) + (sig->(sig->sig))) + (sig->(sig->sig))) + (sig->(sig->sig))) + (sig->(sig->sig))) + (sig->(sig->sig))
+(((((sig->(sig->sig)) + (sig->(sig->sig))) + (sig->(sig->sig))) + (sig->(sig->sig))) + (sig->(sig->sig))) + (sig->(sig->sig))
+((var.rel) in ((sig.rel).var))
+var & (~var)
+(var = ((var.rel).(var.rel)))
+((((((((((((((((((((((((sig->(sig->sig)) + (sig->(sig->sig))) + (sig->(sig->sig))) + (sig->(sig->sig))) + (sig->(sig->sig))) + (sig->(sig->sig))) + (sig->(sig->sig))) + (sig->(sig->sig))) + (sig->(sig->sig))) + (sig->(sig->sig))) + (sig->(sig->sig))) + (sig->(sig->sig))) + (sig->(sig->sig))) + (sig->(sig->sig))) + (sig->(sig->sig))) + (sig->(sig->sig))) + (sig->(sig->sig))) + (sig->(sig->sig))) + (sig->(sig->sig))) + (sig->(sig->sig))) + (sig->(sig->sig))) + (sig->(sig->sig))) + (sig->(sig->sig))) + (sig->(sig->sig))) + (sig->(sig->sig))
+((sig.rel) = ((((((sig->sig) + (sig->sig)) + (sig->sig)) + (sig->sig)) + (sig->sig)) + (sig->sig)))
+((var - var) - sig) - (var.rel)
+(((((((((((((((((((((((((((((((sig->(sig->sig)) + (sig->(sig->sig))) + (sig->(sig->sig))) + (sig->(sig->sig))) + (sig->(sig->sig))) + (sig->(sig->sig))) + (sig->(sig->sig))) + (sig->(sig->sig))) + (sig->(sig->sig))) + (sig->(sig->sig))) + (sig->(sig->sig))) + (sig->(sig->sig))) + (sig->(sig->sig))) + (sig->(sig->sig))) + (sig->(sig->sig))) + (sig->(sig->sig))) + (sig->(sig->sig))) + (sig->(sig->sig))) + (sig->(sig->sig))) + (sig->(sig->sig))) + (sig->(sig->sig))) + (sig->(sig->sig))) + (sig->(sig->sig))) + (sig->(sig->sig))) + (sig->(sig->sig))) + (sig->(sig->sig))) + (sig->(sig->sig))) + (sig->(sig->sig))) + (sig->(sig->sig))) + (sig->(sig->sig))) + (sig->(sig->sig))) + (sig->(sig->sig))
+(((var.rel).var) = ((var.rel).(var.rel)))
+(var.rel) <: rel
+fun_call[] & (var.rel)
+(var in ((var.rel).(*(var.rel))))
+((((((((((((((((sig->(sig->sig)) + (sig->(sig->sig))) + (sig->(sig->sig))) + (sig->(sig->sig))) + (sig->(sig->sig))) + (sig->(sig->sig))) + (sig->(sig->sig))) + (sig->(sig->sig))) + (sig->(sig->sig))) + (sig->(sig->sig))) + (sig->(sig->sig))) + (sig->(sig->sig))) + (sig->(sig->sig))) + (sig->(sig->sig))) + (sig->(sig->sig))) + (sig->(sig->sig))) + (sig->(sig->sig))
+(((((((((((((((((((((((((((((((((sig->(sig->sig)) + (sig->(sig->sig))) + (sig->(sig->sig))) + (sig->(sig->sig))) + (sig->(sig->sig))) + (sig->(sig->sig))) + (sig->(sig->sig))) + (sig->(sig->sig))) + (sig->(sig->sig))) + (sig->(sig->sig))) + (sig->(sig->sig))) + (sig->(sig->sig))) + (sig->(sig->sig))) + (sig->(sig->sig))) + (sig->(sig->sig))) + (sig->(sig->sig))) + (sig->(sig->sig))) + (sig->(sig->sig))) + (sig->(sig->sig))) + (sig->(sig->sig))) + (sig->(sig->sig))) + (sig->(sig->sig))) + (sig->(sig->sig))) + (sig->(sig->sig))) + (sig->(sig->sig))) + (sig->(sig->sig))) + (sig->(sig->sig))) + (sig->(sig->sig))) + (sig->(sig->sig))) + (sig->(sig->sig))) + (sig->(sig->sig))) + (sig->(sig->sig))) + (sig->(sig->sig))) + (sig->(sig->sig))
+(((((((((((((((((((((((sig->(sig->sig)) + (sig->(sig->sig))) + (sig->(sig->sig))) + (sig->(sig->sig))) + (sig->(sig->sig))) + (sig->(sig->sig))) + (sig->(sig->sig))) + (sig->(sig->sig))) + (sig->(sig->sig))) + (sig->(sig->sig))) + (sig->(sig->sig))) + (sig->(sig->sig))) + (sig->(sig->sig))) + (sig->(sig->sig))) + (sig->(sig->sig))) + (sig->(sig->sig))) + (sig->(sig->sig))) + (sig->(sig->sig))) + (sig->(sig->sig))) + (sig->(sig->sig))) + (sig->(sig->sig))) + (sig->(sig->sig))) + (sig->(sig->sig))) + (sig->(sig->sig))
+((((((((((((sig->(sig->sig)) + (sig->(sig->sig))) + (sig->(sig->sig))) + (sig->(sig->sig))) + (sig->(sig->sig))) + (sig->(sig->sig))) + (sig->(sig->sig))) + (sig->(sig->sig))) + (sig->(sig->sig))) + (sig->(sig->sig))) + (sig->(sig->sig))) + (sig->(sig->sig))) + (sig->(sig->sig))
+((#((var.rel).rel)) = 2)
+(var.(ordering/next[])).(*(ordering/next[]))
+((#(sig.rel)) = 2)
+(((((((((((((((sig->(sig->sig)) + (sig->(sig->sig))) + (sig->(sig->sig))) + (sig->(sig->sig))) + (sig->(sig->sig))) + (sig->(sig->sig))) + (sig->(sig->sig))) + (sig->(sig->sig))) + (sig->(sig->sig))) + (sig->(sig->sig))) + (sig->(sig->sig))) + (sig->(sig->sig))) + (sig->(sig->sig))) + (sig->(sig->sig))) + (sig->(sig->sig))) + (sig->(sig->sig))
+(((((((((sig->(sig->sig)) + (sig->(sig->sig))) + (sig->(sig->sig))) + (sig->(sig->sig))) + (sig->(sig->sig))) + (sig->(sig->sig))) + (sig->(sig->sig))) + (sig->(sig->sig))) + (sig->(sig->sig))) + (sig->(sig->sig))
+(var in ((var.(ordering/next[])).(*(ordering/next[]))))
+sig->((sig + sig) + sig)
+(var !in (sig.(var.rel)))
+((((((((((((((sig->(sig->sig)) + (sig->(sig->sig))) + (sig->(sig->sig))) + (sig->(sig->sig))) + (sig->(sig->sig))) + (sig->(sig->sig))) + (sig->(sig->sig))) + (sig->(sig->sig))) + (sig->(sig->sig))) + (sig->(sig->sig))) + (sig->(sig->sig))) + (sig->(sig->sig))) + (sig->(sig->sig))) + (sig->(sig->sig))) + (sig->(sig->sig))
+((((((sig->(sig->sig)) + (sig->(sig->sig))) + (sig->(sig->sig))) + (sig->(sig->sig))) + (sig->(sig->sig))) + (sig->(sig->sig))) + (sig->(sig->sig))
+((((((((((sig->(sig->sig)) + (sig->(sig->sig))) + (sig->(sig->sig))) + (sig->(sig->sig))) + (sig->(sig->sig))) + (sig->(sig->sig))) + (sig->(sig->sig))) + (sig->(sig->sig))) + (sig->(sig->sig))) + (sig->(sig->sig))) + (sig->(sig->sig))
+((sig.(var.rel)) = fun_call[])
+sig.(rel + rel)
+
+hits: 6 (0.005744705296618283)
+((var.rel) = ((var.rel) + fun_call[]))
+((var.rel) in (var + (var.rel)))
+((var.rel) - (var->(var.(var.rel)))) + (var->var)
+(var in (var.(*rel)))
+(((((var.rel).var).rel).var) = (((((var.rel).var).rel).var).rel))
+((((var->var) + (var->var)) + (var->var)) + (var->var)) + (var->var)
+iden + (var.rel)
+(((var.rel).(var.rel)) = ((var.rel).var))
+((((var.rel).rel).var) = sig)
+(fun_call[] + fun_call[]) + fun_call[]
+(var.(var.rel))->var
+((fun_call[].(var.rel)).rel).var
+((var.rel) = ((var.rel) - (var->(sig->sig))))
+(var.(var.var)).var
+((var.rel) - ((var.rel)->((var.rel).(var.rel)))) + ((var.rel)->sig)
+(var.(var.(var.rel))).(var.rel)
+((rel.var) + (var->fun_call[])) + (fun_call[]->var)
+(sig.rel) + (sig.rel)
+(var in (((var.rel).rel).var))
+((var.rel) = (((var.rel) - (var->(var.(var.rel)))) + (var->var)))
+((var.rel) in (((var.rel).rel).rel))
+((((var.(ordering/next[])).rel).rel) = sig)
+sig - (sig + sig)
+((var.(var.({ var: (one ({ var: (one sig) {
+((0 <= var) && (var <= 1))
+} })),var: (one ({ var: (one sig) {
+((0 <= var) && (var <= 1))
+} })),var: (one fun_call[]) {
+
+} }))).({ var: (one ({ var: (one sig) {
+((0 <= var) && (var <= 1))
+} })),var: (one fun_call[]) {
+
+} })).((var.(var.({ var: (one ({ var: (one sig) {
+((0 <= var) && (var <= 1))
+} })),var: (one ({ var: (one sig) {
+((0 <= var) && (var <= 1))
+} })),var: (one (var + var)) {
+
+} }))).({ var: (one ({ var: (one sig) {
+((0 <= var) && (var <= 1))
+} })),var: (one ({ var: (one sig) {
+((0 <= var) && (var <= 1))
+} })),var: (one fun_call[]) {
+
+} }))
+(var = ((sig.(var.rel)).rel))
+((0.var) = 0)
+(no ((ordering/first[]).rel))
+(((var.rel).var) in fun_call[])
+(((var.rel).sig) = ((var.rel).sig))
+((#(fun_call[] & fun_call[])) = 0)
+((var.(var.rel)) = ((var.(var.rel)) - var))
+(sig - sig) <: (var.rel)
+((var->(var->(var->var))) in (var.rel))
+(var & sig).(*(sig <: rel))
+(var.rel).(var.((var.rel).var))
+((var.rel) + var) + var
+var.(var.({ var: (one ({ var: (one sig) {
+((0 <= var) && (var <= 1))
+} })),var: (one ({ var: (one sig) {
+((0 <= var) && (var <= 1))
+} })),var: (one (((var.(var.({ var: (one ({ var: (one sig) {
+((0 <= var) && (var <= 1))
+} })),var: (one ({ var: (one sig) {
+((0 <= var) && (var <= 1))
+} })),var: (one fun_call[]) {
+
+} }))).({ var: (one ({ var: (one sig) {
+((0 <= var) && (var <= 1))
+} })),var: (one fun_call[]) {
+
+} })).((var.(var.({ var: (one ({ var: (one sig) {
+((0 <= var) && (var <= 1))
+} })),var: (one ({ var: (one sig) {
+((0 <= var) && (var <= 1))
+} })),var: (one (var + var)) {
+
+} }))).({ var: (one ({ var: (one sig) {
+((0 <= var) && (var <= 1))
+} })),var: (one ({ var: (one sig) {
+((0 <= var) && (var <= 1))
+} })),var: (one fun_call[]) {
+
+} })))) {
+
+} }))
+(sig = var)
+(fun_call[] = 3)
+(var in ((var.(^fun_call[])) & (var.(^fun_call[]))))
+(((var.rel).(var.rel)) = ((var.rel).(var.rel)))
+(one ((sig.rel).var))
+(var.(var.rel)) & ((var.rel).sig)
+(var in (fun_call[] & fun_call[]))
+(fun_call[] = ((sig.(var.rel)).rel))
+(lone ((sig.rel).var))
+((#((var.rel) & sig)) = 0)
+sig->fun_call[]
+#(fun_call[] & fun_call[])
+var.(var.((var.rel).rel))
+(var.rel) - (var->(sig->sig))
+(var.(var.rel)).fun_call[]
+((((((sig + sig) + sig) + sig) + sig) + sig) + sig) + sig
+(rel.sig).sig
+sig - ((var.rel).var)
+((#(var.(~(var.rel)))) = 0)
+(fun_call[].(var.rel)).rel
+((var->(var.(^rel))) in rel)
+(var = ((var - sig) - var))
+(var.(var.rel)).(rel + rel)
+((var.(var.rel)) = 1)
+0->(var->sig)
+var.(var.({ var: (one ({ var: (one sig) {
+((0 <= var) && (var <= 1))
+} })),var: (one ({ var: (one sig) {
+((0 <= var) && (var <= 1))
+} })),var: (one (var + var)) {
+
+} }))
+(((var.rel).(var.(time/ordering/next[]))) = ((var.rel).var))
+(var.(var.({ var: (one ({ var: (one sig) {
+((0 <= var) && (var <= 1))
+} })),var: (one ({ var: (one sig) {
+((0 <= var) && (var <= 1))
+} })),var: (one fun_call[]) {
+
+} }))).({ var: (one ({ var: (one sig) {
+((0 <= var) && (var <= 1))
+} })),var: (one fun_call[]) {
+
+} })
+(var.(var.({ var: (one ({ var: (one sig) {
+((0 <= var) && (var <= 1))
+} })),var: (one ({ var: (one sig) {
+((0 <= var) && (var <= 1))
+} })),var: (one (var + var)) {
+
+} }))).({ var: (one ({ var: (one sig) {
+((0 <= var) && (var <= 1))
+} })),var: (one ({ var: (one sig) {
+((0 <= var) && (var <= 1))
+} })),var: (one fun_call[]) {
+
+} })
+(((sig - sig) <: (var.rel)) in (var.rel))
+((var.(fun_call[].rel)) = (var.(fun_call[].rel)))
+(lone (var.rel))
+sig.(~(var.rel))
+(((var.(ordering/next[])).rel) = sig)
+((fun_call[] + fun_call[]) + fun_call[]) + fun_call[]
+var.((sig + sig) + sig)
+(no ((var.(var.rel)).(rel + rel)))
+(rel.var).(rel.var)
+(lone ((var.rel).var))
+#({ var: (one ((var.rel).var)) {
+(((var.(var.rel)) = sig) && ((var.(var.rel)) = sig))
+} })
+var->(var.(^rel))
+((var.rel) = (((var.rel) - ((var.rel)->((var.rel).(var.rel)))) + ((var.rel)->sig)))
+(var in (var.(*var)))
+#(var.(~(var.rel)))
+var.({ var: (one ({ var: (one sig) {
+((0 <= var) && (var <= 1))
+} })),var: (one ({ var: (one sig) {
+((0 <= var) && (var <= 1))
+} })),var: (one (((var.(var.({ var: (one ({ var: (one sig) {
+((0 <= var) && (var <= 1))
+} })),var: (one ({ var: (one sig) {
+((0 <= var) && (var <= 1))
+} })),var: (one fun_call[]) {
+
+} }))).({ var: (one ({ var: (one sig) {
+((0 <= var) && (var <= 1))
+} })),var: (one fun_call[]) {
+
+} })).((var.(var.({ var: (one ({ var: (one sig) {
+((0 <= var) && (var <= 1))
+} })),var: (one ({ var: (one sig) {
+((0 <= var) && (var <= 1))
+} })),var: (one (var + var)) {
+
+} }))).({ var: (one ({ var: (one sig) {
+((0 <= var) && (var <= 1))
+} })),var: (one ({ var: (one sig) {
+((0 <= var) && (var <= 1))
+} })),var: (one fun_call[]) {
+
+} })))) {
+
+} })
+((var.rel) - var) + (var.rel)
+(var in (var.(var.(var.rel))))
+(var.rel).(KeyDistribution/Auth/ordering/first[])
+((var.rel).var) + (var.(var.rel))
+((#var) = fun_call[])
+var.({ var: (one ({ var: (one sig) {
+((0 <= var) && (var <= 1))
+} })),var: (one ({ var: (one sig) {
+((0 <= var) && (var <= 1))
+} })),var: (one (var + var)) {
+
+} })
+((var.rel) != fun_call[])
+((var.rel) = ((var.rel).(var.(var.rel))))
+((var.rel) = ((var.rel) + (var->(var.(var.rel)))))
+(var != (var.(var.rel)))
+((rel.var) = (((rel.var) + (var->fun_call[])) + (fun_call[]->var)))
+((#var) = (#var))
+((var.rel) = (sig & (var.rel)))
+(var.rel).(^(var.rel))
+var & ((var.rel).var)
+((var.(var.rel)) = (var.rel))
+((#((fun_call[] & var) & (var.var))) = 0)
+#({ var: (one ((fun_call[].rel).var)) {
+(((var.(fun_call[].rel)) = sig) && ((var.(fun_call[].rel)) = sig))
+} })
+
+hits: 5 (0.0047872544138485695)
+(var !in ((var.rel).sig))
+#((var.rel) + (var.rel))
+((var.rel) in (sig - sig))
+(var.rel).(~(var.rel))
+(var = (var.(ordering/next[])))
+((fun_call[].rel) != ((var.rel).rel))
+((var.rel) = ((var.(~rel)).rel))
+sig - ((^rel).var)
+(var.(ordering/next[])).(ordering/next[])
+(no ((sig.rel).rel))
+((#var) = 3)
+((rel.var).var).sig
+#({ var: (one sig),var: (one sig) {
+((var in ((var.rel).rel)) && ((var.rel) >= var) && ((var.rel) <= var) && ((var.rel) >= var) && ((var.rel) <= var))
+} })
+(lone (var.(~(rel + rel))))
+#({ var: (one sig),var: (one sig) {
+(((var in ((var.rel).rel)) && ((var.rel) >= var) && ((var.rel) <= var) && ((var.rel) >= var) && ((var.rel) <= var) && ((var.rel) = var)) || ((var.rel) = var))
+} })
+((var - (var.rel)) + sig) + var
+((var.((sig.rel).var)) = (var.((sig.rel).var)))
+(fun_call[].fun_call[]) & fun_call[]
+(some (var & ((var.rel).var)))
+*(~rel)
+(((ordering/last[]).rel) = 1)
+((var.rel) = ((var->var) + (var->var)))
+((var.(sig.rel)) != (var.(sig.rel)))
+((((var.rel).var).rel) = var)
+(((var.rel) & sig).rel).rel
+(var in (((var.rel).var).rel))
+((var.rel) = (~(var.rel)))
+((var.rel) = ((var.rel) ++ (var->(var->var))))
+(((sig.rel).var) != sig)
+((var.rel) in (((var.rel).(ordering/next[])).(*(ordering/next[]))))
+((var.rel).rel) & (var.rel)
+((sig.rel) in sig)
+((rel.var) = ((rel.var) ++ (var->fun_call[])))
+((var.rel) = ((var.rel).var))
+#(((var.rel) + (var.rel)) + (var.rel))
+((var.rel) = ((var.(var.rel)).rel))
+(((var.rel).var) != sig)
+*(rel.var)
+#({ var: (one sig),var: (one sig) {
+(((var in ((var.rel).rel)) && ((var.rel) = var)) || ((var in ((var.rel).rel)) && ((var.rel) = var)))
+} })
+(var !in (var.(^(rel + rel))))
+(((var.rel).rel) in ((var.rel).rel))
+(var.rel).(var.fun_call[])
+(var.(fun_call[].rel)).(fun_call[].rel)
+((sig.rel).var) + ((sig.rel).var)
+var.(~(rel + rel))
+var - (sig + sig)
+((var.var) = fun_call[])
+((((var.rel) & sig).rel).rel) & var
+((var.rel).rel)->sig
+var & var
+(((var.(var.rel)).rel) = (((var.(var.rel)).rel) ++ (var->var)))
+((var.(var.rel)) in fun_call[])
+sig.((var.rel).var)
+((var.rel).rel) - ((var.rel).rel)
+(~var).var
+((fun_call[].rel) = (fun_call[].rel))
+iden & (^var)
+var.(rel & rel)
+((#(var.rel)) = (#(var.rel)))
+((var.fun_call[]) != -1)
+((var->(var.(var.rel))) = (var->sig))
+(var = ((var + sig) + var))
+(var = ((var - sig) - (var.rel)))
+(((((((sig + sig) + sig) + sig) + sig) + sig) + sig) + sig) + sig
+(var = (var + sig))
+((var.rel) = -1)
+~(rel + rel)
+((#(var.rel)) != (#(var.rel)))
+((((var.fun_call[]).fun_call[]).rel) in sig)
+((#sig) = (#sig))
+(var !in (((var.rel).rel).var))
+var.(var.fun_call[])
+((((sig <: var).rel)->((sig <: var).rel)) in (var.rel))
+(((sig.rel).var) in sig)
+((var.rel) = ((var.rel) & (var.rel)))
+var & (sig + sig)
+((sig->var) in (var.rel))
+((((((((sig + sig) + sig) + sig) + sig) + sig) + sig) + sig) + sig) + sig
+(((((((((sig + sig) + sig) + sig) + sig) + sig) + sig) + sig) + sig) + sig) + sig
+(lone (var.(~rel)))
+((ordering/first[]).(ordering/next[])).rel
+((var.rel) != ((var.rel).(sig.rel)))
+#(((((var.rel) & sig).rel).rel) & var)
+var.(*(rel.var))
+(((sig.rel).var) = (((sig + sig) + sig) + sig))
+(rel.var) & (rel.var)
+1->(var->sig)
+rel.(var.fun_call[])
+((var.var) in sig)
+((var.rel) = ((var.rel) - fun_call[]))
+*(rel + rel)
+(((var.rel).rel) in (var.rel))
+((#sig) = 7)
+(((var.fun_call[]).rel) = (var.rel))
+((var.rel) <: sig).rel
+sig.(*rel)
+(no (iden & (^var)))
+(no ((fun_call[].fun_call[]) & fun_call[]))
+(var + sig) + var
+((var.var) = ((var.var) ++ (var->var)))
+(var.(var.rel)) & (var.rel)
+((var.var) != (var.var))
+(((var.(ordering/next[])).rel) = fun_call[])
+((rel.var) = var)
+(var - sig) - (var.rel)
+(((var.rel).rel) != sig)
+(lone (var.(~(rel.var))))
+var.(*fun_call[])
+var <: ((sig.rel).var)
+(#((var.rel).var)) + (#((var.rel).var))
+(var = (((var - (var.rel)) + sig) + var))
+(var = (var + var))
+((var->(var->var)) in (var.rel))
+((var.rel).(~rel)) - var
+((var.(var.rel)) = (var.fun_call[]))
+
+hits: 4 (0.003829803531078856)
+((var.fun_call[]).fun_call[]).fun_call[]
+(var.rel).(KeyDistribution/Auth/ordering/next[])
+(((var.rel).rel) = (((var.rel).rel) - 1))
+sig.(^var)
+(var.rel).(^rel)
+iden + (^rel)
+((((ordering/first[]).(ordering/next[])).rel) = sig)
+(var in (var + (var.rel)))
+((var.rel) - ({ var: (one sig),var: (one sig) {
+pred_call[]
+} })) + ({ var: (one sig),var: (one sig) {
+pred_call[]
+} })
+(((var.(var.rel)).rel) != var)
+((var.rel) = ((var.rel) - sig))
+(some (fun_call[] & var))
+(iden + (^rel)) + (^(~rel))
+((#sig) = 100)
+((var.rel) = ((var + var) + var))
+((((var.rel).rel).rel).var) + var
+var & (((var.(~(rel.var))).rel).var)
+(((((var.rel).rel).rel).rel) = sig)
+rel & iden
+((var.fun_call[]).rel).rel
+2->(var->sig)
+((var.var).rel).rel
+((rel.var) = ((rel.var) + (var->(var->var))))
+(var.rel) + (var->(var.rel))
+(((var.(~rel)) & (var.(~rel))) & ((sig + sig).(~rel))) & (sig.(~rel))
+((var.rel) = ((var.(sig.rel)).var))
+var <: ((^rel) :> var)
+(var.(var.(var.rel))).(var.(var.rel))
+(sig.(var.rel)).var
+((var.(~var)) in iden)
+((var->var) in (^(~fun_call[])))
+(no (fun_call[] & (var.rel)))
+fun_call[].sig
+(sig in (sig + sig))
+((var->var) !in (^(var.rel)))
+((var.var) = ((var.var) + (var - fun_call[])))
+((var.((var.rel).rel)) != fun_call[])
+(var.(~(var.rel))) - var
+(sig->sig).var
+((var->var) in ((~rel).rel))
+*(~(var.rel))
+(^rel) :> var
+(var.var) - (sig->var)
+((var.rel) - var).rel
+(((var.rel).rel).var) + var
+((fun_call[].rel).var) - var
+((var.rel).rel).(var.(time/ordering/next[]))
+var & (((sig - fun_call[]).rel).var)
+(var.(var.(var.rel))).rel
+var.({ var: (one (0 + 1)),var: (one (0 + 1)),var: (one fun_call[]) {
+
+} })
+(no (fun_call[] & fun_call[]))
+(rel.var) + (var->(var->var))
+((var.rel) = (((var.rel) - ({ var: (one sig),var: (one sig) {
+pred_call[]
+} })) + ({ var: (one sig),var: (one sig) {
+pred_call[]
+} })))
+(var.(sig.rel)) & (var.(sig.rel))
+(var = 5)
+(var = (((var.rel).var).var))
+((fun_call[].var) = fun_call[])
+(var = ((var - (var.rel)) + sig))
+(var = (((var - sig) - var) - (var.rel)))
+(ordering/last[]) + ((ordering/last[]).(ordering/prev[]))
+(some ((var.(sig.rel)) & (var.(sig.rel))))
+(no ((sig + sig) & (var.(var.rel))))
+((var.rel) = (((var.rel) + var) + sig))
+#({ var: (one ((fun_call[].rel).var)) {
+((var.(fun_call[].rel)) = sig)
+} })
+(var.(var.rel)) + sig
+((var.rel) & (rel.var)).rel
+((#(var.(fun_call[].rel))) = 0)
+((rel.var) = ((rel.var) ++ ((var.rel)->((var.rel).var))))
+0.(sig.rel)
+(var in ((var.rel).(^(var.rel))))
+(var.var) + (var->var)
+(var in ((var + (var.rel)) + ((var.rel).rel)))
+(((var.(var.rel)).rel).rel) & sig
+((var.var) = ((var.var) + (var->var)))
+((#((ordering/last[]).rel)) = 5)
+(var.rel)->((var.rel).var)
+#(((var.fun_call[]).rel).rel)
+(sig = (sig + sig))
+rel & (rel.(~rel))
+((var.rel) = ((var.rel) + (var->(var.rel))))
+var.((rel + rel) + rel)
+((sig.rel) = var)
+((rel.var) = ((rel.var) ++ ((var.rel)->0)))
+((var.((var.rel).rel)) = ((var.((var.rel).rel)).fun_call[]))
+var & (var.sig)
+var.(var.((var.rel).var))
+(var.(var.rel)).((var.rel).rel)
+fun_call[] & (((var.rel) - var).rel)
+(var in ((ordering/last[]).((rel + rel) + rel)))
+sig & ((fun_call[].rel).var)
+1.(sig.rel)
+(fun_call[] = 2)
+(one (sig.fun_call[]))
+var->1
+(var.rel).(*(rel + rel))
+((var - sig) - var) - (var.rel)
+((sig.var).rel).sig
+(var = (var.(var.({ var: (one ({ var: (one sig) {
+((0 <= var) && (var <= 1))
+} })),var: (one ({ var: (one sig) {
+((0 <= var) && (var <= 1))
+} })),var: (one (((var.(var.({ var: (one ({ var: (one sig) {
+((0 <= var) && (var <= 1))
+} })),var: (one ({ var: (one sig) {
+((0 <= var) && (var <= 1))
+} })),var: (one fun_call[]) {
+
+} }))).({ var: (one ({ var: (one sig) {
+((0 <= var) && (var <= 1))
+} })),var: (one fun_call[]) {
+
+} })).((var.(var.({ var: (one ({ var: (one sig) {
+((0 <= var) && (var <= 1))
+} })),var: (one ({ var: (one sig) {
+((0 <= var) && (var <= 1))
+} })),var: (one (var + var)) {
+
+} }))).({ var: (one ({ var: (one sig) {
+((0 <= var) && (var <= 1))
+} })),var: (one ({ var: (one sig) {
+((0 <= var) && (var <= 1))
+} })),var: (one fun_call[]) {
+
+} })))) {
+
+} }))))
+(var.rel) - ((var.rel)->(var.rel))
+(((var.rel).var) in var)
+((#(sig - (sig.rel))) = var)
+((#((var.rel) & sig)) = 2)
+((var.(var.rel)) = ((var.(var.rel)).fun_call[]))
+(((var.rel).var) = (((var.rel).var) + ((var.rel).var)))
+((var.rel) = (sig - (var.rel)))
+((var.rel).rel) - 1
+(var + (((var.(var.rel)) = var) => (var->var) else (var->(var.(var.rel))))) - (var->var)
+(sig - var).rel
+(var.(^rel)).var
+(((var.(var.rel)).rel) = sig)
+(((var.fun_call[]).fun_call[]).fun_call[]).rel
+(var in (((sig.var).rel).sig))
+var.((var.(var.(var.rel))).(var.rel))
+((var.sig) = sig)
+((#(((var.fun_call[]).rel).rel)) = 0)
+(var in (((var.(sig.rel)).rel).rel))
+((var.rel) = (((var.rel) + sig) + var))
+(^var) + (^(~var))
+(((ordering/first[]).rel) = sig)
+1.(var.rel)
+(var in ((var.fun_call[]).rel))
+(((var.(sig.rel)).var) = ((var.(sig.rel)).var))
+((var->var) in (^var))
+((var.rel) + sig) + var
+(var !in (fun_call[].rel))
+((var.rel) = (((var.rel) - var) + (var.rel)))
+(sig in (rel.sig))
+(var.rel) - ({ var: (one sig),var: (one sig) {
+pred_call[]
+} })
+(((var.rel).(var.((var.rel).var))) = sig)
+var - fun_call[]
+((var.(~rel)) & (var.(~rel))) & ((sig + sig).(~rel))
+(var.rel) + (((var.(var.rel)) = var) => (var->var) else (var->(var.(var.rel))))
+#({ var: (one ((var.rel).var)) {
+((var.(var.rel)) = sig)
+} })
+(var.((ordering/last[]).rel)).rel
+((var.(var.rel)) = ((var.(var.rel)) + sig))
+(var.((var.rel).rel)).fun_call[]
+(sig + sig).(~rel)
+(((var.var)->(var.var)) in rel)
+(some (((sig.rel).var) & fun_call[]))
+(sig.(rel + rel)).(var.rel)
+(no (sig.rel))
+((var.rel) in (sig.(sig.rel)))
+(no (var.(var.var)))
+(((var.rel) & ((var.rel).rel)) = sig)
+(var.(var.var)).(var.var)
+sig.(var.sig)
+(((sig.rel).var) = 0)
+((var.var) = ((var.var) - (sig->var)))
+((var.rel) = (((0->var) + (1->var)) + (2->var)))
+((var.rel) = ((var.rel) - ((var.rel)->(var.rel))))
+(var = (var - sig))
+(some (fun_call[] & sig))
+((var->var) in ((iden + (^rel)) + (^(~rel))))
+var.((ordering/last[]).rel)
+((var.rel) = (((var.rel) + var) + var))
+var <: var
+((var.rel) = (var - (var->sig)))
+((var.rel) = ((var.rel) ++ (var->sig)))
+((rel.var) in (rel.(var.fun_call[])))
+((var.rel) = ((((var.(~rel)) & (var.(~rel))) & (((sig + sig) + sig).(~rel))) & (sig.(~rel))))
+(((var.rel).rel) in (sig - sig))
+((#(var.(fun_call[].rel))) != 0)
+(((var.(var.rel)).var) = sig)
+((var.(var.rel)) !in (var.rel))
+sig - ((sig.rel).var)
+((sig + sig) + sig).(~rel)
+(var in (var.sig))
+(var.rel).((var.rel).(KeyDistribution/Auth/ordering/first[]))
+(var in ((rel.var).var))
+#(sig - (sig.rel))
+(var = (var.fun_call[]))
+sig - ((ordering/last[]) + ((ordering/last[]).(ordering/prev[])))
+(sig = (var + var))
+(var.var) + (var - fun_call[])
+(var + sig) + sig
+(fun_call[] = 50)
+((#(var.(~rel))) = 0)
+(var in ((var.(var.rel)).(var.rel)))
+(some ((var.var) & (var.var)))
+(fun_call[] in var)
+((var.rel) = ((((var.(~rel)) & (var.(~rel))) & ((sig + sig).(~rel))) & (sig.(~rel))))
+((sig.rel).var) - sig
+((var.rel) - var) - sig
+((var.(~rel)) & (var.(~rel))) & (((sig + sig) + sig).(~rel))
+(sig + sig) & (var.(var.rel))
+(var in (sig.((var.rel).sig)))
+((var.(var.rel)) in (var.(var.rel)))
+(((var.rel) - var) = (var.rel))
+(var = (^var))
+var + (((var.(var.rel)) = var) => (var->var) else (var->(var.(var.rel))))
+(some (((sig.rel).var) & var))
+(((var.rel) & sig) = sig)
+((var.rel) = ((var.rel) ++ ((var.rel)->sig)))
+#((sig.rel).rel)
+((var.rel).rel) + 1
+rel - rel
+(sig - fun_call[]).rel
+(((((var.rel).rel).rel).var) = ((((var.rel).rel).rel).var))
+sig & var
+((var.rel) = (fun_call[].rel))
+(some ((sig.rel) & sig))
+((rel.var) = ((rel.var) + (var->fun_call[])))
+(((var.rel).rel) = (sig.rel))
+((var.(~(var.rel))) = ((var.(~(var.rel))) - var))
+(((var->var) + (var->var)) in var)
+(((var.(~rel)) & (var.(~rel))) & (((sig + sig) + sig).(~rel))) & (sig.(~rel))
+var.((var.rel).(var.rel))
+(((var.rel).rel) = (((var.rel).rel) + 1))
+((var->var) in (rel + (~rel)))
+(ordering/last[]).((rel + rel) + rel)
+(no (fun_call[] & sig))
+((var.(ordering/next[])).(ordering/next[])).rel
+(var = ((var.rel).rel))
+(var in (((var.fun_call[]).fun_call[]).rel))
+((sig - fun_call[]).rel).var
+((rel.sig).sig).sig
+(no (rel & iden))
+((rel.var).rel).var
+(var = ((var + sig) + sig))
+(var.rel)->0
+(sig.var).rel
+((var.rel) = ((((var.(~rel)) & (var.(~rel))) & (var.(~rel))) & (sig.(~rel))))
+((sig.rel).var) & var
+((#((var.rel).rel)) = 1)
+((#(sig.rel)) = 3)
+(sig !in fun_call[])
+(((var.rel).rel) = 1)
+((var.rel) + (((var.(var.rel)) = var) => (var->var) else (var->(var.(var.rel))))) - (var->var)
+(no (var & sig))
+#(fun_call[] :> sig)
+(((rel.var).(rel.var)) = var)
+(((var.rel).rel).var).rel
+rel & (sig->sig)
+((sig.rel).var).((var.rel).var)
+((#(rel.var)) = 1)
+var.(var.({ var: (one (0 + 1)),var: (one (0 + 1)),var: (one fun_call[]) {
+
+} }))
+(((var.rel).rel).rel) + (((var.rel).rel).rel)
+(some ((var.var).var))
+(var.rel) + (sig->(var->var))
+((var.rel) + var) + sig
+(((var.rel).rel) = (sig + sig))
+#(var.var)
+((0.(var.rel)) = 0)
+(rel.sig) & ({ var: (one sig) {
+((no fun_call[]) || pred_call[])
+} })
+((sig.rel).var) & fun_call[]
+(rel.var) & (fun_call[].var)
+((fun_call[].rel) = ((var.rel).rel))
+(rel = rel)
+(var.(var.rel)).((var.(var.rel)).((var.rel).rel))
+((var.(~(var.rel))) = var)
+#((var.(var.rel)) & ((var.rel).sig))
+((((((((((sig + sig) + sig) + sig) + sig) + sig) + sig) + sig) + sig) + sig) + sig) + sig
+^(~var)
+(var + (var.rel)) + ((var.rel).rel)
+(var in (((var.rel).(ordering/next[])).(*(ordering/next[]))))
+(var !in ((((var.rel).rel).rel).var))
+((var.(var.rel)).rel).rel
+((var + var) in (var.(*(rel.var))))
+(var.rel) + ((var.rel).rel)
+((var.(var.((var.rel).var))) = sig)
+((#((sig.rel).rel)) = 1)
+((((var.rel).var).rel).rel).rel
+(sig.rel).(*rel)
+((var.rel) = (((var.rel).var).rel))
+(var.(var.((var.rel).rel))).(var.rel)
+(some (var & (((var.(~(rel.var))).rel).var)))
+(var in (((var.rel) & sig).rel))
+(var in (sig.var))
+((var.rel) = ((sig <: var).rel))
+(some (sig.(var.rel)))
+
+hits: 3 (0.0028723526483091415)
+((rel.var) = (rel.(((sig.rel).var).((sig.rel).var))))
+((#rel) = 4)
+((var.fun_call[]) = var)
+(((var.rel) - (var.rel)) = var)
+var->((var.rel).var)
+((var.rel) in ((var.(rel + rel)) & (pred_call[] => (var.rel) else (var.rel))))
+((var.rel) + var) + (var.rel)
+(((var->var) + (var->var)) in fun_call[])
+(var.(var.rel)).(var.(var.rel))
+(sig = ((var + var) + var))
+((var.rel).var) - (var->(var->sig))
+(((sig.rel)->(var.rel)) in (var.rel))
+(((var->var) + (var->var)) in (^var))
+(((sig.rel).var) = (0->var))
+((var.rel).(*rel)) & ((var.rel).(*rel))
+rel - (((var.rel).rel)->sig)
+rel.(((sig.rel).var).((sig.rel).var))
+((var.(sig.rel)).rel) + var
+var->((var.rel)->var)
+((sig.rel).var) + 1
+(sig - (ordering/last[])) - ((ordering/last[]).(ordering/prev[]))
+(var.rel) + ((var.rel)->(var.rel))
+(var.(sig + sig)) & sig
+((rel.var).rel) & var
+(some ((var.rel) & (rel.var)))
+rel - iden
+var.(*(~rel))
+(^(~rel)).rel
+(var.rel).((var.rel).var)
+(0.((var.(var.rel)).rel))->sig
+(no (var & fun_call[]))
+(((^rel).rel) + ((^(~rel)).rel)) + ((~rel).(^rel))
+(sig - ((var.rel).var)).(var.rel)
+((#var) = 1)
+((ordering/last[]).rel).rel
+(((sig.rel).var) != ((var.rel).var))
+((sig.(sig.rel)) = ((sig + sig) + sig))
+((sig - ((var.rel).var)).(var.rel)).var
+(var.rel).(date/ordering/next[])
+#((var.rel) <: rel)
+(~rel).(^(~rel))
+(rel.var)->sig
+(PRIM/ordering/last[]).rel
+var <: rel
+((var.rel) = ((var.rel) ++ (var->(sig->var))))
+(var !in (((sig.rel).var) + ((sig.rel).var)))
+((var.rel) = ((var.rel) - (var->(var->sig))))
+(var in (((sig + sig) - (rel.sig)) - (sig.fun_call[])))
+((var.(~rel)) != sig)
+(((((var.rel).var).(var.rel)).var) = ((((var.rel).var).(var.rel)).var))
+(((ordering/last[]).rel) = 5)
+sig - (var.(var.rel))
+rel - (sig->((var.rel).rel))
+2.var
+((var.rel) = (((var.rel) - (var->sig)) - (sig->var)))
+sig.(fun_call[].rel)
+((sig.rel).rel).var
+(some (var.(~rel)))
+(((sig.rel).rel).rel).rel
+(sig + sig) - (rel.sig)
+((((var.rel).rel).rel) = var)
+(var.rel) + (var->(var->var))
+0.(var.((0.(var.rel)).rel))
+(((var.rel).sig) = (fun_call[]->fun_call[]))
+(var.(~(var.rel))).(*(~(var.rel)))
+(no (var & (~var)))
+(var.rel).((sig.rel).var)
+#(fun_call[].rel)
+((((ordering/first[]).rel).rel) in ((var.rel).rel))
+(((var.rel).rel) = (((var.rel).rel).(declarations/ordering/next[])))
+((fun_call[].rel) = (var.((var.rel).fun_call[])))
+((var.rel) - (var->sig)) - (sig->var)
+(rel = ((var->var) + (var->var)))
+#((sig - sig) - sig)
+(((var.rel).var) = (sig.rel))
+(var != 0)
+(((var.(sig.rel)).rel) = (((var.(sig.rel)).rel) + var))
+(rel.var) & sig
+(var in (sig.(sig.rel)))
+(fun_call[] !in ((var.rel).rel))
+((#((var.rel) & (rel.sig))) = 0)
+((#({ var: (one (var.rel)) {
+(var in sig)
+} })) = 1)
+((rel.var) in ((rel.var)->sig))
+(var.rel) - (var->(var->sig))
+((^rel).rel) + ((^(~rel)).rel)
+(var in ((var.rel).(^var)))
+(rel.var) - ({ var: (one sig) {
+(no (var.rel))
+} })
+(((var.rel).fun_call[]) = fun_call[])
+((sig.rel) = ((sig + sig) + sig))
+(var in (var + ((var.rel).(*(sig <: rel)))))
+var.((var.(var.rel)).(var.rel))
+(((var.rel) & var) != sig)
+((((var.(rel + rel)).rel) & sig) in (var.rel))
+((var->var) in ((^var) + (^(~var))))
+sig.((var.rel).(ordering/first[]))
+((var.rel) = ((var.rel).(KeyDistribution/Auth/ordering/next[])))
+(no (sig & fun_call[]))
+(fun_call[] in (sig - (var.rel)))
+var & (var->var)
+(some (((var.rel).rel) & sig))
+(^rel).rel
+sig.(sig.(var.rel))
+((var->var) in ((var.rel).rel))
+((sig.rel) & sig).rel
+((#((var.rel) & sig)) = 3)
+((sig.(var.rel)) = ((sig.(var.rel)) + var))
+(((sig.rel).var) = (((sig.rel).var) - (var <: ((sig.rel).var))))
+(var !in (fun_call[] + fun_call[]))
+(no (((var.rel).(*rel)) & ((var.rel).(*rel))))
+#({ var: (one (var.rel)) {
+(var in sig)
+} })
+rel.fun_call[]
+(((((var.rel).rel).rel).var) = (((((var.rel).rel).rel).var) + var))
+#(var & sig)
+(((var.rel).rel) & (var.rel)).rel
+((((^rel).rel) + ((^(~rel)).rel)) + ((~rel).(^rel))) + ((~rel).(^(~rel)))
+^(fun_call[] + fun_call[])
+(some (var.fun_call[]))
+1.var
+(((var.rel).rel) != (var.rel))
+(sig - (sig.rel)) & (rel.var)
+(((var.rel).rel).var).(var.rel)
+((#(sig.(var.rel))) = 0)
+((var.rel).sig).sig
+(iden !in var)
+sig.(rel.var)
+((var.rel) = ((var.rel) + ((var.rel)->(var.rel))))
+((var.rel) - (var->(var.(var.rel)))) + var
+3->(var->var)
+((((((var->var) + (var->var)) + (var->var)) + (var->var)) + (var->var)) in (^rel))
+((var.(var.rel)) in (sig + sig))
+((var.rel) = ((var.rel) + (var->1)))
+fun_call[]->fun_call[]
+3->(var->sig)
+(((var.var).var) = ((var.var).var))
+((var.rel) = ((var.rel) & ((var.(~(var.rel))).(*(~(var.rel))))))
+5.var
+((var.rel).rel) - (rel.sig)
+(var.rel) + (var->(sig->sig))
+(var.rel) & ((var.(~(var.rel))).(*(~(var.rel))))
+((var.rel) in (rel.var))
+((((((((((((sig + sig) + sig) + sig) + sig) + sig) + sig) + sig) + sig) + sig) + sig) + sig) + sig) + sig
+(sig - var) <: (var.rel)
+(var in (((var.rel).var).(var.rel)))
+(var in (var.(rel & rel)))
+((((var.rel).rel).var) = ((var.rel).var))
+(no (((var.rel).var) & sig))
+(var.rel) - (rel.var)
+(((var.(var.rel)).rel) = ((var.(var.rel)).rel))
+((var.(var.rel)).rel)->sig
+(lone ((var.rel) - (var.rel)))
+((var.(sig.rel)) = var)
+((var.rel) in ((var.rel) & (var.rel)))
+((var + var) in sig)
+(rel & rel) & rel
+((var.rel) = (((var.rel) + var) + (var.rel)))
+fun_call[].(((fun_call[].(var.rel)).rel).var)
+(rel.var) - (var->sig)
+(some ((var.rel).sig))
+(sig = (((sig + sig) + sig) + sig))
+(sig in (sig.var))
+sig.((ordering/last[]).rel)
+((var.rel) = ((var.rel) - (sig->var)))
+#({ var: (one sig) {
+(var in (var.rel))
+} })
+((#var) = (#sig))
+((var.rel) in ((var.rel).(^rel)))
+(var in (((var.rel) + (var.rel)) + ((var.rel).rel)))
+(((var.rel).rel) in ((var.rel).(^var)))
+(var = (0 + 1))
+(sig in (var.sig))
+((#(var & sig)) = 1)
+(var.rel) + (~(var.rel))
+(((((((((((sig + sig) + sig) + sig) + sig) + sig) + sig) + sig) + sig) + sig) + sig) + sig) + sig
+(var in ((var - (sig + sig))->lone sig))
+((rel.var) = fun_call[])
+var.((0.(var.rel)).rel)
+sig & (var.(^rel))
+((var.(~rel)) in sig)
+((#(rel.var)) = 2)
+((var.rel).rel) & ((var.rel).rel)
+(one ((var.rel) & (rel.var)))
+sig->((var.rel).rel)
+(no ((rel.var).var))
+(no (var & (((sig - fun_call[]).rel).var)))
+(var in ((((sig.rel).rel).rel).rel))
+(((var.rel) & (var.rel)) = sig)
+(((rel.((rel.var).var)).var) = var)
+(var = (var.(var.var)))
+((var.rel) = ((var.rel) - (rel.var)))
+(0.((var.(var.rel)).rel))->var
+(((sig.rel).var) = (((sig.rel).var) + 1))
+(~rel).(^rel)
+(no ((var.(var.rel)).rel))
+#(sig.(~rel))
+^(rel + (~rel))
+((var.rel) in ((var.rel).(var.(time/ordering/next[]))))
+(var in ((sig.rel) + (sig.rel)))
+((~var) in var)
+((sig - sig) in sig)
+((ordering/first[]).rel).rel
+((ordering/first[]).(ordering/next[])).(ordering/next[])
+4->(var->sig)
+((((var.rel).var) - var) = (((var.rel).var) - var))
+((var.(rel + rel)).rel) & sig
+((sig.rel).fun_call[]).((var.rel).fun_call[])
+((#rel) = 100)
+var.((var.(var.var)).var)
+(no ((((var.rel).var).(var.rel)).var))
+((var.rel) = ((var.rel) + (var->(var->var))))
+((var.(var.rel)) in sig)
+((#(var.rel)) = 6)
+sig.((sig.rel).var)
+(var.(rel + rel)) & (pred_call[] => (var.rel) else (var.rel))
+((var.rel) in ((sig - sig) - sig))
+sig & ((var.(rel + rel)).rel)
+((var.rel).rel).(declarations/ordering/next[])
+((var.(var.rel)) = (var.(((var.(var.rel)).(var.rel)).rel)))
+(var.rel) - ((var.(var.rel))->var)
+iden & (sig->sig)
+(var in ((ordering/first[]).((rel + rel) + rel)))
+(((var.rel).(var.rel)) = (var.rel))
+var.((var.rel).fun_call[])
+((var.rel) = ((sig + sig) + sig))
+(var = ((var.(var.rel)).rel))
+((var.rel).(var.rel))->var
+((#((ordering/last[]).rel)) = (#((sig - sig) - sig)))
+(((var.rel).var) = ((((var.rel).var).rel).rel))
+((sig.rel).var).((sig.rel).var)
+(sig.((var.rel).rel)) & (((var.rel).rel).rel)
+#({ var: (one sig) {
+(sig in (var.rel))
+} })
+(var.rel) + (var->1)
+(((var.rel).(var.rel)) = fun_call[])
+(fun_call[] in rel)
+(var in (((var.rel).var) + ((var.rel).var)))
+rel - (((var.(var.rel)).rel)->sig)
+sig - ({ var: (one sig) {
+(some var: (one sig) {
+(((var.rel) = var) && (((var.rel).rel) != ((var.rel).rel)))
+})
+} })
+(var in ((var & sig).(*(sig <: rel))))
+((var.rel) = ((var.rel).(date/ordering/next[])))
+(rel.sig).var
+(one (rel.sig))
+((sig->fun_call[]) in (var.rel))
+((var->var) in (((((^rel).rel) + ((^(~rel)).rel)) + ((~rel).(^rel))) + ((~rel).(^(~rel)))))
+((sig.rel).var) - (var <: ((sig.rel).var))
+var + ((var.rel).(*(sig <: rel)))
+(sig.rel)->(var.rel)
+((fun_call[].var) = (var.var))
+((#((sig - (sig.rel)) & (rel.var))) = var)
+((fun_call[].(var.rel)) = (fun_call[].var))
+iden & (var.rel)
+((((var.(^rel)).var).rel) = ((var.var).rel))
+((var.rel) = ((var.rel) ++ (((var.rel).(var.rel))->var)))
+(no ((var.var) & (var.var)))
+(var.rel) - (var.(var.rel))
+0 + 2
+(((var.((ordering/first[]).rel)).rel) = 1)
+((ordering/last[]).(ordering/prev[])).(ordering/prev[])
+(((var.rel).rel) = 3)
+((var.rel).(var.rel)) + var
+((fun_call[].var) = (fun_call[].var))
+(var.(~rel)).var
+((var.rel) in (var.(*var)))
+((((sig + sig) + sig) + sig) in ((sig.rel).var))
+3.var
+(rel = (((var->var) + (var->var)) + (var->var)))
+((var.rel) + (var.rel)) + ((var.rel).rel)
+((sig + sig) - (rel.sig)) - (sig.fun_call[])
+(var in ((sig + sig) - fun_call[]))
+(sig + sig) - fun_call[]
+((var.rel) = (((var.rel) - (var->(var.(var.rel)))) + var))
+(no (iden & (var.rel)))
+((sig - (ordering/last[])) - ((ordering/last[]).(ordering/prev[]))) - (((ordering/last[]).(ordering/prev[])).(ordering/prev[]))
+(one (var.(var.var)))
+(ordering/first[]).((rel + rel) + rel)
+(((~var).var) in iden)
+(((var.rel).(~rel)) = ((var.rel).(~rel)))
+(var.rel).(*(sig <: rel))
+(some (sig - sig))
+((var->sig) !in (var.rel))
+(var in ((var.(sig + sig)) & sig))
+(rel.((rel.var).var)).var
+((var.rel) - (var->var)) - (var->var)
+(some ((var.(var.rel)) - var))
+var.((rel & rel) & rel)
+((var.rel).sig) - ((var.rel).sig)
+((rel.var) in (sig lone->sig))
+#((sig - (sig.rel)) & (rel.var))
+(var in (((rel.var).rel).var))
+(var in ((sig.rel).(*rel)))
+((#((var.rel) <: rel)) in (0 + 2))
+((var.rel) = (sig.((var.rel).(ordering/first[]))))
+((var.(var.rel)) = (((var.(var.rel)).(var.rel)).rel))
+(var = (var - var))
+((var.(var.rel)) = ((pred_call[] && (((var.rel) != var) || ((#(var.rel)) = 1))) => var else (var.(((var.(var.rel)).(var.rel)).rel))))
+((var.rel) = ((var.rel) + (var->(sig->sig))))
+((var.rel).rel)->var
+((var.(^rel)).var).rel
+^(ordering/next[])
+rel.((rel.var).var)
+((var.(var.rel)) = ((((var.rel).rel).var).(var.rel)))
+((rel.var).var) - var
+(((var.rel).rel) in ((var.rel) + ((var.rel).rel)))
+var.(var + var)
+(var.rel) - (sig->var)
+
+hits: 2 (0.001914901765539428)
+((fun_call[].rel) = 10)
+(((var.rel).var) in ((var.rel).rel))
+((var.rel) = ((((var.rel) + (var->var)) - (var->sig)) - (sig->var)))
+(((sig.rel).(ordering/last[])) = sig)
+((sig.rel) in (sig.rel))
+(((var.(var.rel)).((var.(var.rel)).((var.rel).rel))) in ((var.(var.((var.rel).rel))).(var.rel)))
+((var.rel) - var) - var
+((var.rel).rel) - (((var.rel).rel)->sig)
+((var.rel).(var.rel)) - (var.rel)
+(var & (var.sig)) & sig
+(-1 + 0) + 1
+(((var.rel) & (rel.var)).rel).fun_call[]
+((var.rel) = (((var.rel) <: sig).rel))
+((#((var.rel) & (var.rel))) = 1)
+(var.((var.rel).var)) + var
+(var.(var.({ var: (one ({ var: (one sig) {
+((0 <= var) && (var <= 1))
+} })),var: (one ({ var: (one sig) {
+((0 <= var) && (var <= 1))
+} })),var: (one fun_call[]) {
+
+} }))).((var.(var.({ var: (one ({ var: (one sig) {
+((0 <= var) && (var <= 1))
+} })),var: (one ({ var: (one sig) {
+((0 <= var) && (var <= 1))
+} })),var: (one fun_call[]) {
+
+} }))).({ var: (one ({ var: (one sig) {
+((0 <= var) && (var <= 1))
+} })),var: (one ({ var: (one sig) {
+((0 <= var) && (var <= 1))
+} })),var: (one (var + var)) {
+
+} }))
+(((((((((((((((((((((sig + sig) + sig) + sig) + sig) + sig) + sig) + sig) + sig) + sig) + sig) + sig) + sig) + sig) + sig) + sig) + sig) + sig) + sig) + sig) + sig) + sig) + sig
+(some (var.(sig.rel)))
+((sig - sig) in fun_call[])
+#((fun_call[].rel).(var.(fun_call[].rel)))
+(var !in ((var.fun_call[]).rel))
+((sig.fun_call[]) != (sig.fun_call[]))
+#(((var.rel) & (var.rel)) & sig)
+(rel.rel).rel
+var + 1
+(sig.(var <: (((var.(sig.rel)).rel).rel))).rel
+(((var.rel).var) !in ((var.rel).var))
+var <: (((var.(sig.rel)).rel).rel)
+((var.(var.rel)) = (fun_call[].(var.rel)))
+(var.rel) <: ((var.rel) :> (var.rel))
+(var.var).(var.var)
+((var.rel) = "eq")
+((sig.rel) = ((((sig + sig) + sig) + sig) + sig))
+(0->(var->sig)) + (0->(var->sig))
+(some (((var.rel).rel).rel))
+((iden :> var) in fun_call[])
+#((var.(var.rel)).(var.rel))
+(sig in ((rel.sig).sig))
+(((((ordering/last[]).(ordering/prev[])).rel).rel) = sig)
+(var.var) - (rel.var)
+(((var + var) + var) + var) + var
+(((0->var) + (1->var)) + (2->var)) + (3->var)
+((rel.var) = ((rel.var).fun_call[]))
+(sig.(var.rel)) & sig
+((((var.rel).rel).var) in (((var.rel).rel).var))
+(var.(rel + rel)).var
+2->(var->var)
+((rel.var) = ((rel.var) ++ ((var->fun_call[]) + (sig->fun_call[]))))
+var :> var
+(((var.rel).var) != fun_call[])
+(((var.rel).(*(var.rel))) in (sig - (var.rel)))
+((fun_call[].rel) = 0)
+sig - ((var.rel) + (var.rel))
+(((sig.rel).fun_call[]) = fun_call[])
+(fun_call[] + fun_call[]) + var
+(var !in ((sig.(var.rel)).rel))
+((var.rel) = "Morning")
+0->1
+sig + var
+(((sig.rel).var) = ((((sig.rel).var) - var) + var))
+(var = (var.(sig.rel)))
+(var.(var.({ var: (one (0 + 1)),var: (one (0 + 1)),var: (one fun_call[]) {
+
+} }))).({ var: (one (0 + 1)),var: (one fun_call[]) {
+
+} })
+(rel.var) - ((var + var) <: (rel.var))
+((sig + sig) in ((sig.rel).fun_call[]))
+((var.rel) = ((var.rel) ++ ((0.((var.(var.rel)).rel))->var)))
+(some (var.((var.rel).var)))
+((var.rel) = (((var.rel) + (sig->(var->var))) + (sig->(var->var))))
+((sig.rel) = ((sig.rel).(sig.rel)))
+(((var.(var.((var.rel).rel))).(var.rel)) in ((var.(var.rel)).((var.(var.rel)).((var.rel).rel))))
+((var.rel) = (((var.rel) - var) <: (var.rel)))
+(var in (((var.rel).rel).(var.(time/ordering/next[]))))
+sig.(^rel)
+(var in (var.((var.rel).var)))
+(var.(var.rel))->(var.(var.rel))
+(((var.rel) - var) != ((var.rel) - var))
+((#var) = 4)
+((var.rel).sig) & ((var.rel).sig)
+((var.rel) + (var->sig)) - (var->sig)
+((#({ var: (one sig),var: (one sig) {
+(var in ((var.rel).rel))
+} })) = var)
+(var in ((var.fun_call[]).(var.rel)))
+(var.rel).(*var)
+(((var.rel).var) !in ((sig.rel).var))
+(((var.rel).rel) = (sum var: (one ((sig.rel).rel)) {
+(var.rel)
+}))
+(^fun_call[]) & iden
+((var.((var.(var.rel)).(var.rel))) in (var.rel))
+(((var.rel) + (var->var)) - (var->sig)) - (sig->var)
+((#var) = 2)
+(var !in (sig.(((sig.rel).var).rel)))
+sig->(sig + sig)
+(one (sig.rel))
+((var.rel) in (((var.rel).var).rel))
+(var in (ordering/min[(var + var)]))
+((((var.rel).rel).var) = var)
+#((var.(fun_call[].rel)).(fun_call[].rel))
+(((var.(var.rel)).(var.(var.rel))) in (var.rel))
+(var.(~rel)).(~rel)
+(rel + rel).var
+sig.(*fun_call[])
+((sig.rel) in (var.(*rel)))
+((var.rel) = ((0->var) + (1->var)))
+(var in ((var.((rel + rel) + rel)).rel))
+(var.(var.var)).((var.(var.var)).var)
+(rel.sig) + (rel.sig)
+((var & (sig + sig)) = sig)
+((var.rel) = (((var.rel) - var) + fun_call[]))
+(var in (fun_call[] + var))
+((fun_call[] & sig) in (var.rel))
+(((var.((ordering/first[]).rel)).rel) = 2)
+((var.rel).rel).(rel.var)
+(var !in ((((var.rel).var) + (var.(var.rel))) + ((var.(var.rel)).(var.rel))))
+(var <: rel).sig
+fun_call[] & (((fun_call[] + fun_call[]) + fun_call[]) + fun_call[])
+(((var.rel).rel) !in (sig.rel))
+((var.rel).rel) & (rel.sig)
+(((var.rel).(var.(time/ordering/next[]))) = (((var.rel).var) + var))
+((((((((((((((sig + sig) + sig) + sig) + sig) + sig) + sig) + sig) + sig) + sig) + sig) + sig) + sig) + sig) + sig) + sig
+(no (var.(var.(var.rel))))
+((((sig.rel).var) + var) = ((sig.rel).var))
+(((((((((((((((((((sig + sig) + sig) + sig) + sig) + sig) + sig) + sig) + sig) + sig) + sig) + sig) + sig) + sig) + sig) + sig) + sig) + sig) + sig) + sig) + sig
+(((((var.rel).var).rel).rel) = var)
+((var.rel).(var.rel)) + (var.rel)
+(((sig->(sig + sig)) + (sig->((sig + sig) + sig))) + (sig->((sig + sig) + sig))) + (sig->((sig + sig) + sig))
+((var.rel).var) & (var.rel)
+iden + (^fun_call[])
+#((var.(~rel)) & sig)
+((((var.rel).var) + (var.(var.rel))) = (var.(var.rel)))
+(rel.var).(*(~rel))
+(((var.(~rel)).var) = sig)
+(((var.rel).rel) = (((var.rel).rel).(sig.rel)))
+(((var.(var.rel)).rel) = (((var.(var.rel)).rel) ++ (var->(var.(var.rel)))))
+((var.rel) = ((((var.rel) - var) - var) - sig))
+((var->var) in ((^(~fun_call[])).(~rel)))
+(var.rel).(TrafficLight/ordering/next[])
+((var.rel) - (var->var)) - (var->(var.(var.rel)))
+((((ordering/first[]).(ordering/next[])).(ordering/next[])).(ordering/next[])).rel
+(var in ((var.(rel + rel)).rel))
+(((var.rel).var) in ((sig.rel).var))
+((var + (~var)) = (var->var))
+(((var.(var.rel)).rel) != ((var.(var.rel)).rel))
+(some ((var.(var.rel)).rel))
+((((((sig.rel).var).rel).var)->var) in ((sig.rel).var))
+(rel.var) & ((var.rel).var)
+(var in ((var.rel) one->one (var.rel)))
+var + fun_call[]
+((var.rel) = "Nurse")
+(((var.rel) - var) - var) - sig
+((var.rel) in ((var.(*var)).rel))
+((var.fun_call[]).fun_call[]) :> sig
+#(var.((sig.rel).sig))
+(((var.var).(var.var)) = var)
+((var->var) in (var.(var + var)))
+((var.rel).rel).fun_call[]
+((fun_call[].rel) in var)
+(rel & (sig->sig)).sig
+(fun_call[] = (sig.rel))
+(no ((rel.var) & (rel.var)))
+(((((var.rel).var).rel).var) = (sig - ((((var.rel).var).rel).var)))
+((sig.var) = sig)
+(((sig.rel).var) = (((sig.rel).var) ++ (var->var)))
+(rel.var) - (var->(var->sig))
+((fun_call[].rel).(var <: ((^rel) :> var))).fun_call[]
+3->var
+(((var.rel) - sig) - var) - ((var.rel).rel)
+(((var.rel).var) + ((var.rel).var)).rel
+(((var.fun_call[]).rel) !in fun_call[])
+((var.rel) = (({ var: (one (var.rel)) {
+((var.rel) != var)
+} }) + ({ var: (one (var.rel)) {
+(((var.rel) = var) && ((var.rel) = -1) && (var in (var.rel)))
+} })))
+(sig in ((rel.sig) + sig))
+(((var.rel).var) = ((sig.rel).var))
+((((var.rel).rel).(var.(time/ordering/next[]))) = ((((var.rel).rel).var) + var))
+(var !in ((rel.var).var))
+((var.var) = ((var.var) - (rel.var)))
+((var.(*var)) & (var.rel)) & fun_call[]
+((#(var.rel)) = 11)
+((var.rel) = ((((var.rel) - var) - sig) - ((var.rel).rel)))
+((var->(var->var)) !in var)
+#(sig.(*rel))
+(lone ((var.rel) - fun_call[]))
+(((var.rel).((sig.rel).var)) = fun_call[])
+(((((var.(ordering/next[])).(ordering/next[])).rel).rel) = (var.rel))
+(var.rel) + ((var.rel)->sig)
+(var.rel) - (var->(var->var))
+(((var.rel).rel) = ((((var.(ordering/prev[])).rel).rel) + var))
+(one ((rel.var).var))
+(var.rel) & (sig.rel)
+var.(Time/ordering/prev[])
+(var.(var.rel)) - (var.(var.rel))
+(((var.rel).fun_call[]) = sig)
+((var.rel) in ((var.rel) + (var.rel)))
+((#fun_call[]) = (#fun_call[]))
+(sig.((var.rel).sig)) - var
+(fun_call[].rel).(var <: ((^rel) :> var))
+(no ((var.(var.rel)) & (var.rel)))
+((#(((sig.(sig.rel)).rel).rel)) = 1)
+((((var.rel).rel).var) != 0)
+(var.(*var)) & (var.rel)
+((var.var) in fun_call[])
+(((var.rel).(var.(var.rel))) = (var.((var.rel).(var.rel))))
+((sig.(var.rel)).rel) + ((sig.(var.rel)).rel)
+(((((var.rel).rel).rel).var) = (((((var.rel).rel).rel).var) - var))
+(fun_call[] = (#fun_call[]))
+(rel.var) + (rel.var)
+var <: sig
+(some (var & fun_call[]))
+var.(rel - rel)
+((var.rel) = (((var.rel) + (var->sig)) - (var->sig)))
+var.(var.(rel + rel))
+(((sig.rel).var) = (((sig.rel).var) + (var->var)))
+(((var.rel).(var.rel)) = (((var.rel).(var.rel)) + (var.rel)))
+((plus[(plus[(plus[(plus[(plus[(plus[(plus[(plus[(plus[(#((var.rel) & var)), (#((var.rel) & var))]), (#((var.rel) & var))]), (#((var.rel) & var))]), (#((var.rel) & var))]), (#((var.rel) & var))]), (#((var.rel) & var))]), (#((var.rel) & var))]), (#((var.rel) & var))]), 1]) = (plus[(plus[(plus[(plus[(plus[(plus[(plus[(plus[(#((var.rel) & var)), (#((var.rel) & var))]), (#((var.rel) & var))]), (#((var.rel) & var))]), (#((var.rel) & var))]), (#((var.rel) & var))]), (#((var.rel) & var))]), (#((var.rel) & var))]), (#((var.rel) & var))]))
+((#((var.rel).(var.rel))) = 0)
+4.(var.rel)
+(no ((var.rel).(KeyDistribution/Auth/ordering/first[])))
+(var !in ((var.(var.rel)).(var.rel)))
+(var in (var.((rel + rel) & (rel + rel))))
+((rel.sig).var) & (rel.sig)
+(var + var) - (var.rel)
+(fun_call[] = ((var.rel).rel))
+(var in (sig->sig))
+(^rel) + iden
+((sig.rel).fun_call[])->(((sig.rel).fun_call[]).((var.rel).fun_call[]))
+(var = ({ var,var: (one sig) {
+(((var->(var->var)) in var) || (var = var))
+} }))
+((var.(var.rel)).(var.rel))->var
+#((var.rel).(var.rel))
+((var.(var.rel)).sig)->sig
+((var->var) in ((var.((rel & rel) & rel)) - ((var.rel)->(var.rel))))
+((rel.var) = ((rel.var) - ((var + var) <: (rel.var))))
+1.((ordering/first[]).rel)
+(iden + (^fun_call[])) + (^(~fun_call[]))
+((#({ var: (one ((fun_call[].rel).var)) {
+(((var.(fun_call[].rel)) = sig) && ((var.(fun_call[].rel)) = sig))
+} })) + (#({ var: (one ((fun_call[].rel).var)) {
+(((var.(fun_call[].rel)) = sig) && ((var.(fun_call[].rel)) = sig))
+} }))) + (#({ var: (one ((fun_call[].rel).var)) {
+(((var.(fun_call[].rel)) = sig) && ((var.(fun_call[].rel)) = sig))
+} }))
+(var.rel).(ordering/last[])
+((var.rel) = ((var.rel) + ({ var: (one (var.rel)) {
+(some var: (one sig),var: (one sig) {
+(((var->var) in (var.(var.rel))) && (not pred_call[]))
+})
+} })))
+((1.var) = 3)
+sig - (sig.var)
+sig & (rel.var)
+((fun_call[].fun_call[]).(*rel)) :> sig
+var - (var->(sig->sig))
+(var = (fun_call[].rel))
+(var.rel)->(#((var.rel).var))
+(((sig.rel).fun_call[]) = ((sig.rel).fun_call[]))
+((var.rel) & (var.rel)) & sig
+(one (var.(~(rel.var))))
+((rel.var) = (((rel.var) + (var->var)) - (var <: (rel.var))))
+(((var.rel).rel) !in sig)
+(no (iden & (^(fun_call[] - fun_call[]))))
+((var->var) in ((sig.rel).rel))
+((var.rel) in (sig.rel))
+(var = (var.(var.({ var: (one ({ var: (one sig) {
+((0 <= var) && (var <= 1))
+} })),var: (one ({ var: (one sig) {
+((0 <= var) && (var <= 1))
+} })),var: (one fun_call[]) {
+
+} }))))
+(sig !in var)
+(rel.sig) + sig
+fun_call[] - (var.rel)
+((((((((((((((((((((sig + sig) + sig) + sig) + sig) + sig) + sig) + sig) + sig) + sig) + sig) + sig) + sig) + sig) + sig) + sig) + sig) + sig) + sig) + sig) + sig) + sig
+((rel.var) = ((rel.var) ++ ((var.rel)->(#((var.rel).var)))))
+(((var.((ordering/first[]).rel)).rel) = -3)
+(((var.rel).rel) = (((var.rel).rel).fun_call[]))
+((((((((((((((((((((((((sig + sig) + sig) + sig) + sig) + sig) + sig) + sig) + sig) + sig) + sig) + sig) + sig) + sig) + sig) + sig) + sig) + sig) + sig) + sig) + sig) + sig) + sig) + sig) + sig) + sig
+(some (fun_call[] :> sig))
+(lone (rel.var))
+((sig.(var.rel)) = ((sig + sig) + sig))
+((#(sig.(~rel))) = 4)
+(var in ((var.(ordering/next[])).rel))
+(var !in ((var.rel) + (var.rel)))
+(var in (ordering/nexts[(sig.rel)]))
+(some (sig & (rel.var)))
+(((var.((ordering/first[]).rel)).rel) = -2)
+((var.rel) - (var->sig)) + (var->sig)
+((#var) = var)
+((rel.rel) != (rel.rel))
+(^(~fun_call[])).(~rel)
+((var.(sig.rel)) != sig)
+(sig = (var.var))
+(fun_call[].rel) & sig
+(var != ((var.rel).(var.rel)))
+2->0
+((var.rel) = ((var.rel) + (rel.var)))
+((((((((((((((((sig + sig) + sig) + sig) + sig) + sig) + sig) + sig) + sig) + sig) + sig) + sig) + sig) + sig) + sig) + sig) + sig) + sig
+((var.rel) !in ((var.rel).rel))
+(var.(~(rel.var))).(~rel)
+(rel.var) - (var.rel)
+2->sig
+((var.rel) - ({ var: (one sig),var: (one sig),var: (one sig),var: (one sig) {
+pred_call[]
+} })) + ({ var: (one sig),var: (one sig),var: (one sig),var: (one sig) {
+pred_call[]
+} })
+((var.((var.(var.(var.rel))).(var.rel))) in ((var.(var.(var.rel))).(var.(var.rel))))
+-1 + 0
+(fun_call[].rel).rel
+((var.rel) - (var->sig)) + (var->var)
+fun_call[] - 0
+((var.rel) + (var->var)) - (var->sig)
+(((((var->var) + (var->var)) + (var->var)) + (var->var)) in (^rel))
+((var.rel) in ((var.rel).(*rel)))
+var->((sig <: var).rel)
+((var.rel) = (((0->sig) + (1->sig)) + (2->sig)))
+(one (var.(var.(var.rel))))
+(((var.rel) + (var.rel)) in (var.rel))
+(var in (var.(*fun_call[])))
+(((var.(ordering/next[])).(ordering/next[])).rel).rel
+(((var.rel) - var) - sig) - ((var.rel).rel)
+((var.rel) in ((var.rel).(*(var.rel))))
+(sig !in (sig.rel))
+(((var.var).(var.rel)) = (var.fun_call[]))
+((#(((var.rel) + (var.rel)) + (var.rel))) = 4)
+(((var.rel).rel) = (((var.rel).rel) ++ (var->(var.((var.rel).rel)))))
+((#fun_call[]) = 10)
+(fun_call[] = 100)
+(no ((^(fun_call[] + fun_call[])) & iden))
+(^(rel.var)) & iden
+(var in ((var.rel).(var.(var.rel))))
+((#fun_call[]) = 11)
+(((var.rel) & sig).rel) & var
+((var->var) in ((~(^fun_call[])).(~rel)))
+(((var.var).var) = (((var.rel).var).rel))
+(fun_call[].fun_call[]).(*rel)
+((var.(var.rel)) = (((var.fun_call[]).(var.rel)) + var))
+((sig.rel) !in (var.rel))
+((rel & (sig->sig)).sig) <: rel
+((sig->(sig + sig)) + (sig->((sig + sig) + sig))) + (sig->((sig + sig) + sig))
+((var.((var.(var.rel)).rel)) = (var.((var.(var.rel)).rel)))
+var <: iden
+(rel.var) :> sig
+(sig in ((sig.rel).fun_call[]))
+(var = (((var + var) + sig) + sig))
+(((ordering/last[]).(ordering/prev[])).rel).rel
+((rel.var).(*(~rel))).rel
+(((var.(var.(var.rel))).rel) = (var.(var.((var.rel).rel))))
+(((var.(var.(var.rel))).rel) = ((var.rel).((var.(var.(var.rel))).(var.rel))))
+(((var.rel) - (var->var)) - (var->(var.(var.rel)))) + (var->(var.(var.rel)))
+((var.rel) - var) - ((^rel).var)
+((var.rel) - (var->fun_call[])) + (var->fun_call[])
+(var.rel) - (var->fun_call[])
+(var = (fun_call[] + fun_call[]))
+((var.(var.rel)) = ((pred_call[] && ((var.rel) != var)) => (var.rel) else (var.(((var.(var.rel)).(var.rel)).rel))))
+(fun_call[] & sig) & (var.rel)
+(fun_call[] = (#(var.rel)))
+(var in (sig->one sig))
+((var.rel) !in ((var.rel) + var))
+(rel.((rel.var).(rel.var))).(rel.var)
+(((var.rel) + var) + var) + sig
+(some (var & (rel.var)))
+(sig !in (rel.var))
+#((var.fun_call[]).rel)
+(((sig.(var <: (((var.(sig.rel)).rel).rel))).rel) = var)
+(var.rel).(5.var)
+(var !in ((var.rel).(var.(time/ordering/next[]))))
+(no (fun_call[] & (((var.rel) - var).rel)))
+((((var.rel).var) + ((var.rel).var)).rel).var
+var + (var->var)
+(var in ((var.(var.rel)).rel))
+fun_call[] + (~fun_call[])
+(no (var.(var.(rel + rel))))
+(var in ((((var.fun_call[]).fun_call[]).fun_call[]).rel))
+((var.var) = ((var.var).var))
+^(rel.rel)
+((#sig) = (#(rel.var)))
+var->(var.((var.rel).rel))
+((var.rel) - var) + fun_call[]
+(var.(var.rel)).sig
+((var.rel) = (((var.rel) & (var.rel)) - (var + (var.rel))))
+(sig in (((rel.sig).sig).sig))
+(one (((sig.rel).rel).var))
+#(((var.rel) <: rel).sig)
+#(var.(rel.var))
+(var.fun_call[]).var
+(sig in ((rel.sig) + (rel.sig)))
+1.(var.((var.(var.rel)).rel))
+(no (var & (var.rel)))
+(var in ((sig->sig)->lone sig))
+((var.rel).sig) + var
+(some (((rel.var).var) - var))
+((var.sig) = var)
+(((((var.rel).var).rel).var) in (sig - var))
+(one ((var.rel) + (var.rel)))
+((#((var.rel).rel)) = (#((var.rel).rel)))
+(var->fun_call[]) + (sig->fun_call[])
+((var.rel) = ((var.rel) + (sig->(var->var))))
+^(var <: ((sig.rel).var))
+rel.((var.rel).rel)
+#((fun_call[].rel) & sig)
+((((var.(ordering/next[])).rel).rel) = (var.rel))
+((((var.rel).var).rel).var) - var
+((var.rel) = "ICU")
+(var in (var.((var.rel).(var.rel))))
+(var.rel) & (sig + sig)
+((var.rel).rel) + (var->var)
+((var->(sig->var)) in (var.rel))
+(some (((var.rel).sig) & ((var.rel).sig)))
+(var.rel) - ({ var: (one sig),var: (one sig),var: (one sig),var: (one sig) {
+pred_call[]
+} })
+((var.(var.(var.rel))) = (var.(var.((var.(var.rel)).rel))))
+((rel.var) & (fun_call[].var)) & ({ var: (one sig) {
+(all var: (one fun_call[]) {
+((var.rel) in ((var.rel).rel))
+})
+} })
+(~(^fun_call[])).(~rel)
+(((var.(~(rel.var))).rel).var) - var
+(((sig.rel).var) = (((sig.rel).var) - (sig->var)))
+(((((var.fun_call[]).fun_call[]).fun_call[]).rel) in sig)
+((var.(fun_call[].rel)) = (#((fun_call[].rel).(var.(fun_call[].rel)))))
+((((var + var) + var) + var) in (var->var))
+((((var.rel).var).rel) = ((var.rel).var))
+var.(^(ordering/next[]))
+fun_call[] & (sig + sig)
+((var.rel) = (((var.rel) - (var->sig)) + (var->sig)))
+((var.rel).rel).(*rel)
+(no (var.((var.rel).var)))
+(((var.rel).(5.var)) = sig)
+(some (fun_call[] & (((var.rel) - var).rel)))
+(some (((fun_call[].fun_call[]).(*rel)) :> sig))
+((var.rel) <: rel).sig
+var - (var->(var->sig))
+(some (iden & (((fun_call[].rel).(var <: ((^rel) :> var))).fun_call[])))
+(rel = (((((var->var) + (var->var)) + (var->var)) + (var->var)) + (var->var)))
+(((var.(var.rel)).rel) = (((var.(var.rel)).rel) ++ (var->sig)))
+((var->var) !in (sig.rel))
+((#(var.(~rel))) = (#((var.(~rel)).rel)))
+((var.(var.((var.(var.rel)).rel))) = (1.(var.((var.(var.rel)).rel))))
+((var.(~rel)) = (var.(~rel)))
+((var.(var.rel)) in ((var.(var.rel)).rel))
+(((var.rel).(var.rel)) = (((var.rel).var) - var))
+((#({ var: (one ((var.rel).var)) {
+(((var.(var.rel)) = sig) && ((var.(var.rel)) = sig))
+} })) + (#({ var: (one ((var.rel).var)) {
+(((var.(var.rel)) = sig) && ((var.(var.rel)) = sig))
+} }))) + (#({ var: (one ((var.rel).var)) {
+(((var.(var.rel)) = sig) && ((var.(var.rel)) = sig))
+} }))
+((#(var.(fun_call[].rel))) = (#({ var: (one ((fun_call[].rel).var)) {
+((var.(fun_call[].rel)) = sig)
+} })))
+(fun_call[] = (var.(var.(var.rel))))
+((var.(sig.rel)) = ((var.(sig.rel)) + var))
+(var in ((var & sig)->lone sig))
+(sig.rel).(sig.rel)
+((((var.(sig.rel)).rel).rel) = var)
+(0->sig) + (1->sig)
+((rel.var) + (var->var)) - (var <: (rel.var))
+(one (((var.fun_call[]).fun_call[]) :> sig))
+(lone ((rel.var) & (var.rel)))
+(sig.rel).(var.fun_call[])
+(var.(*var)).rel
+((((var.rel).rel).rel).var) - var
+((var.rel) & (var.rel)) - (var + (var.rel))
+(((var.((ordering/last[]).rel)).rel) = 0)
+(^(var.(rel + rel))) & iden
+(((var.rel).rel).var) - var
+(((((var.(var.rel)).rel).rel) & sig) = ((((var.(var.rel)).rel).rel) & sig))
+((rel.sig) in sig)
+^(var.(rel + rel))
+#((var.rel) & (sig + sig))
+(((var.rel).var) = (sig - ((var.rel).var)))
+((var.(var.(var.rel))) = fun_call[])
+(var.rel).(0.var)
+(fun_call[].(rel & (rel.(~rel)))).(var <: ((^rel) :> var))
+((var.fun_call[]).(var.rel)) + var
+((var & (~var)) in iden)
+(var in ((^rel).var))
+(var !in (var.((var.rel).var)))
+((sig <: var).rel)->var
+((#((var.(var.rel)) & ((var.rel).sig))) = (#(var.(var.rel))))
+iden & (^(fun_call[] - fun_call[]))
+(((var.var).rel) = fun_call[])
+((var.rel) = ((var.rel) ++ ((var.rel)->var)))
+(var.((rel + rel) + rel)).rel
+(some (sig & ((^rel).var)))
+(((var.rel).sig) = (((var.rel).sig) + var))
+(rel - iden).var
+var & ((var.rel).rel)
+(((var.rel).rel) = ((((var.(ordering/prev[])).rel).rel) - ((var.rel).rel)))
+(((var.rel) & sig) != sig)
+((((var.rel).var) - (var->(var->sig))) = ((var.rel).var))
+((var.rel) = ((((var.rel).var).rel).rel))
+((var.rel) = ((((var.rel) - sig) - var) - ((var.rel).rel)))
+(var !in ((rel + rel).var))
+((var->((var.rel)->var)) in rel)
+((sig.(var.rel)) = (sig + sig))
+iden & (((fun_call[].(rel & (rel.(~rel)))).(var <: ((^rel) :> var))).(rel & (rel.(~rel))))
+((var->var) in (*(var.rel)))
+(no ((^rel) + iden))
+((#(var.(var.rel))) = (#({ var: (one ((var.rel).var)) {
+((var.(var.rel)) = sig)
+} })))
+((#((var.fun_call[]).rel)) = 0)
+(((ordering/first[]).(ordering/next[])).(ordering/next[])).(ordering/next[])
+((rel.var) = ((rel.var) - (var->(sig->sig))))
+((var.var) in (var.(var.fun_call[])))
+(((~rel).rel) in iden)
+(((var.rel).rel).rel).(rel + rel)
+(((rel.var).sig) != ((rel.var).sig))
+(var !in ((sig.rel) + sig))
+((var.(var.((var.(var.rel)).rel))) = (fun_call[].(var.((var.(var.rel)).rel))))
+((0->sig) + (1->sig)) + (2->sig)
+(iden in var)
+(((var->var) + (var->var)) in rel)
+(sig.(rel + rel)).var
+((var->(0.(var.rel))) in rel)
+((rel.var) in (rel.var))
+(no ((^(rel.var)) & iden))
+var.({ var: (one (0 + 1)),var: (one (0 + 1)),var: (one (var + var)) {
+
+} })
+(((var.rel).var) != ((var.rel).(var.rel)))
+(((rel.var).sig) = ((rel.var).sig))
+((sig.rel) != (sig.rel))
+((var.rel) = (((var.rel) - ({ var: (one sig),var: (one sig),var: (one sig),var: (one sig) {
+pred_call[]
+} })) + ({ var: (one sig),var: (one sig),var: (one sig),var: (one sig) {
+pred_call[]
+} })))
+((var.(var.((var.(var.rel)).rel))) = (var.(var.((var.(var.rel)).rel))))
+(var.(var.rel)).((*(var.rel)) :> ({ var: (one sig) {
+(no (var.(var.rel)))
+} }))
+iden & (((fun_call[].rel).(var <: ((^rel) :> var))).fun_call[])
+#(((sig.(sig.rel)).rel).rel)
+sig - (ordering/first[])
+(var !in (var.fun_call[]))
+(var.rel) - ((var.rel) + var)
+(var.((rel & rel) & rel)) - ((var.rel)->(var.rel))
+((sig.rel) = (((((((((((((((((((((((((((sig + sig) + sig) + sig) + sig) + sig) + sig) + sig) + sig) + sig) + sig) + sig) + sig) + sig) + sig) + sig) + sig) + sig) + sig) + sig) + sig) + sig) + sig) + sig) + sig) + sig) + sig) + sig))
+rel.(var.rel)
+((((((((((((((((((sig + sig) + sig) + sig) + sig) + sig) + sig) + sig) + sig) + sig) + sig) + sig) + sig) + sig) + sig) + sig) + sig) + sig) + sig) + sig
+(var.var).sig
+((((var + var) + var) + var) + var) + var
+((sig.rel).var) - (sig & ((fun_call[].rel).var))
+2.(var.rel)
+#((((var.rel) & sig).rel) & var)
+(var.rel) + ({ var: (one (var.rel)) {
+(some var: (one sig),var: (one sig) {
+(((var->var) in (var.(var.rel))) && (not pred_call[]))
+})
+} })
+sig.(var <: (((var.(sig.rel)).rel).rel))
+(*(var.rel)) :> ({ var: (one sig) {
+(no (var.(var.rel)))
+} })
+((sig.(sig.rel)) = (sig + sig))
+((var.rel).rel).(sig.rel)
+(var.(var.(var.rel))).var
+((sig.rel) = ((((sig->(sig + sig)) + (sig->((sig + sig) + sig))) + (sig->((sig + sig) + sig))) + (sig->((sig + sig) + sig))))
+((var.((var.rel).var)) = ((var.((var.rel).var)) + var))
+(((rel.rel).rel) = rel)
+(var.(sig.rel)) + var
+(rel.var) & (var.rel)
+(rel - (sig->var)) - (var->sig)
+(var.(((var.rel).rel).rel)).rel
+(((var.(var.(var.rel))).var) = ((var.var).((var.var).(var.rel))))
+(sig + sig).rel
+(fun_call[].rel).fun_call[]
+((var.rel) = ((sig.(var.rel)) & sig))
+(var in ((sig.(var.rel)).rel))
+var->((var.(var.rel)).fun_call[])
+(((var.rel) <: (var.rel)) = ((var.rel) <: (var.rel)))
+((var->var) in ((var.rel) <: ((var.rel) :> (var.rel))))
+(var.(var.({ var: (one ({ var: (one sig) {
+((0 <= var) && (var <= 1))
+} })),var: (one ({ var: (one sig) {
+((0 <= var) && (var <= 1))
+} })),var: (one fun_call[]) {
+
+} }))).({ var: (one ({ var: (one sig) {
+((0 <= var) && (var <= 1))
+} })),var: (one ({ var: (one sig) {
+((0 <= var) && (var <= 1))
+} })),var: (one (var + var)) {
+
+} })
+((#({ var: (one sig),var: (one sig) {
+((var in ((var.rel).rel)) && ((var.rel) >= var) && ((var.rel) <= var))
+} })) = var)
+(((((((sig + sig) + sig) + sig) + sig) + sig) + sig) in (var.rel))
+((var.(var.rel)) = (((pred_call[] && ((var.rel) != var)) || ((#(var.rel)) = 1)) => (var.rel) else (var.(((var.(var.rel)).(var.rel)).rel))))
+(((var.rel).var) = (pred_call[] => sig else ((var.rel).var)))
+((((sig.rel).var).rel).var) + ((((sig.rel).var).rel).var)
+(sig.rel) - (var->var)
+(sig.((ordering/last[]).rel)).rel
+(var in ((sig.rel).sig))
+#((var.rel).(var.(var.rel)))
+*(var.(var.rel))
+((var->var) in (^(var.rel)))
+sig + fun_call[]
+(lone ((var + var) - (var.rel)))
+var.(var.({ var: (one (0 + 1)),var: (one (0 + 1)),var: (one (var + var)) {
+
+} }))
+var & (var.((sig + sig) + sig))
+1->sig
+(var !in (var.(^var)))
+((var.fun_call[]) = (var.rel))
+((var :> var) in var)
+(fun_call[] = (sig <: var))
+((((ordering/last[]).rel).rel) = sig)
+(((sig.(var.rel)).rel) != fun_call[])
+((((var.rel).rel)->var) in (var.rel))
+((var.rel).rel).(ordering/first[])
+((rel.var) = ((rel.var) - (var->(var->sig))))
+#((var.(~rel)).rel)
+(((var.(ordering/prev[])).rel).rel) - ((var.rel).rel)
+sig - ((fun_call[].rel).var)
+(no (var & var))
+((#(var.rel)) = (fun_call[].var))
+(some (((rel.var).rel) & var))
+iden & (^fun_call[])
+((var.rel) = ((var.rel) - ((var.rel) + var)))
+(fun_call[] = ((sig.((ordering/last[]).rel)).rel))
+(((var.(var.rel)).rel) = fun_call[])
+((((sig.rel).var) - var) = ((sig.rel).var))
+((var.rel).(^(rel + rel))) + (var.rel)
+((var.rel) + fun_call[]) + fun_call[]
+((0->(var->sig)) + (0->(var->sig))) + (0->(var->sig))
+(no (var & ((fun_call[].rel).var)))
+(((var.rel).var) = ((((var.rel).var).rel).var))
+((var.rel) = ((some var) => (var.rel) else var))
+((fun_call[].(rel & (rel.(~rel)))).(var <: ((^rel) :> var))).(rel & (rel.(~rel)))
+((((sig->sig) + (sig->sig)) + (sig->sig)) in var)
+((var.(var.rel)) = ((var.var).(var.rel)))
+((((sig.rel).var).rel).var)->var
+(((var.rel) - (var->var)) - (var->var)) + (var->var)
+(lone (var.fun_call[]))
+(((var.rel).var) in ((var.rel).(var.(var.rel))))
+^(fun_call[] - fun_call[])
+(((var.(sig.rel)).rel).rel).(sig.rel)
+(((var.var).var) != (((var.rel).var).rel))
+(var.rel).((var.(var.(var.rel))).(var.rel))
+(((sig.rel).var) in ((sig.rel).var))
+(((var.rel) + (var.rel)) = sig)
+((0.((ordering/first[]).rel)) != (1.((ordering/first[]).rel)))
+(((var.rel).var) = (((var.rel).(var.rel)) + var))
+(var !in ((var.rel).(var.fun_call[])))
+(var.rel).(^(rel + rel))
+((sig.rel).var) + (var->var)
+(var = (var.(var.(var.rel))))
+rel.((rel.var).(rel.var))
+(var.rel) :> (var.rel)
+(((sig.rel).var) - var) + var
+(var in rel)
+(((((((((((((((((sig + sig) + sig) + sig) + sig) + sig) + sig) + sig) + sig) + sig) + sig) + sig) + sig) + sig) + sig) + sig) + sig) + sig) + sig
+(rel + rel).sig
+(no ((var.sig) & sig))
+#({ var: (one fun_call[]) {
+((var->var) in var)
+} })
+(((((((((((((((sig + sig) + sig) + sig) + sig) + sig) + sig) + sig) + sig) + sig) + sig) + sig) + sig) + sig) + sig) + sig) + sig
+((var.(var.rel)) in ((var.rel).(*(var.rel))))
+var - (var->var)
+((((((((((((((((((((((sig + sig) + sig) + sig) + sig) + sig) + sig) + sig) + sig) + sig) + sig) + sig) + sig) + sig) + sig) + sig) + sig) + sig) + sig) + sig) + sig) + sig) + sig) + sig
+var.(var.({ var: (one (0 + 1)),var: (one (0 + 1)),var: (one (((var.(var.({ var: (one (0 + 1)),var: (one (0 + 1)),var: (one fun_call[]) {
+
+} }))).({ var: (one (0 + 1)),var: (one fun_call[]) {
+
+} })).((var.(var.({ var: (one (0 + 1)),var: (one (0 + 1)),var: (one (var + var)) {
+
+} }))).({ var: (one (0 + 1)),var: (one (0 + 1)),var: (one fun_call[]) {
+
+} })))) {
+
+} }))
+((var.rel) = (var->(var.rel)))
+(((var + var) + var) in (var.rel))
+(fun_call[] = (fun_call[].rel))
+((var.rel) = ((var.rel).(TrafficLight/ordering/next[])))
+(((var.rel).(var.rel)) = (((var.rel).(var.rel)) - (var.rel)))
+(var + var).var
+var.(((var.rel).rel).rel)
+(var in (var.(^(rel + (~rel)))))
+(var = ((var.(var.({ var: (one ({ var: (one sig) {
+((0 <= var) && (var <= 1))
+} })),var: (one ({ var: (one sig) {
+((0 <= var) && (var <= 1))
+} })),var: (one fun_call[]) {
+
+} }))).((var.(var.({ var: (one ({ var: (one sig) {
+((0 <= var) && (var <= 1))
+} })),var: (one ({ var: (one sig) {
+((0 <= var) && (var <= 1))
+} })),var: (one fun_call[]) {
+
+} }))).({ var: (one ({ var: (one sig) {
+((0 <= var) && (var <= 1))
+} })),var: (one ({ var: (one sig) {
+((0 <= var) && (var <= 1))
+} })),var: (one (var + var)) {
+
+} }))))
+sig.(((sig.rel).var).rel)
+((#(fun_call[] :> sig)) = 2)
+(((var.rel).(ordering/first[])) = 0)
+var->(0.(var.rel))
+((var.rel) = (((var.rel) - var) - ((^rel).var)))
+(var in (((rel.var).(*(~rel))).rel))
+((rel.rel) = (sig <: iden))
+(var.var) + (var.var)
+(((var.(var.(var.rel))).(var.(var.rel))) in (var.((var.(var.(var.rel))).(var.rel))))
+(var in (((var.(ordering/next[])).(ordering/next[])).rel))
+#((var.(var.rel)) & (var.rel))
+(((sig.rel).fun_call[]) = 0)
+(({ var: (one ((fun_call[].rel).(var.(fun_call[].rel)))) {
+(var != var)
+} }) = sig)
+(some (var.((sig.rel).var)))
+((((var.rel).rel).var) = 0)
+((var.rel) = ((var.rel) + ((var.rel)->sig)))
+(((var.rel).var) + (var.(var.rel))) + ((var.(var.rel)).(var.rel))
+((var.rel) = (((var.rel) - sig) + sig))
+fun_call[].(ordering/next[])
+((sig.rel) + (sig.rel)) + sig
+((rel.var) = ((rel.var) - (var->sig)))
+(no (fun_call[] & (((fun_call[] + fun_call[]) + fun_call[]) + fun_call[])))
+((plus[(plus[(plus[(plus[(plus[(plus[(plus[(plus[(#((var.rel) & sig)), (#((var.rel) & sig))]), (#((var.rel) & sig))]), (#((var.rel) & sig))]), (#((var.rel) & sig))]), (#((var.rel) & sig))]), (#((var.rel) & sig))]), (#((var.rel) & sig))]), fun_call[]]) = (plus[(plus[(plus[(plus[(plus[(plus[(plus[(plus[(#((var.rel) & sig)), (#((var.rel) & sig))]), (#((var.rel) & sig))]), (#((var.rel) & sig))]), (#((var.rel) & sig))]), (#((var.rel) & sig))]), (#((var.rel) & sig))]), (#((var.rel) & sig))]), (#((var.rel) & sig))]))
+((var.rel) = ((var.rel) ++ ((0.((var.(var.rel)).rel))->sig)))
+((sig - var).rel).(var.rel)
+((var.rel) - var) <: (var.rel)
+(no ((^(var.(rel + rel))) & iden))
+((var.rel) - sig) - var
+var.((rel + rel) & (rel + rel))
+((((var.rel).rel).var) = ((((var.rel).rel).var) + var))
+(#({ var: (one ((var.rel).var)) {
+(((var.(var.rel)) = sig) && ((var.(var.rel)) = sig))
+} })) + (#({ var: (one ((var.rel).var)) {
+(((var.(var.rel)) = sig) && ((var.(var.rel)) = sig))
+} }))
+((0.(var.rel)) in sig)
+(fun_call[] = (#(((var.rel).rel).var)))
+((((var.rel).rel) & sig) != (((var.rel).rel) & sig))
+((var->var) in ((iden + (^fun_call[])) + (^(~fun_call[]))))
+(lone (var.(var.var)))
+(rel.var).(~(rel.var))
+(sig in ((((var.rel).rel) & (var.rel)).rel))
+(var in (var.((sig.rel).var)))
+(((var.rel) - var) !in ((var.rel) - var))
+(var in (~var))
+((ordering/last[]).(ordering/prev[])).rel
+(no ((^fun_call[]) & iden))
+(((((var.rel).var).rel).var) = (((((var.rel).var).rel).var) - var))
+((var.rel) = ((((var.rel) - (var->var)) - (var->var)) + (var->var)))
+(#({ var: (one ((fun_call[].rel).var)) {
+(((var.(fun_call[].rel)) = sig) && ((var.(fun_call[].rel)) = sig))
+} })) + (#({ var: (one ((fun_call[].rel).var)) {
+(((var.(fun_call[].rel)) = sig) && ((var.(fun_call[].rel)) = sig))
+} }))
+((var.rel) = ((((var.rel) + var) + var) + sig))
+(var != (var.(fun_call[].rel)))
+(var.var)->((var.var).var)
+(((var.rel) & ((var.rel).rel)) != sig)
+((var.rel) = (((var.rel).rel).rel))
+sig.(((rel & (sig->sig)).sig) <: rel)
+(((rel.((rel.var).(rel.var))).(rel.var)) = var)
+((var.(sig.rel)) = ({ var: (one sig) {
+((var->var) in (sig.rel))
+} }))
+((var.rel) = ((((var.rel) - (var->var)) - (var->(var.(var.rel)))) + (var->(var.(var.rel)))))
+(((var.(ordering/prev[])).rel).rel) + var
+((#(sig.rel)) = 0)
+(no (var.((sig.rel).var)))
+(((var.rel).rel) = 2)
+(((sig.rel).var) = (((sig.rel).var).((var.rel).var)))
+({ var: (one (var.rel)) {
+((var.rel) != var)
+} }) + ({ var: (one (var.rel)) {
+(((var.rel) = var) && ((var.rel) = -1) && (var in (var.rel)))
+} })
+((((var.rel).rel).var) = ((((var.rel).rel).var) - var))
+((var.rel) + var) - (var.rel)
+#((var.rel).(*rel))
+(some (((sig.rel).var).var))
+((#(((var.rel).sig).sig)) = (#(var.rel)))
+((var.rel) = ((var = (var.rel)) => (var.(var.rel)) else (var.rel)))
+(sig in (sig.(^var)))
+(({ var: (one ((var.rel).(var.(var.rel)))) {
+(var != var)
+} }) = sig)
+(var in (sig + fun_call[]))
+0.((ordering/first[]).rel)
+((var.rel) = "Night")
+sig & ((^rel).var)
+(var !in ((var.fun_call[]).(var.rel)))
+(var in (((sig.rel).var).var))
+(no ((sig.rel).(var.fun_call[])))
+(some (iden & (^fun_call[])))
+(((var.rel).(0.var)) = sig)
+(var + var) <: (rel.var)
+fun_call[].(var.((var.(var.rel)).rel))
+(lone sig)
+(var.(var.({ var: (one (0 + 1)),var: (one (0 + 1)),var: (one (var + var)) {
+
+} }))).({ var: (one (0 + 1)),var: (one (0 + 1)),var: (one fun_call[]) {
+
+} })
+(var in ((((var.rel).rel).rel).var))
+(var.var).((var.var).(var.rel))
+sig->0
+(((var.var) + (var.var)) = var)
+((fun_call[] + fun_call[]) = ((fun_call[] + fun_call[]) + var))
+(some (iden & (((fun_call[].(rel & (rel.(~rel)))).(var <: ((^rel) :> var))).(rel & (rel.(~rel))))))
+0->(var.rel)
+(((sig + sig) + sig) in (var.rel))
+(((var.rel).var) in (sig.(*fun_call[])))
+((var.rel) = ((var.rel) + (var->((var.(var.rel)).fun_call[]))))
+(var.rel) - (var->(sig->var))
+((sig->sig) in rel)
+((((var.var).rel).rel) = (((var.var).rel).rel))
+*((var.rel).(var.rel))
+((var.rel) = 12)
+((var.rel) = ((var.rel) ++ var))
+((2.var) = 1)
+(some (((var.rel).rel) & (var.rel)))
+(((((((((((((((((((((((((sig + sig) + sig) + sig) + sig) + sig) + sig) + sig) + sig) + sig) + sig) + sig) + sig) + sig) + sig) + sig) + sig) + sig) + sig) + sig) + sig) + sig) + sig) + sig) + sig) + sig) + sig
+(({ var: (one sig) {
+((var.var) != (var.var))
+} }) in var)
+((var->var) !in (rel + (~rel)))
+var.(^(rel + (~rel)))
+(var.rel).(rel.var)
+#((var.var).rel)
+(var.rel) + ((var.(var.rel))->var)
+fun_call[] - ((var.rel)->(var.rel))
+(((var.rel).var) in (var.(^rel)))
+((var.fun_call[]) = fun_call[])
+(var = (var ++ (var->var)))
+(one (((var.rel) + (var.rel)) + (var.rel)))
+var.(^(~rel))
+sig <: iden
+(var !in (((var.rel).var) + (var.(var.rel))))
+sig - ((((var.rel).var).rel).var)
+(fun_call[] in (iden :> var))
+(rel.var) - (var->(sig->sig))
+((var + var) + sig) + sig
+((#(var & (var.rel))) = 1)
+sig - (sig.((sig.rel).var))
+((((var.rel).rel) - (((var.rel).rel)->sig)) in ((var.rel).rel))
+(((var.rel).rel) in (sig.rel))
+(((sig->sig).var) = ((sig->sig).var))
+((#(var.(~rel))) = (#(var.(~rel))))
+var.((sig.rel).sig)
+#(((var.(*var)) & (var.rel)) & fun_call[])
+var & (rel.var)
+(var.rel) + (var->((var.(var.rel)).fun_call[]))
+#(fun_call[] - fun_call[])
+#(var.(^rel))
+((var.(var.rel)) = (((var.(var.rel)).sig)->sig))
+((var.(var.rel)) = (#((var.rel).(var.(var.rel)))))
+((var.rel) = (((var.rel) - (var->fun_call[])) + (var->fun_call[])))
+((var.rel) = ((var.rel).(*(var.rel))))
+(((((var.rel).var).rel).var) = ((var.rel).var))
+(rel = var)
+#(((var.rel).sig).sig)
+~(^fun_call[])
+(var.rel) - (sig->sig)
+((sig + sig) !in ((var.rel).(var.rel)))
+(no (sig.(var.rel)))
+(rel + rel) & (rel + rel)
+(var.rel) + (rel.var)
+(no ((var.rel).(var.((var.rel).var))))
+((var.rel) = ({ var: (one ((sig - sig) - sig)) {
+((var.rel) = ((var.rel).(sig.rel)))
+} }))
+3.(var.rel)
+((var.rel) + (sig->(var->var))) + (sig->(var->var))
+(rel.var).fun_call[]
+(var.sig) & sig
+(sig->(sig + sig)) + (sig->((sig + sig) + sig))
+(var in ((((var.(sig.rel)).rel).rel).(sig.rel)))
+(sig in ((ordering/last[]).rel))
+(fun_call[] in (fun_call[].sig))
+((#(fun_call[].rel)) = 0)
+((var.rel).var) + sig
+(var.(^rel)).rel
+(((((((((((((((((((((((sig + sig) + sig) + sig) + sig) + sig) + sig) + sig) + sig) + sig) + sig) + sig) + sig) + sig) + sig) + sig) + sig) + sig) + sig) + sig) + sig) + sig) + sig) + sig) + sig
+((var.rel) = (((var.rel) - var) - sig))
+(((var.rel).var) !in sig)
+(^(fun_call[] + fun_call[])) & iden
+fun_call[].(rel & (rel.(~rel)))
+(((var.rel).rel) = (((var.rel).rel) + (var->var)))
+(var = (((var + var) + var) + var))
+(((var.rel).var) = (fun_call[] + var))
+((var.rel) in ((var.rel) + sig))
+((var.rel) in ((var.rel).(var.rel)))
+((var.rel) - sig) + sig
+((rel.var) + (var->var)).(~(rel.var))
+(sig.rel) + sig
+sig - (rel.var)
+(((((((((((((sig + sig) + sig) + sig) + sig) + sig) + sig) + sig) + sig) + sig) + sig) + sig) + sig) + sig) + sig
+(~(var.rel)).(var.rel)
+3->2
+(no ((rel - iden).var))
+((((((((((((((((((((((((((sig + sig) + sig) + sig) + sig) + sig) + sig) + sig) + sig) + sig) + sig) + sig) + sig) + sig) + sig) + sig) + sig) + sig) + sig) + sig) + sig) + sig) + sig) + sig) + sig) + sig) + sig) + sig
+((var.(var.({ var: (one (0 + 1)),var: (one (0 + 1)),var: (one fun_call[]) {
+
+} }))).({ var: (one (0 + 1)),var: (one fun_call[]) {
+
+} })).((var.(var.({ var: (one (0 + 1)),var: (one (0 + 1)),var: (one (var + var)) {
+
+} }))).({ var: (one (0 + 1)),var: (one (0 + 1)),var: (one fun_call[]) {
+
+} }))
+(some ((rel.var) & (rel.var)))
+0->sig
+((((var.(ordering/next[])).rel).rel) = ((var.rel).rel))
+(sig = ((sig + sig) + sig))
+var.({ var: (one (0 + 1)),var: (one (0 + 1)),var: (one (((var.(var.({ var: (one (0 + 1)),var: (one (0 + 1)),var: (one fun_call[]) {
+
+} }))).({ var: (one (0 + 1)),var: (one fun_call[]) {
+
+} })).((var.(var.({ var: (one (0 + 1)),var: (one (0 + 1)),var: (one (var + var)) {
+
+} }))).({ var: (one (0 + 1)),var: (one (0 + 1)),var: (one fun_call[]) {
+
+} })))) {
+
+} })
+((var.rel) = ((var.rel) ++ (var <: (var.rel))))
+
+hits: 1 (9.57450882769714E-4)
+1->-1
+((((var.rel).rel).rel) != (((var.rel).rel).rel))
+(var.rel) & ((var.rel)->(var.rel))
+((#((var.(var.rel)) & (var.rel))) = 0)
+((4.var) = 2)
+(var in (((var + (var.rel)) + fun_call[]) + ({ var: (one sig) {
+(some var: (one (var.rel)) {
+(var in fun_call[])
+})
+} })))
+((var.rel) = ((var.rel) - ((var.rel)->((var.rel).(var.rel)))))
+(((~var).var) in fun_call[])
+((var.rel) = "add")
+(((sig.rel).var) = (0->(ordering/first[])))
+(var in ((var.rel).(var.(ordering/next[]))))
+(some (fun_call[] & (sig - ({ var: (one sig) {
+(some var: (one sig) {
+(((var.rel) = var) && (((var.rel).rel) != ((var.rel).rel)))
+})
+} }))))
+(sig.((var.rel).var)) + (sig.((var.rel).var))
+(lone ((var->(var->sig)) & var))
+(rel.var) + (var->(var->(((var + var) + var) + var)))
+(sig = (var + (var.rel)))
+((1.(var.rel)) = sig)
+((#((var.(var.rel)) & (var.rel))) != 1)
+(one ((rel.rel).var))
+((var.rel) = ((var.var).rel))
+(rel in iden)
+((rel.var) + (var->((var.rel).var))) - (var->((var.rel).var))
+(no ((sig.rel).((var.fun_call[]).fun_call[])))
+(var.rel).(*(ordering/prev[]))
+(var.(var.rel)) + ((var.(var.rel)).(var.rel))
+(iden + (var.rel)).(iden + (var.rel))
+(some (rel & ((~rel).rel)))
+(((var.fun_call[]).var) = (var.var))
+(var <: var).sig
+((var.rel) !in ((sig.rel).var))
+(var = (var ++ (var->((var.var) ++ (var->sig)))))
+(((var.((ordering/last[]).rel)).rel) = -1)
+(var in ((var.(sig + sig)) lone->(var.((sig + sig) + sig))))
+(((var.rel) & (var.rel)) in (var.rel))
+(((ordering/first[]).rel) = 0)
+(((var.rel).var) = (((fun_call[] - 1).((var.rel).var)).rel))
+(((sig.(rel.(KeyDistribution/Auth/ordering/first[]))).sig) in sig)
+((var.rel) = ((var.rel) ++ (var->((var.(var.rel)) + var))))
+(var.var)->sig
+((((var.rel).var).var) = (((var.rel).var).var))
+((((((sig.rel).var).rel).var) + ((((sig.rel).var).rel).var)) in ((sig.rel).var))
+var & (((fun_call[] + fun_call[]) + fun_call[]) + fun_call[])
+(fun_call[] = (((var.rel).var).rel))
+var.(^((rel - (sig->var)) - (var->sig)))
+(((var.rel).var) = (fun_call[].((var.rel).rel)))
+((((0->0) + (1->0)) + (2->0)) + (0->1)) + (1->1)
+(((var.rel).var) = ((((var.rel).var) + sig) + var))
+((fun_call[].rel) = 9)
+((sig->sig) in (sig.rel))
+((var.((var.rel).rel)) = var)
+#({ var: (one sig) {
+((var.rel) = var)
+} })
+((var.rel).(var.rel)).var
+(no (var <: (var.rel)))
+((var.rel) = ((var.rel) - ((var.(var.rel))->var)))
+((rel.var) - (var.rel)) - fun_call[]
+(var !in (var.(^(((var.rel) <: rel).(~((var.rel) <: rel))))))
+(no (sig - ((rel.var).sig)))
+((sig.(((rel & (sig->sig)).sig) <: rel)) in (sig.(((rel & (sig->sig)).sig) <: rel)))
+(var.rel) - ((var.rel)->sig)
+(((var.rel).var) != ((((var.rel).var).rel).rel))
+(no ((var.(rel.var)) & ((rel.var).rel)))
+(var.(^var)) & sig
+#(var.(*var))
+sig.(var.fun_call[])
+((var->var) in (*(var.(var.rel))))
+var->(((var + var) + var) + var)
+((var.(var.var)) = (var.(var.var)))
+(var.rel) + (sig - fun_call[])
+((var.(~rel)) = (var.rel))
+((0.var) = fun_call[])
+(((var.rel).var) = (((((var.rel).var) + ((var.rel).var)).rel).var))
+fun_call[].(*(var.(var.rel)))
+((var.rel).var) & (var.var)
+((((var.rel).rel).(ordering/first[])) = 0)
+(no ((sig + sig).var))
+sig - (var.(rel + rel))
+(var.(var.rel)) & ((sig + sig) + sig)
+#((var.rel) + var)
+((var.(var.(var.rel))) = ((var.(*((var.rel).(var.rel)))).(var.rel)))
+(({ var: (one ((var.rel).var)) {
+(not (some var: (one (var.(var.rel))) {
+(var in ((var.rel).var))
+}))
+} }) = sig)
+(no ((var.(^(~rel))) & fun_call[]))
+sig - (Channel/ordering/last[])
+(((sig.rel).var) = (0.((sig.rel).var)))
+((#rel) = 8)
+var->((fun_call[].var).rel)
+var.(((sig + sig) + sig) + sig)
+((var.rel) in ((sig->sig) - (~(var.rel))))
+((var.rel) = (((var.rel) + var) - fun_call[]))
+((var.rel) in ((((var.rel).rel).rel).(rel + rel)))
+((var.sig) in (var.sig))
+((rel.var) = (((rel.var) + var) + (((rel.var).var) - var)))
+(one (((var.rel).var) & (rel.var)))
+(var = ((var.(rel + rel)).rel))
+rel & ((sig->sig) + (sig->sig))
+((var.(var.rel)) - sig) - sig
+(((((var.rel).var).rel).rel) = ((var.rel).var))
+((var.rel) = (((var.fun_call[]).rel) ++ ((var.rel)->(var.rel))))
+((iden + (var.rel)).(iden + (var.rel))).(iden + (var.rel))
+(((var.(var.var)).(var.var)) = var)
+(one (sig - sig))
+((#((((var + var) + var) + var).rel)) = 1)
+(((((var.rel).sig) - var) <: (var.rel)) + (var.rel)) + (var.rel)
+iden & (^(var.rel))
+((rel.var) = (((rel.var) - ((((((sig.rel).var).rel).var) + ((((sig.rel).var).rel).var))->var)) - ((((rel.var) + (rel.var)).((sig.rel).var))->var)))
+(no (var.(~var)))
+((var.rel).var)->var
+(((var.rel) + (var.rel)) !in sig)
+(no (rel.rel))
+(some (fun_call[] & (var.rel)))
+(var.(sig.rel)).(sig.rel)
+(var.(*rel)) & var
+(var !in (sig.(rel.var)))
+((((var.rel).var).rel) != var)
+((3.var) = 2)
+(var + (~var)) + (var <: iden)
+(sig - fun_call[]) - fun_call[]
+(((((((0->(var->sig)) + (0->(var->sig))) + (0->(var->sig))) + (1->(var->sig))) + (1->(var->sig))) + (1->(var->sig))) + (2->(var->sig))) + (2->(var->sig))
+(no (var & ((var.rel).rel)))
+((var = (sig.rel)) => sig else sig) + ((var = (sig.rel)) => sig else sig)
+(one ((var.rel).((var.rel).var)))
+((#({ var: (one sig),var: (one sig) {
+(((var in ((var.rel).rel)) && ((var.rel) >= var) && ((var.rel) <= var) && ((var.rel) >= var) && ((var.rel) <= var) && ((var.rel) = var)) || ((var.rel) = var))
+} })) = var)
+(((var.rel).rel) !in ((var.rel).(^(ordering/next[]))))
+(some ((sig.rel) & (sig.rel)))
+0->2
+#(((var.rel).var).rel)
+(var in (var.(sig.rel)))
+(rel.var) + (fun_call[].rel)
+rel.(KeyDistribution/Auth/ordering/first[])
+0->0
+(((ordering/first[]).rel) = (sig->0))
+((var.rel) = (fun_call[] <: (var.rel)))
+((var.rel) !in (fun_call[].rel))
+(sig - ({ var: (one sig) {
+(some var: (one sig) {
+(((var.rel) = var) && (((var.rel).rel) != ((var.rel).rel)))
+})
+} })) & var
+#({ var: (one sig) {
+((#fun_call[]) >= 2)
+} })
+^(var + rel)
+((3.var) = 4)
+iden & (^(fun_call[] + fun_call[]))
+((var->var) in ((var.((rel & rel) & rel)) & ((var.rel)->(var.rel))))
+(no (var & (((fun_call[] + fun_call[]) + fun_call[]) + fun_call[])))
+(((sig - ((sig.rel).var)) - ((sig.rel).var)) != sig)
+((var.rel) = (((var.rel) - var) - (var.(var.rel))))
+(no ((^(var + (var.rel))) & iden))
+(fun_call[] in ((var.fun_call[]).rel))
+((3.var) = 3)
+((var.rel).fun_call[]) <: rel
+((#((var.rel).(~rel))) = 1)
+((var.rel) = (((((((((((((((0->(var->sig)) + (0->(var->sig))) + (0->(var->sig))) + (1->(var->sig))) + (1->(var->sig))) + (1->(var->sig))) + (2->(var->sig))) + (2->(var->sig))) + (2->(var->sig))) + (3->(var->sig))) + (3->(var->sig))) + (3->(var->sig))) + (4->(var->sig))) + (4->(var->sig))) + (4->(var->sig))))
+(0->(var.rel)) + (1->(var.rel))
+((var.rel) = ((((var.rel).sig) - ((var.rel).sig)) <: (var.rel)))
+((#({ var: (one sig) {
+(var in (var.rel))
+} })) = (var.rel))
+((((var.rel).var).rel) != ((var.rel).var))
+((var.rel) = ((var.rel) - (((var + (var.(var.rel))).(var.rel))->var)))
+((sig.(var.rel)) = ((sig.(var.rel)) + ((var.rel).rel)))
+((#var) = 6)
+(some (((rel.var).sig) - ((rel.var).sig)))
+(((var.rel).rel) = -2)
+(((var.rel) + fun_call[]) in (var.rel))
+(var !in ((var.rel).(*rel)))
+((#(var.rel)) = 84)
+(var = ((var.var).var))
+(var.rel).((var.rel).(var.(var.rel)))
+(((var.rel).rel) = -3)
+(((var.rel).rel) = -1)
+((((var.rel).rel).rel) = ({ var: (one (((var.rel).rel).rel)) {
+(((var.rel) in ((var.rel) + (var.rel))) && pred_call[] && pred_call[])
+} }))
+var.(Channel/ordering/next[])
+((((sig - ((var.rel).var)).(var.rel)).var) = (((sig - ((var.rel).var)).(var.rel)).var))
+(({ var: (one ((fun_call[].rel).var)) {
+(not (some var: (one (var.(fun_call[].rel))) {
+(var in ((fun_call[].rel).var))
+}))
+} }) = sig)
+(var in ((var.rel) + (var.rel)))
+(((var.rel) <: (var.rel)) = (var.rel))
+((var.rel) = ((var.rel) - (var->(var->var))))
+((~var) !in var)
+(sig in (sig - (sig.(~rel))))
+((sig.rel) in ((var.rel).var))
+(var - ((var.var)->sig)) + ((var.var)->var)
+(some ((sig - ({ var: (one sig) {
+(some var: (one sig) {
+(((var.rel) = var) && (((var.rel).rel) != ((var.rel).rel)))
+})
+} })) & var))
+((var.rel) = ((var.rel)->var))
+((sig + sig) in var)
+(var in (((var.(var.rel)).var) & ((var.(var.rel)).var)))
+(((0->(var->sig)) + (0->(var->sig))) + (0->(var->sig))) + (1->(var->var))
+(no (((~rel).rel) - iden))
+((var.rel) = (((var->sig) + (var->sig)) + (var->sig)))
+4->var
+(((ordering/first[]).rel) = ((sig->0) ++ (var->1)))
+((0->1) + (1->-1)) + (2->0)
+(((var.rel) + (var.rel)) = (var.rel))
+(((((var.rel) & (rel.var)).rel).fun_call[]) = (var.rel))
+var + rel
+((PRIM/ordering/last[]).rel) - ((PRIM/ordering/last[]).rel)
+(sig + sig).var
+(no ((iden :> var) & var))
+((var.(var.rel)).var) & ((var.(var.rel)).var)
+((var.(var.rel)) = (fun_call[].fun_call[]))
+((((var.rel).var) + var) in ((var.rel).var))
+#((rel.var) :> sig)
+((#({ var: (one sig),var: (one sig) {
+((var in ((var.rel).rel)) && ((var.rel) = var))
+} })) = var)
+(some ((var.rel) - sig))
+fun_call[] + (fun_call[].fun_call[])
+(some (((var.(~rel)).(~rel)) & (var.rel)))
+(((var.(var.rel)).(var.rel)) != var)
+(sig & var) & (var.sig)
+var->(((((var.rel).var) + ((var.rel).var)).rel).var)
+((var.(ordering/next[])) != (ordering/last[]))
+#(fun_call[] & var)
+(one (var.(rel.var)))
+(sig in (sig.(~rel)))
+(var.var) - ((var.(~(rel.var))).(~rel))
+(fun_call[] in ((var.rel).sig))
+((var.var) & sig) - var
+((5.var) = 3)
+((var + var).rel).(KeyDistribution/Auth/ordering/first[])
+(no ((((var.rel).rel).(*rel)) & (((var.rel).rel).(*rel))))
+(((((var.rel).rel).rel).rel) = var)
+(one ((rel.var).rel))
+(fun_call[] in (var.(^var)))
+(sig in ((var.rel).sig))
+((var - sig) - var) - ((var - var).rel)
+(((var.rel).var) !in (var.rel))
+((var.rel) = (((((((((((((sig + sig) + sig) + sig) + sig) + sig) + sig) + sig) + sig) + sig) + sig) + sig) + sig) + sig))
+((var.(*rel)) = var)
+(no ((sig + sig) & (fun_call[] + fun_call[])))
+(fun_call[] != 0)
+var.(((var.rel).rel).(((var.rel).rel).rel))
+((var->var) in ((var.(rel - rel)) <: ((var.rel) :> (var.(rel - rel)))))
+((var & (~var)) in fun_call[])
+((4.(var.rel)) = sig)
+(var.rel).(^(ordering/next[]))
+((var.rel).rel) - (var->sig)
+(((var.rel).(var.fun_call[])) = (((var.rel).var) + var))
+var.(var.(sig.rel))
+sig - (fun_call[].(var.rel))
+((rel.var).sig) - ((rel.var).sig)
+(sig.rel) - var
+(fun_call[] - 1).((var.rel).var)
+(sig in ((var.(^rel)) + var))
+((var.rel) = (({ var: (one (var.rel)) {
+(((var.rel) != var) || ((var.rel) != var))
+} }) + ({ var: (one sig) {
+((((var.rel) = var) && ((var.rel) = -1) && ((var.rel) = var) && ((var.rel) = ({ var: (one sig) {
+((no (var.rel)) && (no (var.rel)) && ((var.rel) = -1) && ((var.rel) = var))
+} }))) || (some var: (one (var.rel)) {
+((((var.rel) = var) && (var !in ((var.rel).rel)) && ((var.rel) = ((var.rel) + ({ var: (one sig) {
+((no (var.rel)) && (no (var.rel)) && ((var.rel) = -1) && ((var.rel) = var))
+} })))) || (((var.rel) = var) && (var = var) && (var in ((var.rel).rel))))
+}))
+} })))
+((sig.rel) = ((sig->((sig + sig) + sig)) + (sig->sig)))
+((sig->sig) !in rel)
+(var in (((rel.var).var).sig))
+0->(ordering/first[])
+(rel.var) - (sig->var)
+#(((rel.((var.rel).rel)) - (var.rel)).rel)
+(((var.rel).rel) = (((var.rel).rel) - (var->sig)))
+var.(sig.var)
+((((0->(var->sig)) + (0->(var->sig))) + (0->(var->sig))) + (1->(var->sig))) + (1->(var->sig))
+(((ordering/last[]).rel) = (sig - sig))
+((((var.rel).rel).(~rel)) in (var.rel))
+(var in (fun_call[] + fun_call[]))
+((((sig.rel).rel).var) !in (sig.(sig.rel)))
+(var !in (var.(^(var - (var->var)))))
+(fun_call[].(((var.rel) + fun_call[]) + fun_call[])).fun_call[]
+(no ((sig.(var.rel)).var))
+(((var.rel).((var.rel).(var.(var.rel)))) = sig)
+((fun_call[] - 1).((var.rel).var)).rel
+((#((var.rel).rel)) = ((#((var.rel).rel)) + (#(var.rel))))
+(some (((var.rel).var) & ((fun_call[].rel).var)))
+((var.(var.rel)) != (var.rel))
+((rel.var) = ((rel.var) - (((*rel).var).rel)))
+(((var.rel) - iden) in ((var.rel) + (~(var.rel))))
+(((var.(var.rel)) - (var.(var.rel))) = (var + var))
+(some (((var.rel) + var) - (var.rel)))
+(((fun_call[] & sig) & (var.rel)) in fun_call[])
+var.((sig->sig) + (sig->sig))
+(no (fun_call[].rel))
+(var.rel) + ({ var: (one ((var.rel).(var.rel))),var: (one sig) {
+
+} })
+((((var.rel).rel) - (rel.sig)) = (((var.rel).rel) - (rel.sig)))
+(var in (sig->(sig - sig)))
+sig->(var->sig)
+(no (var.(rel & rel)))
+(sig in (((fun_call[] + var) - var).rel))
+^(var + (var.rel))
+(((var.(rel.var)).rel) = ({ var: (one sig),var: (one sig) {
+(some var: (one ((rel.var) & ((rel.var).(*rel)))) {
+((var = (var.((rel.var) + rel))) && (var = (var.rel)))
+})
+} }))
+(((var.rel).(var.rel)) = 0)
+((((((0->0) + (1->0)) + (2->0)) + (0->1)) + (1->1)) + (2->1)) + (0->2)
+(var in (var.((rel + rel) + rel)))
+(((sig.rel).var) = (((sig.rel).var) + ((sig.rel).var)))
+var->(var->(((var + var) + var) + var))
+(((sig - var) <: (var.rel)) = ((sig - var) <: (var.rel)))
+(((ordering/last[]).rel) = 4)
+(var.(var.fun_call[])).var
+sig.(((((rel + rel) + rel) + rel) + rel) + rel)
+((((((((((((0->(var->sig)) + (0->(var->sig))) + (0->(var->sig))) + (1->(var->sig))) + (1->(var->sig))) + (1->(var->sig))) + (2->(var->sig))) + (2->(var->sig))) + (2->(var->sig))) + (3->(var->sig))) + (3->(var->sig))) + (3->(var->sig))) + (4->(var->sig))
+(var in ((sig + sig) lone->(sig + sig)))
+(((var.rel).rel) in (sig - var))
+(var.rel).(^fun_call[])
+((var.rel) = (var + 1))
+(var.rel) - ((sig.rel).var)
+(((fun_call[].rel).(var.(fun_call[].rel))) = sig)
+(sig & sig).rel
+(rel = (((sig->(sig->sig)) + (sig->(sig->sig))) + (sig->(sig->sig))))
+((var.rel) = (((((var.rel) + ({ var: (one ((var.rel).(var.rel))),var: (one sig) {
+
+} })) + ({ var: (one ((var.rel).rel)),var: (one sig) {
+(some var: (one sig) {
+((var in ((var.rel).(var.rel))) && (var in fun_call[]))
+})
+} })) + ({ var: (one ((var.rel).(var.rel))),var: (one sig) {
+
+} })) + ({ var: (one ((var.rel).(var.rel))),var: (one sig) {
+
+} })))
+((var.rel) = (var->(sig - (var.(var.rel)))))
+(KRUSKAL/ordering/first[]).rel
+(((var.(var.rel)).(var.rel)) in (var.(var.rel)))
+(((var.(var.rel))->(var.(var.rel))) in fun_call[])
+((var.rel) = (((sig.rel).var).rel))
+((0->(1->var)) in (var.rel))
+((var.rel) = (((var.rel).fun_call[]).fun_call[]))
+((rel.var) = ((rel.var) + (var->((var.rel)->var))))
+(var.var).fun_call[]
+(((((((((((0->(var->sig)) + (0->(var->sig))) + (0->(var->sig))) + (1->(var->sig))) + (1->(var->sig))) + (1->(var->sig))) + (2->(var->sig))) + (2->(var->sig))) + (2->(var->sig))) + (3->(var->sig))) + (3->(var->sig))) + (3->(var->sig))
+(({ var: (one (var.(fun_call[].rel))) {
+(not (some var: (one (var.(fun_call[].rel))) {
+(var in (var.(fun_call[].rel)))
+}))
+} }) = sig)
+(#var).var
+(((rel.var).rel) in (rel.var))
+(((var.rel).var) = ((((var.rel).rel).var).rel))
+(var = (#((((0->(var.rel)) + (1->(var.rel))) + (2->(var.rel))) & (((0->var) + (1->var)) + (2->var)))))
+(var.var).((var.var).fun_call[])
+((var.rel) + var) - var
+((var.rel) = ((((0->var) + (1->var)) + (2->var)) + (3->var)))
+var & (var.((sig->sig) + (sig->sig)))
+((((var.rel).var).var) = (var.rel))
+(((sig + sig) + sig) = sig)
+(var.(sig.rel)) - var
+((sig + var) in ((var.rel).var))
+(sig !in (var + var))
+((var.((var.(var.rel)).(var.rel))) = (var.rel))
+~(var + var)
+(var <: sig).rel
+(((ordering/last[]).rel) = 9)
+((var + var) = 0)
+(var != (ordering/first[]))
+(var.rel) - (sig->(sig.(~(var.rel))))
+((var->var) in (var.((rel + rel) + rel)))
+var.((var.fun_call[]).(var.rel))
+((((sig.(sig.rel)).rel).rel) = (sig + sig))
+(var.(var.rel)) & ((rel.sig).var)
+(lone ((sig->(var->var)) & var))
+(((var.rel).var) + sig) + var
+((var.rel) = ({ var: (one sig) {
+((no (var.rel)) && (no (var.rel)) && ((var.rel) = -1) && ((var.rel) = var))
+} }))
+var->(sig->(sig->sig))
+(((KRUSKAL/ordering/last[]).rel) = ((PRIM/ordering/last[]).rel))
+(((((0->0) + (1->0)) + (2->0)) + (0->1)) + (1->1)) + (2->1)
+(var = (var->var))
+(some (fun_call[] - (var.rel)))
+((rel.var) = (((rel.var) - (var.rel)) - fun_call[]))
+((var.((sig.rel).var)) = (sig->sig))
+(((var.fun_call[]).var) in (var.var))
+((rel.var) = ((rel.var) + (var->(((((var.rel).var) + ((var.rel).var)).rel).var))))
+((var.rel) = ((var.rel) - (var->(sig->var))))
+(((var.rel).(var.(time/ordering/next[]))) = (((var.rel).var) + (var.rel)))
+((var->var) in (var.(rel & rel)))
+var <: ((sig.rel) - (var->var))
+(((rel.sig).(var.rel)) in sig)
+((var.rel) != 0)
+((#fun_call[]) = 4)
+(((0->1) + (1->-1)) + (2->0)) + (3->2)
+((0->(0->var)) in (var.rel))
+(some (((var + var).var) & (((sig + sig) <: rel).(var.rel))))
+((var.(var.rel)) != ((var.(var.rel)).(var.rel)))
+(one ((var.(var.rel)) & ((rel.sig).var)))
+(((0->0) + (1->0)) + (2->0)) + (0->1)
+rel & (sig->fun_call[])
+((fun_call[].rel).var).(fun_call[].rel)
+((3.(var.rel)) in sig)
+((var.rel) in ((var.rel).(~rel)))
+((var.(ordering/next[])) in (var.rel))
+(((sig.rel).var) = (((sig.rel).var) ++ ((var.rel).var)))
+((var.rel) = ((var.rel) + (((var.rel).rel) & sig)))
+(((fun_call[] - ((var.rel)->(var.rel))) - (var.rel)) in (fun_call[] + (~fun_call[])))
+((var + var) in fun_call[])
+(var = 3)
+(sig in (sig.(*(~(var.rel)))))
+var.((var.var).(var.rel))
+((rel.sig) in (rel.sig))
+fun_call[]->sig
+(var.(^rel)) & sig
+((var.(^rel)).rel) & (rel.var)
+(var & (sig + sig)).rel
+((var.(var.((var.(var.rel)).rel))) = fun_call[])
+(var - var).rel
+(((sig.rel).var) in (rel.var))
+((sig.rel) in ((sig.rel).rel))
+((0.((var.(var.rel)).rel)) !in (var.rel))
+((var.rel) = (((var.rel) + ((var.(var.rel))->var)) + (((var.(var.rel)).(var.rel))->var)))
+(var.(^rel)) + var
+(((((ordering/first[]).(ordering/next[])).(ordering/next[])).rel) = sig)
+(no (((var.rel).var) & ((var.rel).var)))
+(sig + sig) - var
+var.(var.(var.(sig.rel)))
+#(((var.rel).var) & (var.var))
+(var = (var ++ (var->((var.var) ++ (var->var)))))
+((var.rel) = "sub")
+(var.fun_call[]) & (var.fun_call[])
+(((var.rel).rel) = (((((((((0->0) + (1->0)) + (2->0)) + (0->1)) + (1->1)) + (2->1)) + (0->2)) + (1->2)) + (2->2)))
+((1.((var.(var.rel)).rel)) = var)
+(var + var) & fun_call[]
+iden & (^(rel.rel))
+(no (rel & (rel + rel)))
+~((var.rel) <: rel)
+~(var.(rel + rel))
+(fun_call[] + 1).((var.rel).var)
+((((0->(var->sig)) + (0->(var->sig))) + (0->(var->sig))) + (1->(var->var))) + (1->(var->sig))
+(sig = 7)
+(sig.(var.rel)) - (sig.(var.rel))
+#((var.var).(var.rel))
+(((((var.rel).var).rel).var) = (((var.rel).var).rel))
+((var.rel) - var) - fun_call[]
+(some ((var.rel).(var.rel)))
+(var in (sig lone->some sig))
+(fun_call[] in ((sig + sig) + sig))
+((rel.var) = ((rel.var) - (var.rel)))
+({ var: (one sig) {
+(all var: (one fun_call[]) {
+((var.rel) in ((var.rel).rel))
+})
+} }) & ({ var: (one sig) {
+pred_call[]
+} })
+(((var.rel).(var.rel)) in ((var.rel).(var.rel)))
+(sig - (fun_call[].rel)) + ((var.rel).rel)
+((var + var).var) & (((var.(sig + sig)) <: var).(var.var))
+(sig = (((((((sig + sig) + sig) + sig) + sig) + sig) + sig) + sig))
+((var.rel).var) - (sig + var)
+(var.rel) :> ({ var: (one sig) {
+((var.(fun_call[].(var.rel))) != var)
+} })
+(no ((var.rel) & fun_call[]))
+(rel.rel) & rel
+(((((((sig->sig) + (sig->sig)) + (sig->sig)) + (sig->sig)) + (sig->sig)) + (sig->sig)) + (sig->sig)) + (sig->sig)
+sig - (fun_call[] + (fun_call[].fun_call[]))
+((rel.var) = ((rel.var) - (var->(var.(rel.var)))))
+((var->(((sig <: var).rel)->((sig <: var).rel))) in (var.rel))
+(var in (((var.rel).(^fun_call[])) + (var.rel)))
+(var in ((rel.(~rel)) & (rel.(~rel))))
+(((((iden + (var.rel)).(iden + (var.rel))).(iden + (var.rel))).(iden + (var.rel))).(iden + (var.rel))).(iden + (var.rel))
+(sig = 2)
+(var.rel).((var.(var.rel)) & ((var.rel).sig))
+#(((sig.rel).var) & (((sig.rel).var) + ((sig.rel).var)))
+^(var + var)
+((var.var).rel) + fun_call[]
+var.(*((sig.rel) - (var->var)))
+((var.rel) - ((var.(var.rel))->var)) - ((var.(var.rel))->var)
+(((var.rel).var) + ((var.rel).var))->var
+(3->0) + (3->1)
+*((~(var.rel)).(~(var.rel)))
+((var.rel) = (((var.rel) - ((var.(var.rel))->var)) - (((var.(var.rel)).(var.rel))->var)))
+((rel.var) = ((rel.var) ++ (var->var)))
+((var <: rel).sig) & (sig + sig)
+(var = (var.((rel.var) + rel)))
+((((sig.rel) & sig).rel) + (((sig.rel) & sig).rel)) + ((((sig.rel) & sig).rel).rel)
+(((sig <: var).rel) = var)
+sig - (var + var)
+(rel.var) - (var->(var.(rel.var)))
+((1->(0->var)) in (var.rel))
+5->1
+(((((var->var) + (var->var)) + (var->var)) + (var->var)) + (var->var)) + (var->var)
+((#((rel.var) :> sig)) = 4)
+(sig !in ((sig.(sig.rel)).rel))
+((~(var->var)) in (^rel))
+(((((sig.rel).var).rel).var) = sig)
+(sig.(((((rel + rel) + rel) + rel) + rel) + rel)).var
+((*rel).var).rel
+(no ((~var).var))
+((var.rel) = (((var.rel) - (var->(var.(var.rel)))) + (var->((sig + sig) - var))))
+(some ({ var: (one fun_call[]) {
+pred_call[]
+} }))
+((var <: var).sig) & (var.(sig + sig))
+((sig->sig) in (var + (~var)))
+((fun_call[] - fun_call[]) = var)
+((var->var) in (^((var.rel).(var.rel))))
+#(var.(^(rel + rel)))
+(var in (var.((ordering/prev[]) + (ordering/next[]))))
+((var.rel) = ({ var: (one fun_call[]),var: (one fun_call[]),var: (one sig) {
+let var = ((var = 0) || (var = fun_call[]) || (var = 0) || (var = fun_call[])) {
+(var = (var => (var.(var.(var.rel))) else fun_call[]))
+}
+} }))
+((((((1.(sig.rel)) + (2.(sig.rel))) + (1.(sig.rel))) + (1.(sig.rel))) + (0.(sig.rel))) + (1.(sig.rel))) + (0.(sig.rel))
+(sig in (sig.(*rel)))
+((((((~fun_call[]).fun_call[]).fun_call[]).fun_call[]).(~fun_call[])) in (fun_call[].fun_call[]))
+(0->1) + (1->-1)
+((2.((var.(var.rel)).rel)) = var)
+var + (ordering/prevs[var])
+(rel = (sig->sig))
+(((var.rel).var) != (var.rel))
+(no ((sig.var) & sig))
+((#((ordering/last[]).rel)) = 3)
+((var.((var.rel).rel)) = (var.((var.rel).rel)))
+((0->(var.rel)) + (1->(var.rel))) + (2->(var.rel))
+(some ((rel.sig) & (rel.sig)))
+((rel.var) = ((((rel.var) - ((var.(*rel)).rel)) - ((rel.(*rel)).(var.rel))) + fun_call[]))
+fun_call[].(((var.rel) + fun_call[]) + fun_call[])
+sig.((rel + rel) + rel)
+((var.(var.(var.rel))) = var)
+((var.rel).rel) + ({ var: (one sig) {
+((var in (var.rel)) && ((var.rel) = ((var.rel).rel)) && ((var.rel) != (var.rel)))
+} })
+((fun_call[].rel).var) + ((fun_call[].rel).var)
+(fun_call[] = (sig->sig))
+(var.rel) - (((var + (var.(var.rel))).(var.rel))->var)
+(var in (((((sig.rel) & sig).rel) + (((sig.rel) & sig).rel)) + ((((sig.rel) & sig).rel).rel)))
+((var.rel) + var) - fun_call[]
+(var !in (((var.rel).(^(var.rel))) + (var.rel)))
+(((var in var) => sig else sig) + ((var in var) => sig else sig)) + ((var in var) => sig else sig)
+((sig + sig) + sig)->0
+((rel.var) = ((rel.var) - (var->((var.rel).var))))
+((var.(var.(var.rel))) = (0.(var.((0.(var.rel)).rel))))
+(var != 1)
+((#({ var: (one ((var.rel).(*rel))) {
+(var in (var.rel))
+} })) = var)
+(((sig.rel).var) = (((fun_call[] + fun_call[]) + fun_call[]) + fun_call[]))
+((var.(var.rel)).(*((var.rel).(var.rel)))).(var.rel)
+(((((((0->(var->sig)) + (0->(var->sig))) + (0->(var->sig))) + (1->(var->var))) + (1->(var->sig))) + (1->(var->sig))) + (2->(var->var))) + (2->(var->var))
+(some (sig - (sig.rel)))
+(var in (((var.(var.rel)).(*((var.rel).(var.rel)))).(var.rel)))
+rel & ((~rel).rel)
+((rel.var) - var) + var
+((((((((0->0) + (1->0)) + (2->0)) + (0->1)) + (1->1)) + (2->1)) + (0->2)) + (1->2)) + (2->2)
+((var.(*fun_call[])) - sig) - sig
+((sig.rel) != sig)
+(fun_call[] - ((var.rel)->(var.rel))) - (var.rel)
+(((var.rel).var) = (((var.rel).var) + sig))
+((var.rel) = ((var.rel) - ((var.rel)->sig)))
+((var.rel) = (fun_call[]->(fun_call[]->sig)))
+(((fun_call[].fun_call[]).(~fun_call[])) in (fun_call[].fun_call[]))
+(fun_call[].fun_call[]).fun_call[]
+(var = (((var - var) - var) - sig))
+((#((sig.rel).var)) = (#(((sig.rel).var) & (((sig.rel).var) + ((sig.rel).var)))))
+(fun_call[] - var) - var
+((((((((0->(var->sig)) + (0->(var->sig))) + (0->(var->sig))) + (1->(var->var))) + (1->(var->sig))) + (1->(var->sig))) + (2->(var->var))) + (2->(var->var))) + (2->(var->sig))
+((var.rel) = (sig - (var.(var.rel))))
+((rel.fun_call[]) in ((fun_call[].rel).fun_call[]))
+(sig.rel) - (sig.rel)
+(rel in var)
+((var.rel) = (((var.rel) - ({ var: (one sig),var: (one sig),var: (one sig) {
+pred_call[]
+} })) + ({ var: (one sig),var: (one sig),var: (one sig) {
+pred_call[]
+} })))
+(((var.rel) - sig) in ((var.rel).rel))
+(1.(sig.rel)) + (2.(sig.rel))
+(no ((var->(sig->(sig->sig))) & (var.rel)))
+((var.rel) !in (((sig.rel) + (sig.rel)) + sig))
+((#({ var: (one sig) {
+(sig in (var.rel))
+} })) = 3)
+(sig - ((sig.rel).var)) - ((sig.rel).var)
+((var.rel) = (((var.rel) + var) - var))
+#({ var: (one sig) {
+((ordering/lt[(var.rel),(var.rel)]) && ((var.rel) = var))
+} })
+(((var = (sig.rel)) => sig else sig) + ((var = (sig.rel)) => sig else sig)) + ((var = (sig.rel)) => sig else sig)
+((0->0) + (1->0)) + (2->0)
+((fun_call[].(var.rel)) = 0)
+(no ((sig.(rel + rel)).var))
+(((fun_call[].rel).((fun_call[].rel).var)) = sig)
+((var.var) in (sig lone->sig))
+(some (((var + var).var) & (((var.(sig + sig)) <: var).(var.var))))
+(((rel.var).var) in ((sig.rel).var))
+(var.(var.rel)) - ({ var: (one sig) {
+((var.(var.rel)) = (var.rel))
+} })
+(((sig.rel).var) = (((sig.rel).var) - ((((var.rel).var).rel).var)))
+((#({ var: (one sig) {
+(sig in (var.rel))
+} })) = 1)
+((var.rel) = ((sig - var) <: (var.rel)))
+(((var.rel).var) != (sig.rel))
+(((((0->1) + (1->-1)) + (2->0)) + (3->2)) + (4->-1)) + (5->1)
+(var = (#((((var = (sig.rel)) => sig else sig) + ((var = (sig.rel)) => sig else sig)) + ((var = (sig.rel)) => sig else sig))))
+rel - (var->var)
+(var in (sig - ({ var: (one sig) {
+(some var: (one sig) {
+(((var.rel) = var) && (((var.rel).rel) != ((var.rel).rel)))
+})
+} })))
+((#({ var: (one sig) {
+(sig in (var.rel))
+} })) = 2)
+(no (var & ((sig->sig) + (sig->sig))))
+(#((var.rel).rel)) + (#(var.rel))
+(((sig.rel).var) = (((sig.rel).var) ++ (var->(var.rel))))
+((rel.var) + (rel.var)).((sig.rel).var)
+(var.sig).var
+((var.rel) + fun_call[]) - var
+(((var.var).var) in (var.var))
+(var->sig) + (var->sig)
+((((var.rel) + ({ var: (one ((var.rel).(var.rel))),var: (one sig) {
+
+} })) + ({ var: (one ((var.rel).rel)),var: (one sig) {
+(some var: (one sig) {
+((var in ((var.rel).(var.rel))) && (var in fun_call[]))
+})
+} })) + ({ var: (one ((var.rel).(var.rel))),var: (one sig) {
+
+} })) + ({ var: (one ((var.rel).(var.rel))),var: (one sig) {
+
+} })
+((((((((0->(var->sig)) + (0->(var->sig))) + (0->(var->sig))) + (1->(var->sig))) + (1->(var->sig))) + (1->(var->sig))) + (2->(var->sig))) + (2->(var->sig))) + (2->(var->sig))
+-1 + 1
+(iden :> var) & var
+(no (((var.rel).rel) & ((var.rel).rel)))
+((var.rel) = ((var.rel) - (sig.(~(var.rel)))))
+(fun_call[] & (var.rel)) & ({ var: (one sig) {
+(some var: (one sig) {
+(((var.rel) = var) && (((var.rel).rel) != ((var.rel).rel)))
+})
+} })
+(no (sig - var))
+(var in ((sig.(rel + rel)) + ((rel + rel).sig)))
+(var.((sig + sig) + sig))->(var.((sig + sig) + sig))
+((var.rel).(~(var.rel))) & ((var.rel).(~(var.rel)))
+((var->var) in (rel.var))
+(((rel + rel) + rel) + rel) + rel
+((1.var) = 1)
+(var.(^rel)) + (var.(^(~rel)))
+^(((var.rel) <: rel).(~((var.rel) <: rel)))
+((var.(var.rel)) = ((var.(var.rel)) - ({ var: (one sig) {
+((var.(var.rel)) = (var.rel))
+} })))
+(((sig.rel) + (sig.rel)) = sig)
+((fun_call[] + var) - var).rel
+((*((var.rel) + (~(var.rel)))) = (sig->sig))
+((var.((var.rel).var)) = sig)
+(fun_call[] - fun_call[]).var
+(var in ((sig.(var.rel)).var))
+(var.(*rel)) + (var.(*(~rel)))
+(var = ((var > 0) => ((0.(var.rel)).rel) else 0))
+(((var.rel)->(var.rel)) in fun_call[])
+(((sig.rel).var) = (var->(sig->sig)))
+sig.(rel.(KeyDistribution/Auth/ordering/first[]))
+(var <: var).var
+(((sig.(~rel)).rel) in (sig.rel))
+rel - (var->sig)
+((((fun_call[].rel).(var.(fun_call[].rel))).(fun_call[].rel)) = sig)
+((#(sig.(~rel))) = 2)
+(((var.rel) + fun_call[]) + fun_call[]) + fun_call[]
+var->0
+((var.rel) + (var->(var.(var.rel)))) + (var->(var.(var.rel)))
+(no (sig & (((sig & sig).rel).rel)))
+((var.rel) in ((var.rel).var))
+(sig.var).var
+(no ((sig.var).var))
+((((sig <: var).rel)->(((sig <: var).rel)->((sig <: var).rel))) in (var.rel))
+(fun_call[] = 5)
+rel.(rel - rel)
+((var.rel) = ({ var: (one (var.rel)) {
+((var !in var) || (((var.rel).var) != sig))
+} }))
+(some (sig & (var.rel)))
+((sig.rel).var) & ((var.rel).var)
+((rel.var) - ((var.(*rel)).rel)) - ((rel.(*rel)).(var.rel))
+(fun_call[] = 6)
+((var.rel) + (var->var)) - (var->var)
+2->2
+2->1
+((^rel).var) & (rel.var)
+(((var.(ordering/next[])).rel) = ((var.rel) + var))
+((var.rel) + (var->var)) + ({ var: (one sig),var: (one sig) {
+((var = var) && (var in (var.rel)))
+} })
+((((ordering/first[]).(ordering/next[])).rel) = fun_call[])
+(rel.sig).(var.rel)
+(var - (var->sig)) + (var->((var.var).var))
+(fun_call[] = 4)
+((#((var.rel) & var)) = 0)
+var & ((sig->sig) + (sig->sig))
+((var.rel) = ({ var: (one sig) {
+(var in (var.rel))
+} }))
+(var.((sig.rel).var)).rel
+(var = (((var - sig) - var) - ((var - var).rel)))
+fun_call[] - 1
+((sig - var) = ((var.(^rel)) + (var.(^(~rel)))))
+var + (var.(var.rel))
+*(((var.rel) - (var.rel)) + (var.rel))
+((var.rel) = ((var.rel) + (((var.rel) - fun_call[])->var)))
+(fun_call[] = 9)
+(var.rel) - ((var->var) ++ ((0.((var.(var.rel)).rel))->var))
+(^(var + (var.rel))) & iden
+(some ((var.(~rel)).var))
+(some ((ordering/last[]).rel))
+4->-1
+(((sig.rel).rel) = sig)
+#((rel.var).var)
+((#(((((var.rel) & sig).rel).rel) & var)) = 0)
+((((var.rel).var).rel).var) + ((var.rel).var)
+(sig.(var.sig)) - (sig.(var.sig))
+sig - (sig.(*rel))
+((var - (var->(sig->sig))) = (var - (var->(sig->sig))))
+((sig.rel) = 100)
+(fun_call[] = 7)
+(var in ((var.(~rel)).(^rel)))
+((var.rel) + ((var.rel).sig)) + ((var.rel).sig)
+((var.rel) - var) - (var.(var.rel))
+(one ({ var: (one sig) {
+((var.rel) = sig)
+} }))
+((#(((var.rel) + (var.rel)).var)) = 0)
+((var.rel) in (((var.rel) & sig).rel))
+((((sig <: var).rel)->var) in (var.rel))
+(rel.var) - (var->((var.rel).var))
+(fun_call[] = 8)
+#({ var: (one (var.rel)) {
+let var = (var.(var.rel)) {
+(((var.rel) = var) && ((var.rel) = sig))
+}
+} })
+(fun_call[] = (plus[((minus[(var.rel), 1]) * fun_call[]), (var.rel)]))
+var->((var.var) ++ (var->sig))
+(((((((((0->(var->sig)) + (0->(var->sig))) + (0->(var->sig))) + (1->(var->var))) + (1->(var->sig))) + (1->(var->sig))) + (2->(var->var))) + (2->(var->var))) + (2->(var->sig))) + (3->(var->var))
+(fun_call[].fun_call[]) - fun_call[]
+#({ var: (one (var.rel)) {
+(some (var.(var.rel)))
+} })
+(fun_call[] = (fun_call[] - fun_call[]))
+(((ordering/first[]).rel) = (((sig + sig) + sig)->0))
+((#((var.rel) & sig)) = 4)
+((var.rel) = (((fun_call[] + fun_call[]) + fun_call[]) + fun_call[]))
+(no ((rel + rel) & (^(rel + rel))))
+((rel.var) != var)
+((sig <: var).rel)->(var->((sig <: var).rel))
+(var = ((var.(var.({ var: (one (0 + 1)),var: (one (0 + 1)),var: (one fun_call[]) {
+
+} }))).((var.(var.({ var: (one (0 + 1)),var: (one (0 + 1)),var: (one fun_call[]) {
+
+} }))).({ var: (one (0 + 1)),var: (one (0 + 1)),var: (one (var + var)) {
+
+} }))))
+((#((var.rel).var)) = (#((var.rel).var)))
+(var.(^(~rel))) & fun_call[]
+(var in (var.((var.fun_call[]).(var.rel))))
+((1->(1->var)) in (var.rel))
+(var in (var + (var.(^fun_call[]))))
+(((var.rel).(~(var.rel))) & ((var.rel).(~(var.rel)))) & ((var.rel)->(var.rel))
+(((var.rel).(var.(rel + rel))) in (var.rel))
+(var in (sig->(sig lone->sig)))
+(sig & (var.(sig + sig))) & var
+((var.rel) - fun_call[])->var
+#(var & var)
+(((var.var).rel) in (var.rel))
+(((fun_call[].(((var.rel) + fun_call[]) + fun_call[])).fun_call[]) & ((var.rel)->(var.rel))) - iden
+((rel - (var->var)) = var)
+(((var.rel).sig) != ((var.rel).rel))
+(var in (((var.rel).var).sig))
+((var.rel) = (((var.rel) - (var->(sig->var))) + (var->(sig->var))))
+(var = (^((var + var) + var)))
+(sig.var) & sig
+((var.rel) in (var.(var.rel)))
+((var.(((rel.var).rel).rel)) = fun_call[])
+#((var.(~(rel.var))) & (var.var))
+((var->(var.rel)) in (fun_call[].(var.rel)))
+(rel & (sig->fun_call[])).sig
+(no (((rel.var).rel) & var))
+(var in (((var.rel).(var.rel)).var))
+((var.(fun_call[].rel)) = (((var.(fun_call[].rel)).fun_call[]).fun_call[]))
+((var.rel).var).(*rel)
+((var.rel) != (~(var.rel)))
+((var->var) in ((sig.rel).var))
+((rel.var) !in (var.rel))
+(((var.rel).(var.(var.rel))) = sig)
+((#((var.rel) & sig)) = 5)
+(one (((sig.rel).var).var))
+(sig.(rel + rel)) + ((rel + rel).sig)
+((var.rel) in ((var.(var.rel)) + (var.((var.rel).rel))))
+(var.(rel - rel)) <: ((var.rel) :> (var.(rel - rel)))
+(var.(rel.var)) & ((rel.var).rel)
+((var - (var->sig)) = (var - (var->sig)))
+((rel.((var.rel).rel)) in (var.rel))
+(((iden + (var.rel)).(iden + (var.rel))).(iden + (var.rel))).(iden + (var.rel))
+(sig in ((*rel).sig))
+(var = ((sig + sig) + sig))
+(fun_call[] = ((sig.(rel + rel)).(var.rel)))
+sig & (var.(sig + sig))
+(var = (((((var + var) + var) + var) + var) + var))
+(*(((var.rel) - (var.rel)) + (var.rel))).(var.rel)
+((fun_call[].(((var.rel) + fun_call[]) + fun_call[])).fun_call[]) & ((var.rel)->(var.rel))
+((fun_call[] + fun_call[]) = fun_call[])
+(no ((^(var + rel)) & iden))
+(((var.rel).fun_call[]) = ((var.rel).var))
+var.(((((((((sig->sig) + (sig->sig)) + (sig->sig)) + (sig->sig)) + (sig->sig)) + (sig->sig)) + (sig->sig)) + (sig->sig)) + (sig->sig))
+#((fun_call[] & (var.var)) & var)
+(var in ((sig.rel).(ordering/first[])))
+((var.rel) = (((var.rel) - (var->(var.(var.rel)))) + (var->(var.rel))))
+^((var + var) + var)
+(((var.rel).var) = (((var.rel).var) - sig))
+((rel.var) in ((rel.var).sig))
+(var in (var.((sig + sig) + sig)))
+(^rel) & iden
+((var <: var) = (var <: var))
+(var = ({ var: (one sig) {
+(some var: (one sig),var: (one sig) {
+(((var->var) in (var.rel)) && ((var->(var->var)) in (var.rel)))
+})
+} }))
+var->((var.var).var)
+(fun_call[].rel) + fun_call[]
+(fun_call[] in (var.fun_call[]))
+(var.var)->var
+((((sig <: var).rel)->(var->((sig <: var).rel))) in (var.rel))
+(some (var & (var.rel)))
+(((0->(var->sig)) + (0->(var->sig))) + (0->(var->sig))) + (1->(var->sig))
+(sig in (sig - (sig.rel)))
+(no ((ordering/last[]).rel))
+(var.rel) - ({ var: (one sig),var: (one sig) {
+((var = var) && (var in (((var + (var.rel)) + fun_call[]) + ({ var: (one sig) {
+(some var: (one (var.rel)) {
+(var in fun_call[])
+})
+} }))))
+} })
+(sig->sig) - (~(var.rel))
+(no ((^var) & fun_call[]))
+((var.rel) = (var - (var.rel)))
+((var.rel) = ((var.rel) + ({ var: (one sig) {
+((no (var.rel)) && (no (var.rel)) && ((var.rel) = -1) && ((var.rel) = var))
+} })))
+(rel.var) & ((rel.var).(*rel))
+(var = (((var + var) + var) + sig))
+var->(((var.rel).rel)->var)
+(sig.(var.rel)) & (sig.(var.rel))
+(no ((var.rel).((var.rel).var)))
+(no ((var <: iden) & var))
+((rel.var) + (((rel.var).(^rel)).(rel.var))) + var
+(rel.sig) & (rel.sig)
+(((1.(sig.rel)) + (2.(sig.rel))) + (1.(sig.rel))) + (1.(sig.rel))
+1->(0->var)
+(((var.rel).rel) in fun_call[])
+((var.rel) = ((var.rel) ++ (var->(var.(var.rel)))))
+var->(sig - (var.(var.rel)))
+((rel.fun_call[]) in rel)
+((((var.rel).var) + ((var.rel).var)) = ((var.rel).var))
+(var.rel) + ({ var: (one sig),var: (one sig) {
+pred_call[]
+} })
+((var.rel).var) & (rel.var)
+((((var.rel).var).sig) in ((var.rel).var))
+(var != (var.fun_call[]))
+(some (var & (((sig - fun_call[]).rel).var)))
+((#(((var.(var.rel)) & ((var.rel).sig)) & ((var.rel).sig))) = (#(var.(var.rel))))
+(fun_call[] !in sig)
+(((var.rel).var) = (((var.rel).var) - ((var.rel).var)))
+(var !in (((var.rel).(var.rel)).(var.rel)))
+(((((((var->var) + (var->var)) + (var->var)) + (var->var)) + (var->var)) + (var->var)) in (^rel))
+(some ((var.rel).(ordering/last[])))
+((var.rel).var) - sig
+(one (var.fun_call[]))
+((var.rel) = "mul")
+((sig.(fun_call[].rel)) = (fun_call[].fun_call[]))
+(var.(*((var.rel).(var.rel)))).(var.rel)
+((fun_call[].(var.rel)) = ((fun_call[].(var.rel)) :> (sig - var)))
+((var.(fun_call[].rel)) in (var.(fun_call[].rel)))
+(fun_call[] in (fun_call[] & sig))
+((var->var) in (^(rel + (~rel))))
+(var in (var.(*(sig.(var.rel)))))
+(rel in (rel.(~rel)))
+(one ((var.rel).(var.rel)))
+#(sig & (var.rel))
+((var + (var.rel)) + fun_call[]) + ({ var: (one sig) {
+(some var: (one (var.rel)) {
+(var in fun_call[])
+})
+} })
+(((rel.var) + (rel.var)).var)->var
+(no (var & ((var.rel).var)))
+(((var.rel).(var.rel)) in (((var.rel).(var.rel)) + var))
+(((((var.rel).rel).rel).var) = fun_call[])
+((#var) = (#(var.(*var))))
+(var = (((var - var) - (sig.rel)) - (var.rel)))
+((var.rel).rel).(~rel)
+#({ var: (one ((var.rel).(*rel))) {
+(var in (var.rel))
+} })
+sig - (sig.(~rel))
+(var = (#({ var: (one fun_call[]) {
+(fun_call[] = 0)
+} })))
+(((((sig.rel).var).rel).var) !in (((sig.rel).var).sig))
+((var.(var.rel)) = (((var.rel) <: sig).rel))
+var - (var + var)
+((var.rel) in (KeyDistribution/Auth/ordering/nexts[(var.rel)]))
+(fun_call[] != (ordering/last[]))
+((var.rel) = ({ var: (one fun_call[]),var: (one fun_call[]),var: (one sig) {
+((some var: (one sig) {
+(((var.(var.rel)) <= var) && (var < (fun_call[].(var.rel))) && (var = (var.(var.rel))) && (var = (var.(var.rel))))
+}) || (var = sig))
+} }))
+((#(var & var)) = 1)
+(some (var.((var.rel).rel)))
+((var.rel) = ((((var.rel) - (var->sig)) + (var->var)) + (var->(var.(var.rel)))))
+((rel + (var->var)) = var)
+#(var.(((var.rel).rel).(((var.rel).rel).rel)))
+(var != (rel.var))
+((var - (var->(var->sig))) = (var - (var->(var->sig))))
+((sig.rel).var)->(var.((var.rel).var))
+((var.((sig.rel).var)).rel).var
+((#(sig.(var.rel))) = 2)
+(var.rel).(var.(ordering/next[]))
+(((var.rel).rel) in ((var.rel).(*(ordering/prev[]))))
+var + (var.(^fun_call[]))
+rel :> ((rel & (sig->fun_call[])).sig)
+((var.rel) !in ((var.rel).var))
+(var.rel).((var.rel).(var.rel))
+((var.rel) = ((var.rel) + (sig - fun_call[])))
+(sig.(sig.(var.rel))) + sig
+#(rel.rel)
+((#(var.rel)) = (var.rel))
+(((sig.(rel + rel)).(var.rel)) = fun_call[])
+((var + (~var)) + (var.var)) + (var.(~var))
+(((rel.var).var) = ((rel.var).var))
+(some ((var.rel) - ((sig.rel).var)))
+(some (var - sig))
+((rel.var) = (((rel.var) + (((rel.var).(^rel)).(rel.var))) + var))
+(var in ((((sig.rel).var).rel).var))
+(var !in (((var.rel).var).(var.rel)))
+(var = (fun_call[].fun_call[]))
+(var.rel).(var.(rel + rel))
+(var <: iden) & var
+(((var.rel).rel) in ((sig.rel).var))
+(((var.rel).var) = ((((var.rel).var).(var.rel)).var))
+(((var.rel).((var.rel).rel)) != (var.rel))
+(0 !in (sig.rel))
+((var.(sig.rel)) - var) + var
+((var.rel) = (((var.rel) - (var->var)) ++ (var->var)))
+((sig <: var).rel)->(((sig <: var).rel)->var)
+((var.rel) in (((var.rel).var) + ((var.rel).var)))
+((sig.rel).var) :> var
+((sig->(sig.(fun_call[].rel))) in (sig.rel))
+(fun_call[].fun_call[]).(~fun_call[])
+((var.(var.(var.rel))) in sig)
+((var.rel) in (((sig + sig) + sig) + sig))
+((var.rel) = ((var.rel) + (var->(sig->(sig - var)))))
+(((((var.rel).var).rel).var) = (sig - ((var.rel).var)))
+((var.rel).rel) + (var.rel)
+((var.var) = ((var.var) - (var.(~rel))))
+((0.var) = var)
+(some (((rel.var).var).sig))
+(rel.var) - (fun_call[] + var)
+(rel + rel) & (^(rel + rel))
+((rel.var).rel).rel
+(((var.rel).var) = ((var.rel).rel))
+(no ((var.(rel + rel)).var))
+rel & ((rel + rel) + rel)
+((var.rel).rel).(((var.rel).rel).rel)
+(sig = ((((((((((sig + sig) + sig) + sig) + sig) + sig) + sig) + sig) + sig) + sig) + sig))
+5.(var.rel)
+((var.(var.fun_call[])) in sig)
+(sig - sig).rel
+(fun_call[] = (fun_call[] * fun_call[]))
+(var !in ((((sig.rel).var).rel).var))
+sig - ((var.rel) + var)
+(var in ((fun_call[] & fun_call[]) & (var.(~rel))))
+((var.(var.(var.rel))) = ({ var: (one sig) {
+(all var: (one fun_call[]) {
+((var.(var.rel)) = (var.(var.rel)))
+})
+} }))
+(var in ((var->var)->one var))
+sig->(sig - var)
+var.(*((var.rel).(var.rel)))
+(var !in (rel.(var.fun_call[])))
+(((var.(var.rel)).rel) = var)
+(var.(*var)) <: var
+rel.(*rel)
+((var.rel) = (((var.rel) + (var->(var.(var.rel)))) + (var->(var.(var.rel)))))
+((#({ var: (one sig) {
+((var in (var.rel)) && ((var.rel) = var))
+} })) = 4)
+((var.rel).(KeyDistribution/Auth/ordering/next[])).(KeyDistribution/Auth/ordering/next[])
+((~rel).rel) - iden
+((#({ var: (one sig),var: (one sig) {
+((var in ((var.rel).rel)) && ((var.rel) >= var) && ((var.rel) <= var) && ((var.rel) >= var) && ((var.rel) <= var))
+} })) = var)
+(sig->(var->var)) & var
+(some ((sig.rel) - (sig.rel)))
+((var.rel) = ((((var.rel).rel) - (var.rel)) - var))
+((var.fun_call[]).rel).sig
+(*rel).var
+((var.rel) - (var->(var.(var.rel)))) + (var->((sig + sig) - var))
+((var.rel) + (var.rel)).var
+fun_call[] - (fun_call[].var)
+(((var.rel).rel) = (((var.rel).rel) ++ ((var.rel).rel)))
+(((((var.rel).var).rel).var) = (((((var.rel).var).(var.rel)).var).rel))
+(fun_call[] + var) - var
+((var.rel) = ((var.rel) :> ({ var: (one sig) {
+((var.(fun_call[].(var.rel))) != var)
+} })))
+(((var.rel).var) = ((some ((var.rel) - sig)) => sig else ((var.rel).var)))
+((~fun_call[]).fun_call[]).fun_call[]
+(var !in (var.(*(var.rel))))
+sig->(sig - sig)
+(((sig.rel).var) - var) - var
+sig - (var.(var.(var.rel)))
+(((((((0->0) + (1->0)) + (2->0)) + (0->1)) + (1->1)) + (2->1)) + (0->2)) + (1->2)
+(var.rel).(rel + rel)
+(some (rel - (var.rel)))
+((iden & (sig->sig)) in rel)
+(rel = (rel - (var->sig)))
+((var.(var.rel)).rel) + var
+fun_call[] + 1
+(some (((^rel).var) & (rel.var)))
+((#((var.rel).var)) = 2)
+(no (var & (var.((sig->sig) + (sig->sig)))))
+(no ((sig->sig) & ((var.rel)->(var.rel))))
+((var.rel) in ((var.rel).fun_call[]))
+(^(var + rel)) & iden
+(fun_call[] in ((var.rel).var))
+(((((0->(var->sig)) + (0->(var->sig))) + (0->(var->sig))) + (1->(var->sig))) + (1->(var->sig))) + (1->(var->sig))
+(((sig.rel).var) = (((sig.rel).var).rel))
+((var.rel).fun_call[]).fun_call[]
+((var.rel) - ({ var: (one sig),var: (one sig),var: (one sig) {
+pred_call[]
+} })) + ({ var: (one sig),var: (one sig),var: (one sig) {
+pred_call[]
+} })
+(PRIM/ordering/first[]).rel
+(((var.(sig.rel)).rel) = ((var.(sig.rel)).rel))
+(var !in (sig + sig))
+(var.(~rel)).(^rel)
+(some (sig - (sig.(*rel))))
+((var->(var->var)) in fun_call[])
+((((sig.(sig.rel)).rel).rel) = ((sig + sig) + sig))
+(var in (sig.(rel.var)))
+((var.rel) = ((((var.rel) <: (var.rel)) + ({ var: (one (var.rel)),var: (one ((var.rel).rel)) {
+(var in (var.(var.rel)))
+} })) + ({ var: (one (var.rel)),var: (one ((var.rel).rel)) {
+(some var: (one sig) {
+((var in (var.(var.rel))) && (var in fun_call[]))
+})
+} })))
+(fun_call[].rel).((fun_call[].rel).(var.(fun_call[].rel)))
+((var.rel).(^fun_call[])) + (var.rel)
+(var in (iden :> var))
+((var.rel) = 4)
+(no (iden & (^(var.rel))))
+(rel = ((rel + rel) + rel))
+((var.rel) = ((var.rel) ++ (var->(var->(var->var)))))
+(var in (fun_call[].(var.rel)))
+(var.((rel & rel) & rel)) & ((var.rel)->(var.rel))
+((var.rel) = (((var.rel) - ({ var: (one sig),var: (one sig) {
+((var = var) && (var in fun_call[]))
+} })) - (var->var)))
+(((var.rel).((var.rel).var)) = sig)
+((var.rel) = (((var.fun_call[]).rel).fun_call[]))
+((var.(fun_call[].(var.rel))) != var)
+(((((((((((((0->(var->sig)) + (0->(var->sig))) + (0->(var->sig))) + (1->(var->sig))) + (1->(var->sig))) + (1->(var->sig))) + (2->(var->sig))) + (2->(var->sig))) + (2->(var->sig))) + (3->(var->sig))) + (3->(var->sig))) + (3->(var->sig))) + (4->(var->sig))) + (4->(var->sig))
+((#((var.rel) & (var.rel))) != 0)
+(some (((var.rel) & sig) - sig))
+(var in (fun_call[] & sig))
+2->(var.rel)
+((rel.var) = ((rel.var) + (fun_call[].rel)))
+(((var.rel).rel) = (((3->0) + (3->1)) + (3->2)))
+(var.rel) - iden
+var - ((var.rel).rel)
+(rel.(~rel)) & (rel.(~rel))
+((rel.var) = (((rel.var) - var) + var))
+sig - (fun_call[].rel)
+((var.rel) = ((((((var.rel).sig) - var) <: (var.rel)) + (var.rel)) + (var.rel)))
+((var + var) in (var.sig))
+(((var.rel).var) = (((var.rel).rel).var))
+((var.rel).var) + (var->var)
+(var.(fun_call[].rel)).fun_call[]
+((((var.rel).rel).rel) = ((((var.rel).rel).rel).rel))
+sig.((sig.rel).rel)
+((~(rel.var)) in (rel.var))
+sig->(var + (var.rel))
+(rel.var) - (((*rel).var).rel)
+((var.(var.(var.rel))) != sig)
+((var.rel) - ({ var: (one sig),var: (one sig) {
+((var = var) && (var in fun_call[]))
+} })) - (var->var)
+(sig + sig) <: rel
+(some ((var.(var.rel)) & ((sig + sig) + sig)))
+#((((var + var) + var) + var).rel)
+((var.rel) = (((var.rel) - (var->var)) - (var->var)))
+(sig.(var.rel)) + ((var.rel).sig)
+((var.rel) = ((var.rel) + (var - (var.rel))))
+((((sig.(var.rel)).rel) + ((sig.(var.rel)).rel)) = (-1 + 1))
+(*fun_call[]) - iden
+(var.(var.({ var: (one (0 + 1)),var: (one (0 + 1)),var: (one fun_call[]) {
+
+} }))).((var.(var.({ var: (one (0 + 1)),var: (one (0 + 1)),var: (one fun_call[]) {
+
+} }))).({ var: (one (0 + 1)),var: (one (0 + 1)),var: (one (var + var)) {
+
+} }))
+((var.rel).(var.(var.rel))).(var.rel)
+((var.rel) = (((var.rel) - (var->sig)) + (var->var)))
+((#(sig.rel)) = 21)
+(((var.(var.rel)).(var.rel)) !in (var.rel))
+(var.rel) + (fun_call[]->(var.(var.rel)))
+(sig = (((sig.rel) + (sig.rel)) + sig))
+((var.var) in (sig + sig))
+(#((var.rel).rel)) - (#(((rel.((var.rel).rel)) - (var.rel)).rel))
+((iden :> var) in var)
+((var.(var.rel)) = (fun_call[].(((fun_call[].(var.rel)).rel).var)))
+(no ((rel.var).rel))
+(var in ((fun_call[].rel) & (var.(~rel))))
+sig->(sig.(fun_call[].rel))
+(sig->sig) + (var->var)
+(no (rel & rel))
+(((var.rel) - (sig->sig)) in (var.rel))
+((((sig.rel).var).rel).var) - ((((var.rel).var).rel).var)
+((#((sig.rel).(*rel))) = 5)
+((var.rel).rel) - (var.rel)
+((fun_call[] + ((var.fun_call[]).rel)) in fun_call[])
+(fun_call[] & fun_call[]) & (var.(~rel))
+(no (((var.rel).rel) & sig))
+(fun_call[] in (sig.(var.rel)))
+(some ({ var: (one ((var.rel).rel)) {
+(one var: (one sig) {
+((var.rel) = var)
+})
+} }))
+((var.rel).var) + (var.rel)
+(var in ((var.rel)->(var.rel)))
+(((var.rel).var) = ((((var.rel).var) ++ (((sig.rel).fun_call[])->(((sig.rel).fun_call[]).((var.rel).fun_call[])))) ++ (((sig.rel).fun_call[])->(((sig.rel).fun_call[]).((var.rel).fun_call[])))))
+(((sig.rel).var) = (rel.var))
+(some ((var.(^rel)) & sig))
+((var.rel) !in ((var.rel).(var.(time/ordering/next[]))))
+((var in var) => sig else sig) + ((var in var) => sig else sig)
+(~fun_call[]) + fun_call[]
+(var in ((((var.rel).rel).var).rel))
+(no ((var.rel).(((var + var).rel).(KeyDistribution/Auth/ordering/first[]))))
+(no (var & (((sig - var).rel).var)))
+(var = ((var.rel) - (var.rel)))
+((var.rel).rel) + ((var.rel).rel)
+((((iden + (var.rel)).(iden + (var.rel))).(iden + (var.rel))).(iden + (var.rel))).(iden + (var.rel))
+(((((var.rel).rel).rel).var) = ((((((var.rel).rel).rel).var) + var) - var))
+(((sig.rel).var) = ((((sig.rel).var) - var) - var))
+((var.rel) = (((((var + var) + var) + var) + var) + var))
+(((((var.rel).rel).rel).(rel + rel)) in (var.rel))
+0.((sig.rel).var)
+((var.rel) = ((KeyDistribution/Auth/ordering/first[]).(KeyDistribution/Auth/ordering/next[])))
+0->(0->var)
+((fun_call[].rel) = (0.var))
+(fun_call[] = ((var.var).rel))
+(sig->sig) & ((var.rel)->(var.rel))
+(*rel).sig
+((((fun_call[].(var.rel)).rel).var) = ((((fun_call[].(var.rel)).rel).var) ++ (fun_call[]->var)))
+(((fun_call[].fun_call[]).rel) = fun_call[])
+(rel.(~rel)) & (^((~fun_call[]) + fun_call[]))
+(no (((var.rel).rel).rel))
+(((var.rel).var).(var.rel)).sig
+(rel.rel).var
+(((~(var.rel)).(var.rel)) !in iden)
+((var.rel) in ((sig.(var.rel)).rel))
+((fun_call[].fun_call[]).fun_call[]) - ((~(var.rel)).var)
+((((((var.rel).var).rel).rel).rel) != (((var.rel).var).rel))
+var & (((sig - var).rel).var)
+(((var.rel).var) = (((fun_call[] + 1).((var.rel).var)).rel))
+(some (fun_call[] & fun_call[]))
+(some ((var.rel).fun_call[]))
+(rel.var)->var
+((var.fun_call[]) = (var.fun_call[]))
+var.(*(sig.(var.rel)))
+(var.rel) & (sig - (rel.var))
+((((sig.(var.rel)).rel) + ((sig.(var.rel)).rel)) = -2)
+(rel.var).(*rel)
+(var.var) - (var.(~rel))
+sig - ((var.rel).rel)
+((var.rel) = ((var.rel) ++ (var.rel)))
+((((sig - var).rel).(var.rel)) = (((sig - var).rel).(var.rel)))
+((var.(var.rel)).rel)->(var->((fun_call[].var).rel))
+(((var.rel).var) in (var.(^(rel.var))))
+((((((((sig->sig) + (sig->sig)) + (sig->sig)) + (sig->sig)) + (sig->sig)) + (sig->sig)) + (sig->sig)) + (sig->sig)) + (sig->sig)
+((var.rel) = ((var.rel) + (fun_call[]->(var.(var.rel)))))
+((0.((var.(var.rel)).rel)) = var)
+(rel.var).(^rel)
+#((var.rel) & (var.var))
+((ordering/next[]) = ((var->var) + (var->var)))
+(var->(var->sig)) & var
+(((rel.var) - ((var.(*rel)).rel)) - ((rel.(*rel)).(var.rel))) + fun_call[]
+(((rel.var).rel) = var)
+((sig & sig).rel).rel
+(var.(sig + sig)) <: var
+(var !in (var.(^(rel.var))))
+(no ((var.var) & fun_call[]))
+((^(var.rel)) = (sig->sig))
+(one ((var.(sig.rel)).var))
+((var.rel) = (((var->var) + (var->var)) + (var->var)))
+(((sig.rel).var).rel).(((sig.rel).var).rel)
+fun_call[]->(var.(var.rel))
+(((var.rel).(ordering/first[])) = (sig.rel))
+(some (var & var))
+(({ var: (one sig) {
+(some var: (one sig) {
+(((var.rel) = var) && (((var.rel).rel) != ((var.rel).rel)))
+})
+} }) in (var.rel))
+((((sig + sig) + sig) + sig) in (((sig + sig).rel).var))
+((var.rel) = ((var.rel) - ({ var: (one sig),var: (one sig) {
+((var = var) && (var in (fun_call[] + var)))
+} })))
+(var in (var.(fun_call[].rel)))
+(((var.((ordering/last[]).rel)).rel) = 2)
+(no (rel & ((rel + rel) + rel)))
+(one (sig.(var.rel)))
+((var.(fun_call[].rel)) = 1)
+#((((var in var) => sig else sig) + ((var in var) => sig else sig)) + ((var in var) => sig else sig))
+(((var.(var.fun_call[])).var) = ((var.var).((var.var).fun_call[])))
+((#(rel.var)) = (#(rel.var)))
+(var in (var + var))
+var.(((rel.var).rel).rel)
+((var.rel) - (var->(var.(var.rel)))) + (var->(var.rel))
+(((var.rel).(var.fun_call[])) = (((var.rel).var) - var))
+rel + (var->var)
+((var.(var.rel)) = ((var.rel).(var.rel)))
+(((var.(var.var)).(var.var)) = (var.((var.(var.var)).var)))
+#((var.(^fun_call[])) & (var.(^fun_call[])))
+(var in ((sig->sig)->one sig))
+((var->(((var.rel).rel)->var)) in rel)
+(((((((((((0->(var->sig)) + (0->(var->sig))) + (0->(var->sig))) + (1->(var->var))) + (1->(var->sig))) + (1->(var->sig))) + (2->(var->var))) + (2->(var->var))) + (2->(var->sig))) + (3->(var->var))) + (3->(var->var))) + (3->(var->var))
+((var.rel) = (sig - sig))
+((var.rel)->(var.rel)) - var
+(sig in ((var.rel).var))
+((#(var.(~rel))) != 0)
+#(((sig.rel).var) - (sig & ((fun_call[].rel).var)))
+(var in (((sig.(var.rel)).var) & ((sig.(var.rel)).var)))
+(var.rel) + ((var.rel).sig)
+(some (sig & (var.(^rel))))
+((var.rel) in (fun_call[].fun_call[]))
+(var in (sig.(~rel)))
+((sig.((var.rel).var)) + (sig.((var.rel).var))) + ((var.rel).rel)
+((var - var) != var)
+(var = (((var - ((var.var)->sig)) + ((var.var)->var)) ++ ((((var.var).var) = var) => ((var.var)->(var.var)) else ((var.var)->((var.var).var)))))
+(((var.rel).fun_call[]) in fun_call[])
+(var in (var.(*(var.rel))))
+sig - ((rel.var).sig)
+(((var.(ordering/next[])).(ordering/next[])) in (var.rel))
+((var.(fun_call[].rel)) = 0)
+((var.rel) & sig) - sig
+((var.rel) + fun_call[]) + (var.rel)
+(some (var.(var + var)))
+((#((var.rel).rel)) = (var.rel))
+(((sig.(var.rel)) + ((var.rel).sig)) in (var.rel))
+((var.rel) = (var + (var.rel)))
+((var->(var->var)) in (((PRIM/ordering/last[]).rel) - ((PRIM/ordering/last[]).rel)))
+(var !in ((sig.rel).rel))
+((var.rel) = ((((sig.rel).var).rel).rel))
+(((ordering/first[]).(ordering/next[])).(ordering/next[])).rel
+(((var.rel) - (var->sig)) + (var->var)) + (var->(var.(var.rel)))
+(some ((rel.var).var))
+(var->(sig->(sig->sig))) & (var.rel)
+(no (((var & (sig + sig)).rel) & sig))
+((fun_call[].rel) in fun_call[])
+rel & ((rel.(~rel)) & (sig->sig))
+(no (var & (((rel.var).rel).var)))
+((rel.var) in (sig->(sig->sig)))
+(var.sig) - 0
+(((var.rel).sig) in (var.rel))
+((var.(~rel)) in var)
+((var.rel) = (((var.rel) + (var.rel)) - (var.rel)))
+1 + 2
+(no ((var.(*rel)) & var))
+var->(sig->(sig - var))
+(some (((rel.var) & (fun_call[].var)) & ({ var: (one sig) {
+(all var: (one fun_call[]) {
+((var.rel) in ((var.rel).rel))
+})
+} })))
+((((var.rel).(var.(var.rel))).(var.rel)) = sig)
+((rel.var) + (rel.var)).var
+((rel.var) = ((rel.var) ++ ((rel.var)->var)))
+((var.(var.(var.rel))) = ({ var: (one sig) {
+((some ((var.rel).sig)) && (all var: (one fun_call[]) {
+(((var.(var.rel)) = (var.(var.rel))) && (fun_call[] = fun_call[]) && (var in (var.(var.(var.rel)))))
+}))
+} }))
+(((var.rel).sig) - ((var.rel).sig)) <: (var.rel)
+(var in ((sig.rel).(*(rel + rel))))
+(((var.var)->(var.var)) in var)
+(no (var.(var.fun_call[])))
+(((sig.rel).var) = (((sig.rel).var) + (var.rel)))
+((var.rel) = "General Ward")
+(no ((fun_call[].fun_call[]) - fun_call[]))
+((sig.rel).var) & (((sig.rel).var) + ((sig.rel).var))
+rel - (var.rel)
+#({ var: (one sig) {
+(some var: (one sig) {
+((var in ((var.rel).rel)) && (var in (var.(var.rel))))
+})
+} })
+(~(var.rel)).(~(var.rel))
+(var.(var.rel)) - sig
+((var.fun_call[]).rel).fun_call[]
+(sig.rel).((var.fun_call[]).fun_call[])
+(((var.(ordering/next[])).rel) = ((var.rel) - var))
+(((sig.(var.rel)) - (sig.(var.rel))) = var)
+((var.rel) !in ((var.(^rel)).rel))
+(var = ((var.rel).(var.(var.rel))))
+((var.rel) + (var.rel)) - (var.rel)
+(((var.rel).((var.rel).(KeyDistribution/Auth/ordering/first[]))) != ((var.rel).((var.rel).(KeyDistribution/Auth/ordering/first[]))))
+((var.((var.var).(var.rel))) = var)
+(var !in (var.(^(var.rel))))
+(some (var & ((var.rel).rel)))
+((var.rel) = (((((0->var) + (1->var)) + (2->var)) + (3->var)) + (4->var)))
+((fun_call[].rel).var) - (((fun_call[].rel).var) + var)
+((var->var) in ((((((iden + (var.rel)).(iden + (var.rel))).(iden + (var.rel))).(iden + (var.rel))).(iden + (var.rel))).(iden + (var.rel))))
+(((((sig.rel).var).rel).var) = (((((sig.rel).var).rel).var) - ((((var.rel).var).rel).var)))
+((rel.var).(^rel)).(rel.var)
+(((var.(rel + rel)).var) = sig)
+((var.rel) !in ((sig - var).rel))
+((var.rel) = ((var.(sig.rel)).(sig.rel)))
+((var.rel) = ((var.rel) - (sig->(sig.(~(var.rel))))))
+((rel.(rel - rel)) in rel)
+(sig.(var.rel)) & ((var.rel).rel)
+(one ((var - var).var))
+4.var
+fun_call[] + ((var.fun_call[]).rel)
+(sig + sig)->(sig + sig)
+var - ((sig.rel).rel)
+(rel in rel)
+var.(^(var - (var->var)))
+2.(sig.rel)
+(var in (((sig.rel).rel) & (var.(~rel))))
+((var.rel) = ((var.rel) ++ (var->(var ++ (var->(var.rel))))))
+((((1.(sig.rel)) + (2.(sig.rel))) + (1.(sig.rel))) + (1.(sig.rel))) + (0.(sig.rel))
+((((var.rel).rel).(ordering/first[])) = sig)
+(((var.rel)->sig) = ((var.rel)->sig))
+((#((var.(~(rel.var))).(~rel))) = 0)
+((((((((((0->(var->sig)) + (0->(var->sig))) + (0->(var->sig))) + (1->(var->var))) + (1->(var->sig))) + (1->(var->sig))) + (2->(var->var))) + (2->(var->var))) + (2->(var->sig))) + (3->(var->var))) + (3->(var->var))
+(sig !in ((((var.rel).rel) & (var.rel)).rel))
+(((~fun_call[]).fun_call[]).fun_call[]).fun_call[]
+fun_call[] & (sig - ({ var: (one sig) {
+(some var: (one sig) {
+(((var.rel) = var) && (((var.rel).rel) != ((var.rel).rel)))
+})
+} }))
+#((((0->(var.rel)) + (1->(var.rel))) + (2->(var.rel))) & (((0->var) + (1->var)) + (2->var)))
+(((var.rel).sig) = (var.rel))
+(sig = (((((((((((sig + sig) + sig) + sig) + sig) + sig) + sig) + sig) + sig) + sig) + sig) + sig))
+(no ((sig.((var.rel).var)) & (sig.((var.rel).var))))
+(var !in (rel.(var.rel)))
+(var.(~var)).var
+(sig in ((sig.rel).(ordering/last[])))
+(var = (0.(var.rel)))
+(^(var.rel)) + (iden & (sig->sig))
+((sig.rel) in (sig one->sig))
+(rel.var) + (((rel.var).(^rel)).(rel.var))
+(no (var & (var.(^rel))))
+(((((0->(var->sig)) + (0->(var->sig))) + (0->(var->sig))) + (1->(var->var))) + (1->(var->sig))) + (1->(var->sig))
+(sig in (sig.(var.fun_call[])))
+((#({ var: (one sig) {
+(some var: (one sig) {
+((var in ((var.rel).rel)) && (var in (var.(var.rel))))
+})
+} })) = 1)
+(var.rel) + (((var.rel) - fun_call[])->var)
+((var.rel) = ((0.(var.rel)).rel))
+(sig.((var.rel).var)) & (sig.((var.rel).var))
+((4.(var.rel)) in sig)
+((#(var.(~rel))) = 2)
+((#(rel.sig)) = 3)
+(((rel.var) + (rel.var)).((sig.rel).var))->var
+((0.(var.((0.(var.rel)).rel))) = (0.(var.((0.(var.rel)).rel))))
+sig - ((var.rel) - var)
+(var.(~(rel.var))) & (var.var)
+(var.rel) :> (var.(rel - rel))
+(var = (fun_call[].(var.rel)))
+(((var.rel).(ordering/first[])) = var)
+((rel.var).var) - (var + fun_call[])
+((sig.fun_call[]) != sig)
+(var.rel) - ({ var: (one sig),var: (one sig) {
+((var = var) && (var in fun_call[]))
+} })
+((rel.var) = ((rel.var) - (var->(var->var))))
+(var.rel) & (var.var)
+((var.rel) = (((var.rel) - (var->(var->var))) + (var->(var->var))))
+((var.rel) = ((^(var.rel)) + (iden & (sig->sig))))
+(((var.var).sig) = ((var.var).sig))
+((#(rel.sig)) = 1)
+((fun_call[] + 1).((var.rel).var)).rel
+((var.(var.rel)) != ((var.rel).(var.rel)))
+(var.(*fun_call[])) - sig
+((sig->sig) in (*var))
+(var.rel).(var.(ordering/prev[]))
+((var.((var.(var.var)).var)) = ((var.(var.var)).(var.var)))
+((var.rel) = ((var.rel).(~(var.rel))))
+(var = (((var.rel) - var) + var))
+(((var.rel) & (var.rel)) = (var.rel))
+(rel.(~rel)) & (sig->sig)
+((((sig <: var).rel)->(((sig <: var).rel)->var)) in (var.rel))
+(sig in (var.(sig.rel)))
+(sig.(~rel)).rel
+((fun_call[].rel) in ((fun_call[].rel).fun_call[]))
+(((((var.rel).var).rel).var) = (((((var.rel).var).rel).var) + ((var.rel).var)))
+(var.sig) & (var.(sig + sig))
+(no (iden & (^(rel.rel))))
+(sig->sig) - var
+(((var.rel).var) = (((var.rel).var) - (sig + var)))
+(((var.rel).(ordering/first[])) = sig)
+(var.rel) + (((var.rel).rel) & sig)
+(var.rel) - (sig.(~(var.rel)))
+(var in (var.(*((sig.rel) - (var->var)))))
+((#({ var: (one sig) {
+((ordering/lt[(var.rel),(var.rel)]) && ((var.rel) = var))
+} })) = var)
+1->(var->var)
+(rel.var) - ((var.(*rel)).rel)
+(((sig.rel).var) = ((((sig.rel).var).rel).var))
+(((((((1.(sig.rel)) + (2.(sig.rel))) + (1.(sig.rel))) + (1.(sig.rel))) + (0.(sig.rel))) + (1.(sig.rel))) + (0.(sig.rel))) + (0.(sig.rel))
+(var in ((var.rel).(^rel)))
+((rel.var) + ((((var.rel).var) + ((var.rel).var))->var)) + ((((rel.var) + (rel.var)).var)->var)
+1->(var.rel)
+(var = (var.((var.(var.rel)).rel)))
+(no ((rel + rel).sig))
+((0.(var.rel)) != sig)
+((var.(var.(var.rel))) = ({ var: (one sig) {
+((some ((var.rel).sig)) && (all var: (one fun_call[]) {
+((var.(var.rel)) = (var.(var.rel)))
+}))
+} }))
+0->(1->var)
+(rel.var) + (var->((var.rel).var))
+(var in ((sig + sig) + sig))
+sig.(*((rel - (sig->var)) - (var->sig)))
+((sig.rel) in (sig + sig))
+((#(((var.(*var)) & (var.rel)) & fun_call[])) = (#(((var.(*var)) & (var.rel)) & fun_call[])))
+((sig + sig).rel).var
+(var.(~(var.rel))).(*((~(var.rel)).(~(var.rel))))
+(var in ((var.sig).var))
+((((var.(var.rel)).rel)->(var->((fun_call[].var).rel))) in fun_call[])
+(((var.(var.rel)).rel) != fun_call[])
+(fun_call[] != ((sig.(var.rel)).rel))
+((rel + rel) + rel) + rel
+(((var.rel) & sig) in (((var.rel).rel) + ((var.rel).rel)))
+(var !in (((var.rel).rel).rel))
+((rel.((var.rel).rel)) - (var.rel)).rel
+(((var.(var.var)).(var.var)) = ((var.(var.var)).((var.(var.var)).var)))
+((#({ var: (one sig),var: (one sig) {
+(((var in ((var.rel).rel)) && ((var.rel) = var)) || ((var in ((var.rel).rel)) && ((var.rel) = var)))
+} })) = var)
+(no (((var.var).rel) + fun_call[]))
+(((var.rel).rel) = (((var.rel).rel) - ({ var: (one sig) {
+(((var.rel).rel) = (var.rel))
+} })))
+sig - (((var.rel).rel).var)
+(((fun_call[].rel).((fun_call[].rel).(var.(fun_call[].rel)))) = sig)
+((var.rel) in ((sig - (fun_call[].rel)) + ((var.rel).rel)))
+((var.rel) != (sig.rel))
+^((rel - (sig->var)) - (var->sig))
+(var.(*rel)).rel
+(((fun_call[].(var.rel)).rel).var).sig
+((var.rel) != ((var.rel) - var))
+(ordering/prev[]) + (ordering/next[])
+(var.rel) + ({ var: (one sig) {
+((no (var.rel)) && (no (var.rel)) && ((var.rel) = -1) && ((var.rel) = var))
+} })
+(var in (~((sig->sig) - var)))
+1->2
+(var in (sig.(*((rel - (sig->var)) - (var->sig)))))
+((var.rel) + ({ var: (one ((var.rel).(var.rel))),var: (one sig) {
+
+} })) + ({ var: (one ((var.rel).rel)),var: (one sig) {
+(some var: (one sig) {
+((var in ((var.rel).(var.rel))) && (var in fun_call[]))
+})
+} })
+(var = (^(var + var)))
+((var.rel) = ((var.rel) + ((var.rel).rel)))
+1->0
+1->1
+(((rel.var).var) = sig)
+(((var.rel) + (var.rel)) + (var.rel)) + (var.rel)
+(var = ((var + var) + (sig.rel)))
+(var = ((((var.rel).var).(var.rel)).sig))
+(var = (#((((var in var) => sig else sig) + ((var in var) => sig else sig)) + ((var in var) => sig else sig))))
+(((var.rel).sig) - var) <: (var.rel)
+var->((sig + sig) - var)
+(no ({ var: (one fun_call[]) {
+((var in fun_call[]) && pred_call[])
+} }))
+(some ((rel.var) & (fun_call[].var)))
+(var = (((var - (var->sig)) + (var->((var.var).var))) ++ ((((var.var).var) = var) => ((var.var)->(var.var)) else ((var.var)->((var.var).var)))))
+(((fun_call[].fun_call[]).fun_call[]) - ((~(var.rel)).var)).(var.rel)
+((var.((var.var).var)) = var)
+(var in (((var + (~var)) + (var.var)) + (var.(~var))))
+((var.(var.(var.rel))) = (var->var))
+(((var->var) + (var->var)) in ((^var) + (^(~var))))
+(((var.rel).var) != ((((var.rel).rel).var).rel))
+(((sig.rel).var) = (((sig.rel).var) - (((sig.rel).var) :> var)))
+((((var.rel).rel).rel) in (((var.rel).rel).rel))
+((var.rel) = ({ var: (one (var.rel)) {
+(some ((var.rel).var))
+} }))
+((var.rel) = (var - var))
+(some ((var.(^var)) & sig))
+var.((rel.var) + rel)
+(sig in (sig.(^rel)))
+(var !in (sig.(sig.rel)))
+(fun_call[].(var.rel)) :> (sig - var)
+((sig.(var.rel)) = -1)
+(var in ((var.(var.rel)) + ((var.(var.rel)).(var.rel))))
+(var !in (var.(*rel)))
+((var + var) in ((var.sig) & (var.(sig + sig))))
+(one ((var.rel).rel))
+(var !in (((rel.var).var).sig))
+((sig.((fun_call[].rel).rel)) in sig)
+(fun_call[] in (fun_call[].fun_call[]))
+fun_call[]->(fun_call[]->sig)
+(var = (var - (var->sig)))
+((var.rel) = (((rel.var).rel)->fun_call[]))
+(var - var).var
+((rel.sig) & ({ var: (one sig) {
+((no fun_call[]) || pred_call[])
+} })) & ({ var: (one sig) {
+(all var: (one fun_call[]) {
+((var.rel) in ((var.rel).rel))
+})
+} })
+((rel.var) = ((rel.var) - (sig->var)))
+var->((var.(var.rel)) + var)
+(((var.rel) & sig) = var)
+((var.rel) = ((((((((((((0->(var->sig)) + (0->(var->sig))) + (0->(var->sig))) + (1->(var->var))) + (1->(var->sig))) + (1->(var->sig))) + (2->(var->var))) + (2->(var->var))) + (2->(var->sig))) + (3->(var->var))) + (3->(var->var))) + (3->(var->var))))
+(no (sig & ((fun_call[].rel).var)))
+((var.rel)->(var.rel)) & ((var.rel).(~(var.rel)))
+(no (var.(rel.var)))
+((var.rel) = (((((sig->sig) + (sig->sig)) + (sig->sig)) + (sig->sig)) + (sig->sig)))
+(fun_call[] = (((var.rel).fun_call[]) <: rel))
+((var.var) in (var.var))
+(((var.(var.var)).var) = ((var.var).((var.var).var)))
+((#fun_call[]) = 100)
+(no ((sig.(var.rel)) & (sig.(var.rel))))
+((var.(var.rel)) = (((var.rel).var).(var.rel)))
+((sig.(var.rel)) in (rel.var))
+((#((var.rel).var)) = 10)
+((#((var.rel) & sig)) != (#((var.rel) & sig)))
+(var.rel) & (sig->(var + (var.rel)))
+((rel.var) = ((rel.var) + (var->(var->(((var + var) + var) + var)))))
+var - (var.(*var))
+sig & (0.(sig.rel))
+(((((((((0->(var->sig)) + (0->(var->sig))) + (0->(var->sig))) + (1->(var->sig))) + (1->(var->sig))) + (1->(var->sig))) + (2->(var->sig))) + (2->(var->sig))) + (2->(var->sig))) + (3->(var->sig))
+(var - var) + var
+((#sig) = 9)
+(fun_call[] = ((var.rel).var))
+((#(var.rel)) = 7)
+(((var.rel).var) = (((sig.rel).var) & ((var.rel).var)))
+((sig.rel) = (1 + 2))
+#({ var: (one fun_call[]) {
+(fun_call[] = 0)
+} })
+(var.var) & fun_call[]
+((var.rel) = (sig - ((var.rel).rel)))
+(KRUSKAL/ordering/last[]).rel
+(((var.rel).rel) !in (sig.(var.rel)))
+(var.(^rel)) - var
+(var = (rel.sig))
+var.((var.var).var)
+((((var.rel).var).rel) in ((var.rel).rel))
+(no ((rel.rel) & rel))
+2.((var.(var.rel)).rel)
+((rel.var) = ((rel.var) - (fun_call[] + var)))
+var <: (rel.sig)
+(one ((var.(var.rel)) & (var.rel)))
+(1 = 0)
+((((var.rel) & (rel.var)).rel) = ((((var.rel) & (rel.var)).rel).fun_call[]))
+~((sig->sig) - var)
+(((var <: sig).rel) in sig)
+(((var.var).rel) = ((fun_call[].rel).rel))
+((sig.rel).var) - ((((var.rel).var).rel).var)
+((var.fun_call[]) in sig)
+sig & (sig.(~rel))
+(((var.rel).rel) = (((var.rel).rel) + ({ var: (one sig) {
+((var in (var.rel)) && ((var.rel) = ((var.rel).rel)) && ((var.rel) != (var.rel)))
+} })))
+(lone ((fun_call[] - fun_call[]).var))
+({ var: (one (var.rel)) {
+(((var.rel) != var) || ((var.rel) != var))
+} }) + ({ var: (one sig) {
+((((var.rel) = var) && ((var.rel) = -1) && ((var.rel) = var) && ((var.rel) = ({ var: (one sig) {
+((no (var.rel)) && (no (var.rel)) && ((var.rel) = -1) && ((var.rel) = var))
+} }))) || (some var: (one (var.rel)) {
+((((var.rel) = var) && (var !in ((var.rel).rel)) && ((var.rel) = ((var.rel) + ({ var: (one sig) {
+((no (var.rel)) && (no (var.rel)) && ((var.rel) = -1) && ((var.rel) = var))
+} })))) || (((var.rel) = var) && (var = var) && (var in ((var.rel).rel))))
+}))
+} })
+(~(var.rel)).var
+#(((var.rel) + (var.rel)).var)
+(some ((var.rel) - (var.rel)))
+((fun_call[] + fun_call[]) in ((-1 + 0) + 1))
+(lone ((var.rel).(~(var.rel))))
+fun_call[] & (var.var)
+(var.(var.rel)) + 1
+((((~fun_call[]).fun_call[]).fun_call[]).fun_call[]).(~fun_call[])
+(sig->((sig + sig) + sig)) + (sig->sig)
+#((sig.rel).sig)
+((fun_call[].var) = (var.rel))
+(no ((sig->(var->sig)) & ((sig.(rel + rel)).var)))
+((var + var) in (var <: (rel.sig)))
+((var.(var.rel)) = ((var.(var.rel)).(var.rel)))
+((var->(var->(var->var))) in (sig.rel))
+((var & (sig + sig)).rel) & sig
+((((var.rel).rel).rel) in sig)
+(fun_call[] = (var.(rel + rel)))
+((var.(fun_call[].rel)).fun_call[]).fun_call[]
+(var in (sig.(rel + (~rel))))
+(no ((var.rel) & (rel.var)))
+((var.rel) in (sig.(var.rel)))
+((#((var.rel).rel)) = ((#((var.rel).rel)) - (#(((rel.((var.rel).rel)) - (var.rel)).rel))))
+(var in ((sig + sig)->(sig + sig)))
+(var.(var.rel)) + (var.(var.rel))
+((var.rel) = (((var.rel) - ((var.(var.rel))->var)) - ((var.(var.rel))->var)))
+((var.rel) = ((var.rel) - (sig->sig)))
+((var.rel) = (((var.rel).(KeyDistribution/Auth/ordering/next[])).(KeyDistribution/Auth/ordering/next[])))
+(fun_call[]->0) + (var->0)
+var->(var ++ (var->(var.rel)))
+(var in (((var.fun_call[]).rel).sig))
+((var.rel) = (((var.rel) + fun_call[]) - var))
+((((rel + rel) + rel) + rel) + rel) + rel
+((2.(var.rel)) in sig)
+((1.(var.rel)) !in sig)
+((var - var) - (sig.rel)) - (var.rel)
+(var - var) - var
+(sig.(var.rel)).fun_call[]
+((var->((sig <: var).rel)) in (var.rel))
+((var.(sig + sig)) <: var).(var.var)
+(((sig.rel) & sig).rel).rel
+((var.rel) = ((var.rel) + ({ var: (one sig),var: (one sig) {
+pred_call[]
+} })))
+fun_call[]->0
+((var.rel).(^(rel.rel))).rel
+(some ((var.rel) & (sig.rel)))
+(sig = (sig & sig))
+((var.rel) = ((var.rel) ++ (((var.rel).var)->var)))
+((((rel.(~rel)) & (^((~fun_call[]) + fun_call[]))) - iden) in (fun_call[] + (~fun_call[])))
+(var in ((((var.rel).(~(var.rel))) & ((var.rel).(~(var.rel)))) & ((var.rel)->(var.rel))))
+(((var.(var.rel)).rel) = (((var.(var.rel)).rel) + var))
+var & (var.(^rel))
+((sig.rel).var) + (var.rel)
+((rel.var) = ((rel.var) ++ (var->(var.rel))))
+((var.rel) = ((((var.rel) + fun_call[]) + fun_call[]) + fun_call[]))
+(rel.((var.rel).rel)) - (var.rel)
+(rel.var) + (var.rel)
+((var->var) in ((sig + sig).rel))
+(some (((fun_call[].rel).var) + ((fun_call[].rel).var)))
+(((var.rel)->(var.rel)) in (var.rel))
+(no (sig & (0.(sig.rel))))
+((var.rel) in (var.(^rel)))
+var.(^(ordering/prev[]))
+(fun_call[] = (#(fun_call[] + (var.rel))))
+((((var.rel).rel).var).rel).var
+((var + var) in (sig - sig))
+((((0->1) + (1->-1)) + (2->0)) + (3->2)) + (4->-1)
+(rel.var) - (var->(var->var))
+((#sig) = 10)
+((var.rel).(^(var.rel))) + (var.rel)
+(fun_call[] - var) & sig
+(((((1.(sig.rel)) + (2.(sig.rel))) + (1.(sig.rel))) + (1.(sig.rel))) + (0.(sig.rel))) + (1.(sig.rel))
+((#(sig.(*rel))) = (#(sig.(*rel))))
+(var.var) & sig
+var.(^(((var.rel) <: rel).(~((var.rel) <: rel))))
+((#sig) = 11)
+((var.rel) = (((var.rel) - (var->sig)) ++ (var->sig)))
+(((var.rel).(ordering/first[])) = 3)
+((rel.var) = ((rel.var) + (var.rel)))
+((5.(var.rel)) != sig)
+(no (((var.rel).rel) & (((var.rel).(^(rel.rel))).rel)))
+(some (rel - iden))
+(sig.(var.rel)).sig
+*((rel - (sig->var)) - (var->sig))
+(((var.rel) <: (var.rel)) + ({ var: (one (var.rel)),var: (one ((var.rel).rel)) {
+(var in (var.(var.rel)))
+} })) + ({ var: (one (var.rel)),var: (one ((var.rel).rel)) {
+(some var: (one sig) {
+((var in (var.(var.rel))) && (var in fun_call[]))
+})
+} })
+#(((var.rel).rel) & ((var.rel).rel))
+((var.(*rel)) != sig)
+^((var.rel).(var.rel))
+(sig in ((var.(*rel)) + (var.(*(~rel)))))
+(sig & var) & (var.(sig + sig))
+(var !in ((sig.(var.rel)).sig))
+var->((var.var) ++ (var->var))
+(var + (~var)) + (var.var)
+var->(var.(rel.var))
+(var.rel).(((var + var).rel).(KeyDistribution/Auth/ordering/first[]))
+(var = (var.(var.({ var: (one (0 + 1)),var: (one (0 + 1)),var: (one (((var.(var.({ var: (one (0 + 1)),var: (one (0 + 1)),var: (one fun_call[]) {
+
+} }))).({ var: (one (0 + 1)),var: (one fun_call[]) {
+
+} })).((var.(var.({ var: (one (0 + 1)),var: (one (0 + 1)),var: (one (var + var)) {
+
+} }))).({ var: (one (0 + 1)),var: (one (0 + 1)),var: (one fun_call[]) {
+
+} })))) {
+
+} }))))
+(((sig.rel).fun_call[]) = (((sig.rel).fun_call[]).((var.rel).fun_call[])))
+(var !in (var.(rel.var)))
+(lone (var.(sig.rel)))
+fun_call[] & ((((fun_call[].fun_call[]).fun_call[]) - ((~(var.rel)).var)).(var.rel))
+#(fun_call[] + (var.rel))
+((fun_call[].(ordering/next[])) = (var.(var.rel)))
+((((var.rel).var).(var.rel)) in ((var.rel).var))
+(((var.rel).rel) !in ((var.rel).rel))
+var - ((var.var)->sig)
+(lone ((var.rel).(var.rel)))
+((var.rel) = ({ var: (one (var.rel)) {
+((var.(var.rel)) = sig)
+} }))
+(~fun_call[]).fun_call[]
+((((((((((0->(var->sig)) + (0->(var->sig))) + (0->(var->sig))) + (1->(var->sig))) + (1->(var->sig))) + (1->(var->sig))) + (2->(var->sig))) + (2->(var->sig))) + (2->(var->sig))) + (3->(var->sig))) + (3->(var->sig))
+((var.var) != sig)
+(((var.rel).var) = (((var.rel).var) + (var->var)))
+((var.(*fun_call[])) = sig)
+(some ((var.rel) & (sig - (rel.var))))
+(((var.var).rel) = (0->(var.rel)))
+(no (((sig - ((var.rel).var)).(var.rel)).var))
+((fun_call[].(((fun_call[].(var.rel)).rel).var)) = (fun_call[].(((fun_call[].(var.rel)).rel).var)))
+(rel.var) + (var->(((((var.rel).var) + ((var.rel).var)).rel).var))
+((3.(var.rel)) != sig)
+((((var.rel)->var) + (var->var)) in ((*fun_call[]) - iden))
+(var.(*rel)) & (var.(*rel))
+*(sig.(var.rel))
+((var.rel) = ((var.rel).(^(var.rel))))
+(((var.rel).rel) - (var.rel)) - var
+(no ((^rel) & iden))
+(var !in (((var.fun_call[]).fun_call[]).rel))
+((sig.(var.rel)) = ((sig.(var.rel)).fun_call[]))
+((var->sig) + (var->sig)) + (var->sig)
+(rel in (sig->one sig))
+((var.rel) = ((var.rel) - ((var->var) ++ ((0.((var.(var.rel)).rel))->var))))
+(no ((var + var) & fun_call[]))
+((var.rel).(*rel)).rel
+(var in ((var.(var.rel)).(var.(var.rel))))
+((var.rel) <: (var.rel)) + ({ var: (one (var.rel)),var: (one ((var.rel).rel)) {
+(var in (var.(var.rel)))
+} })
+((var.(var.rel)) = (fun_call[].(ordering/next[])))
+((#(sig.rel)) = 4)
+((sig - var) in (var.rel))
+(sig.rel).(*(rel + rel))
+((sig.(var.rel)) != fun_call[])
+1.((var.(var.rel)).rel)
+sig <: (rel.var)
+sig.(((((ordering/first[]).(ordering/next[])).(ordering/next[])).(ordering/next[])).rel)
+((((var.rel).rel).rel) = 0)
+(var <: rel).var
+(rel.(*rel)).(var.rel)
+((var.rel) = ((((var.rel) + (var->var)) - (var->var)) - (var->var)))
+((var->(var.var)) in ((var.rel).(var.rel)))
+(no (var.(sig.var)))
+((fun_call[].rel).var) + var
+(var in (var->one var))
+((sig - var).rel).var
+(rel.var) + rel
+((rel.var) - ((((((sig.rel).var).rel).var) + ((((sig.rel).var).rel).var))->var)) - ((((rel.var) + (rel.var)).((sig.rel).var))->var)
+(var.rel) & (sig - sig)
+((((((var.rel).var).rel).var).rel) != var)
+((var.rel) = ((var.(~(var.rel))).(*((~(var.rel)).(~(var.rel))))))
+((var.rel).var) & ((fun_call[].rel).var)
+((#((ordering/last[]).rel)) != 5)
+(rel = ((((var->var) + (var->var)) + (var->var)) + (var->var)))
+#((((var.rel).rel).rel).rel)
+(var in ((var.((sig + sig) + sig))->(var.((sig + sig) + sig))))
+(some ((var.rel) & (sig->(var + (var.rel)))))
+((#(sig & (var.rel))) = 0)
+((fun_call[].(var.rel)) = var)
+(no (sig & (sig.(~rel))))
+(((sig.((var.rel).var)) + (sig.((var.rel).var))) + ((var.rel).rel)) + ((var.rel).rel)
+(var.rel).(^(rel.rel))
+((var.rel) in ((((((sig + sig) + sig) + sig) + sig) + sig) + sig))
+(((((((sig + sig) + sig) + sig) + sig) + sig) + sig) in (sig.rel))
+((((var.rel).sig) - var) <: (var.rel)) + (var.rel)
+(sig in ((sig.(sig.rel)).rel))
+fun_call[].((var.rel).rel)
+((var.var) = ((var.var) - ((var.(~(rel.var))).(~rel))))
+(rel.var) + (var->((var.rel)->var))
+((var.rel) = ((((((0->1) + (1->-1)) + (2->0)) + (3->2)) + (4->-1)) + (5->1)))
+((sig.rel).var) - ((fun_call[].rel).var)
+(((sig.rel) & sig).rel) + (((sig.rel) & sig).rel)
+(((var.rel).rel).(*rel)) & (((var.rel).rel).(*rel))
+((#rel) = 16)
+var->(((sig.rel).var).((var.rel).var))
+(one (((var.rel).rel).rel))
+((var.fun_call[]) != (var.fun_call[]))
+((1.(var.rel)) in sig)
+((((0->var) + (1->var)) + (2->var)) + (3->var)) + (4->var)
+((var.rel) != (fun_call[].rel))
+(((var.rel).var) in (rel.var))
+((sig.var) = 0)
+(no (((var.(^rel)).rel) & (rel.var)))
+(((var.rel) + ({ var: (one ((var.rel).(var.rel))),var: (one sig) {
+
+} })) + ({ var: (one ((var.rel).rel)),var: (one sig) {
+(some var: (one sig) {
+((var in ((var.rel).(var.rel))) && (var in fun_call[]))
+})
+} })) + ({ var: (one ((var.rel).(var.rel))),var: (one sig) {
+
+} })
+#(((var.(var.rel)) & ((var.rel).sig)) & ((var.rel).sig))
+((3->0) + (3->1)) + (3->2)
+(var.(rel.var)).rel
+(#(var.(^rel))) - (#(var.(^rel)))
+#({ var: (one sig) {
+((var in (var.rel)) && ((var.rel) = var))
+} })
+sig.(*(~(var.rel)))
+((#(((var.rel) & (var.rel)) & sig)) = 0)
+(no ((var.(*rel)) & (var.(*rel))))
+((rel.(~rel)) & (^((~fun_call[]) + fun_call[]))) - iden
+(some ((var.rel) & (sig - sig)))
+((#sig) = (#fun_call[]))
+(((sig.rel).var).rel).rel
+(((var.((ordering/first[]).rel)).rel) = 0)
+(var + (var.(var.rel))).(var.rel)
+((var.rel) = (iden & (sig->sig)))
+(sig.rel).(ordering/first[])
+(var = ((#var).var))
+sig.(var <: ((sig.rel) - (var->var)))
+((var.rel) = (((var.rel) + (var->var)) + ({ var: (one sig),var: (one sig) {
+((var = var) && (var in (var.rel)))
+} })))
+((var.rel).(var.rel)).(var.rel)
+((#(((var.rel).var).rel)) = 0)
+(some ((rel.var) :> sig))
+(var - var) - (sig.rel)
+((var - var) - var) - sig
+((var.(*fun_call[])) = var)
+(lone ((var.(~rel)).(~rel)))
+(some ((fun_call[] & (var.rel)) & ({ var: (one sig) {
+(some var: (one sig) {
+(((var.rel) = var) && (((var.rel).rel) != ((var.rel).rel)))
+})
+} })))
+((var.rel) - (var->(var->var))) + (var->(var->var))
+((2.(var.rel)) != sig)
+((var.rel) = 100)
+(((var + var) + var) + var).rel
+(((var.rel).(ordering/last[])) = sig)
+(fun_call[].var).rel
+*(ordering/prev[])
+(fun_call[] in ((((fun_call[].(var.rel)).rel).var).sig))
+(var in (var.(^((rel - (sig->var)) - (var->sig)))))
+(no ((sig.(((((rel + rel) + rel) + rel) + rel) + rel)).var))
+((((var.rel).rel) & sig) = (((var.rel).rel) & sig))
+(var.rel) + (var - (var.rel))
+(var.rel) - ({ var: (one sig),var: (one sig) {
+((var = var) && (var in (fun_call[] + var)))
+} })
+sig.((ordering/first[]).rel)
+((sig.(var.rel)).var) & ((sig.(var.rel)).var)
+((((((sig->sig) + (sig->sig)) + (sig->sig)) + (sig->sig)) + (sig->sig)) + (sig->sig)) + (sig->sig)
+((var.((sig.rel).var)) = (var.rel))
+(var.rel) - ((var->sig) ++ ((0.((var.(var.rel)).rel))->sig))
+(var = ((var - var) - sig))
+sig->(sig.(~(var.rel)))
+(var in (((var.rel).(*rel)).rel))
+1->(1->var)
+((var + var) + var) + sig
+(var + (var.rel)) + fun_call[]
+((((var.rel).var).rel).var) + var
+(var in (((var.rel)->(var.rel)) & ((var.rel).(~(var.rel)))))
+(some ((fun_call[].rel).var))
+(((var.(~var)).var) in var)
+((var.rel) = ((var.rel).((var.rel).(var.rel))))
+((var.rel).rel) - ({ var: (one sig) {
+(((var.rel).rel) = (var.rel))
+} })
+((var.rel).rel) & (((var.rel).(^(rel.rel))).rel)
+(((sig->sig) + (var->var)) in var)
+(var !in (sig.(sig.(var.rel))))
+sig & (((sig & sig).rel).rel)
+((((((ordering/first[]).(ordering/next[])).(ordering/next[])).(ordering/next[])).rel) = sig)
+(var in ((fun_call[].rel).var))
+(((var.rel).var) = (((var.rel).var) ++ ((((sig.rel).var)->(var.((var.rel).var))) ++ (var->(((sig.rel).var).((var.rel).var))))))
+((var.(var.rel)) = ((var.(var.rel)) - (var.(var.rel))))
+((var.(var.rel)) = ((var.(var.rel)) + 1))
+(((var.rel).var) = 1)
+((sig.rel) = 0)
+*((var.rel) + (~(var.rel)))
+(((var.(fun_call[].rel)).(fun_call[].rel)) in (var.(fun_call[].rel)))
+(var !in (sig.((sig.rel).rel)))
+#(rel.fun_call[])
+((2.var) = 3)
+((var.rel) - ((var.(var.rel))->var)) - (((var.(var.rel)).(var.rel))->var)
+((((((0->(var->sig)) + (0->(var->sig))) + (0->(var->sig))) + (1->(var->sig))) + (1->(var->sig))) + (1->(var->sig))) + (2->(var->sig))
+(fun_call[] = (#((var.var).rel)))
+(one (fun_call[] & var))
+^((~fun_call[]) + fun_call[])
+(((KRUSKAL/ordering/first[]).rel) = ((PRIM/ordering/first[]).rel))
+((var.rel) = ((var.rel) + ((var.(var.rel))->var)))
+((sig.rel).var) - (((sig.rel).var) :> var)
+(((var.rel)->(var.rel)) in rel)
+((var.rel) - (var->(sig->var))) + (var->(sig->var))
+sig.((fun_call[].rel).rel)
+(sig !in (sig.(sig.(var.rel))))
+#((((var = (sig.rel)) => sig else sig) + ((var = (sig.rel)) => sig else sig)) + ((var = (sig.rel)) => sig else sig))
+(var in ((var - (sig + sig))->one sig))
+((((fun_call[].rel).var).(fun_call[].rel)) in ((fun_call[].rel).var))
+((var.((var.(var.var)).var)) = ((var.(var.var)).((var.(var.var)).var)))
+((var & (~var)) = fun_call[])
+((var.(^(rel + rel))) in (var.(^(rel + rel))))
+((var.rel) in ((var.rel) lone->(var.rel)))
+((var.(sig.rel)) = (((var.(sig.rel)) - var) + var))
+var.((ordering/prev[]) + (ordering/next[]))
+(((((var.rel).var).rel).var) = (((((var.rel).var).rel).var) + var))
+(var + var) + (sig.rel)
+(var !in (var.(var.(var.rel))))
+(((var.rel).rel) != var)
+(((ordering/first[]).rel) = fun_call[])
+fun_call[].(~rel)
+((((((0->(var->sig)) + (0->(var->sig))) + (0->(var->sig))) + (1->(var->var))) + (1->(var->sig))) + (1->(var->sig))) + (2->(var->var))
+(var in (var.(rel.var)))
+(((((var.rel).rel).rel).var) + var) - var
+((var.rel) = (var->(var.(var.rel))))
+((var->var) !in ((var.rel).sig))
+((var.(~rel)).(~rel)) & (var.rel)
+(var = (iden :> var))
+#((var.(*var)) <: var)
+((#((var.(*var)) <: var)) = 1)
+(((((sig.rel).var).rel).var) + ((((sig.rel).var).rel).var))->var
+(var in (var.(var.(var.(sig.rel)))))
+(var.(var.({ var: (one (0 + 1)),var: (one (0 + 1)),var: (one fun_call[]) {
+
+} }))).({ var: (one (0 + 1)),var: (one (0 + 1)),var: (one (var + var)) {
+
+} })
+(rel in (var one->one (var one->one var)))
+((#(((sig.rel).var) - (sig & ((fun_call[].rel).var)))) = (#((sig.rel).var)))
+sig->(sig lone->sig)
+((sig.rel) = 6)
+(sig = (((((sig + sig) + sig) + sig) + sig) + sig))
+(((sig.rel).var) in (fun_call[] + fun_call[]))
+(({ var: (one (var.(var.rel))) {
+(not (some var: (one (var.(var.rel))) {
+(var in (var.(var.rel)))
+}))
+} }) = sig)
+(^(var.rel)).var
+(((((sig.rel).var).rel).var) !in (sig.((sig.rel).var)))
+((var.rel) = ((var.rel) - ({ var: (one sig),var: (one sig) {
+((var = var) && (var in (((var + (var.rel)) + fun_call[]) + ({ var: (one sig) {
+(some var: (one (var.rel)) {
+(var in fun_call[])
+})
+} }))))
+} })))
+((((((((((((((0->(var->sig)) + (0->(var->sig))) + (0->(var->sig))) + (1->(var->sig))) + (1->(var->sig))) + (1->(var->sig))) + (2->(var->sig))) + (2->(var->sig))) + (2->(var->sig))) + (3->(var->sig))) + (3->(var->sig))) + (3->(var->sig))) + (4->(var->sig))) + (4->(var->sig))) + (4->(var->sig))
+(rel = ((sig.rel).rel))
+(var = (var => (var.(var.(var.rel))) else fun_call[]))
+((((var.rel).var).(var.rel)).var).rel
+(sig + sig) & fun_call[]
+(some (rel - rel))
+(((var.rel) & (var.rel)) != sig)
+sig.(*var)
+((var.rel) + ((var.(var.rel))->var)) + (((var.(var.rel)).(var.rel))->var)
+(((sig.rel) + (sig.(fun_call[].rel))) = sig)
+(((var.rel) + (var->var)) - (var->var)) - (var->var)
+((#var) = (sum var: (one (var.sig)) {
+(#((var.var).rel))
+}))
+(((sig.(rel + rel)).(var.rel)) = ((sig.(rel + rel)).(var.rel)))
+(var = (((var->var) + (var->var)) + (var->var)))
+(fun_call[].fun_call[]).rel
+((((((var.rel).rel).var).rel).var) = fun_call[])
+(var.rel) - ({ var: (one sig),var: (one sig),var: (one sig) {
+pred_call[]
+} })
+((#(var & (var.rel))) = 0)
+(var.(var.rel)).(*((var.rel).(var.rel)))
+((rel.var) = (((rel.var) + ((((var.rel).var) + ((var.rel).var))->var)) + ((((rel.var) + (rel.var)).var)->var)))
+((var.rel) = 17)
+((var.rel) = (((var.rel) - var) - fun_call[]))
+(((((var.rel).var).(var.rel)).var) = var)
+var.(fun_call[].(var.rel))
+((fun_call[].rel).(var.(fun_call[].rel))).(fun_call[].rel)
+((rel.var) + var) + (((rel.var).var) - var)
+(no (((fun_call[].rel).var) - (((fun_call[].rel).var) + var)))
+(KeyDistribution/Auth/ordering/first[]).(KeyDistribution/Auth/ordering/next[])
+(var.rel) - ((var.rel).rel)
+(((var.rel).var) !in ((fun_call[].rel).var))
+((sig.rel).rel) & (var.(~rel))
+((var.rel) = (sig.(~(var.rel))))
+(sig->(var->sig)) & ((sig.(rel + rel)).var)
+*((sig.rel) - (var->var))
+((#((var.rel) & sig)) = (#((var.rel) & sig)))
+(var.rel) & fun_call[]
+(no (sig - sig))
+(((var.rel).rel) = (((var.rel).rel) ++ ({ var: (one var),var: (one sig) {
+(var = (var.((var.rel).rel)))
+} })))
+(var in (var.(((sig + sig) + sig) + sig)))
+((var.rel) = (var + fun_call[]))
+(fun_call[] & (var.var)) & var
+((var.(var.rel)) & ((var.rel).sig)) & ((var.rel).sig)
+(((var.(var.rel)).(var.rel)) = var)
+((var.rel) = ((var.fun_call[]).rel))
+(fun_call[].rel).((fun_call[].rel).var)
+(var.(var.rel)) + ({ var: (one sig) {
+(((var.(var.rel)) = (var.(var.rel))) && ((var.(var.rel)) != (var.rel)) && (((var.rel).var) = var))
+} })
+~(var->var)
+#((var.rel).(~rel))
+(fun_call[].rel) & (var.(~rel))
+((var.rel) <: rel).(~((var.rel) <: rel))
+#((sig.rel).(*rel))
+(((var.rel).var) = (fun_call[] - var))
+(no ((var.fun_call[]).rel))
+((sig + sig) = (var.rel))
+(fun_call[] = 25)
+((rel.var).rel)->fun_call[]
+(var.(var.rel)) + (var.((var.rel).rel))
+((sig + sig) <: rel).(var.rel)
+(some ((sig - sig).rel))
+(var in (((var.rel).var).(*rel)))
+((var.rel)->var) + (var->var)
+(((var.rel).rel) = (0->var))
+rel & (rel + rel)
+(var = (var.((var.rel).rel)))
+fun_call[] + (var.rel)
+~(((var.rel).rel).rel)
+((var->var) in (^(sig.(var.rel))))
+((sig.((ordering/first[]).rel)) = (sig.((ordering/last[]).rel)))
+^(sig.(var.rel))
+((ordering/min[var]) = var)
+sig.(rel + (~rel))
+(lone (sig.(var.rel)))
+((var + var).var) & (((sig + sig) <: rel).(var.rel))
+(0->0) + (1->0)
+((#sig) != 1)
+(var = (rel.(var.rel)))
+(((var.rel).var) = (var.((var.rel).rel)))
+(sig.(var.rel)) + ((var.rel).rel)
+((var.rel).var) - ((var.rel).var)
+(lone ((rel.var) & sig))
+(rel.var) - ((((((sig.rel).var).rel).var) + ((((sig.rel).var).rel).var))->var)
+(((sig.rel).var) = ((((sig.rel).var).rel).(((sig.rel).var).rel)))
+((#({ var: (one sig) {
+((var.rel) = var)
+} })) = var)
+(no ((var.rel) & (sig.rel)))
+((var.(var.rel)) = ((var.(var.rel)) + ({ var: (one sig) {
+(((var.(var.rel)) = (var.(var.rel))) && ((var.(var.rel)) != (var.rel)) && (((var.rel).var) = var))
+} })))
+((var.rel) - (var.rel)) + (var.rel)
+((1.(sig.rel)) + (2.(sig.rel))) + (1.(sig.rel))
+(some (iden & (^(fun_call[] + fun_call[]))))
+^(var - (var->var))
+(((var.rel).var) = (((var.rel).var) - (var->(var->sig))))
+((var.(var.(var.rel))) = ({ var: (one sig) {
+((var in (var.(var.(var.rel)))) && (all disj var,var: (one fun_call[]) {
+((var.(var.rel)) != (var.(var.rel)))
+}))
+} }))
+(lone (var.((var.rel).var)))
+(no (((var.var) & sig) - var))
+(var in ((var.rel).(var.fun_call[])))
+(((var.rel).((var.rel).(KeyDistribution/Auth/ordering/first[]))) = ((var.rel).((var.rel).(KeyDistribution/Auth/ordering/first[]))))
+((var->var) in ((var + (~var)) + (var <: iden)))
+((~rel) in rel)
+((((ordering/last[]).rel).rel) = 3)
+(rel in (rel & (sig->sig)))
+(sig + sig) & (fun_call[] + fun_call[])
+(((0->(var.rel)) + (1->(var.rel))) + (2->(var.rel))) & (((0->var) + (1->var)) + (2->var))
+((((var->var) + (var->var)) + (var->var)) in (^rel))
+(var = ((var->var) + (var->var)))
+((var.(rel.var)) in sig)
+(no ((var.(^rel)).var))
+(var.rel).((var.rel).rel)
+(((var.rel).(*var)) = sig)
+((((var.((sig.rel).var)).rel).var) = sig)
+(var in (sig.(^rel)))
+((var.rel) = ((var.rel).(rel + rel)))
+(sig.rel) & (sig.rel)
+(((var.rel).var) = ((var.rel).(var.(ordering/prev[]))))
+((sig->sig) in var)
+#((var.(~(rel.var))).(~rel))
+(sig.(rel.(KeyDistribution/Auth/ordering/first[]))).sig
+(var.var).((var.var).var)
+sig - ({ var: (one sig) {
+(no (var.rel))
+} })
+^(ordering/prev[])
+((sig <: var).rel)->(((sig <: var).rel)->((sig <: var).rel))
+((var + (var.(var.rel))).(var.rel))->var
+3->1
+3->0
+((var.rel) = ((var.rel) - ((var->sig) ++ ((0.((var.(var.rel)).rel))->sig))))
+(((~(var.rel)).(var.rel)) = (var.rel))
+var->(var.var)
+((var.rel) = (sig.(var.rel)))
+fun_call[] <: (var.rel)
+(var.rel) + (var->(sig->(sig - var)))
+((fun_call[] & (var.rel)) in ((var.rel) + (~(var.rel))))
+(rel.var) + ((((var.rel).var) + ((var.rel).var))->var)
+(^var) & fun_call[]
+var->(((sig <: var).rel)->((sig <: var).rel))
+var & (((rel.var).rel).var)
+((var.rel).sig) - var
+({ var: (one sig) {
+(some var: (one (rel.var)),var: (one (var.rel)) {
+((var->(var->var)) in rel)
+})
+} }) & (rel.sig)
+((var.rel) = (sig.(rel.var)))
+((var.(var.rel)) = -1)
+((var.rel) = (var - ((var.rel).rel)))
+((var.rel) = ((fun_call[]->0) + (var->0)))
+(sig.rel) + (sig.(fun_call[].rel))
+
+

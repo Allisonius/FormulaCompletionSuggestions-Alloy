@@ -1,0 +1,15 @@
+modelname,filename,position-line,position-character,incompleteline,removedtext,baseline,suggestionedExpression,A_iff_B,A_and_B,not_A_and_B,A_and_not_B,not_A_and_not_B,suggestionImpactTime
+production-line-v2,completion/production-line-v2-sig.als,5,22,"one sig begin, end in","Workstation {}","{}","one sig begin, end in Component",,,,,,5.9595
+production-line-v2,completion/production-line-v2-sig.als,5,22,"one sig begin, end in","Workstation {}","{}","one sig begin, end in Dangerous",,,,,,5.9595
+production-line-v2,completion/production-line-v2-sig.als,5,22,"one sig begin, end in","Workstation {}","{}","one sig begin, end in Human",,,,,,5.9595
+production-line-v2,completion/production-line-v2-sig.als,5,22,"one sig begin, end in","Workstation {}","{}","one sig begin, end in Material",,,,,,5.9595
+production-line-v2,completion/production-line-v2-sig.als,5,22,"one sig begin, end in","Workstation {}","{}","one sig begin, end in Product",,,,,,5.9595
+production-line-v2,completion/production-line-v2-sig.als,5,22,"one sig begin, end in","Workstation {}","{}","one sig begin, end in Robot",,,,,,5.9595
+production-line-v2,completion/production-line-v2-sig.als,5,22,"one sig begin, end in","Workstation {}","{}","one sig begin, end in Worker",,,,,,5.9595
+production-line-v2,completion/production-line-v2-sig.als,5,22,"one sig begin, end in","Workstation {}","{}","one sig begin, end in Workstation",,,,,,5.9595
+production-line-v2,completion/production-line-v2-sig.als,5,22,"one sig begin, end in","Workstation {}","{}","one sig begin, end in Int",,,,,,5.9595
+production-line-v2,completion/production-line-v2-sig.als,5,22,"one sig begin, end in","Workstation {}","{}","one sig begin, end in String",,,,,,5.9595
+production-line-v2,completion/production-line-v2-sig.als,5,22,"one sig begin, end in","Workstation {}","{}","one sig begin, end in seq/Int",,,,,,5.9595
+production-line-v2,completion/production-line-v2-sig.als,5,22,"one sig begin, end in","Workstation {}","{}","one sig begin, end in iden",,,,,,5.9595
+production-line-v2,completion/production-line-v2-sig.als,5,22,"one sig begin, end in","Workstation {}","{}","one sig begin, end in none",,,,,,5.9595
+production-line-v2,completion/production-line-v2-sig.als,5,22,"one sig begin, end in","Workstation {}","{}","one sig begin, end in univ",,,,,,5.9595

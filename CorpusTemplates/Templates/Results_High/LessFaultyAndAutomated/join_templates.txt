@@ -1,0 +1,640 @@
+hits: 39647 (72.3894904051562)
+name.name
+
+hits: 6870 (12.543592178056931)
+(name.name).name
+
+hits: 2447 (4.467855903887235)
+name.(name.name)
+
+hits: 712 (1.3000054775511696)
+((name.name).name).name
+
+hits: 647 (1.1813252022129306)
+name.(~name)
+
+hits: 552 (1.0078694151801202)
+name.fun_call[]
+
+hits: 499 (0.9110993445197101)
+fun_call[].name
+
+hits: 255 (0.46559184940385984)
+(name.(name.name)).name
+
+hits: 254 (0.46376599901404075)
+(name.name).(name.name)
+
+hits: 194 (0.3542149756248973)
+name.((name.name).name)
+
+hits: 176 (0.3213496686081542)
+name.(^name)
+
+hits: 143 (0.26109660574412535)
+(((name.name).name).name).name
+
+hits: 105 (0.19171429093100112)
+name.(fun_call[].name)
+
+hits: 99 (0.18075918859208676)
+(name.name).fun_call[]
+
+hits: 90 (0.16432653508371525)
+name.(~(name.name))
+
+hits: 88 (0.1606748343040771)
+(name.fun_call[]).name
+
+hits: 82 (0.14971973196516278)
+name.(name.(name.name))
+
+hits: 79 (0.1442421807957056)
+(name <: name).name
+
+hits: 74 (0.13511292884661033)
+(fun_call[].name).name
+
+hits: 61 (0.11137687377896256)
+name.(name + name)
+
+hits: 58 (0.10589932260950538)
+name.(*name)
+
+hits: 57 (0.10407347221968632)
+(name.name).(*name)
+
+hits: 52 (0.09494422027059103)
+fun_call[].fun_call[]
+
+hits: 46 (0.08398911793167668)
+(name.(name.name)).(name.name)
+
+hits: 43 (0.0785115667622195)
+name.((name.(name.name)).name)
+
+hits: 38 (0.06938231481312422)
+(name.name).(name.fun_call[])
+
+hits: 37 (0.06755646442330517)
+name.(^(name.name))
+
+hits: 33 (0.06025306286402892)
+name.(^fun_call[])
+
+hits: 31 (0.0566013620843908)
+((name.fun_call[]).name).name
+(name.(~name)).name
+
+hits: 28 (0.05112381091493363)
+((name.(name.name)).name).name
+
+hits: 23 (0.04199455896583834)
+fun_call[].(name.name)
+((name.name).name).(name.name)
+
+hits: 22 (0.04016870857601928)
+0.(name.name)
+(name.fun_call[]).fun_call[]
+
+hits: 21 (0.03834285818620022)
+(name.name).(name.(name.name))
+
+hits: 20 (0.03651700779638116)
+(name.name).(*(name.name))
+(name.name).(^name)
+((name.name).name).(*fun_call[])
+
+hits: 19 (0.03469115740656211)
+(name.name).(~(name.name))
+
+hits: 18 (0.03286530701674305)
+(name + name).name
+(~((name.name).name)).name
+0.((name.(name.name)).name)
+
+hits: 16 (0.029213606237104933)
+((((name.(~name)) & (name.(~name))) & (name.(~name))) & (name.(~name))).name
+(name.(fun_call[].name)).name
+
+hits: 15 (0.027387755847285873)
+name.(*fun_call[])
+(^name).name
+((name.name) & name).name
+
+hits: 14 (0.025561905457466814)
+((name.fun_call[]).fun_call[]).name
+(name.name).(~name)
+
+hits: 13 (0.023736055067647758)
+name.(*(name + (~name)))
+(name.(name + name)).name
+((name.(name.name)).(name.name)).name
+(((name.name).name).(name.name)).name
+(~(name.name)).name
+(~name).name
+
+hits: 12 (0.0219102046778287)
+name.(*(name.name))
+name.({ name: (one ({ name: (one name) {
+((0 <= name) && (name <= 1))
+} })),name: (one ({ name: (one name) {
+((0 <= name) && (name <= 1))
+} })),name: (one fun_call[]) {
+
+} })
+name.(name.fun_call[])
+((((name.name).name).name).name).name
+name.(name.({ name: (one ({ name: (one name) {
+((0 <= name) && (name <= 1))
+} })),name: (one ({ name: (one name) {
+((0 <= name) && (name <= 1))
+} })),name: (one fun_call[]) {
+
+} }))
+
+hits: 11 (0.02008435428800964)
+name.((name + name) + name)
+0.name
+name.(name.((name.(name.name)).name))
+(name.name).(*fun_call[])
+
+hits: 10 (0.01825850389819058)
+name.(((name.(name.name)).(name.name)).name)
+name.(name.((name.name).name))
+
+hits: 9 (0.016432653508371524)
+(name - name).(name.name)
+((name.name).fun_call[]).(*fun_call[])
+((name + name).name).name
+
+hits: 8 (0.014606803118552466)
+(name.name).((name.name).name)
+name.(^(name + name))
+(name.(~(name.name))).name
+1.(name.name)
+(fun_call[].fun_call[]).name
+((name.(~(name.name))).name).name
+
+hits: 7 (0.012780952728733407)
+((name.name).name).fun_call[]
+(name.(name.name)).fun_call[]
+fun_call[].((name + name) + name)
+(fun_call[].name).(name.(fun_call[].name))
+((name.name).name).((name.name).name)
+(name.name).(^(name.name))
+name.((name.name).(name.name))
+((name.name) <: name).name
+(name.fun_call[]).(*fun_call[])
+(name.fun_call[]).(name.name)
+(name - name).name
+(fun_call[].fun_call[]).fun_call[]
+(0.(name.name)).name
+
+hits: 6 (0.01095510233891435)
+name.((name.name).fun_call[])
+(name.(^name)).name
+name.(name.({ name: (one ({ name: (one name) {
+((0 <= name) && (name <= 1))
+} })),name: (one ({ name: (one name) {
+((0 <= name) && (name <= 1))
+} })),name: (one (name + name)) {
+
+} }))
+(name.(name.name)).(name + name)
+((name.(name.({ name: (one ({ name: (one name) {
+((0 <= name) && (name <= 1))
+} })),name: (one ({ name: (one name) {
+((0 <= name) && (name <= 1))
+} })),name: (one fun_call[]) {
+
+} }))).({ name: (one ({ name: (one name) {
+((0 <= name) && (name <= 1))
+} })),name: (one fun_call[]) {
+
+} })).((name.(name.({ name: (one ({ name: (one name) {
+((0 <= name) && (name <= 1))
+} })),name: (one ({ name: (one name) {
+((0 <= name) && (name <= 1))
+} })),name: (one (name + name)) {
+
+} }))).({ name: (one ({ name: (one name) {
+((0 <= name) && (name <= 1))
+} })),name: (one ({ name: (one name) {
+((0 <= name) && (name <= 1))
+} })),name: (one fun_call[]) {
+
+} }))
+(name & name).(*(name <: name))
+name.({ name: (one ({ name: (one name) {
+((0 <= name) && (name <= 1))
+} })),name: (one ({ name: (one name) {
+((0 <= name) && (name <= 1))
+} })),name: (one (((name.(name.({ name: (one ({ name: (one name) {
+((0 <= name) && (name <= 1))
+} })),name: (one ({ name: (one name) {
+((0 <= name) && (name <= 1))
+} })),name: (one fun_call[]) {
+
+} }))).({ name: (one ({ name: (one name) {
+((0 <= name) && (name <= 1))
+} })),name: (one fun_call[]) {
+
+} })).((name.(name.({ name: (one ({ name: (one name) {
+((0 <= name) && (name <= 1))
+} })),name: (one ({ name: (one name) {
+((0 <= name) && (name <= 1))
+} })),name: (one (name + name)) {
+
+} }))).({ name: (one ({ name: (one name) {
+((0 <= name) && (name <= 1))
+} })),name: (one ({ name: (one name) {
+((0 <= name) && (name <= 1))
+} })),name: (one fun_call[]) {
+
+} })))) {
+
+} })
+(((name.name) & name).name).name
+name.(name.({ name: (one ({ name: (one name) {
+((0 <= name) && (name <= 1))
+} })),name: (one ({ name: (one name) {
+((0 <= name) && (name <= 1))
+} })),name: (one (((name.(name.({ name: (one ({ name: (one name) {
+((0 <= name) && (name <= 1))
+} })),name: (one ({ name: (one name) {
+((0 <= name) && (name <= 1))
+} })),name: (one fun_call[]) {
+
+} }))).({ name: (one ({ name: (one name) {
+((0 <= name) && (name <= 1))
+} })),name: (one fun_call[]) {
+
+} })).((name.(name.({ name: (one ({ name: (one name) {
+((0 <= name) && (name <= 1))
+} })),name: (one ({ name: (one name) {
+((0 <= name) && (name <= 1))
+} })),name: (one (name + name)) {
+
+} }))).({ name: (one ({ name: (one name) {
+((0 <= name) && (name <= 1))
+} })),name: (one ({ name: (one name) {
+((0 <= name) && (name <= 1))
+} })),name: (one fun_call[]) {
+
+} })))) {
+
+} }))
+(name.(name.({ name: (one ({ name: (one name) {
+((0 <= name) && (name <= 1))
+} })),name: (one ({ name: (one name) {
+((0 <= name) && (name <= 1))
+} })),name: (one (name + name)) {
+
+} }))).({ name: (one ({ name: (one name) {
+((0 <= name) && (name <= 1))
+} })),name: (one ({ name: (one name) {
+((0 <= name) && (name <= 1))
+} })),name: (one fun_call[]) {
+
+} })
+(name.name).(name.((name.name).name))
+((fun_call[].(name.name)).name).name
+(name.(name.(name.name))).name
+(name.(name.({ name: (one ({ name: (one name) {
+((0 <= name) && (name <= 1))
+} })),name: (one ({ name: (one name) {
+((0 <= name) && (name <= 1))
+} })),name: (one fun_call[]) {
+
+} }))).({ name: (one ({ name: (one name) {
+((0 <= name) && (name <= 1))
+} })),name: (one fun_call[]) {
+
+} })
+(fun_call[].(name.name)).name
+name.({ name: (one ({ name: (one name) {
+((0 <= name) && (name <= 1))
+} })),name: (one ({ name: (one name) {
+((0 <= name) && (name <= 1))
+} })),name: (one (name + name)) {
+
+} })
+(name.(name.(name.name))).(name.name)
+
+hits: 5 (0.00912925194909529)
+name.(~(name + name))
+(name.(fun_call[].name)).(fun_call[].name)
+(name.name).(*(name + name))
+name.(name & name)
+name.(((name.name).name).name)
+(name.name).((name.name).fun_call[])
+
+hits: 4 (0.007303401559276233)
+((name.fun_call[]).fun_call[]).fun_call[]
+((name.name) & (name.name)).name
+(name + name).(~name)
+name.((name.(name.(name.name))).(name.name))
+(((name.fun_call[]).fun_call[]).fun_call[]).name
+(name.(name.((name.name).name))).(name.name)
+name.({ name: (one (0 + 1)),name: (one (0 + 1)),name: (one fun_call[]) {
+
+} })
+((name + name) + name).(~name)
+((name - fun_call[]).name).name
+((name.name).name).(name.fun_call[])
+(name - fun_call[]).name
+(name.((name.name).name)).name
+(name.((name.name).name)).fun_call[]
+(name.(name.name)).((name.(name.name)).((name.name).name))
+(name.(name.(name.name))).(name.(name.name))
+(name.(name + name)).(name.name)
+(name.(name.name)).((name.name).name)
+name.(name.({ name: (one (0 + 1)),name: (one (0 + 1)),name: (one fun_call[]) {
+
+} }))
+((name.name) - name).name
+(name->name).name
+
+hits: 3 (0.005477551169457175)
+(~name).(^(~name))
+((name.name).fun_call[]).((name.name).fun_call[])
+(name.name).(*(name <: name))
+((name.(^name)).name).name
+name.(((name.name).name).((name.name).name))
+name.((name.(name.name)).(name.name))
+(((name.name).name) & (name.name)).name
+1.name
+name.(name - name)
+((name.name).name).(*name)
+3.name
+(name.(~(name.name))).(*(~(name.name)))
+2.name
+(name.name).((name.name).(name.name))
+(((name.name).name).name).(name.name)
+(name.(*name)).name
+fun_call[].(((fun_call[].(name.name)).name).name)
+(^(~name)).name
+2.(name.name)
+(~name).(^name)
+5.name
+name.((0.(name.name)).name)
+name.(*(~name))
+((name - ((name.name).name)).(name.name)).name
+(name - ((name.name).name)).(name.name)
+0.(name.((0.(name.name)).name))
+(name.(name.name)).(name.(name.name))
+name.((name & name) & name)
+
+hits: 2 (0.0036517007796381166)
+(name.((name.name).(name.name))).(name.name)
+(((name.name) & (name.name)).name).fun_call[]
+(name.name).(*(~name))
+(name.(((name.name).name).name)).name
+name.(((name & (name->name)).name) <: name)
+(name.(name.name)).((*(name.name)) :> ({ name: (one name) {
+(no (name.(name.name)))
+} }))
+(name.name).(^(name + name))
+(((name.name).name).name).(name + name)
+((name.name) + (name.name)).name
+(name.name).(^fun_call[])
+((fun_call[].name).(name <: ((^name) :> name))).fun_call[]
+fun_call[].(name.((name.(name.name)).name))
+(name & (name->name)).name
+(~(^fun_call[])).(~name)
+(fun_call[].fun_call[]).(*name)
+(name.(name.name)).((name.(name.name)).name)
+(name.(name.fun_call[])).name
+name.(name.(name + name))
+(~(name.name)).(name.name)
+1.(name.((name.(name.name)).name))
+((name - name).name).(name.name)
+name.(name.({ name: (one (0 + 1)),name: (one (0 + 1)),name: (one (((name.(name.({ name: (one (0 + 1)),name: (one (0 + 1)),name: (one fun_call[]) {
+
+} }))).({ name: (one (0 + 1)),name: (one fun_call[]) {
+
+} })).((name.(name.({ name: (one (0 + 1)),name: (one (0 + 1)),name: (one (name + name)) {
+
+} }))).({ name: (one (0 + 1)),name: (one (0 + 1)),name: (one fun_call[]) {
+
+} })))) {
+
+} }))
+(fun_call[].name).(name <: ((^name) :> name))
+(name.(name.({ name: (one ({ name: (one name) {
+((0 <= name) && (name <= 1))
+} })),name: (one ({ name: (one name) {
+((0 <= name) && (name <= 1))
+} })),name: (one fun_call[]) {
+
+} }))).((name.(name.({ name: (one ({ name: (one name) {
+((0 <= name) && (name <= 1))
+} })),name: (one ({ name: (one name) {
+((0 <= name) && (name <= 1))
+} })),name: (one fun_call[]) {
+
+} }))).({ name: (one ({ name: (one name) {
+((0 <= name) && (name <= 1))
+} })),name: (one ({ name: (one name) {
+((0 <= name) && (name <= 1))
+} })),name: (one (name + name)) {
+
+} }))
+((name.name).(*(~name))).name
+(fun_call[].(name & (name.(~name)))).(name <: ((^name) :> name))
+(*name).name
+(name.(name.({ name: (one (0 + 1)),name: (one (0 + 1)),name: (one (name + name)) {
+
+} }))).({ name: (one (0 + 1)),name: (one (0 + 1)),name: (one fun_call[]) {
+
+} })
+name.((name + name) & (name + name))
+(((name.fun_call[]).fun_call[]).name).name
+((name.name).fun_call[]).fun_call[]
+name.(^(name + (~name)))
+(name.(name <: (((name.(name.name)).name).name))).name
+(((name.name).name) + ((name.name).name)).name
+name.({ name: (one (0 + 1)),name: (one (0 + 1)),name: (one (((name.(name.({ name: (one (0 + 1)),name: (one (0 + 1)),name: (one fun_call[]) {
+
+} }))).({ name: (one (0 + 1)),name: (one fun_call[]) {
+
+} })).((name.(name.({ name: (one (0 + 1)),name: (one (0 + 1)),name: (one (name + name)) {
+
+} }))).({ name: (one (0 + 1)),name: (one (0 + 1)),name: (one fun_call[]) {
+
+} })))) {
+
+} })
+(name.(~(name.name))).(~name)
+(name.(name.({ name: (one (0 + 1)),name: (one (0 + 1)),name: (one fun_call[]) {
+
+} }))).({ name: (one (0 + 1)),name: (one fun_call[]) {
+
+} })
+(^(~fun_call[])).(~name)
+((fun_call[].(name & (name.(~name)))).(name <: ((^name) :> name))).(name & (name.(~name)))
+((name.name) + (name->name)).(~(name.name))
+(name.name).(0.name)
+(name.((name + name) + name)).name
+name.(name <: (((name.(name.name)).name).name))
+(name - iden).name
+((fun_call[].fun_call[]).name).name
+(name.(name.({ name: (one ({ name: (one name) {
+((0 <= name) && (name <= 1))
+} })),name: (one ({ name: (one name) {
+((0 <= name) && (name <= 1))
+} })),name: (one fun_call[]) {
+
+} }))).({ name: (one ({ name: (one name) {
+((0 <= name) && (name <= 1))
+} })),name: (one ({ name: (one name) {
+((0 <= name) && (name <= 1))
+} })),name: (one (name + name)) {
+
+} })
+((((name.name).name) + ((name.name).name)).name).name
+3.(name.name)
+1.(fun_call[].name)
+4.(name.name)
+name.({ name: (one (0 + 1)),name: (one (0 + 1)),name: (one (name + name)) {
+
+} })
+((name.(name.({ name: (one (0 + 1)),name: (one (0 + 1)),name: (one fun_call[]) {
+
+} }))).({ name: (one (0 + 1)),name: (one fun_call[]) {
+
+} })).((name.(name.({ name: (one (0 + 1)),name: (one (0 + 1)),name: (one (name + name)) {
+
+} }))).({ name: (one (0 + 1)),name: (one (0 + 1)),name: (one fun_call[]) {
+
+} }))
+(name.(~name)).(~name)
+((fun_call[].fun_call[]).fun_call[]).fun_call[]
+(((fun_call[].fun_call[]).fun_call[]).fun_call[]).name
+name.(^(~name))
+(((name.(name.name)).name).name).(name.name)
+fun_call[].(name & (name.(~name)))
+(name.name).((name.(name.(name.name))).(name.name))
+name.(name.({ name: (one (0 + 1)),name: (one (0 + 1)),name: (one (name + name)) {
+
+} }))
+0.(fun_call[].name)
+(name.name).(5.name)
+(fun_call[].name).fun_call[]
+
+hits: 1 (0.0018258503898190583)
+(name.name).(name.(name + name))
+(name.name).((name.(name.name)) & ((name.name).name))
+(~fun_call[]).fun_call[]
+name.(*((name - (name->name)) - (name->name)))
+(name.(name.name)).(*((name.name).(name.name)))
+((name.(name.name)).(*((name.name).(name.name)))).(name.name)
+((name.name).(name.(name.name))).(name.name)
+((fun_call[].fun_call[]).fun_call[]).name
+(name.(((((name + name) + name) + name) + name) + name)).name
+(fun_call[].(((name.name) + fun_call[]) + fun_call[])).fun_call[]
+(name & name).name
+(((iden + (name.name)).(iden + (name.name))).(iden + (name.name))).(iden + (name.name))
+((*name).name).name
+name.(^(name - (name->name)))
+((name.((name.name).name)) - (name.name)).name
+(name.(~(name.name))).(*((~(name.name)).(~(name.name))))
+(name.name).((name.name).(name.(name.name)))
+((name.name).(^name)).(name.name)
+((((~fun_call[]).fun_call[]).fun_call[]).fun_call[]).(~fun_call[])
+name.(((((((((name->name) + (name->name)) + (name->name)) + (name->name)) + (name->name)) + (name->name)) + (name->name)) + (name->name)) + (name->name))
+(#name).name
+((fun_call[].name).(name.(fun_call[].name))).(fun_call[].name)
+(((fun_call[].fun_call[]).fun_call[]) - ((~(name.name)).name)).(name.name)
+(name.(*((name.name).(name.name)))).(name.name)
+((name + name) <: name).(name.name)
+((((name.name).name).(name.name)).name).name
+name.(*(~(name.name)))
+name.(*(name.(name.name)))
+fun_call[].(((name.name) + fun_call[]) + fun_call[])
+((fun_call[] - 1).((name.name).name)).name
+(fun_call[].name).((fun_call[].name).name)
+0.((name.name).name)
+(name.name).((name.fun_call[]).fun_call[])
+(~(name.name)).(~(name.name))
+fun_call[].(*(name.(name.name)))
+name.(name <: ((name.name) - (name->name)))
+(((name.name).name).name).(((name.name).name).name)
+((((iden + (name.name)).(iden + (name.name))).(iden + (name.name))).(iden + (name.name))).(iden + (name.name))
+(name & (name + name)).name
+(name.(~name)).(^name)
+name.(fun_call[].(name.name))
+fun_call[].((name.name).name)
+((fun_call[] + name) - name).name
+(((name + name) + name) + name).name
+(((~fun_call[]).fun_call[]).fun_call[]).fun_call[]
+name.(fun_call[] + fun_call[])
+(fun_call[] - 1).((name.name).name)
+(name.(*name)).(name.name)
+((name.name).name).(~name)
+((name.(name + name)) <: name).(name.name)
+((name.fun_call[]).name).fun_call[]
+name.((name->name) + (name->name))
+((name - name).name).name
+((name.(fun_call[].name)).fun_call[]).fun_call[]
+(name.(fun_call[].name)).fun_call[]
+(fun_call[] - fun_call[]).name
+(fun_call[].fun_call[]).(~fun_call[])
+((fun_call[].name).name).(fun_call[].name)
+name.(^(((name.name) <: name).(~((name.name) <: name))))
+((name.((name.name).name)).name).name
+fun_call[].(~name)
+1.((name.(name.name)).name)
+name.(^((name - (name->name)) - (name->name)))
+(name.(name.({ name: (one (0 + 1)),name: (one (0 + 1)),name: (one fun_call[]) {
+
+} }))).((name.(name.({ name: (one (0 + 1)),name: (one (0 + 1)),name: (one fun_call[]) {
+
+} }))).({ name: (one (0 + 1)),name: (one (0 + 1)),name: (one (name + name)) {
+
+} }))
+(^(name.name)).name
+name.(name + (~name))
+((name.name) <: name).(~((name.name) <: name))
+name.(((((name + name) + name) + name) + name) + name)
+((iden + (name.name)).(iden + (name.name))).(iden + (name.name))
+((name.name).(*name)).name
+name.((((fun_call[].fun_call[]).fun_call[]).fun_call[]).name)
+(name.(name.({ name: (one (0 + 1)),name: (one (0 + 1)),name: (one fun_call[]) {
+
+} }))).({ name: (one (0 + 1)),name: (one (0 + 1)),name: (one (name + name)) {
+
+} })
+((name.name) + (name.name)).((name.name).name)
+4.name
+name.((fun_call[].name).name)
+5.(name.name)
+name.(((name.name).name).(((name.name).name).name))
+((name & name).name).name
+name.((name.fun_call[]).(name.name))
+(fun_call[].name).((fun_call[].name).(name.(fun_call[].name)))
+name.(*((name.name).(name.name)))
+(*(((name.name) - (name.name)) + (name.name))).(name.name)
+(((((iden + (name.name)).(iden + (name.name))).(iden + (name.name))).(iden + (name.name))).(iden + (name.name))).(iden + (name.name))
+2.((name.(name.name)).name)
+((name + name).name).fun_call[]
+(name.name).(name + name)
+name.(((name + name) + name) + name)
+name.((name.name) + name)
+((name.name).(name.name)).(name.name)
+(name & (name->fun_call[])).name
+((fun_call[] + 1).((name.name).name)).name
+((name.name).(^(name.name))).name
+((name.name).name).(((name.name).name).name)
+(((fun_call[].(name.name)).name).name).name
+(name.name).(((name + name).name).fun_call[])
+((~fun_call[]).fun_call[]).fun_call[]
+(name + (name.(name.name))).(name.name)
+name.(name.(name.(name.name)))
+(fun_call[] + 1).((name.name).name)
+name.(*((name.name) - (name->name)))
+(iden + (name.name)).(iden + (name.name))
+((name.name).(name.name)).name
+
+

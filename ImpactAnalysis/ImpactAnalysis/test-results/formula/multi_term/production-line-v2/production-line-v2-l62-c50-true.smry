@@ -1,0 +1,64 @@
+Model name: production-line-v2
+Filename: completion/production-line-v2-complete.als
+Offset: 1286
+Term: .
+Vscode Position: line=61 character=50
+----------------------------------
+62 | 	all c : Component & Dangerous | no c.workstation.
+----------------------------------
+Completion List:
+# Suggestion 	 Exact 	 Syntactic 	 Semantic
+$1. ~workstation.c 	 false 	 undefined 	 undefined
+$2. *succ.Workstation 	 false 	 undefined 	 undefined
+$3. *succ.begin 	 false 	 undefined 	 undefined
+$4. *succ.end 	 false 	 undefined 	 undefined
+$5. ^succ.Workstation 	 false 	 undefined 	 undefined
+$6. ^succ.begin 	 false 	 undefined 	 undefined
+$7. ^succ.end 	 false 	 undefined 	 undefined
+$8. succ.Workstation 	 false 	 undefined 	 undefined
+$9. succ.begin 	 false 	 undefined 	 undefined
+$10. succ.end 	 false 	 undefined 	 undefined
+$11. workers.Human 	 false 	 undefined 	 undefined
+$12. workers.Robot 	 false 	 undefined 	 undefined
+$13. workers.Worker 	 false 	 undefined 	 undefined
+$14. ~succ.Workstation 	 false 	 undefined 	 undefined
+$15. ~succ.begin 	 false 	 undefined 	 undefined
+$16. ~succ.end 	 false 	 undefined 	 undefined
+$17. ~workstation.Component 	 false 	 undefined 	 undefined
+$18. *succ.workers 	 false 	 undefined 	 undefined
+$19. ^succ.workers 	 false 	 undefined 	 undefined
+$20. succ 	 false 	 undefined 	 undefined
+$21. succ.univ 	 false 	 undefined 	 undefined
+$22. succ.workers 	 false 	 undefined 	 undefined
+$23. succ.~workstation 	 false 	 undefined 	 undefined
+$24. workers 	 true 	 undefined 	 undefined
+$25. workers.univ 	 false 	 undefined 	 undefined
+$26. ~succ.workers 	 false 	 undefined 	 undefined
+$27. *succ.~workstation 	 false 	 undefined 	 undefined
+$28. ^succ.~workstation 	 false 	 undefined 	 undefined
+$29. ~succ 	 false 	 undefined 	 undefined
+$30. ~succ.univ 	 false 	 undefined 	 undefined
+$31. ~succ.~workstation 	 false 	 undefined 	 undefined
+$32. ~workstation 	 false 	 undefined 	 undefined
+$33. ~workstation.univ 	 false 	 undefined 	 undefined
+$34. ^succ 	 false 	 undefined 	 undefined
+$35. ^succ.univ 	 false 	 undefined 	 undefined
+$36. *succ 	 false 	 undefined 	 undefined
+$37. *succ.univ 	 false 	 undefined 	 undefined
+Expected Completion word: workers
+Expected Completion line: workers & Human
+Suggestion exists: true
+
+Suggestion in top 1 = false 
+Suggestion in top 5 = false 
+Suggestion in top 10 = false 
+
+Suggestion in top 1 (Alpha) = false
+Suggestion in top 5 (Alpha) = false
+Suggestion in top 10 (Alpha) = false
+
+Suggestion in top 1 (Len) = false
+Suggestion in top 5 (Len) = true
+Suggestion in top 10 (Len) = true
+
+Time taken: 9.461416

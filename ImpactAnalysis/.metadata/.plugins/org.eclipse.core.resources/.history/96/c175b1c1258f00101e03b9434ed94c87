@@ -1,0 +1,12 @@
+modelname,filename,position-line,position-character,incompleteline,removedtext,baseline,suggestionedExpression,A_iff_B,A_and_B,not_A_and_B,A_and_not_B,not_A_and_not_B,suggestionImpactTime
+train-station-fol,completion/train-station-fol-sig.als,8,29,"sig Semaphore, Speed extends","Signal {}","{}","sig Semaphore, Speed extends Entry",,,,,,3.845875
+train-station-fol,completion/train-station-fol-sig.als,8,29,"sig Semaphore, Speed extends","Signal {}","{}","sig Semaphore, Speed extends Exit",,,,,,3.845875
+train-station-fol,completion/train-station-fol-sig.als,8,29,"sig Semaphore, Speed extends","Signal {}","{}","sig Semaphore, Speed extends Junction",,,,,,3.845875
+train-station-fol,completion/train-station-fol-sig.als,8,29,"sig Semaphore, Speed extends","Signal {}","{}","sig Semaphore, Speed extends Signal",,,,,,3.845875
+train-station-fol,completion/train-station-fol-sig.als,8,29,"sig Semaphore, Speed extends","Signal {}","{}","sig Semaphore, Speed extends Track",,,,,,3.845875
+train-station-fol,completion/train-station-fol-sig.als,8,29,"sig Semaphore, Speed extends","Signal {}","{}","sig Semaphore, Speed extends Int",,,,,,3.845875
+train-station-fol,completion/train-station-fol-sig.als,8,29,"sig Semaphore, Speed extends","Signal {}","{}","sig Semaphore, Speed extends String",,,,,,3.845875
+train-station-fol,completion/train-station-fol-sig.als,8,29,"sig Semaphore, Speed extends","Signal {}","{}","sig Semaphore, Speed extends seq/Int",,,,,,3.845875
+train-station-fol,completion/train-station-fol-sig.als,8,29,"sig Semaphore, Speed extends","Signal {}","{}","sig Semaphore, Speed extends iden",,,,,,3.845875
+train-station-fol,completion/train-station-fol-sig.als,8,29,"sig Semaphore, Speed extends","Signal {}","{}","sig Semaphore, Speed extends none",,,,,,3.845875
+train-station-fol,completion/train-station-fol-sig.als,8,29,"sig Semaphore, Speed extends","Signal {}","{}","sig Semaphore, Speed extends univ",,,,,,3.845875

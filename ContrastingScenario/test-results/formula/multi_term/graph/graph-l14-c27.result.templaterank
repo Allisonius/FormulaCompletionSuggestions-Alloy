@@ -1,0 +1,16 @@
+adj
+^adj
+~adj
+*adj
+adj.n
+^adj.n
+adj.Node
+adj.univ
+~adj.Node
+~adj.n
+~adj.univ
+^adj.Node
+^adj.univ
+*adj.Node
+*adj.n
+*adj.univ

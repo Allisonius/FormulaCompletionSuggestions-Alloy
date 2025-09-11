@@ -1,0 +1,39 @@
+Model name: classroom-fol
+Filename: completion/classroom-fol-complete.als
+Offset: 629
+Term:  -> 
+Vscode Position: line=44 character=60
+----------------------------------
+45 | 	all t: Teacher, c1,c2: Class | t -> c1 in Teaches and t -> 
+----------------------------------
+Completion List:
+# Suggestion 	 Exact 	 Syntactic 	 Semantic
+$1. c1 	 false 	 undefined 	 undefined
+$2. c2 	 true 	 undefined 	 undefined
+$3. t 	 false 	 undefined 	 undefined
+$4. Class 	 false 	 undefined 	 undefined
+$5. Group 	 false 	 undefined 	 undefined
+$6. Person 	 false 	 undefined 	 undefined
+$7. Student 	 false 	 undefined 	 undefined
+$8. Teacher 	 false 	 undefined 	 undefined
+$9. Int 	 false 	 undefined 	 undefined
+$10. String 	 false 	 undefined 	 undefined
+$11. none 	 false 	 undefined 	 undefined
+$12. univ 	 false 	 undefined 	 undefined
+Expected Completion word: c2
+Expected Completion line: c2 in Teaches => c1 = c2
+Suggestion exists: true
+
+Suggestion in top 1 = false 
+Suggestion in top 5 = true 
+Suggestion in top 10 = true 
+
+Suggestion in top 1 (Alpha) = false
+Suggestion in top 5 (Alpha) = true
+Suggestion in top 10 (Alpha) = true
+
+Suggestion in top 1 (Len) = false
+Suggestion in top 5 (Len) = true
+Suggestion in top 10 (Len) = true
+
+Time taken: 10.558416

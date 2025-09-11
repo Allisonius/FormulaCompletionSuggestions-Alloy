@@ -1,0 +1,7 @@
+modelname,filename,position-line,position-character,incompleteline,removedtext,baseline,suggestionedExpression,A_iff_B,A_and_B,not_A_and_B,A_and_not_B,not_A_and_not_B,suggestionImpactTime
+train-station-ltl,completion/train-station-ltl-complete.als,107,53,"all t : Train, p : Track | not (eventually always t.","pos = p)","{}","\tall t : Train, p : Track | not (eventually always t.pos",,,,,,7.471458
+train-station-ltl,completion/train-station-ltl-complete.als,107,53,"all t : Train, p : Track | not (eventually always t.","pos = p)","{}","\tall t : Train, p : Track | not (eventually always t.pos'",,,,,,7.471458
+train-station-ltl,completion/train-station-ltl-complete.als,107,53,"all t : Train, p : Track | not (eventually always t.","pos = p)","{}","\tall t : Train, p : Track | not (eventually always t.*prox",,,,,,7.471458
+train-station-ltl,completion/train-station-ltl-complete.als,107,53,"all t : Train, p : Track | not (eventually always t.","pos = p)","{}","\tall t : Train, p : Track | not (eventually always t.iden",,,,,,7.471458
+train-station-ltl,completion/train-station-ltl-complete.als,107,53,"all t : Train, p : Track | not (eventually always t.","pos = p)","{}","\tall t : Train, p : Track | not (eventually always t.none",,,,,,7.471458
+train-station-ltl,completion/train-station-ltl-complete.als,107,53,"all t : Train, p : Track | not (eventually always t.","pos = p)","{}","\tall t : Train, p : Track | not (eventually always t.univ",,,,,,7.471458

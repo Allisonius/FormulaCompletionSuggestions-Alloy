@@ -1,0 +1,9 @@
+modelname,filename,position-line,position-character,incompleteline,removedtext,baseline,suggestionedExpression,A_iff_B,A_and_B,not_A_and_B,A_and_not_B,not_A_and_not_B,suggestionImpactTime
+train-station-fol,completion/train-station-fol-complete.als,23,33,"all t:Track| t in Exit iff no t.","^succs","all t:Track| t in Exit","\tall t:Track| t in Exit iff no t.signals",true,true,true,true,true,14.933959
+train-station-fol,completion/train-station-fol-complete.als,23,33,"all t:Track| t in Exit iff no t.","^succs","all t:Track| t in Exit","\tall t:Track| t in Exit iff no t.succs",true,true,true,true,true,14.933959
+train-station-fol,completion/train-station-fol-complete.als,23,33,"all t:Track| t in Exit iff no t.","^succs","all t:Track| t in Exit","\tall t:Track| t in Exit iff no t.~succs",true,true,true,true,true,14.933959
+train-station-fol,completion/train-station-fol-complete.als,23,33,"all t:Track| t in Exit iff no t.","^succs","all t:Track| t in Exit","\tall t:Track| t in Exit iff no t.^succs",true,true,true,true,true,14.933959
+train-station-fol,completion/train-station-fol-complete.als,23,33,"all t:Track| t in Exit iff no t.","^succs","all t:Track| t in Exit","\tall t:Track| t in Exit iff no t.*succs",true,true,true,true,true,14.933959
+train-station-fol,completion/train-station-fol-complete.als,23,33,"all t:Track| t in Exit iff no t.","^succs","all t:Track| t in Exit","\tall t:Track| t in Exit iff no t.iden",true,true,true,true,true,14.933959
+train-station-fol,completion/train-station-fol-complete.als,23,33,"all t:Track| t in Exit iff no t.","^succs","all t:Track| t in Exit","\tall t:Track| t in Exit iff no t.none",,,,,,14.933959
+train-station-fol,completion/train-station-fol-complete.als,23,33,"all t:Track| t in Exit iff no t.","^succs","all t:Track| t in Exit","\tall t:Track| t in Exit iff no t.univ",,,,,,14.933959

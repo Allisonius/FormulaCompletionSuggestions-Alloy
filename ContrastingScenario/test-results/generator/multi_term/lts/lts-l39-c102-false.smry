@@ -1,0 +1,28 @@
+Model name: lts
+Filename: completion/lts-complete.als
+Offset: 1022
+Term: .
+Vscode Position: line=38 character=102
+----------------------------------
+39 | 	let ts = { s1,s2:State | some e:Event | s1->e->s2 in trans } | all s:Init.^ts | some i:Init | i in s.
+----------------------------------
+Completion List:
+# Suggestion 	 Exact 	 Syntactic 	 Semantic
+
+Expected Completion word: ^ts
+Expected Completion line: ^ts
+Suggestion exists: false
+
+Suggestion in top 1 = false 
+Suggestion in top 5 = false 
+Suggestion in top 10 = false 
+
+Suggestion in top 1 (Alpha) = false
+Suggestion in top 5 (Alpha) = false
+Suggestion in top 10 (Alpha) = false
+
+Suggestion in top 1 (Len) = false
+Suggestion in top 5 (Len) = false
+Suggestion in top 10 (Len) = false
+
+Time taken: 10.437458

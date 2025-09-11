@@ -1,0 +1,11 @@
+modelname,filename,position-line,position-character,incompleteline,removedtext,baseline,suggestionedExpression,A_iff_B,A_and_B,not_A_and_B,A_and_not_B,not_A_and_not_B,suggestionImpactTime
+social-media,completion/socialMedia.als,25,25,"all p : User | p.sees -","Ad in p.follows.posts","{}","\tall p : User | p.sees - p",,,,,,13.635542
+social-media,completion/socialMedia.als,25,25,"all p : User | p.sees -","Ad in p.follows.posts","{}","\tall p : User | p.sees - Ad",,,,,,13.635542
+social-media,completion/socialMedia.als,25,25,"all p : User | p.sees -","Ad in p.follows.posts","{}","\tall p : User | p.sees - Day",,,,,,13.635542
+social-media,completion/socialMedia.als,25,25,"all p : User | p.sees -","Ad in p.follows.posts","{}","\tall p : User | p.sees - Influencer",,,,,,13.635542
+social-media,completion/socialMedia.als,25,25,"all p : User | p.sees -","Ad in p.follows.posts","{}","\tall p : User | p.sees - Photo",,,,,,13.635542
+social-media,completion/socialMedia.als,25,25,"all p : User | p.sees -","Ad in p.follows.posts","{}","\tall p : User | p.sees - User",,,,,,13.635542
+social-media,completion/socialMedia.als,25,25,"all p : User | p.sees -","Ad in p.follows.posts","{}","\tall p : User | p.sees - Int",,,,,,13.635542
+social-media,completion/socialMedia.als,25,25,"all p : User | p.sees -","Ad in p.follows.posts","{}","\tall p : User | p.sees - String",,,,,,13.635542
+social-media,completion/socialMedia.als,25,25,"all p : User | p.sees -","Ad in p.follows.posts","{}","\tall p : User | p.sees - none",,,,,,13.635542
+social-media,completion/socialMedia.als,25,25,"all p : User | p.sees -","Ad in p.follows.posts","{}","\tall p : User | p.sees - univ",,,,,,13.635542

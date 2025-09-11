@@ -1,0 +1,8 @@
+modelname,filename,position-line,position-character,incompleteline,removedtext,baseline,suggestionedExpression,A_iff_B,A_and_B,not_A_and_B,A_and_not_B,not_A_and_not_B,suggestionImpactTime
+classroom,completion/classroom-complete.als,69,63,"all c:Class,p:Person | p in (c.Groups).Group implies Teaches.","c -> p in Tutors","{}","  all c:Class,p:Person | p in (c.Groups).Group implies Teaches.c",,,,,,8.355459
+classroom,completion/classroom-complete.als,69,63,"all c:Class,p:Person | p in (c.Groups).Group implies Teaches.","c -> p in Tutors","{}","  all c:Class,p:Person | p in (c.Groups).Group implies Teaches.Class",,,,,,8.355459
+classroom,completion/classroom-complete.als,69,63,"all c:Class,p:Person | p in (c.Groups).Group implies Teaches.","c -> p in Tutors","{}","  all c:Class,p:Person | p in (c.Groups).Group implies Teaches.Groups",,,,,,8.355459
+classroom,completion/classroom-complete.als,69,63,"all c:Class,p:Person | p in (c.Groups).Group implies Teaches.","c -> p in Tutors","{}","  all c:Class,p:Person | p in (c.Groups).Group implies Teaches.*Tutors",,,,,,8.355459
+classroom,completion/classroom-complete.als,69,63,"all c:Class,p:Person | p in (c.Groups).Group implies Teaches.","c -> p in Tutors","{}","  all c:Class,p:Person | p in (c.Groups).Group implies Teaches.iden",,,,,,8.355459
+classroom,completion/classroom-complete.als,69,63,"all c:Class,p:Person | p in (c.Groups).Group implies Teaches.","c -> p in Tutors","{}","  all c:Class,p:Person | p in (c.Groups).Group implies Teaches.none",,,,,,8.355459
+classroom,completion/classroom-complete.als,69,63,"all c:Class,p:Person | p in (c.Groups).Group implies Teaches.","c -> p in Tutors","{}","  all c:Class,p:Person | p in (c.Groups).Group implies Teaches.univ",,,,,,8.355459

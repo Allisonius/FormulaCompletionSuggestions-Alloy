@@ -1,0 +1,91 @@
+Model name: classroom
+Filename: completion/classroom-complete.als
+Offset: 972
+Term: .
+Vscode Position: line=72 character=42
+----------------------------------
+73 |   all p:Person | some Teacher & (^Tutors).
+----------------------------------
+Completion List:
+# Suggestion 	 Exact 	 Syntactic 	 Semantic
+$1. *Tutors.p 	 false 	 undefined 	 undefined
+$2. Tutors.p 	 false 	 undefined 	 undefined
+$3. ^Tutors.p 	 false 	 undefined 	 undefined
+$4. p 	 true 	 undefined 	 undefined
+$5. p.*Tutors 	 false 	 undefined 	 undefined
+$6. p.Teaches 	 false 	 undefined 	 undefined
+$7. p.Tutors 	 false 	 undefined 	 undefined
+$8. p.^Tutors 	 false 	 undefined 	 undefined
+$9. p.~Tutors 	 false 	 undefined 	 undefined
+$10. ~Tutors.p 	 false 	 undefined 	 undefined
+$11. *Tutors.Person 	 false 	 undefined 	 undefined
+$12. *Tutors.Student 	 false 	 undefined 	 undefined
+$13. *Tutors.Teacher 	 false 	 undefined 	 undefined
+$14. Person 	 false 	 undefined 	 undefined
+$15. Person.*Tutors 	 false 	 undefined 	 undefined
+$16. Person.Teaches 	 false 	 undefined 	 undefined
+$17. Person.Tutors 	 false 	 undefined 	 undefined
+$18. Person.^Tutors 	 false 	 undefined 	 undefined
+$19. Person.~Tutors 	 false 	 undefined 	 undefined
+$20. Student 	 false 	 undefined 	 undefined
+$21. Student.*Tutors 	 false 	 undefined 	 undefined
+$22. Student.Teaches 	 false 	 undefined 	 undefined
+$23. Student.Tutors 	 false 	 undefined 	 undefined
+$24. Student.^Tutors 	 false 	 undefined 	 undefined
+$25. Student.~Tutors 	 false 	 undefined 	 undefined
+$26. Teacher 	 false 	 undefined 	 undefined
+$27. Teacher.*Tutors 	 false 	 undefined 	 undefined
+$28. Teacher.Teaches 	 false 	 undefined 	 undefined
+$29. Teacher.Tutors 	 false 	 undefined 	 undefined
+$30. Teacher.^Tutors 	 false 	 undefined 	 undefined
+$31. Teacher.~Tutors 	 false 	 undefined 	 undefined
+$32. Teaches.Class 	 false 	 undefined 	 undefined
+$33. Tutors.Person 	 false 	 undefined 	 undefined
+$34. Tutors.Student 	 false 	 undefined 	 undefined
+$35. Tutors.Teacher 	 false 	 undefined 	 undefined
+$36. ^Tutors.Person 	 false 	 undefined 	 undefined
+$37. ^Tutors.Student 	 false 	 undefined 	 undefined
+$38. ^Tutors.Teacher 	 false 	 undefined 	 undefined
+$39. ~Tutors.Person 	 false 	 undefined 	 undefined
+$40. ~Tutors.Student 	 false 	 undefined 	 undefined
+$41. ~Tutors.Teacher 	 false 	 undefined 	 undefined
+$42. *Tutors.Teaches 	 false 	 undefined 	 undefined
+$43. Teaches 	 false 	 undefined 	 undefined
+$44. Teaches.Groups 	 false 	 undefined 	 undefined
+$45. Teaches.univ 	 false 	 undefined 	 undefined
+$46. Tutors 	 false 	 undefined 	 undefined
+$47. Tutors.Teaches 	 false 	 undefined 	 undefined
+$48. Tutors.univ 	 false 	 undefined 	 undefined
+$49. ^Tutors.Teaches 	 false 	 undefined 	 undefined
+$50. univ.Groups 	 false 	 undefined 	 undefined
+$51. univ.Teaches 	 false 	 undefined 	 undefined
+$52. univ.Tutors 	 false 	 undefined 	 undefined
+$53. ~Tutors.Teaches 	 false 	 undefined 	 undefined
+$54. univ.~Teaches 	 false 	 undefined 	 undefined
+$55. univ.~Tutors 	 false 	 undefined 	 undefined
+$56. ~Tutors 	 false 	 undefined 	 undefined
+$57. ~Tutors.univ 	 false 	 undefined 	 undefined
+$58. ^Tutors 	 false 	 undefined 	 undefined
+$59. ^Tutors.univ 	 false 	 undefined 	 undefined
+$60. univ.^Tutors 	 false 	 undefined 	 undefined
+$61. *Tutors 	 false 	 undefined 	 undefined
+$62. *Tutors.univ 	 false 	 undefined 	 undefined
+$63. univ 	 false 	 undefined 	 undefined
+$64. univ.*Tutors 	 false 	 undefined 	 undefined
+Expected Completion word: p
+Expected Completion line: p
+Suggestion exists: true
+
+Suggestion in top 1 = false 
+Suggestion in top 5 = true 
+Suggestion in top 10 = true 
+
+Suggestion in top 1 (Alpha) = false
+Suggestion in top 5 (Alpha) = false
+Suggestion in top 10 (Alpha) = false
+
+Suggestion in top 1 (Len) = true
+Suggestion in top 5 (Len) = true
+Suggestion in top 10 (Len) = true
+
+Time taken: 10.966083

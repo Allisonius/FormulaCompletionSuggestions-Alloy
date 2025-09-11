@@ -1,0 +1,10 @@
+modelname,filename,position-line,position-character,incompleteline,removedtext,baseline,suggestionedExpression,A_iff_B,A_and_B,not_A_and_B,A_and_not_B,not_A_and_not_B,suggestionImpactTime
+train-station-ltl,completion/train-station-ltl-complete.als,43,36,"all t : Track | t in Exit iff no t.","prox","all t : Track | t in Exit","\tall t : Track | t in Exit iff no t.prox",true,true,true,true,true,25.734166
+train-station-ltl,completion/train-station-ltl-complete.als,43,36,"all t : Track | t in Exit iff no t.","prox","all t : Track | t in Exit","\tall t : Track | t in Exit iff no t.signal",true,true,true,true,true,25.734166
+train-station-ltl,completion/train-station-ltl-complete.als,43,36,"all t : Track | t in Exit iff no t.","prox","all t : Track | t in Exit","\tall t : Track | t in Exit iff no t.~pos",true,true,true,true,true,25.734166
+train-station-ltl,completion/train-station-ltl-complete.als,43,36,"all t : Track | t in Exit iff no t.","prox","all t : Track | t in Exit","\tall t : Track | t in Exit iff no t.~prox",true,true,true,true,true,25.734166
+train-station-ltl,completion/train-station-ltl-complete.als,43,36,"all t : Track | t in Exit iff no t.","prox","all t : Track | t in Exit","\tall t : Track | t in Exit iff no t.^prox",true,true,true,true,true,25.734166
+train-station-ltl,completion/train-station-ltl-complete.als,43,36,"all t : Track | t in Exit iff no t.","prox","all t : Track | t in Exit","\tall t : Track | t in Exit iff no t.*prox",true,true,true,true,true,25.734166
+train-station-ltl,completion/train-station-ltl-complete.als,43,36,"all t : Track | t in Exit iff no t.","prox","all t : Track | t in Exit","\tall t : Track | t in Exit iff no t.iden",true,true,true,true,true,25.734166
+train-station-ltl,completion/train-station-ltl-complete.als,43,36,"all t : Track | t in Exit iff no t.","prox","all t : Track | t in Exit","\tall t : Track | t in Exit iff no t.none",,,,,,25.734166
+train-station-ltl,completion/train-station-ltl-complete.als,43,36,"all t : Track | t in Exit iff no t.","prox","all t : Track | t in Exit","\tall t : Track | t in Exit iff no t.univ",,,,,,25.734166

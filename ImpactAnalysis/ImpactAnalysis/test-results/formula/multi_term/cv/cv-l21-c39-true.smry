@@ -1,0 +1,191 @@
+Model name: cv
+Filename: completion/cv-complete.als
+Offset: 468
+Term:  in 
+Vscode Position: line=20 character=39
+----------------------------------
+21 |     all u : User | u.profile.source in 
+----------------------------------
+Completion List:
+# Suggestion 	 Exact 	 Syntactic 	 Semantic
+$1. profile.source.u 	 false 	 undefined 	 undefined
+$2. profile.~visible.u 	 false 	 undefined 	 undefined
+$3. source.u.profile 	 false 	 undefined 	 undefined
+$4. source.u.visible 	 false 	 undefined 	 undefined
+$5. source.u.~source 	 false 	 undefined 	 undefined
+$6. u 	 false 	 undefined 	 undefined
+$7. u.profile.source 	 false 	 undefined 	 undefined
+$8. u.profile.~visible 	 false 	 undefined 	 undefined
+$9. u.visible.source 	 false 	 undefined 	 undefined
+$10. u.visible.~profile 	 false 	 undefined 	 undefined
+$11. u.~source.~profile 	 false 	 undefined 	 undefined
+$12. u.~source.~visible 	 false 	 undefined 	 undefined
+$13. visible.source.u 	 false 	 undefined 	 undefined
+$14. visible.~profile.u 	 false 	 undefined 	 undefined
+$15. ~profile.u.profile 	 false 	 undefined 	 undefined
+$16. ~profile.u.visible 	 false 	 undefined 	 undefined
+$17. ~profile.u.~source 	 false 	 undefined 	 undefined
+$18. ~source.~profile.u 	 false 	 undefined 	 undefined
+$19. ~source.~visible.u 	 false 	 undefined 	 undefined
+$20. ~visible.u.profile 	 false 	 undefined 	 undefined
+$21. ~visible.u.visible 	 false 	 undefined 	 undefined
+$22. ~visible.u.~source 	 false 	 undefined 	 undefined
+$23. Id 	 false 	 undefined 	 undefined
+$24. Id.~ids.source 	 false 	 undefined 	 undefined
+$25. Id.~ids.~profile 	 false 	 undefined 	 undefined
+$26. Id.~ids.~visible 	 false 	 undefined 	 undefined
+$27. Institution 	 true 	 undefined 	 undefined
+$28. Institution.~source.~profile 	 false 	 undefined 	 undefined
+$29. Institution.~source.~visible 	 false 	 undefined 	 undefined
+$30. Source 	 false 	 undefined 	 undefined
+$31. Source.~source.~profile 	 false 	 undefined 	 undefined
+$32. Source.~source.~visible 	 false 	 undefined 	 undefined
+$33. User 	 false 	 undefined 	 undefined
+$34. User.profile.~visible 	 false 	 undefined 	 undefined
+$35. User.visible.source 	 false 	 undefined 	 undefined
+$36. User.visible.~profile 	 false 	 undefined 	 undefined
+$37. User.~source.~profile 	 false 	 undefined 	 undefined
+$38. User.~source.~visible 	 false 	 undefined 	 undefined
+$39. Work 	 false 	 undefined 	 undefined
+$40. Work.source 	 false 	 undefined 	 undefined
+$41. Work.~profile 	 false 	 undefined 	 undefined
+$42. Work.~visible 	 false 	 undefined 	 undefined
+$43. ids.Id.~ids 	 false 	 undefined 	 undefined
+$44. profile.Work 	 false 	 undefined 	 undefined
+$45. profile.Work.ids 	 false 	 undefined 	 undefined
+$46. profile.Work.source 	 false 	 undefined 	 undefined
+$47. profile.Work.~profile 	 false 	 undefined 	 undefined
+$48. profile.Work.~visible 	 false 	 undefined 	 undefined
+$49. profile.ids.Id 	 false 	 undefined 	 undefined
+$50. profile.source.Institution 	 false 	 undefined 	 undefined
+$51. profile.source.Source 	 false 	 undefined 	 undefined
+$52. profile.source.User 	 false 	 undefined 	 undefined
+$53. profile.~visible.User 	 false 	 undefined 	 undefined
+$54. source.Institution.~source 	 false 	 undefined 	 undefined
+$55. source.Source.~source 	 false 	 undefined 	 undefined
+$56. source.User.profile 	 false 	 undefined 	 undefined
+$57. source.User.visible 	 false 	 undefined 	 undefined
+$58. source.User.~source 	 false 	 undefined 	 undefined
+$59. visible.Work 	 false 	 undefined 	 undefined
+$60. visible.Work.ids 	 false 	 undefined 	 undefined
+$61. visible.Work.source 	 false 	 undefined 	 undefined
+$62. visible.Work.~profile 	 false 	 undefined 	 undefined
+$63. visible.Work.~visible 	 false 	 undefined 	 undefined
+$64. visible.ids.Id 	 false 	 undefined 	 undefined
+$65. visible.source.Institution 	 false 	 undefined 	 undefined
+$66. visible.source.Source 	 false 	 undefined 	 undefined
+$67. visible.source.User 	 false 	 undefined 	 undefined
+$68. visible.~profile.User 	 false 	 undefined 	 undefined
+$69. ~ids.Work.ids 	 false 	 undefined 	 undefined
+$70. ~ids.Work.source 	 false 	 undefined 	 undefined
+$71. ~ids.Work.~profile 	 false 	 undefined 	 undefined
+$72. ~ids.Work.~visible 	 false 	 undefined 	 undefined
+$73. ~profile.User.profile 	 false 	 undefined 	 undefined
+$74. ~profile.User.visible 	 false 	 undefined 	 undefined
+$75. ~profile.User.~source 	 false 	 undefined 	 undefined
+$76. ~source.Work 	 false 	 undefined 	 undefined
+$77. ~source.Work.ids 	 false 	 undefined 	 undefined
+$78. ~source.Work.source 	 false 	 undefined 	 undefined
+$79. ~source.Work.~profile 	 false 	 undefined 	 undefined
+$80. ~source.Work.~visible 	 false 	 undefined 	 undefined
+$81. ~source.ids.Id 	 false 	 undefined 	 undefined
+$82. ~source.~profile.User 	 false 	 undefined 	 undefined
+$83. ~source.~visible.User 	 false 	 undefined 	 undefined
+$84. ~visible.User.profile 	 false 	 undefined 	 undefined
+$85. ~visible.User.visible 	 false 	 undefined 	 undefined
+$86. ~visible.User.~source 	 false 	 undefined 	 undefined
+$87. ids.univ.profile 	 false 	 undefined 	 undefined
+$88. ids.univ.source 	 false 	 undefined 	 undefined
+$89. ids.univ.visible 	 false 	 undefined 	 undefined
+$90. ids.univ.~ids 	 false 	 undefined 	 undefined
+$91. ids.univ.~profile 	 false 	 undefined 	 undefined
+$92. ids.univ.~source 	 false 	 undefined 	 undefined
+$93. ids.univ.~visible 	 false 	 undefined 	 undefined
+$94. profile.ids.univ 	 false 	 undefined 	 undefined
+$95. profile.source.univ 	 false 	 undefined 	 undefined
+$96. profile.univ 	 false 	 undefined 	 undefined
+$97. profile.univ.ids 	 false 	 undefined 	 undefined
+$98. profile.univ.source 	 false 	 undefined 	 undefined
+$99. profile.univ.~ids 	 false 	 undefined 	 undefined
+$100. profile.univ.~profile 	 false 	 undefined 	 undefined
+$101. profile.univ.~visible 	 false 	 undefined 	 undefined
+$102. profile.~visible.univ 	 false 	 undefined 	 undefined
+$103. source.univ.profile 	 false 	 undefined 	 undefined
+$104. source.univ.source 	 false 	 undefined 	 undefined
+$105. source.univ.visible 	 false 	 undefined 	 undefined
+$106. source.univ.~ids 	 false 	 undefined 	 undefined
+$107. source.univ.~profile 	 false 	 undefined 	 undefined
+$108. source.univ.~source 	 false 	 undefined 	 undefined
+$109. source.univ.~visible 	 false 	 undefined 	 undefined
+$110. univ.profile.source 	 false 	 undefined 	 undefined
+$111. univ.profile.~visible 	 false 	 undefined 	 undefined
+$112. univ.source 	 false 	 undefined 	 undefined
+$113. univ.visible.source 	 false 	 undefined 	 undefined
+$114. univ.visible.~profile 	 false 	 undefined 	 undefined
+$115. univ.~ids.source 	 false 	 undefined 	 undefined
+$116. visible.ids.univ 	 false 	 undefined 	 undefined
+$117. visible.source.univ 	 false 	 undefined 	 undefined
+$118. visible.univ 	 false 	 undefined 	 undefined
+$119. visible.univ.ids 	 false 	 undefined 	 undefined
+$120. visible.univ.source 	 false 	 undefined 	 undefined
+$121. visible.univ.~ids 	 false 	 undefined 	 undefined
+$122. visible.univ.~profile 	 false 	 undefined 	 undefined
+$123. visible.univ.~visible 	 false 	 undefined 	 undefined
+$124. visible.~profile.univ 	 false 	 undefined 	 undefined
+$125. ~ids.univ.ids 	 false 	 undefined 	 undefined
+$126. ~ids.univ.profile 	 false 	 undefined 	 undefined
+$127. ~ids.univ.source 	 false 	 undefined 	 undefined
+$128. ~ids.univ.visible 	 false 	 undefined 	 undefined
+$129. ~profile.univ.profile 	 false 	 undefined 	 undefined
+$130. ~profile.univ.source 	 false 	 undefined 	 undefined
+$131. ~profile.univ.visible 	 false 	 undefined 	 undefined
+$132. ~source.ids.univ 	 false 	 undefined 	 undefined
+$133. ~source.univ.ids 	 false 	 undefined 	 undefined
+$134. ~source.univ.source 	 false 	 undefined 	 undefined
+$135. ~visible.univ.profile 	 false 	 undefined 	 undefined
+$136. ~visible.univ.source 	 false 	 undefined 	 undefined
+$137. ~visible.univ.visible 	 false 	 undefined 	 undefined
+$138. univ.~ids.~profile 	 false 	 undefined 	 undefined
+$139. univ.~ids.~visible 	 false 	 undefined 	 undefined
+$140. univ.~profile 	 false 	 undefined 	 undefined
+$141. univ.~source.~profile 	 false 	 undefined 	 undefined
+$142. univ.~source.~visible 	 false 	 undefined 	 undefined
+$143. univ.~visible 	 false 	 undefined 	 undefined
+$144. ~ids.univ.~profile 	 false 	 undefined 	 undefined
+$145. ~ids.univ.~source 	 false 	 undefined 	 undefined
+$146. ~ids.univ.~visible 	 false 	 undefined 	 undefined
+$147. ~profile.univ.~ids 	 false 	 undefined 	 undefined
+$148. ~profile.univ.~profile 	 false 	 undefined 	 undefined
+$149. ~profile.univ.~source 	 false 	 undefined 	 undefined
+$150. ~profile.univ.~visible 	 false 	 undefined 	 undefined
+$151. ~source.univ 	 false 	 undefined 	 undefined
+$152. ~source.univ.~ids 	 false 	 undefined 	 undefined
+$153. ~source.univ.~profile 	 false 	 undefined 	 undefined
+$154. ~source.univ.~visible 	 false 	 undefined 	 undefined
+$155. ~source.~profile.univ 	 false 	 undefined 	 undefined
+$156. ~source.~visible.univ 	 false 	 undefined 	 undefined
+$157. ~visible.univ.~ids 	 false 	 undefined 	 undefined
+$158. ~visible.univ.~profile 	 false 	 undefined 	 undefined
+$159. ~visible.univ.~source 	 false 	 undefined 	 undefined
+$160. ~visible.univ.~visible 	 false 	 undefined 	 undefined
+$161. Int 	 false 	 undefined 	 undefined
+$162. String 	 false 	 undefined 	 undefined
+$163. none 	 false 	 undefined 	 undefined
+$164. univ 	 false 	 undefined 	 undefined
+Expected Completion word: Institution
+Expected Completion line: Institution+u
+Suggestion exists: true
+
+Suggestion in top 1 = false 
+Suggestion in top 5 = false 
+Suggestion in top 10 = false 
+
+Suggestion in top 1 (Alpha) = false
+Suggestion in top 5 (Alpha) = false
+Suggestion in top 10 (Alpha) = false
+
+Suggestion in top 1 (Len) = false
+Suggestion in top 5 (Len) = false
+Suggestion in top 10 (Len) = true
+
+Time taken: 16.452583

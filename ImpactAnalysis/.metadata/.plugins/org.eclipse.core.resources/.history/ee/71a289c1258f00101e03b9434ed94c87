@@ -1,0 +1,15 @@
+modelname,filename,position-line,position-character,incompleteline,removedtext,baseline,suggestionedExpression,A_iff_B,A_and_B,not_A_and_B,A_and_not_B,not_A_and_not_B,suggestionImpactTime
+classroom-fol,completion/classroom-fol-complete.als,45,37,"all t: Teacher, c1,c2: Class | t ->","c1 in Teaches and t -> c2 in Teaches => c1 = c2","{}","\tall t: Teacher, c1,c2: Class | t -> c1",,,,,,14.88025
+classroom-fol,completion/classroom-fol-complete.als,45,37,"all t: Teacher, c1,c2: Class | t ->","c1 in Teaches and t -> c2 in Teaches => c1 = c2","{}","\tall t: Teacher, c1,c2: Class | t -> c2",,,,,,14.88025
+classroom-fol,completion/classroom-fol-complete.als,45,37,"all t: Teacher, c1,c2: Class | t ->","c1 in Teaches and t -> c2 in Teaches => c1 = c2","{}","\tall t: Teacher, c1,c2: Class | t -> t",,,,,,14.88025
+classroom-fol,completion/classroom-fol-complete.als,45,37,"all t: Teacher, c1,c2: Class | t ->","c1 in Teaches and t -> c2 in Teaches => c1 = c2","{}","\tall t: Teacher, c1,c2: Class | t -> Class",,,,,,14.88025
+classroom-fol,completion/classroom-fol-complete.als,45,37,"all t: Teacher, c1,c2: Class | t ->","c1 in Teaches and t -> c2 in Teaches => c1 = c2","{}","\tall t: Teacher, c1,c2: Class | t -> Group",,,,,,14.88025
+classroom-fol,completion/classroom-fol-complete.als,45,37,"all t: Teacher, c1,c2: Class | t ->","c1 in Teaches and t -> c2 in Teaches => c1 = c2","{}","\tall t: Teacher, c1,c2: Class | t -> Person",,,,,,14.88025
+classroom-fol,completion/classroom-fol-complete.als,45,37,"all t: Teacher, c1,c2: Class | t ->","c1 in Teaches and t -> c2 in Teaches => c1 = c2","{}","\tall t: Teacher, c1,c2: Class | t -> Student",,,,,,14.88025
+classroom-fol,completion/classroom-fol-complete.als,45,37,"all t: Teacher, c1,c2: Class | t ->","c1 in Teaches and t -> c2 in Teaches => c1 = c2","{}","\tall t: Teacher, c1,c2: Class | t -> Teacher",,,,,,14.88025
+classroom-fol,completion/classroom-fol-complete.als,45,37,"all t: Teacher, c1,c2: Class | t ->","c1 in Teaches and t -> c2 in Teaches => c1 = c2","{}","\tall t: Teacher, c1,c2: Class | t -> Int",,,,,,14.88025
+classroom-fol,completion/classroom-fol-complete.als,45,37,"all t: Teacher, c1,c2: Class | t ->","c1 in Teaches and t -> c2 in Teaches => c1 = c2","{}","\tall t: Teacher, c1,c2: Class | t -> String",,,,,,14.88025
+classroom-fol,completion/classroom-fol-complete.als,45,37,"all t: Teacher, c1,c2: Class | t ->","c1 in Teaches and t -> c2 in Teaches => c1 = c2","{}","\tall t: Teacher, c1,c2: Class | t -> seq/Int",,,,,,14.88025
+classroom-fol,completion/classroom-fol-complete.als,45,37,"all t: Teacher, c1,c2: Class | t ->","c1 in Teaches and t -> c2 in Teaches => c1 = c2","{}","\tall t: Teacher, c1,c2: Class | t -> iden",,,,,,14.88025
+classroom-fol,completion/classroom-fol-complete.als,45,37,"all t: Teacher, c1,c2: Class | t ->","c1 in Teaches and t -> c2 in Teaches => c1 = c2","{}","\tall t: Teacher, c1,c2: Class | t -> none",,,,,,14.88025
+classroom-fol,completion/classroom-fol-complete.als,45,37,"all t: Teacher, c1,c2: Class | t ->","c1 in Teaches and t -> c2 in Teaches => c1 = c2","{}","\tall t: Teacher, c1,c2: Class | t -> univ",,,,,,14.88025

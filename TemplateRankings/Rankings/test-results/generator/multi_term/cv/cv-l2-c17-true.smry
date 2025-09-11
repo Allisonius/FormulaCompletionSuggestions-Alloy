@@ -1,0 +1,200 @@
+Model name: cv
+Filename: completion/cv-sig.als
+Offset: 40
+Term:  extends 
+Vscode Position: line=1 character=17
+----------------------------------
+2 | sig User extends 
+----------------------------------
+Completion List:
+# Suggestion 	 Exact 	 Syntactic 	 Semantic
+$1. ((ids.Id).ids) 	 false 	 false 	 false
+$2. ((ids.Id).source) 	 false 	 false 	 false
+$3. ((ids.univ).ids) 	 false 	 false 	 false
+$4. ((ids.univ).source) 	 false 	 false 	 false
+$5. ((profile&visible).ids) 	 false 	 false 	 false
+$6. ((profile&visible).source) 	 false 	 false 	 false
+$7. ((profile&visible).univ) 	 false 	 false 	 false
+$8. ((profile&visible).Work) 	 false 	 false 	 false
+$9. ((profile+visible).ids) 	 false 	 false 	 false
+$10. ((profile+visible).source) 	 false 	 false 	 false
+$11. ((profile+visible).univ) 	 false 	 false 	 false
+$12. ((profile+visible).Work) 	 false 	 false 	 false
+$13. ((profile-visible).ids) 	 false 	 false 	 false
+$14. ((profile-visible).source) 	 false 	 false 	 false
+$15. ((profile-visible).univ) 	 false 	 false 	 false
+$16. ((profile-visible).Work) 	 false 	 false 	 false
+$17. ((profile.univ)-User) 	 false 	 false 	 false
+$18. ((profile.univ).profile) 	 false 	 false 	 false
+$19. ((profile.univ).visible) 	 false 	 false 	 false
+$20. ((profile.Work)-User) 	 false 	 false 	 false
+$21. ((profile.Work).profile) 	 false 	 false 	 false
+$22. ((profile.Work).visible) 	 false 	 false 	 false
+$23. ((source.Source).ids) 	 false 	 false 	 false
+$24. ((source.Source).source) 	 false 	 false 	 false
+$25. ((source.univ).ids) 	 false 	 false 	 false
+$26. ((source.univ).source) 	 false 	 false 	 false
+$27. ((visible-profile).ids) 	 false 	 false 	 false
+$28. ((visible-profile).source) 	 false 	 false 	 false
+$29. ((visible-profile).univ) 	 false 	 false 	 false
+$30. ((visible-profile).Work) 	 false 	 false 	 false
+$31. ((visible.univ)-User) 	 false 	 false 	 false
+$32. ((visible.univ).profile) 	 false 	 false 	 false
+$33. ((visible.univ).visible) 	 false 	 false 	 false
+$34. ((visible.Work)-User) 	 false 	 false 	 false
+$35. ((visible.Work).profile) 	 false 	 false 	 false
+$36. ((visible.Work).visible) 	 false 	 false 	 false
+$37. ((~ids).ids) 	 false 	 false 	 false
+$38. ((~ids).source) 	 false 	 false 	 false
+$39. ((~ids).univ) 	 false 	 false 	 false
+$40. ((~ids).Work) 	 false 	 false 	 false
+$41. ((~profile).profile) 	 false 	 false 	 false
+$42. ((~profile).univ) 	 false 	 false 	 false
+$43. ((~profile).User) 	 false 	 false 	 false
+$44. ((~profile).visible) 	 false 	 false 	 false
+$45. ((~source).ids) 	 false 	 false 	 false
+$46. ((~source).source) 	 false 	 false 	 false
+$47. ((~source).univ) 	 false 	 false 	 false
+$48. ((~source).Work) 	 false 	 false 	 false
+$49. ((~visible).profile) 	 false 	 false 	 false
+$50. ((~visible).univ) 	 false 	 false 	 false
+$51. ((~visible).User) 	 false 	 false 	 false
+$52. ((~visible).visible) 	 false 	 false 	 false
+$53. (Id-(univ.ids)) 	 false 	 false 	 false
+$54. (Id-(Work.ids)) 	 false 	 false 	 false
+$55. (ids.(univ.ids)) 	 false 	 false 	 false
+$56. (ids.(Work.ids)) 	 false 	 false 	 false
+$57. (ids.(~ids)) 	 false 	 false 	 false
+$58. (ids.Id) 	 false 	 false 	 false
+$59. (ids.univ) 	 false 	 false 	 false
+$60. (none->none) 	 false 	 false 	 false
+$61. (none->none->none) 	 false 	 false 	 false
+$62. (profile&(profile-visible)) 	 false 	 false 	 false
+$63. (profile&(visible-profile)) 	 false 	 false 	 false
+$64. (profile&visible) 	 false 	 false 	 false
+$65. (profile+visible) 	 false 	 false 	 false
+$66. (profile-visible) 	 false 	 false 	 false
+$67. (profile.(ids.Id)) 	 false 	 false 	 false
+$68. (profile.(ids.univ)) 	 false 	 false 	 false
+$69. (profile.(source.Source)) 	 false 	 false 	 false
+$70. (profile.(source.univ)) 	 false 	 false 	 false
+$71. (profile.(univ.profile)) 	 false 	 false 	 false
+$72. (profile.(univ.visible)) 	 false 	 false 	 false
+$73. (profile.(User.profile)) 	 false 	 false 	 false
+$74. (profile.(User.visible)) 	 false 	 false 	 false
+$75. (profile.(~profile)) 	 false 	 false 	 false
+$76. (profile.(~visible)) 	 false 	 false 	 false
+$77. (profile.ids) 	 false 	 false 	 false
+$78. (profile.source) 	 false 	 false 	 false
+$79. (profile.univ) 	 false 	 false 	 false
+$80. (profile.Work) 	 false 	 false 	 false
+$81. (Source-(univ.source)) 	 false 	 false 	 false
+$82. (Source-(Work.source)) 	 false 	 false 	 false
+$83. (source.(univ.source)) 	 false 	 false 	 false
+$84. (source.(Work.source)) 	 false 	 false 	 false
+$85. (source.(~source)) 	 false 	 false 	 false
+$86. (source.Source) 	 false 	 false 	 false
+$87. (source.univ) 	 false 	 false 	 false
+$88. (univ.(profile&visible)) 	 false 	 false 	 false
+$89. (univ.(profile+visible)) 	 false 	 false 	 false
+$90. (univ.(profile-visible)) 	 false 	 false 	 false
+$91. (univ.(profile.ids)) 	 false 	 false 	 false
+$92. (univ.(profile.source)) 	 false 	 false 	 false
+$93. (univ.(visible-profile)) 	 false 	 false 	 false
+$94. (univ.(visible.ids)) 	 false 	 false 	 false
+$95. (univ.(visible.source)) 	 false 	 false 	 false
+$96. (univ.ids) 	 false 	 false 	 false
+$97. (univ.profile) 	 false 	 false 	 false
+$98. (univ.source) 	 false 	 false 	 false
+$99. (univ.visible) 	 false 	 false 	 false
+$100. (User&(profile.univ)) 	 false 	 false 	 false
+$101. (User&(profile.Work)) 	 false 	 false 	 false
+$102. (User&(visible.univ)) 	 false 	 false 	 false
+$103. (User&(visible.Work)) 	 false 	 false 	 false
+$104. (User+(profile.univ)) 	 false 	 false 	 false
+$105. (User+(profile.Work)) 	 false 	 false 	 false
+$106. (User+(visible.univ)) 	 false 	 false 	 false
+$107. (User+(visible.Work)) 	 false 	 false 	 false
+$108. (User-(profile.univ)) 	 false 	 false 	 false
+$109. (User-(profile.Work)) 	 false 	 false 	 false
+$110. (User-(visible.univ)) 	 false 	 false 	 false
+$111. (User-(visible.Work)) 	 false 	 false 	 false
+$112. (User.(profile&visible)) 	 false 	 false 	 false
+$113. (User.(profile+visible)) 	 false 	 false 	 false
+$114. (User.(profile-visible)) 	 false 	 false 	 false
+$115. (User.(profile.ids)) 	 false 	 false 	 false
+$116. (User.(profile.source)) 	 false 	 false 	 false
+$117. (User.(visible-profile)) 	 false 	 false 	 false
+$118. (User.(visible.ids)) 	 false 	 false 	 false
+$119. (User.(visible.source)) 	 false 	 false 	 false
+$120. (User.profile) 	 false 	 false 	 false
+$121. (User.visible) 	 false 	 false 	 false
+$122. (visible&(profile-visible)) 	 false 	 false 	 false
+$123. (visible&(visible-profile)) 	 false 	 false 	 false
+$124. (visible-profile) 	 false 	 false 	 false
+$125. (visible.(ids.Id)) 	 false 	 false 	 false
+$126. (visible.(ids.univ)) 	 false 	 false 	 false
+$127. (visible.(source.Source)) 	 false 	 false 	 false
+$128. (visible.(source.univ)) 	 false 	 false 	 false
+$129. (visible.(univ.profile)) 	 false 	 false 	 false
+$130. (visible.(univ.visible)) 	 false 	 false 	 false
+$131. (visible.(User.profile)) 	 false 	 false 	 false
+$132. (visible.(User.visible)) 	 false 	 false 	 false
+$133. (visible.(~profile)) 	 false 	 false 	 false
+$134. (visible.(~visible)) 	 false 	 false 	 false
+$135. (visible.ids) 	 false 	 false 	 false
+$136. (visible.source) 	 false 	 false 	 false
+$137. (visible.univ) 	 false 	 false 	 false
+$138. (visible.Work) 	 false 	 false 	 false
+$139. (Work-(ids.Id)) 	 false 	 false 	 false
+$140. (Work-(ids.univ)) 	 false 	 false 	 false
+$141. (Work-(source.Source)) 	 false 	 false 	 false
+$142. (Work-(source.univ)) 	 false 	 false 	 false
+$143. (Work-(univ.profile)) 	 false 	 false 	 false
+$144. (Work-(univ.visible)) 	 false 	 false 	 false
+$145. (Work-(User.profile)) 	 false 	 false 	 false
+$146. (Work-(User.visible)) 	 false 	 false 	 false
+$147. (Work.ids) 	 false 	 false 	 false
+$148. (Work.source) 	 false 	 false 	 false
+$149. (~(profile&visible)) 	 false 	 false 	 false
+$150. (~(profile+visible)) 	 false 	 false 	 false
+$151. (~(profile-visible)) 	 false 	 false 	 false
+$152. (~(profile.ids)) 	 false 	 false 	 false
+$153. (~(profile.source)) 	 false 	 false 	 false
+$154. (~(visible-profile)) 	 false 	 false 	 false
+$155. (~(visible.ids)) 	 false 	 false 	 false
+$156. (~(visible.source)) 	 false 	 false 	 false
+$157. (~ids) 	 false 	 false 	 false
+$158. (~profile) 	 false 	 false 	 false
+$159. (~source) 	 false 	 false 	 false
+$160. (~visible) 	 false 	 false 	 false
+$161. Id 	 false 	 false 	 false
+$162. ids 	 false 	 false 	 false
+$163. Institution 	 false 	 false 	 false
+$164. Int 	 false 	 false 	 false
+$165. none 	 false 	 false 	 false
+$166. profile 	 false 	 false 	 false
+$167. Source 	 true 	 true 	 true
+$168. source 	 false 	 false 	 false
+$169. String 	 false 	 false 	 false
+$170. univ 	 false 	 false 	 false
+$171. User 	 false 	 false 	 false
+$172. visible 	 false 	 false 	 false
+$173. Work 	 false 	 false 	 false
+Expected Completion word: Source
+Expected Completion line: Source {
+Suggestion exists: true
+
+Suggestion in top 1 = false 
+Suggestion in top 5 = false 
+Suggestion in top 10 = false 
+
+Suggestion in top 1 (Alpha) = false
+Suggestion in top 5 (Alpha) = false
+Suggestion in top 10 (Alpha) = false
+
+Suggestion in top 1 (Len) = false
+Suggestion in top 5 (Len) = false
+Suggestion in top 10 (Len) = true
+
+Time taken: 14.243

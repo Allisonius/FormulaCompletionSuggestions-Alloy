@@ -1,0 +1,6 @@
+INDEX VERSION 1.134+C:\Users\allis\OneDrive\Desktop\Templates_Alloy5\.metadata\.plugins\org.eclipse.jdt.core
+1919187804.index
+1865797976.index
+3194922089.index
+1265820979.index
+472477253.index

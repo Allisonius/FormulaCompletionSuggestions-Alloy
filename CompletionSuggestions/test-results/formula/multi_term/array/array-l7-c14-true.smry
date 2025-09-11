@@ -1,0 +1,33 @@
+Model name: array
+Filename: completion/array-sig.als
+Offset: 144
+Term:  -> 
+Vscode Position: line=6 character=14
+----------------------------------
+7 |   i2e: Int -> 
+----------------------------------
+Completion List:
+# Suggestion 	 Exact 	 Syntactic 	 Semantic
+$1. Array 	 false 	 false 	 false
+$2. Element 	 true 	 true 	 true
+$3. Int 	 false 	 false 	 false
+$4. String 	 false 	 false 	 false
+$5. none 	 false 	 false 	 false
+$6. univ 	 false 	 false 	 false
+Expected Completion word: Element
+Expected Completion line: Element
+Suggestion exists: true
+
+Suggestion in top 1 = false 
+Suggestion in top 5 = true 
+Suggestion in top 10 = true 
+
+Suggestion in top 1 (Alpha) = false
+Suggestion in top 5 (Alpha) = true
+Suggestion in top 10 (Alpha) = true
+
+Suggestion in top 1 (Len) = false
+Suggestion in top 5 (Len) = false
+Suggestion in top 10 (Len) = true
+
+Time taken: 205.103583

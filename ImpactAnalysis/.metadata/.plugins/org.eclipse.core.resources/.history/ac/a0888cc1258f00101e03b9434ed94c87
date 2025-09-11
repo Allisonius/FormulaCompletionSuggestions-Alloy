@@ -1,0 +1,11 @@
+modelname,filename,position-line,position-character,incompleteline,removedtext,baseline,suggestionedExpression,A_iff_B,A_and_B,not_A_and_B,A_and_not_B,not_A_and_not_B,suggestionImpactTime
+classroom-rl,completion/classroom-rl-sig.als,14,15,"sig Student in","Person  {}","{}","sig Student in Class",,,,,,2.953375
+classroom-rl,completion/classroom-rl-sig.als,14,15,"sig Student in","Person  {}","{}","sig Student in Group",,,,,,2.953375
+classroom-rl,completion/classroom-rl-sig.als,14,15,"sig Student in","Person  {}","{}","sig Student in Person",,,,,,2.953375
+classroom-rl,completion/classroom-rl-sig.als,14,15,"sig Student in","Person  {}","{}","sig Student in Teacher",,,,,,2.953375
+classroom-rl,completion/classroom-rl-sig.als,14,15,"sig Student in","Person  {}","{}","sig Student in Int",,,,,,2.953375
+classroom-rl,completion/classroom-rl-sig.als,14,15,"sig Student in","Person  {}","{}","sig Student in String",,,,,,2.953375
+classroom-rl,completion/classroom-rl-sig.als,14,15,"sig Student in","Person  {}","{}","sig Student in seq/Int",,,,,,2.953375
+classroom-rl,completion/classroom-rl-sig.als,14,15,"sig Student in","Person  {}","{}","sig Student in iden",,,,,,2.953375
+classroom-rl,completion/classroom-rl-sig.als,14,15,"sig Student in","Person  {}","{}","sig Student in none",,,,,,2.953375
+classroom-rl,completion/classroom-rl-sig.als,14,15,"sig Student in","Person  {}","{}","sig Student in univ",,,,,,2.953375

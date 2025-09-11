@@ -1,0 +1,12 @@
+modelname,filename,position-line,position-character,incompleteline,removedtext,baseline,suggestionedExpression,A_iff_B,A_and_B,not_A_and_B,A_and_not_B,not_A_and_not_B,suggestionImpactTime
+handshake,completion/handshake.als,23,45,"all p, q: Person | p!=q => p.spouse != q.","spouse","{}","    all p, q: Person | p!=q => p.spouse != q.shaken",true,true,false,false,false,12.811334
+handshake,completion/handshake.als,23,45,"all p, q: Person | p!=q => p.spouse != q.","spouse","{}","    all p, q: Person | p!=q => p.spouse != q.spouse",true,true,false,false,false,12.811334
+handshake,completion/handshake.als,23,45,"all p, q: Person | p!=q => p.spouse != q.","spouse","{}","    all p, q: Person | p!=q => p.spouse != q.~shaken",true,true,false,false,false,12.811334
+handshake,completion/handshake.als,23,45,"all p, q: Person | p!=q => p.spouse != q.","spouse","{}","    all p, q: Person | p!=q => p.spouse != q.~spouse",true,true,false,false,false,12.811334
+handshake,completion/handshake.als,23,45,"all p, q: Person | p!=q => p.spouse != q.","spouse","{}","    all p, q: Person | p!=q => p.spouse != q.^shaken",true,true,false,false,false,12.811334
+handshake,completion/handshake.als,23,45,"all p, q: Person | p!=q => p.spouse != q.","spouse","{}","    all p, q: Person | p!=q => p.spouse != q.^spouse",true,true,false,false,false,12.811334
+handshake,completion/handshake.als,23,45,"all p, q: Person | p!=q => p.spouse != q.","spouse","{}","    all p, q: Person | p!=q => p.spouse != q.*shaken",false,false,false,true,false,12.811334
+handshake,completion/handshake.als,23,45,"all p, q: Person | p!=q => p.spouse != q.","spouse","{}","    all p, q: Person | p!=q => p.spouse != q.*spouse",true,true,false,false,false,12.811334
+handshake,completion/handshake.als,23,45,"all p, q: Person | p!=q => p.spouse != q.","spouse","{}","    all p, q: Person | p!=q => p.spouse != q.iden",false,false,false,true,false,12.811334
+handshake,completion/handshake.als,23,45,"all p, q: Person | p!=q => p.spouse != q.","spouse","{}","    all p, q: Person | p!=q => p.spouse != q.none",,,,,,12.811334
+handshake,completion/handshake.als,23,45,"all p, q: Person | p!=q => p.spouse != q.","spouse","{}","    all p, q: Person | p!=q => p.spouse != q.univ",,,,,,12.811334

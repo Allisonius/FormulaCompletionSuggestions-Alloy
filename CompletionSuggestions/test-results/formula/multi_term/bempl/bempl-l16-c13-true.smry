@@ -1,0 +1,41 @@
+Model name: bempl
+Filename: completion/bempl-complete.als
+Offset: 265
+Term: .
+Vscode Position: line=15 character=13
+----------------------------------
+16 | 	r in p.owns.
+----------------------------------
+Completion List:
+# Suggestion 	 Exact 	 Syntactic 	 Semantic
+$1. opened_by.r 	 false 	 undefined 	 undefined
+$2. ~owns.p 	 false 	 undefined 	 undefined
+$3. authorized.Employee 	 false 	 undefined 	 undefined
+$4. opened_by.Room 	 false 	 undefined 	 undefined
+$5. opened_by.secure_lab 	 false 	 undefined 	 undefined
+$6. ~owns.Employee 	 false 	 undefined 	 undefined
+$7. ~owns.Person 	 false 	 undefined 	 undefined
+$8. ~owns.Researcher 	 false 	 undefined 	 undefined
+$9. authorized 	 false 	 undefined 	 undefined
+$10. authorized.univ 	 false 	 undefined 	 undefined
+$11. opened_by 	 true 	 undefined 	 undefined
+$12. opened_by.univ 	 false 	 undefined 	 undefined
+$13. ~owns 	 false 	 undefined 	 undefined
+$14. ~owns.univ 	 false 	 undefined 	 undefined
+Expected Completion word: opened_by
+Expected Completion line: opened_by
+Suggestion exists: true
+
+Suggestion in top 1 = false 
+Suggestion in top 5 = false 
+Suggestion in top 10 = false 
+
+Suggestion in top 1 (Alpha) = false
+Suggestion in top 5 (Alpha) = false
+Suggestion in top 10 (Alpha) = true
+
+Suggestion in top 1 (Len) = false
+Suggestion in top 5 (Len) = true
+Suggestion in top 10 (Len) = true
+
+Time taken: 11.481833

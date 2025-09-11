@@ -1,0 +1,55 @@
+Model name: classroom-rl
+Filename: completion/classroom-rl-complete.als
+Offset: 445
+Term: .
+Vscode Position: line=40 character=18
+----------------------------------
+41 | 	Class in Teacher.
+----------------------------------
+Completion List:
+# Suggestion 	 Exact 	 Syntactic 	 Semantic
+$1. *Tutors.Person 	 false 	 false 	 false
+$2. *Tutors.Student 	 false 	 false 	 false
+$3. *Tutors.Teacher 	 false 	 false 	 false
+$4. Teaches.Class 	 false 	 false 	 false
+$5. Tutors.Person 	 false 	 false 	 false
+$6. Tutors.Student 	 false 	 false 	 false
+$7. Tutors.Teacher 	 false 	 false 	 false
+$8. ^Tutors.Person 	 false 	 false 	 false
+$9. ^Tutors.Student 	 false 	 false 	 false
+$10. ^Tutors.Teacher 	 false 	 false 	 false
+$11. ~Tutors.Person 	 false 	 false 	 false
+$12. ~Tutors.Student 	 false 	 false 	 false
+$13. ~Tutors.Teacher 	 false 	 false 	 false
+$14. *Tutors.Teaches 	 false 	 false 	 false
+$15. Teaches 	 true 	 true 	 true
+$16. Teaches.Groups 	 false 	 false 	 false
+$17. Teaches.univ 	 false 	 false 	 false
+$18. Tutors 	 false 	 false 	 false
+$19. Tutors.Teaches 	 false 	 false 	 false
+$20. Tutors.univ 	 false 	 false 	 false
+$21. ^Tutors.Teaches 	 false 	 false 	 false
+$22. ~Tutors.Teaches 	 false 	 false 	 false
+$23. ~Tutors 	 false 	 false 	 false
+$24. ~Tutors.univ 	 false 	 false 	 false
+$25. ^Tutors 	 false 	 false 	 false
+$26. ^Tutors.univ 	 false 	 false 	 false
+$27. *Tutors 	 false 	 false 	 false
+$28. *Tutors.univ 	 false 	 false 	 false
+Expected Completion word: Teaches
+Expected Completion line: Teaches
+Suggestion exists: true
+
+Suggestion in top 1 = false 
+Suggestion in top 5 = false 
+Suggestion in top 10 = false 
+
+Suggestion in top 1 (Alpha) = false
+Suggestion in top 5 (Alpha) = false
+Suggestion in top 10 (Alpha) = false
+
+Suggestion in top 1 (Len) = false
+Suggestion in top 5 (Len) = true
+Suggestion in top 10 (Len) = true
+
+Time taken: 9.807916

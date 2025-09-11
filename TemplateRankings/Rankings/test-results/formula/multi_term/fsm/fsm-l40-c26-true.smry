@@ -1,0 +1,45 @@
+Model name: fsm
+Filename: completion/fsm.als
+Offset: 706
+Term: .
+Vscode Position: line=39 character=26
+----------------------------------
+40 |   all n: State | n in FSM.
+----------------------------------
+Completion List:
+# Suggestion 	 Exact 	 Syntactic 	 Semantic
+$1. start.n 	 false 	 undefined 	 undefined
+$2. stop.n 	 false 	 undefined 	 undefined
+$3. start.State 	 false 	 undefined 	 undefined
+$4. stop.State 	 false 	 undefined 	 undefined
+$5. start 	 false 	 undefined 	 undefined
+$6. start.*transition 	 true 	 undefined 	 undefined
+$7. start.^transition 	 false 	 undefined 	 undefined
+$8. start.transition 	 false 	 undefined 	 undefined
+$9. start.univ 	 false 	 undefined 	 undefined
+$10. start.~stop 	 false 	 undefined 	 undefined
+$11. start.~transition 	 false 	 undefined 	 undefined
+$12. stop 	 false 	 undefined 	 undefined
+$13. stop.*transition 	 false 	 undefined 	 undefined
+$14. stop.^transition 	 false 	 undefined 	 undefined
+$15. stop.transition 	 false 	 undefined 	 undefined
+$16. stop.univ 	 false 	 undefined 	 undefined
+$17. stop.~start 	 false 	 undefined 	 undefined
+$18. stop.~transition 	 false 	 undefined 	 undefined
+Expected Completion word: start
+Expected Completion line: start.*transition
+Suggestion exists: true
+
+Suggestion in top 1 = false 
+Suggestion in top 5 = true 
+Suggestion in top 10 = true 
+
+Suggestion in top 1 (Alpha) = true
+Suggestion in top 5 (Alpha) = true
+Suggestion in top 10 (Alpha) = true
+
+Suggestion in top 1 (Len) = false
+Suggestion in top 5 (Len) = true
+Suggestion in top 10 (Len) = true
+
+Time taken: 7.188791

@@ -1,0 +1,87 @@
+Model name: array
+Filename: completion/array-complete.als
+Offset: 475
+Term: .
+Vscode Position: line=23 character=17
+----------------------------------
+24 |   all idx: Array.
+----------------------------------
+Completion List:
+# Suggestion 	 Exact 	 Syntactic 	 Semantic
+$1. ((i2e.Element)-length) 	 false 	 false 	 false
+$2. ((i2e.Element).Int) 	 false 	 false 	 false
+$3. ((i2e.Element).univ) 	 false 	 false 	 false
+$4. ((i2e.univ)-length) 	 false 	 false 	 false
+$5. ((i2e.univ).Int) 	 false 	 false 	 false
+$6. ((i2e.univ).univ) 	 false 	 false 	 false
+$7. ((length.Int).i2e) 	 false 	 false 	 false
+$8. ((length.Int).length) 	 false 	 false 	 false
+$9. ((length.univ).i2e) 	 false 	 false 	 false
+$10. ((length.univ).length) 	 false 	 false 	 false
+$11. ((~length).Array) 	 false 	 false 	 false
+$12. ((~length).i2e) 	 false 	 false 	 false
+$13. ((~length).length) 	 false 	 false 	 false
+$14. ((~length).univ) 	 false 	 false 	 false
+$15. (Array-(length.Int)) 	 false 	 false 	 false
+$16. (Array-(length.univ)) 	 false 	 false 	 false
+$17. (Array.(i2e.Element)) 	 false 	 false 	 false
+$18. (Array.(i2e.univ)) 	 false 	 false 	 false
+$19. (Array.i2e) 	 false 	 false 	 false
+$20. (Array.length) 	 false 	 false 	 false
+$21. (i2e.Element) 	 false 	 true 	 true
+$22. (i2e.univ) 	 false 	 false 	 false
+$23. (Int-(Array.length)) 	 false 	 false 	 false
+$24. (Int-(univ.length)) 	 false 	 false 	 false
+$25. (Int.(Array.i2e)) 	 false 	 false 	 false
+$26. (Int.(univ.i2e)) 	 false 	 false 	 false
+$27. (length&(i2e.Element)) 	 false 	 false 	 false
+$28. (length&(i2e.univ)) 	 false 	 false 	 false
+$29. (length+(i2e.Element)) 	 false 	 false 	 false
+$30. (length+(i2e.univ)) 	 false 	 false 	 false
+$31. (length-(i2e.Element)) 	 false 	 false 	 false
+$32. (length-(i2e.univ)) 	 false 	 false 	 false
+$33. (length.(Array.i2e)) 	 false 	 false 	 false
+$34. (length.(Array.length)) 	 false 	 false 	 false
+$35. (length.(univ.i2e)) 	 false 	 false 	 false
+$36. (length.(univ.length)) 	 false 	 false 	 false
+$37. (length.(~length)) 	 false 	 false 	 false
+$38. (length.Int) 	 false 	 false 	 false
+$39. (length.univ) 	 false 	 false 	 false
+$40. (none->none) 	 false 	 false 	 false
+$41. (none->none->none) 	 false 	 false 	 false
+$42. (univ.(Array.i2e)) 	 false 	 false 	 false
+$43. (univ.(i2e.Element)) 	 false 	 false 	 false
+$44. (univ.(i2e.univ)) 	 false 	 false 	 false
+$45. (univ.(univ.i2e)) 	 false 	 false 	 false
+$46. (univ.i2e) 	 false 	 false 	 false
+$47. (univ.length) 	 false 	 false 	 false
+$48. (~(Array.i2e)) 	 false 	 false 	 false
+$49. (~(i2e.Element)) 	 false 	 false 	 false
+$50. (~(i2e.univ)) 	 false 	 false 	 false
+$51. (~(univ.i2e)) 	 false 	 false 	 false
+$52. (~length) 	 false 	 false 	 false
+$53. Array 	 false 	 false 	 false
+$54. Element 	 false 	 false 	 false
+$55. i2e 	 false 	 false 	 false
+$56. Int 	 false 	 false 	 false
+$57. length 	 false 	 false 	 false
+$58. none 	 false 	 false 	 false
+$59. String 	 false 	 false 	 false
+$60. univ 	 false 	 false 	 false
+Expected Completion word: i2e
+Expected Completion line: i2e.Element | idx >= 0 && idx < Array.length
+Suggestion exists: true
+
+Suggestion in top 1 = false 
+Suggestion in top 5 = false 
+Suggestion in top 10 = false 
+
+Suggestion in top 1 (Alpha) = false
+Suggestion in top 5 (Alpha) = false
+Suggestion in top 10 (Alpha) = false
+
+Suggestion in top 1 (Len) = true
+Suggestion in top 5 (Len) = true
+Suggestion in top 10 (Len) = true
+
+Time taken: 21.237125

@@ -1,0 +1,12 @@
+modelname,filename,position-line,position-character,incompleteline,removedtext,baseline,suggestionedExpression,A_iff_B,A_and_B,not_A_and_B,A_and_not_B,not_A_and_not_B,suggestionImpactTime
+production-line-v1,completion/production-line-v1-sig.als,16,21,"sig Resource extends","Product {}","{}","sig Resource extends Component",,,,,,3.53075
+production-line-v1,completion/production-line-v1-sig.als,16,21,"sig Resource extends","Product {}","{}","sig Resource extends Position",,,,,,3.53075
+production-line-v1,completion/production-line-v1-sig.als,16,21,"sig Resource extends","Product {}","{}","sig Resource extends Product",,,,,,3.53075
+production-line-v1,completion/production-line-v1-sig.als,16,21,"sig Resource extends","Product {}","{}","sig Resource extends Robot",,,,,,3.53075
+production-line-v1,completion/production-line-v1-sig.als,16,21,"sig Resource extends","Product {}","{}","sig Resource extends ordering/Ord",,,,,,3.53075
+production-line-v1,completion/production-line-v1-sig.als,16,21,"sig Resource extends","Product {}","{}","sig Resource extends Int",,,,,,3.53075
+production-line-v1,completion/production-line-v1-sig.als,16,21,"sig Resource extends","Product {}","{}","sig Resource extends String",,,,,,3.53075
+production-line-v1,completion/production-line-v1-sig.als,16,21,"sig Resource extends","Product {}","{}","sig Resource extends seq/Int",,,,,,3.53075
+production-line-v1,completion/production-line-v1-sig.als,16,21,"sig Resource extends","Product {}","{}","sig Resource extends iden",,,,,,3.53075
+production-line-v1,completion/production-line-v1-sig.als,16,21,"sig Resource extends","Product {}","{}","sig Resource extends none",,,,,,3.53075
+production-line-v1,completion/production-line-v1-sig.als,16,21,"sig Resource extends","Product {}","{}","sig Resource extends univ",,,,,,3.53075

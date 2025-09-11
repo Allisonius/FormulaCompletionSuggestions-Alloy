@@ -1,0 +1,7 @@
+modelname,filename,position-line,position-character,incompleteline,removedtext,baseline,suggestionedExpression,A_iff_B,A_and_B,not_A_and_B,A_and_not_B,not_A_and_not_B,suggestionImpactTime
+courses-v2,completion/courses-v2-complete.als,83,41,"all c : Course , p : Person | last in p.","(c.grades) implies some p.projects & c.projects","{}","\tall c : Course , p : Person | last in p.enrolled",true,true,false,true,false,23.477542
+courses-v2,completion/courses-v2-complete.als,83,41,"all c : Course , p : Person | last in p.","(c.grades) implies some p.projects & c.projects","{}","\tall c : Course , p : Person | last in p.projects",,,,,,23.477542
+courses-v2,completion/courses-v2-complete.als,83,41,"all c : Course , p : Person | last in p.","(c.grades) implies some p.projects & c.projects","{}","\tall c : Course , p : Person | last in p.teaches",true,true,false,true,false,23.477542
+courses-v2,completion/courses-v2-complete.als,83,41,"all c : Course , p : Person | last in p.","(c.grades) implies some p.projects & c.projects","{}","\tall c : Course , p : Person | last in p.iden",true,true,false,true,false,23.477542
+courses-v2,completion/courses-v2-complete.als,83,41,"all c : Course , p : Person | last in p.","(c.grades) implies some p.projects & c.projects","{}","\tall c : Course , p : Person | last in p.none",,,,,,23.477542
+courses-v2,completion/courses-v2-complete.als,83,41,"all c : Course , p : Person | last in p.","(c.grades) implies some p.projects & c.projects","{}","\tall c : Course , p : Person | last in p.univ",,,,,,23.477542

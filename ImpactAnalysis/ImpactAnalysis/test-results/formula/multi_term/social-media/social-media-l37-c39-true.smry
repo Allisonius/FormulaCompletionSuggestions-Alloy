@@ -1,0 +1,59 @@
+Model name: social-media
+Filename: completion/socialMedia.als
+Offset: 524
+Term: .
+Vscode Position: line=36 character=39
+----------------------------------
+37 | 	all i:Influencer, d:Day| d in i.posts.
+----------------------------------
+Completion List:
+# Suggestion 	 Exact 	 Syntactic 	 Semantic
+$1. date.d 	 false 	 undefined 	 undefined
+$2. ~posts.i 	 false 	 undefined 	 undefined
+$3. ~sees.i 	 false 	 undefined 	 undefined
+$4. date.Day 	 false 	 undefined 	 undefined
+$5. ~posts.Influencer 	 false 	 undefined 	 undefined
+$6. ~posts.User 	 false 	 undefined 	 undefined
+$7. ~sees.Influencer 	 false 	 undefined 	 undefined
+$8. ~sees.User 	 false 	 undefined 	 undefined
+$9. date 	 true 	 undefined 	 undefined
+$10. date.univ 	 false 	 undefined 	 undefined
+$11. ~posts.follows 	 false 	 undefined 	 undefined
+$12. ~posts.sees 	 false 	 undefined 	 undefined
+$13. ~posts.suggested 	 false 	 undefined 	 undefined
+$14. ~sees.follows 	 false 	 undefined 	 undefined
+$15. ~sees.posts 	 false 	 undefined 	 undefined
+$16. ~sees.suggested 	 false 	 undefined 	 undefined
+$17. ~posts 	 false 	 undefined 	 undefined
+$18. ~posts.*follows 	 false 	 undefined 	 undefined
+$19. ~posts.*suggested 	 false 	 undefined 	 undefined
+$20. ~posts.^follows 	 false 	 undefined 	 undefined
+$21. ~posts.^suggested 	 false 	 undefined 	 undefined
+$22. ~posts.univ 	 false 	 undefined 	 undefined
+$23. ~posts.~follows 	 false 	 undefined 	 undefined
+$24. ~posts.~suggested 	 false 	 undefined 	 undefined
+$25. ~sees 	 false 	 undefined 	 undefined
+$26. ~sees.*follows 	 false 	 undefined 	 undefined
+$27. ~sees.*suggested 	 false 	 undefined 	 undefined
+$28. ~sees.^follows 	 false 	 undefined 	 undefined
+$29. ~sees.^suggested 	 false 	 undefined 	 undefined
+$30. ~sees.univ 	 false 	 undefined 	 undefined
+$31. ~sees.~follows 	 false 	 undefined 	 undefined
+$32. ~sees.~suggested 	 false 	 undefined 	 undefined
+Expected Completion word: date
+Expected Completion line: date
+Suggestion exists: true
+
+Suggestion in top 1 = false 
+Suggestion in top 5 = false 
+Suggestion in top 10 = true 
+
+Suggestion in top 1 (Alpha) = false
+Suggestion in top 5 (Alpha) = false
+Suggestion in top 10 (Alpha) = false
+
+Suggestion in top 1 (Len) = true
+Suggestion in top 5 (Len) = true
+Suggestion in top 10 (Len) = true
+
+Time taken: 8.922709

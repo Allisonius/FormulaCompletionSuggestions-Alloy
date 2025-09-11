@@ -1,0 +1,10 @@
+modelname,filename,position-line,position-character,incompleteline,removedtext,baseline,suggestionedExpression,A_iff_B,A_and_B,not_A_and_B,A_and_not_B,not_A_and_not_B,suggestionImpactTime
+train-station-ltl,completion/train-station-ltl-complete.als,32,39,"all j : Junction, t : prox.j | some t.","signal","{}","\tall j : Junction, t : prox.j | some t.prox",true,true,false,false,false,74.70275
+train-station-ltl,completion/train-station-ltl-complete.als,32,39,"all j : Junction, t : prox.j | some t.","signal","{}","\tall j : Junction, t : prox.j | some t.signal",true,true,false,true,false,74.70275
+train-station-ltl,completion/train-station-ltl-complete.als,32,39,"all j : Junction, t : prox.j | some t.","signal","{}","\tall j : Junction, t : prox.j | some t.~pos",true,true,false,true,false,74.70275
+train-station-ltl,completion/train-station-ltl-complete.als,32,39,"all j : Junction, t : prox.j | some t.","signal","{}","\tall j : Junction, t : prox.j | some t.~prox",true,true,false,true,false,74.70275
+train-station-ltl,completion/train-station-ltl-complete.als,32,39,"all j : Junction, t : prox.j | some t.","signal","{}","\tall j : Junction, t : prox.j | some t.^prox",true,true,false,false,false,74.70275
+train-station-ltl,completion/train-station-ltl-complete.als,32,39,"all j : Junction, t : prox.j | some t.","signal","{}","\tall j : Junction, t : prox.j | some t.*prox",true,true,false,false,false,74.70275
+train-station-ltl,completion/train-station-ltl-complete.als,32,39,"all j : Junction, t : prox.j | some t.","signal","{}","\tall j : Junction, t : prox.j | some t.iden",true,true,false,false,false,74.70275
+train-station-ltl,completion/train-station-ltl-complete.als,32,39,"all j : Junction, t : prox.j | some t.","signal","{}","\tall j : Junction, t : prox.j | some t.none",,,,,,74.70275
+train-station-ltl,completion/train-station-ltl-complete.als,32,39,"all j : Junction, t : prox.j | some t.","signal","{}","\tall j : Junction, t : prox.j | some t.univ",,,,,,74.70275

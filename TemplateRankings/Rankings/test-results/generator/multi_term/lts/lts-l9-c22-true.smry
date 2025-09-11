@@ -1,0 +1,125 @@
+Model name: lts
+Filename: completion/lts-complete.als
+Offset: 197
+Term: .
+Vscode Position: line=8 character=22
+----------------------------------
+9 | 	all s:State | some s.
+----------------------------------
+Completion List:
+# Suggestion 	 Exact 	 Syntactic 	 Semantic
+$1. ((Init&s).trans) 	 false 	 undefined 	 undefined
+$2. ((Init+s).trans) 	 false 	 undefined 	 undefined
+$3. ((Init-s).trans) 	 false 	 undefined 	 undefined
+$4. ((s-Init).trans) 	 false 	 undefined 	 undefined
+$5. ((State-Init)-s) 	 false 	 undefined 	 undefined
+$6. ((State-Init).trans) 	 false 	 undefined 	 undefined
+$7. ((State-s)-Init) 	 false 	 undefined 	 undefined
+$8. ((State-s).trans) 	 false 	 undefined 	 undefined
+$9. ((trans.Init).Event) 	 false 	 undefined 	 undefined
+$10. ((trans.Init).univ) 	 false 	 undefined 	 undefined
+$11. ((trans.s).Event) 	 false 	 undefined 	 undefined
+$12. ((trans.s).univ) 	 false 	 undefined 	 undefined
+$13. ((trans.State).Event) 	 false 	 undefined 	 undefined
+$14. ((trans.State).univ) 	 false 	 undefined 	 undefined
+$15. ((trans.univ).Event) 	 false 	 undefined 	 undefined
+$16. ((trans.univ).univ) 	 false 	 undefined 	 undefined
+$17. (Event.(Init.trans)) 	 false 	 undefined 	 undefined
+$18. (Event.(s.trans)) 	 false 	 undefined 	 undefined
+$19. (Event.(State.trans)) 	 false 	 undefined 	 undefined
+$20. (Event.(univ.trans)) 	 false 	 undefined 	 undefined
+$21. (Init&(Init-s)) 	 false 	 undefined 	 undefined
+$22. (Init&(s-Init)) 	 false 	 undefined 	 undefined
+$23. (Init&(State-Init)) 	 false 	 undefined 	 undefined
+$24. (Init&(State-s)) 	 false 	 undefined 	 undefined
+$25. (Init&s) 	 false 	 undefined 	 undefined
+$26. (Init+(State-s)) 	 false 	 undefined 	 undefined
+$27. (Init+s) 	 false 	 undefined 	 undefined
+$28. (Init-(State-s)) 	 false 	 undefined 	 undefined
+$29. (Init-s) 	 false 	 undefined 	 undefined
+$30. (Init.(trans.Init)) 	 false 	 undefined 	 undefined
+$31. (Init.(trans.s)) 	 false 	 undefined 	 undefined
+$32. (Init.(trans.State)) 	 false 	 undefined 	 undefined
+$33. (Init.(trans.univ)) 	 false 	 undefined 	 undefined
+$34. (Init.trans) 	 false 	 undefined 	 undefined
+$35. (none->none) 	 false 	 undefined 	 undefined
+$36. (none->none->none) 	 false 	 undefined 	 undefined
+$37. (s&(Init-s)) 	 false 	 undefined 	 undefined
+$38. (s&(s-Init)) 	 false 	 undefined 	 undefined
+$39. (s&(State-Init)) 	 false 	 undefined 	 undefined
+$40. (s&(State-s)) 	 false 	 undefined 	 undefined
+$41. (s+(State-Init)) 	 false 	 undefined 	 undefined
+$42. (s-(State-Init)) 	 false 	 undefined 	 undefined
+$43. (s-Init) 	 false 	 undefined 	 undefined
+$44. (s.(trans.Init)) 	 false 	 undefined 	 undefined
+$45. (s.(trans.s)) 	 false 	 undefined 	 undefined
+$46. (s.(trans.State)) 	 false 	 undefined 	 undefined
+$47. (s.(trans.univ)) 	 false 	 undefined 	 undefined
+$48. (s.trans) 	 false 	 undefined 	 undefined
+$49. (State-(Init&s)) 	 false 	 undefined 	 undefined
+$50. (State-(Init-s)) 	 false 	 undefined 	 undefined
+$51. (State-(s-Init)) 	 false 	 undefined 	 undefined
+$52. (State-Init) 	 false 	 undefined 	 undefined
+$53. (State-s) 	 false 	 undefined 	 undefined
+$54. (State.(trans.Init)) 	 false 	 undefined 	 undefined
+$55. (State.(trans.s)) 	 false 	 undefined 	 undefined
+$56. (State.(trans.State)) 	 false 	 undefined 	 undefined
+$57. (State.(trans.univ)) 	 false 	 undefined 	 undefined
+$58. (State.trans) 	 false 	 undefined 	 undefined
+$59. (trans.(Init&s)) 	 false 	 undefined 	 undefined
+$60. (trans.(Init+s)) 	 false 	 undefined 	 undefined
+$61. (trans.(Init-s)) 	 false 	 undefined 	 undefined
+$62. (trans.(s-Init)) 	 false 	 undefined 	 undefined
+$63. (trans.(State-Init)) 	 false 	 undefined 	 undefined
+$64. (trans.(State-s)) 	 false 	 undefined 	 undefined
+$65. (trans.(trans.Init)) 	 false 	 undefined 	 undefined
+$66. (trans.(trans.s)) 	 false 	 undefined 	 undefined
+$67. (trans.(trans.State)) 	 false 	 undefined 	 undefined
+$68. (trans.(trans.univ)) 	 false 	 undefined 	 undefined
+$69. (trans.Init) 	 false 	 undefined 	 undefined
+$70. (trans.s) 	 false 	 undefined 	 undefined
+$71. (trans.State) 	 false 	 undefined 	 undefined
+$72. (trans.univ) 	 false 	 undefined 	 undefined
+$73. (univ.(Init.trans)) 	 false 	 undefined 	 undefined
+$74. (univ.(s.trans)) 	 false 	 undefined 	 undefined
+$75. (univ.(State.trans)) 	 false 	 undefined 	 undefined
+$76. (univ.(trans.Init)) 	 false 	 undefined 	 undefined
+$77. (univ.(trans.s)) 	 false 	 undefined 	 undefined
+$78. (univ.(trans.State)) 	 false 	 undefined 	 undefined
+$79. (univ.(trans.univ)) 	 false 	 undefined 	 undefined
+$80. (univ.(univ.trans)) 	 false 	 undefined 	 undefined
+$81. (univ.trans) 	 false 	 undefined 	 undefined
+$82. (~(Init.trans)) 	 false 	 undefined 	 undefined
+$83. (~(s.trans)) 	 false 	 undefined 	 undefined
+$84. (~(State.trans)) 	 false 	 undefined 	 undefined
+$85. (~(trans.Init)) 	 false 	 undefined 	 undefined
+$86. (~(trans.s)) 	 false 	 undefined 	 undefined
+$87. (~(trans.State)) 	 false 	 undefined 	 undefined
+$88. (~(trans.univ)) 	 false 	 undefined 	 undefined
+$89. (~(univ.trans)) 	 false 	 undefined 	 undefined
+$90. Event 	 false 	 undefined 	 undefined
+$91. Init 	 false 	 undefined 	 undefined
+$92. Int 	 false 	 undefined 	 undefined
+$93. none 	 false 	 undefined 	 undefined
+$94. s 	 false 	 undefined 	 undefined
+$95. State 	 false 	 undefined 	 undefined
+$96. String 	 false 	 undefined 	 undefined
+$97. trans 	 true 	 undefined 	 undefined
+$98. univ 	 false 	 undefined 	 undefined
+Expected Completion word: trans
+Expected Completion line: trans
+Suggestion exists: true
+
+Suggestion in top 1 = false 
+Suggestion in top 5 = false 
+Suggestion in top 10 = false 
+
+Suggestion in top 1 (Alpha) = false
+Suggestion in top 5 (Alpha) = false
+Suggestion in top 10 (Alpha) = false
+
+Suggestion in top 1 (Len) = false
+Suggestion in top 5 (Len) = false
+Suggestion in top 10 (Len) = true
+
+Time taken: 37.815583

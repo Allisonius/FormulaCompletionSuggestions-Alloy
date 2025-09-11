@@ -1,0 +1,4 @@
+modelname,filename,position-line,position-character,incompleteline,removedtext,baseline,suggestionedExpression,A_iff_B,A_and_B,not_A_and_B,A_and_not_B,not_A_and_not_B,suggestionImpactTime
+social-media,completion/socialMedia.als,37,39,"all i:Influencer, d:Day| d in i.posts.","date","{}","\tall i:Influencer, d:Day| d in i.posts.date",true,true,false,true,false,9.221166
+social-media,completion/socialMedia.als,37,39,"all i:Influencer, d:Day| d in i.posts.","date","{}","\tall i:Influencer, d:Day| d in i.posts.~posts",true,true,false,true,false,9.221166
+social-media,completion/socialMedia.als,37,39,"all i:Influencer, d:Day| d in i.posts.","date","{}","\tall i:Influencer, d:Day| d in i.posts.~sees",true,true,false,true,false,9.221166

@@ -1,0 +1,70 @@
+Model name: production-line-v3
+Filename: completion/production-line-v3-complete.als
+Offset: 1725
+Term: .
+Vscode Position: line=71 character=57
+----------------------------------
+72 | 	all c : Component, p : c.parts | p.workstation in ^succ.
+----------------------------------
+Completion List:
+# Suggestion 	 Exact 	 Syntactic 	 Semantic
+$1. ~workstation.c 	 false 	 undefined 	 undefined
+$2. Workstation 	 false 	 undefined 	 undefined
+$3. Workstation.*succ 	 false 	 undefined 	 undefined
+$4. Workstation.^succ 	 false 	 undefined 	 undefined
+$5. Workstation.succ 	 false 	 undefined 	 undefined
+$6. Workstation.workers 	 false 	 undefined 	 undefined
+$7. Workstation.~succ 	 false 	 undefined 	 undefined
+$8. Workstation.~workstation 	 false 	 undefined 	 undefined
+$9. begin 	 false 	 undefined 	 undefined
+$10. begin.*succ 	 false 	 undefined 	 undefined
+$11. begin.^succ 	 false 	 undefined 	 undefined
+$12. begin.succ 	 false 	 undefined 	 undefined
+$13. begin.workers 	 false 	 undefined 	 undefined
+$14. begin.~succ 	 false 	 undefined 	 undefined
+$15. begin.~workstation 	 false 	 undefined 	 undefined
+$16. end 	 false 	 undefined 	 undefined
+$17. end.*succ 	 false 	 undefined 	 undefined
+$18. end.^succ 	 false 	 undefined 	 undefined
+$19. end.succ 	 false 	 undefined 	 undefined
+$20. end.workers 	 false 	 undefined 	 undefined
+$21. end.~succ 	 false 	 undefined 	 undefined
+$22. end.~workstation 	 false 	 undefined 	 undefined
+$23. workers.Human 	 false 	 undefined 	 undefined
+$24. workers.Robot 	 false 	 undefined 	 undefined
+$25. workers.Worker 	 false 	 undefined 	 undefined
+$26. ~workstation.Component 	 false 	 undefined 	 undefined
+$27. univ.parts 	 false 	 undefined 	 undefined
+$28. univ.succ 	 false 	 undefined 	 undefined
+$29. univ.workers 	 false 	 undefined 	 undefined
+$30. univ.workstation 	 false 	 undefined 	 undefined
+$31. workers 	 false 	 undefined 	 undefined
+$32. workers.univ 	 false 	 undefined 	 undefined
+$33. univ.~parts 	 false 	 undefined 	 undefined
+$34. univ.~succ 	 false 	 undefined 	 undefined
+$35. univ.~workers 	 false 	 undefined 	 undefined
+$36. univ.~workstation 	 false 	 undefined 	 undefined
+$37. ~workstation 	 false 	 undefined 	 undefined
+$38. ~workstation.univ 	 false 	 undefined 	 undefined
+$39. univ.^parts 	 false 	 undefined 	 undefined
+$40. univ.^succ 	 false 	 undefined 	 undefined
+$41. univ 	 false 	 undefined 	 undefined
+$42. univ.*parts 	 false 	 undefined 	 undefined
+$43. univ.*succ 	 false 	 undefined 	 undefined
+Expected Completion word: 
+Expected Completion line: (c.workstation)
+Suggestion exists: false
+
+Suggestion in top 1 = false 
+Suggestion in top 5 = false 
+Suggestion in top 10 = false 
+
+Suggestion in top 1 (Alpha) = false
+Suggestion in top 5 (Alpha) = false
+Suggestion in top 10 (Alpha) = false
+
+Suggestion in top 1 (Len) = false
+Suggestion in top 5 (Len) = false
+Suggestion in top 10 (Len) = false
+
+Time taken: 10.004041

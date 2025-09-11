@@ -1,0 +1,44 @@
+Model name: courses-v1
+Filename: completion/courses-v1-complete.als
+Offset: 1930
+Term: .
+Vscode Position: line=82 character=66
+----------------------------------
+83 | 	all c : Course, p : Person | last in p.(c.grades) implies some p.
+----------------------------------
+Completion List:
+# Suggestion 	 Exact 	 Syntactic 	 Semantic
+$1. enrolled.c 	 false 	 undefined 	 undefined
+$2. teaches.c 	 false 	 undefined 	 undefined
+$3. enrolled.Course 	 false 	 undefined 	 undefined
+$4. projects.Project 	 false 	 undefined 	 undefined
+$5. teaches.Course 	 false 	 undefined 	 undefined
+$6. enrolled 	 false 	 undefined 	 undefined
+$7. enrolled.grades 	 false 	 undefined 	 undefined
+$8. enrolled.projects 	 false 	 undefined 	 undefined
+$9. enrolled.univ 	 false 	 undefined 	 undefined
+$10. enrolled.~teaches 	 false 	 undefined 	 undefined
+$11. projects 	 true 	 undefined 	 undefined
+$12. projects.univ 	 false 	 undefined 	 undefined
+$13. teaches 	 false 	 undefined 	 undefined
+$14. teaches.grades 	 false 	 undefined 	 undefined
+$15. teaches.projects 	 false 	 undefined 	 undefined
+$16. teaches.univ 	 false 	 undefined 	 undefined
+$17. teaches.~enrolled 	 false 	 undefined 	 undefined
+Expected Completion word: projects
+Expected Completion line: projects & c.projects
+Suggestion exists: true
+
+Suggestion in top 1 = false 
+Suggestion in top 5 = false 
+Suggestion in top 10 = false 
+
+Suggestion in top 1 (Alpha) = false
+Suggestion in top 5 (Alpha) = false
+Suggestion in top 10 (Alpha) = true
+
+Suggestion in top 1 (Len) = false
+Suggestion in top 5 (Len) = true
+Suggestion in top 10 (Len) = true
+
+Time taken: 20.459417

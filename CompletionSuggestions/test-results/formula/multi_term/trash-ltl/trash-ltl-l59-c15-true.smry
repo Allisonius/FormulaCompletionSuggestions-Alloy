@@ -1,0 +1,37 @@
+Model name: trash-ltl
+Filename: completion/trash-ltl-complete.als
+Offset: 1174
+Term:  - 
+Vscode Position: line=58 character=15
+----------------------------------
+59 | 	always File - 
+----------------------------------
+Completion List:
+# Suggestion 	 Exact 	 Syntactic 	 Semantic
+$1. File 	 false 	 false 	 false
+$2. Protected 	 true 	 true 	 true
+$3. Protected' 	 false 	 false 	 false
+$4. Trash 	 false 	 false 	 false
+$5. Trash' 	 false 	 false 	 false
+$6. File' 	 false 	 false 	 false
+$7. Int 	 false 	 false 	 false
+$8. String 	 false 	 false 	 false
+$9. none 	 false 	 false 	 false
+$10. univ 	 false 	 false 	 false
+Expected Completion word: Protected
+Expected Completion line: Protected in Protected'
+Suggestion exists: true
+
+Suggestion in top 1 = false 
+Suggestion in top 5 = true 
+Suggestion in top 10 = true 
+
+Suggestion in top 1 (Alpha) = false
+Suggestion in top 5 (Alpha) = true
+Suggestion in top 10 (Alpha) = true
+
+Suggestion in top 1 (Len) = false
+Suggestion in top 5 (Len) = false
+Suggestion in top 10 (Len) = true
+
+Time taken: 10.375833

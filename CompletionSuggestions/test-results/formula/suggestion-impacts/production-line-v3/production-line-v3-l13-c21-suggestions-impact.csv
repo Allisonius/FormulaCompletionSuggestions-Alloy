@@ -1,0 +1,16 @@
+modelname,filename,position-line,position-character,incompleteline,removedtext,baseline,suggestionedExpression,A_iff_B,A_and_B,not_A_and_B,A_and_not_B,not_A_and_not_B,suggestionImpactTime
+production-line-v3,completion/production-line-v3-sig.als,13,21,"sig Material extends","Product {}","{}","sig Material extends Component",,,,,,4.755917
+production-line-v3,completion/production-line-v3-sig.als,13,21,"sig Material extends","Product {}","{}","sig Material extends Dangerous",,,,,,4.755917
+production-line-v3,completion/production-line-v3-sig.als,13,21,"sig Material extends","Product {}","{}","sig Material extends Human",,,,,,4.755917
+production-line-v3,completion/production-line-v3-sig.als,13,21,"sig Material extends","Product {}","{}","sig Material extends Product",,,,,,4.755917
+production-line-v3,completion/production-line-v3-sig.als,13,21,"sig Material extends","Product {}","{}","sig Material extends Robot",,,,,,4.755917
+production-line-v3,completion/production-line-v3-sig.als,13,21,"sig Material extends","Product {}","{}","sig Material extends Worker",,,,,,4.755917
+production-line-v3,completion/production-line-v3-sig.als,13,21,"sig Material extends","Product {}","{}","sig Material extends Workstation",,,,,,4.755917
+production-line-v3,completion/production-line-v3-sig.als,13,21,"sig Material extends","Product {}","{}","sig Material extends begin",,,,,,4.755917
+production-line-v3,completion/production-line-v3-sig.als,13,21,"sig Material extends","Product {}","{}","sig Material extends end",,,,,,4.755917
+production-line-v3,completion/production-line-v3-sig.als,13,21,"sig Material extends","Product {}","{}","sig Material extends Int",,,,,,4.755917
+production-line-v3,completion/production-line-v3-sig.als,13,21,"sig Material extends","Product {}","{}","sig Material extends String",,,,,,4.755917
+production-line-v3,completion/production-line-v3-sig.als,13,21,"sig Material extends","Product {}","{}","sig Material extends none",,,,,,4.755917
+production-line-v3,completion/production-line-v3-sig.als,13,21,"sig Material extends","Product {}","{}","sig Material extends seq/Int",,,,,,4.755917
+production-line-v3,completion/production-line-v3-sig.als,13,21,"sig Material extends","Product {}","{}","sig Material extends univ",,,,,,4.755917
+production-line-v3,completion/production-line-v3-sig.als,13,21,"sig Material extends","Product {}","{}","sig Material extends iden",,,,,,4.755917

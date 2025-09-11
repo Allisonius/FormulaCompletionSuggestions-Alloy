@@ -1,0 +1,36 @@
+Model name: trash-fol
+Filename: completion/trash-fol-complete.als
+Offset: 527
+Term:  -> 
+Vscode Position: line=43 character=27
+----------------------------------
+44 | 	all f1, f2 : File | f1 -> 
+----------------------------------
+Completion List:
+# Suggestion 	 Exact 	 Syntactic 	 Semantic
+$1. f1 	 false 	 undefined 	 undefined
+$2. f2 	 true 	 undefined 	 undefined
+$3. File 	 false 	 undefined 	 undefined
+$4. Protected 	 false 	 undefined 	 undefined
+$5. Trash 	 false 	 undefined 	 undefined
+$6. Int 	 false 	 undefined 	 undefined
+$7. String 	 false 	 undefined 	 undefined
+$8. none 	 false 	 undefined 	 undefined
+$9. univ 	 false 	 undefined 	 undefined
+Expected Completion word: f2
+Expected Completion line: f2 in link and f1 in Trash => f2 in Trash
+Suggestion exists: true
+
+Suggestion in top 1 = false 
+Suggestion in top 5 = true 
+Suggestion in top 10 = true 
+
+Suggestion in top 1 (Alpha) = false
+Suggestion in top 5 (Alpha) = true
+Suggestion in top 10 (Alpha) = true
+
+Suggestion in top 1 (Len) = false
+Suggestion in top 5 (Len) = true
+Suggestion in top 10 (Len) = true
+
+Time taken: 7.431792

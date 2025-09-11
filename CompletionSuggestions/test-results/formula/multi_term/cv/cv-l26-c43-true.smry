@@ -1,0 +1,46 @@
+Model name: cv
+Filename: completion/cv-complete.als
+Offset: 622
+Term: .
+Vscode Position: line=25 character=43
+----------------------------------
+26 |     all u : User, disj x,y : u.profile | x.
+----------------------------------
+Completion List:
+# Suggestion 	 Exact 	 Syntactic 	 Semantic
+$1. source.u 	 false 	 undefined 	 undefined
+$2. ~profile.u 	 false 	 undefined 	 undefined
+$3. ~visible.u 	 false 	 undefined 	 undefined
+$4. ids.Id 	 false 	 undefined 	 undefined
+$5. source.Institution 	 false 	 undefined 	 undefined
+$6. source.Source 	 false 	 undefined 	 undefined
+$7. source.User 	 false 	 undefined 	 undefined
+$8. ~profile.User 	 false 	 undefined 	 undefined
+$9. ~visible.User 	 false 	 undefined 	 undefined
+$10. ids 	 false 	 undefined 	 undefined
+$11. ids.univ 	 false 	 undefined 	 undefined
+$12. source 	 true 	 undefined 	 undefined
+$13. source.univ 	 false 	 undefined 	 undefined
+$14. ~profile.visible 	 false 	 undefined 	 undefined
+$15. ~visible.profile 	 false 	 undefined 	 undefined
+$16. ~profile 	 false 	 undefined 	 undefined
+$17. ~profile.univ 	 false 	 undefined 	 undefined
+$18. ~visible 	 false 	 undefined 	 undefined
+$19. ~visible.univ 	 false 	 undefined 	 undefined
+Expected Completion word: source
+Expected Completion line: source = y.source implies no (x.ids & y.ids)
+Suggestion exists: true
+
+Suggestion in top 1 = false 
+Suggestion in top 5 = false 
+Suggestion in top 10 = false 
+
+Suggestion in top 1 (Alpha) = false
+Suggestion in top 5 (Alpha) = false
+Suggestion in top 10 (Alpha) = false
+
+Suggestion in top 1 (Len) = false
+Suggestion in top 5 (Len) = true
+Suggestion in top 10 (Len) = true
+
+Time taken: 9.319833

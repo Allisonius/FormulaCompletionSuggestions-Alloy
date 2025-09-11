@@ -1,0 +1,58 @@
+Model name: courses-v1
+Filename: completion/courses-v1-complete.als
+Offset: 1718
+Term:  in 
+Vscode Position: line=77 character=30
+----------------------------------
+78 | 	all c : Course | c.grades in 
+----------------------------------
+Completion List:
+# Suggestion 	 Exact 	 Syntactic 	 Semantic
+$1. c.grades 	 false 	 undefined 	 undefined
+$2. enrolled.c.grades 	 false 	 undefined 	 undefined
+$3. teaches.c.grades 	 false 	 undefined 	 undefined
+$4. ~projects.c.grades 	 false 	 undefined 	 undefined
+$5. Person.enrolled.grades 	 false 	 undefined 	 undefined
+$6. Person.teaches.grades 	 false 	 undefined 	 undefined
+$7. Professor.enrolled.grades 	 false 	 undefined 	 undefined
+$8. Professor.teaches.grades 	 false 	 undefined 	 undefined
+$9. Project.~projects.grades 	 false 	 undefined 	 undefined
+$10. Student.enrolled.grades 	 false 	 undefined 	 undefined
+$11. Student.teaches.grades 	 false 	 undefined 	 undefined
+$12. enrolled.Course.grades 	 false 	 undefined 	 undefined
+$13. teaches.Course.grades 	 false 	 undefined 	 undefined
+$14. ~projects.Course.grades 	 false 	 undefined 	 undefined
+$15. Person -> Grade 	 false 	 undefined 	 undefined
+$16. Professor -> Grade 	 false 	 undefined 	 undefined
+$17. Student -> Grade 	 false 	 undefined 	 undefined
+$18. enrolled.univ.grades 	 false 	 undefined 	 undefined
+$19. grades.univ.projects 	 false 	 undefined 	 undefined
+$20. grades.univ.~enrolled 	 false 	 undefined 	 undefined
+$21. grades.univ.~projects 	 false 	 undefined 	 undefined
+$22. grades.univ.~teaches 	 false 	 undefined 	 undefined
+$23. projects.univ.grades 	 false 	 undefined 	 undefined
+$24. teaches.univ.grades 	 false 	 undefined 	 undefined
+$25. univ.enrolled.grades 	 false 	 undefined 	 undefined
+$26. univ.grades 	 false 	 undefined 	 undefined
+$27. univ.teaches.grades 	 false 	 undefined 	 undefined
+$28. univ.~projects.grades 	 false 	 undefined 	 undefined
+$29. ~enrolled.univ.grades 	 false 	 undefined 	 undefined
+$30. ~projects.univ.grades 	 false 	 undefined 	 undefined
+$31. ~teaches.univ.grades 	 false 	 undefined 	 undefined
+Expected Completion word: Person
+Expected Completion line: Person -> lone Grade
+Suggestion exists: false
+
+Suggestion in top 1 = false 
+Suggestion in top 5 = false 
+Suggestion in top 10 = false 
+
+Suggestion in top 1 (Alpha) = false
+Suggestion in top 5 (Alpha) = false
+Suggestion in top 10 (Alpha) = false
+
+Suggestion in top 1 (Len) = false
+Suggestion in top 5 (Len) = false
+Suggestion in top 10 (Len) = false
+
+Time taken: 33.513708

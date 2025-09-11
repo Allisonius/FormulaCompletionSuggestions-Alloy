@@ -1,0 +1,15 @@
+s1
+s2
+trans
+Init
+State
+s1.trans
+s2.trans
+Init.trans
+trans.s1
+trans.s2
+trans.Init
+trans.State
+trans.univ
+univ.trans
+univ

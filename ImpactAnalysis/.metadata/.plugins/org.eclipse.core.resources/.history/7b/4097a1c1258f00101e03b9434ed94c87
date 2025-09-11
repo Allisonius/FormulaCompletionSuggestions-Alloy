@@ -1,0 +1,12 @@
+modelname,filename,position-line,position-character,incompleteline,removedtext,baseline,suggestionedExpression,A_iff_B,A_and_B,not_A_and_B,A_and_not_B,not_A_and_not_B,suggestionImpactTime
+handshake,completion/handshake.als,35,56,"all p,q: Person - Jocelyn | p!=q => #p.shaken != #q.","shaken","{}","    all p,q: Person - Jocelyn | p!=q => #p.shaken != #q.shaken",true,true,false,false,false,12.484042
+handshake,completion/handshake.als,35,56,"all p,q: Person - Jocelyn | p!=q => #p.shaken != #q.","shaken","{}","    all p,q: Person - Jocelyn | p!=q => #p.shaken != #q.spouse",true,true,false,false,false,12.484042
+handshake,completion/handshake.als,35,56,"all p,q: Person - Jocelyn | p!=q => #p.shaken != #q.","shaken","{}","    all p,q: Person - Jocelyn | p!=q => #p.shaken != #q.~shaken",true,true,false,false,false,12.484042
+handshake,completion/handshake.als,35,56,"all p,q: Person - Jocelyn | p!=q => #p.shaken != #q.","shaken","{}","    all p,q: Person - Jocelyn | p!=q => #p.shaken != #q.~spouse",true,true,false,false,false,12.484042
+handshake,completion/handshake.als,35,56,"all p,q: Person - Jocelyn | p!=q => #p.shaken != #q.","shaken","{}","    all p,q: Person - Jocelyn | p!=q => #p.shaken != #q.^shaken",true,true,false,false,false,12.484042
+handshake,completion/handshake.als,35,56,"all p,q: Person - Jocelyn | p!=q => #p.shaken != #q.","shaken","{}","    all p,q: Person - Jocelyn | p!=q => #p.shaken != #q.^spouse",true,true,false,false,false,12.484042
+handshake,completion/handshake.als,35,56,"all p,q: Person - Jocelyn | p!=q => #p.shaken != #q.","shaken","{}","    all p,q: Person - Jocelyn | p!=q => #p.shaken != #q.*shaken",true,true,false,false,false,12.484042
+handshake,completion/handshake.als,35,56,"all p,q: Person - Jocelyn | p!=q => #p.shaken != #q.","shaken","{}","    all p,q: Person - Jocelyn | p!=q => #p.shaken != #q.*spouse",true,true,false,false,false,12.484042
+handshake,completion/handshake.als,35,56,"all p,q: Person - Jocelyn | p!=q => #p.shaken != #q.","shaken","{}","    all p,q: Person - Jocelyn | p!=q => #p.shaken != #q.iden",true,true,false,false,false,12.484042
+handshake,completion/handshake.als,35,56,"all p,q: Person - Jocelyn | p!=q => #p.shaken != #q.","shaken","{}","    all p,q: Person - Jocelyn | p!=q => #p.shaken != #q.none",,,,,,12.484042
+handshake,completion/handshake.als,35,56,"all p,q: Person - Jocelyn | p!=q => #p.shaken != #q.","shaken","{}","    all p,q: Person - Jocelyn | p!=q => #p.shaken != #q.univ",,,,,,12.484042

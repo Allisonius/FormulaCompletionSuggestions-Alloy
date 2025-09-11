@@ -1,0 +1,9 @@
+modelname,filename,position-line,position-character,incompleteline,removedtext,baseline,suggestionedExpression,A_iff_B,A_and_B,not_A_and_B,A_and_not_B,not_A_and_not_B,suggestionImpactTime
+production-line-v1,completion/production-line-v1-complete.als,41,29,"all c : Component, p : c.","parts & Component | lte[p.position,c.position]","{}","    all c : Component, p : c.parts",,,,,,2.972791
+production-line-v1,completion/production-line-v1-complete.als,41,29,"all c : Component, p : c.","parts & Component | lte[p.position,c.position]","{}","    all c : Component, p : c.position",,,,,,2.972791
+production-line-v1,completion/production-line-v1-complete.als,41,29,"all c : Component, p : c.","parts & Component | lte[p.position,c.position]","{}","    all c : Component, p : c.~parts",,,,,,2.972791
+production-line-v1,completion/production-line-v1-complete.als,41,29,"all c : Component, p : c.","parts & Component | lte[p.position,c.position]","{}","    all c : Component, p : c.^parts",,,,,,2.972791
+production-line-v1,completion/production-line-v1-complete.als,41,29,"all c : Component, p : c.","parts & Component | lte[p.position,c.position]","{}","    all c : Component, p : c.*parts",,,,,,2.972791
+production-line-v1,completion/production-line-v1-complete.als,41,29,"all c : Component, p : c.","parts & Component | lte[p.position,c.position]","{}","    all c : Component, p : c.iden",,,,,,2.972791
+production-line-v1,completion/production-line-v1-complete.als,41,29,"all c : Component, p : c.","parts & Component | lte[p.position,c.position]","{}","    all c : Component, p : c.none",,,,,,2.972791
+production-line-v1,completion/production-line-v1-complete.als,41,29,"all c : Component, p : c.","parts & Component | lte[p.position,c.position]","{}","    all c : Component, p : c.univ",,,,,,2.972791

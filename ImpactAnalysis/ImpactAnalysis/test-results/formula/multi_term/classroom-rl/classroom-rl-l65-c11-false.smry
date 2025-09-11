@@ -1,0 +1,44 @@
+Model name: classroom-rl
+Filename: completion/classroom-rl-complete.als
+Offset: 791
+Term:  in 
+Vscode Position: line=64 character=11
+----------------------------------
+65 | 	Tutors in 
+----------------------------------
+Completion List:
+# Suggestion 	 Exact 	 Syntactic 	 Semantic
+$1. Teaches.Class.Groups 	 false 	 false 	 false
+$2. Teaches.Groups.Group 	 false 	 false 	 false
+$3. *Tutors.univ.Groups 	 false 	 false 	 false
+$4. Groups.univ.~Teaches 	 false 	 false 	 false
+$5. Person -> Person 	 false 	 false 	 false
+$6. Person -> Student 	 false 	 false 	 false
+$7. Student -> Person 	 false 	 false 	 false
+$8. Student -> Student 	 false 	 false 	 false
+$9. Teaches.Groups.univ 	 false 	 false 	 false
+$10. Teaches.univ.Groups 	 false 	 false 	 false
+$11. Tutors 	 false 	 false 	 false
+$12. Tutors.univ.Groups 	 false 	 false 	 false
+$13. ^Tutors.univ.Groups 	 false 	 false 	 false
+$14. ~Tutors.univ.Groups 	 false 	 false 	 false
+$15. ~Tutors 	 false 	 false 	 false
+$16. ^Tutors 	 false 	 false 	 false
+$17. *Tutors 	 false 	 false 	 false
+Expected Completion word: Teacher
+Expected Completion line: Teacher -> Student
+Suggestion exists: false
+
+Suggestion in top 1 = false 
+Suggestion in top 5 = false 
+Suggestion in top 10 = false 
+
+Suggestion in top 1 (Alpha) = false
+Suggestion in top 5 (Alpha) = false
+Suggestion in top 10 (Alpha) = false
+
+Suggestion in top 1 (Len) = false
+Suggestion in top 5 (Len) = false
+Suggestion in top 10 (Len) = false
+
+Time taken: 19.330458

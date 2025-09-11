@@ -1,0 +1,7 @@
+modelname,filename,position-line,position-character,incompleteline,removedtext,baseline,suggestionedExpression,A_iff_B,A_and_B,not_A_and_B,A_and_not_B,not_A_and_not_B,suggestionImpactTime
+train-station-ltl,completion/train-station-ltl-complete.als,82,32,"all t : Train | always (some t.","pos implies eventually no t.pos)","{}","\tall t : Train | always (some t.pos",,,,,,7.394583
+train-station-ltl,completion/train-station-ltl-complete.als,82,32,"all t : Train | always (some t.","pos implies eventually no t.pos)","{}","\tall t : Train | always (some t.pos'",,,,,,7.394583
+train-station-ltl,completion/train-station-ltl-complete.als,82,32,"all t : Train | always (some t.","pos implies eventually no t.pos)","{}","\tall t : Train | always (some t.*prox",,,,,,7.394583
+train-station-ltl,completion/train-station-ltl-complete.als,82,32,"all t : Train | always (some t.","pos implies eventually no t.pos)","{}","\tall t : Train | always (some t.iden",,,,,,7.394583
+train-station-ltl,completion/train-station-ltl-complete.als,82,32,"all t : Train | always (some t.","pos implies eventually no t.pos)","{}","\tall t : Train | always (some t.none",,,,,,7.394583
+train-station-ltl,completion/train-station-ltl-complete.als,82,32,"all t : Train | always (some t.","pos implies eventually no t.pos)","{}","\tall t : Train | always (some t.univ",,,,,,7.394583

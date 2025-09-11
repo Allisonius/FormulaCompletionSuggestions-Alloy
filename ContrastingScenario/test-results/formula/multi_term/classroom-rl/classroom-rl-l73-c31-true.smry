@@ -1,0 +1,63 @@
+Model name: classroom-rl
+Filename: completion/classroom-rl-complete.als
+Offset: 950
+Term: .
+Vscode Position: line=72 character=31
+----------------------------------
+73 | 	all p : Person | some ^Tutors.
+----------------------------------
+Completion List:
+# Suggestion 	 Exact 	 Syntactic 	 Semantic
+$1. p 	 true 	 undefined 	 undefined
+$2. p.*Tutors 	 false 	 undefined 	 undefined
+$3. p.Teaches 	 false 	 undefined 	 undefined
+$4. p.Tutors 	 false 	 undefined 	 undefined
+$5. p.^Tutors 	 false 	 undefined 	 undefined
+$6. p.~Tutors 	 false 	 undefined 	 undefined
+$7. Person 	 false 	 undefined 	 undefined
+$8. Person.*Tutors 	 false 	 undefined 	 undefined
+$9. Person.Teaches 	 false 	 undefined 	 undefined
+$10. Person.Tutors 	 false 	 undefined 	 undefined
+$11. Person.^Tutors 	 false 	 undefined 	 undefined
+$12. Person.~Tutors 	 false 	 undefined 	 undefined
+$13. Student 	 false 	 undefined 	 undefined
+$14. Student.*Tutors 	 false 	 undefined 	 undefined
+$15. Student.Teaches 	 false 	 undefined 	 undefined
+$16. Student.Tutors 	 false 	 undefined 	 undefined
+$17. Student.^Tutors 	 false 	 undefined 	 undefined
+$18. Student.~Tutors 	 false 	 undefined 	 undefined
+$19. Teacher 	 false 	 undefined 	 undefined
+$20. Teacher.*Tutors 	 false 	 undefined 	 undefined
+$21. Teacher.Teaches 	 false 	 undefined 	 undefined
+$22. Teacher.Tutors 	 false 	 undefined 	 undefined
+$23. Teacher.^Tutors 	 false 	 undefined 	 undefined
+$24. Teacher.~Tutors 	 false 	 undefined 	 undefined
+$25. Teaches.Class 	 false 	 undefined 	 undefined
+$26. Teaches 	 false 	 undefined 	 undefined
+$27. Teaches.Groups 	 false 	 undefined 	 undefined
+$28. Teaches.univ 	 false 	 undefined 	 undefined
+$29. univ.Groups 	 false 	 undefined 	 undefined
+$30. univ.Teaches 	 false 	 undefined 	 undefined
+$31. univ.Tutors 	 false 	 undefined 	 undefined
+$32. univ.~Teaches 	 false 	 undefined 	 undefined
+$33. univ.~Tutors 	 false 	 undefined 	 undefined
+$34. univ.^Tutors 	 false 	 undefined 	 undefined
+$35. univ 	 false 	 undefined 	 undefined
+$36. univ.*Tutors 	 false 	 undefined 	 undefined
+Expected Completion word: p
+Expected Completion line: p & Teacher
+Suggestion exists: true
+
+Suggestion in top 1 = true 
+Suggestion in top 5 = true 
+Suggestion in top 10 = true 
+
+Suggestion in top 1 (Alpha) = true
+Suggestion in top 5 (Alpha) = true
+Suggestion in top 10 (Alpha) = true
+
+Suggestion in top 1 (Len) = true
+Suggestion in top 5 (Len) = true
+Suggestion in top 10 (Len) = true
+
+Time taken: 10.372084

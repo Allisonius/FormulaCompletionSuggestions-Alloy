@@ -1,0 +1,8 @@
+modelname,filename,position-line,position-character,incompleteline,removedtext,baseline,suggestionedExpression,A_iff_B,A_and_B,not_A_and_B,A_and_not_B,not_A_and_not_B,suggestionImpactTime
+courses-v2,completion/courses-v2-complete.als,78,64,"all c : Course | all p : Person | lone g : Grade | p -> g in c.","grades","{}","\tall c : Course | all p : Person | lone g : Grade | p -> g in c.grades",true,true,false,true,false,25.00475
+courses-v2,completion/courses-v2-complete.als,78,64,"all c : Course | all p : Person | lone g : Grade | p -> g in c.","grades","{}","\tall c : Course | all p : Person | lone g : Grade | p -> g in c.projects",,,,,,25.00475
+courses-v2,completion/courses-v2-complete.als,78,64,"all c : Course | all p : Person | lone g : Grade | p -> g in c.","grades","{}","\tall c : Course | all p : Person | lone g : Grade | p -> g in c.~enrolled",,,,,,25.00475
+courses-v2,completion/courses-v2-complete.als,78,64,"all c : Course | all p : Person | lone g : Grade | p -> g in c.","grades","{}","\tall c : Course | all p : Person | lone g : Grade | p -> g in c.~teaches",,,,,,25.00475
+courses-v2,completion/courses-v2-complete.als,78,64,"all c : Course | all p : Person | lone g : Grade | p -> g in c.","grades","{}","\tall c : Course | all p : Person | lone g : Grade | p -> g in c.iden",,,,,,25.00475
+courses-v2,completion/courses-v2-complete.als,78,64,"all c : Course | all p : Person | lone g : Grade | p -> g in c.","grades","{}","\tall c : Course | all p : Person | lone g : Grade | p -> g in c.none",,,,,,25.00475
+courses-v2,completion/courses-v2-complete.als,78,64,"all c : Course | all p : Person | lone g : Grade | p -> g in c.","grades","{}","\tall c : Course | all p : Person | lone g : Grade | p -> g in c.univ",,,,,,25.00475

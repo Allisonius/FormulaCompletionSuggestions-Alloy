@@ -1,0 +1,4 @@
+modelname,filename,position-line,position-character,incompleteline,removedtext,baseline,suggestionedExpression,A_iff_B,A_and_B,not_A_and_B,A_and_not_B,not_A_and_not_B,suggestionImpactTime
+classroom-rl,completion/classroom-rl-complete.als,73,31,"all p : Person | some ^Tutors.","p & Teacher","{}","\tall p : Person | some ^Tutors.iden",true,true,false,true,false,6.897541
+classroom-rl,completion/classroom-rl-complete.als,73,31,"all p : Person | some ^Tutors.","p & Teacher","{}","\tall p : Person | some ^Tutors.none",true,true,false,true,false,6.897541
+classroom-rl,completion/classroom-rl-complete.als,73,31,"all p : Person | some ^Tutors.","p & Teacher","{}","\tall p : Person | some ^Tutors.univ",true,true,false,true,false,6.897541

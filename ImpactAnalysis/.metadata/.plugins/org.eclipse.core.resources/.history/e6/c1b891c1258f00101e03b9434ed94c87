@@ -1,0 +1,8 @@
+modelname,filename,position-line,position-character,incompleteline,removedtext,baseline,suggestionedExpression,A_iff_B,A_and_B,not_A_and_B,A_and_not_B,not_A_and_not_B,suggestionImpactTime
+courses-v1,completion/courses-v1-complete.als,78,20,"all c : Course | c.","grades in Person -> lone Grade","{}","\tall c : Course | c.grades",,,,,,11.711583
+courses-v1,completion/courses-v1-complete.als,78,20,"all c : Course | c.","grades in Person -> lone Grade","{}","\tall c : Course | c.projects",,,,,,11.711583
+courses-v1,completion/courses-v1-complete.als,78,20,"all c : Course | c.","grades in Person -> lone Grade","{}","\tall c : Course | c.~enrolled",,,,,,11.711583
+courses-v1,completion/courses-v1-complete.als,78,20,"all c : Course | c.","grades in Person -> lone Grade","{}","\tall c : Course | c.~teaches",,,,,,11.711583
+courses-v1,completion/courses-v1-complete.als,78,20,"all c : Course | c.","grades in Person -> lone Grade","{}","\tall c : Course | c.iden",,,,,,11.711583
+courses-v1,completion/courses-v1-complete.als,78,20,"all c : Course | c.","grades in Person -> lone Grade","{}","\tall c : Course | c.none",,,,,,11.711583
+courses-v1,completion/courses-v1-complete.als,78,20,"all c : Course | c.","grades in Person -> lone Grade","{}","\tall c : Course | c.univ",,,,,,11.711583

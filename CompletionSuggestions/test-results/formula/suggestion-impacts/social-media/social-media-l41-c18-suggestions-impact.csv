@@ -1,0 +1,11 @@
+modelname,filename,position-line,position-character,incompleteline,removedtext,baseline,suggestionedExpression,A_iff_B,A_and_B,not_A_and_B,A_and_not_B,not_A_and_not_B,suggestionImpactTime
+social-media,completion/socialMedia.als,41,18,"all u : User | u.","suggested = u.follows.follows - u.follows - u","{}","\tall u : User | u.follows",,,,,,8.739625
+social-media,completion/socialMedia.als,41,18,"all u : User | u.","suggested = u.follows.follows - u.follows - u","{}","\tall u : User | u.posts",,,,,,8.739625
+social-media,completion/socialMedia.als,41,18,"all u : User | u.","suggested = u.follows.follows - u.follows - u","{}","\tall u : User | u.sees",,,,,,8.739625
+social-media,completion/socialMedia.als,41,18,"all u : User | u.","suggested = u.follows.follows - u.follows - u","{}","\tall u : User | u.suggested",,,,,,8.739625
+social-media,completion/socialMedia.als,41,18,"all u : User | u.","suggested = u.follows.follows - u.follows - u","{}","\tall u : User | u.~follows",,,,,,8.739625
+social-media,completion/socialMedia.als,41,18,"all u : User | u.","suggested = u.follows.follows - u.follows - u","{}","\tall u : User | u.~suggested",,,,,,8.739625
+social-media,completion/socialMedia.als,41,18,"all u : User | u.","suggested = u.follows.follows - u.follows - u","{}","\tall u : User | u.^follows",,,,,,8.739625
+social-media,completion/socialMedia.als,41,18,"all u : User | u.","suggested = u.follows.follows - u.follows - u","{}","\tall u : User | u.^suggested",,,,,,8.739625
+social-media,completion/socialMedia.als,41,18,"all u : User | u.","suggested = u.follows.follows - u.follows - u","{}","\tall u : User | u.*follows",,,,,,8.739625
+social-media,completion/socialMedia.als,41,18,"all u : User | u.","suggested = u.follows.follows - u.follows - u","{}","\tall u : User | u.*suggested",,,,,,8.739625

@@ -1,0 +1,229 @@
+Model name: production-line-v2
+Filename: completion/production-line-v2-complete.als
+Offset: 398
+Term:  + 
+Vscode Position: line=22 character=18
+----------------------------------
+23 | 	Worker = Human + 
+----------------------------------
+Completion List:
+# Suggestion 	 Exact 	 Syntactic 	 Semantic
+$1. *succ.Workstation.workers 	 false 	 false 	 false
+$2. *succ.begin.workers 	 false 	 false 	 false
+$3. *succ.end.workers 	 false 	 false 	 false
+$4. Component 	 false 	 false 	 false
+$5. Component.workstation.workers 	 false 	 false 	 false
+$6. Dangerous 	 false 	 false 	 false
+$7. Human 	 false 	 false 	 false
+$8. Material 	 false 	 false 	 false
+$9. Product 	 false 	 false 	 false
+$10. Robot 	 true 	 true 	 true
+$11. Worker 	 false 	 false 	 false
+$12. Workstation 	 false 	 false 	 false
+$13. Workstation.*succ.workers 	 false 	 false 	 false
+$14. Workstation.^succ.workers 	 false 	 false 	 false
+$15. Workstation.succ.workers 	 false 	 false 	 false
+$16. Workstation.workers 	 false 	 false 	 false
+$17. Workstation.~succ.workers 	 false 	 false 	 false
+$18. ^succ.Workstation.workers 	 false 	 false 	 false
+$19. ^succ.begin.workers 	 false 	 false 	 false
+$20. ^succ.end.workers 	 false 	 false 	 false
+$21. begin 	 false 	 false 	 false
+$22. begin.*succ.workers 	 false 	 false 	 false
+$23. begin.^succ.workers 	 false 	 false 	 false
+$24. begin.succ.workers 	 false 	 false 	 false
+$25. begin.workers 	 false 	 false 	 false
+$26. begin.~succ.workers 	 false 	 false 	 false
+$27. end 	 false 	 false 	 false
+$28. end.*succ.workers 	 false 	 false 	 false
+$29. end.^succ.workers 	 false 	 false 	 false
+$30. end.succ.workers 	 false 	 false 	 false
+$31. end.workers 	 false 	 false 	 false
+$32. end.~succ.workers 	 false 	 false 	 false
+$33. succ.Workstation.workers 	 false 	 false 	 false
+$34. succ.begin.workers 	 false 	 false 	 false
+$35. succ.end.workers 	 false 	 false 	 false
+$36. workers.Human.~workers 	 false 	 false 	 false
+$37. workers.Robot.~workers 	 false 	 false 	 false
+$38. workers.Worker.~workers 	 false 	 false 	 false
+$39. workstation.Workstation.*succ 	 false 	 false 	 false
+$40. workstation.Workstation.^succ 	 false 	 false 	 false
+$41. workstation.Workstation.succ 	 false 	 false 	 false
+$42. workstation.Workstation.workers 	 false 	 false 	 false
+$43. workstation.Workstation.~succ 	 false 	 false 	 false
+$44. workstation.Workstation.~workstation 	 false 	 false 	 false
+$45. workstation.begin.*succ 	 false 	 false 	 false
+$46. workstation.begin.^succ 	 false 	 false 	 false
+$47. workstation.begin.succ 	 false 	 false 	 false
+$48. workstation.begin.workers 	 false 	 false 	 false
+$49. workstation.begin.~succ 	 false 	 false 	 false
+$50. workstation.begin.~workstation 	 false 	 false 	 false
+$51. workstation.end.*succ 	 false 	 false 	 false
+$52. workstation.end.^succ 	 false 	 false 	 false
+$53. workstation.end.succ 	 false 	 false 	 false
+$54. workstation.end.workers 	 false 	 false 	 false
+$55. workstation.end.~succ 	 false 	 false 	 false
+$56. workstation.end.~workstation 	 false 	 false 	 false
+$57. ~succ.Workstation.workers 	 false 	 false 	 false
+$58. ~succ.begin.workers 	 false 	 false 	 false
+$59. ~succ.end.workers 	 false 	 false 	 false
+$60. ~workers.*succ.Workstation 	 false 	 false 	 false
+$61. ~workers.*succ.begin 	 false 	 false 	 false
+$62. ~workers.*succ.end 	 false 	 false 	 false
+$63. ~workers.Workstation 	 false 	 false 	 false
+$64. ~workers.Workstation.*succ 	 false 	 false 	 false
+$65. ~workers.Workstation.^succ 	 false 	 false 	 false
+$66. ~workers.Workstation.succ 	 false 	 false 	 false
+$67. ~workers.Workstation.workers 	 false 	 false 	 false
+$68. ~workers.Workstation.~succ 	 false 	 false 	 false
+$69. ~workers.Workstation.~workstation 	 false 	 false 	 false
+$70. ~workers.^succ.Workstation 	 false 	 false 	 false
+$71. ~workers.^succ.begin 	 false 	 false 	 false
+$72. ~workers.^succ.end 	 false 	 false 	 false
+$73. ~workers.begin 	 false 	 false 	 false
+$74. ~workers.begin.*succ 	 false 	 false 	 false
+$75. ~workers.begin.^succ 	 false 	 false 	 false
+$76. ~workers.begin.succ 	 false 	 false 	 false
+$77. ~workers.begin.workers 	 false 	 false 	 false
+$78. ~workers.begin.~succ 	 false 	 false 	 false
+$79. ~workers.begin.~workstation 	 false 	 false 	 false
+$80. ~workers.end 	 false 	 false 	 false
+$81. ~workers.end.*succ 	 false 	 false 	 false
+$82. ~workers.end.^succ 	 false 	 false 	 false
+$83. ~workers.end.succ 	 false 	 false 	 false
+$84. ~workers.end.workers 	 false 	 false 	 false
+$85. ~workers.end.~succ 	 false 	 false 	 false
+$86. ~workers.end.~workstation 	 false 	 false 	 false
+$87. ~workers.succ.Workstation 	 false 	 false 	 false
+$88. ~workers.succ.begin 	 false 	 false 	 false
+$89. ~workers.succ.end 	 false 	 false 	 false
+$90. ~workers.~succ.Workstation 	 false 	 false 	 false
+$91. ~workers.~succ.begin 	 false 	 false 	 false
+$92. ~workers.~succ.end 	 false 	 false 	 false
+$93. ~workers.~workstation.Component 	 false 	 false 	 false
+$94. ~workstation.Component.*parts 	 false 	 false 	 false
+$95. ~workstation.Component.^parts 	 false 	 false 	 false
+$96. ~workstation.Component.parts 	 false 	 false 	 false
+$97. ~workstation.Component.workstation 	 false 	 false 	 false
+$98. ~workstation.Component.~parts 	 false 	 false 	 false
+$99. *parts.univ.succ 	 false 	 false 	 false
+$100. *parts.univ.workers 	 false 	 false 	 false
+$101. *succ.univ.parts 	 false 	 false 	 false
+$102. *succ.univ.workers 	 false 	 false 	 false
+$103. *succ.univ.workstation 	 false 	 false 	 false
+$104. ^parts.univ.succ 	 false 	 false 	 false
+$105. ^parts.univ.workers 	 false 	 false 	 false
+$106. ^succ.univ.parts 	 false 	 false 	 false
+$107. ^succ.univ.workers 	 false 	 false 	 false
+$108. ^succ.univ.workstation 	 false 	 false 	 false
+$109. parts.univ.*succ 	 false 	 false 	 false
+$110. parts.univ.^succ 	 false 	 false 	 false
+$111. parts.univ.succ 	 false 	 false 	 false
+$112. parts.univ.workers 	 false 	 false 	 false
+$113. parts.univ.~succ 	 false 	 false 	 false
+$114. parts.univ.~workers 	 false 	 false 	 false
+$115. parts.univ.~workstation 	 false 	 false 	 false
+$116. succ.univ.*parts 	 false 	 false 	 false
+$117. succ.univ.^parts 	 false 	 false 	 false
+$118. succ.univ.parts 	 false 	 false 	 false
+$119. succ.univ.workers 	 false 	 false 	 false
+$120. succ.univ.workstation 	 false 	 false 	 false
+$121. succ.univ.~parts 	 false 	 false 	 false
+$122. succ.univ.~workers 	 false 	 false 	 false
+$123. univ.*succ.workers 	 false 	 false 	 false
+$124. univ.^succ.workers 	 false 	 false 	 false
+$125. univ.succ.workers 	 false 	 false 	 false
+$126. univ.workers 	 false 	 false 	 false
+$127. univ.workstation.workers 	 false 	 false 	 false
+$128. univ.~succ.workers 	 false 	 false 	 false
+$129. workers.univ.*parts 	 false 	 false 	 false
+$130. workers.univ.^parts 	 false 	 false 	 false
+$131. workers.univ.parts 	 false 	 false 	 false
+$132. workers.univ.workers 	 false 	 false 	 false
+$133. workers.univ.workstation 	 false 	 false 	 false
+$134. workers.univ.~parts 	 false 	 false 	 false
+$135. workers.univ.~workers 	 false 	 false 	 false
+$136. workstation.univ.*succ 	 false 	 false 	 false
+$137. workstation.univ.^succ 	 false 	 false 	 false
+$138. workstation.univ.succ 	 false 	 false 	 false
+$139. workstation.univ.workers 	 false 	 false 	 false
+$140. workstation.univ.~succ 	 false 	 false 	 false
+$141. workstation.univ.~workers 	 false 	 false 	 false
+$142. workstation.univ.~workstation 	 false 	 false 	 false
+$143. ~parts.univ.succ 	 false 	 false 	 false
+$144. ~parts.univ.workers 	 false 	 false 	 false
+$145. ~succ.univ.parts 	 false 	 false 	 false
+$146. ~succ.univ.workers 	 false 	 false 	 false
+$147. ~succ.univ.workstation 	 false 	 false 	 false
+$148. ~workers.succ.univ 	 false 	 false 	 false
+$149. ~workers.univ.parts 	 false 	 false 	 false
+$150. ~workers.univ.succ 	 false 	 false 	 false
+$151. ~workers.univ.workers 	 false 	 false 	 false
+$152. ~workers.univ.workstation 	 false 	 false 	 false
+$153. ~workstation.univ.parts 	 false 	 false 	 false
+$154. ~workstation.univ.workers 	 false 	 false 	 false
+$155. ~workstation.univ.workstation 	 false 	 false 	 false
+$156. *parts.univ.~succ 	 false 	 false 	 false
+$157. *parts.univ.~workers 	 false 	 false 	 false
+$158. *parts.univ.~workstation 	 false 	 false 	 false
+$159. *succ.univ.~parts 	 false 	 false 	 false
+$160. *succ.univ.~workers 	 false 	 false 	 false
+$161. ^parts.univ.~succ 	 false 	 false 	 false
+$162. ^parts.univ.~workers 	 false 	 false 	 false
+$163. ^parts.univ.~workstation 	 false 	 false 	 false
+$164. ^succ.univ.~parts 	 false 	 false 	 false
+$165. ^succ.univ.~workers 	 false 	 false 	 false
+$166. ~parts.univ.*succ 	 false 	 false 	 false
+$167. ~parts.univ.^succ 	 false 	 false 	 false
+$168. ~parts.univ.~succ 	 false 	 false 	 false
+$169. ~parts.univ.~workers 	 false 	 false 	 false
+$170. ~parts.univ.~workstation 	 false 	 false 	 false
+$171. ~succ.univ.*parts 	 false 	 false 	 false
+$172. ~succ.univ.^parts 	 false 	 false 	 false
+$173. ~succ.univ.~parts 	 false 	 false 	 false
+$174. ~succ.univ.~workers 	 false 	 false 	 false
+$175. ~workers.*succ.univ 	 false 	 false 	 false
+$176. ~workers.^succ.univ 	 false 	 false 	 false
+$177. ~workers.univ 	 false 	 false 	 false
+$178. ~workers.univ.*parts 	 false 	 false 	 false
+$179. ~workers.univ.*succ 	 false 	 false 	 false
+$180. ~workers.univ.^parts 	 false 	 false 	 false
+$181. ~workers.univ.^succ 	 false 	 false 	 false
+$182. ~workers.univ.~parts 	 false 	 false 	 false
+$183. ~workers.univ.~succ 	 false 	 false 	 false
+$184. ~workers.univ.~workstation 	 false 	 false 	 false
+$185. ~workers.~succ.univ 	 false 	 false 	 false
+$186. ~workers.~workstation.univ 	 false 	 false 	 false
+$187. ~workstation.univ.*parts 	 false 	 false 	 false
+$188. ~workstation.univ.^parts 	 false 	 false 	 false
+$189. ~workstation.univ.~parts 	 false 	 false 	 false
+$190. ~workstation.univ.~workers 	 false 	 false 	 false
+$191. *parts.univ.^succ 	 false 	 false 	 false
+$192. *succ.univ.^parts 	 false 	 false 	 false
+$193. ^parts.univ.*succ 	 false 	 false 	 false
+$194. ^parts.univ.^succ 	 false 	 false 	 false
+$195. ^succ.univ.*parts 	 false 	 false 	 false
+$196. ^succ.univ.^parts 	 false 	 false 	 false
+$197. *parts.univ.*succ 	 false 	 false 	 false
+$198. *succ.univ.*parts 	 false 	 false 	 false
+$199. Int 	 false 	 false 	 false
+$200. String 	 false 	 false 	 false
+$201. none 	 false 	 false 	 false
+$202. univ 	 false 	 false 	 false
+Expected Completion word: Robot
+Expected Completion line: Robot
+Suggestion exists: true
+
+Suggestion in top 1 = false 
+Suggestion in top 5 = false 
+Suggestion in top 10 = true 
+
+Suggestion in top 1 (Alpha) = false
+Suggestion in top 5 (Alpha) = false
+Suggestion in top 10 (Alpha) = false
+
+Suggestion in top 1 (Len) = false
+Suggestion in top 5 (Len) = false
+Suggestion in top 10 (Len) = true
+
+Time taken: 58.873208

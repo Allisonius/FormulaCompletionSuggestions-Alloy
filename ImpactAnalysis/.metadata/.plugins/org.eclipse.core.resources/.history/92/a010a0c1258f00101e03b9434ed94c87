@@ -1,0 +1,10 @@
+modelname,filename,position-line,position-character,incompleteline,removedtext,baseline,suggestionedExpression,A_iff_B,A_and_B,not_A_and_B,A_and_not_B,not_A_and_not_B,suggestionImpactTime
+graph,completion/graph-complete.als,26,31,"all n:Node | Node = n.*(adj +","~adj)","{}","\tall n:Node | Node = n.*(adj + n",,,,,,4.356166
+graph,completion/graph-complete.als,26,31,"all n:Node | Node = n.*(adj +","~adj)","{}","\tall n:Node | Node = n.*(adj + Node",,,,,,4.356166
+graph,completion/graph-complete.als,26,31,"all n:Node | Node = n.*(adj +","~adj)","{}","\tall n:Node | Node = n.*(adj + adj",,,,,,4.356166
+graph,completion/graph-complete.als,26,31,"all n:Node | Node = n.*(adj +","~adj)","{}","\tall n:Node | Node = n.*(adj + ~adj",,,,,,4.356166
+graph,completion/graph-complete.als,26,31,"all n:Node | Node = n.*(adj +","~adj)","{}","\tall n:Node | Node = n.*(adj + ^adj",,,,,,4.356166
+graph,completion/graph-complete.als,26,31,"all n:Node | Node = n.*(adj +","~adj)","{}","\tall n:Node | Node = n.*(adj + *adj",,,,,,4.356166
+graph,completion/graph-complete.als,26,31,"all n:Node | Node = n.*(adj +","~adj)","{}","\tall n:Node | Node = n.*(adj + iden",,,,,,4.356166
+graph,completion/graph-complete.als,26,31,"all n:Node | Node = n.*(adj +","~adj)","{}","\tall n:Node | Node = n.*(adj + none",,,,,,4.356166
+graph,completion/graph-complete.als,26,31,"all n:Node | Node = n.*(adj +","~adj)","{}","\tall n:Node | Node = n.*(adj + univ",,,,,,4.356166

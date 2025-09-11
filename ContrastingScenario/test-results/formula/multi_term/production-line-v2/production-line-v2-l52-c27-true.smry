@@ -1,0 +1,65 @@
+Model name: production-line-v2
+Filename: completion/production-line-v2-complete.als
+Offset: 1016
+Term: .
+Vscode Position: line=51 character=27
+----------------------------------
+52 | 	no c : Component | c in c.
+----------------------------------
+Completion List:
+# Suggestion 	 Exact 	 Syntactic 	 Semantic
+$1. *parts.c 	 false 	 undefined 	 undefined
+$2. ^parts.c 	 false 	 undefined 	 undefined
+$3. parts.c 	 false 	 undefined 	 undefined
+$4. ~parts.c 	 false 	 undefined 	 undefined
+$5. *parts.Component 	 false 	 undefined 	 undefined
+$6. *parts.Dangerous 	 false 	 undefined 	 undefined
+$7. *parts.Material 	 false 	 undefined 	 undefined
+$8. *parts.Product 	 false 	 undefined 	 undefined
+$9. ^parts.Component 	 false 	 undefined 	 undefined
+$10. ^parts.Dangerous 	 false 	 undefined 	 undefined
+$11. ^parts.Material 	 false 	 undefined 	 undefined
+$12. ^parts.Product 	 false 	 undefined 	 undefined
+$13. parts.Component 	 false 	 undefined 	 undefined
+$14. parts.Dangerous 	 false 	 undefined 	 undefined
+$15. parts.Material 	 false 	 undefined 	 undefined
+$16. parts.Product 	 false 	 undefined 	 undefined
+$17. workstation.Workstation 	 false 	 undefined 	 undefined
+$18. workstation.begin 	 false 	 undefined 	 undefined
+$19. workstation.end 	 false 	 undefined 	 undefined
+$20. ~parts.Component 	 false 	 undefined 	 undefined
+$21. ~parts.Dangerous 	 false 	 undefined 	 undefined
+$22. ~parts.Material 	 false 	 undefined 	 undefined
+$23. ~parts.Product 	 false 	 undefined 	 undefined
+$24. parts 	 true 	 undefined 	 undefined
+$25. parts.univ 	 false 	 undefined 	 undefined
+$26. workstation 	 false 	 undefined 	 undefined
+$27. workstation.*succ 	 false 	 undefined 	 undefined
+$28. workstation.^succ 	 false 	 undefined 	 undefined
+$29. workstation.succ 	 false 	 undefined 	 undefined
+$30. workstation.univ 	 false 	 undefined 	 undefined
+$31. workstation.workers 	 false 	 undefined 	 undefined
+$32. workstation.~succ 	 false 	 undefined 	 undefined
+$33. ~parts 	 false 	 undefined 	 undefined
+$34. ~parts.univ 	 false 	 undefined 	 undefined
+$35. ^parts 	 false 	 undefined 	 undefined
+$36. ^parts.univ 	 false 	 undefined 	 undefined
+$37. *parts 	 false 	 undefined 	 undefined
+$38. *parts.univ 	 false 	 undefined 	 undefined
+Expected Completion word: ^parts
+Expected Completion line: ^parts
+Suggestion exists: true
+
+Suggestion in top 1 = false 
+Suggestion in top 5 = false 
+Suggestion in top 10 = false 
+
+Suggestion in top 1 (Alpha) = false
+Suggestion in top 5 (Alpha) = false
+Suggestion in top 10 (Alpha) = true
+
+Suggestion in top 1 (Len) = false
+Suggestion in top 5 (Len) = true
+Suggestion in top 10 (Len) = true
+
+Time taken: 9.152

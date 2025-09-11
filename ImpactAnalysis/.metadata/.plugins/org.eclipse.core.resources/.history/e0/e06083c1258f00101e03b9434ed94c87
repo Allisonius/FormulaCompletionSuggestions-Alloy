@@ -1,0 +1,12 @@
+modelname,filename,position-line,position-character,incompleteline,removedtext,baseline,suggestionedExpression,A_iff_B,A_and_B,not_A_and_B,A_and_not_B,not_A_and_not_B,suggestionImpactTime
+binary-tree,completion/binary-tree-2.als,11,25,"all n : Node | n !in n.","^(left + right)","{}","  all n : Node | n !in n.left",true,true,false,true,false,8.492333
+binary-tree,completion/binary-tree-2.als,11,25,"all n : Node | n !in n.","^(left + right)","{}","  all n : Node | n !in n.right",true,true,false,true,false,8.492333
+binary-tree,completion/binary-tree-2.als,11,25,"all n : Node | n !in n.","^(left + right)","{}","  all n : Node | n !in n.~left",true,true,false,true,false,8.492333
+binary-tree,completion/binary-tree-2.als,11,25,"all n : Node | n !in n.","^(left + right)","{}","  all n : Node | n !in n.~right",true,true,false,true,false,8.492333
+binary-tree,completion/binary-tree-2.als,11,25,"all n : Node | n !in n.","^(left + right)","{}","  all n : Node | n !in n.^left",true,true,false,true,false,8.492333
+binary-tree,completion/binary-tree-2.als,11,25,"all n : Node | n !in n.","^(left + right)","{}","  all n : Node | n !in n.^right",true,true,false,true,false,8.492333
+binary-tree,completion/binary-tree-2.als,11,25,"all n : Node | n !in n.","^(left + right)","{}","  all n : Node | n !in n.*left",true,true,false,true,false,8.492333
+binary-tree,completion/binary-tree-2.als,11,25,"all n : Node | n !in n.","^(left + right)","{}","  all n : Node | n !in n.*right",true,true,false,true,false,8.492333
+binary-tree,completion/binary-tree-2.als,11,25,"all n : Node | n !in n.","^(left + right)","{}","  all n : Node | n !in n.iden",true,true,false,true,false,8.492333
+binary-tree,completion/binary-tree-2.als,11,25,"all n : Node | n !in n.","^(left + right)","{}","  all n : Node | n !in n.none",,,,,,8.492333
+binary-tree,completion/binary-tree-2.als,11,25,"all n : Node | n !in n.","^(left + right)","{}","  all n : Node | n !in n.univ",,,,,,8.492333

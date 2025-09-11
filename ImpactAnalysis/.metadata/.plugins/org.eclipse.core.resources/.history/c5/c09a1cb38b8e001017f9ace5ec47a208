@@ -1,0 +1,386 @@
+import java.io.File;
+import java.io.FileNotFoundException;
+import java.io.FileWriter;
+import java.io.IOException;
+import java.util.ArrayList;
+import java.util.HashMap;
+import java.util.HashSet;
+import java.util.Scanner;
+
+import org.json.simple.JSONArray;
+import org.json.simple.JSONObject;
+import org.json.simple.parser.JSONParser;
+import org.json.simple.parser.ParseException;
+
+import edu.mit.csail.sdg.alloy4.A4Reporter;
+import edu.mit.csail.sdg.alloy4.ErrorWarning;
+import edu.mit.csail.sdg.ast.Command;
+import edu.mit.csail.sdg.ast.Expr;
+import edu.mit.csail.sdg.ast.ExprUnary;
+import edu.mit.csail.sdg.ast.ExprVar;
+import edu.mit.csail.sdg.ast.Sig;
+import edu.mit.csail.sdg.ast.Sig.Field;
+import edu.mit.csail.sdg.parser.CompModule;
+import edu.mit.csail.sdg.parser.CompUtil;
+import edu.mit.csail.sdg.translator.A4Options;
+import edu.mit.csail.sdg.translator.A4Solution;
+import edu.mit.csail.sdg.translator.TranslateAlloyToKodkod;
+import kodkod.solvers.PMaxSAT4JRef;
+import kodkod.solvers.SAT4JRef;
+
+public class ImpactAnalysis_Target {
+	
+	public static void main (String [] args) throws FileNotFoundException, ParseException {
+
+
+		//Read in suggestion situation from json results array
+		String source = "formula";
+
+		/* String [] models = {"array"};*/
+		String [] models = {"array", "bempl","binary-tree", "class-diagram","classroom","classroom-fol", "classroom-rl", "courses-v1",
+				"courses-v2", "c-tree", "cv", "dll", "fsm", "grade", "graph", "handshake", "lts", "nqueens"}; 
+				//"production-line-v1", "production-line-v2", "production-line-v3", "singly-linked-list", "social-media", "train-station-fol",
+				//"train-station-ltl", "trash-fol", "trash-ltl", "trash-rl"
+		//};
+
+		String result_dir = "results" + File.separator;
+		
+		String results = "";
+		
+		
+		for(String model : models) {
+			String directory = "test-results" + File.separator + source + File.separator + "multi_term" + File.separator + model + File.separator;
+			
+			String model_dir = "models" + File.separator;
+			
+			File folder = new File(directory);
+			File[] listOfFiles = folder.listFiles();
+
+			MyRep rep = new MyRep();
+			    
+			A4Options options = new A4Options();
+			options.solver = SAT4JRef.INSTANCE;
+			
+			String base_model = "";
+		     
+		     try {
+		         File myObj = new File(model_dir + model + ".als");
+		         Scanner myReader = new Scanner(myObj);
+		         while (myReader.hasNextLine()) {
+		           base_model += myReader.nextLine() + "\n";
+		         }
+		         myReader.close();
+		       } catch (FileNotFoundException e) {
+		         System.out.println("An error occurred.");
+		         e.printStackTrace();
+		       }
+		     base_model += "\n";
+		     
+		     
+		     //Parse model
+		     CompModule world = CompUtil.parseEverything_fromFile(rep, null, model_dir + model + ".als");
+		     Command c = world.getAllCommands().get(0); 
+			 int scope = 3;
+		     
+		     for(File file : listOfFiles) {
+					String f = file.getName();
+					if(f.contains("json")) {
+						
+						long start_time = System.nanoTime();
+					
+						File myObj = new File(directory + f);
+					    Scanner myReader;
+					    Object obj = null;
+
+						myReader = new Scanner(myObj);
+						while (myReader.hasNextLine()) {
+
+							String data = myReader.nextLine();
+							obj = new JSONParser().parse(data);
+							
+							JSONObject jo = (JSONObject) obj; 
+							String incompleteLine = (String) jo.get("incompletionLine");
+							String expectedCompletionLine = (String) jo.get("expectedCompletionLine");
+							JSONArray evaluationResult = (JSONArray) jo.get("evaluationResult");
+							String term = (String) jo.get("term");
+							
+							String line = incompleteLine + " " + expectedCompletionLine;
+							String start_line = "";
+							String end_line = "";
+							String con_end_line = "";
+							
+							//known parameters for models
+							if(model.equals("bempl")) {
+								world.addGlobal("r", CompUtil.parseOneExpression_fromString(world, "Room"));
+								world.addGlobal("p", CompUtil.parseOneExpression_fromString(world, "Person"));
+							}
+							else if(model.equals("grade")) {
+								world.addGlobal("c", CompUtil.parseOneExpression_fromString(world, "Class"));
+								world.addGlobal("s", CompUtil.parseOneExpression_fromString(world, "Person"));
+								world.addGlobal("a", CompUtil.parseOneExpression_fromString(world, "Assignment"));
+							}
+							else if(model.equals("singly-linked-list")) {
+								world.addGlobal("l", CompUtil.parseOneExpression_fromString(world, "List"));
+							}
+							for(int r = 0; r < evaluationResult.size(); r++) {
+					
+								JSONObject result = (JSONObject) evaluationResult.get(r);
+								String suggestion = (String) result.get("suggestion");
+								String new_state_string = incompleteLine + " " + suggestion;
+								
+								String [] temp = incompleteLine.split(" ");
+								Expr inital_state = null;
+								String intial_state_string = "";
+								
+								long start = System.nanoTime();
+								
+								Expr can_execute_suggestion = null;
+								A4Solution can_execute_inst = null;
+								try {
+									can_execute_suggestion = CompUtil.parseOneExpression_fromString(world, new_state_string);
+							
+									Command can_execute = new Command(false, scope, scope, scope, c.commandKeyword, can_execute_suggestion);
+									can_execute_inst = TranslateAlloyToKodkod.execute_command(rep, world.getAllReachableSigs(), can_execute, options);
+								
+								}
+								catch (Exception e) {
+								
+								}
+								
+								if(can_execute_inst != null) {
+									for(int i = 0; i < temp.length; i++) {
+										String attempt = "";
+										for(int j = 0; j < temp.length - i; j++ ) {
+											attempt += temp[j] + " ";
+										}
+										try {
+											inital_state = CompUtil.parseOneExpression_fromString(world, attempt);
+											Command can_execute = new Command(false, scope, scope, scope, c.commandKeyword, inital_state);
+											can_execute_inst = TranslateAlloyToKodkod.execute_command(rep, world.getAllReachableSigs(), can_execute, options);
+											
+											intial_state_string = attempt;
+											break;
+										}
+										catch(Exception e) {
+
+										}
+									}
+									if(inital_state == null) {
+										intial_state_string = "";
+									}
+									
+									
+									
+									A4Solution target = null;
+									
+							
+									Expr a_and_not_b_expr = CompUtil.parseOneExpression_fromString(world, "{" + intial_state_string + "} and !{" + new_state_string +"}");
+									Command a_and_not_b = new Command(false, scope, scope, scope, c.commandKeyword, a_and_not_b_expr);
+									A4Solution a_and_b_not_instance;
+									
+								
+									a_and_b_not_instance = TranslateAlloyToKodkod.execute_command(rep, world.getAllReachableSigs(), a_and_not_b, options);
+									
+									if(a_and_b_not_instance.satisfiable()) {
+										target = a_and_b_not_instance;
+									}
+									
+									
+									
+									Expr not_a_and_b_expr = CompUtil.parseOneExpression_fromString(world, "!{" + intial_state_string + "} and {" + new_state_string +"}");
+									Command not_a_and_b =  new Command(false, scope, scope, scope, c.commandKeyword, not_a_and_b_expr);
+									A4Solution not_a_and_b_instance;
+									
+									if(target != null) {
+										try {
+											not_a_and_b_instance = TranslateAlloyToKodkod.execute_command_with_target(rep, world.getAllReachableSigs(), not_a_and_b, options, target);
+										}
+										catch (Exception e) {
+											not_a_and_b_instance = TranslateAlloyToKodkod.execute_command(rep, world.getAllReachableSigs(), not_a_and_b, options);
+										}
+										
+									}
+									else {
+										not_a_and_b_instance = TranslateAlloyToKodkod.execute_command(rep, world.getAllReachableSigs(), not_a_and_b, options);
+														
+										if(not_a_and_b_instance.satisfiable()) {
+											target = not_a_and_b_instance;
+										}
+									}
+									
+									Expr a_and_b_expr = CompUtil.parseOneExpression_fromString(world, "{" + intial_state_string + "} and {" + new_state_string +"}");
+									Command a_and_b =  new Command(false, scope, scope, scope, c.commandKeyword, a_and_b_expr);
+									A4Solution a_and_b_instance = null;
+									if(target != null) {
+										try {
+											a_and_b_instance = TranslateAlloyToKodkod.execute_command_with_target(rep, world.getAllReachableSigs(), a_and_b, options, target);
+										}
+										catch (Exception e) {											
+											a_and_b_instance = TranslateAlloyToKodkod.execute_command(rep, world.getAllReachableSigs(), a_and_b, options);
+										}
+									}
+									else { 
+										a_and_b_instance = TranslateAlloyToKodkod.execute_command(rep, world.getAllReachableSigs(), a_and_b, options);
+										
+										if(a_and_b_instance.satisfiable()) {
+											target = a_and_b_instance;
+										}
+									}
+									
+									Expr not_a_and_not_b_expr = CompUtil.parseOneExpression_fromString(world, "!{" + intial_state_string + "} and !{" + new_state_string +"}");
+									Command not_a_and_not_b = new Command(false, scope, scope, scope, c.commandKeyword, not_a_and_not_b_expr);
+									A4Solution not_a_and_b_not_instance;
+									
+									if(target != null) {
+										try {
+											not_a_and_b_not_instance = TranslateAlloyToKodkod.execute_command_with_target(rep, world.getAllReachableSigs(), not_a_and_not_b, options, target);
+										}
+										catch (Exception e) {
+											
+											not_a_and_b_not_instance = TranslateAlloyToKodkod.execute_command(rep, world.getAllReachableSigs(), not_a_and_not_b, options);
+										}
+									}
+									else {										
+										not_a_and_b_not_instance = TranslateAlloyToKodkod.execute_command(rep, world.getAllReachableSigs(), not_a_and_not_b, options);
+									}
+									
+									long end = System.nanoTime();
+									
+									results += model + "," + f + "," + suggestion + ",";
+									results += a_and_b_instance.satisfiable() + "," + a_and_b_not_instance.satisfiable() + "," + not_a_and_b_instance.satisfiable() + "," + not_a_and_b_not_instance.satisfiable() +",";
+									
+									results += diff(a_and_b_instance,a_and_b_not_instance,world);
+									results += diff(a_and_b_instance,not_a_and_b_instance,world);
+									results += diff(a_and_b_instance,not_a_and_b_not_instance,world);
+									
+									results += diff(a_and_b_not_instance,not_a_and_b_instance,world);
+									results += diff(a_and_b_not_instance,not_a_and_b_not_instance,world);
+									
+									results += diff(not_a_and_b_instance,not_a_and_b_not_instance,world);	
+									
+									results += (end - start)/1000000;
+
+									results += "\n";
+
+								}
+							}
+						}
+					}
+		     	}
+		     }
+		
+		
+		try {
+			  FileWriter myWriter = new FileWriter(result_dir + source + "_impact_target.txt");
+		      myWriter.write(results);
+		      myWriter.close();
+	    } catch (IOException e) {
+	      System.out.println("An error occurred.");
+	      e.printStackTrace();
+	    }
+	}
+	
+	public static String diff (A4Solution one, A4Solution two, CompModule world) {
+		String result = "";
+		
+		if(!one.satisfiable() || !two.satisfiable())
+			return ",";
+		
+		HashMap<String, HashSet<String>> inOne = new HashMap<String,HashSet<String>>();
+		HashMap<String,HashSet<String>> inTwo = new HashMap<String,HashSet<String>>();
+		int count = 0;
+		
+		for(Sig sig : world.getAllReachableSigs()) {
+			//if(!sig.builtin) {
+				String elements = one.eval(sig).toString();
+				elements = elements.replaceAll("\\{", "");
+				elements = elements.replaceAll("\\}", "");
+				String [] temp = elements.split(",");
+				inOne.put(sig.label, new HashSet<String>());
+				for(String s : temp) {
+					inOne.get(sig.label).add(s);
+				}
+					
+				
+				elements = two.eval(sig).toString();
+				elements = elements.replaceAll("\\{", "");
+				elements = elements.replaceAll("\\}", "");
+				temp = elements.split(",");
+				inTwo.put(sig.label, new HashSet<String>());
+				for(String s : temp) {
+					inTwo.get(sig.label).add(s);
+				}
+				
+				for(Field rel : sig.getFields()) {
+					elements = one.eval(rel).toString();
+					elements = elements.replaceAll("\\{", "");
+					elements = elements.replaceAll("\\}", "");
+					temp = elements.split(",");
+					inOne.put(rel.label, new HashSet<String>());
+					for(String s : temp) {
+						inOne.get(rel.label).add(s);
+					}
+					
+					elements = two.eval(rel).toString();
+					elements = elements.replaceAll("\\{", "");
+					elements = elements.replaceAll("\\}", "");
+					temp = elements.split(",");
+					inTwo.put(rel.label, new HashSet<String>());
+					for(String s : temp) {
+						inTwo.get(rel.label).add(s);
+					}
+				}
+			//}
+		}
+		
+		for(String set : inOne.keySet()) {
+			for(String atom : inOne.get(set)) {
+				if(!inTwo.get(set).contains(atom))
+					count++;
+			}
+		}
+		
+		for(String set : inTwo.keySet()) {
+			for(String atom : inTwo.get(set)) {
+				if(!inOne.get(set).contains(atom))
+					count++;
+			}
+		}
+		
+		//if(count == 0) {
+		//	System.out.println(one);
+		//	System.out.println(two);
+		//}
+		
+		return count + ",";
+	}
+	
+	public static void listFilesForFolder(final File folder) {
+	    for (final File fileEntry : folder.listFiles()) {
+	        if (fileEntry.isDirectory()) {
+	            listFilesForFolder(fileEntry);
+	        } else {
+	            System.out.println(fileEntry.getName());
+	        }
+	    }
+	}
+	
+	  private static class MyRep extends A4Reporter {
+
+        MyRep() {
+        }
+
+
+        public int pvars;
+        public int vars;
+        public int cls;
+        
+        @Override
+        public void solve(int plength, int primaryVars, int totalVars, int clauses) {
+        	pvars = primaryVars;
+        	vars = totalVars;
+        	cls = clauses;   
+        }
+    }
+
+}

@@ -1,0 +1,10 @@
+modelname,filename,position-line,position-character,incompleteline,removedtext,baseline,suggestionedExpression,A_iff_B,A_and_B,not_A_and_B,A_and_not_B,not_A_and_not_B,suggestionImpactTime
+lts,completion/lts-sig.als,2,25,"trans : Event ->","State","{}","        trans : Event -> Event",,,,,,4.739292
+lts,completion/lts-sig.als,2,25,"trans : Event ->","State","{}","        trans : Event -> Init",,,,,,4.739292
+lts,completion/lts-sig.als,2,25,"trans : Event ->","State","{}","        trans : Event -> State",,,,,,4.739292
+lts,completion/lts-sig.als,2,25,"trans : Event ->","State","{}","        trans : Event -> Int",,,,,,4.739292
+lts,completion/lts-sig.als,2,25,"trans : Event ->","State","{}","        trans : Event -> String",,,,,,4.739292
+lts,completion/lts-sig.als,2,25,"trans : Event ->","State","{}","        trans : Event -> seq/Int",,,,,,4.739292
+lts,completion/lts-sig.als,2,25,"trans : Event ->","State","{}","        trans : Event -> iden",,,,,,4.739292
+lts,completion/lts-sig.als,2,25,"trans : Event ->","State","{}","        trans : Event -> none",,,,,,4.739292
+lts,completion/lts-sig.als,2,25,"trans : Event ->","State","{}","        trans : Event -> univ",,,,,,4.739292

@@ -1,0 +1,12 @@
+modelname,filename,position-line,position-character,incompleteline,removedtext,baseline,suggestionedExpression,A_iff_B,A_and_B,not_A_and_B,A_and_not_B,not_A_and_not_B,suggestionImpactTime
+handshake,completion/handshake.als,15,30,"all p, q: Person | p in q.","shaken => q in p.shaken","{}","    all p, q: Person | p in q.shaken",false,false,false,true,false,26.614041
+handshake,completion/handshake.als,15,30,"all p, q: Person | p in q.","shaken => q in p.shaken","{}","    all p, q: Person | p in q.spouse",false,false,false,true,false,26.614041
+handshake,completion/handshake.als,15,30,"all p, q: Person | p in q.","shaken => q in p.shaken","{}","    all p, q: Person | p in q.~shaken",false,false,false,true,false,26.614041
+handshake,completion/handshake.als,15,30,"all p, q: Person | p in q.","shaken => q in p.shaken","{}","    all p, q: Person | p in q.~spouse",false,false,false,true,false,26.614041
+handshake,completion/handshake.als,15,30,"all p, q: Person | p in q.","shaken => q in p.shaken","{}","    all p, q: Person | p in q.^shaken",false,false,false,true,false,26.614041
+handshake,completion/handshake.als,15,30,"all p, q: Person | p in q.","shaken => q in p.shaken","{}","    all p, q: Person | p in q.^spouse",true,true,false,false,false,26.614041
+handshake,completion/handshake.als,15,30,"all p, q: Person | p in q.","shaken => q in p.shaken","{}","    all p, q: Person | p in q.*shaken",false,false,false,true,false,26.614041
+handshake,completion/handshake.als,15,30,"all p, q: Person | p in q.","shaken => q in p.shaken","{}","    all p, q: Person | p in q.*spouse",true,true,false,false,false,26.614041
+handshake,completion/handshake.als,15,30,"all p, q: Person | p in q.","shaken => q in p.shaken","{}","    all p, q: Person | p in q.iden",false,false,false,true,false,26.614041
+handshake,completion/handshake.als,15,30,"all p, q: Person | p in q.","shaken => q in p.shaken","{}","    all p, q: Person | p in q.none",,,,,,26.614041
+handshake,completion/handshake.als,15,30,"all p, q: Person | p in q.","shaken => q in p.shaken","{}","    all p, q: Person | p in q.univ",,,,,,26.614041

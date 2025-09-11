@@ -1,0 +1,10 @@
+modelname,filename,position-line,position-character,incompleteline,removedtext,baseline,suggestionedExpression,A_iff_B,A_and_B,not_A_and_B,A_and_not_B,not_A_and_not_B,suggestionImpactTime
+social-media,completion/socialMedia.als,8,23,"sig Influencer extends","User {}","{}","sig Influencer extends Ad",,,,,,121.868667
+social-media,completion/socialMedia.als,8,23,"sig Influencer extends","User {}","{}","sig Influencer extends Day",,,,,,121.868667
+social-media,completion/socialMedia.als,8,23,"sig Influencer extends","User {}","{}","sig Influencer extends Influencer",,,,,,121.868667
+social-media,completion/socialMedia.als,8,23,"sig Influencer extends","User {}","{}","sig Influencer extends Photo",,,,,,121.868667
+social-media,completion/socialMedia.als,8,23,"sig Influencer extends","User {}","{}","sig Influencer extends User",,,,,,121.868667
+social-media,completion/socialMedia.als,8,23,"sig Influencer extends","User {}","{}","sig Influencer extends Int",,,,,,121.868667
+social-media,completion/socialMedia.als,8,23,"sig Influencer extends","User {}","{}","sig Influencer extends String",,,,,,121.868667
+social-media,completion/socialMedia.als,8,23,"sig Influencer extends","User {}","{}","sig Influencer extends none",,,,,,121.868667
+social-media,completion/socialMedia.als,8,23,"sig Influencer extends","User {}","{}","sig Influencer extends univ",,,,,,121.868667

@@ -1,0 +1,17 @@
+modelname,filename,position-line,position-character,incompleteline,removedtext,baseline,suggestionedExpression,A_iff_B,A_and_B,not_A_and_B,A_and_not_B,not_A_and_not_B,suggestionImpactTime
+trash-fol,completion/trash-fol-complete.als,28,9,"link in","File -> lone File","{}","\tlink in File -> File",true,true,false,false,false,16.596125
+trash-fol,completion/trash-fol-complete.als,28,9,"link in","File -> lone File","{}","\tlink in File -> Protected",true,true,false,true,false,16.596125
+trash-fol,completion/trash-fol-complete.als,28,9,"link in","File -> lone File","{}","\tlink in File -> Trash",true,true,false,true,false,16.596125
+trash-fol,completion/trash-fol-complete.als,28,9,"link in","File -> lone File","{}","\tlink in Protected -> File",true,true,false,true,false,16.596125
+trash-fol,completion/trash-fol-complete.als,28,9,"link in","File -> lone File","{}","\tlink in Protected -> Protected",true,true,false,true,false,16.596125
+trash-fol,completion/trash-fol-complete.als,28,9,"link in","File -> lone File","{}","\tlink in Protected -> Trash",true,true,false,true,false,16.596125
+trash-fol,completion/trash-fol-complete.als,28,9,"link in","File -> lone File","{}","\tlink in Trash -> File",true,true,false,true,false,16.596125
+trash-fol,completion/trash-fol-complete.als,28,9,"link in","File -> lone File","{}","\tlink in Trash -> Protected",true,true,false,true,false,16.596125
+trash-fol,completion/trash-fol-complete.als,28,9,"link in","File -> lone File","{}","\tlink in Trash -> Trash",true,true,false,true,false,16.596125
+trash-fol,completion/trash-fol-complete.als,28,9,"link in","File -> lone File","{}","\tlink in link",true,true,false,false,false,16.596125
+trash-fol,completion/trash-fol-complete.als,28,9,"link in","File -> lone File","{}","\tlink in ~link",true,true,false,true,false,16.596125
+trash-fol,completion/trash-fol-complete.als,28,9,"link in","File -> lone File","{}","\tlink in ^link",true,true,false,false,false,16.596125
+trash-fol,completion/trash-fol-complete.als,28,9,"link in","File -> lone File","{}","\tlink in *link",true,true,false,false,false,16.596125
+trash-fol,completion/trash-fol-complete.als,28,9,"link in","File -> lone File","{}","\tlink in iden",true,true,false,true,false,16.596125
+trash-fol,completion/trash-fol-complete.als,28,9,"link in","File -> lone File","{}","\tlink in none",,,,,,16.596125
+trash-fol,completion/trash-fol-complete.als,28,9,"link in","File -> lone File","{}","\tlink in univ",,,,,,16.596125

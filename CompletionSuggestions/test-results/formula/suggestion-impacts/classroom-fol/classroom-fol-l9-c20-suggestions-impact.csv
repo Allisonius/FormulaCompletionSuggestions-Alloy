@@ -1,0 +1,12 @@
+modelname,filename,position-line,position-character,incompleteline,removedtext,baseline,suggestionedExpression,A_iff_B,A_and_B,not_A_and_B,A_and_not_B,not_A_and_not_B,suggestionImpactTime
+classroom-fol,completion/classroom-fol-sig.als,9,20,"Groups : Person ->","Group","{}","\tGroups : Person -> Class",,,,,,7.062625
+classroom-fol,completion/classroom-fol-sig.als,9,20,"Groups : Person ->","Group","{}","\tGroups : Person -> Group",,,,,,7.062625
+classroom-fol,completion/classroom-fol-sig.als,9,20,"Groups : Person ->","Group","{}","\tGroups : Person -> Person",,,,,,7.062625
+classroom-fol,completion/classroom-fol-sig.als,9,20,"Groups : Person ->","Group","{}","\tGroups : Person -> Student",,,,,,7.062625
+classroom-fol,completion/classroom-fol-sig.als,9,20,"Groups : Person ->","Group","{}","\tGroups : Person -> Teacher",,,,,,7.062625
+classroom-fol,completion/classroom-fol-sig.als,9,20,"Groups : Person ->","Group","{}","\tGroups : Person -> Int",,,,,,7.062625
+classroom-fol,completion/classroom-fol-sig.als,9,20,"Groups : Person ->","Group","{}","\tGroups : Person -> String",,,,,,7.062625
+classroom-fol,completion/classroom-fol-sig.als,9,20,"Groups : Person ->","Group","{}","\tGroups : Person -> seq/Int",,,,,,7.062625
+classroom-fol,completion/classroom-fol-sig.als,9,20,"Groups : Person ->","Group","{}","\tGroups : Person -> iden",,,,,,7.062625
+classroom-fol,completion/classroom-fol-sig.als,9,20,"Groups : Person ->","Group","{}","\tGroups : Person -> none",,,,,,7.062625
+classroom-fol,completion/classroom-fol-sig.als,9,20,"Groups : Person ->","Group","{}","\tGroups : Person -> univ",,,,,,7.062625

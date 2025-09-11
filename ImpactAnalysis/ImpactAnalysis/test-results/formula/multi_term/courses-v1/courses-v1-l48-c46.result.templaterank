@@ -1,0 +1,19 @@
+projects
+Person -> Project
+Student -> Project
+Professor -> Project
+teaches.projects
+enrolled.projects
+teaches.univ.grades
+enrolled.univ.grades
+grades.univ.projects
+projects.univ.grades
+teaches.Course.grades
+enrolled.Course.grades
+grades.univ.~teaches
+grades.univ.~enrolled
+grades.univ.~projects
+~projects.univ.grades
+~projects.Course.grades
+enrolled.~teaches.projects
+teaches.~enrolled.projects

@@ -1,0 +1,15 @@
+modelname,filename,position-line,position-character,incompleteline,removedtext,baseline,suggestionedExpression,A_iff_B,A_and_B,not_A_and_B,A_and_not_B,not_A_and_not_B,suggestionImpactTime
+courses-v1,completion/courses-v1-complete.als,78,40,"all c : Course | c.grades in Person ->","lone Grade","{}","\tall c : Course | c.grades in Person -> c",true,true,false,true,false,59.7365
+courses-v1,completion/courses-v1-complete.als,78,40,"all c : Course | c.grades in Person ->","lone Grade","{}","\tall c : Course | c.grades in Person -> Course",true,true,false,true,false,59.7365
+courses-v1,completion/courses-v1-complete.als,78,40,"all c : Course | c.grades in Person ->","lone Grade","{}","\tall c : Course | c.grades in Person -> Grade",true,true,false,false,false,59.7365
+courses-v1,completion/courses-v1-complete.als,78,40,"all c : Course | c.grades in Person ->","lone Grade","{}","\tall c : Course | c.grades in Person -> Person",true,true,false,true,false,59.7365
+courses-v1,completion/courses-v1-complete.als,78,40,"all c : Course | c.grades in Person ->","lone Grade","{}","\tall c : Course | c.grades in Person -> Professor",true,true,false,true,false,59.7365
+courses-v1,completion/courses-v1-complete.als,78,40,"all c : Course | c.grades in Person ->","lone Grade","{}","\tall c : Course | c.grades in Person -> Project",true,true,false,true,false,59.7365
+courses-v1,completion/courses-v1-complete.als,78,40,"all c : Course | c.grades in Person ->","lone Grade","{}","\tall c : Course | c.grades in Person -> Student",true,true,false,true,false,59.7365
+courses-v1,completion/courses-v1-complete.als,78,40,"all c : Course | c.grades in Person ->","lone Grade","{}","\tall c : Course | c.grades in Person -> ordering/Ord",,,,,,59.7365
+courses-v1,completion/courses-v1-complete.als,78,40,"all c : Course | c.grades in Person ->","lone Grade","{}","\tall c : Course | c.grades in Person -> Int",true,true,false,true,false,59.7365
+courses-v1,completion/courses-v1-complete.als,78,40,"all c : Course | c.grades in Person ->","lone Grade","{}","\tall c : Course | c.grades in Person -> String",true,true,false,true,false,59.7365
+courses-v1,completion/courses-v1-complete.als,78,40,"all c : Course | c.grades in Person ->","lone Grade","{}","\tall c : Course | c.grades in Person -> seq/Int",true,true,false,true,false,59.7365
+courses-v1,completion/courses-v1-complete.als,78,40,"all c : Course | c.grades in Person ->","lone Grade","{}","\tall c : Course | c.grades in Person -> iden",,,,,,59.7365
+courses-v1,completion/courses-v1-complete.als,78,40,"all c : Course | c.grades in Person ->","lone Grade","{}","\tall c : Course | c.grades in Person -> none",true,true,false,true,false,59.7365
+courses-v1,completion/courses-v1-complete.als,78,40,"all c : Course | c.grades in Person ->","lone Grade","{}","\tall c : Course | c.grades in Person -> univ",true,true,false,false,false,59.7365

@@ -1,0 +1,8 @@
+modelname,filename,position-line,position-character,incompleteline,removedtext,baseline,suggestionedExpression,A_iff_B,A_and_B,not_A_and_B,A_and_not_B,not_A_and_not_B,suggestionImpactTime
+cv,completion/cv-complete.als,26,54,"all u : User, disj x,y : u.profile | x.source = y.","source implies no (x.ids & y.ids)","{}","    all u : User, disj x,y : u.profile | x.source = y.ids",true,true,false,true,false,9.177417
+cv,completion/cv-complete.als,26,54,"all u : User, disj x,y : u.profile | x.source = y.","source implies no (x.ids & y.ids)","{}","    all u : User, disj x,y : u.profile | x.source = y.source",true,true,false,true,false,9.177417
+cv,completion/cv-complete.als,26,54,"all u : User, disj x,y : u.profile | x.source = y.","source implies no (x.ids & y.ids)","{}","    all u : User, disj x,y : u.profile | x.source = y.~profile",true,true,false,true,false,9.177417
+cv,completion/cv-complete.als,26,54,"all u : User, disj x,y : u.profile | x.source = y.","source implies no (x.ids & y.ids)","{}","    all u : User, disj x,y : u.profile | x.source = y.~visible",true,true,false,true,false,9.177417
+cv,completion/cv-complete.als,26,54,"all u : User, disj x,y : u.profile | x.source = y.","source implies no (x.ids & y.ids)","{}","    all u : User, disj x,y : u.profile | x.source = y.iden",true,true,false,true,false,9.177417
+cv,completion/cv-complete.als,26,54,"all u : User, disj x,y : u.profile | x.source = y.","source implies no (x.ids & y.ids)","{}","    all u : User, disj x,y : u.profile | x.source = y.none",,,,,,9.177417
+cv,completion/cv-complete.als,26,54,"all u : User, disj x,y : u.profile | x.source = y.","source implies no (x.ids & y.ids)","{}","    all u : User, disj x,y : u.profile | x.source = y.univ",,,,,,9.177417

@@ -1,0 +1,9 @@
+modelname,filename,position-line,position-character,incompleteline,removedtext,baseline,suggestionedExpression,A_iff_B,A_and_B,not_A_and_B,A_and_not_B,not_A_and_not_B,suggestionImpactTime
+lts,completion/lts-complete.als,29,45,"all s1,s2:State | s1.trans.State = s2.trans.","State","{}","\tall s1,s2:State | s1.trans.State = s2.trans.s1",true,true,false,true,false,9.625333
+lts,completion/lts-complete.als,29,45,"all s1,s2:State | s1.trans.State = s2.trans.","State","{}","\tall s1,s2:State | s1.trans.State = s2.trans.s2",true,true,false,true,false,9.625333
+lts,completion/lts-complete.als,29,45,"all s1,s2:State | s1.trans.State = s2.trans.","State","{}","\tall s1,s2:State | s1.trans.State = s2.trans.Init",true,true,false,true,false,9.625333
+lts,completion/lts-complete.als,29,45,"all s1,s2:State | s1.trans.State = s2.trans.","State","{}","\tall s1,s2:State | s1.trans.State = s2.trans.State",true,true,false,true,false,9.625333
+lts,completion/lts-complete.als,29,45,"all s1,s2:State | s1.trans.State = s2.trans.","State","{}","\tall s1,s2:State | s1.trans.State = s2.trans.trans",,,,,,9.625333
+lts,completion/lts-complete.als,29,45,"all s1,s2:State | s1.trans.State = s2.trans.","State","{}","\tall s1,s2:State | s1.trans.State = s2.trans.iden",,,,,,9.625333
+lts,completion/lts-complete.als,29,45,"all s1,s2:State | s1.trans.State = s2.trans.","State","{}","\tall s1,s2:State | s1.trans.State = s2.trans.none",true,true,false,true,false,9.625333
+lts,completion/lts-complete.als,29,45,"all s1,s2:State | s1.trans.State = s2.trans.","State","{}","\tall s1,s2:State | s1.trans.State = s2.trans.univ",true,true,false,true,false,9.625333

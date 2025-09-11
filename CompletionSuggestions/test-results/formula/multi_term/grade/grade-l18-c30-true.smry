@@ -1,0 +1,157 @@
+Model name: grade
+Filename: completion/grade-complete.als
+Offset: 320
+Term:  in 
+Vscode Position: line=17 character=30
+----------------------------------
+18 | 	s in c.assistant_for || s in 
+----------------------------------
+Completion List:
+# Suggestion 	 Exact 	 Syntactic 	 Semantic
+$1. associated_with.c.assistant_for 	 false 	 undefined 	 undefined
+$2. associated_with.c.instructor_of 	 false 	 undefined 	 undefined
+$3. associated_with.c.~associated_with 	 false 	 undefined 	 undefined
+$4. c 	 false 	 undefined 	 undefined
+$5. c.assistant_for 	 false 	 undefined 	 undefined
+$6. c.instructor_of 	 true 	 undefined 	 undefined
+$7. c.~associated_with.assigned_to 	 false 	 undefined 	 undefined
+$8. s 	 false 	 undefined 	 undefined
+$9. ~assigned_to.associated_with.c 	 false 	 undefined 	 undefined
+$10. ~assistant_for.c 	 false 	 undefined 	 undefined
+$11. ~assistant_for.c.assistant_for 	 false 	 undefined 	 undefined
+$12. ~assistant_for.c.instructor_of 	 false 	 undefined 	 undefined
+$13. ~assistant_for.c.~associated_with 	 false 	 undefined 	 undefined
+$14. ~instructor_of.c 	 false 	 undefined 	 undefined
+$15. ~instructor_of.c.assistant_for 	 false 	 undefined 	 undefined
+$16. ~instructor_of.c.instructor_of 	 false 	 undefined 	 undefined
+$17. ~instructor_of.c.~associated_with 	 false 	 undefined 	 undefined
+$18. Assignment 	 false 	 undefined 	 undefined
+$19. Assignment.assigned_to 	 false 	 undefined 	 undefined
+$20. Assignment.associated_with.assistant_for 	 false 	 undefined 	 undefined
+$21. Assignment.associated_with.instructor_of 	 false 	 undefined 	 undefined
+$22. Class 	 false 	 undefined 	 undefined
+$23. Class.assistant_for 	 false 	 undefined 	 undefined
+$24. Class.instructor_of 	 false 	 undefined 	 undefined
+$25. Class.~associated_with.assigned_to 	 false 	 undefined 	 undefined
+$26. Person 	 false 	 undefined 	 undefined
+$27. Professor 	 false 	 undefined 	 undefined
+$28. Professor.~instructor_of.assistant_for 	 false 	 undefined 	 undefined
+$29. Student 	 false 	 undefined 	 undefined
+$30. Student.~assistant_for.instructor_of 	 false 	 undefined 	 undefined
+$31. assigned_to.Student.~assigned_to 	 false 	 undefined 	 undefined
+$32. assigned_to.Student.~assistant_for 	 false 	 undefined 	 undefined
+$33. assistant_for.Student.~assigned_to 	 false 	 undefined 	 undefined
+$34. assistant_for.Student.~assistant_for 	 false 	 undefined 	 undefined
+$35. associated_with.Class.assistant_for 	 false 	 undefined 	 undefined
+$36. associated_with.Class.instructor_of 	 false 	 undefined 	 undefined
+$37. associated_with.Class.~associated_with 	 false 	 undefined 	 undefined
+$38. instructor_of.Professor.~instructor_of 	 false 	 undefined 	 undefined
+$39. ~assigned_to.Assignment 	 false 	 undefined 	 undefined
+$40. ~assigned_to.Assignment.assigned_to 	 false 	 undefined 	 undefined
+$41. ~assigned_to.Assignment.associated_with 	 false 	 undefined 	 undefined
+$42. ~assigned_to.associated_with.Class 	 false 	 undefined 	 undefined
+$43. ~assistant_for.Class 	 false 	 undefined 	 undefined
+$44. ~assistant_for.Class.assistant_for 	 false 	 undefined 	 undefined
+$45. ~assistant_for.Class.instructor_of 	 false 	 undefined 	 undefined
+$46. ~assistant_for.Class.~associated_with 	 false 	 undefined 	 undefined
+$47. ~assistant_for.instructor_of.Professor 	 false 	 undefined 	 undefined
+$48. ~assistant_for.~associated_with.Assignment 	 false 	 undefined 	 undefined
+$49. ~associated_with.Assignment.assigned_to 	 false 	 undefined 	 undefined
+$50. ~associated_with.Assignment.associated_with 	 false 	 undefined 	 undefined
+$51. ~instructor_of.Class 	 false 	 undefined 	 undefined
+$52. ~instructor_of.Class.assistant_for 	 false 	 undefined 	 undefined
+$53. ~instructor_of.Class.instructor_of 	 false 	 undefined 	 undefined
+$54. ~instructor_of.Class.~associated_with 	 false 	 undefined 	 undefined
+$55. ~instructor_of.assistant_for.Student 	 false 	 undefined 	 undefined
+$56. ~instructor_of.~associated_with.Assignment 	 false 	 undefined 	 undefined
+$57. assigned_to.univ.assigned_to 	 false 	 undefined 	 undefined
+$58. assigned_to.univ.assistant_for 	 false 	 undefined 	 undefined
+$59. assigned_to.univ.instructor_of 	 false 	 undefined 	 undefined
+$60. assigned_to.univ.~assigned_to 	 false 	 undefined 	 undefined
+$61. assigned_to.univ.~assistant_for 	 false 	 undefined 	 undefined
+$62. assigned_to.univ.~associated_with 	 false 	 undefined 	 undefined
+$63. assigned_to.univ.~instructor_of 	 false 	 undefined 	 undefined
+$64. assistant_for.univ.assigned_to 	 false 	 undefined 	 undefined
+$65. assistant_for.univ.assistant_for 	 false 	 undefined 	 undefined
+$66. assistant_for.univ.associated_with 	 false 	 undefined 	 undefined
+$67. assistant_for.univ.instructor_of 	 false 	 undefined 	 undefined
+$68. assistant_for.univ.~assigned_to 	 false 	 undefined 	 undefined
+$69. assistant_for.univ.~assistant_for 	 false 	 undefined 	 undefined
+$70. assistant_for.univ.~instructor_of 	 false 	 undefined 	 undefined
+$71. associated_with.univ.assigned_to 	 false 	 undefined 	 undefined
+$72. associated_with.univ.assistant_for 	 false 	 undefined 	 undefined
+$73. associated_with.univ.instructor_of 	 false 	 undefined 	 undefined
+$74. associated_with.univ.~assigned_to 	 false 	 undefined 	 undefined
+$75. associated_with.univ.~assistant_for 	 false 	 undefined 	 undefined
+$76. associated_with.univ.~associated_with 	 false 	 undefined 	 undefined
+$77. associated_with.univ.~instructor_of 	 false 	 undefined 	 undefined
+$78. instructor_of.univ.assigned_to 	 false 	 undefined 	 undefined
+$79. instructor_of.univ.assistant_for 	 false 	 undefined 	 undefined
+$80. instructor_of.univ.associated_with 	 false 	 undefined 	 undefined
+$81. instructor_of.univ.instructor_of 	 false 	 undefined 	 undefined
+$82. instructor_of.univ.~assigned_to 	 false 	 undefined 	 undefined
+$83. instructor_of.univ.~assistant_for 	 false 	 undefined 	 undefined
+$84. instructor_of.univ.~instructor_of 	 false 	 undefined 	 undefined
+$85. univ.assigned_to 	 false 	 undefined 	 undefined
+$86. univ.assistant_for 	 false 	 undefined 	 undefined
+$87. univ.associated_with.assistant_for 	 false 	 undefined 	 undefined
+$88. univ.associated_with.instructor_of 	 false 	 undefined 	 undefined
+$89. univ.instructor_of 	 false 	 undefined 	 undefined
+$90. univ.~assistant_for.instructor_of 	 false 	 undefined 	 undefined
+$91. univ.~associated_with.assigned_to 	 false 	 undefined 	 undefined
+$92. univ.~instructor_of.assistant_for 	 false 	 undefined 	 undefined
+$93. ~assigned_to.associated_with.univ 	 false 	 undefined 	 undefined
+$94. ~assigned_to.univ.assigned_to 	 false 	 undefined 	 undefined
+$95. ~assigned_to.univ.assistant_for 	 false 	 undefined 	 undefined
+$96. ~assigned_to.univ.associated_with 	 false 	 undefined 	 undefined
+$97. ~assigned_to.univ.instructor_of 	 false 	 undefined 	 undefined
+$98. ~assistant_for.instructor_of.univ 	 false 	 undefined 	 undefined
+$99. ~assistant_for.univ.assigned_to 	 false 	 undefined 	 undefined
+$100. ~assistant_for.univ.assistant_for 	 false 	 undefined 	 undefined
+$101. ~assistant_for.univ.associated_with 	 false 	 undefined 	 undefined
+$102. ~assistant_for.univ.instructor_of 	 false 	 undefined 	 undefined
+$103. ~associated_with.univ.assigned_to 	 false 	 undefined 	 undefined
+$104. ~associated_with.univ.assistant_for 	 false 	 undefined 	 undefined
+$105. ~associated_with.univ.associated_with 	 false 	 undefined 	 undefined
+$106. ~associated_with.univ.instructor_of 	 false 	 undefined 	 undefined
+$107. ~instructor_of.assistant_for.univ 	 false 	 undefined 	 undefined
+$108. ~instructor_of.univ.assigned_to 	 false 	 undefined 	 undefined
+$109. ~instructor_of.univ.assistant_for 	 false 	 undefined 	 undefined
+$110. ~instructor_of.univ.associated_with 	 false 	 undefined 	 undefined
+$111. ~instructor_of.univ.instructor_of 	 false 	 undefined 	 undefined
+$112. ~assigned_to.univ 	 false 	 undefined 	 undefined
+$113. ~assigned_to.univ.~associated_with 	 false 	 undefined 	 undefined
+$114. ~assigned_to.univ.~instructor_of 	 false 	 undefined 	 undefined
+$115. ~assistant_for.univ 	 false 	 undefined 	 undefined
+$116. ~assistant_for.univ.~associated_with 	 false 	 undefined 	 undefined
+$117. ~assistant_for.univ.~instructor_of 	 false 	 undefined 	 undefined
+$118. ~assistant_for.~associated_with.univ 	 false 	 undefined 	 undefined
+$119. ~associated_with.univ.~assigned_to 	 false 	 undefined 	 undefined
+$120. ~associated_with.univ.~assistant_for 	 false 	 undefined 	 undefined
+$121. ~associated_with.univ.~instructor_of 	 false 	 undefined 	 undefined
+$122. ~instructor_of.univ 	 false 	 undefined 	 undefined
+$123. ~instructor_of.univ.~assigned_to 	 false 	 undefined 	 undefined
+$124. ~instructor_of.univ.~assistant_for 	 false 	 undefined 	 undefined
+$125. ~instructor_of.univ.~associated_with 	 false 	 undefined 	 undefined
+$126. ~instructor_of.~associated_with.univ 	 false 	 undefined 	 undefined
+$127. Int 	 false 	 undefined 	 undefined
+$128. String 	 false 	 undefined 	 undefined
+$129. none 	 false 	 undefined 	 undefined
+$130. univ 	 false 	 undefined 	 undefined
+Expected Completion word: c
+Expected Completion line: c.instructor_of
+Suggestion exists: true
+
+Suggestion in top 1 = false 
+Suggestion in top 5 = true 
+Suggestion in top 10 = true 
+
+Suggestion in top 1 (Alpha) = false
+Suggestion in top 5 (Alpha) = false
+Suggestion in top 10 (Alpha) = false
+
+Suggestion in top 1 (Len) = true
+Suggestion in top 5 (Len) = true
+Suggestion in top 10 (Len) = true
+
+Time taken: 16.443541

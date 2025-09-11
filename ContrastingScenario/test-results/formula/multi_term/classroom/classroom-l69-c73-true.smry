@@ -1,0 +1,52 @@
+Model name: classroom
+Filename: completion/classroom-complete.als
+Offset: 906
+Term:  in 
+Vscode Position: line=68 character=73
+----------------------------------
+69 |   all c:Class,p:Person | p in (c.Groups).Group implies Teaches.c -> p in 
+----------------------------------
+Completion List:
+# Suggestion 	 Exact 	 Syntactic 	 Semantic
+$1. Teaches.c.Groups 	 false 	 undefined 	 undefined
+$2. c 	 false 	 undefined 	 undefined
+$3. p 	 false 	 undefined 	 undefined
+$4. Class 	 false 	 undefined 	 undefined
+$5. Group 	 false 	 undefined 	 undefined
+$6. Person 	 false 	 undefined 	 undefined
+$7. Student 	 false 	 undefined 	 undefined
+$8. Teacher 	 false 	 undefined 	 undefined
+$9. Teaches.Class.Groups 	 false 	 undefined 	 undefined
+$10. Teaches.Groups.Group 	 false 	 undefined 	 undefined
+$11. *Tutors.univ.Groups 	 false 	 undefined 	 undefined
+$12. Groups.univ.~Teaches 	 false 	 undefined 	 undefined
+$13. Teaches.Groups.univ 	 false 	 undefined 	 undefined
+$14. Teaches.univ.Groups 	 false 	 undefined 	 undefined
+$15. Tutors 	 true 	 undefined 	 undefined
+$16. Tutors.univ.Groups 	 false 	 undefined 	 undefined
+$17. ^Tutors.univ.Groups 	 false 	 undefined 	 undefined
+$18. ~Tutors.univ.Groups 	 false 	 undefined 	 undefined
+$19. ~Tutors 	 false 	 undefined 	 undefined
+$20. ^Tutors 	 false 	 undefined 	 undefined
+$21. *Tutors 	 false 	 undefined 	 undefined
+$22. Int 	 false 	 undefined 	 undefined
+$23. String 	 false 	 undefined 	 undefined
+$24. none 	 false 	 undefined 	 undefined
+$25. univ 	 false 	 undefined 	 undefined
+Expected Completion word: Tutors
+Expected Completion line: Tutors
+Suggestion exists: true
+
+Suggestion in top 1 = false 
+Suggestion in top 5 = false 
+Suggestion in top 10 = false 
+
+Suggestion in top 1 (Alpha) = false
+Suggestion in top 5 (Alpha) = false
+Suggestion in top 10 (Alpha) = false
+
+Suggestion in top 1 (Len) = false
+Suggestion in top 5 (Len) = false
+Suggestion in top 10 (Len) = true
+
+Time taken: 25.831833

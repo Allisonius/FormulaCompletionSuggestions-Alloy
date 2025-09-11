@@ -1,0 +1,61 @@
+import edu.mit.csail.sdg.alloy4.A4Reporter;
+import edu.mit.csail.sdg.alloy4.ErrorWarning;
+import edu.mit.csail.sdg.ast.Command;
+import edu.mit.csail.sdg.ast.Expr;
+import edu.mit.csail.sdg.parser.CompModule;
+import edu.mit.csail.sdg.parser.CompUtil;
+import edu.mit.csail.sdg.translator.A4Options;
+import edu.mit.csail.sdg.translator.A4Solution;
+import edu.mit.csail.sdg.translator.TranslateAlloyToKodkod;
+import kodkod.solvers.PMaxSAT4JRef;
+import kodkod.solvers.SAT4JRef;
+
+public class ImpactAnalysis {
+	
+	public static void main (String [] args) {
+		 A4Reporter rep = new A4Reporter() {
+	          @Override
+	          public void warning(ErrorWarning msg) {
+	              System.out.println(msg.toString().trim());
+	              System.out.flush();
+	          }
+		    };
+		    
+		     A4Options options = new A4Options();
+		     options.solver = PMaxSAT4JRef.INSTANCE;
+		     
+		     int scope = 3; 
+		     String model = "sll";
+		     
+		     //Parse model
+		     CompModule world = CompUtil.parseEverything_fromFile(rep, null, model + ".als");
+		     		     
+		     //Predicates get stored as an expression object, so to "add" an predicate after parsing without re-parsing, you can
+		     // - build an expression
+		     // - use that expression in commands to execute it, i.e.
+		     
+		     String expression = "some List and some header and #Node = 1";
+		     Expr new_pred = CompUtil.parseOneExpression_fromString(world, expression);
+		     //new_pred can now be re-used across multiple commands, etc.
+		     
+		     //If you need to declare global variables for it to parse successfully, you can do the following:
+		     //This is usually needed if there are parameters but that isn't a thing for Alloy4Fun models
+		     world.addGlobal("l", CompUtil.parseOneExpression_fromString(world, "List"));
+		     
+		     //Executing
+		     Command cmd = new Command(false, scope, scope, scope, world.getAllCommands().get(0).commandKeyword, world.getAllReachableFacts().and(new_pred));
+		     A4Solution instance = TranslateAlloyToKodkod.execute_command(rep, world.getAllReachableSigs(), cmd, options);
+		     System.out.println("First: \n" + instance);
+		     
+		     expression = "#Node = 2";
+		     new_pred = CompUtil.parseOneExpression_fromString(world, expression);
+		     Command cmd2 = new Command(false, scope, scope, scope, world.getAllCommands().get(0).commandKeyword, world.getAllReachableFacts().and(new_pred));
+		    
+
+		     A4Solution instance2 = TranslateAlloyToKodkod.execute_command_with_target(rep, world.getAllReachableSigs(), cmd2, options, instance);
+		     
+		     System.out.println("First: \n" + instance);
+		     System.out.println("Second: \n" + instance2);
+	}
+
+}

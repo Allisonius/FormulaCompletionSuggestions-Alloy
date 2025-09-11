@@ -1,0 +1,62 @@
+name: Package VS Code Extension Offline
+
+on:
+  workflow_dispatch:
+  push:
+    branches:
+      - main
+
+permissions:
+  contents: write
+
+jobs:
+  package-extension:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '18'
+      - name: Set up Java
+        uses: actions/setup-java@v4
+        with:
+          distribution: 'temurin'
+          java-version: '21'
+      - name: Install root dependencies
+        run: npm ci
+      - name: Install client dependencies
+        run: |
+          cd client
+          npm ci
+          cd webview-ui
+          npm ci
+      - name: Build server (Gradle)
+        run: npm run build:server
+      - name: Build webview UI
+        run: npm run build:webview
+      - name: Compile TypeScript
+        run: npm run compile:tsc
+      - name: Package extension (VSCE)
+        run: npm run package
+      - name: Upload VSIX artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: alloy-language-extension.vsix
+          path: '*.vsix'
+
+      - name: Read extension version
+        id: get_version
+        run: |
+          VERSION=$(node -p "require('./package.json').version")
+          echo "version=$VERSION" >> $GITHUB_OUTPUT
+
+      - name: Create GitHub Release
+        uses: softprops/action-gh-release@v2
+        with:
+          tag_name: v${{ steps.get_version.outputs.version }}
+          name: Release v${{ steps.get_version.outputs.version }}
+          files: '*.vsix'
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}

@@ -1,0 +1,15 @@
+modelname,filename,position-line,position-character,incompleteline,removedtext,baseline,suggestionedExpression,A_iff_B,A_and_B,not_A_and_B,A_and_not_B,not_A_and_not_B,suggestionImpactTime
+courses-v2,completion/courses-v2-complete.als,78,57,"all c : Course | all p : Person | lone g : Grade | p ->","g in c.grades","{}","\tall c : Course | all p : Person | lone g : Grade | p -> c",,,,,,20.086375
+courses-v2,completion/courses-v2-complete.als,78,57,"all c : Course | all p : Person | lone g : Grade | p ->","g in c.grades","{}","\tall c : Course | all p : Person | lone g : Grade | p -> Course",,,,,,20.086375
+courses-v2,completion/courses-v2-complete.als,78,57,"all c : Course | all p : Person | lone g : Grade | p ->","g in c.grades","{}","\tall c : Course | all p : Person | lone g : Grade | p -> Grade",,,,,,20.086375
+courses-v2,completion/courses-v2-complete.als,78,57,"all c : Course | all p : Person | lone g : Grade | p ->","g in c.grades","{}","\tall c : Course | all p : Person | lone g : Grade | p -> Person",,,,,,20.086375
+courses-v2,completion/courses-v2-complete.als,78,57,"all c : Course | all p : Person | lone g : Grade | p ->","g in c.grades","{}","\tall c : Course | all p : Person | lone g : Grade | p -> Professor",,,,,,20.086375
+courses-v2,completion/courses-v2-complete.als,78,57,"all c : Course | all p : Person | lone g : Grade | p ->","g in c.grades","{}","\tall c : Course | all p : Person | lone g : Grade | p -> Project",,,,,,20.086375
+courses-v2,completion/courses-v2-complete.als,78,57,"all c : Course | all p : Person | lone g : Grade | p ->","g in c.grades","{}","\tall c : Course | all p : Person | lone g : Grade | p -> Student",,,,,,20.086375
+courses-v2,completion/courses-v2-complete.als,78,57,"all c : Course | all p : Person | lone g : Grade | p ->","g in c.grades","{}","\tall c : Course | all p : Person | lone g : Grade | p -> ordering/Ord",,,,,,20.086375
+courses-v2,completion/courses-v2-complete.als,78,57,"all c : Course | all p : Person | lone g : Grade | p ->","g in c.grades","{}","\tall c : Course | all p : Person | lone g : Grade | p -> Int",,,,,,20.086375
+courses-v2,completion/courses-v2-complete.als,78,57,"all c : Course | all p : Person | lone g : Grade | p ->","g in c.grades","{}","\tall c : Course | all p : Person | lone g : Grade | p -> String",,,,,,20.086375
+courses-v2,completion/courses-v2-complete.als,78,57,"all c : Course | all p : Person | lone g : Grade | p ->","g in c.grades","{}","\tall c : Course | all p : Person | lone g : Grade | p -> none",,,,,,20.086375
+courses-v2,completion/courses-v2-complete.als,78,57,"all c : Course | all p : Person | lone g : Grade | p ->","g in c.grades","{}","\tall c : Course | all p : Person | lone g : Grade | p -> seq/Int",,,,,,20.086375
+courses-v2,completion/courses-v2-complete.als,78,57,"all c : Course | all p : Person | lone g : Grade | p ->","g in c.grades","{}","\tall c : Course | all p : Person | lone g : Grade | p -> univ",,,,,,20.086375
+courses-v2,completion/courses-v2-complete.als,78,57,"all c : Course | all p : Person | lone g : Grade | p ->","g in c.grades","{}","\tall c : Course | all p : Person | lone g : Grade | p -> iden",,,,,,20.086375

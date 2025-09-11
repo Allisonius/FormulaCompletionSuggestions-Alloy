@@ -1,0 +1,16 @@
+hits: 19 (51.35135135135135)
+~rel
+
+hits: 6 (16.216216216216218)
+~var
+~(var.rel)
+
+hits: 1 (2.7027027027027026)
+~(var + var)
+~(var->var)
+~((sig->sig) - var)
+~(((var.rel).rel).rel)
+~(var.(rel + rel))
+~(rel.var)
+
+

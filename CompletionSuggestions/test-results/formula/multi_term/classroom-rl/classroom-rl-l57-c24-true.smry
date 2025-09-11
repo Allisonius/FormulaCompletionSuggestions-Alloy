@@ -1,0 +1,39 @@
+Model name: classroom-rl
+Filename: completion/classroom-rl-complete.als
+Offset: 665
+Term: .
+Vscode Position: line=56 character=24
+----------------------------------
+57 | 	all c : Class | some c.
+----------------------------------
+Completion List:
+# Suggestion 	 Exact 	 Syntactic 	 Semantic
+$1. Groups.Group 	 false 	 undefined 	 undefined
+$2. ~Teaches.Person 	 false 	 undefined 	 undefined
+$3. ~Teaches.Student 	 false 	 undefined 	 undefined
+$4. ~Teaches.Teacher 	 false 	 undefined 	 undefined
+$5. Groups 	 true 	 undefined 	 undefined
+$6. Groups.univ 	 false 	 undefined 	 undefined
+$7. ~Teaches.Tutors 	 false 	 undefined 	 undefined
+$8. ~Teaches 	 false 	 undefined 	 undefined
+$9. ~Teaches.*Tutors 	 false 	 undefined 	 undefined
+$10. ~Teaches.^Tutors 	 false 	 undefined 	 undefined
+$11. ~Teaches.univ 	 false 	 undefined 	 undefined
+$12. ~Teaches.~Tutors 	 false 	 undefined 	 undefined
+Expected Completion word: Groups
+Expected Completion line: Groups implies some Teaches.c & Teacher
+Suggestion exists: true
+
+Suggestion in top 1 = false 
+Suggestion in top 5 = true 
+Suggestion in top 10 = true 
+
+Suggestion in top 1 (Alpha) = false
+Suggestion in top 5 (Alpha) = false
+Suggestion in top 10 (Alpha) = true
+
+Suggestion in top 1 (Len) = true
+Suggestion in top 5 (Len) = true
+Suggestion in top 10 (Len) = true
+
+Time taken: 12.00425

@@ -1,0 +1,46 @@
+hits: 99 (35.1063829787234)
+*rel
+
+hits: 43 (15.24822695035461)
+*(ordering/next[])
+
+hits: 31 (10.99290780141844)
+*(var.rel)
+
+hits: 24 (8.51063829787234)
+*var
+
+hits: 22 (7.801418439716312)
+*fun_call[]
+
+hits: 13 (4.609929078014184)
+*(rel + (~rel))
+
+hits: 11 (3.900709219858156)
+*(declarations/ordering/next[])
+
+hits: 9 (3.1914893617021276)
+*(sig <: rel)
+
+hits: 5 (1.773049645390071)
+*(rel.var)
+*(~rel)
+*(rel + rel)
+
+hits: 4 (1.4184397163120568)
+*(~(var.rel))
+
+hits: 2 (0.7092198581560284)
+*(var.(var.rel))
+*((var.rel).(var.rel))
+
+hits: 1 (0.3546099290780142)
+*(((var.rel) - (var.rel)) + (var.rel))
+*((rel - (sig->var)) - (var->sig))
+*((~(var.rel)).(~(var.rel)))
+*((sig.rel) - (var->var))
+*(ordering/prev[])
+*((var.rel) + (~(var.rel)))
+*(sig.(var.rel))
+
+

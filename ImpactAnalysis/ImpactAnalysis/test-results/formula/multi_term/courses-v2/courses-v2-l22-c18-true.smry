@@ -1,0 +1,37 @@
+Model name: courses-v2
+Filename: completion/courses-v2-complete.als
+Offset: 326
+Term:  - 
+Vscode Position: line=21 character=18
+----------------------------------
+22 | 	all p : Person - 
+----------------------------------
+Completion List:
+# Suggestion 	 Exact 	 Syntactic 	 Semantic
+$1. Course 	 false 	 false 	 false
+$2. Grade 	 false 	 false 	 false
+$3. Person 	 false 	 false 	 false
+$4. Professor 	 false 	 false 	 false
+$5. Project 	 false 	 false 	 false
+$6. Student 	 true 	 true 	 true
+$7. Int 	 false 	 false 	 false
+$8. String 	 false 	 false 	 false
+$9. none 	 false 	 false 	 false
+$10. univ 	 false 	 false 	 false
+Expected Completion word: Student
+Expected Completion line: Student | no p.enrolled
+Suggestion exists: true
+
+Suggestion in top 1 = false 
+Suggestion in top 5 = false 
+Suggestion in top 10 = true 
+
+Suggestion in top 1 (Alpha) = false
+Suggestion in top 5 (Alpha) = false
+Suggestion in top 10 (Alpha) = true
+
+Suggestion in top 1 (Len) = false
+Suggestion in top 5 (Len) = false
+Suggestion in top 10 (Len) = true
+
+Time taken: 41.186125

@@ -1,0 +1,10 @@
+modelname,filename,position-line,position-character,incompleteline,removedtext,baseline,suggestionedExpression,A_iff_B,A_and_B,not_A_and_B,A_and_not_B,not_A_and_not_B,suggestionImpactTime
+social-media,completion/socialMedia.als,13,15,"sig Ad extends","Photo {}","{}","sig Ad extends Ad",,,,,,29.459
+social-media,completion/socialMedia.als,13,15,"sig Ad extends","Photo {}","{}","sig Ad extends Day",,,,,,29.459
+social-media,completion/socialMedia.als,13,15,"sig Ad extends","Photo {}","{}","sig Ad extends Influencer",,,,,,29.459
+social-media,completion/socialMedia.als,13,15,"sig Ad extends","Photo {}","{}","sig Ad extends Photo",,,,,,29.459
+social-media,completion/socialMedia.als,13,15,"sig Ad extends","Photo {}","{}","sig Ad extends User",,,,,,29.459
+social-media,completion/socialMedia.als,13,15,"sig Ad extends","Photo {}","{}","sig Ad extends Int",,,,,,29.459
+social-media,completion/socialMedia.als,13,15,"sig Ad extends","Photo {}","{}","sig Ad extends String",,,,,,29.459
+social-media,completion/socialMedia.als,13,15,"sig Ad extends","Photo {}","{}","sig Ad extends none",,,,,,29.459
+social-media,completion/socialMedia.als,13,15,"sig Ad extends","Photo {}","{}","sig Ad extends univ",,,,,,29.459

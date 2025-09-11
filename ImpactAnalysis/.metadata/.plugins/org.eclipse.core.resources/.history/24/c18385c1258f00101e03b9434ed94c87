@@ -1,0 +1,8 @@
+modelname,filename,position-line,position-character,incompleteline,removedtext,baseline,suggestionedExpression,A_iff_B,A_and_B,not_A_and_B,A_and_not_B,not_A_and_not_B,suggestionImpactTime
+class-diagram,completion/class-diagram-sig.als,5,23,"one sig Object extends","Class {}","{}","one sig Object extends Class",,,,,,2.119041
+class-diagram,completion/class-diagram-sig.als,5,23,"one sig Object extends","Class {}","{}","one sig Object extends Int",,,,,,2.119041
+class-diagram,completion/class-diagram-sig.als,5,23,"one sig Object extends","Class {}","{}","one sig Object extends String",,,,,,2.119041
+class-diagram,completion/class-diagram-sig.als,5,23,"one sig Object extends","Class {}","{}","one sig Object extends seq/Int",,,,,,2.119041
+class-diagram,completion/class-diagram-sig.als,5,23,"one sig Object extends","Class {}","{}","one sig Object extends iden",,,,,,2.119041
+class-diagram,completion/class-diagram-sig.als,5,23,"one sig Object extends","Class {}","{}","one sig Object extends none",,,,,,2.119041
+class-diagram,completion/class-diagram-sig.als,5,23,"one sig Object extends","Class {}","{}","one sig Object extends univ",,,,,,2.119041

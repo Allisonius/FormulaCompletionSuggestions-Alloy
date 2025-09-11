@@ -1,0 +1,12 @@
+var sig File {
+	var link : lone File
+}
+var sig Trash in File {}
+
+var sig Protected in File {}
+
+pred inv6{
+eventually some f:File | f not in File' | always f not in File'
+}
+
+

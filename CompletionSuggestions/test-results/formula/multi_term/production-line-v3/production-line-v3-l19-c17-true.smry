@@ -1,0 +1,40 @@
+Model name: production-line-v3
+Filename: completion/production-line-v3-sig.als
+Offset: 317
+Term:  in 
+Vscode Position: line=18 character=17
+----------------------------------
+19 | sig Dangerous in 
+----------------------------------
+Completion List:
+# Suggestion 	 Exact 	 Syntactic 	 Semantic
+$1. Component 	 false 	 false 	 false
+$2. Human 	 false 	 false 	 false
+$3. Material 	 false 	 false 	 false
+$4. Product 	 true 	 true 	 true
+$5. Robot 	 false 	 false 	 false
+$6. Worker 	 false 	 false 	 false
+$7. Workstation 	 false 	 false 	 false
+$8. begin 	 false 	 false 	 false
+$9. end 	 false 	 false 	 false
+$10. Int 	 false 	 false 	 false
+$11. String 	 false 	 false 	 false
+$12. none 	 false 	 false 	 false
+$13. univ 	 false 	 false 	 false
+Expected Completion word: Product
+Expected Completion line: Product {}
+Suggestion exists: true
+
+Suggestion in top 1 = false 
+Suggestion in top 5 = true 
+Suggestion in top 10 = true 
+
+Suggestion in top 1 (Alpha) = false
+Suggestion in top 5 (Alpha) = false
+Suggestion in top 10 (Alpha) = true
+
+Suggestion in top 1 (Len) = false
+Suggestion in top 5 (Len) = false
+Suggestion in top 10 (Len) = true
+
+Time taken: 5.665

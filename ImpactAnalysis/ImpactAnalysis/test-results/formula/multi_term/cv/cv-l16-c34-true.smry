@@ -1,0 +1,45 @@
+Model name: cv
+Filename: completion/cv-complete.als
+Offset: 321
+Term: .
+Vscode Position: line=15 character=34
+----------------------------------
+16 |     all u : User | u.visible in u.
+----------------------------------
+Completion List:
+# Suggestion 	 Exact 	 Syntactic 	 Semantic
+$1. profile.Work 	 false 	 undefined 	 undefined
+$2. visible.Work 	 false 	 undefined 	 undefined
+$3. ~source.Work 	 false 	 undefined 	 undefined
+$4. profile 	 true 	 undefined 	 undefined
+$5. profile.ids 	 false 	 undefined 	 undefined
+$6. profile.source 	 false 	 undefined 	 undefined
+$7. profile.univ 	 false 	 undefined 	 undefined
+$8. profile.~visible 	 false 	 undefined 	 undefined
+$9. visible 	 false 	 undefined 	 undefined
+$10. visible.ids 	 false 	 undefined 	 undefined
+$11. visible.source 	 false 	 undefined 	 undefined
+$12. visible.univ 	 false 	 undefined 	 undefined
+$13. visible.~profile 	 false 	 undefined 	 undefined
+$14. ~source.ids 	 false 	 undefined 	 undefined
+$15. ~source 	 false 	 undefined 	 undefined
+$16. ~source.univ 	 false 	 undefined 	 undefined
+$17. ~source.~profile 	 false 	 undefined 	 undefined
+$18. ~source.~visible 	 false 	 undefined 	 undefined
+Expected Completion word: profile
+Expected Completion line: profile
+Suggestion exists: true
+
+Suggestion in top 1 = false 
+Suggestion in top 5 = true 
+Suggestion in top 10 = true 
+
+Suggestion in top 1 (Alpha) = false
+Suggestion in top 5 (Alpha) = false
+Suggestion in top 10 (Alpha) = true
+
+Suggestion in top 1 (Len) = true
+Suggestion in top 5 (Len) = true
+Suggestion in top 10 (Len) = true
+
+Time taken: 7.953458

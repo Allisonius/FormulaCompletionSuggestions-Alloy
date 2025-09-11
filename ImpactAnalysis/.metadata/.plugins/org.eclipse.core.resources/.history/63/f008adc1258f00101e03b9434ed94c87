@@ -1,0 +1,11 @@
+modelname,filename,position-line,position-character,incompleteline,removedtext,baseline,suggestionedExpression,A_iff_B,A_and_B,not_A_and_B,A_and_not_B,not_A_and_not_B,suggestionImpactTime
+social-media,completion/socialMedia.als,21,27,"all p : User | p not in p.","follows","{}","\tall p : User | p not in p.follows",true,true,false,true,false,41.247
+social-media,completion/socialMedia.als,21,27,"all p : User | p not in p.","follows","{}","\tall p : User | p not in p.posts",true,true,false,false,false,41.247
+social-media,completion/socialMedia.als,21,27,"all p : User | p not in p.","follows","{}","\tall p : User | p not in p.sees",true,true,false,false,false,41.247
+social-media,completion/socialMedia.als,21,27,"all p : User | p not in p.","follows","{}","\tall p : User | p not in p.suggested",true,true,false,true,false,41.247
+social-media,completion/socialMedia.als,21,27,"all p : User | p not in p.","follows","{}","\tall p : User | p not in p.~follows",true,true,false,true,false,41.247
+social-media,completion/socialMedia.als,21,27,"all p : User | p not in p.","follows","{}","\tall p : User | p not in p.~suggested",true,true,false,true,false,41.247
+social-media,completion/socialMedia.als,21,27,"all p : User | p not in p.","follows","{}","\tall p : User | p not in p.^follows",true,true,false,true,false,41.247
+social-media,completion/socialMedia.als,21,27,"all p : User | p not in p.","follows","{}","\tall p : User | p not in p.^suggested",true,true,false,true,false,41.247
+social-media,completion/socialMedia.als,21,27,"all p : User | p not in p.","follows","{}","\tall p : User | p not in p.*follows",true,true,false,true,false,41.247
+social-media,completion/socialMedia.als,21,27,"all p : User | p not in p.","follows","{}","\tall p : User | p not in p.*suggested",true,true,false,true,false,41.247

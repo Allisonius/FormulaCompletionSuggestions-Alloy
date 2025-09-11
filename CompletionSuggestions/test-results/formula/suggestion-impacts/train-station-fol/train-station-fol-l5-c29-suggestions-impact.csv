@@ -1,0 +1,11 @@
+modelname,filename,position-line,position-character,incompleteline,removedtext,baseline,suggestionedExpression,A_iff_B,A_and_B,not_A_and_B,A_and_not_B,not_A_and_not_B,suggestionImpactTime
+train-station-fol,completion/train-station-fol-sig.als,5,29,"sig Junction, Entry, Exit in","Track {}","{}","sig Junction, Entry, Exit in Semaphore",,,,,,5.047375
+train-station-fol,completion/train-station-fol-sig.als,5,29,"sig Junction, Entry, Exit in","Track {}","{}","sig Junction, Entry, Exit in Signal",,,,,,5.047375
+train-station-fol,completion/train-station-fol-sig.als,5,29,"sig Junction, Entry, Exit in","Track {}","{}","sig Junction, Entry, Exit in Speed",,,,,,5.047375
+train-station-fol,completion/train-station-fol-sig.als,5,29,"sig Junction, Entry, Exit in","Track {}","{}","sig Junction, Entry, Exit in Track",,,,,,5.047375
+train-station-fol,completion/train-station-fol-sig.als,5,29,"sig Junction, Entry, Exit in","Track {}","{}","sig Junction, Entry, Exit in Int",,,,,,5.047375
+train-station-fol,completion/train-station-fol-sig.als,5,29,"sig Junction, Entry, Exit in","Track {}","{}","sig Junction, Entry, Exit in String",,,,,,5.047375
+train-station-fol,completion/train-station-fol-sig.als,5,29,"sig Junction, Entry, Exit in","Track {}","{}","sig Junction, Entry, Exit in seq/Int",,,,,,5.047375
+train-station-fol,completion/train-station-fol-sig.als,5,29,"sig Junction, Entry, Exit in","Track {}","{}","sig Junction, Entry, Exit in iden",,,,,,5.047375
+train-station-fol,completion/train-station-fol-sig.als,5,29,"sig Junction, Entry, Exit in","Track {}","{}","sig Junction, Entry, Exit in none",,,,,,5.047375
+train-station-fol,completion/train-station-fol-sig.als,5,29,"sig Junction, Entry, Exit in","Track {}","{}","sig Junction, Entry, Exit in univ",,,,,,5.047375

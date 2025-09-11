@@ -1,0 +1,5 @@
+modelname,filename,position-line,position-character,incompleteline,removedtext,baseline,suggestionedExpression,A_iff_B,A_and_B,not_A_and_B,A_and_not_B,not_A_and_not_B,suggestionImpactTime
+lts,completion/lts-complete.als,39,75,"let ts = { s1,s2:State | some e:Event | s1->e->s2 in trans } | all s:Init.","^ts | some i:Init | i in s.^ts","{}","\tlet ts = { s1,s2:State | some e:Event | s1->e->s2 in trans } | all s:Init.trans",,,,,,3.908
+lts,completion/lts-complete.als,39,75,"let ts = { s1,s2:State | some e:Event | s1->e->s2 in trans } | all s:Init.","^ts | some i:Init | i in s.^ts","{}","\tlet ts = { s1,s2:State | some e:Event | s1->e->s2 in trans } | all s:Init.iden",,,,,,3.908
+lts,completion/lts-complete.als,39,75,"let ts = { s1,s2:State | some e:Event | s1->e->s2 in trans } | all s:Init.","^ts | some i:Init | i in s.^ts","{}","\tlet ts = { s1,s2:State | some e:Event | s1->e->s2 in trans } | all s:Init.none",,,,,,3.908
+lts,completion/lts-complete.als,39,75,"let ts = { s1,s2:State | some e:Event | s1->e->s2 in trans } | all s:Init.","^ts | some i:Init | i in s.^ts","{}","\tlet ts = { s1,s2:State | some e:Event | s1->e->s2 in trans } | all s:Init.univ",,,,,,3.908

@@ -1,0 +1,130 @@
+Model name: trash-rl
+Filename: completion/trash-rl-complete.als
+Offset: 123
+Term:  in 
+Vscode Position: line=11 character=9
+----------------------------------
+12 | 	File in 
+----------------------------------
+Completion List:
+# Suggestion 	 Exact 	 Syntactic 	 Semantic
+$1. *link.File 	 false 	 false 	 false
+$2. *link.File.*link 	 false 	 false 	 false
+$3. *link.File.^link 	 false 	 false 	 false
+$4. *link.File.link 	 false 	 false 	 false
+$5. *link.File.~link 	 false 	 false 	 false
+$6. *link.Protected 	 false 	 false 	 false
+$7. *link.Protected.*link 	 false 	 false 	 false
+$8. *link.Protected.^link 	 false 	 false 	 false
+$9. *link.Protected.link 	 false 	 false 	 false
+$10. *link.Protected.~link 	 false 	 false 	 false
+$11. *link.Trash 	 false 	 false 	 false
+$12. *link.Trash.*link 	 false 	 false 	 false
+$13. *link.Trash.^link 	 false 	 false 	 false
+$14. *link.Trash.link 	 false 	 false 	 false
+$15. *link.Trash.~link 	 false 	 false 	 false
+$16. File 	 false 	 false 	 false
+$17. File.*link 	 false 	 false 	 false
+$18. File.^link 	 false 	 false 	 false
+$19. File.link 	 false 	 false 	 false
+$20. File.~link 	 false 	 false 	 false
+$21. Protected 	 false 	 false 	 false
+$22. Protected.*link 	 false 	 false 	 false
+$23. Protected.^link 	 false 	 false 	 false
+$24. Protected.link 	 false 	 false 	 false
+$25. Protected.~link 	 false 	 false 	 false
+$26. Trash 	 true 	 true 	 true
+$27. Trash.*link 	 false 	 false 	 false
+$28. Trash.^link 	 false 	 false 	 false
+$29. Trash.link 	 false 	 false 	 false
+$30. Trash.~link 	 false 	 false 	 false
+$31. ^link.File 	 false 	 false 	 false
+$32. ^link.File.*link 	 false 	 false 	 false
+$33. ^link.File.^link 	 false 	 false 	 false
+$34. ^link.File.link 	 false 	 false 	 false
+$35. ^link.File.~link 	 false 	 false 	 false
+$36. ^link.Protected 	 false 	 false 	 false
+$37. ^link.Protected.*link 	 false 	 false 	 false
+$38. ^link.Protected.^link 	 false 	 false 	 false
+$39. ^link.Protected.link 	 false 	 false 	 false
+$40. ^link.Protected.~link 	 false 	 false 	 false
+$41. ^link.Trash 	 false 	 false 	 false
+$42. ^link.Trash.*link 	 false 	 false 	 false
+$43. ^link.Trash.^link 	 false 	 false 	 false
+$44. ^link.Trash.link 	 false 	 false 	 false
+$45. ^link.Trash.~link 	 false 	 false 	 false
+$46. link.File 	 false 	 false 	 false
+$47. link.File.*link 	 false 	 false 	 false
+$48. link.File.^link 	 false 	 false 	 false
+$49. link.File.link 	 false 	 false 	 false
+$50. link.File.~link 	 false 	 false 	 false
+$51. link.Protected 	 false 	 false 	 false
+$52. link.Protected.*link 	 false 	 false 	 false
+$53. link.Protected.^link 	 false 	 false 	 false
+$54. link.Protected.link 	 false 	 false 	 false
+$55. link.Protected.~link 	 false 	 false 	 false
+$56. link.Trash 	 false 	 false 	 false
+$57. link.Trash.*link 	 false 	 false 	 false
+$58. link.Trash.^link 	 false 	 false 	 false
+$59. link.Trash.link 	 false 	 false 	 false
+$60. link.Trash.~link 	 false 	 false 	 false
+$61. ~link.File 	 false 	 false 	 false
+$62. ~link.File.*link 	 false 	 false 	 false
+$63. ~link.File.^link 	 false 	 false 	 false
+$64. ~link.File.link 	 false 	 false 	 false
+$65. ~link.File.~link 	 false 	 false 	 false
+$66. ~link.Protected 	 false 	 false 	 false
+$67. ~link.Protected.*link 	 false 	 false 	 false
+$68. ~link.Protected.^link 	 false 	 false 	 false
+$69. ~link.Protected.link 	 false 	 false 	 false
+$70. ~link.Protected.~link 	 false 	 false 	 false
+$71. ~link.Trash 	 false 	 false 	 false
+$72. ~link.Trash.*link 	 false 	 false 	 false
+$73. ~link.Trash.^link 	 false 	 false 	 false
+$74. ~link.Trash.link 	 false 	 false 	 false
+$75. ~link.Trash.~link 	 false 	 false 	 false
+$76. *link.univ.link 	 false 	 false 	 false
+$77. ^link.univ.link 	 false 	 false 	 false
+$78. link.univ 	 false 	 false 	 false
+$79. link.univ.*link 	 false 	 false 	 false
+$80. link.univ.^link 	 false 	 false 	 false
+$81. link.univ.link 	 false 	 false 	 false
+$82. link.univ.~link 	 false 	 false 	 false
+$83. univ.link 	 false 	 false 	 false
+$84. ~link.univ.link 	 false 	 false 	 false
+$85. *link.univ.~link 	 false 	 false 	 false
+$86. ^link.univ.~link 	 false 	 false 	 false
+$87. univ.~link 	 false 	 false 	 false
+$88. ~link.univ 	 false 	 false 	 false
+$89. ~link.univ.*link 	 false 	 false 	 false
+$90. ~link.univ.^link 	 false 	 false 	 false
+$91. ~link.univ.~link 	 false 	 false 	 false
+$92. *link.univ.^link 	 false 	 false 	 false
+$93. ^link.univ 	 false 	 false 	 false
+$94. ^link.univ.*link 	 false 	 false 	 false
+$95. ^link.univ.^link 	 false 	 false 	 false
+$96. univ.^link 	 false 	 false 	 false
+$97. *link.univ 	 false 	 false 	 false
+$98. *link.univ.*link 	 false 	 false 	 false
+$99. univ.*link 	 false 	 false 	 false
+$100. Int 	 false 	 false 	 false
+$101. String 	 false 	 false 	 false
+$102. none 	 false 	 false 	 false
+$103. univ 	 false 	 false 	 false
+Expected Completion word: Trash
+Expected Completion line: Trash
+Suggestion exists: true
+
+Suggestion in top 1 = false 
+Suggestion in top 5 = false 
+Suggestion in top 10 = false 
+
+Suggestion in top 1 (Alpha) = false
+Suggestion in top 5 (Alpha) = false
+Suggestion in top 10 (Alpha) = false
+
+Suggestion in top 1 (Len) = false
+Suggestion in top 5 (Len) = true
+Suggestion in top 10 (Len) = true
+
+Time taken: 34.133

@@ -1,0 +1,34 @@
+Model name: singly-linked-list
+Filename: completion/singly-linked-list.als
+Offset: 123
+Term: .
+Vscode Position: line=11 character=7
+----------------------------------
+12 |   no l.
+----------------------------------
+Completion List:
+# Suggestion 	 Exact 	 Syntactic 	 Semantic
+$1. header.Node 	 false 	 undefined 	 undefined
+$2. header 	 true 	 undefined 	 undefined
+$3. header.*link 	 false 	 undefined 	 undefined
+$4. header.^link 	 false 	 undefined 	 undefined
+$5. header.link 	 false 	 undefined 	 undefined
+$6. header.univ 	 false 	 undefined 	 undefined
+$7. header.~link 	 false 	 undefined 	 undefined
+Expected Completion word: header
+Expected Completion line: header or some n: l.header.*link | no n.link
+Suggestion exists: true
+
+Suggestion in top 1 = false 
+Suggestion in top 5 = true 
+Suggestion in top 10 = true 
+
+Suggestion in top 1 (Alpha) = true
+Suggestion in top 5 (Alpha) = true
+Suggestion in top 10 (Alpha) = true
+
+Suggestion in top 1 (Len) = true
+Suggestion in top 5 (Len) = true
+Suggestion in top 10 (Len) = true
+
+Time taken: 33.205958

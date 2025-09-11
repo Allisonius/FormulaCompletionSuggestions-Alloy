@@ -1,0 +1,38 @@
+hits: 293 (60.288065843621396)
+^name
+
+hits: 67 (13.786008230452676)
+^(name.name)
+
+hits: 62 (12.757201646090536)
+^fun_call[]
+
+hits: 23 (4.732510288065844)
+^(~name)
+
+hits: 13 (2.674897119341564)
+^(name + name)
+
+hits: 8 (1.646090534979424)
+^(~fun_call[])
+
+hits: 3 (0.6172839506172839)
+^(fun_call[] + fun_call[])
+^(name + (~name))
+
+hits: 2 (0.411522633744856)
+^(name.(name + name))
+^(fun_call[] - fun_call[])
+^(name <: ((name.name).name))
+
+hits: 1 (0.205761316872428)
+^(name - (name->name))
+^((~fun_call[]) + fun_call[])
+^(((name.name) <: name).(~((name.name) <: name)))
+^((name - (name->name)) - (name->name))
+^(name + (name.name))
+^(name.(name.name))
+^((name + name) + name)
+^((name.name).(name.name))
+
+

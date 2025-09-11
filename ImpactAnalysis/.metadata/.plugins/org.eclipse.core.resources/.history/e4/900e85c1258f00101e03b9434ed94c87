@@ -1,0 +1,10 @@
+modelname,filename,position-line,position-character,incompleteline,removedtext,baseline,suggestionedExpression,A_iff_B,A_and_B,not_A_and_B,A_and_not_B,not_A_and_not_B,suggestionImpactTime
+c-tree,completion/ctree-sig.als,3,21,"one sig Blue extends","Color {}","{}","one sig Blue extends Color",,,,,,2.807
+c-tree,completion/ctree-sig.als,3,21,"one sig Blue extends","Color {}","{}","one sig Blue extends Node",,,,,,2.807
+c-tree,completion/ctree-sig.als,3,21,"one sig Blue extends","Color {}","{}","one sig Blue extends Red",,,,,,2.807
+c-tree,completion/ctree-sig.als,3,21,"one sig Blue extends","Color {}","{}","one sig Blue extends Int",,,,,,2.807
+c-tree,completion/ctree-sig.als,3,21,"one sig Blue extends","Color {}","{}","one sig Blue extends String",,,,,,2.807
+c-tree,completion/ctree-sig.als,3,21,"one sig Blue extends","Color {}","{}","one sig Blue extends seq/Int",,,,,,2.807
+c-tree,completion/ctree-sig.als,3,21,"one sig Blue extends","Color {}","{}","one sig Blue extends iden",,,,,,2.807
+c-tree,completion/ctree-sig.als,3,21,"one sig Blue extends","Color {}","{}","one sig Blue extends none",,,,,,2.807
+c-tree,completion/ctree-sig.als,3,21,"one sig Blue extends","Color {}","{}","one sig Blue extends univ",,,,,,2.807

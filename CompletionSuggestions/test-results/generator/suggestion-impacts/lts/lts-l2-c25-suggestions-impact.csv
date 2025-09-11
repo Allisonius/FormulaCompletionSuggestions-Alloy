@@ -1,0 +1,12 @@
+modelname,filename,position-line,position-character,incompleteline,removedtext,baseline,suggestionedExpression,A_iff_B,A_and_B,not_A_and_B,A_and_not_B,not_A_and_not_B,suggestionImpactTime
+lts,completion/lts-sig.als,2,25,"trans : Event ->","State","{}","        trans : Event -> (Init&(State-Init))",,,,,,4.594708
+lts,completion/lts-sig.als,2,25,"trans : Event ->","State","{}","        trans : Event -> (none->none)",,,,,,4.594708
+lts,completion/lts-sig.als,2,25,"trans : Event ->","State","{}","        trans : Event -> (none->none->none)",,,,,,4.594708
+lts,completion/lts-sig.als,2,25,"trans : Event ->","State","{}","        trans : Event -> (State-Init)",,,,,,4.594708
+lts,completion/lts-sig.als,2,25,"trans : Event ->","State","{}","        trans : Event -> Event",,,,,,4.594708
+lts,completion/lts-sig.als,2,25,"trans : Event ->","State","{}","        trans : Event -> Init",,,,,,4.594708
+lts,completion/lts-sig.als,2,25,"trans : Event ->","State","{}","        trans : Event -> Int",,,,,,4.594708
+lts,completion/lts-sig.als,2,25,"trans : Event ->","State","{}","        trans : Event -> none",,,,,,4.594708
+lts,completion/lts-sig.als,2,25,"trans : Event ->","State","{}","        trans : Event -> State",,,,,,4.594708
+lts,completion/lts-sig.als,2,25,"trans : Event ->","State","{}","        trans : Event -> String",,,,,,4.594708
+lts,completion/lts-sig.als,2,25,"trans : Event ->","State","{}","        trans : Event -> univ",,,,,,4.594708

@@ -1,0 +1,12 @@
+modelname,filename,position-line,position-character,incompleteline,removedtext,baseline,suggestionedExpression,A_iff_B,A_and_B,not_A_and_B,A_and_not_B,not_A_and_not_B,suggestionImpactTime
+grade,completion/grade-sig.als,3,20,"sig Student extends","Person {}","{}","sig Student extends Assignment",,,,,,4.415791
+grade,completion/grade-sig.als,3,20,"sig Student extends","Person {}","{}","sig Student extends Class",,,,,,4.415791
+grade,completion/grade-sig.als,3,20,"sig Student extends","Person {}","{}","sig Student extends Person",,,,,,4.415791
+grade,completion/grade-sig.als,3,20,"sig Student extends","Person {}","{}","sig Student extends Professor",,,,,,4.415791
+grade,completion/grade-sig.als,3,20,"sig Student extends","Person {}","{}","sig Student extends Student",,,,,,4.415791
+grade,completion/grade-sig.als,3,20,"sig Student extends","Person {}","{}","sig Student extends Int",,,,,,4.415791
+grade,completion/grade-sig.als,3,20,"sig Student extends","Person {}","{}","sig Student extends String",,,,,,4.415791
+grade,completion/grade-sig.als,3,20,"sig Student extends","Person {}","{}","sig Student extends none",,,,,,4.415791
+grade,completion/grade-sig.als,3,20,"sig Student extends","Person {}","{}","sig Student extends seq/Int",,,,,,4.415791
+grade,completion/grade-sig.als,3,20,"sig Student extends","Person {}","{}","sig Student extends univ",,,,,,4.415791
+grade,completion/grade-sig.als,3,20,"sig Student extends","Person {}","{}","sig Student extends iden",,,,,,4.415791

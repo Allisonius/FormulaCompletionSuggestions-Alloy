@@ -1,0 +1,12 @@
+modelname,filename,position-line,position-character,incompleteline,removedtext,baseline,suggestionedExpression,A_iff_B,A_and_B,not_A_and_B,A_and_not_B,not_A_and_not_B,suggestionImpactTime
+trash-fol,completion/trash-fol-complete.als,44,27,"all f1, f2 : File | f1 ->","f2 in link and f1 in Trash => f2 in Trash","{}","\tall f1, f2 : File | f1 -> f1",,,,,,5.443709
+trash-fol,completion/trash-fol-complete.als,44,27,"all f1, f2 : File | f1 ->","f2 in link and f1 in Trash => f2 in Trash","{}","\tall f1, f2 : File | f1 -> f2",,,,,,5.443709
+trash-fol,completion/trash-fol-complete.als,44,27,"all f1, f2 : File | f1 ->","f2 in link and f1 in Trash => f2 in Trash","{}","\tall f1, f2 : File | f1 -> File",,,,,,5.443709
+trash-fol,completion/trash-fol-complete.als,44,27,"all f1, f2 : File | f1 ->","f2 in link and f1 in Trash => f2 in Trash","{}","\tall f1, f2 : File | f1 -> Protected",,,,,,5.443709
+trash-fol,completion/trash-fol-complete.als,44,27,"all f1, f2 : File | f1 ->","f2 in link and f1 in Trash => f2 in Trash","{}","\tall f1, f2 : File | f1 -> Trash",,,,,,5.443709
+trash-fol,completion/trash-fol-complete.als,44,27,"all f1, f2 : File | f1 ->","f2 in link and f1 in Trash => f2 in Trash","{}","\tall f1, f2 : File | f1 -> Int",,,,,,5.443709
+trash-fol,completion/trash-fol-complete.als,44,27,"all f1, f2 : File | f1 ->","f2 in link and f1 in Trash => f2 in Trash","{}","\tall f1, f2 : File | f1 -> String",,,,,,5.443709
+trash-fol,completion/trash-fol-complete.als,44,27,"all f1, f2 : File | f1 ->","f2 in link and f1 in Trash => f2 in Trash","{}","\tall f1, f2 : File | f1 -> seq/Int",,,,,,5.443709
+trash-fol,completion/trash-fol-complete.als,44,27,"all f1, f2 : File | f1 ->","f2 in link and f1 in Trash => f2 in Trash","{}","\tall f1, f2 : File | f1 -> iden",,,,,,5.443709
+trash-fol,completion/trash-fol-complete.als,44,27,"all f1, f2 : File | f1 ->","f2 in link and f1 in Trash => f2 in Trash","{}","\tall f1, f2 : File | f1 -> none",,,,,,5.443709
+trash-fol,completion/trash-fol-complete.als,44,27,"all f1, f2 : File | f1 ->","f2 in link and f1 in Trash => f2 in Trash","{}","\tall f1, f2 : File | f1 -> univ",,,,,,5.443709

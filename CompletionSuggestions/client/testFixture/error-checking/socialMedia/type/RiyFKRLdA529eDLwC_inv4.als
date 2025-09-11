@@ -1,0 +1,23 @@
+sig User {
+	follows : set User,
+	sees : set Photo,
+	posts : set Photo,
+	suggested : set User
+}
+
+sig Influencer extends User {}
+
+sig Photo {
+	date : one Day
+}
+sig Ad extends Photo {}
+
+sig Day {}
+
+pred inv4{
+all u:User | u.posts.Ad implies all p:Photo | p in Ad
+all x:univ | x in Ad implies posts.p and p is Ad
+
+
+}
+

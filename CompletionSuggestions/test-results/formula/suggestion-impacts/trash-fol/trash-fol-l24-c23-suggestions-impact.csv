@@ -1,0 +1,8 @@
+modelname,filename,position-line,position-character,incompleteline,removedtext,baseline,suggestionedExpression,A_iff_B,A_and_B,not_A_and_B,A_and_not_B,not_A_and_not_B,suggestionImpactTime
+trash-fol,completion/trash-fol-complete.als,24,23,"all f : File | lone f.","link","{}","\tall f : File | lone f.link",true,true,false,true,false,10.482791
+trash-fol,completion/trash-fol-complete.als,24,23,"all f : File | lone f.","link","{}","\tall f : File | lone f.~link",true,true,false,true,false,10.482791
+trash-fol,completion/trash-fol-complete.als,24,23,"all f : File | lone f.","link","{}","\tall f : File | lone f.^link",true,true,false,true,false,10.482791
+trash-fol,completion/trash-fol-complete.als,24,23,"all f : File | lone f.","link","{}","\tall f : File | lone f.*link",true,true,false,true,false,10.482791
+trash-fol,completion/trash-fol-complete.als,24,23,"all f : File | lone f.","link","{}","\tall f : File | lone f.iden",true,true,false,false,false,10.482791
+trash-fol,completion/trash-fol-complete.als,24,23,"all f : File | lone f.","link","{}","\tall f : File | lone f.none",,,,,,10.482791
+trash-fol,completion/trash-fol-complete.als,24,23,"all f : File | lone f.","link","{}","\tall f : File | lone f.univ",,,,,,10.482791

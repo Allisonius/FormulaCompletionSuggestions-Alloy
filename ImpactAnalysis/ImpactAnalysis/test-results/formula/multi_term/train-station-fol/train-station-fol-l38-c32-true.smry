@@ -1,0 +1,154 @@
+Model name: train-station-fol
+Filename: completion/train-station-fol-complete.als
+Offset: 785
+Term:  in 
+Vscode Position: line=37 character=32
+----------------------------------
+38 | 	all e:Entry|some s:Speed| s in 
+----------------------------------
+Completion List:
+# Suggestion 	 Exact 	 Syntactic 	 Semantic
+$1. *succs.e.signals 	 false 	 undefined 	 undefined
+$2. ^succs.e.signals 	 false 	 undefined 	 undefined
+$3. e.*succs.signals 	 false 	 undefined 	 undefined
+$4. e.^succs.signals 	 false 	 undefined 	 undefined
+$5. e.signals 	 true 	 undefined 	 undefined
+$6. e.succs.signals 	 false 	 undefined 	 undefined
+$7. e.~succs.signals 	 false 	 undefined 	 undefined
+$8. s 	 false 	 undefined 	 undefined
+$9. signals.s.~signals 	 false 	 undefined 	 undefined
+$10. succs.e.signals 	 false 	 undefined 	 undefined
+$11. ~signals.*succs.e 	 false 	 undefined 	 undefined
+$12. ~signals.^succs.e 	 false 	 undefined 	 undefined
+$13. ~signals.e 	 false 	 undefined 	 undefined
+$14. ~signals.e.*succs 	 false 	 undefined 	 undefined
+$15. ~signals.e.^succs 	 false 	 undefined 	 undefined
+$16. ~signals.e.signals 	 false 	 undefined 	 undefined
+$17. ~signals.e.succs 	 false 	 undefined 	 undefined
+$18. ~signals.e.~succs 	 false 	 undefined 	 undefined
+$19. ~signals.succs.e 	 false 	 undefined 	 undefined
+$20. ~signals.~succs.e 	 false 	 undefined 	 undefined
+$21. ~succs.e.signals 	 false 	 undefined 	 undefined
+$22. *succs.Entry.signals 	 false 	 undefined 	 undefined
+$23. *succs.Exit.signals 	 false 	 undefined 	 undefined
+$24. *succs.Junction.signals 	 false 	 undefined 	 undefined
+$25. *succs.Track.signals 	 false 	 undefined 	 undefined
+$26. Entry.*succs.signals 	 false 	 undefined 	 undefined
+$27. Entry.^succs.signals 	 false 	 undefined 	 undefined
+$28. Entry.signals 	 false 	 undefined 	 undefined
+$29. Entry.succs.signals 	 false 	 undefined 	 undefined
+$30. Entry.~succs.signals 	 false 	 undefined 	 undefined
+$31. Exit.*succs.signals 	 false 	 undefined 	 undefined
+$32. Exit.^succs.signals 	 false 	 undefined 	 undefined
+$33. Exit.signals 	 false 	 undefined 	 undefined
+$34. Exit.succs.signals 	 false 	 undefined 	 undefined
+$35. Exit.~succs.signals 	 false 	 undefined 	 undefined
+$36. Junction.*succs.signals 	 false 	 undefined 	 undefined
+$37. Junction.^succs.signals 	 false 	 undefined 	 undefined
+$38. Junction.signals 	 false 	 undefined 	 undefined
+$39. Junction.succs.signals 	 false 	 undefined 	 undefined
+$40. Junction.~succs.signals 	 false 	 undefined 	 undefined
+$41. Signal 	 false 	 undefined 	 undefined
+$42. Track.*succs.signals 	 false 	 undefined 	 undefined
+$43. Track.^succs.signals 	 false 	 undefined 	 undefined
+$44. Track.signals 	 false 	 undefined 	 undefined
+$45. Track.succs.signals 	 false 	 undefined 	 undefined
+$46. Track.~succs.signals 	 false 	 undefined 	 undefined
+$47. ^succs.Entry.signals 	 false 	 undefined 	 undefined
+$48. ^succs.Exit.signals 	 false 	 undefined 	 undefined
+$49. ^succs.Junction.signals 	 false 	 undefined 	 undefined
+$50. ^succs.Track.signals 	 false 	 undefined 	 undefined
+$51. signals.Semaphore.~signals 	 false 	 undefined 	 undefined
+$52. signals.Signal.~signals 	 false 	 undefined 	 undefined
+$53. signals.Speed.~signals 	 false 	 undefined 	 undefined
+$54. succs.Entry.signals 	 false 	 undefined 	 undefined
+$55. succs.Exit.signals 	 false 	 undefined 	 undefined
+$56. succs.Junction.signals 	 false 	 undefined 	 undefined
+$57. succs.Track.signals 	 false 	 undefined 	 undefined
+$58. ~signals.*succs.Entry 	 false 	 undefined 	 undefined
+$59. ~signals.*succs.Exit 	 false 	 undefined 	 undefined
+$60. ~signals.*succs.Junction 	 false 	 undefined 	 undefined
+$61. ~signals.*succs.Track 	 false 	 undefined 	 undefined
+$62. ~signals.Entry 	 false 	 undefined 	 undefined
+$63. ~signals.Entry.*succs 	 false 	 undefined 	 undefined
+$64. ~signals.Entry.^succs 	 false 	 undefined 	 undefined
+$65. ~signals.Entry.signals 	 false 	 undefined 	 undefined
+$66. ~signals.Entry.succs 	 false 	 undefined 	 undefined
+$67. ~signals.Entry.~succs 	 false 	 undefined 	 undefined
+$68. ~signals.Exit 	 false 	 undefined 	 undefined
+$69. ~signals.Exit.*succs 	 false 	 undefined 	 undefined
+$70. ~signals.Exit.^succs 	 false 	 undefined 	 undefined
+$71. ~signals.Exit.signals 	 false 	 undefined 	 undefined
+$72. ~signals.Exit.succs 	 false 	 undefined 	 undefined
+$73. ~signals.Exit.~succs 	 false 	 undefined 	 undefined
+$74. ~signals.Junction 	 false 	 undefined 	 undefined
+$75. ~signals.Junction.*succs 	 false 	 undefined 	 undefined
+$76. ~signals.Junction.^succs 	 false 	 undefined 	 undefined
+$77. ~signals.Junction.signals 	 false 	 undefined 	 undefined
+$78. ~signals.Junction.succs 	 false 	 undefined 	 undefined
+$79. ~signals.Junction.~succs 	 false 	 undefined 	 undefined
+$80. ~signals.Track 	 false 	 undefined 	 undefined
+$81. ~signals.Track.*succs 	 false 	 undefined 	 undefined
+$82. ~signals.Track.^succs 	 false 	 undefined 	 undefined
+$83. ~signals.Track.signals 	 false 	 undefined 	 undefined
+$84. ~signals.Track.succs 	 false 	 undefined 	 undefined
+$85. ~signals.Track.~succs 	 false 	 undefined 	 undefined
+$86. ~signals.^succs.Entry 	 false 	 undefined 	 undefined
+$87. ~signals.^succs.Exit 	 false 	 undefined 	 undefined
+$88. ~signals.^succs.Junction 	 false 	 undefined 	 undefined
+$89. ~signals.^succs.Track 	 false 	 undefined 	 undefined
+$90. ~signals.succs.Entry 	 false 	 undefined 	 undefined
+$91. ~signals.succs.Exit 	 false 	 undefined 	 undefined
+$92. ~signals.succs.Junction 	 false 	 undefined 	 undefined
+$93. ~signals.succs.Track 	 false 	 undefined 	 undefined
+$94. ~signals.~succs.Entry 	 false 	 undefined 	 undefined
+$95. ~signals.~succs.Exit 	 false 	 undefined 	 undefined
+$96. ~signals.~succs.Junction 	 false 	 undefined 	 undefined
+$97. ~signals.~succs.Track 	 false 	 undefined 	 undefined
+$98. ~succs.Entry.signals 	 false 	 undefined 	 undefined
+$99. ~succs.Exit.signals 	 false 	 undefined 	 undefined
+$100. ~succs.Junction.signals 	 false 	 undefined 	 undefined
+$101. ~succs.Track.signals 	 false 	 undefined 	 undefined
+$102. *succs.univ.signals 	 false 	 undefined 	 undefined
+$103. ^succs.univ.signals 	 false 	 undefined 	 undefined
+$104. signals.univ.signals 	 false 	 undefined 	 undefined
+$105. signals.univ.~signals 	 false 	 undefined 	 undefined
+$106. succs.univ.signals 	 false 	 undefined 	 undefined
+$107. succs.univ.~signals 	 false 	 undefined 	 undefined
+$108. univ.*succs.signals 	 false 	 undefined 	 undefined
+$109. univ.^succs.signals 	 false 	 undefined 	 undefined
+$110. univ.signals 	 false 	 undefined 	 undefined
+$111. univ.succs.signals 	 false 	 undefined 	 undefined
+$112. univ.~succs.signals 	 false 	 undefined 	 undefined
+$113. ~signals.succs.univ 	 false 	 undefined 	 undefined
+$114. ~signals.univ.signals 	 false 	 undefined 	 undefined
+$115. ~signals.univ.succs 	 false 	 undefined 	 undefined
+$116. ~succs.univ.signals 	 false 	 undefined 	 undefined
+$117. *succs.univ.~signals 	 false 	 undefined 	 undefined
+$118. ^succs.univ.~signals 	 false 	 undefined 	 undefined
+$119. ~signals.*succs.univ 	 false 	 undefined 	 undefined
+$120. ~signals.^succs.univ 	 false 	 undefined 	 undefined
+$121. ~signals.univ 	 false 	 undefined 	 undefined
+$122. ~signals.univ.*succs 	 false 	 undefined 	 undefined
+$123. ~signals.univ.^succs 	 false 	 undefined 	 undefined
+$124. ~signals.univ.~succs 	 false 	 undefined 	 undefined
+$125. ~signals.~succs.univ 	 false 	 undefined 	 undefined
+$126. ~succs.univ.~signals 	 false 	 undefined 	 undefined
+$127. univ 	 false 	 undefined 	 undefined
+Expected Completion word: e
+Expected Completion line: e.signals
+Suggestion exists: true
+
+Suggestion in top 1 = false 
+Suggestion in top 5 = true 
+Suggestion in top 10 = true 
+
+Suggestion in top 1 (Alpha) = false
+Suggestion in top 5 (Alpha) = false
+Suggestion in top 10 (Alpha) = false
+
+Suggestion in top 1 (Len) = false
+Suggestion in top 5 (Len) = true
+Suggestion in top 10 (Len) = true
+
+Time taken: 23.697375

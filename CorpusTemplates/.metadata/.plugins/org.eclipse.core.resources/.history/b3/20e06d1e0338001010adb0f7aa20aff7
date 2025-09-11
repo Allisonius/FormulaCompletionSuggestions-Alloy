@@ -1,0 +1,5 @@
+package parser.ast.visitor;
+
+public class TemplateHighVisitor {
+
+}

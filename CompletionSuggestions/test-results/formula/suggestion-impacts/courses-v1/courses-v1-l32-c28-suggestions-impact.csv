@@ -1,0 +1,9 @@
+modelname,filename,position-line,position-character,incompleteline,removedtext,baseline,suggestionedExpression,A_iff_B,A_and_B,not_A_and_B,A_and_not_B,not_A_and_not_B,suggestionImpactTime
+courses-v1,completion/courses-v1-complete.als,32,28,"all c:Course |some teaches.","c","{}","\tall c:Course |some teaches.c",true,true,false,true,false,37.860792
+courses-v1,completion/courses-v1-complete.als,32,28,"all c:Course |some teaches.","c","{}","\tall c:Course |some teaches.Course",true,true,false,true,false,37.860792
+courses-v1,completion/courses-v1-complete.als,32,28,"all c:Course |some teaches.","c","{}","\tall c:Course |some teaches.grades",true,true,false,true,false,37.860792
+courses-v1,completion/courses-v1-complete.als,32,28,"all c:Course |some teaches.","c","{}","\tall c:Course |some teaches.projects",true,true,false,true,false,37.860792
+courses-v1,completion/courses-v1-complete.als,32,28,"all c:Course |some teaches.","c","{}","\tall c:Course |some teaches.~enrolled",true,true,false,true,false,37.860792
+courses-v1,completion/courses-v1-complete.als,32,28,"all c:Course |some teaches.","c","{}","\tall c:Course |some teaches.iden",true,true,false,true,false,37.860792
+courses-v1,completion/courses-v1-complete.als,32,28,"all c:Course |some teaches.","c","{}","\tall c:Course |some teaches.none",true,true,false,true,false,37.860792
+courses-v1,completion/courses-v1-complete.als,32,28,"all c:Course |some teaches.","c","{}","\tall c:Course |some teaches.univ",true,true,false,true,false,37.860792

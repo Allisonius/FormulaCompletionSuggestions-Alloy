@@ -1,0 +1,45 @@
+Model name: train-station-ltl
+Filename: completion/train-station-ltl-complete.als
+Offset: 514
+Term: .
+Vscode Position: line=26 character=29
+----------------------------------
+27 | 	all s : Signal | one signal.
+----------------------------------
+Completion List:
+# Suggestion 	 Exact 	 Syntactic 	 Semantic
+$1. s 	 true 	 undefined 	 undefined
+$2. s.~signal 	 false 	 undefined 	 undefined
+$3. Green 	 false 	 undefined 	 undefined
+$4. Green' 	 false 	 undefined 	 undefined
+$5. Green'.~signal 	 false 	 undefined 	 undefined
+$6. Green.~signal 	 false 	 undefined 	 undefined
+$7. Signal 	 false 	 undefined 	 undefined
+$8. Signal.~signal 	 false 	 undefined 	 undefined
+$9. univ.pos 	 false 	 undefined 	 undefined
+$10. univ.pos' 	 false 	 undefined 	 undefined
+$11. univ.prox 	 false 	 undefined 	 undefined
+$12. univ.signal 	 false 	 undefined 	 undefined
+$13. univ.~pos 	 false 	 undefined 	 undefined
+$14. univ.~prox 	 false 	 undefined 	 undefined
+$15. univ.~signal 	 false 	 undefined 	 undefined
+$16. univ.^prox 	 false 	 undefined 	 undefined
+$17. univ 	 false 	 undefined 	 undefined
+$18. univ.*prox 	 false 	 undefined 	 undefined
+Expected Completion word: s
+Expected Completion line: s
+Suggestion exists: true
+
+Suggestion in top 1 = true 
+Suggestion in top 5 = true 
+Suggestion in top 10 = true 
+
+Suggestion in top 1 (Alpha) = false
+Suggestion in top 5 (Alpha) = true
+Suggestion in top 10 (Alpha) = true
+
+Suggestion in top 1 (Len) = true
+Suggestion in top 5 (Len) = true
+Suggestion in top 10 (Len) = true
+
+Time taken: 24.453542

@@ -1,0 +1,36 @@
+Model name: courses-v1
+Filename: completion/courses-v1-complete.als
+Offset: 1487
+Term: .
+Vscode Position: line=67 character=15
+----------------------------------
+68 | 	Course.grades.
+----------------------------------
+Completion List:
+# Suggestion 	 Exact 	 Syntactic 	 Semantic
+$1. Grade 	 true 	 true 	 true
+$2. univ.enrolled 	 false 	 false 	 false
+$3. univ.grades 	 false 	 false 	 false
+$4. univ.projects 	 false 	 undefined 	 undefined
+$5. univ.teaches 	 false 	 false 	 false
+$6. univ.~enrolled 	 false 	 false 	 false
+$7. univ.~projects 	 false 	 undefined 	 undefined
+$8. univ.~teaches 	 false 	 false 	 false
+$9. univ 	 false 	 false 	 false
+Expected Completion word: Grade
+Expected Completion line: Grade in Student
+Suggestion exists: true
+
+Suggestion in top 1 = true 
+Suggestion in top 5 = true 
+Suggestion in top 10 = true 
+
+Suggestion in top 1 (Alpha) = true
+Suggestion in top 5 (Alpha) = true
+Suggestion in top 10 (Alpha) = true
+
+Suggestion in top 1 (Len) = false
+Suggestion in top 5 (Len) = true
+Suggestion in top 10 (Len) = true
+
+Time taken: 28.903542

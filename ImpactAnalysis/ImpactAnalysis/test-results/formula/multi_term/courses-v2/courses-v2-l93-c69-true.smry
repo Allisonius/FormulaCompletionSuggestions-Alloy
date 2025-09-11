@@ -1,0 +1,51 @@
+Model name: courses-v2
+Filename: completion/courses-v2-complete.als
+Offset: 2465
+Term: .
+Vscode Position: line=92 character=69
+----------------------------------
+93 | 	all c : Course , p : c.projects , disj x , y : (Person <: projects).
+----------------------------------
+Completion List:
+# Suggestion 	 Exact 	 Syntactic 	 Semantic
+$1. p 	 true 	 undefined 	 undefined
+$2. p.~projects 	 false 	 undefined 	 undefined
+$3. ~projects.c 	 false 	 undefined 	 undefined
+$4. Project 	 false 	 undefined 	 undefined
+$5. Project.~projects 	 false 	 undefined 	 undefined
+$6. ~projects.Course 	 false 	 undefined 	 undefined
+$7. ~projects.Person 	 false 	 undefined 	 undefined
+$8. ~projects.Professor 	 false 	 undefined 	 undefined
+$9. ~projects.Student 	 false 	 undefined 	 undefined
+$10. univ.enrolled 	 false 	 undefined 	 undefined
+$11. univ.grades 	 false 	 undefined 	 undefined
+$12. univ.projects 	 false 	 undefined 	 undefined
+$13. univ.teaches 	 false 	 undefined 	 undefined
+$14. ~projects.enrolled 	 false 	 undefined 	 undefined
+$15. ~projects.grades 	 false 	 undefined 	 undefined
+$16. ~projects.teaches 	 false 	 undefined 	 undefined
+$17. univ.~enrolled 	 false 	 undefined 	 undefined
+$18. univ.~projects 	 false 	 undefined 	 undefined
+$19. univ.~teaches 	 false 	 undefined 	 undefined
+$20. ~projects 	 false 	 undefined 	 undefined
+$21. ~projects.univ 	 false 	 undefined 	 undefined
+$22. ~projects.~enrolled 	 false 	 undefined 	 undefined
+$23. ~projects.~teaches 	 false 	 undefined 	 undefined
+$24. univ 	 false 	 undefined 	 undefined
+Expected Completion word: p
+Expected Completion line: p | some c.grades[x] and some c.grades[y] implies c.grades[x] in c.grades[y].(prev + iden + next)
+Suggestion exists: true
+
+Suggestion in top 1 = true 
+Suggestion in top 5 = true 
+Suggestion in top 10 = true 
+
+Suggestion in top 1 (Alpha) = false
+Suggestion in top 5 (Alpha) = false
+Suggestion in top 10 (Alpha) = false
+
+Suggestion in top 1 (Len) = true
+Suggestion in top 5 (Len) = true
+Suggestion in top 10 (Len) = true
+
+Time taken: 17.393458

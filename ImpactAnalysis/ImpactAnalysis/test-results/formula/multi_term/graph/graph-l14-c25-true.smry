@@ -1,0 +1,105 @@
+Model name: graph
+Filename: completion/graph-complete.als
+Offset: 140
+Term:  in 
+Vscode Position: line=13 character=25
+----------------------------------
+14 | 	all n : Node | n not in 
+----------------------------------
+Completion List:
+# Suggestion 	 Exact 	 Syntactic 	 Semantic
+$1. *adj.n 	 false 	 undefined 	 undefined
+$2. *adj.n.*adj 	 false 	 undefined 	 undefined
+$3. *adj.n.^adj 	 false 	 undefined 	 undefined
+$4. *adj.n.adj 	 false 	 undefined 	 undefined
+$5. *adj.n.~adj 	 false 	 undefined 	 undefined
+$6. ^adj.n 	 false 	 undefined 	 undefined
+$7. ^adj.n.*adj 	 false 	 undefined 	 undefined
+$8. ^adj.n.^adj 	 false 	 undefined 	 undefined
+$9. ^adj.n.adj 	 false 	 undefined 	 undefined
+$10. ^adj.n.~adj 	 false 	 undefined 	 undefined
+$11. adj.n 	 false 	 undefined 	 undefined
+$12. adj.n.*adj 	 false 	 undefined 	 undefined
+$13. adj.n.^adj 	 false 	 undefined 	 undefined
+$14. adj.n.adj 	 false 	 undefined 	 undefined
+$15. adj.n.~adj 	 false 	 undefined 	 undefined
+$16. n 	 false 	 undefined 	 undefined
+$17. n.*adj 	 false 	 undefined 	 undefined
+$18. n.^adj 	 true 	 undefined 	 undefined
+$19. n.adj 	 false 	 undefined 	 undefined
+$20. n.~adj 	 false 	 undefined 	 undefined
+$21. ~adj.n 	 false 	 undefined 	 undefined
+$22. ~adj.n.*adj 	 false 	 undefined 	 undefined
+$23. ~adj.n.^adj 	 false 	 undefined 	 undefined
+$24. ~adj.n.adj 	 false 	 undefined 	 undefined
+$25. ~adj.n.~adj 	 false 	 undefined 	 undefined
+$26. *adj.Node 	 false 	 undefined 	 undefined
+$27. *adj.Node.*adj 	 false 	 undefined 	 undefined
+$28. *adj.Node.^adj 	 false 	 undefined 	 undefined
+$29. *adj.Node.adj 	 false 	 undefined 	 undefined
+$30. *adj.Node.~adj 	 false 	 undefined 	 undefined
+$31. Node 	 false 	 undefined 	 undefined
+$32. Node.*adj 	 false 	 undefined 	 undefined
+$33. Node.^adj 	 false 	 undefined 	 undefined
+$34. Node.adj 	 false 	 undefined 	 undefined
+$35. Node.~adj 	 false 	 undefined 	 undefined
+$36. ^adj.Node 	 false 	 undefined 	 undefined
+$37. ^adj.Node.*adj 	 false 	 undefined 	 undefined
+$38. ^adj.Node.^adj 	 false 	 undefined 	 undefined
+$39. ^adj.Node.adj 	 false 	 undefined 	 undefined
+$40. ^adj.Node.~adj 	 false 	 undefined 	 undefined
+$41. adj.Node 	 false 	 undefined 	 undefined
+$42. adj.Node.*adj 	 false 	 undefined 	 undefined
+$43. adj.Node.^adj 	 false 	 undefined 	 undefined
+$44. adj.Node.adj 	 false 	 undefined 	 undefined
+$45. adj.Node.~adj 	 false 	 undefined 	 undefined
+$46. ~adj.Node 	 false 	 undefined 	 undefined
+$47. ~adj.Node.*adj 	 false 	 undefined 	 undefined
+$48. ~adj.Node.^adj 	 false 	 undefined 	 undefined
+$49. ~adj.Node.adj 	 false 	 undefined 	 undefined
+$50. ~adj.Node.~adj 	 false 	 undefined 	 undefined
+$51. *adj.univ.adj 	 false 	 undefined 	 undefined
+$52. ^adj.univ.adj 	 false 	 undefined 	 undefined
+$53. adj.univ 	 false 	 undefined 	 undefined
+$54. adj.univ.*adj 	 false 	 undefined 	 undefined
+$55. adj.univ.^adj 	 false 	 undefined 	 undefined
+$56. adj.univ.adj 	 false 	 undefined 	 undefined
+$57. adj.univ.~adj 	 false 	 undefined 	 undefined
+$58. univ.adj 	 false 	 undefined 	 undefined
+$59. ~adj.univ.adj 	 false 	 undefined 	 undefined
+$60. *adj.univ.~adj 	 false 	 undefined 	 undefined
+$61. ^adj.univ.~adj 	 false 	 undefined 	 undefined
+$62. univ.~adj 	 false 	 undefined 	 undefined
+$63. ~adj.univ 	 false 	 undefined 	 undefined
+$64. ~adj.univ.*adj 	 false 	 undefined 	 undefined
+$65. ~adj.univ.^adj 	 false 	 undefined 	 undefined
+$66. ~adj.univ.~adj 	 false 	 undefined 	 undefined
+$67. *adj.univ.^adj 	 false 	 undefined 	 undefined
+$68. ^adj.univ 	 false 	 undefined 	 undefined
+$69. ^adj.univ.*adj 	 false 	 undefined 	 undefined
+$70. ^adj.univ.^adj 	 false 	 undefined 	 undefined
+$71. univ.^adj 	 false 	 undefined 	 undefined
+$72. *adj.univ 	 false 	 undefined 	 undefined
+$73. *adj.univ.*adj 	 false 	 undefined 	 undefined
+$74. univ.*adj 	 false 	 undefined 	 undefined
+$75. Int 	 false 	 undefined 	 undefined
+$76. String 	 false 	 undefined 	 undefined
+$77. none 	 false 	 undefined 	 undefined
+$78. univ 	 false 	 undefined 	 undefined
+Expected Completion word: n
+Expected Completion line: n.^adj
+Suggestion exists: true
+
+Suggestion in top 1 = false 
+Suggestion in top 5 = false 
+Suggestion in top 10 = false 
+
+Suggestion in top 1 (Alpha) = false
+Suggestion in top 5 (Alpha) = false
+Suggestion in top 10 (Alpha) = false
+
+Suggestion in top 1 (Len) = true
+Suggestion in top 5 (Len) = true
+Suggestion in top 10 (Len) = true
+
+Time taken: 20.37125

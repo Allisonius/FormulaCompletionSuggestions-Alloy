@@ -1,0 +1,8 @@
+modelname,filename,position-line,position-character,incompleteline,removedtext,baseline,suggestionedExpression,A_iff_B,A_and_B,not_A_and_B,A_and_not_B,not_A_and_not_B,suggestionImpactTime
+class-diagram,completion/class-diagram-complete.als,14,25,"all c: Class | c !in c.","^ext","{}","  all c: Class | c !in c.ext",true,true,false,true,false,4.612417
+class-diagram,completion/class-diagram-complete.als,14,25,"all c: Class | c !in c.","^ext","{}","  all c: Class | c !in c.~ext",true,true,false,true,false,4.612417
+class-diagram,completion/class-diagram-complete.als,14,25,"all c: Class | c !in c.","^ext","{}","  all c: Class | c !in c.^ext",true,true,false,true,false,4.612417
+class-diagram,completion/class-diagram-complete.als,14,25,"all c: Class | c !in c.","^ext","{}","  all c: Class | c !in c.*ext",false,false,false,true,false,4.612417
+class-diagram,completion/class-diagram-complete.als,14,25,"all c: Class | c !in c.","^ext","{}","  all c: Class | c !in c.iden",false,false,false,true,false,4.612417
+class-diagram,completion/class-diagram-complete.als,14,25,"all c: Class | c !in c.","^ext","{}","  all c: Class | c !in c.none",,,,,,4.612417
+class-diagram,completion/class-diagram-complete.als,14,25,"all c: Class | c !in c.","^ext","{}","  all c: Class | c !in c.univ",,,,,,4.612417

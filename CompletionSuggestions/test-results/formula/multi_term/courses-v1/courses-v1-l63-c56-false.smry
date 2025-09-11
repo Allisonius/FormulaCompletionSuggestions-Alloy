@@ -1,0 +1,54 @@
+Model name: courses-v1
+Filename: completion/courses-v1-complete.als
+Offset: 1398
+Term: .
+Vscode Position: line=62 character=56
+----------------------------------
+63 | 	all p: Person | no ((p.teaches.~teaches)-p) & enrolled.
+----------------------------------
+Completion List:
+# Suggestion 	 Exact 	 Syntactic 	 Semantic
+$1. ~teaches.p 	 false 	 undefined 	 undefined
+$2. Course 	 false 	 undefined 	 undefined
+$3. Course.grades 	 false 	 undefined 	 undefined
+$4. Course.projects 	 false 	 undefined 	 undefined
+$5. Course.~enrolled 	 false 	 undefined 	 undefined
+$6. Course.~teaches 	 false 	 undefined 	 undefined
+$7. grades.Grade 	 false 	 undefined 	 undefined
+$8. projects.Project 	 false 	 undefined 	 undefined
+$9. ~teaches.Person 	 false 	 undefined 	 undefined
+$10. ~teaches.Professor 	 false 	 undefined 	 undefined
+$11. ~teaches.Student 	 false 	 undefined 	 undefined
+$12. grades 	 false 	 undefined 	 undefined
+$13. grades.univ 	 false 	 undefined 	 undefined
+$14. projects 	 false 	 undefined 	 undefined
+$15. projects.univ 	 false 	 undefined 	 undefined
+$16. univ.enrolled 	 false 	 undefined 	 undefined
+$17. univ.grades 	 false 	 undefined 	 undefined
+$18. univ.projects 	 false 	 undefined 	 undefined
+$19. univ.teaches 	 false 	 undefined 	 undefined
+$20. ~teaches.enrolled 	 false 	 undefined 	 undefined
+$21. ~teaches.projects 	 false 	 undefined 	 undefined
+$22. univ.~enrolled 	 false 	 undefined 	 undefined
+$23. univ.~projects 	 false 	 undefined 	 undefined
+$24. univ.~teaches 	 false 	 undefined 	 undefined
+$25. ~teaches 	 false 	 undefined 	 undefined
+$26. ~teaches.univ 	 false 	 undefined 	 undefined
+$27. univ 	 false 	 undefined 	 undefined
+Expected Completion word: 
+Expected Completion line: (p.teaches)
+Suggestion exists: false
+
+Suggestion in top 1 = false 
+Suggestion in top 5 = false 
+Suggestion in top 10 = false 
+
+Suggestion in top 1 (Alpha) = false
+Suggestion in top 5 (Alpha) = false
+Suggestion in top 10 (Alpha) = false
+
+Suggestion in top 1 (Len) = false
+Suggestion in top 5 (Len) = false
+Suggestion in top 10 (Len) = false
+
+Time taken: 17.202709

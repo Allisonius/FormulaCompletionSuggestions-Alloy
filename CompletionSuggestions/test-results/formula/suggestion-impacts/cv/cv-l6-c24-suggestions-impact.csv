@@ -1,0 +1,11 @@
+modelname,filename,position-line,position-character,incompleteline,removedtext,baseline,suggestionedExpression,A_iff_B,A_and_B,not_A_and_B,A_and_not_B,not_A_and_not_B,suggestionImpactTime
+cv,completion/cv-sig.als,6,24,"sig Institution extends","Source {}","{}","sig Institution extends Id",,,,,,3.069709
+cv,completion/cv-sig.als,6,24,"sig Institution extends","Source {}","{}","sig Institution extends Source",,,,,,3.069709
+cv,completion/cv-sig.als,6,24,"sig Institution extends","Source {}","{}","sig Institution extends User",,,,,,3.069709
+cv,completion/cv-sig.als,6,24,"sig Institution extends","Source {}","{}","sig Institution extends Work",,,,,,3.069709
+cv,completion/cv-sig.als,6,24,"sig Institution extends","Source {}","{}","sig Institution extends Int",,,,,,3.069709
+cv,completion/cv-sig.als,6,24,"sig Institution extends","Source {}","{}","sig Institution extends String",,,,,,3.069709
+cv,completion/cv-sig.als,6,24,"sig Institution extends","Source {}","{}","sig Institution extends seq/Int",,,,,,3.069709
+cv,completion/cv-sig.als,6,24,"sig Institution extends","Source {}","{}","sig Institution extends iden",,,,,,3.069709
+cv,completion/cv-sig.als,6,24,"sig Institution extends","Source {}","{}","sig Institution extends none",,,,,,3.069709
+cv,completion/cv-sig.als,6,24,"sig Institution extends","Source {}","{}","sig Institution extends univ",,,,,,3.069709

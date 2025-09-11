@@ -1,0 +1,57 @@
+hits: 75 (30.364372469635626)
+sig <: var
+
+hits: 69 (27.93522267206478)
+var <: (var.rel)
+
+hits: 15 (6.0728744939271255)
+var <: (rel.var)
+
+hits: 13 (5.263157894736842)
+(var.rel) <: (var.rel)
+
+hits: 9 (3.643724696356275)
+sig <: rel
+
+hits: 7 (2.834008097165992)
+(var.rel) <: sig
+(var.rel) <: rel
+
+hits: 6 (2.42914979757085)
+(sig - sig) <: (var.rel)
+
+hits: 5 (2.0242914979757085)
+var <: ((sig.rel).var)
+
+hits: 4 (1.6194331983805668)
+var <: var
+var <: ((^rel) :> var)
+
+hits: 3 (1.214574898785425)
+(sig - var) <: (var.rel)
+var <: rel
+
+hits: 2 (0.8097165991902834)
+((rel & (sig->sig)).sig) <: rel
+(var.rel) <: ((var.rel) :> (var.rel))
+(var + var) <: (rel.var)
+var <: iden
+var <: sig
+var <: (((var.(sig.rel)).rel).rel)
+sig <: iden
+((var.rel) - var) <: (var.rel)
+
+hits: 1 (0.4048582995951417)
+var <: ((sig.rel) - (var->var))
+sig <: (rel.var)
+(var.(rel - rel)) <: ((var.rel) :> (var.(rel - rel)))
+fun_call[] <: (var.rel)
+(((var.rel).sig) - var) <: (var.rel)
+((var.rel).fun_call[]) <: rel
+(((var.rel).sig) - ((var.rel).sig)) <: (var.rel)
+(var.(sig + sig)) <: var
+(sig + sig) <: rel
+var <: (rel.sig)
+(var.(*var)) <: var
+
+

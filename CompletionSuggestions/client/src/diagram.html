@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>My Diagram</title>
+    <script src="https://unpkg.com/gojs/release/go-debug.js"></script>
+  </head>
+  <body>
+    <div id="myDiagramDiv" style="width: 100%; height: 500px"></div>
+    <div>
+      <button onclick="greyOut()">Grey Out</button>
+      <button onclick="restoreColor()">Restore</button>
+    </div>
+
+    <script>
+      const diagram = new go.Diagram("myDiagramDiv", {
+        // enable Ctrl-Z to undo and Ctrl-Y to redo
+        "undoManager.isEnabled": false,
+      });
+      diagram.nodeTemplate = new go.Node("Auto").add(
+        // the Shape will be sized to go around the TextBlock
+        new go.Shape("RoundedRectangle", {
+          name: "SHAPE",
+        })
+          // Shape.fill is bound to Node.data.color
+          .bind("fill", "color"),
+        new go.TextBlock({ margin: 8 }) // Specify a margin to add some room around the text
+          // TextBlock.text is bound to Node.data.text
+          .bind("text")
+      );
+
+      diagram.linkTemplate = new go.Link(
+        { routing: go.Link.Orthogonal, corner: 5 },
+        { relinkableFrom: true, relinkableTo: true }
+      ).add(
+        new go.Shape({ name: "LINK" }), // the Shape is the only element of the Link Panel
+        new go.Shape({ toArrow: "Standard", name: "LINK" }) // the arrowhead
+      );
+
+      // the Model holds only the essential information describing the diagram
+      diagram.model = new go.GraphLinksModel(
+        [
+          // a JavaScript Array of JavaScript objects, one per node;
+          // the "color" property is added specifically for this app
+          { key: "person", text: "Person", color: "lightblue", isGroup: true },
+          { key: "p1", text: "P1", color: "orange", group: "person" },
+          { key: "p2", text: "P2", color: "lightgreen", group: "person" },
+          { key: "p3", text: "P3", color: "lightyellow", group: "person" },
+          { key: "p4", text: "P4", color: "pink" },
+        ],
+        [
+          // a JavaScript Array of JavaScript objects, one per link
+          { from: "p1", to: "p2", shouldHighLight: true },
+          { from: "p2", to: "p3" },
+          { from: "p3", to: "p4" },
+        ]
+      );
+
+      function greyOut() {
+        diagram.startTransaction("grey out");
+        diagram.nodes.each(function (node) {
+          // if (node.data.key === "p2") {
+          //   node.opacity = 0.2;
+          // }
+          const shape = node.findObject("SHAPE");
+          // If there was a GraphObject in the node named SHAPE, then set its fill to red:
+          if (shape !== null) {
+            shape.fill = "grey";
+          }
+        });
+        diagram.links.each(function (link) {
+          if (link.data.shouldHighLight) {
+            const shape = link.findObject("LINK");
+            shape.stroke = "red";
+          }
+        });
+        diagram.commitTransaction("grey out");
+      }
+
+      function restoreColor() {
+        diagram.startTransaction("restore color");
+        diagram.nodes.each(function (node) {
+          const shape = node.findObject("SHAPE");
+          // If there was a GraphObject in the node named SHAPE, then set its fill to red:
+          if (shape !== null) {
+            shape.fill = node.data.color;
+          }
+        });
+        diagram.links.each(function (link) {
+          const shape = link.findObject("LINK");
+          shape.stroke = "black";
+        });
+        diagram.commitTransaction("restore color");
+      }
+    </script>
+  </body>
+</html>

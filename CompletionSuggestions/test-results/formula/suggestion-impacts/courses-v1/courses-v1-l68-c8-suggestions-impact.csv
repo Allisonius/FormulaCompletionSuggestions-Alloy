@@ -1,0 +1,8 @@
+modelname,filename,position-line,position-character,incompleteline,removedtext,baseline,suggestionedExpression,A_iff_B,A_and_B,not_A_and_B,A_and_not_B,not_A_and_not_B,suggestionImpactTime
+courses-v1,completion/courses-v1-complete.als,68,8,"Course.","grades.Grade in Student","{}","\tCourse.grades",,,,,,9.70425
+courses-v1,completion/courses-v1-complete.als,68,8,"Course.","grades.Grade in Student","{}","\tCourse.projects",,,,,,9.70425
+courses-v1,completion/courses-v1-complete.als,68,8,"Course.","grades.Grade in Student","{}","\tCourse.~enrolled",,,,,,9.70425
+courses-v1,completion/courses-v1-complete.als,68,8,"Course.","grades.Grade in Student","{}","\tCourse.~teaches",,,,,,9.70425
+courses-v1,completion/courses-v1-complete.als,68,8,"Course.","grades.Grade in Student","{}","\tCourse.iden",,,,,,9.70425
+courses-v1,completion/courses-v1-complete.als,68,8,"Course.","grades.Grade in Student","{}","\tCourse.none",,,,,,9.70425
+courses-v1,completion/courses-v1-complete.als,68,8,"Course.","grades.Grade in Student","{}","\tCourse.univ",,,,,,9.70425

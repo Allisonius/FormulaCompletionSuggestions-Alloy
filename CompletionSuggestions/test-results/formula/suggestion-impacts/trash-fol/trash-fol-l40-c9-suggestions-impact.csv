@@ -1,0 +1,7 @@
+modelname,filename,position-line,position-character,incompleteline,removedtext,baseline,suggestionedExpression,A_iff_B,A_and_B,not_A_and_B,A_and_not_B,not_A_and_not_B,suggestionImpactTime
+trash-fol,completion/trash-fol-complete.als,40,9,"no link.","link","{}","\tno link.File",true,true,false,true,false,8.555792
+trash-fol,completion/trash-fol-complete.als,40,9,"no link.","link","{}","\tno link.Protected",true,true,false,true,false,8.555792
+trash-fol,completion/trash-fol-complete.als,40,9,"no link.","link","{}","\tno link.Trash",true,true,false,true,false,8.555792
+trash-fol,completion/trash-fol-complete.als,40,9,"no link.","link","{}","\tno link.iden",true,true,false,true,false,8.555792
+trash-fol,completion/trash-fol-complete.als,40,9,"no link.","link","{}","\tno link.none",true,true,false,false,false,8.555792
+trash-fol,completion/trash-fol-complete.als,40,9,"no link.","link","{}","\tno link.univ",true,true,false,true,false,8.555792

@@ -1,0 +1,7 @@
+modelname,filename,position-line,position-character,incompleteline,removedtext,baseline,suggestionedExpression,A_iff_B,A_and_B,not_A_and_B,A_and_not_B,not_A_and_not_B,suggestionImpactTime
+cv,completion/cv-complete.als,16,34,"all u : User | u.visible in u.","profile","{}","    all u : User | u.visible in u.profile",true,true,false,true,false,9.580291
+cv,completion/cv-complete.als,16,34,"all u : User | u.visible in u.","profile","{}","    all u : User | u.visible in u.visible",true,true,false,false,false,9.580291
+cv,completion/cv-complete.als,16,34,"all u : User | u.visible in u.","profile","{}","    all u : User | u.visible in u.~source",true,true,false,true,false,9.580291
+cv,completion/cv-complete.als,16,34,"all u : User | u.visible in u.","profile","{}","    all u : User | u.visible in u.iden",true,true,false,true,false,9.580291
+cv,completion/cv-complete.als,16,34,"all u : User | u.visible in u.","profile","{}","    all u : User | u.visible in u.none",,,,,,9.580291
+cv,completion/cv-complete.als,16,34,"all u : User | u.visible in u.","profile","{}","    all u : User | u.visible in u.univ",,,,,,9.580291

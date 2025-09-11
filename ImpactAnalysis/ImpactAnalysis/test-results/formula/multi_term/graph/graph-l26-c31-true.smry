@@ -1,0 +1,49 @@
+Model name: graph
+Filename: completion/graph-complete.als
+Offset: 279
+Term:  + 
+Vscode Position: line=25 character=31
+----------------------------------
+26 | 	all n:Node | Node = n.*(adj + 
+----------------------------------
+Completion List:
+# Suggestion 	 Exact 	 Syntactic 	 Semantic
+$1. *adj.n 	 false 	 undefined 	 undefined
+$2. ^adj.n 	 false 	 undefined 	 undefined
+$3. adj.n 	 false 	 undefined 	 undefined
+$4. n 	 false 	 undefined 	 undefined
+$5. ~adj.n 	 false 	 undefined 	 undefined
+$6. *adj.Node 	 false 	 undefined 	 undefined
+$7. Node 	 false 	 undefined 	 undefined
+$8. ^adj.Node 	 false 	 undefined 	 undefined
+$9. adj.Node 	 false 	 undefined 	 undefined
+$10. ~adj.Node 	 false 	 undefined 	 undefined
+$11. adj 	 true 	 undefined 	 undefined
+$12. adj.univ 	 false 	 undefined 	 undefined
+$13. ~adj 	 false 	 undefined 	 undefined
+$14. ~adj.univ 	 false 	 undefined 	 undefined
+$15. ^adj 	 false 	 undefined 	 undefined
+$16. ^adj.univ 	 false 	 undefined 	 undefined
+$17. *adj 	 false 	 undefined 	 undefined
+$18. *adj.univ 	 false 	 undefined 	 undefined
+$19. Int 	 false 	 undefined 	 undefined
+$20. String 	 false 	 undefined 	 undefined
+$21. none 	 false 	 undefined 	 undefined
+$22. univ 	 false 	 undefined 	 undefined
+Expected Completion word: ~adj
+Expected Completion line: ~adj)
+Suggestion exists: true
+
+Suggestion in top 1 = false 
+Suggestion in top 5 = false 
+Suggestion in top 10 = false 
+
+Suggestion in top 1 (Alpha) = false
+Suggestion in top 5 (Alpha) = false
+Suggestion in top 10 (Alpha) = true
+
+Suggestion in top 1 (Len) = false
+Suggestion in top 5 (Len) = true
+Suggestion in top 10 (Len) = true
+
+Time taken: 9.939417

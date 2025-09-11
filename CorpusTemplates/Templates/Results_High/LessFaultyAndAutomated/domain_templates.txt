@@ -1,0 +1,41 @@
+hits: 93 (37.65182186234818)
+name <: name
+
+hits: 86 (34.81781376518219)
+name <: (name.name)
+
+hits: 14 (5.668016194331984)
+(name.name) <: name
+
+hits: 13 (5.263157894736842)
+(name.name) <: (name.name)
+
+hits: 9 (3.643724696356275)
+(name - name) <: (name.name)
+
+hits: 5 (2.0242914979757085)
+name <: ((name.name).name)
+
+hits: 4 (1.6194331983805668)
+name <: ((^name) :> name)
+name <: iden
+
+hits: 2 (0.8097165991902834)
+name <: (((name.(name.name)).name).name)
+((name & (name->name)).name) <: name
+((name.name) - name) <: (name.name)
+(name.name) <: ((name.name) :> (name.name))
+(name + name) <: (name.name)
+
+hits: 1 (0.4048582995951417)
+(name.(name - name)) <: ((name.name) :> (name.(name - name)))
+(name + name) <: name
+(((name.name).name) - ((name.name).name)) <: (name.name)
+(name.(name + name)) <: name
+((name.name).fun_call[]) <: name
+(name.(*name)) <: name
+name <: ((name.name) - (name->name))
+(((name.name).name) - name) <: (name.name)
+fun_call[] <: (name.name)
+
+

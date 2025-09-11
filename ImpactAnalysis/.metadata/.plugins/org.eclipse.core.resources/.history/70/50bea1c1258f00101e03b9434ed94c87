@@ -1,0 +1,10 @@
+modelname,filename,position-line,position-character,incompleteline,removedtext,baseline,suggestionedExpression,A_iff_B,A_and_B,not_A_and_B,A_and_not_B,not_A_and_not_B,suggestionImpactTime
+handshake,completion/handshake.als,8,32,"one sig Jocelyn, Hilary extends","Person {}","{}","one sig Jocelyn, Hilary extends Hilary",,,,,,9.455666
+handshake,completion/handshake.als,8,32,"one sig Jocelyn, Hilary extends","Person {}","{}","one sig Jocelyn, Hilary extends Jocelyn",,,,,,9.455666
+handshake,completion/handshake.als,8,32,"one sig Jocelyn, Hilary extends","Person {}","{}","one sig Jocelyn, Hilary extends Person",,,,,,9.455666
+handshake,completion/handshake.als,8,32,"one sig Jocelyn, Hilary extends","Person {}","{}","one sig Jocelyn, Hilary extends Int",,,,,,9.455666
+handshake,completion/handshake.als,8,32,"one sig Jocelyn, Hilary extends","Person {}","{}","one sig Jocelyn, Hilary extends String",,,,,,9.455666
+handshake,completion/handshake.als,8,32,"one sig Jocelyn, Hilary extends","Person {}","{}","one sig Jocelyn, Hilary extends seq/Int",,,,,,9.455666
+handshake,completion/handshake.als,8,32,"one sig Jocelyn, Hilary extends","Person {}","{}","one sig Jocelyn, Hilary extends iden",,,,,,9.455666
+handshake,completion/handshake.als,8,32,"one sig Jocelyn, Hilary extends","Person {}","{}","one sig Jocelyn, Hilary extends none",,,,,,9.455666
+handshake,completion/handshake.als,8,32,"one sig Jocelyn, Hilary extends","Person {}","{}","one sig Jocelyn, Hilary extends univ",,,,,,9.455666

@@ -1,0 +1,12 @@
+modelname,filename,position-line,position-character,incompleteline,removedtext,baseline,suggestionedExpression,A_iff_B,A_and_B,not_A_and_B,A_and_not_B,not_A_and_not_B,suggestionImpactTime
+bempl,completion/bempl-sig.als,2,27,"one sig secure_lab extends","Room {}","{}","one sig secure_lab extends Employee",,,,,,5.175833
+bempl,completion/bempl-sig.als,2,27,"one sig secure_lab extends","Room {}","{}","one sig secure_lab extends Key",,,,,,5.175833
+bempl,completion/bempl-sig.als,2,27,"one sig secure_lab extends","Room {}","{}","one sig secure_lab extends Person",,,,,,5.175833
+bempl,completion/bempl-sig.als,2,27,"one sig secure_lab extends","Room {}","{}","one sig secure_lab extends Researcher",,,,,,5.175833
+bempl,completion/bempl-sig.als,2,27,"one sig secure_lab extends","Room {}","{}","one sig secure_lab extends Room",,,,,,5.175833
+bempl,completion/bempl-sig.als,2,27,"one sig secure_lab extends","Room {}","{}","one sig secure_lab extends Int",,,,,,5.175833
+bempl,completion/bempl-sig.als,2,27,"one sig secure_lab extends","Room {}","{}","one sig secure_lab extends String",,,,,,5.175833
+bempl,completion/bempl-sig.als,2,27,"one sig secure_lab extends","Room {}","{}","one sig secure_lab extends seq/Int",,,,,,5.175833
+bempl,completion/bempl-sig.als,2,27,"one sig secure_lab extends","Room {}","{}","one sig secure_lab extends iden",,,,,,5.175833
+bempl,completion/bempl-sig.als,2,27,"one sig secure_lab extends","Room {}","{}","one sig secure_lab extends none",,,,,,5.175833
+bempl,completion/bempl-sig.als,2,27,"one sig secure_lab extends","Room {}","{}","one sig secure_lab extends univ",,,,,,5.175833

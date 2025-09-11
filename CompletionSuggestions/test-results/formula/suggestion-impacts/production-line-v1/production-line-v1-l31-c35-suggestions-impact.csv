@@ -1,0 +1,9 @@
+modelname,filename,position-line,position-character,incompleteline,removedtext,baseline,suggestionedExpression,A_iff_B,A_and_B,not_A_and_B,A_and_not_B,not_A_and_not_B,suggestionImpactTime
+production-line-v1,completion/production-line-v1-complete.als,31,35,"all c : Component | c not in c.","^parts","{}","    all c : Component | c not in c.parts",true,true,false,true,false,11.233542
+production-line-v1,completion/production-line-v1-complete.als,31,35,"all c : Component | c not in c.","^parts","{}","    all c : Component | c not in c.position",,,,,,11.233542
+production-line-v1,completion/production-line-v1-complete.als,31,35,"all c : Component | c not in c.","^parts","{}","    all c : Component | c not in c.~parts",true,true,false,true,false,11.233542
+production-line-v1,completion/production-line-v1-complete.als,31,35,"all c : Component | c not in c.","^parts","{}","    all c : Component | c not in c.^parts",true,true,false,true,false,11.233542
+production-line-v1,completion/production-line-v1-complete.als,31,35,"all c : Component | c not in c.","^parts","{}","    all c : Component | c not in c.*parts",true,true,false,true,false,11.233542
+production-line-v1,completion/production-line-v1-complete.als,31,35,"all c : Component | c not in c.","^parts","{}","    all c : Component | c not in c.iden",true,true,false,true,false,11.233542
+production-line-v1,completion/production-line-v1-complete.als,31,35,"all c : Component | c not in c.","^parts","{}","    all c : Component | c not in c.none",,,,,,11.233542
+production-line-v1,completion/production-line-v1-complete.als,31,35,"all c : Component | c not in c.","^parts","{}","    all c : Component | c not in c.univ",,,,,,11.233542

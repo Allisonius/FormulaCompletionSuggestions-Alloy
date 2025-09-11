@@ -1,0 +1,55 @@
+Model name: fsm
+Filename: completion/fsm.als
+Offset: 580
+Term: .
+Vscode Position: line=33 character=16
+----------------------------------
+34 |   no (FSM.stop).
+----------------------------------
+Completion List:
+# Suggestion 	 Exact 	 Syntactic 	 Semantic
+$1. *transition.State 	 false 	 false 	 false
+$2. ^transition.State 	 false 	 false 	 false
+$3. transition.State 	 false 	 false 	 false
+$4. ~start.FSM 	 false 	 false 	 false
+$5. ~stop.FSM 	 false 	 false 	 false
+$6. ~transition.State 	 false 	 false 	 false
+$7. transition 	 true 	 true 	 true
+$8. transition.univ 	 false 	 false 	 false
+$9. transition.~start 	 false 	 false 	 false
+$10. transition.~stop 	 false 	 false 	 false
+$11. ~start.stop 	 false 	 false 	 false
+$12. ~stop.start 	 false 	 false 	 false
+$13. *transition.~start 	 false 	 false 	 false
+$14. *transition.~stop 	 false 	 false 	 false
+$15. ^transition.~start 	 false 	 false 	 false
+$16. ^transition.~stop 	 false 	 false 	 false
+$17. ~start 	 false 	 false 	 false
+$18. ~start.univ 	 false 	 false 	 false
+$19. ~stop 	 false 	 false 	 false
+$20. ~stop.univ 	 false 	 false 	 false
+$21. ~transition 	 false 	 false 	 false
+$22. ~transition.univ 	 false 	 false 	 false
+$23. ~transition.~start 	 false 	 false 	 false
+$24. ~transition.~stop 	 false 	 false 	 false
+$25. ^transition 	 false 	 false 	 false
+$26. ^transition.univ 	 false 	 false 	 false
+$27. *transition 	 false 	 false 	 false
+$28. *transition.univ 	 false 	 false 	 false
+Expected Completion word: transition
+Expected Completion line: transition
+Suggestion exists: true
+
+Suggestion in top 1 = false 
+Suggestion in top 5 = false 
+Suggestion in top 10 = true 
+
+Suggestion in top 1 (Alpha) = false
+Suggestion in top 5 (Alpha) = false
+Suggestion in top 10 (Alpha) = false
+
+Suggestion in top 1 (Len) = false
+Suggestion in top 5 (Len) = true
+Suggestion in top 10 (Len) = true
+
+Time taken: 9.361875

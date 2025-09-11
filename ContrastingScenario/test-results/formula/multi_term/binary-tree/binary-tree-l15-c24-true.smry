@@ -1,0 +1,91 @@
+Model name: binary-tree
+Filename: completion/binary-tree-2.als
+Offset: 207
+Term: .
+Vscode Position: line=14 character=24
+----------------------------------
+15 |   all n : Node | lone n.
+----------------------------------
+Completion List:
+# Suggestion 	 Exact 	 Syntactic 	 Semantic
+$1. *left.n 	 false 	 undefined 	 undefined
+$2. *right.n 	 false 	 undefined 	 undefined
+$3. ^left.n 	 false 	 undefined 	 undefined
+$4. ^right.n 	 false 	 undefined 	 undefined
+$5. left.n 	 false 	 undefined 	 undefined
+$6. right.n 	 false 	 undefined 	 undefined
+$7. ~left.n 	 false 	 undefined 	 undefined
+$8. ~right.n 	 false 	 undefined 	 undefined
+$9. *left.Node 	 false 	 undefined 	 undefined
+$10. *right.Node 	 false 	 undefined 	 undefined
+$11. ^left.Node 	 false 	 undefined 	 undefined
+$12. ^right.Node 	 false 	 undefined 	 undefined
+$13. left.Node 	 false 	 undefined 	 undefined
+$14. right.Node 	 false 	 undefined 	 undefined
+$15. ~left.Node 	 false 	 undefined 	 undefined
+$16. ~right.Node 	 false 	 undefined 	 undefined
+$17. *left.right 	 false 	 undefined 	 undefined
+$18. *right.left 	 false 	 undefined 	 undefined
+$19. ^left.right 	 false 	 undefined 	 undefined
+$20. ^right.left 	 false 	 undefined 	 undefined
+$21. left 	 true 	 undefined 	 undefined
+$22. left.*right 	 false 	 undefined 	 undefined
+$23. left.^right 	 false 	 undefined 	 undefined
+$24. left.right 	 false 	 undefined 	 undefined
+$25. left.univ 	 false 	 undefined 	 undefined
+$26. left.~right 	 false 	 undefined 	 undefined
+$27. right 	 false 	 undefined 	 undefined
+$28. right.*left 	 false 	 undefined 	 undefined
+$29. right.^left 	 false 	 undefined 	 undefined
+$30. right.left 	 false 	 undefined 	 undefined
+$31. right.univ 	 false 	 undefined 	 undefined
+$32. right.~left 	 false 	 undefined 	 undefined
+$33. ~left.right 	 false 	 undefined 	 undefined
+$34. ~right.left 	 false 	 undefined 	 undefined
+$35. *left.~right 	 false 	 undefined 	 undefined
+$36. *right.~left 	 false 	 undefined 	 undefined
+$37. ^left.~right 	 false 	 undefined 	 undefined
+$38. ^right.~left 	 false 	 undefined 	 undefined
+$39. ~left 	 false 	 undefined 	 undefined
+$40. ~left.*right 	 false 	 undefined 	 undefined
+$41. ~left.^right 	 false 	 undefined 	 undefined
+$42. ~left.univ 	 false 	 undefined 	 undefined
+$43. ~left.~right 	 false 	 undefined 	 undefined
+$44. ~right 	 false 	 undefined 	 undefined
+$45. ~right.*left 	 false 	 undefined 	 undefined
+$46. ~right.^left 	 false 	 undefined 	 undefined
+$47. ~right.univ 	 false 	 undefined 	 undefined
+$48. ~right.~left 	 false 	 undefined 	 undefined
+$49. *left.^right 	 false 	 undefined 	 undefined
+$50. *right.^left 	 false 	 undefined 	 undefined
+$51. ^left 	 false 	 undefined 	 undefined
+$52. ^left.*right 	 false 	 undefined 	 undefined
+$53. ^left.^right 	 false 	 undefined 	 undefined
+$54. ^left.univ 	 false 	 undefined 	 undefined
+$55. ^right 	 false 	 undefined 	 undefined
+$56. ^right.*left 	 false 	 undefined 	 undefined
+$57. ^right.^left 	 false 	 undefined 	 undefined
+$58. ^right.univ 	 false 	 undefined 	 undefined
+$59. *left 	 false 	 undefined 	 undefined
+$60. *left.*right 	 false 	 undefined 	 undefined
+$61. *left.univ 	 false 	 undefined 	 undefined
+$62. *right 	 false 	 undefined 	 undefined
+$63. *right.*left 	 false 	 undefined 	 undefined
+$64. *right.univ 	 false 	 undefined 	 undefined
+Expected Completion word: ~
+Expected Completion line: ~(left + right)
+Suggestion exists: true
+
+Suggestion in top 1 = false 
+Suggestion in top 5 = false 
+Suggestion in top 10 = false 
+
+Suggestion in top 1 (Alpha) = false
+Suggestion in top 5 (Alpha) = false
+Suggestion in top 10 (Alpha) = false
+
+Suggestion in top 1 (Len) = false
+Suggestion in top 5 (Len) = false
+Suggestion in top 10 (Len) = false
+
+Time taken: 11.845125

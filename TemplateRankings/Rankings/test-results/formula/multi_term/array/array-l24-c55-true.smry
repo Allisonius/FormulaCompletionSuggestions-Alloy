@@ -1,0 +1,34 @@
+Model name: array
+Filename: completion/array-complete.als
+Offset: 513
+Term: .
+Vscode Position: line=23 character=55
+----------------------------------
+24 |   all idx: Array.i2e.Element | idx >= 0 && idx < Array.
+----------------------------------
+Completion List:
+# Suggestion 	 Exact 	 Syntactic 	 Semantic
+$1. length.idx 	 false 	 undefined 	 undefined
+$2. i2e.Element 	 false 	 undefined 	 undefined
+$3. i2e 	 false 	 undefined 	 undefined
+$4. i2e.univ 	 false 	 undefined 	 undefined
+$5. length 	 true 	 undefined 	 undefined
+$6. length.Int 	 false 	 undefined 	 undefined
+$7. length.univ 	 false 	 undefined 	 undefined
+Expected Completion word: length
+Expected Completion line: length
+Suggestion exists: true
+
+Suggestion in top 1 = false 
+Suggestion in top 5 = true 
+Suggestion in top 10 = true 
+
+Suggestion in top 1 (Alpha) = false
+Suggestion in top 5 (Alpha) = true
+Suggestion in top 10 (Alpha) = true
+
+Suggestion in top 1 (Len) = false
+Suggestion in top 5 (Len) = true
+Suggestion in top 10 (Len) = true
+
+Time taken: 23.21625

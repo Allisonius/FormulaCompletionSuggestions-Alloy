@@ -1,0 +1,7 @@
+modelname,filename,position-line,position-character,incompleteline,removedtext,baseline,suggestionedExpression,A_iff_B,A_and_B,not_A_and_B,A_and_not_B,not_A_and_not_B,suggestionImpactTime
+cv,completion/cv-complete.als,36,28,"all u : User, disj x,y : u.","visible | x not in y.^((u.profile <: ids).~(u.profile <: ids))","{}","\tall u : User, disj x,y : u.profile",,,,,,3.958792
+cv,completion/cv-complete.als,36,28,"all u : User, disj x,y : u.","visible | x not in y.^((u.profile <: ids).~(u.profile <: ids))","{}","\tall u : User, disj x,y : u.visible",,,,,,3.958792
+cv,completion/cv-complete.als,36,28,"all u : User, disj x,y : u.","visible | x not in y.^((u.profile <: ids).~(u.profile <: ids))","{}","\tall u : User, disj x,y : u.~source",,,,,,3.958792
+cv,completion/cv-complete.als,36,28,"all u : User, disj x,y : u.","visible | x not in y.^((u.profile <: ids).~(u.profile <: ids))","{}","\tall u : User, disj x,y : u.iden",,,,,,3.958792
+cv,completion/cv-complete.als,36,28,"all u : User, disj x,y : u.","visible | x not in y.^((u.profile <: ids).~(u.profile <: ids))","{}","\tall u : User, disj x,y : u.none",,,,,,3.958792
+cv,completion/cv-complete.als,36,28,"all u : User, disj x,y : u.","visible | x not in y.^((u.profile <: ids).~(u.profile <: ids))","{}","\tall u : User, disj x,y : u.univ",,,,,,3.958792

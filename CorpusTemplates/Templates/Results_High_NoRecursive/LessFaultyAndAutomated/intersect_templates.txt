@@ -1,0 +1,190 @@
+hits: 73 (8.979089790897909)
+(name.name) & (name.name)
+
+hits: 59 (7.2570725707257075)
+(name.name) & name
+
+hits: 56 (6.888068880688807)
+(((name.(~name)) & (name.(~name))) & (name.(~name))) & (name.(~name))
+
+hits: 54 (6.642066420664207)
+name & name
+
+hits: 53 (6.519065190651907)
+name & ((name.name).name)
+
+hits: 51 (6.273062730627306)
+name & (name.(~name))
+
+hits: 45 (5.535055350553505)
+iden & name
+
+hits: 41 (5.043050430504305)
+name & (name.name)
+
+hits: 37 (4.551045510455105)
+((name.name).name) & name
+
+hits: 28 (3.4440344403444034)
+fun_call[] & (name.(~name))
+
+hits: 22 (2.706027060270603)
+name & (~name)
+
+hits: 19 (2.337023370233702)
+name & ((fun_call[].name).name)
+
+hits: 18 (2.214022140221402)
+(name.name) & (name.(~name))
+
+hits: 17 (2.091020910209102)
+fun_call[] & name
+
+hits: 12 (1.4760147601476015)
+((name.name).name) & ((name.name).name)
+
+hits: 11 (1.3530135301353015)
+fun_call[] & fun_call[]
+
+hits: 8 (0.984009840098401)
+((fun_call[].name).name) & name
+name & fun_call[]
+(name.name) & ((name.name).name)
+
+hits: 6 (0.7380073800738007)
+fun_call[] & (name.name)
+(name.(^fun_call[])) & (name.(^fun_call[]))
+
+hits: 5 (0.6150061500615006)
+(name.(name.name)) & (name.(name.name))
+(fun_call[].fun_call[]) & fun_call[]
+name & (name->name)
+iden & (^name)
+
+hits: 4 (0.4920049200492005)
+name & iden
+(((name.(~name)) & (name.(~name))) & ((name + name).(~name))) & (name.(~name))
+(((name.(name.name)).name).name) & name
+(name + name) & (name.(name.name))
+(((name.(~name)) & (name.(~name))) & (((name + name) + name).(~name))) & (name.(~name))
+fun_call[] & (((name.name) - name).name)
+name & (((name.(~(name.name))).name).name)
+name & (((name - fun_call[]).name).name)
+((name.name).name) & fun_call[]
+
+hits: 3 (0.36900369003690037)
+((name.name).name) & (name.name)
+((name.(name + name)).name) & name
+(name.name) & ((name.(~(name.name))).(*(~(name.name))))
+(name.(name + name)) & name
+name & (name + name)
+(name.(name.name)) & (name.name)
+((name.name).(*name)) & ((name.name).(*name))
+iden & (name.name)
+(name.(name + name)) & (pred_call[] => (name.name) else (name.name))
+
+hits: 2 (0.24600246002460024)
+iden & (^(fun_call[] - fun_call[]))
+(^(name.(name + name))) & iden
+name & ((name->name) + (name->name))
+(name->(name->name)) & name
+(^(fun_call[] + fun_call[])) & iden
+(name.(name.name)) & name
+fun_call[] & (((fun_call[] + fun_call[]) + fun_call[]) + fun_call[])
+((name.(name.name)).name) & ((name.(name.name)).name)
+name & ((^name).name)
+(^fun_call[]) & iden
+iden & (((fun_call[].name).(name <: ((^name) :> name))).fun_call[])
+iden & (^fun_call[])
+iden & (((fun_call[].(name & (name.(~name)))).(name <: ((^name) :> name))).(name & (name.(~name))))
+(name.name) & fun_call[]
+iden & (name->name)
+(^(name.name)) & iden
+(name.(^name)) & name
+(name.(name.name)) & ((name.name).name)
+iden & (^(name.name))
+name & (name.(^name))
+
+hits: 1 (0.12300123001230012)
+((name.name).name) & (((name.name).(^(name.name))).name)
+((name & (name + name)).name) & name
+(name.(~name)) & (name.(~name))
+(^(name + name)) & iden
+((name + name).name) & (((name + name) <: name).(name.name))
+name & (((name & name).name).name)
+(((name.name).(~(name.name))) & ((name.name).(~(name.name)))) & ((name.name)->(name.name))
+((name.name).name) & ((fun_call[].name).name)
+((name.name)->(name.name)) & ((name.name).(~(name.name)))
+(name - ({ name: (one name) {
+(some name: (one name) {
+(((name.name) = name) && (((name.name).name) != ((name.name).name)))
+})
+} })) & name
+name & (((name.name).name).name)
+name & (0.(name.name))
+(name->(name->(name->name))) & (name.name)
+name & ((~name).name)
+fun_call[] & (name - ({ name: (one name) {
+(some name: (one name) {
+(((name.name) = name) && (((name.name).name) != ((name.name).name)))
+})
+} }))
+((name.(^name)).name) & (name.name)
+(iden :> name) & name
+name & (((name - name).name).name)
+(fun_call[] & fun_call[]) & (name.(~name))
+(name + name) & (^(name + name))
+(^(name + (name.name))) & iden
+(name.name) & (name.(name + name))
+(^name) & fun_call[]
+(name.((name & name) & name)) & ((name.name)->(name.name))
+(name.name) & (fun_call[].name)
+(name.name) & (name->(name + (name.name)))
+(name.(^(~name))) & fun_call[]
+(name.(*name)) & name
+iden & (^(fun_call[] + fun_call[]))
+name & ((name.(~name)) & (name->name))
+fun_call[] & ((((fun_call[].fun_call[]).fun_call[]) - ((~(name.name)).name)).(name.name))
+name & ((name + name) + name)
+((name + name).name) & (((name.(name + name)) <: name).(name.name))
+(fun_call[] & (name.name)) & ({ name: (one name) {
+(some name: (one name) {
+(((name.name) = name) && (((name.name).name) != ((name.name).name)))
+})
+} })
+name & (name.((name->name) + (name->name)))
+(((name.name).name).(*name)) & (((name.name).name).(*name))
+(fun_call[].name) & (name.(~name))
+((^name).name) & (name.name)
+(name <: iden) & name
+(name.(name.name)) & ((name + name) + name)
+((name.name).name) & (name.(~name))
+((name.name) & (fun_call[].name)) & ({ name: (one name) {
+(all name: (one fun_call[]) {
+((name.name) in ((name.name).name))
+})
+} })
+(name.((name.name).name)) & (name.((name.name).name))
+(name->name) & ((name.name)->(name.name))
+name & (((fun_call[] + fun_call[]) + fun_call[]) + fun_call[])
+(name.name) & ((name.name)->(name.name))
+({ name: (one name) {
+(all name: (one fun_call[]) {
+((name.name) in ((name.name).name))
+})
+} }) & ({ name: (one name) {
+pred_call[]
+} })
+(name.name) & (name - (name.name))
+(name.name) & (name - name)
+(name.(*name)) & (name.(*name))
+((name <: name).name) & (name + name)
+(name + name) & fun_call[]
+((name.(~name)).(~name)) & (name.name)
+(name->(name->name)) & ((name.(name + name)).name)
+((name <: name).name) & (name.(name + name))
+(name + name) & (fun_call[] + fun_call[])
+(^name) & iden
+(fun_call[] & name) & (name.name)
+
+

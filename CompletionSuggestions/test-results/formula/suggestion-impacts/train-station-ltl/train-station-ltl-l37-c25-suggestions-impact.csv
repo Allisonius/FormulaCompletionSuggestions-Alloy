@@ -1,0 +1,11 @@
+modelname,filename,position-line,position-character,incompleteline,removedtext,baseline,suggestionedExpression,A_iff_B,A_and_B,not_A_and_B,A_and_not_B,not_A_and_not_B,suggestionImpactTime
+train-station-ltl,completion/train-station-ltl-complete.als,37,25,"all t : Track | no prox.","t & Junction implies no t.signal","{}","\tall t : Track | no prox.t",true,true,false,true,false,84.462459
+train-station-ltl,completion/train-station-ltl-complete.als,37,25,"all t : Track | no prox.","t & Junction implies no t.signal","{}","\tall t : Track | no prox.Entry",true,true,false,false,false,84.462459
+train-station-ltl,completion/train-station-ltl-complete.als,37,25,"all t : Track | no prox.","t & Junction implies no t.signal","{}","\tall t : Track | no prox.Exit",true,true,false,true,false,84.462459
+train-station-ltl,completion/train-station-ltl-complete.als,37,25,"all t : Track | no prox.","t & Junction implies no t.signal","{}","\tall t : Track | no prox.Junction",true,true,false,true,false,84.462459
+train-station-ltl,completion/train-station-ltl-complete.als,37,25,"all t : Track | no prox.","t & Junction implies no t.signal","{}","\tall t : Track | no prox.Track",true,true,false,true,false,84.462459
+train-station-ltl,completion/train-station-ltl-complete.als,37,25,"all t : Track | no prox.","t & Junction implies no t.signal","{}","\tall t : Track | no prox.signal",true,true,false,true,false,84.462459
+train-station-ltl,completion/train-station-ltl-complete.als,37,25,"all t : Track | no prox.","t & Junction implies no t.signal","{}","\tall t : Track | no prox.~pos",true,true,false,true,false,84.462459
+train-station-ltl,completion/train-station-ltl-complete.als,37,25,"all t : Track | no prox.","t & Junction implies no t.signal","{}","\tall t : Track | no prox.iden",true,true,false,true,false,84.462459
+train-station-ltl,completion/train-station-ltl-complete.als,37,25,"all t : Track | no prox.","t & Junction implies no t.signal","{}","\tall t : Track | no prox.none",true,true,false,false,false,84.462459
+train-station-ltl,completion/train-station-ltl-complete.als,37,25,"all t : Track | no prox.","t & Junction implies no t.signal","{}","\tall t : Track | no prox.univ",true,true,false,true,false,84.462459

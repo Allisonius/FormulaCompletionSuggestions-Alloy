@@ -1,0 +1,222 @@
+Model name: fsm
+Filename: completion/fsm.als
+Offset: 702
+Term:  in 
+Vscode Position: line=39 character=22
+----------------------------------
+40 |   all n: State | n in 
+----------------------------------
+Completion List:
+# Suggestion 	 Exact 	 Syntactic 	 Semantic
+$1. *transition.n 	 false 	 undefined 	 undefined
+$2. *transition.n.*transition 	 false 	 undefined 	 undefined
+$3. *transition.n.^transition 	 false 	 undefined 	 undefined
+$4. *transition.n.transition 	 false 	 undefined 	 undefined
+$5. *transition.n.~transition 	 false 	 undefined 	 undefined
+$6. ^transition.n 	 false 	 undefined 	 undefined
+$7. ^transition.n.*transition 	 false 	 undefined 	 undefined
+$8. ^transition.n.^transition 	 false 	 undefined 	 undefined
+$9. ^transition.n.transition 	 false 	 undefined 	 undefined
+$10. ^transition.n.~transition 	 false 	 undefined 	 undefined
+$11. n 	 false 	 undefined 	 undefined
+$12. n.*transition 	 false 	 undefined 	 undefined
+$13. n.^transition 	 false 	 undefined 	 undefined
+$14. n.transition 	 false 	 undefined 	 undefined
+$15. n.~start.stop 	 false 	 undefined 	 undefined
+$16. n.~stop.start 	 false 	 undefined 	 undefined
+$17. n.~transition 	 false 	 undefined 	 undefined
+$18. start.n.*transition 	 false 	 undefined 	 undefined
+$19. start.n.^transition 	 false 	 undefined 	 undefined
+$20. start.n.transition 	 false 	 undefined 	 undefined
+$21. start.n.~start 	 false 	 undefined 	 undefined
+$22. start.n.~stop 	 false 	 undefined 	 undefined
+$23. start.n.~transition 	 false 	 undefined 	 undefined
+$24. stop.n.*transition 	 false 	 undefined 	 undefined
+$25. stop.n.^transition 	 false 	 undefined 	 undefined
+$26. stop.n.transition 	 false 	 undefined 	 undefined
+$27. stop.n.~start 	 false 	 undefined 	 undefined
+$28. stop.n.~stop 	 false 	 undefined 	 undefined
+$29. stop.n.~transition 	 false 	 undefined 	 undefined
+$30. transition.n 	 false 	 undefined 	 undefined
+$31. transition.n.*transition 	 false 	 undefined 	 undefined
+$32. transition.n.^transition 	 false 	 undefined 	 undefined
+$33. transition.n.transition 	 false 	 undefined 	 undefined
+$34. transition.n.~transition 	 false 	 undefined 	 undefined
+$35. ~start.stop.n 	 false 	 undefined 	 undefined
+$36. ~stop.start.n 	 false 	 undefined 	 undefined
+$37. ~transition.n 	 false 	 undefined 	 undefined
+$38. ~transition.n.*transition 	 false 	 undefined 	 undefined
+$39. ~transition.n.^transition 	 false 	 undefined 	 undefined
+$40. ~transition.n.transition 	 false 	 undefined 	 undefined
+$41. ~transition.n.~transition 	 false 	 undefined 	 undefined
+$42. *transition.State 	 false 	 undefined 	 undefined
+$43. *transition.State.*transition 	 false 	 undefined 	 undefined
+$44. *transition.State.^transition 	 false 	 undefined 	 undefined
+$45. *transition.State.transition 	 false 	 undefined 	 undefined
+$46. *transition.State.~transition 	 false 	 undefined 	 undefined
+$47. *transition.~start.FSM 	 false 	 undefined 	 undefined
+$48. *transition.~stop.FSM 	 false 	 undefined 	 undefined
+$49. FSM 	 false 	 undefined 	 undefined
+$50. FSM.start 	 false 	 undefined 	 undefined
+$51. FSM.start.*transition 	 true 	 undefined 	 undefined
+$52. FSM.start.^transition 	 false 	 undefined 	 undefined
+$53. FSM.start.transition 	 false 	 undefined 	 undefined
+$54. FSM.start.~transition 	 false 	 undefined 	 undefined
+$55. FSM.stop 	 false 	 undefined 	 undefined
+$56. FSM.stop.*transition 	 false 	 undefined 	 undefined
+$57. FSM.stop.^transition 	 false 	 undefined 	 undefined
+$58. FSM.stop.transition 	 false 	 undefined 	 undefined
+$59. FSM.stop.~transition 	 false 	 undefined 	 undefined
+$60. State 	 false 	 undefined 	 undefined
+$61. State.*transition 	 false 	 undefined 	 undefined
+$62. State.^transition 	 false 	 undefined 	 undefined
+$63. State.transition 	 false 	 undefined 	 undefined
+$64. State.~start.stop 	 false 	 undefined 	 undefined
+$65. State.~stop.start 	 false 	 undefined 	 undefined
+$66. State.~transition 	 false 	 undefined 	 undefined
+$67. ^transition.State 	 false 	 undefined 	 undefined
+$68. ^transition.State.*transition 	 false 	 undefined 	 undefined
+$69. ^transition.State.^transition 	 false 	 undefined 	 undefined
+$70. ^transition.State.transition 	 false 	 undefined 	 undefined
+$71. ^transition.State.~transition 	 false 	 undefined 	 undefined
+$72. ^transition.~start.FSM 	 false 	 undefined 	 undefined
+$73. ^transition.~stop.FSM 	 false 	 undefined 	 undefined
+$74. start.State.*transition 	 false 	 undefined 	 undefined
+$75. start.State.^transition 	 false 	 undefined 	 undefined
+$76. start.State.transition 	 false 	 undefined 	 undefined
+$77. start.State.~start 	 false 	 undefined 	 undefined
+$78. start.State.~stop 	 false 	 undefined 	 undefined
+$79. start.State.~transition 	 false 	 undefined 	 undefined
+$80. stop.State.*transition 	 false 	 undefined 	 undefined
+$81. stop.State.^transition 	 false 	 undefined 	 undefined
+$82. stop.State.transition 	 false 	 undefined 	 undefined
+$83. stop.State.~start 	 false 	 undefined 	 undefined
+$84. stop.State.~stop 	 false 	 undefined 	 undefined
+$85. stop.State.~transition 	 false 	 undefined 	 undefined
+$86. transition.State 	 false 	 undefined 	 undefined
+$87. transition.State.*transition 	 false 	 undefined 	 undefined
+$88. transition.State.^transition 	 false 	 undefined 	 undefined
+$89. transition.State.transition 	 false 	 undefined 	 undefined
+$90. transition.State.~transition 	 false 	 undefined 	 undefined
+$91. transition.~start.FSM 	 false 	 undefined 	 undefined
+$92. transition.~stop.FSM 	 false 	 undefined 	 undefined
+$93. ~start.FSM 	 false 	 undefined 	 undefined
+$94. ~start.FSM.start 	 false 	 undefined 	 undefined
+$95. ~start.FSM.stop 	 false 	 undefined 	 undefined
+$96. ~start.stop.State 	 false 	 undefined 	 undefined
+$97. ~stop.FSM 	 false 	 undefined 	 undefined
+$98. ~stop.FSM.start 	 false 	 undefined 	 undefined
+$99. ~stop.FSM.stop 	 false 	 undefined 	 undefined
+$100. ~stop.start.State 	 false 	 undefined 	 undefined
+$101. ~transition.State 	 false 	 undefined 	 undefined
+$102. ~transition.State.*transition 	 false 	 undefined 	 undefined
+$103. ~transition.State.^transition 	 false 	 undefined 	 undefined
+$104. ~transition.State.transition 	 false 	 undefined 	 undefined
+$105. ~transition.State.~transition 	 false 	 undefined 	 undefined
+$106. ~transition.~start.FSM 	 false 	 undefined 	 undefined
+$107. ~transition.~stop.FSM 	 false 	 undefined 	 undefined
+$108. *transition.univ.start 	 false 	 undefined 	 undefined
+$109. *transition.univ.stop 	 false 	 undefined 	 undefined
+$110. *transition.univ.transition 	 false 	 undefined 	 undefined
+$111. ^transition.univ.start 	 false 	 undefined 	 undefined
+$112. ^transition.univ.stop 	 false 	 undefined 	 undefined
+$113. ^transition.univ.transition 	 false 	 undefined 	 undefined
+$114. start.univ.*transition 	 false 	 undefined 	 undefined
+$115. start.univ.^transition 	 false 	 undefined 	 undefined
+$116. start.univ.start 	 false 	 undefined 	 undefined
+$117. start.univ.stop 	 false 	 undefined 	 undefined
+$118. start.univ.transition 	 false 	 undefined 	 undefined
+$119. start.univ.~start 	 false 	 undefined 	 undefined
+$120. start.univ.~stop 	 false 	 undefined 	 undefined
+$121. start.univ.~transition 	 false 	 undefined 	 undefined
+$122. stop.univ.*transition 	 false 	 undefined 	 undefined
+$123. stop.univ.^transition 	 false 	 undefined 	 undefined
+$124. stop.univ.start 	 false 	 undefined 	 undefined
+$125. stop.univ.stop 	 false 	 undefined 	 undefined
+$126. stop.univ.transition 	 false 	 undefined 	 undefined
+$127. stop.univ.~start 	 false 	 undefined 	 undefined
+$128. stop.univ.~stop 	 false 	 undefined 	 undefined
+$129. stop.univ.~transition 	 false 	 undefined 	 undefined
+$130. transition.univ 	 false 	 undefined 	 undefined
+$131. transition.univ.*transition 	 false 	 undefined 	 undefined
+$132. transition.univ.^transition 	 false 	 undefined 	 undefined
+$133. transition.univ.start 	 false 	 undefined 	 undefined
+$134. transition.univ.stop 	 false 	 undefined 	 undefined
+$135. transition.univ.transition 	 false 	 undefined 	 undefined
+$136. transition.univ.~transition 	 false 	 undefined 	 undefined
+$137. transition.~start.univ 	 false 	 undefined 	 undefined
+$138. transition.~stop.univ 	 false 	 undefined 	 undefined
+$139. univ.start 	 false 	 undefined 	 undefined
+$140. univ.start.*transition 	 false 	 undefined 	 undefined
+$141. univ.start.^transition 	 false 	 undefined 	 undefined
+$142. univ.start.transition 	 false 	 undefined 	 undefined
+$143. univ.start.~transition 	 false 	 undefined 	 undefined
+$144. univ.stop 	 false 	 undefined 	 undefined
+$145. univ.stop.*transition 	 false 	 undefined 	 undefined
+$146. univ.stop.^transition 	 false 	 undefined 	 undefined
+$147. univ.stop.transition 	 false 	 undefined 	 undefined
+$148. univ.stop.~transition 	 false 	 undefined 	 undefined
+$149. univ.transition 	 false 	 undefined 	 undefined
+$150. univ.~start.stop 	 false 	 undefined 	 undefined
+$151. univ.~stop.start 	 false 	 undefined 	 undefined
+$152. ~start.stop.univ 	 false 	 undefined 	 undefined
+$153. ~start.univ.start 	 false 	 undefined 	 undefined
+$154. ~start.univ.stop 	 false 	 undefined 	 undefined
+$155. ~start.univ.transition 	 false 	 undefined 	 undefined
+$156. ~stop.start.univ 	 false 	 undefined 	 undefined
+$157. ~stop.univ.start 	 false 	 undefined 	 undefined
+$158. ~stop.univ.stop 	 false 	 undefined 	 undefined
+$159. ~stop.univ.transition 	 false 	 undefined 	 undefined
+$160. ~transition.univ.start 	 false 	 undefined 	 undefined
+$161. ~transition.univ.stop 	 false 	 undefined 	 undefined
+$162. ~transition.univ.transition 	 false 	 undefined 	 undefined
+$163. *transition.univ.~transition 	 false 	 undefined 	 undefined
+$164. *transition.~start.univ 	 false 	 undefined 	 undefined
+$165. *transition.~stop.univ 	 false 	 undefined 	 undefined
+$166. ^transition.univ.~transition 	 false 	 undefined 	 undefined
+$167. ^transition.~start.univ 	 false 	 undefined 	 undefined
+$168. ^transition.~stop.univ 	 false 	 undefined 	 undefined
+$169. univ.~transition 	 false 	 undefined 	 undefined
+$170. ~start.univ 	 false 	 undefined 	 undefined
+$171. ~start.univ.*transition 	 false 	 undefined 	 undefined
+$172. ~start.univ.^transition 	 false 	 undefined 	 undefined
+$173. ~start.univ.~transition 	 false 	 undefined 	 undefined
+$174. ~stop.univ 	 false 	 undefined 	 undefined
+$175. ~stop.univ.*transition 	 false 	 undefined 	 undefined
+$176. ~stop.univ.^transition 	 false 	 undefined 	 undefined
+$177. ~stop.univ.~transition 	 false 	 undefined 	 undefined
+$178. ~transition.univ 	 false 	 undefined 	 undefined
+$179. ~transition.univ.*transition 	 false 	 undefined 	 undefined
+$180. ~transition.univ.^transition 	 false 	 undefined 	 undefined
+$181. ~transition.univ.~transition 	 false 	 undefined 	 undefined
+$182. ~transition.~start.univ 	 false 	 undefined 	 undefined
+$183. ~transition.~stop.univ 	 false 	 undefined 	 undefined
+$184. *transition.univ.^transition 	 false 	 undefined 	 undefined
+$185. ^transition.univ 	 false 	 undefined 	 undefined
+$186. ^transition.univ.*transition 	 false 	 undefined 	 undefined
+$187. ^transition.univ.^transition 	 false 	 undefined 	 undefined
+$188. univ.^transition 	 false 	 undefined 	 undefined
+$189. *transition.univ 	 false 	 undefined 	 undefined
+$190. *transition.univ.*transition 	 false 	 undefined 	 undefined
+$191. univ.*transition 	 false 	 undefined 	 undefined
+$192. Int 	 false 	 undefined 	 undefined
+$193. String 	 false 	 undefined 	 undefined
+$194. none 	 false 	 undefined 	 undefined
+$195. univ 	 false 	 undefined 	 undefined
+Expected Completion word: FSM
+Expected Completion line: FSM.start.*transition
+Suggestion exists: true
+
+Suggestion in top 1 = false 
+Suggestion in top 5 = false 
+Suggestion in top 10 = false 
+
+Suggestion in top 1 (Alpha) = false
+Suggestion in top 5 (Alpha) = false
+Suggestion in top 10 (Alpha) = false
+
+Suggestion in top 1 (Len) = false
+Suggestion in top 5 (Len) = true
+Suggestion in top 10 (Len) = true
+
+Time taken: 19.371792

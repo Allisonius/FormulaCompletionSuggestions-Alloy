@@ -1,0 +1,173 @@
+Model name: c-tree
+Filename: completion/ctree-complete.als
+Offset: 274
+Term:  in 
+Vscode Position: line=15 character=41
+----------------------------------
+16 |   all n1: Node | all n2: Node-n1 | n1 in 
+----------------------------------
+Completion List:
+# Suggestion 	 Exact 	 Syntactic 	 Semantic
+$1. ((*neighbors)-neighbors) 	 false 	 undefined 	 undefined
+$2. ((*neighbors).color) 	 false 	 undefined 	 undefined
+$3. ((*neighbors).n1) 	 false 	 undefined 	 undefined
+$4. ((^neighbors)-neighbors) 	 false 	 undefined 	 undefined
+$5. ((^neighbors).color) 	 false 	 undefined 	 undefined
+$6. ((^neighbors).n1) 	 false 	 undefined 	 undefined
+$7. ((color.Color)-n1) 	 false 	 undefined 	 undefined
+$8. ((color.Color).color) 	 false 	 undefined 	 undefined
+$9. ((color.Color).neighbors) 	 false 	 undefined 	 undefined
+$10. ((color.univ)-n1) 	 false 	 undefined 	 undefined
+$11. ((color.univ).color) 	 false 	 undefined 	 undefined
+$12. ((color.univ).neighbors) 	 false 	 undefined 	 undefined
+$13. ((n1.neighbors)-n1) 	 false 	 undefined 	 undefined
+$14. ((neighbors.color)-color) 	 false 	 undefined 	 undefined
+$15. ((neighbors.n1)-n1) 	 false 	 undefined 	 undefined
+$16. ((neighbors.n1).color) 	 false 	 undefined 	 undefined
+$17. ((neighbors.n1).neighbors) 	 false 	 undefined 	 undefined
+$18. ((neighbors.neighbors)-neighbors) 	 false 	 undefined 	 undefined
+$19. ((neighbors.Node)-n1) 	 false 	 undefined 	 undefined
+$20. ((neighbors.Node).color) 	 false 	 undefined 	 undefined
+$21. ((neighbors.Node).neighbors) 	 false 	 undefined 	 undefined
+$22. ((neighbors.univ)-n1) 	 false 	 undefined 	 undefined
+$23. ((neighbors.univ).color) 	 false 	 undefined 	 undefined
+$24. ((neighbors.univ).neighbors) 	 false 	 undefined 	 undefined
+$25. ((Node-n1).color) 	 false 	 undefined 	 undefined
+$26. ((Node-n1).neighbors) 	 false 	 undefined 	 undefined
+$27. ((Node.neighbors)-n1) 	 false 	 undefined 	 undefined
+$28. ((univ.neighbors)-n1) 	 false 	 undefined 	 undefined
+$29. ((~color).color) 	 false 	 undefined 	 undefined
+$30. ((~color).n1) 	 false 	 undefined 	 undefined
+$31. ((~color).neighbors) 	 false 	 undefined 	 undefined
+$32. ((~color).Node) 	 false 	 undefined 	 undefined
+$33. ((~color).univ) 	 false 	 undefined 	 undefined
+$34. ((~neighbors)-neighbors) 	 false 	 undefined 	 undefined
+$35. ((~neighbors).color) 	 false 	 undefined 	 undefined
+$36. ((~neighbors).n1) 	 false 	 undefined 	 undefined
+$37. ((~neighbors).neighbors) 	 false 	 undefined 	 undefined
+$38. ((~neighbors).Node) 	 false 	 undefined 	 undefined
+$39. ((~neighbors).univ) 	 false 	 undefined 	 undefined
+$40. (*(neighbors.neighbors)) 	 false 	 undefined 	 undefined
+$41. (*(~neighbors)) 	 false 	 undefined 	 undefined
+$42. (*neighbors) 	 false 	 undefined 	 undefined
+$43. (^(neighbors.neighbors)) 	 false 	 undefined 	 undefined
+$44. (^(~neighbors)) 	 false 	 undefined 	 undefined
+$45. (^neighbors) 	 false 	 undefined 	 undefined
+$46. (color&(neighbors.color)) 	 false 	 undefined 	 undefined
+$47. (color+(neighbors.color)) 	 false 	 undefined 	 undefined
+$48. (Color-(n1.color)) 	 false 	 undefined 	 undefined
+$49. (color-(neighbors.color)) 	 false 	 undefined 	 undefined
+$50. (Color-(Node.color)) 	 false 	 undefined 	 undefined
+$51. (Color-(univ.color)) 	 false 	 undefined 	 undefined
+$52. (color.(n1.color)) 	 false 	 undefined 	 undefined
+$53. (color.(Node.color)) 	 false 	 undefined 	 undefined
+$54. (color.(univ.color)) 	 false 	 undefined 	 undefined
+$55. (color.(~color)) 	 false 	 undefined 	 undefined
+$56. (color.Color) 	 false 	 undefined 	 undefined
+$57. (color.univ) 	 false 	 undefined 	 undefined
+$58. (n1&(color.Color)) 	 false 	 undefined 	 undefined
+$59. (n1&(color.univ)) 	 false 	 undefined 	 undefined
+$60. (n1&(n1.neighbors)) 	 false 	 undefined 	 undefined
+$61. (n1&(neighbors.n1)) 	 false 	 undefined 	 undefined
+$62. (n1&(neighbors.Node)) 	 false 	 undefined 	 undefined
+$63. (n1&(neighbors.univ)) 	 false 	 undefined 	 undefined
+$64. (n1&(Node-n1)) 	 false 	 undefined 	 undefined
+$65. (n1&(Node.neighbors)) 	 false 	 undefined 	 undefined
+$66. (n1&(univ.neighbors)) 	 false 	 undefined 	 undefined
+$67. (n1+(color.Color)) 	 false 	 undefined 	 undefined
+$68. (n1+(color.univ)) 	 false 	 undefined 	 undefined
+$69. (n1+(n1.neighbors)) 	 false 	 undefined 	 undefined
+$70. (n1+(neighbors.n1)) 	 false 	 undefined 	 undefined
+$71. (n1+(neighbors.Node)) 	 false 	 undefined 	 undefined
+$72. (n1+(neighbors.univ)) 	 false 	 undefined 	 undefined
+$73. (n1+(Node.neighbors)) 	 false 	 undefined 	 undefined
+$74. (n1+(univ.neighbors)) 	 false 	 undefined 	 undefined
+$75. (n1-(color.Color)) 	 false 	 undefined 	 undefined
+$76. (n1-(color.univ)) 	 false 	 undefined 	 undefined
+$77. (n1-(n1.neighbors)) 	 false 	 undefined 	 undefined
+$78. (n1-(neighbors.n1)) 	 false 	 undefined 	 undefined
+$79. (n1-(neighbors.Node)) 	 false 	 undefined 	 undefined
+$80. (n1-(neighbors.univ)) 	 false 	 undefined 	 undefined
+$81. (n1-(Node.neighbors)) 	 false 	 undefined 	 undefined
+$82. (n1-(univ.neighbors)) 	 false 	 undefined 	 undefined
+$83. (n1.(*neighbors)) 	 false 	 undefined 	 undefined
+$84. (n1.(^neighbors)) 	 false 	 undefined 	 undefined
+$85. (n1.(neighbors.color)) 	 false 	 undefined 	 undefined
+$86. (n1.(neighbors.neighbors)) 	 false 	 undefined 	 undefined
+$87. (n1.color) 	 false 	 undefined 	 undefined
+$88. (n1.neighbors) 	 false 	 undefined 	 undefined
+$89. (neighbors&(neighbors.neighbors)) 	 false 	 undefined 	 undefined
+$90. (neighbors&(~neighbors)) 	 false 	 undefined 	 undefined
+$91. (neighbors+(neighbors.neighbors)) 	 false 	 undefined 	 undefined
+$92. (neighbors+(~neighbors)) 	 false 	 undefined 	 undefined
+$93. (neighbors-(neighbors.neighbors)) 	 false 	 undefined 	 undefined
+$94. (neighbors-(~neighbors)) 	 false 	 undefined 	 undefined
+$95. (neighbors.(^neighbors)) 	 false 	 undefined 	 undefined
+$96. (neighbors.(color.Color)) 	 false 	 undefined 	 undefined
+$97. (neighbors.(color.univ)) 	 false 	 undefined 	 undefined
+$98. (neighbors.(n1.neighbors)) 	 false 	 undefined 	 undefined
+$99. (neighbors.(neighbors.color)) 	 false 	 undefined 	 undefined
+$100. (neighbors.(neighbors.n1)) 	 false 	 undefined 	 undefined
+$101. (neighbors.(neighbors.neighbors)) 	 false 	 undefined 	 undefined
+$102. (neighbors.(neighbors.Node)) 	 false 	 undefined 	 undefined
+$103. (neighbors.(neighbors.univ)) 	 false 	 undefined 	 undefined
+$104. (neighbors.(Node-n1)) 	 false 	 undefined 	 undefined
+$105. (neighbors.(Node.neighbors)) 	 false 	 undefined 	 undefined
+$106. (neighbors.(univ.neighbors)) 	 false 	 undefined 	 undefined
+$107. (neighbors.(~neighbors)) 	 false 	 undefined 	 undefined
+$108. (neighbors.color) 	 false 	 undefined 	 undefined
+$109. (neighbors.n1) 	 false 	 undefined 	 undefined
+$110. (neighbors.neighbors) 	 false 	 undefined 	 undefined
+$111. (neighbors.Node) 	 false 	 undefined 	 undefined
+$112. (neighbors.univ) 	 false 	 undefined 	 undefined
+$113. (Node-(color.Color)) 	 false 	 undefined 	 undefined
+$114. (Node-(color.univ)) 	 false 	 undefined 	 undefined
+$115. (Node-(n1.neighbors)) 	 false 	 undefined 	 undefined
+$116. (Node-(neighbors.n1)) 	 false 	 undefined 	 undefined
+$117. (Node-(neighbors.Node)) 	 false 	 undefined 	 undefined
+$118. (Node-(neighbors.univ)) 	 false 	 undefined 	 undefined
+$119. (Node-(Node.neighbors)) 	 false 	 undefined 	 undefined
+$120. (Node-(univ.neighbors)) 	 false 	 undefined 	 undefined
+$121. (Node-n1) 	 false 	 undefined 	 undefined
+$122. (Node.(neighbors.color)) 	 false 	 undefined 	 undefined
+$123. (Node.(neighbors.neighbors)) 	 false 	 undefined 	 undefined
+$124. (Node.color) 	 false 	 undefined 	 undefined
+$125. (Node.neighbors) 	 false 	 undefined 	 undefined
+$126. (none->none) 	 false 	 undefined 	 undefined
+$127. (none->none->none) 	 false 	 undefined 	 undefined
+$128. (univ.(neighbors.color)) 	 false 	 undefined 	 undefined
+$129. (univ.(neighbors.neighbors)) 	 false 	 undefined 	 undefined
+$130. (univ.color) 	 false 	 undefined 	 undefined
+$131. (univ.neighbors) 	 false 	 undefined 	 undefined
+$132. (~(neighbors.color)) 	 false 	 undefined 	 undefined
+$133. (~(neighbors.neighbors)) 	 false 	 undefined 	 undefined
+$134. (~color) 	 false 	 undefined 	 undefined
+$135. (~neighbors) 	 false 	 undefined 	 undefined
+$136. Blue 	 false 	 undefined 	 undefined
+$137. Color 	 false 	 undefined 	 undefined
+$138. color 	 false 	 undefined 	 undefined
+$139. Int 	 false 	 undefined 	 undefined
+$140. n1 	 false 	 undefined 	 undefined
+$141. neighbors 	 false 	 undefined 	 undefined
+$142. Node 	 false 	 undefined 	 undefined
+$143. none 	 false 	 undefined 	 undefined
+$144. Red 	 false 	 undefined 	 undefined
+$145. String 	 false 	 undefined 	 undefined
+$146. univ 	 false 	 undefined 	 undefined
+Expected Completion word: n2
+Expected Completion line: n2.^neighbors 
+Suggestion exists: false
+
+Suggestion in top 1 = false 
+Suggestion in top 5 = false 
+Suggestion in top 10 = false 
+
+Suggestion in top 1 (Alpha) = false
+Suggestion in top 5 (Alpha) = false
+Suggestion in top 10 (Alpha) = false
+
+Suggestion in top 1 (Len) = false
+Suggestion in top 5 (Len) = false
+Suggestion in top 10 (Len) = false
+
+Time taken: 12.090167

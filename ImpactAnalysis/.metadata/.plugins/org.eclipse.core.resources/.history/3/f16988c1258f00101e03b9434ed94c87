@@ -1,0 +1,13 @@
+modelname,filename,position-line,position-character,incompleteline,removedtext,baseline,suggestionedExpression,A_iff_B,A_and_B,not_A_and_B,A_and_not_B,not_A_and_not_B,suggestionImpactTime
+classroom,completion/classroom-complete.als,73,42,"all p:Person | some Teacher & (^Tutors).","p","{}","  all p:Person | some Teacher & (^Tutors).p",true,true,false,true,false,23.358083
+classroom,completion/classroom-complete.als,73,42,"all p:Person | some Teacher & (^Tutors).","p","{}","  all p:Person | some Teacher & (^Tutors).Person",true,true,false,true,false,23.358083
+classroom,completion/classroom-complete.als,73,42,"all p:Person | some Teacher & (^Tutors).","p","{}","  all p:Person | some Teacher & (^Tutors).Student",true,true,false,true,false,23.358083
+classroom,completion/classroom-complete.als,73,42,"all p:Person | some Teacher & (^Tutors).","p","{}","  all p:Person | some Teacher & (^Tutors).Teacher",true,true,false,true,false,23.358083
+classroom,completion/classroom-complete.als,73,42,"all p:Person | some Teacher & (^Tutors).","p","{}","  all p:Person | some Teacher & (^Tutors).Teaches",,,,,,23.358083
+classroom,completion/classroom-complete.als,73,42,"all p:Person | some Teacher & (^Tutors).","p","{}","  all p:Person | some Teacher & (^Tutors).Tutors",,,,,,23.358083
+classroom,completion/classroom-complete.als,73,42,"all p:Person | some Teacher & (^Tutors).","p","{}","  all p:Person | some Teacher & (^Tutors).~Tutors",,,,,,23.358083
+classroom,completion/classroom-complete.als,73,42,"all p:Person | some Teacher & (^Tutors).","p","{}","  all p:Person | some Teacher & (^Tutors).^Tutors",,,,,,23.358083
+classroom,completion/classroom-complete.als,73,42,"all p:Person | some Teacher & (^Tutors).","p","{}","  all p:Person | some Teacher & (^Tutors).*Tutors",,,,,,23.358083
+classroom,completion/classroom-complete.als,73,42,"all p:Person | some Teacher & (^Tutors).","p","{}","  all p:Person | some Teacher & (^Tutors).iden",,,,,,23.358083
+classroom,completion/classroom-complete.als,73,42,"all p:Person | some Teacher & (^Tutors).","p","{}","  all p:Person | some Teacher & (^Tutors).none",true,true,false,true,false,23.358083
+classroom,completion/classroom-complete.als,73,42,"all p:Person | some Teacher & (^Tutors).","p","{}","  all p:Person | some Teacher & (^Tutors).univ",true,true,false,true,false,23.358083

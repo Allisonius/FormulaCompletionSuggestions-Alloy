@@ -1,0 +1,71 @@
+hits: 1370 (87.03939008894537)
+name->name
+
+hits: 57 (3.6213468869123253)
+name->(name->name)
+
+hits: 32 (2.0330368487928845)
+(name.name)->(name.name)
+
+hits: 15 (0.9529860228716646)
+name->(name->(name->name))
+
+hits: 14 (0.8894536213468869)
+name->(name.(name.name))
+
+hits: 11 (0.6988564167725541)
+name->(name.name)
+
+hits: 10 (0.6353240152477764)
+(name->name)->(name->name)
+
+hits: 6 (0.3811944091486658)
+name->(name.(^name))
+(name.name)->name
+
+hits: 5 (0.3176620076238882)
+((name <: name).name)->((name <: name).name)
+
+hits: 4 (0.25412960609911056)
+0->name
+
+hits: 3 (0.1905972045743329)
+fun_call[]->fun_call[]
+name->fun_call[]
+
+hits: 2 (0.12706480304955528)
+name->(0.(name.name))
+((name.name).name)->name
+((((name.name).name).name).name)->name
+(name.(name.name))->(name.(name.name))
+(name.name)->((name.name).name)
+name->((name.name)->name)
+((name.(name.name)).name)->name
+
+hits: 1 (0.06353240152477764)
+name->(((name <: name).name)->((name <: name).name))
+((name <: name).name)->(((name <: name).name)->((name <: name).name))
+name->(name lone->name)
+(name.((name + name) + name))->(name.((name + name) + name))
+((name.name).name)->fun_call[]
+0->(name.name)
+0->(0->name)
+0->(1->name)
+name->0
+((name <: name).name)->(name->((name <: name).name))
+name->((name <: name).name)
+((name.(name.name)).name)->(name->((fun_call[].name).name))
+name->(name.(fun_call[].name))
+name->(name - (name.(name.name)))
+((name <: name).name)->(((name <: name).name)->name)
+1->(0->name)
+((name + name) + name)->0
+1->(1->name)
+((name <: name).name)->name
+name->(name - name)
+fun_call[]->(fun_call[]->name)
+0->(ordering/first[])
+name->(((name.name).name)->name)
+(name + name)->(name + name)
+
+

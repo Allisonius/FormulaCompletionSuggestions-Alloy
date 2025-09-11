@@ -1,0 +1,77 @@
+Model name: class-diagram
+Filename: completion/class-diagram-complete.als
+Offset: 343
+Term:  - 
+Vscode Position: line=18 character=17
+----------------------------------
+19 |   all c: Class - 
+----------------------------------
+Completion List:
+# Suggestion 	 Exact 	 Syntactic 	 Semantic
+$1. ((*ext)-ext) 	 false 	 false 	 false
+$2. ((^ext)-ext) 	 false 	 false 	 false
+$3. ((ext.Class).ext) 	 false 	 false 	 false
+$4. ((ext.ext)-ext) 	 false 	 false 	 false
+$5. ((ext.univ).ext) 	 false 	 false 	 false
+$6. ((~ext)-ext) 	 false 	 false 	 false
+$7. ((~ext).Class) 	 false 	 false 	 false
+$8. ((~ext).ext) 	 false 	 false 	 false
+$9. ((~ext).univ) 	 false 	 false 	 false
+$10. (*(ext.ext)) 	 false 	 false 	 false
+$11. (*(~ext)) 	 false 	 false 	 false
+$12. (*ext) 	 false 	 false 	 false
+$13. (^(ext.ext)) 	 false 	 false 	 false
+$14. (^(~ext)) 	 false 	 false 	 false
+$15. (^ext) 	 false 	 false 	 false
+$16. (Class-(Class.ext)) 	 false 	 false 	 false
+$17. (Class-(ext.Class)) 	 false 	 false 	 false
+$18. (Class-(ext.univ)) 	 false 	 false 	 false
+$19. (Class-(univ.ext)) 	 false 	 false 	 false
+$20. (Class.(ext.ext)) 	 false 	 false 	 false
+$21. (Class.ext) 	 false 	 false 	 false
+$22. (ext&(ext.ext)) 	 false 	 false 	 false
+$23. (ext&(~ext)) 	 false 	 false 	 false
+$24. (ext+(ext.ext)) 	 false 	 false 	 false
+$25. (ext+(~ext)) 	 false 	 false 	 false
+$26. (ext-(ext.ext)) 	 false 	 false 	 false
+$27. (ext-(~ext)) 	 false 	 false 	 false
+$28. (ext.(^ext)) 	 false 	 false 	 false
+$29. (ext.(Class.ext)) 	 false 	 false 	 false
+$30. (ext.(ext.Class)) 	 false 	 false 	 false
+$31. (ext.(ext.ext)) 	 false 	 false 	 false
+$32. (ext.(ext.univ)) 	 false 	 false 	 false
+$33. (ext.(univ.ext)) 	 false 	 false 	 false
+$34. (ext.(~ext)) 	 false 	 false 	 false
+$35. (ext.Class) 	 false 	 false 	 false
+$36. (ext.ext) 	 false 	 false 	 false
+$37. (ext.univ) 	 false 	 false 	 false
+$38. (none->none) 	 false 	 false 	 false
+$39. (none->none->none) 	 false 	 false 	 false
+$40. (univ.(ext.ext)) 	 false 	 false 	 false
+$41. (univ.ext) 	 false 	 false 	 false
+$42. (~(ext.ext)) 	 false 	 false 	 false
+$43. (~ext) 	 false 	 false 	 false
+$44. Class 	 false 	 false 	 false
+$45. ext 	 false 	 false 	 false
+$46. Int 	 false 	 false 	 false
+$47. none 	 false 	 false 	 false
+$48. Object 	 true 	 true 	 true
+$49. String 	 false 	 false 	 false
+$50. univ 	 false 	 false 	 false
+Expected Completion word: Object
+Expected Completion line: Object | c in Object.^~ext
+Suggestion exists: true
+
+Suggestion in top 1 = false 
+Suggestion in top 5 = false 
+Suggestion in top 10 = false 
+
+Suggestion in top 1 (Alpha) = false
+Suggestion in top 5 (Alpha) = false
+Suggestion in top 10 (Alpha) = false
+
+Suggestion in top 1 (Len) = false
+Suggestion in top 5 (Len) = false
+Suggestion in top 10 (Len) = true
+
+Time taken: 8.518042

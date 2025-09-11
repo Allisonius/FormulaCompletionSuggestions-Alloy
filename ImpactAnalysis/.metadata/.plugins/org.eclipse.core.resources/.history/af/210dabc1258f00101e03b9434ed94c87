@@ -1,0 +1,14 @@
+modelname,filename,position-line,position-character,incompleteline,removedtext,baseline,suggestionedExpression,A_iff_B,A_and_B,not_A_and_B,A_and_not_B,not_A_and_not_B,suggestionImpactTime
+production-line-v3,completion/production-line-v3-complete.als,65,23,"all w : Workstation -","end | one w.succ","{}","\tall w : Workstation - Component",,,,,,9.690291
+production-line-v3,completion/production-line-v3-complete.als,65,23,"all w : Workstation -","end | one w.succ","{}","\tall w : Workstation - Dangerous",,,,,,9.690291
+production-line-v3,completion/production-line-v3-complete.als,65,23,"all w : Workstation -","end | one w.succ","{}","\tall w : Workstation - Human",,,,,,9.690291
+production-line-v3,completion/production-line-v3-complete.als,65,23,"all w : Workstation -","end | one w.succ","{}","\tall w : Workstation - Material",,,,,,9.690291
+production-line-v3,completion/production-line-v3-complete.als,65,23,"all w : Workstation -","end | one w.succ","{}","\tall w : Workstation - Product",,,,,,9.690291
+production-line-v3,completion/production-line-v3-complete.als,65,23,"all w : Workstation -","end | one w.succ","{}","\tall w : Workstation - Robot",,,,,,9.690291
+production-line-v3,completion/production-line-v3-complete.als,65,23,"all w : Workstation -","end | one w.succ","{}","\tall w : Workstation - Worker",,,,,,9.690291
+production-line-v3,completion/production-line-v3-complete.als,65,23,"all w : Workstation -","end | one w.succ","{}","\tall w : Workstation - Workstation",,,,,,9.690291
+production-line-v3,completion/production-line-v3-complete.als,65,23,"all w : Workstation -","end | one w.succ","{}","\tall w : Workstation - begin",,,,,,9.690291
+production-line-v3,completion/production-line-v3-complete.als,65,23,"all w : Workstation -","end | one w.succ","{}","\tall w : Workstation - end",,,,,,9.690291
+production-line-v3,completion/production-line-v3-complete.als,65,23,"all w : Workstation -","end | one w.succ","{}","\tall w : Workstation - iden",,,,,,9.690291
+production-line-v3,completion/production-line-v3-complete.als,65,23,"all w : Workstation -","end | one w.succ","{}","\tall w : Workstation - none",,,,,,9.690291
+production-line-v3,completion/production-line-v3-complete.als,65,23,"all w : Workstation -","end | one w.succ","{}","\tall w : Workstation - univ",,,,,,9.690291

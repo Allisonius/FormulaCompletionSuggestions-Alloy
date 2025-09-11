@@ -1,0 +1,14 @@
+modelname,filename,position-line,position-character,incompleteline,removedtext,baseline,suggestionedExpression,A_iff_B,A_and_B,not_A_and_B,A_and_not_B,not_A_and_not_B,suggestionImpactTime
+courses-v1,completion/courses-v1-sig.als,13,20,"grades : Person ->","Grade","{}","\tgrades : Person -> Course",,,,,,4.145542
+courses-v1,completion/courses-v1-sig.als,13,20,"grades : Person ->","Grade","{}","\tgrades : Person -> Grade",,,,,,4.145542
+courses-v1,completion/courses-v1-sig.als,13,20,"grades : Person ->","Grade","{}","\tgrades : Person -> Person",,,,,,4.145542
+courses-v1,completion/courses-v1-sig.als,13,20,"grades : Person ->","Grade","{}","\tgrades : Person -> Professor",,,,,,4.145542
+courses-v1,completion/courses-v1-sig.als,13,20,"grades : Person ->","Grade","{}","\tgrades : Person -> Project",,,,,,4.145542
+courses-v1,completion/courses-v1-sig.als,13,20,"grades : Person ->","Grade","{}","\tgrades : Person -> Student",,,,,,4.145542
+courses-v1,completion/courses-v1-sig.als,13,20,"grades : Person ->","Grade","{}","\tgrades : Person -> ordering/Ord",,,,,,4.145542
+courses-v1,completion/courses-v1-sig.als,13,20,"grades : Person ->","Grade","{}","\tgrades : Person -> Int",,,,,,4.145542
+courses-v1,completion/courses-v1-sig.als,13,20,"grades : Person ->","Grade","{}","\tgrades : Person -> String",,,,,,4.145542
+courses-v1,completion/courses-v1-sig.als,13,20,"grades : Person ->","Grade","{}","\tgrades : Person -> none",,,,,,4.145542
+courses-v1,completion/courses-v1-sig.als,13,20,"grades : Person ->","Grade","{}","\tgrades : Person -> seq/Int",,,,,,4.145542
+courses-v1,completion/courses-v1-sig.als,13,20,"grades : Person ->","Grade","{}","\tgrades : Person -> univ",,,,,,4.145542
+courses-v1,completion/courses-v1-sig.als,13,20,"grades : Person ->","Grade","{}","\tgrades : Person -> iden",,,,,,4.145542

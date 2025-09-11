@@ -1,0 +1,10 @@
+owns
+~authorized
+owns.opened_by
+owns.authorized
+owns.Key
+owns.univ
+~authorized.Key
+~authorized.univ
+~authorized.opened_by
+~authorized.~owns

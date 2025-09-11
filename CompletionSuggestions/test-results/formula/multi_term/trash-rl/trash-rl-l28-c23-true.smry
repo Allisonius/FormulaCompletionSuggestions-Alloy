@@ -1,0 +1,51 @@
+Model name: trash-rl
+Filename: completion/trash-rl-complete.als
+Offset: 273
+Term: .
+Vscode Position: line=27 character=23
+----------------------------------
+28 | 	all f : File | lone f.
+----------------------------------
+Completion List:
+# Suggestion 	 Exact 	 Syntactic 	 Semantic
+$1. *link.f 	 false 	 undefined 	 undefined
+$2. ^link.f 	 false 	 undefined 	 undefined
+$3. link.f 	 false 	 undefined 	 undefined
+$4. ~link.f 	 false 	 undefined 	 undefined
+$5. *link.File 	 false 	 undefined 	 undefined
+$6. *link.Protected 	 false 	 undefined 	 undefined
+$7. *link.Trash 	 false 	 undefined 	 undefined
+$8. ^link.File 	 false 	 undefined 	 undefined
+$9. ^link.Protected 	 false 	 undefined 	 undefined
+$10. ^link.Trash 	 false 	 undefined 	 undefined
+$11. link.File 	 false 	 undefined 	 undefined
+$12. link.Protected 	 false 	 undefined 	 undefined
+$13. link.Trash 	 false 	 undefined 	 undefined
+$14. ~link.File 	 false 	 undefined 	 undefined
+$15. ~link.Protected 	 false 	 undefined 	 undefined
+$16. ~link.Trash 	 false 	 undefined 	 undefined
+$17. link 	 true 	 undefined 	 undefined
+$18. link.univ 	 false 	 undefined 	 undefined
+$19. ~link 	 false 	 undefined 	 undefined
+$20. ~link.univ 	 false 	 undefined 	 undefined
+$21. ^link 	 false 	 undefined 	 undefined
+$22. ^link.univ 	 false 	 undefined 	 undefined
+$23. *link 	 false 	 undefined 	 undefined
+$24. *link.univ 	 false 	 undefined 	 undefined
+Expected Completion word: link
+Expected Completion line: link
+Suggestion exists: true
+
+Suggestion in top 1 = false 
+Suggestion in top 5 = false 
+Suggestion in top 10 = false 
+
+Suggestion in top 1 (Alpha) = false
+Suggestion in top 5 (Alpha) = false
+Suggestion in top 10 (Alpha) = false
+
+Suggestion in top 1 (Len) = true
+Suggestion in top 5 (Len) = true
+Suggestion in top 10 (Len) = true
+
+Time taken: 5.341334

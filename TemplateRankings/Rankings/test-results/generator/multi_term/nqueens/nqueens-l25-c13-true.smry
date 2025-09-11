@@ -1,0 +1,207 @@
+Model name: nqueens
+Filename: completion/nqueens.als
+Offset: 334
+Term: .
+Vscode Position: line=24 character=13
+----------------------------------
+25 |     minus[q1.
+----------------------------------
+Completion List:
+# Suggestion 	 Exact 	 Syntactic 	 Semantic
+$1. ((col-row).Int) 	 false 	 undefined 	 undefined
+$2. ((col-row).univ) 	 false 	 undefined 	 undefined
+$3. ((col.Int)-q1) 	 false 	 undefined 	 undefined
+$4. ((col.Int)-q2) 	 false 	 undefined 	 undefined
+$5. ((col.Int).col) 	 false 	 undefined 	 undefined
+$6. ((col.Int).row) 	 false 	 undefined 	 undefined
+$7. ((col.univ)-q1) 	 false 	 undefined 	 undefined
+$8. ((col.univ)-q2) 	 false 	 undefined 	 undefined
+$9. ((col.univ).col) 	 false 	 undefined 	 undefined
+$10. ((col.univ).row) 	 false 	 undefined 	 undefined
+$11. ((q1&q2).col) 	 false 	 undefined 	 undefined
+$12. ((q1&q2).row) 	 false 	 undefined 	 undefined
+$13. ((q1+q2).col) 	 false 	 undefined 	 undefined
+$14. ((q1+q2).row) 	 false 	 undefined 	 undefined
+$15. ((q1-q2).col) 	 false 	 undefined 	 undefined
+$16. ((q1-q2).row) 	 false 	 undefined 	 undefined
+$17. ((q2-q1).col) 	 false 	 undefined 	 undefined
+$18. ((q2-q1).row) 	 false 	 undefined 	 undefined
+$19. ((Queen-q1)-q2) 	 false 	 undefined 	 undefined
+$20. ((Queen-q1).col) 	 false 	 undefined 	 undefined
+$21. ((Queen-q1).row) 	 false 	 undefined 	 undefined
+$22. ((Queen-q2)-q1) 	 false 	 undefined 	 undefined
+$23. ((Queen-q2).col) 	 false 	 undefined 	 undefined
+$24. ((Queen-q2).row) 	 false 	 undefined 	 undefined
+$25. ((row&col).Int) 	 false 	 undefined 	 undefined
+$26. ((row&col).univ) 	 false 	 undefined 	 undefined
+$27. ((row+col).Int) 	 false 	 undefined 	 undefined
+$28. ((row+col).univ) 	 false 	 undefined 	 undefined
+$29. ((row-col).Int) 	 false 	 undefined 	 undefined
+$30. ((row-col).univ) 	 false 	 undefined 	 undefined
+$31. ((row.Int)-q1) 	 false 	 undefined 	 undefined
+$32. ((row.Int)-q2) 	 false 	 undefined 	 undefined
+$33. ((row.Int).col) 	 false 	 undefined 	 undefined
+$34. ((row.Int).row) 	 false 	 undefined 	 undefined
+$35. ((row.univ)-q1) 	 false 	 undefined 	 undefined
+$36. ((row.univ)-q2) 	 false 	 undefined 	 undefined
+$37. ((row.univ).col) 	 false 	 undefined 	 undefined
+$38. ((row.univ).row) 	 false 	 undefined 	 undefined
+$39. ((~col).col) 	 false 	 undefined 	 undefined
+$40. ((~col).q1) 	 false 	 undefined 	 undefined
+$41. ((~col).q2) 	 false 	 undefined 	 undefined
+$42. ((~col).Queen) 	 false 	 undefined 	 undefined
+$43. ((~col).row) 	 false 	 undefined 	 undefined
+$44. ((~col).univ) 	 false 	 undefined 	 undefined
+$45. ((~row).col) 	 false 	 undefined 	 undefined
+$46. ((~row).q1) 	 false 	 undefined 	 undefined
+$47. ((~row).q2) 	 false 	 undefined 	 undefined
+$48. ((~row).Queen) 	 false 	 undefined 	 undefined
+$49. ((~row).row) 	 false 	 undefined 	 undefined
+$50. ((~row).univ) 	 false 	 undefined 	 undefined
+$51. (col&(col-row)) 	 false 	 undefined 	 undefined
+$52. (col&(row-col)) 	 false 	 undefined 	 undefined
+$53. (col-row) 	 false 	 undefined 	 undefined
+$54. (col.(q1.col)) 	 false 	 undefined 	 undefined
+$55. (col.(q1.row)) 	 false 	 undefined 	 undefined
+$56. (col.(q2.col)) 	 false 	 undefined 	 undefined
+$57. (col.(q2.row)) 	 false 	 undefined 	 undefined
+$58. (col.(Queen.col)) 	 false 	 undefined 	 undefined
+$59. (col.(Queen.row)) 	 false 	 undefined 	 undefined
+$60. (col.(univ.col)) 	 false 	 undefined 	 undefined
+$61. (col.(univ.row)) 	 false 	 undefined 	 undefined
+$62. (col.(~col)) 	 false 	 undefined 	 undefined
+$63. (col.(~row)) 	 false 	 undefined 	 undefined
+$64. (col.Int) 	 false 	 undefined 	 undefined
+$65. (col.univ) 	 false 	 undefined 	 undefined
+$66. (Int-(q1.col)) 	 false 	 undefined 	 undefined
+$67. (Int-(q1.row)) 	 false 	 undefined 	 undefined
+$68. (Int-(q2.col)) 	 false 	 undefined 	 undefined
+$69. (Int-(q2.row)) 	 false 	 undefined 	 undefined
+$70. (Int-(Queen.col)) 	 false 	 undefined 	 undefined
+$71. (Int-(Queen.row)) 	 false 	 undefined 	 undefined
+$72. (Int-(univ.col)) 	 false 	 undefined 	 undefined
+$73. (Int-(univ.row)) 	 false 	 undefined 	 undefined
+$74. (none->none) 	 false 	 undefined 	 undefined
+$75. (none->none->none) 	 false 	 undefined 	 undefined
+$76. (q1&(col.Int)) 	 false 	 undefined 	 undefined
+$77. (q1&(col.univ)) 	 false 	 undefined 	 undefined
+$78. (q1&(q1-q2)) 	 false 	 undefined 	 undefined
+$79. (q1&(q2-q1)) 	 false 	 undefined 	 undefined
+$80. (q1&(Queen-q1)) 	 false 	 undefined 	 undefined
+$81. (q1&(Queen-q2)) 	 false 	 undefined 	 undefined
+$82. (q1&(row.Int)) 	 false 	 undefined 	 undefined
+$83. (q1&(row.univ)) 	 false 	 undefined 	 undefined
+$84. (q1&q2) 	 false 	 undefined 	 undefined
+$85. (q1+(col.Int)) 	 false 	 undefined 	 undefined
+$86. (q1+(col.univ)) 	 false 	 undefined 	 undefined
+$87. (q1+(Queen-q2)) 	 false 	 undefined 	 undefined
+$88. (q1+(row.Int)) 	 false 	 undefined 	 undefined
+$89. (q1+(row.univ)) 	 false 	 undefined 	 undefined
+$90. (q1+q2) 	 false 	 undefined 	 undefined
+$91. (q1-(col.Int)) 	 false 	 undefined 	 undefined
+$92. (q1-(col.univ)) 	 false 	 undefined 	 undefined
+$93. (q1-(Queen-q2)) 	 false 	 undefined 	 undefined
+$94. (q1-(row.Int)) 	 false 	 undefined 	 undefined
+$95. (q1-(row.univ)) 	 false 	 undefined 	 undefined
+$96. (q1-q2) 	 false 	 undefined 	 undefined
+$97. (q1.(col-row)) 	 false 	 undefined 	 undefined
+$98. (q1.(row&col)) 	 false 	 undefined 	 undefined
+$99. (q1.(row+col)) 	 false 	 undefined 	 undefined
+$100. (q1.(row-col)) 	 false 	 undefined 	 undefined
+$101. (q1.col) 	 false 	 undefined 	 undefined
+$102. (q1.row) 	 false 	 undefined 	 undefined
+$103. (q2&(col.Int)) 	 false 	 undefined 	 undefined
+$104. (q2&(col.univ)) 	 false 	 undefined 	 undefined
+$105. (q2&(q1-q2)) 	 false 	 undefined 	 undefined
+$106. (q2&(q2-q1)) 	 false 	 undefined 	 undefined
+$107. (q2&(Queen-q1)) 	 false 	 undefined 	 undefined
+$108. (q2&(Queen-q2)) 	 false 	 undefined 	 undefined
+$109. (q2&(row.Int)) 	 false 	 undefined 	 undefined
+$110. (q2&(row.univ)) 	 false 	 undefined 	 undefined
+$111. (q2+(col.Int)) 	 false 	 undefined 	 undefined
+$112. (q2+(col.univ)) 	 false 	 undefined 	 undefined
+$113. (q2+(Queen-q1)) 	 false 	 undefined 	 undefined
+$114. (q2+(row.Int)) 	 false 	 undefined 	 undefined
+$115. (q2+(row.univ)) 	 false 	 undefined 	 undefined
+$116. (q2-(col.Int)) 	 false 	 undefined 	 undefined
+$117. (q2-(col.univ)) 	 false 	 undefined 	 undefined
+$118. (q2-(Queen-q1)) 	 false 	 undefined 	 undefined
+$119. (q2-(row.Int)) 	 false 	 undefined 	 undefined
+$120. (q2-(row.univ)) 	 false 	 undefined 	 undefined
+$121. (q2-q1) 	 false 	 undefined 	 undefined
+$122. (q2.(col-row)) 	 false 	 undefined 	 undefined
+$123. (q2.(row&col)) 	 false 	 undefined 	 undefined
+$124. (q2.(row+col)) 	 false 	 undefined 	 undefined
+$125. (q2.(row-col)) 	 false 	 undefined 	 undefined
+$126. (q2.col) 	 false 	 undefined 	 undefined
+$127. (q2.row) 	 false 	 undefined 	 undefined
+$128. (Queen-(col.Int)) 	 false 	 undefined 	 undefined
+$129. (Queen-(col.univ)) 	 false 	 undefined 	 undefined
+$130. (Queen-(q1&q2)) 	 false 	 undefined 	 undefined
+$131. (Queen-(q1-q2)) 	 false 	 undefined 	 undefined
+$132. (Queen-(q2-q1)) 	 false 	 undefined 	 undefined
+$133. (Queen-(row.Int)) 	 false 	 undefined 	 undefined
+$134. (Queen-(row.univ)) 	 false 	 undefined 	 undefined
+$135. (Queen-q1) 	 false 	 undefined 	 undefined
+$136. (Queen-q2) 	 false 	 undefined 	 undefined
+$137. (Queen.(col-row)) 	 false 	 undefined 	 undefined
+$138. (Queen.(row&col)) 	 false 	 undefined 	 undefined
+$139. (Queen.(row+col)) 	 false 	 undefined 	 undefined
+$140. (Queen.(row-col)) 	 false 	 undefined 	 undefined
+$141. (Queen.col) 	 false 	 undefined 	 undefined
+$142. (Queen.row) 	 false 	 undefined 	 undefined
+$143. (row&(col-row)) 	 false 	 undefined 	 undefined
+$144. (row&(row-col)) 	 false 	 undefined 	 undefined
+$145. (row&col) 	 false 	 undefined 	 undefined
+$146. (row+col) 	 false 	 undefined 	 undefined
+$147. (row-col) 	 false 	 undefined 	 undefined
+$148. (row.(q1.col)) 	 false 	 undefined 	 undefined
+$149. (row.(q1.row)) 	 false 	 undefined 	 undefined
+$150. (row.(q2.col)) 	 false 	 undefined 	 undefined
+$151. (row.(q2.row)) 	 false 	 undefined 	 undefined
+$152. (row.(Queen.col)) 	 false 	 undefined 	 undefined
+$153. (row.(Queen.row)) 	 false 	 undefined 	 undefined
+$154. (row.(univ.col)) 	 false 	 undefined 	 undefined
+$155. (row.(univ.row)) 	 false 	 undefined 	 undefined
+$156. (row.(~col)) 	 false 	 undefined 	 undefined
+$157. (row.(~row)) 	 false 	 undefined 	 undefined
+$158. (row.Int) 	 false 	 undefined 	 undefined
+$159. (row.univ) 	 false 	 undefined 	 undefined
+$160. (univ.(col-row)) 	 false 	 undefined 	 undefined
+$161. (univ.(row&col)) 	 false 	 undefined 	 undefined
+$162. (univ.(row+col)) 	 false 	 undefined 	 undefined
+$163. (univ.(row-col)) 	 false 	 undefined 	 undefined
+$164. (univ.col) 	 false 	 undefined 	 undefined
+$165. (univ.row) 	 false 	 undefined 	 undefined
+$166. (~(col-row)) 	 false 	 undefined 	 undefined
+$167. (~(row&col)) 	 false 	 undefined 	 undefined
+$168. (~(row+col)) 	 false 	 undefined 	 undefined
+$169. (~(row-col)) 	 false 	 undefined 	 undefined
+$170. (~col) 	 false 	 undefined 	 undefined
+$171. (~row) 	 false 	 undefined 	 undefined
+$172. col 	 false 	 undefined 	 undefined
+$173. Int 	 false 	 undefined 	 undefined
+$174. none 	 false 	 undefined 	 undefined
+$175. q1 	 false 	 undefined 	 undefined
+$176. q2 	 false 	 undefined 	 undefined
+$177. Queen 	 false 	 undefined 	 undefined
+$178. row 	 true 	 undefined 	 undefined
+$179. String 	 false 	 undefined 	 undefined
+$180. univ 	 false 	 undefined 	 undefined
+Expected Completion word: row
+Expected Completion line: row, q2.row] != minus[q1.col, q2.col]
+Suggestion exists: true
+
+Suggestion in top 1 = false 
+Suggestion in top 5 = false 
+Suggestion in top 10 = false 
+
+Suggestion in top 1 (Alpha) = false
+Suggestion in top 5 (Alpha) = false
+Suggestion in top 10 (Alpha) = false
+
+Suggestion in top 1 (Len) = false
+Suggestion in top 5 (Len) = true
+Suggestion in top 10 (Len) = true
+
+Time taken: 11.487375

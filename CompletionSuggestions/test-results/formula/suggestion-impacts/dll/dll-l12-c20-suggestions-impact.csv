@@ -1,0 +1,14 @@
+modelname,filename,position-line,position-character,incompleteline,removedtext,baseline,suggestionedExpression,A_iff_B,A_and_B,not_A_and_B,A_and_not_B,not_A_and_not_B,suggestionImpactTime
+dll,completion/dll.als,12,20,"Node = DLL.header.","*nxt","{}","  Node = DLL.header.elem",true,true,false,true,false,18.535125
+dll,completion/dll.als,12,20,"Node = DLL.header.","*nxt","{}","  Node = DLL.header.nxt",true,true,false,true,false,18.535125
+dll,completion/dll.als,12,20,"Node = DLL.header.","*nxt","{}","  Node = DLL.header.pre",true,true,false,true,false,18.535125
+dll,completion/dll.als,12,20,"Node = DLL.header.","*nxt","{}","  Node = DLL.header.~header",true,true,false,true,false,18.535125
+dll,completion/dll.als,12,20,"Node = DLL.header.","*nxt","{}","  Node = DLL.header.~nxt",true,true,false,true,false,18.535125
+dll,completion/dll.als,12,20,"Node = DLL.header.","*nxt","{}","  Node = DLL.header.~pre",true,true,false,true,false,18.535125
+dll,completion/dll.als,12,20,"Node = DLL.header.","*nxt","{}","  Node = DLL.header.^nxt",true,true,false,true,false,18.535125
+dll,completion/dll.als,12,20,"Node = DLL.header.","*nxt","{}","  Node = DLL.header.^pre",true,true,false,true,false,18.535125
+dll,completion/dll.als,12,20,"Node = DLL.header.","*nxt","{}","  Node = DLL.header.*nxt",true,true,false,true,false,18.535125
+dll,completion/dll.als,12,20,"Node = DLL.header.","*nxt","{}","  Node = DLL.header.*pre",true,true,false,true,false,18.535125
+dll,completion/dll.als,12,20,"Node = DLL.header.","*nxt","{}","  Node = DLL.header.iden",true,true,false,true,false,18.535125
+dll,completion/dll.als,12,20,"Node = DLL.header.","*nxt","{}","  Node = DLL.header.none",,,,,,18.535125
+dll,completion/dll.als,12,20,"Node = DLL.header.","*nxt","{}","  Node = DLL.header.univ",,,,,,18.535125

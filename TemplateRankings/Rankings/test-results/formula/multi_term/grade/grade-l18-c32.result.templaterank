@@ -1,0 +1,11 @@
+assistant_for
+instructor_of
+~associated_with
+~associated_with.assigned_to
+assistant_for.Student
+assistant_for.univ
+instructor_of.Professor
+instructor_of.univ
+assistant_for.~assigned_to
+~associated_with.Assignment
+~associated_with.univ

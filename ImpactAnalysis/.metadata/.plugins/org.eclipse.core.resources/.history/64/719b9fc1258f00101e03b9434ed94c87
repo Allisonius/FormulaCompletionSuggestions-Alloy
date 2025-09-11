@@ -1,0 +1,8 @@
+modelname,filename,position-line,position-character,incompleteline,removedtext,baseline,suggestionedExpression,A_iff_B,A_and_B,not_A_and_B,A_and_not_B,not_A_and_not_B,suggestionImpactTime
+graph,completion/graph-complete.als,14,27,"all n : Node | n not in n.","^adj","{}","\tall n : Node | n not in n.adj",true,true,false,true,false,5.544791
+graph,completion/graph-complete.als,14,27,"all n : Node | n not in n.","^adj","{}","\tall n : Node | n not in n.~adj",true,true,false,true,false,5.544791
+graph,completion/graph-complete.als,14,27,"all n : Node | n not in n.","^adj","{}","\tall n : Node | n not in n.^adj",true,true,false,true,false,5.544791
+graph,completion/graph-complete.als,14,27,"all n : Node | n not in n.","^adj","{}","\tall n : Node | n not in n.*adj",true,true,false,true,false,5.544791
+graph,completion/graph-complete.als,14,27,"all n : Node | n not in n.","^adj","{}","\tall n : Node | n not in n.iden",true,true,false,true,false,5.544791
+graph,completion/graph-complete.als,14,27,"all n : Node | n not in n.","^adj","{}","\tall n : Node | n not in n.none",,,,,,5.544791
+graph,completion/graph-complete.als,14,27,"all n : Node | n not in n.","^adj","{}","\tall n : Node | n not in n.univ",,,,,,5.544791

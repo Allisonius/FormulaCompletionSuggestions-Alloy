@@ -1,0 +1,14 @@
+modelname,filename,position-line,position-character,incompleteline,removedtext,baseline,suggestionedExpression,A_iff_B,A_and_B,not_A_and_B,A_and_not_B,not_A_and_not_B,suggestionImpactTime
+dll,completion/dll.als,25,28,"no disj n1, n2: Node | n1.","elem = n2.elem","{}","  no disj n1, n2: Node | n1.elem",,,,,,5.754167
+dll,completion/dll.als,25,28,"no disj n1, n2: Node | n1.","elem = n2.elem","{}","  no disj n1, n2: Node | n1.nxt",,,,,,5.754167
+dll,completion/dll.als,25,28,"no disj n1, n2: Node | n1.","elem = n2.elem","{}","  no disj n1, n2: Node | n1.pre",,,,,,5.754167
+dll,completion/dll.als,25,28,"no disj n1, n2: Node | n1.","elem = n2.elem","{}","  no disj n1, n2: Node | n1.~header",,,,,,5.754167
+dll,completion/dll.als,25,28,"no disj n1, n2: Node | n1.","elem = n2.elem","{}","  no disj n1, n2: Node | n1.~nxt",,,,,,5.754167
+dll,completion/dll.als,25,28,"no disj n1, n2: Node | n1.","elem = n2.elem","{}","  no disj n1, n2: Node | n1.~pre",,,,,,5.754167
+dll,completion/dll.als,25,28,"no disj n1, n2: Node | n1.","elem = n2.elem","{}","  no disj n1, n2: Node | n1.^nxt",,,,,,5.754167
+dll,completion/dll.als,25,28,"no disj n1, n2: Node | n1.","elem = n2.elem","{}","  no disj n1, n2: Node | n1.^pre",,,,,,5.754167
+dll,completion/dll.als,25,28,"no disj n1, n2: Node | n1.","elem = n2.elem","{}","  no disj n1, n2: Node | n1.*nxt",,,,,,5.754167
+dll,completion/dll.als,25,28,"no disj n1, n2: Node | n1.","elem = n2.elem","{}","  no disj n1, n2: Node | n1.*pre",,,,,,5.754167
+dll,completion/dll.als,25,28,"no disj n1, n2: Node | n1.","elem = n2.elem","{}","  no disj n1, n2: Node | n1.iden",,,,,,5.754167
+dll,completion/dll.als,25,28,"no disj n1, n2: Node | n1.","elem = n2.elem","{}","  no disj n1, n2: Node | n1.none",,,,,,5.754167
+dll,completion/dll.als,25,28,"no disj n1, n2: Node | n1.","elem = n2.elem","{}","  no disj n1, n2: Node | n1.univ",,,,,,5.754167

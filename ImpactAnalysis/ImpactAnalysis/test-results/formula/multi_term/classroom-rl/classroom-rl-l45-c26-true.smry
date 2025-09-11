@@ -1,0 +1,59 @@
+Model name: classroom-rl
+Filename: completion/classroom-rl-complete.als
+Offset: 495
+Term: .
+Vscode Position: line=44 character=26
+----------------------------------
+45 | 	all t : Teacher | lone t.
+----------------------------------
+Completion List:
+# Suggestion 	 Exact 	 Syntactic 	 Semantic
+$1. *Tutors.t 	 false 	 undefined 	 undefined
+$2. Tutors.t 	 false 	 undefined 	 undefined
+$3. ^Tutors.t 	 false 	 undefined 	 undefined
+$4. ~Tutors.t 	 false 	 undefined 	 undefined
+$5. *Tutors.Person 	 false 	 undefined 	 undefined
+$6. *Tutors.Student 	 false 	 undefined 	 undefined
+$7. *Tutors.Teacher 	 false 	 undefined 	 undefined
+$8. Teaches.Class 	 false 	 undefined 	 undefined
+$9. Tutors.Person 	 false 	 undefined 	 undefined
+$10. Tutors.Student 	 false 	 undefined 	 undefined
+$11. Tutors.Teacher 	 false 	 undefined 	 undefined
+$12. ^Tutors.Person 	 false 	 undefined 	 undefined
+$13. ^Tutors.Student 	 false 	 undefined 	 undefined
+$14. ^Tutors.Teacher 	 false 	 undefined 	 undefined
+$15. ~Tutors.Person 	 false 	 undefined 	 undefined
+$16. ~Tutors.Student 	 false 	 undefined 	 undefined
+$17. ~Tutors.Teacher 	 false 	 undefined 	 undefined
+$18. *Tutors.Teaches 	 false 	 undefined 	 undefined
+$19. Teaches 	 true 	 undefined 	 undefined
+$20. Teaches.Groups 	 false 	 undefined 	 undefined
+$21. Teaches.univ 	 false 	 undefined 	 undefined
+$22. Tutors 	 false 	 undefined 	 undefined
+$23. Tutors.Teaches 	 false 	 undefined 	 undefined
+$24. Tutors.univ 	 false 	 undefined 	 undefined
+$25. ^Tutors.Teaches 	 false 	 undefined 	 undefined
+$26. ~Tutors.Teaches 	 false 	 undefined 	 undefined
+$27. ~Tutors 	 false 	 undefined 	 undefined
+$28. ~Tutors.univ 	 false 	 undefined 	 undefined
+$29. ^Tutors 	 false 	 undefined 	 undefined
+$30. ^Tutors.univ 	 false 	 undefined 	 undefined
+$31. *Tutors 	 false 	 undefined 	 undefined
+$32. *Tutors.univ 	 false 	 undefined 	 undefined
+Expected Completion word: Teaches
+Expected Completion line: Teaches
+Suggestion exists: true
+
+Suggestion in top 1 = false 
+Suggestion in top 5 = false 
+Suggestion in top 10 = false 
+
+Suggestion in top 1 (Alpha) = false
+Suggestion in top 5 (Alpha) = false
+Suggestion in top 10 (Alpha) = false
+
+Suggestion in top 1 (Len) = false
+Suggestion in top 5 (Len) = true
+Suggestion in top 10 (Len) = true
+
+Time taken: 9.903875

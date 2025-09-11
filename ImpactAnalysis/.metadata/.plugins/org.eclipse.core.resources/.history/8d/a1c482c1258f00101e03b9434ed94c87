@@ -1,0 +1,5 @@
+modelname,filename,position-line,position-character,incompleteline,removedtext,baseline,suggestionedExpression,A_iff_B,A_and_B,not_A_and_B,A_and_not_B,not_A_and_not_B,suggestionImpactTime
+bempl,completion/bempl-complete.als,16,8,"r in p.","owns.opened_by","{}","\tr in p.owns",,,,,,1.715917
+bempl,completion/bempl-complete.als,16,8,"r in p.","owns.opened_by","{}","\tr in p.iden",,,,,,1.715917
+bempl,completion/bempl-complete.als,16,8,"r in p.","owns.opened_by","{}","\tr in p.none",,,,,,1.715917
+bempl,completion/bempl-complete.als,16,8,"r in p.","owns.opened_by","{}","\tr in p.univ",,,,,,1.715917

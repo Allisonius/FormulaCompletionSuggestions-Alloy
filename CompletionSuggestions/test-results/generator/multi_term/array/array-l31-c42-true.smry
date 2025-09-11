@@ -1,0 +1,107 @@
+Model name: array
+Filename: completion/array-complete.als
+Offset: 641
+Term: .
+Vscode Position: line=30 character=42
+----------------------------------
+31 |   all idx: Array.i2e.Element | lone Array.
+----------------------------------
+Completion List:
+# Suggestion 	 Exact 	 Syntactic 	 Semantic
+$1. ((Array.length)-idx) 	 false 	 undefined 	 undefined
+$2. ((i2e.Element)-length) 	 false 	 undefined 	 undefined
+$3. ((i2e.Element).idx) 	 false 	 undefined 	 undefined
+$4. ((i2e.Element).Int) 	 false 	 undefined 	 undefined
+$5. ((i2e.Element).univ) 	 false 	 undefined 	 undefined
+$6. ((i2e.univ)-length) 	 false 	 undefined 	 undefined
+$7. ((i2e.univ).idx) 	 false 	 undefined 	 undefined
+$8. ((i2e.univ).Int) 	 false 	 undefined 	 undefined
+$9. ((i2e.univ).univ) 	 false 	 undefined 	 undefined
+$10. ((length.idx).i2e) 	 false 	 undefined 	 undefined
+$11. ((length.idx).length) 	 false 	 undefined 	 undefined
+$12. ((length.Int).i2e) 	 false 	 undefined 	 undefined
+$13. ((length.Int).length) 	 false 	 undefined 	 undefined
+$14. ((length.univ).i2e) 	 false 	 undefined 	 undefined
+$15. ((length.univ).length) 	 false 	 undefined 	 undefined
+$16. ((univ.length)-idx) 	 false 	 undefined 	 undefined
+$17. ((~length).Array) 	 false 	 undefined 	 undefined
+$18. ((~length).i2e) 	 false 	 undefined 	 undefined
+$19. ((~length).length) 	 false 	 undefined 	 undefined
+$20. ((~length).univ) 	 false 	 undefined 	 undefined
+$21. (Array-(length.idx)) 	 false 	 undefined 	 undefined
+$22. (Array-(length.Int)) 	 false 	 undefined 	 undefined
+$23. (Array-(length.univ)) 	 false 	 undefined 	 undefined
+$24. (Array.(i2e.Element)) 	 false 	 undefined 	 undefined
+$25. (Array.(i2e.univ)) 	 false 	 undefined 	 undefined
+$26. (Array.i2e) 	 false 	 undefined 	 undefined
+$27. (Array.length) 	 false 	 undefined 	 undefined
+$28. (i2e.Element) 	 false 	 undefined 	 undefined
+$29. (i2e.univ) 	 false 	 undefined 	 undefined
+$30. (idx&(Array.length)) 	 false 	 undefined 	 undefined
+$31. (idx&(Int-idx)) 	 false 	 undefined 	 undefined
+$32. (idx&(univ.length)) 	 false 	 undefined 	 undefined
+$33. (idx+(Array.length)) 	 false 	 undefined 	 undefined
+$34. (idx+(univ.length)) 	 false 	 undefined 	 undefined
+$35. (idx-(Array.length)) 	 false 	 undefined 	 undefined
+$36. (idx-(univ.length)) 	 false 	 undefined 	 undefined
+$37. (idx.(Array.i2e)) 	 false 	 undefined 	 undefined
+$38. (idx.(univ.i2e)) 	 false 	 undefined 	 undefined
+$39. (Int-(Array.length)) 	 false 	 undefined 	 undefined
+$40. (Int-(univ.length)) 	 false 	 undefined 	 undefined
+$41. (Int-idx) 	 false 	 undefined 	 undefined
+$42. (Int.(Array.i2e)) 	 false 	 undefined 	 undefined
+$43. (Int.(univ.i2e)) 	 false 	 undefined 	 undefined
+$44. (length&(i2e.Element)) 	 false 	 undefined 	 undefined
+$45. (length&(i2e.univ)) 	 false 	 undefined 	 undefined
+$46. (length+(i2e.Element)) 	 false 	 undefined 	 undefined
+$47. (length+(i2e.univ)) 	 false 	 undefined 	 undefined
+$48. (length-(i2e.Element)) 	 false 	 undefined 	 undefined
+$49. (length-(i2e.univ)) 	 false 	 undefined 	 undefined
+$50. (length.(Array.i2e)) 	 false 	 undefined 	 undefined
+$51. (length.(Array.length)) 	 false 	 undefined 	 undefined
+$52. (length.(Int-idx)) 	 false 	 undefined 	 undefined
+$53. (length.(univ.i2e)) 	 false 	 undefined 	 undefined
+$54. (length.(univ.length)) 	 false 	 undefined 	 undefined
+$55. (length.(~length)) 	 false 	 undefined 	 undefined
+$56. (length.idx) 	 false 	 undefined 	 undefined
+$57. (length.Int) 	 false 	 undefined 	 undefined
+$58. (length.univ) 	 false 	 undefined 	 undefined
+$59. (none->none) 	 false 	 undefined 	 undefined
+$60. (none->none->none) 	 false 	 undefined 	 undefined
+$61. (univ.(Array.i2e)) 	 false 	 undefined 	 undefined
+$62. (univ.(i2e.Element)) 	 false 	 undefined 	 undefined
+$63. (univ.(i2e.univ)) 	 false 	 undefined 	 undefined
+$64. (univ.(univ.i2e)) 	 false 	 undefined 	 undefined
+$65. (univ.i2e) 	 false 	 undefined 	 undefined
+$66. (univ.length) 	 false 	 undefined 	 undefined
+$67. (~(Array.i2e)) 	 false 	 undefined 	 undefined
+$68. (~(i2e.Element)) 	 false 	 undefined 	 undefined
+$69. (~(i2e.univ)) 	 false 	 undefined 	 undefined
+$70. (~(univ.i2e)) 	 false 	 undefined 	 undefined
+$71. (~length) 	 false 	 undefined 	 undefined
+$72. Array 	 false 	 undefined 	 undefined
+$73. Element 	 false 	 undefined 	 undefined
+$74. i2e 	 true 	 undefined 	 undefined
+$75. idx 	 false 	 undefined 	 undefined
+$76. Int 	 false 	 undefined 	 undefined
+$77. length 	 false 	 undefined 	 undefined
+$78. none 	 false 	 undefined 	 undefined
+$79. String 	 false 	 undefined 	 undefined
+$80. univ 	 false 	 undefined 	 undefined
+Expected Completion word: i2e
+Expected Completion line: i2e[idx]
+Suggestion exists: true
+
+Suggestion in top 1 = false 
+Suggestion in top 5 = false 
+Suggestion in top 10 = false 
+
+Suggestion in top 1 (Alpha) = false
+Suggestion in top 5 (Alpha) = false
+Suggestion in top 10 (Alpha) = false
+
+Suggestion in top 1 (Len) = true
+Suggestion in top 5 (Len) = true
+Suggestion in top 10 (Len) = true
+
+Time taken: 26.794292

@@ -1,0 +1,5 @@
+modelname,filename,position-line,position-character,incompleteline,removedtext,baseline,suggestionedExpression,A_iff_B,A_and_B,not_A_and_B,A_and_not_B,not_A_and_not_B,suggestionImpactTime
+courses-v2,completion/courses-v2-complete.als,73,27,"all c : Course | c.grades.","Grade in enrolled.c","{}","\tall c : Course | c.grades.Grade",,,,,,10.1845
+courses-v2,completion/courses-v2-complete.als,73,27,"all c : Course | c.grades.","Grade in enrolled.c","{}","\tall c : Course | c.grades.iden",,,,,,10.1845
+courses-v2,completion/courses-v2-complete.als,73,27,"all c : Course | c.grades.","Grade in enrolled.c","{}","\tall c : Course | c.grades.none",,,,,,10.1845
+courses-v2,completion/courses-v2-complete.als,73,27,"all c : Course | c.grades.","Grade in enrolled.c","{}","\tall c : Course | c.grades.univ",,,,,,10.1845

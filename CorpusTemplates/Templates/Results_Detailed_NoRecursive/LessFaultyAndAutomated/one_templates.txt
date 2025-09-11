@@ -1,0 +1,80 @@
+hits: 82 (19.47743467933492)
+(one (var.rel))
+
+hits: 55 (13.064133016627078)
+(one sig)
+
+hits: 54 (12.826603325415679)
+(one (var.(~rel)))
+
+hits: 41 (9.73871733966746)
+(one (var.(var.rel)))
+
+hits: 29 (6.88836104513064)
+(one var)
+
+hits: 24 (5.7007125890736345)
+(one (rel.var))
+
+hits: 23 (5.463182897862233)
+(one ((var.rel).var))
+
+hits: 20 (4.750593824228028)
+(one (var.var))
+
+hits: 12 (2.8503562945368173)
+(one ((var.rel) :> var))
+
+hits: 11 (2.6128266033254155)
+(one fun_call[])
+
+hits: 9 (2.137767220902613)
+(one (fun_call[] :> sig))
+
+hits: 8 (1.9002375296912115)
+(one (var.(sig.rel)))
+
+hits: 6 (1.4251781472684086)
+(one ((sig.rel).var))
+
+hits: 4 (0.9501187648456058)
+(one (sig.fun_call[]))
+
+hits: 3 (0.7125890736342043)
+(one ((var.rel) & (rel.var)))
+(one (rel.sig))
+(one (var.(var.var)))
+
+hits: 2 (0.4750593824228029)
+(one (sig.rel))
+(one ((var.rel) + (var.rel)))
+(one (((var.fun_call[]).fun_call[]) :> sig))
+(one (var.(~(rel.var))))
+(one (((sig.rel).rel).var))
+(one (((var.rel) + (var.rel)) + (var.rel)))
+(one ((rel.var).var))
+(one (var.(var.(var.rel))))
+
+hits: 1 (0.23752969121140144)
+(one ((var.(var.rel)) & (var.rel)))
+(one ((rel.rel).var))
+(one ((rel.var).rel))
+(one ((var.rel).rel))
+(one (sig.(var.rel)))
+(one (((sig.rel).var).var))
+(one (var.(rel.var)))
+(one ((var.(var.rel)) & ((rel.sig).var)))
+(one (((var.rel).var) & (rel.var)))
+(one ((var - var).var))
+(one (fun_call[] & var))
+(one ((var.rel).((var.rel).var)))
+(one (var.fun_call[]))
+(one ({ var: (one sig) {
+((var.rel) = sig)
+} }))
+(one (((var.rel).rel).rel))
+(one (sig - sig))
+(one ((var.rel).(var.rel)))
+(one ((var.(sig.rel)).var))
+
+

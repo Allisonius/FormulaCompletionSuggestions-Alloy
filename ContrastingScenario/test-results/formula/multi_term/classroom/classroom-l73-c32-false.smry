@@ -1,0 +1,211 @@
+Model name: classroom
+Filename: completion/classroom-complete.als
+Offset: 962
+Term:  & 
+Vscode Position: line=72 character=32
+----------------------------------
+73 |   all p:Person | some Teacher & 
+----------------------------------
+Completion List:
+# Suggestion 	 Exact 	 Syntactic 	 Semantic
+$1. *Tutors.p 	 false 	 undefined 	 undefined
+$2. *Tutors.p.*Tutors 	 false 	 undefined 	 undefined
+$3. *Tutors.p.Tutors 	 false 	 undefined 	 undefined
+$4. *Tutors.p.^Tutors 	 false 	 undefined 	 undefined
+$5. *Tutors.p.~Tutors 	 false 	 undefined 	 undefined
+$6. Tutors.p 	 false 	 undefined 	 undefined
+$7. Tutors.p.*Tutors 	 false 	 undefined 	 undefined
+$8. Tutors.p.Tutors 	 false 	 undefined 	 undefined
+$9. Tutors.p.^Tutors 	 false 	 undefined 	 undefined
+$10. Tutors.p.~Tutors 	 false 	 undefined 	 undefined
+$11. ^Tutors.p 	 false 	 undefined 	 undefined
+$12. ^Tutors.p.*Tutors 	 false 	 undefined 	 undefined
+$13. ^Tutors.p.Tutors 	 false 	 undefined 	 undefined
+$14. ^Tutors.p.^Tutors 	 false 	 undefined 	 undefined
+$15. ^Tutors.p.~Tutors 	 false 	 undefined 	 undefined
+$16. p 	 false 	 undefined 	 undefined
+$17. p.*Tutors 	 false 	 undefined 	 undefined
+$18. p.Tutors 	 false 	 undefined 	 undefined
+$19. p.^Tutors 	 false 	 undefined 	 undefined
+$20. p.~Tutors 	 false 	 undefined 	 undefined
+$21. ~Teaches.p.*Tutors 	 false 	 undefined 	 undefined
+$22. ~Teaches.p.Teaches 	 false 	 undefined 	 undefined
+$23. ~Teaches.p.Tutors 	 false 	 undefined 	 undefined
+$24. ~Teaches.p.^Tutors 	 false 	 undefined 	 undefined
+$25. ~Teaches.p.~Tutors 	 false 	 undefined 	 undefined
+$26. ~Tutors.p 	 false 	 undefined 	 undefined
+$27. ~Tutors.p.*Tutors 	 false 	 undefined 	 undefined
+$28. ~Tutors.p.Tutors 	 false 	 undefined 	 undefined
+$29. ~Tutors.p.^Tutors 	 false 	 undefined 	 undefined
+$30. ~Tutors.p.~Tutors 	 false 	 undefined 	 undefined
+$31. *Tutors.Person 	 false 	 undefined 	 undefined
+$32. *Tutors.Person.*Tutors 	 false 	 undefined 	 undefined
+$33. *Tutors.Person.Tutors 	 false 	 undefined 	 undefined
+$34. *Tutors.Person.^Tutors 	 false 	 undefined 	 undefined
+$35. *Tutors.Person.~Tutors 	 false 	 undefined 	 undefined
+$36. *Tutors.Student 	 false 	 undefined 	 undefined
+$37. *Tutors.Student.*Tutors 	 false 	 undefined 	 undefined
+$38. *Tutors.Student.Tutors 	 false 	 undefined 	 undefined
+$39. *Tutors.Student.^Tutors 	 false 	 undefined 	 undefined
+$40. *Tutors.Student.~Tutors 	 false 	 undefined 	 undefined
+$41. *Tutors.Teacher 	 false 	 undefined 	 undefined
+$42. *Tutors.Teacher.*Tutors 	 false 	 undefined 	 undefined
+$43. *Tutors.Teacher.Tutors 	 false 	 undefined 	 undefined
+$44. *Tutors.Teacher.^Tutors 	 false 	 undefined 	 undefined
+$45. *Tutors.Teacher.~Tutors 	 false 	 undefined 	 undefined
+$46. *Tutors.Teaches.Class 	 false 	 undefined 	 undefined
+$47. Class.Groups.Group 	 false 	 undefined 	 undefined
+$48. Class.Groups.univ 	 false 	 undefined 	 undefined
+$49. Class.~Teaches 	 false 	 undefined 	 undefined
+$50. Class.~Teaches.*Tutors 	 false 	 undefined 	 undefined
+$51. Class.~Teaches.Tutors 	 false 	 undefined 	 undefined
+$52. Class.~Teaches.^Tutors 	 false 	 undefined 	 undefined
+$53. Class.~Teaches.~Tutors 	 false 	 undefined 	 undefined
+$54. Person 	 false 	 undefined 	 undefined
+$55. Person.*Tutors 	 false 	 undefined 	 undefined
+$56. Person.Tutors 	 false 	 undefined 	 undefined
+$57. Person.^Tutors 	 false 	 undefined 	 undefined
+$58. Person.~Tutors 	 false 	 undefined 	 undefined
+$59. Student 	 false 	 undefined 	 undefined
+$60. Student.*Tutors 	 false 	 undefined 	 undefined
+$61. Student.Tutors 	 false 	 undefined 	 undefined
+$62. Student.^Tutors 	 false 	 undefined 	 undefined
+$63. Student.~Tutors 	 false 	 undefined 	 undefined
+$64. Teacher.*Tutors 	 false 	 undefined 	 undefined
+$65. Teacher.Tutors 	 false 	 undefined 	 undefined
+$66. Teacher.^Tutors 	 false 	 undefined 	 undefined
+$67. Teacher.~Tutors 	 false 	 undefined 	 undefined
+$68. Teaches.Class 	 false 	 undefined 	 undefined
+$69. Teaches.Class.~Teaches 	 false 	 undefined 	 undefined
+$70. Tutors.Person 	 false 	 undefined 	 undefined
+$71. Tutors.Person.*Tutors 	 false 	 undefined 	 undefined
+$72. Tutors.Person.Tutors 	 false 	 undefined 	 undefined
+$73. Tutors.Person.^Tutors 	 false 	 undefined 	 undefined
+$74. Tutors.Person.~Tutors 	 false 	 undefined 	 undefined
+$75. Tutors.Student 	 false 	 undefined 	 undefined
+$76. Tutors.Student.*Tutors 	 false 	 undefined 	 undefined
+$77. Tutors.Student.Tutors 	 false 	 undefined 	 undefined
+$78. Tutors.Student.^Tutors 	 false 	 undefined 	 undefined
+$79. Tutors.Student.~Tutors 	 false 	 undefined 	 undefined
+$80. Tutors.Teacher 	 false 	 undefined 	 undefined
+$81. Tutors.Teacher.*Tutors 	 false 	 undefined 	 undefined
+$82. Tutors.Teacher.Tutors 	 false 	 undefined 	 undefined
+$83. Tutors.Teacher.^Tutors 	 false 	 undefined 	 undefined
+$84. Tutors.Teacher.~Tutors 	 false 	 undefined 	 undefined
+$85. Tutors.Teaches.Class 	 false 	 undefined 	 undefined
+$86. ^Tutors.Person 	 false 	 undefined 	 undefined
+$87. ^Tutors.Person.*Tutors 	 false 	 undefined 	 undefined
+$88. ^Tutors.Person.Tutors 	 false 	 undefined 	 undefined
+$89. ^Tutors.Person.^Tutors 	 false 	 undefined 	 undefined
+$90. ^Tutors.Person.~Tutors 	 false 	 undefined 	 undefined
+$91. ^Tutors.Student 	 false 	 undefined 	 undefined
+$92. ^Tutors.Student.*Tutors 	 false 	 undefined 	 undefined
+$93. ^Tutors.Student.Tutors 	 false 	 undefined 	 undefined
+$94. ^Tutors.Student.^Tutors 	 false 	 undefined 	 undefined
+$95. ^Tutors.Student.~Tutors 	 false 	 undefined 	 undefined
+$96. ^Tutors.Teacher 	 false 	 undefined 	 undefined
+$97. ^Tutors.Teacher.*Tutors 	 false 	 undefined 	 undefined
+$98. ^Tutors.Teacher.Tutors 	 false 	 undefined 	 undefined
+$99. ^Tutors.Teacher.^Tutors 	 false 	 undefined 	 undefined
+$100. ^Tutors.Teacher.~Tutors 	 false 	 undefined 	 undefined
+$101. ^Tutors.Teaches.Class 	 false 	 undefined 	 undefined
+$102. univ.Groups.Group 	 false 	 undefined 	 undefined
+$103. ~Teaches.Person.*Tutors 	 false 	 undefined 	 undefined
+$104. ~Teaches.Person.Teaches 	 false 	 undefined 	 undefined
+$105. ~Teaches.Person.Tutors 	 false 	 undefined 	 undefined
+$106. ~Teaches.Person.^Tutors 	 false 	 undefined 	 undefined
+$107. ~Teaches.Person.~Tutors 	 false 	 undefined 	 undefined
+$108. ~Teaches.Student.*Tutors 	 false 	 undefined 	 undefined
+$109. ~Teaches.Student.Teaches 	 false 	 undefined 	 undefined
+$110. ~Teaches.Student.Tutors 	 false 	 undefined 	 undefined
+$111. ~Teaches.Student.^Tutors 	 false 	 undefined 	 undefined
+$112. ~Teaches.Student.~Tutors 	 false 	 undefined 	 undefined
+$113. ~Teaches.Teacher.*Tutors 	 false 	 undefined 	 undefined
+$114. ~Teaches.Teacher.Teaches 	 false 	 undefined 	 undefined
+$115. ~Teaches.Teacher.Tutors 	 false 	 undefined 	 undefined
+$116. ~Teaches.Teacher.^Tutors 	 false 	 undefined 	 undefined
+$117. ~Teaches.Teacher.~Tutors 	 false 	 undefined 	 undefined
+$118. ~Tutors.Person 	 false 	 undefined 	 undefined
+$119. ~Tutors.Person.*Tutors 	 false 	 undefined 	 undefined
+$120. ~Tutors.Person.Tutors 	 false 	 undefined 	 undefined
+$121. ~Tutors.Person.^Tutors 	 false 	 undefined 	 undefined
+$122. ~Tutors.Person.~Tutors 	 false 	 undefined 	 undefined
+$123. ~Tutors.Student 	 false 	 undefined 	 undefined
+$124. ~Tutors.Student.*Tutors 	 false 	 undefined 	 undefined
+$125. ~Tutors.Student.Tutors 	 false 	 undefined 	 undefined
+$126. ~Tutors.Student.^Tutors 	 false 	 undefined 	 undefined
+$127. ~Tutors.Student.~Tutors 	 false 	 undefined 	 undefined
+$128. ~Tutors.Teacher 	 false 	 undefined 	 undefined
+$129. ~Tutors.Teacher.*Tutors 	 false 	 undefined 	 undefined
+$130. ~Tutors.Teacher.Tutors 	 false 	 undefined 	 undefined
+$131. ~Tutors.Teacher.^Tutors 	 false 	 undefined 	 undefined
+$132. ~Tutors.Teacher.~Tutors 	 false 	 undefined 	 undefined
+$133. ~Tutors.Teaches.Class 	 false 	 undefined 	 undefined
+$134. *Tutors.Teaches.univ 	 false 	 undefined 	 undefined
+$135. *Tutors.univ.Tutors 	 false 	 undefined 	 undefined
+$136. Teaches.univ 	 false 	 undefined 	 undefined
+$137. Teaches.univ.*Tutors 	 false 	 undefined 	 undefined
+$138. Teaches.univ.Tutors 	 false 	 undefined 	 undefined
+$139. Teaches.univ.^Tutors 	 false 	 undefined 	 undefined
+$140. Teaches.univ.~Teaches 	 false 	 undefined 	 undefined
+$141. Teaches.univ.~Tutors 	 false 	 undefined 	 undefined
+$142. Tutors.Teaches.univ 	 false 	 undefined 	 undefined
+$143. Tutors.univ 	 false 	 undefined 	 undefined
+$144. Tutors.univ.*Tutors 	 false 	 undefined 	 undefined
+$145. Tutors.univ.Tutors 	 false 	 undefined 	 undefined
+$146. Tutors.univ.^Tutors 	 false 	 undefined 	 undefined
+$147. Tutors.univ.~Teaches 	 false 	 undefined 	 undefined
+$148. Tutors.univ.~Tutors 	 false 	 undefined 	 undefined
+$149. ^Tutors.Teaches.univ 	 false 	 undefined 	 undefined
+$150. ^Tutors.univ.Tutors 	 false 	 undefined 	 undefined
+$151. univ.Groups.univ 	 false 	 undefined 	 undefined
+$152. univ.Tutors 	 false 	 undefined 	 undefined
+$153. univ.~Teaches.Tutors 	 false 	 undefined 	 undefined
+$154. ~Teaches.univ.Teaches 	 false 	 undefined 	 undefined
+$155. ~Teaches.univ.Tutors 	 false 	 undefined 	 undefined
+$156. ~Tutors.Teaches.univ 	 false 	 undefined 	 undefined
+$157. ~Tutors.univ.Tutors 	 false 	 undefined 	 undefined
+$158. *Tutors.univ.~Teaches 	 false 	 undefined 	 undefined
+$159. *Tutors.univ.~Tutors 	 false 	 undefined 	 undefined
+$160. ^Tutors.univ.~Teaches 	 false 	 undefined 	 undefined
+$161. ^Tutors.univ.~Tutors 	 false 	 undefined 	 undefined
+$162. univ.~Teaches 	 false 	 undefined 	 undefined
+$163. univ.~Teaches.*Tutors 	 false 	 undefined 	 undefined
+$164. univ.~Teaches.^Tutors 	 false 	 undefined 	 undefined
+$165. univ.~Teaches.~Tutors 	 false 	 undefined 	 undefined
+$166. univ.~Tutors 	 false 	 undefined 	 undefined
+$167. ~Teaches.univ.*Tutors 	 false 	 undefined 	 undefined
+$168. ~Teaches.univ.^Tutors 	 false 	 undefined 	 undefined
+$169. ~Teaches.univ.~Teaches 	 false 	 undefined 	 undefined
+$170. ~Teaches.univ.~Tutors 	 false 	 undefined 	 undefined
+$171. ~Tutors.univ 	 false 	 undefined 	 undefined
+$172. ~Tutors.univ.*Tutors 	 false 	 undefined 	 undefined
+$173. ~Tutors.univ.^Tutors 	 false 	 undefined 	 undefined
+$174. ~Tutors.univ.~Teaches 	 false 	 undefined 	 undefined
+$175. ~Tutors.univ.~Tutors 	 false 	 undefined 	 undefined
+$176. *Tutors.univ.^Tutors 	 false 	 undefined 	 undefined
+$177. ^Tutors.univ 	 false 	 undefined 	 undefined
+$178. ^Tutors.univ.*Tutors 	 false 	 undefined 	 undefined
+$179. ^Tutors.univ.^Tutors 	 false 	 undefined 	 undefined
+$180. univ.^Tutors 	 false 	 undefined 	 undefined
+$181. *Tutors.univ 	 false 	 undefined 	 undefined
+$182. *Tutors.univ.*Tutors 	 false 	 undefined 	 undefined
+$183. univ 	 false 	 undefined 	 undefined
+$184. univ.*Tutors 	 false 	 undefined 	 undefined
+Expected Completion word: 
+Expected Completion line: (^Tutors).p
+Suggestion exists: false
+
+Suggestion in top 1 = false 
+Suggestion in top 5 = false 
+Suggestion in top 10 = false 
+
+Suggestion in top 1 (Alpha) = false
+Suggestion in top 5 (Alpha) = false
+Suggestion in top 10 (Alpha) = false
+
+Suggestion in top 1 (Len) = false
+Suggestion in top 5 (Len) = false
+Suggestion in top 10 (Len) = false
+
+Time taken: 26.453458

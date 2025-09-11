@@ -1,0 +1,7 @@
+modelname,filename,position-line,position-character,incompleteline,removedtext,baseline,suggestionedExpression,A_iff_B,A_and_B,not_A_and_B,A_and_not_B,not_A_and_not_B,suggestionImpactTime
+trash-rl,completion/trash-rl-complete.als,24,8,"File -","Protected in Trash","{}","\tFile - File",,,,,,2.174792
+trash-rl,completion/trash-rl-complete.als,24,8,"File -","Protected in Trash","{}","\tFile - Protected",,,,,,2.174792
+trash-rl,completion/trash-rl-complete.als,24,8,"File -","Protected in Trash","{}","\tFile - Trash",,,,,,2.174792
+trash-rl,completion/trash-rl-complete.als,24,8,"File -","Protected in Trash","{}","\tFile - iden",,,,,,2.174792
+trash-rl,completion/trash-rl-complete.als,24,8,"File -","Protected in Trash","{}","\tFile - none",,,,,,2.174792
+trash-rl,completion/trash-rl-complete.als,24,8,"File -","Protected in Trash","{}","\tFile - univ",,,,,,2.174792

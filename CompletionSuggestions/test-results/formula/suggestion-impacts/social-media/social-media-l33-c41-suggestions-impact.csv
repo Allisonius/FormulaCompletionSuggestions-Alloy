@@ -1,0 +1,11 @@
+modelname,filename,position-line,position-character,incompleteline,removedtext,baseline,suggestionedExpression,A_iff_B,A_and_B,not_A_and_B,A_and_not_B,not_A_and_not_B,suggestionImpactTime
+social-media,completion/socialMedia.als,33,41,"all i : Influencer | follows.i = User -","i","{}","\tall i : Influencer | follows.i = User - i",true,true,false,true,false,18.691208
+social-media,completion/socialMedia.als,33,41,"all i : Influencer | follows.i = User -","i","{}","\tall i : Influencer | follows.i = User - Ad",true,true,false,true,false,18.691208
+social-media,completion/socialMedia.als,33,41,"all i : Influencer | follows.i = User -","i","{}","\tall i : Influencer | follows.i = User - Day",true,true,false,true,false,18.691208
+social-media,completion/socialMedia.als,33,41,"all i : Influencer | follows.i = User -","i","{}","\tall i : Influencer | follows.i = User - Influencer",true,true,false,true,false,18.691208
+social-media,completion/socialMedia.als,33,41,"all i : Influencer | follows.i = User -","i","{}","\tall i : Influencer | follows.i = User - Photo",true,true,false,true,false,18.691208
+social-media,completion/socialMedia.als,33,41,"all i : Influencer | follows.i = User -","i","{}","\tall i : Influencer | follows.i = User - User",true,true,false,true,false,18.691208
+social-media,completion/socialMedia.als,33,41,"all i : Influencer | follows.i = User -","i","{}","\tall i : Influencer | follows.i = User - Int",true,true,false,true,false,18.691208
+social-media,completion/socialMedia.als,33,41,"all i : Influencer | follows.i = User -","i","{}","\tall i : Influencer | follows.i = User - String",true,true,false,true,false,18.691208
+social-media,completion/socialMedia.als,33,41,"all i : Influencer | follows.i = User -","i","{}","\tall i : Influencer | follows.i = User - none",true,true,false,true,false,18.691208
+social-media,completion/socialMedia.als,33,41,"all i : Influencer | follows.i = User -","i","{}","\tall i : Influencer | follows.i = User - univ",true,true,false,true,false,18.691208

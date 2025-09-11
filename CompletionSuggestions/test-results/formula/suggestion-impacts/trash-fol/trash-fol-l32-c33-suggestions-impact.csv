@@ -1,0 +1,17 @@
+modelname,filename,position-line,position-character,incompleteline,removedtext,baseline,suggestionedExpression,A_iff_B,A_and_B,not_A_and_B,A_and_not_B,not_A_and_not_B,suggestionImpactTime
+trash-fol,completion/trash-fol-complete.als,32,33,"all f1, f2 : File | f1 -> f2 in","link implies f2 not in Trash","{}","\tall f1, f2 : File | f1 -> f2 in File -> File",true,true,false,false,false,17.305458
+trash-fol,completion/trash-fol-complete.als,32,33,"all f1, f2 : File | f1 -> f2 in","link implies f2 not in Trash","{}","\tall f1, f2 : File | f1 -> f2 in File -> Protected",true,true,false,true,false,17.305458
+trash-fol,completion/trash-fol-complete.als,32,33,"all f1, f2 : File | f1 -> f2 in","link implies f2 not in Trash","{}","\tall f1, f2 : File | f1 -> f2 in File -> Trash",true,true,false,true,false,17.305458
+trash-fol,completion/trash-fol-complete.als,32,33,"all f1, f2 : File | f1 -> f2 in","link implies f2 not in Trash","{}","\tall f1, f2 : File | f1 -> f2 in Protected -> File",true,true,false,true,false,17.305458
+trash-fol,completion/trash-fol-complete.als,32,33,"all f1, f2 : File | f1 -> f2 in","link implies f2 not in Trash","{}","\tall f1, f2 : File | f1 -> f2 in Protected -> Protected",true,true,false,true,false,17.305458
+trash-fol,completion/trash-fol-complete.als,32,33,"all f1, f2 : File | f1 -> f2 in","link implies f2 not in Trash","{}","\tall f1, f2 : File | f1 -> f2 in Protected -> Trash",true,true,false,true,false,17.305458
+trash-fol,completion/trash-fol-complete.als,32,33,"all f1, f2 : File | f1 -> f2 in","link implies f2 not in Trash","{}","\tall f1, f2 : File | f1 -> f2 in Trash -> File",true,true,false,true,false,17.305458
+trash-fol,completion/trash-fol-complete.als,32,33,"all f1, f2 : File | f1 -> f2 in","link implies f2 not in Trash","{}","\tall f1, f2 : File | f1 -> f2 in Trash -> Protected",true,true,false,true,false,17.305458
+trash-fol,completion/trash-fol-complete.als,32,33,"all f1, f2 : File | f1 -> f2 in","link implies f2 not in Trash","{}","\tall f1, f2 : File | f1 -> f2 in Trash -> Trash",true,true,false,true,false,17.305458
+trash-fol,completion/trash-fol-complete.als,32,33,"all f1, f2 : File | f1 -> f2 in","link implies f2 not in Trash","{}","\tall f1, f2 : File | f1 -> f2 in link",true,true,false,true,false,17.305458
+trash-fol,completion/trash-fol-complete.als,32,33,"all f1, f2 : File | f1 -> f2 in","link implies f2 not in Trash","{}","\tall f1, f2 : File | f1 -> f2 in ~link",true,true,false,true,false,17.305458
+trash-fol,completion/trash-fol-complete.als,32,33,"all f1, f2 : File | f1 -> f2 in","link implies f2 not in Trash","{}","\tall f1, f2 : File | f1 -> f2 in ^link",true,true,false,true,false,17.305458
+trash-fol,completion/trash-fol-complete.als,32,33,"all f1, f2 : File | f1 -> f2 in","link implies f2 not in Trash","{}","\tall f1, f2 : File | f1 -> f2 in *link",true,true,false,true,false,17.305458
+trash-fol,completion/trash-fol-complete.als,32,33,"all f1, f2 : File | f1 -> f2 in","link implies f2 not in Trash","{}","\tall f1, f2 : File | f1 -> f2 in iden",true,true,false,true,false,17.305458
+trash-fol,completion/trash-fol-complete.als,32,33,"all f1, f2 : File | f1 -> f2 in","link implies f2 not in Trash","{}","\tall f1, f2 : File | f1 -> f2 in none",,,,,,17.305458
+trash-fol,completion/trash-fol-complete.als,32,33,"all f1, f2 : File | f1 -> f2 in","link implies f2 not in Trash","{}","\tall f1, f2 : File | f1 -> f2 in univ",,,,,,17.305458

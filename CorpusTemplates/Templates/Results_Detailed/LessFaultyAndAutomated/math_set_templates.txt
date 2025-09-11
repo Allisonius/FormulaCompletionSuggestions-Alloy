@@ -1,0 +1,27 @@
+hits: 4 (5.88235294117647)
+plus[(#((var.rel) & var)), (#((var.rel) & var))]
+plus[(plus[(#((var.rel) & sig)), (#((var.rel) & sig))]), (#((var.rel) & sig))]
+plus[(plus[(plus[(plus[(plus[(#((var.rel) & var)), (#((var.rel) & var))]), (#((var.rel) & var))]), (#((var.rel) & var))]), (#((var.rel) & var))]), (#((var.rel) & var))]
+plus[(plus[(plus[(#((var.rel) & sig)), (#((var.rel) & sig))]), (#((var.rel) & sig))]), (#((var.rel) & sig))]
+plus[(#((var.rel) & sig)), (#((var.rel) & sig))]
+plus[(plus[(plus[(plus[(plus[(#((var.rel) & sig)), (#((var.rel) & sig))]), (#((var.rel) & sig))]), (#((var.rel) & sig))]), (#((var.rel) & sig))]), (#((var.rel) & sig))]
+plus[(plus[(plus[(plus[(plus[(plus[(plus[(plus[(#((var.rel) & var)), (#((var.rel) & var))]), (#((var.rel) & var))]), (#((var.rel) & var))]), (#((var.rel) & var))]), (#((var.rel) & var))]), (#((var.rel) & var))]), (#((var.rel) & var))]), (#((var.rel) & var))]
+plus[(plus[(plus[(plus[(plus[(plus[(#((var.rel) & sig)), (#((var.rel) & sig))]), (#((var.rel) & sig))]), (#((var.rel) & sig))]), (#((var.rel) & sig))]), (#((var.rel) & sig))]), (#((var.rel) & sig))]
+plus[(plus[(plus[(plus[(plus[(plus[(#((var.rel) & var)), (#((var.rel) & var))]), (#((var.rel) & var))]), (#((var.rel) & var))]), (#((var.rel) & var))]), (#((var.rel) & var))]), (#((var.rel) & var))]
+plus[(plus[(plus[(#((var.rel) & var)), (#((var.rel) & var))]), (#((var.rel) & var))]), (#((var.rel) & var))]
+plus[(plus[(plus[(plus[(plus[(plus[(plus[(#((var.rel) & var)), (#((var.rel) & var))]), (#((var.rel) & var))]), (#((var.rel) & var))]), (#((var.rel) & var))]), (#((var.rel) & var))]), (#((var.rel) & var))]), (#((var.rel) & var))]
+plus[(plus[(plus[(plus[(#((var.rel) & var)), (#((var.rel) & var))]), (#((var.rel) & var))]), (#((var.rel) & var))]), (#((var.rel) & var))]
+plus[(plus[(plus[(plus[(#((var.rel) & sig)), (#((var.rel) & sig))]), (#((var.rel) & sig))]), (#((var.rel) & sig))]), (#((var.rel) & sig))]
+plus[(plus[(#((var.rel) & var)), (#((var.rel) & var))]), (#((var.rel) & var))]
+plus[(plus[(plus[(plus[(plus[(plus[(plus[(#((var.rel) & sig)), (#((var.rel) & sig))]), (#((var.rel) & sig))]), (#((var.rel) & sig))]), (#((var.rel) & sig))]), (#((var.rel) & sig))]), (#((var.rel) & sig))]), (#((var.rel) & sig))]
+
+hits: 2 (2.941176470588235)
+plus[(plus[(plus[(plus[(plus[(plus[(plus[(plus[(#((var.rel) & sig)), (#((var.rel) & sig))]), (#((var.rel) & sig))]), (#((var.rel) & sig))]), (#((var.rel) & sig))]), (#((var.rel) & sig))]), (#((var.rel) & sig))]), (#((var.rel) & sig))]), (#((var.rel) & sig))]
+plus[(plus[(plus[(plus[(plus[(plus[(plus[(plus[(#((var.rel) & sig)), (#((var.rel) & sig))]), (#((var.rel) & sig))]), (#((var.rel) & sig))]), (#((var.rel) & sig))]), (#((var.rel) & sig))]), (#((var.rel) & sig))]), (#((var.rel) & sig))]), fun_call[]]
+plus[(plus[(plus[(plus[(plus[(plus[(plus[(plus[(plus[(#((var.rel) & var)), (#((var.rel) & var))]), (#((var.rel) & var))]), (#((var.rel) & var))]), (#((var.rel) & var))]), (#((var.rel) & var))]), (#((var.rel) & var))]), (#((var.rel) & var))]), (#((var.rel) & var))]), 1]
+
+hits: 1 (1.4705882352941175)
+minus[(var.rel), 1]
+plus[((minus[(var.rel), 1]) * fun_call[]), (var.rel)]
+
+

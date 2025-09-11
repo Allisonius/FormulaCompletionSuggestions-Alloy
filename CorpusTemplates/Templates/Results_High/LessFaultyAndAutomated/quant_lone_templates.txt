@@ -1,0 +1,38 @@
+hits: 7 (29.166666666666668)
+lone name: (one name) {
+(name in (name.name))
+}
+
+hits: 5 (20.833333333333336)
+lone name: (one name) {
+(((name.name).name) = name)
+}
+
+hits: 4 (16.666666666666664)
+lone name: (one name) {
+(((name.name).(name.name)) = name)
+}
+
+hits: 2 (8.333333333333332)
+lone name: (one name) {
+(((name.name) = name) && ((name.name) = name))
+}
+lone name: (one name) {
+((name->name) in name)
+}
+
+hits: 1 (4.166666666666666)
+lone name: (one (name.name)) {
+(name in name)
+}
+lone name: (one name) {
+(pred_call[] => ((name->name) in (name.name)))
+}
+lone name: (one (name.name)) {
+((name.(name.name)) != (name.(name.name)))
+}
+lone name: (one (name - ((name.name).name))) {
+((name = (((name - name) - (name.name)) - (name.name))) && (name = ((name + name) + (name.name))))
+}
+
+

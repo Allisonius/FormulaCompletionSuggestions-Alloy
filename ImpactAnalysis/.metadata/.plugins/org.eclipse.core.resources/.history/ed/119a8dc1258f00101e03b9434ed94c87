@@ -1,0 +1,7 @@
+modelname,filename,position-line,position-character,incompleteline,removedtext,baseline,suggestionedExpression,A_iff_B,A_and_B,not_A_and_B,A_and_not_B,not_A_and_not_B,suggestionImpactTime
+classroom-rl,completion/classroom-rl-complete.als,57,24,"all c : Class | some c.","Groups implies some Teaches.c & Teacher","{}","\tall c : Class | some c.Groups",true,true,false,true,false,11.665167
+classroom-rl,completion/classroom-rl-complete.als,57,24,"all c : Class | some c.","Groups implies some Teaches.c & Teacher","{}","\tall c : Class | some c.~Teaches",true,true,false,true,false,11.665167
+classroom-rl,completion/classroom-rl-complete.als,57,24,"all c : Class | some c.","Groups implies some Teaches.c & Teacher","{}","\tall c : Class | some c.*Tutors",true,true,false,false,false,11.665167
+classroom-rl,completion/classroom-rl-complete.als,57,24,"all c : Class | some c.","Groups implies some Teaches.c & Teacher","{}","\tall c : Class | some c.iden",true,true,false,false,false,11.665167
+classroom-rl,completion/classroom-rl-complete.als,57,24,"all c : Class | some c.","Groups implies some Teaches.c & Teacher","{}","\tall c : Class | some c.none",,,,,,11.665167
+classroom-rl,completion/classroom-rl-complete.als,57,24,"all c : Class | some c.","Groups implies some Teaches.c & Teacher","{}","\tall c : Class | some c.univ",,,,,,11.665167

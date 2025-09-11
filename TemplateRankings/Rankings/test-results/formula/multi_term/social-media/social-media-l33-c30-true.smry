@@ -1,0 +1,131 @@
+Model name: social-media
+Filename: completion/socialMedia.als
+Offset: 457
+Term: .
+Vscode Position: line=32 character=30
+----------------------------------
+33 | 	all i : Influencer | follows.
+----------------------------------
+Completion List:
+# Suggestion 	 Exact 	 Syntactic 	 Semantic
+$1. *suggested.i 	 false 	 undefined 	 undefined
+$2. ^suggested.i 	 false 	 undefined 	 undefined
+$3. i 	 true 	 undefined 	 undefined
+$4. i.*follows 	 false 	 undefined 	 undefined
+$5. i.*suggested 	 false 	 undefined 	 undefined
+$6. i.^follows 	 false 	 undefined 	 undefined
+$7. i.^suggested 	 false 	 undefined 	 undefined
+$8. i.follows 	 false 	 undefined 	 undefined
+$9. i.posts 	 false 	 undefined 	 undefined
+$10. i.sees 	 false 	 undefined 	 undefined
+$11. i.suggested 	 false 	 undefined 	 undefined
+$12. i.~follows 	 false 	 undefined 	 undefined
+$13. i.~suggested 	 false 	 undefined 	 undefined
+$14. suggested.i 	 false 	 undefined 	 undefined
+$15. ~suggested.i 	 false 	 undefined 	 undefined
+$16. *suggested.Influencer 	 false 	 undefined 	 undefined
+$17. *suggested.User 	 false 	 undefined 	 undefined
+$18. Influencer 	 false 	 undefined 	 undefined
+$19. Influencer.*follows 	 false 	 undefined 	 undefined
+$20. Influencer.*suggested 	 false 	 undefined 	 undefined
+$21. Influencer.^follows 	 false 	 undefined 	 undefined
+$22. Influencer.^suggested 	 false 	 undefined 	 undefined
+$23. Influencer.follows 	 false 	 undefined 	 undefined
+$24. Influencer.posts 	 false 	 undefined 	 undefined
+$25. Influencer.sees 	 false 	 undefined 	 undefined
+$26. Influencer.suggested 	 false 	 undefined 	 undefined
+$27. Influencer.~follows 	 false 	 undefined 	 undefined
+$28. Influencer.~suggested 	 false 	 undefined 	 undefined
+$29. User 	 false 	 undefined 	 undefined
+$30. User.*follows 	 false 	 undefined 	 undefined
+$31. User.*suggested 	 false 	 undefined 	 undefined
+$32. User.^follows 	 false 	 undefined 	 undefined
+$33. User.^suggested 	 false 	 undefined 	 undefined
+$34. User.follows 	 false 	 undefined 	 undefined
+$35. User.posts 	 false 	 undefined 	 undefined
+$36. User.sees 	 false 	 undefined 	 undefined
+$37. User.suggested 	 false 	 undefined 	 undefined
+$38. User.~follows 	 false 	 undefined 	 undefined
+$39. User.~suggested 	 false 	 undefined 	 undefined
+$40. ^suggested.Influencer 	 false 	 undefined 	 undefined
+$41. ^suggested.User 	 false 	 undefined 	 undefined
+$42. posts.Ad 	 false 	 undefined 	 undefined
+$43. posts.Photo 	 false 	 undefined 	 undefined
+$44. sees.Ad 	 false 	 undefined 	 undefined
+$45. sees.Photo 	 false 	 undefined 	 undefined
+$46. suggested.Influencer 	 false 	 undefined 	 undefined
+$47. suggested.User 	 false 	 undefined 	 undefined
+$48. ~suggested.Influencer 	 false 	 undefined 	 undefined
+$49. ~suggested.User 	 false 	 undefined 	 undefined
+$50. *suggested.follows 	 false 	 undefined 	 undefined
+$51. *suggested.posts 	 false 	 undefined 	 undefined
+$52. *suggested.sees 	 false 	 undefined 	 undefined
+$53. ^suggested.follows 	 false 	 undefined 	 undefined
+$54. ^suggested.posts 	 false 	 undefined 	 undefined
+$55. ^suggested.sees 	 false 	 undefined 	 undefined
+$56. posts 	 false 	 undefined 	 undefined
+$57. posts.date 	 false 	 undefined 	 undefined
+$58. posts.univ 	 false 	 undefined 	 undefined
+$59. posts.~sees 	 false 	 undefined 	 undefined
+$60. sees 	 false 	 undefined 	 undefined
+$61. sees.date 	 false 	 undefined 	 undefined
+$62. sees.univ 	 false 	 undefined 	 undefined
+$63. sees.~posts 	 false 	 undefined 	 undefined
+$64. suggested 	 false 	 undefined 	 undefined
+$65. suggested.*follows 	 false 	 undefined 	 undefined
+$66. suggested.^follows 	 false 	 undefined 	 undefined
+$67. suggested.follows 	 false 	 undefined 	 undefined
+$68. suggested.posts 	 false 	 undefined 	 undefined
+$69. suggested.sees 	 false 	 undefined 	 undefined
+$70. suggested.univ 	 false 	 undefined 	 undefined
+$71. suggested.~follows 	 false 	 undefined 	 undefined
+$72. univ.date 	 false 	 undefined 	 undefined
+$73. univ.follows 	 false 	 undefined 	 undefined
+$74. univ.posts 	 false 	 undefined 	 undefined
+$75. univ.sees 	 false 	 undefined 	 undefined
+$76. univ.suggested 	 false 	 undefined 	 undefined
+$77. ~suggested.follows 	 false 	 undefined 	 undefined
+$78. ~suggested.posts 	 false 	 undefined 	 undefined
+$79. ~suggested.sees 	 false 	 undefined 	 undefined
+$80. *suggested.~follows 	 false 	 undefined 	 undefined
+$81. ^suggested.~follows 	 false 	 undefined 	 undefined
+$82. univ.~date 	 false 	 undefined 	 undefined
+$83. univ.~follows 	 false 	 undefined 	 undefined
+$84. univ.~posts 	 false 	 undefined 	 undefined
+$85. univ.~sees 	 false 	 undefined 	 undefined
+$86. univ.~suggested 	 false 	 undefined 	 undefined
+$87. ~suggested 	 false 	 undefined 	 undefined
+$88. ~suggested.*follows 	 false 	 undefined 	 undefined
+$89. ~suggested.^follows 	 false 	 undefined 	 undefined
+$90. ~suggested.univ 	 false 	 undefined 	 undefined
+$91. ~suggested.~follows 	 false 	 undefined 	 undefined
+$92. *suggested.^follows 	 false 	 undefined 	 undefined
+$93. ^suggested 	 false 	 undefined 	 undefined
+$94. ^suggested.*follows 	 false 	 undefined 	 undefined
+$95. ^suggested.^follows 	 false 	 undefined 	 undefined
+$96. ^suggested.univ 	 false 	 undefined 	 undefined
+$97. univ.^follows 	 false 	 undefined 	 undefined
+$98. univ.^suggested 	 false 	 undefined 	 undefined
+$99. *suggested 	 false 	 undefined 	 undefined
+$100. *suggested.*follows 	 false 	 undefined 	 undefined
+$101. *suggested.univ 	 false 	 undefined 	 undefined
+$102. univ 	 false 	 undefined 	 undefined
+$103. univ.*follows 	 false 	 undefined 	 undefined
+$104. univ.*suggested 	 false 	 undefined 	 undefined
+Expected Completion word: i
+Expected Completion line: i = User - i
+Suggestion exists: true
+
+Suggestion in top 1 = false 
+Suggestion in top 5 = true 
+Suggestion in top 10 = true 
+
+Suggestion in top 1 (Alpha) = false
+Suggestion in top 5 (Alpha) = false
+Suggestion in top 10 (Alpha) = false
+
+Suggestion in top 1 (Len) = true
+Suggestion in top 5 (Len) = true
+Suggestion in top 10 (Len) = true
+
+Time taken: 10.630625

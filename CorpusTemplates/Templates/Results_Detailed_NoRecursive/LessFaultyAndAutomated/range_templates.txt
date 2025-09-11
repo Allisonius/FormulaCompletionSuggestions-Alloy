@@ -1,0 +1,23 @@
+hits: 26 (38.23529411764706)
+(var.rel) :> var
+
+hits: 25 (36.76470588235294)
+fun_call[] :> sig
+
+hits: 7 (10.294117647058822)
+iden :> var
+
+hits: 2 (2.941176470588235)
+((var.fun_call[]).fun_call[]) :> sig
+var :> var
+((fun_call[].fun_call[]).(*rel)) :> sig
+
+hits: 1 (1.4705882352941175)
+(fun_call[].(var.rel)) :> (sig - var)
+(rel.var) :> sig
+rel :> ((rel & (sig->fun_call[])).sig)
+(var.rel) :> ({ var: (one sig) {
+((var.(fun_call[].(var.rel))) != var)
+} })
+
+

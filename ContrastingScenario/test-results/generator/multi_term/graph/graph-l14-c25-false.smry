@@ -1,0 +1,118 @@
+Model name: graph
+Filename: completion/graph-complete.als
+Offset: 140
+Term:  in 
+Vscode Position: line=13 character=25
+----------------------------------
+14 | 	all n : Node | n not in 
+----------------------------------
+Completion List:
+# Suggestion 	 Exact 	 Syntactic 	 Semantic
+$1. ((*adj)-adj) 	 false 	 undefined 	 undefined
+$2. ((*adj).n) 	 false 	 undefined 	 undefined
+$3. ((^adj)-adj) 	 false 	 undefined 	 undefined
+$4. ((^adj).n) 	 false 	 undefined 	 undefined
+$5. ((adj.adj)-adj) 	 false 	 undefined 	 undefined
+$6. ((adj.n)-n) 	 false 	 undefined 	 undefined
+$7. ((adj.n).adj) 	 false 	 undefined 	 undefined
+$8. ((adj.Node)-n) 	 false 	 undefined 	 undefined
+$9. ((adj.Node).adj) 	 false 	 undefined 	 undefined
+$10. ((adj.univ)-n) 	 false 	 undefined 	 undefined
+$11. ((adj.univ).adj) 	 false 	 undefined 	 undefined
+$12. ((n.adj)-n) 	 false 	 undefined 	 undefined
+$13. ((Node-n).adj) 	 false 	 undefined 	 undefined
+$14. ((Node.adj)-n) 	 false 	 undefined 	 undefined
+$15. ((univ.adj)-n) 	 false 	 undefined 	 undefined
+$16. ((~adj)-adj) 	 false 	 undefined 	 undefined
+$17. ((~adj).adj) 	 false 	 undefined 	 undefined
+$18. ((~adj).n) 	 false 	 undefined 	 undefined
+$19. ((~adj).Node) 	 false 	 undefined 	 undefined
+$20. ((~adj).univ) 	 false 	 undefined 	 undefined
+$21. (*(adj.adj)) 	 false 	 undefined 	 undefined
+$22. (*(~adj)) 	 false 	 undefined 	 undefined
+$23. (*adj) 	 false 	 undefined 	 undefined
+$24. (^(adj.adj)) 	 false 	 undefined 	 undefined
+$25. (^(~adj)) 	 false 	 undefined 	 undefined
+$26. (^adj) 	 false 	 undefined 	 undefined
+$27. (adj&(adj.adj)) 	 false 	 undefined 	 undefined
+$28. (adj&(~adj)) 	 false 	 undefined 	 undefined
+$29. (adj+(adj.adj)) 	 false 	 undefined 	 undefined
+$30. (adj+(~adj)) 	 false 	 undefined 	 undefined
+$31. (adj-(adj.adj)) 	 false 	 undefined 	 undefined
+$32. (adj-(~adj)) 	 false 	 undefined 	 undefined
+$33. (adj.(^adj)) 	 false 	 undefined 	 undefined
+$34. (adj.(adj.adj)) 	 false 	 undefined 	 undefined
+$35. (adj.(adj.n)) 	 false 	 undefined 	 undefined
+$36. (adj.(adj.Node)) 	 false 	 undefined 	 undefined
+$37. (adj.(adj.univ)) 	 false 	 undefined 	 undefined
+$38. (adj.(n.adj)) 	 false 	 undefined 	 undefined
+$39. (adj.(Node-n)) 	 false 	 undefined 	 undefined
+$40. (adj.(Node.adj)) 	 false 	 undefined 	 undefined
+$41. (adj.(univ.adj)) 	 false 	 undefined 	 undefined
+$42. (adj.(~adj)) 	 false 	 undefined 	 undefined
+$43. (adj.adj) 	 false 	 undefined 	 undefined
+$44. (adj.n) 	 false 	 undefined 	 undefined
+$45. (adj.Node) 	 false 	 undefined 	 undefined
+$46. (adj.univ) 	 false 	 undefined 	 undefined
+$47. (n&(adj.n)) 	 false 	 undefined 	 undefined
+$48. (n&(adj.Node)) 	 false 	 undefined 	 undefined
+$49. (n&(adj.univ)) 	 false 	 undefined 	 undefined
+$50. (n&(n.adj)) 	 false 	 undefined 	 undefined
+$51. (n&(Node-n)) 	 false 	 undefined 	 undefined
+$52. (n&(Node.adj)) 	 false 	 undefined 	 undefined
+$53. (n&(univ.adj)) 	 false 	 undefined 	 undefined
+$54. (n+(adj.n)) 	 false 	 undefined 	 undefined
+$55. (n+(adj.Node)) 	 false 	 undefined 	 undefined
+$56. (n+(adj.univ)) 	 false 	 undefined 	 undefined
+$57. (n+(n.adj)) 	 false 	 undefined 	 undefined
+$58. (n+(Node.adj)) 	 false 	 undefined 	 undefined
+$59. (n+(univ.adj)) 	 false 	 undefined 	 undefined
+$60. (n-(adj.n)) 	 false 	 undefined 	 undefined
+$61. (n-(adj.Node)) 	 false 	 undefined 	 undefined
+$62. (n-(adj.univ)) 	 false 	 undefined 	 undefined
+$63. (n-(n.adj)) 	 false 	 undefined 	 undefined
+$64. (n-(Node.adj)) 	 false 	 undefined 	 undefined
+$65. (n-(univ.adj)) 	 false 	 undefined 	 undefined
+$66. (n.(*adj)) 	 false 	 undefined 	 undefined
+$67. (n.(^adj)) 	 false 	 undefined 	 undefined
+$68. (n.(adj.adj)) 	 false 	 undefined 	 undefined
+$69. (n.adj) 	 false 	 undefined 	 undefined
+$70. (Node-(adj.n)) 	 false 	 undefined 	 undefined
+$71. (Node-(adj.Node)) 	 false 	 undefined 	 undefined
+$72. (Node-(adj.univ)) 	 false 	 undefined 	 undefined
+$73. (Node-(n.adj)) 	 false 	 undefined 	 undefined
+$74. (Node-(Node.adj)) 	 false 	 undefined 	 undefined
+$75. (Node-(univ.adj)) 	 false 	 undefined 	 undefined
+$76. (Node-n) 	 false 	 undefined 	 undefined
+$77. (Node.(adj.adj)) 	 false 	 undefined 	 undefined
+$78. (Node.adj) 	 false 	 undefined 	 undefined
+$79. (none->none) 	 false 	 undefined 	 undefined
+$80. (none->none->none) 	 false 	 undefined 	 undefined
+$81. (univ.(adj.adj)) 	 false 	 undefined 	 undefined
+$82. (univ.adj) 	 false 	 undefined 	 undefined
+$83. (~(adj.adj)) 	 false 	 undefined 	 undefined
+$84. (~adj) 	 false 	 undefined 	 undefined
+$85. adj 	 false 	 undefined 	 undefined
+$86. Int 	 false 	 undefined 	 undefined
+$87. n 	 false 	 undefined 	 undefined
+$88. Node 	 false 	 undefined 	 undefined
+$89. none 	 false 	 undefined 	 undefined
+$90. String 	 false 	 undefined 	 undefined
+$91. univ 	 false 	 undefined 	 undefined
+Expected Completion word: n
+Expected Completion line: n.^adj
+Suggestion exists: false
+
+Suggestion in top 1 = false 
+Suggestion in top 5 = false 
+Suggestion in top 10 = false 
+
+Suggestion in top 1 (Alpha) = false
+Suggestion in top 5 (Alpha) = false
+Suggestion in top 10 (Alpha) = false
+
+Suggestion in top 1 (Len) = true
+Suggestion in top 5 (Len) = true
+Suggestion in top 10 (Len) = true
+
+Time taken: 11.903959

@@ -1,0 +1,36 @@
+Model name: bempl
+Filename: completion/bempl-sig.als
+Offset: 39
+Term:  extends 
+Vscode Position: line=1 character=27
+----------------------------------
+2 | one sig secure_lab extends 
+----------------------------------
+Completion List:
+# Suggestion 	 Exact 	 Syntactic 	 Semantic
+$1. Employee 	 false 	 false 	 false
+$2. Key 	 false 	 false 	 false
+$3. Person 	 false 	 false 	 false
+$4. Researcher 	 false 	 false 	 false
+$5. Room 	 true 	 true 	 true
+$6. Int 	 false 	 false 	 false
+$7. String 	 false 	 false 	 false
+$8. none 	 false 	 false 	 false
+$9. univ 	 false 	 false 	 false
+Expected Completion word: Room
+Expected Completion line: Room {}
+Suggestion exists: true
+
+Suggestion in top 1 = false 
+Suggestion in top 5 = true 
+Suggestion in top 10 = true 
+
+Suggestion in top 1 (Alpha) = false
+Suggestion in top 5 (Alpha) = false
+Suggestion in top 10 (Alpha) = true
+
+Suggestion in top 1 (Len) = false
+Suggestion in top 5 (Len) = true
+Suggestion in top 10 (Len) = true
+
+Time taken: 38.785542

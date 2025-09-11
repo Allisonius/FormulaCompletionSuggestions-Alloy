@@ -1,0 +1,6 @@
+modelname,filename,position-line,position-character,incompleteline,removedtext,baseline,suggestionedExpression,A_iff_B,A_and_B,not_A_and_B,A_and_not_B,not_A_and_not_B,suggestionImpactTime
+nqueens,completion/nqueens.als,17,7,"q1.","row != q2.row","{}","    q1.col",,,,,,3.93775
+nqueens,completion/nqueens.als,17,7,"q1.","row != q2.row","{}","    q1.row",,,,,,3.93775
+nqueens,completion/nqueens.als,17,7,"q1.","row != q2.row","{}","    q1.iden",,,,,,3.93775
+nqueens,completion/nqueens.als,17,7,"q1.","row != q2.row","{}","    q1.none",,,,,,3.93775
+nqueens,completion/nqueens.als,17,7,"q1.","row != q2.row","{}","    q1.univ",,,,,,3.93775

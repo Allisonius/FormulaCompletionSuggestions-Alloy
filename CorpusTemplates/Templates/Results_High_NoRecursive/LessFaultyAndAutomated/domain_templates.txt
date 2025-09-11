@@ -1,0 +1,23 @@
+hits: 12 (30.0)
+(name.name) <: (name.name)
+
+hits: 9 (22.5)
+(name - name) <: (name.name)
+
+hits: 5 (12.5)
+name <: name
+
+hits: 2 (5.0)
+name <: (name.name)
+(name.name) <: name
+name <: iden
+((name.name) - name) <: (name.name)
+(name.name) <: ((name.name) :> (name.name))
+
+hits: 1 (2.5)
+(name.(name - name)) <: ((name.name) :> (name.(name - name)))
+(((name.name).name) - ((name.name).name)) <: (name.name)
+((name.name).fun_call[]) <: name
+fun_call[] <: (name.name)
+
+

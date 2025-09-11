@@ -1,0 +1,10 @@
+modelname,filename,position-line,position-character,incompleteline,removedtext,baseline,suggestionedExpression,A_iff_B,A_and_B,not_A_and_B,A_and_not_B,not_A_and_not_B,suggestionImpactTime
+train-station-fol,completion/train-station-fol-complete.als,58,29,"all j : Junction, t : succs.","j | some t.signals & Semaphore","{}","\tall j : Junction, t : succs.j",,,,,,8.902125
+train-station-fol,completion/train-station-fol-complete.als,58,29,"all j : Junction, t : succs.","j | some t.signals & Semaphore","{}","\tall j : Junction, t : succs.Entry",,,,,,8.902125
+train-station-fol,completion/train-station-fol-complete.als,58,29,"all j : Junction, t : succs.","j | some t.signals & Semaphore","{}","\tall j : Junction, t : succs.Exit",,,,,,8.902125
+train-station-fol,completion/train-station-fol-complete.als,58,29,"all j : Junction, t : succs.","j | some t.signals & Semaphore","{}","\tall j : Junction, t : succs.Junction",,,,,,8.902125
+train-station-fol,completion/train-station-fol-complete.als,58,29,"all j : Junction, t : succs.","j | some t.signals & Semaphore","{}","\tall j : Junction, t : succs.Track",,,,,,8.902125
+train-station-fol,completion/train-station-fol-complete.als,58,29,"all j : Junction, t : succs.","j | some t.signals & Semaphore","{}","\tall j : Junction, t : succs.signals",,,,,,8.902125
+train-station-fol,completion/train-station-fol-complete.als,58,29,"all j : Junction, t : succs.","j | some t.signals & Semaphore","{}","\tall j : Junction, t : succs.iden",,,,,,8.902125
+train-station-fol,completion/train-station-fol-complete.als,58,29,"all j : Junction, t : succs.","j | some t.signals & Semaphore","{}","\tall j : Junction, t : succs.none",,,,,,8.902125
+train-station-fol,completion/train-station-fol-complete.als,58,29,"all j : Junction, t : succs.","j | some t.signals & Semaphore","{}","\tall j : Junction, t : succs.univ",,,,,,8.902125

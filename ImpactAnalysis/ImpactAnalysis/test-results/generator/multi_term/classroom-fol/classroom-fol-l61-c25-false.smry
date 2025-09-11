@@ -1,0 +1,220 @@
+Model name: classroom-fol
+Filename: completion/classroom-fol-complete.als
+Offset: 912
+Term: .
+Vscode Position: line=60 character=25
+----------------------------------
+61 | 	all x: Teacher | some x.
+----------------------------------
+Completion List:
+# Suggestion 	 Exact 	 Syntactic 	 Semantic
+$1. ((*Tutors)-Tutors) 	 false 	 undefined 	 undefined
+$2. ((*Tutors).Student) 	 false 	 undefined 	 undefined
+$3. ((*Tutors).Teaches) 	 false 	 undefined 	 undefined
+$4. ((^Tutors)-Tutors) 	 false 	 undefined 	 undefined
+$5. ((^Tutors).Student) 	 false 	 undefined 	 undefined
+$6. ((^Tutors).Teaches) 	 false 	 undefined 	 undefined
+$7. ((Groups.Group).Person) 	 false 	 undefined 	 undefined
+$8. ((Groups.Group).Student) 	 false 	 undefined 	 undefined
+$9. ((Groups.Group).Teaches) 	 false 	 undefined 	 undefined
+$10. ((Groups.Group).Tutors) 	 false 	 undefined 	 undefined
+$11. ((Groups.Group).univ) 	 false 	 undefined 	 undefined
+$12. ((Groups.univ).Person) 	 false 	 undefined 	 undefined
+$13. ((Groups.univ).Student) 	 false 	 undefined 	 undefined
+$14. ((Groups.univ).Teaches) 	 false 	 undefined 	 undefined
+$15. ((Groups.univ).Tutors) 	 false 	 undefined 	 undefined
+$16. ((Groups.univ).univ) 	 false 	 undefined 	 undefined
+$17. ((Person-Student).Teaches) 	 false 	 undefined 	 undefined
+$18. ((Person-Student).Tutors) 	 false 	 undefined 	 undefined
+$19. ((Person.Tutors)-Student) 	 false 	 undefined 	 undefined
+$20. ((Student.Tutors)-Student) 	 false 	 undefined 	 undefined
+$21. ((Teaches.Class)-Student) 	 false 	 undefined 	 undefined
+$22. ((Teaches.Class).Teaches) 	 false 	 undefined 	 undefined
+$23. ((Teaches.Class).Tutors) 	 false 	 undefined 	 undefined
+$24. ((Teaches.univ)-Student) 	 false 	 undefined 	 undefined
+$25. ((Teaches.univ).Teaches) 	 false 	 undefined 	 undefined
+$26. ((Teaches.univ).Tutors) 	 false 	 undefined 	 undefined
+$27. ((Tutors.Person)-Student) 	 false 	 undefined 	 undefined
+$28. ((Tutors.Person).Teaches) 	 false 	 undefined 	 undefined
+$29. ((Tutors.Person).Tutors) 	 false 	 undefined 	 undefined
+$30. ((Tutors.Student)-Student) 	 false 	 undefined 	 undefined
+$31. ((Tutors.Student).Teaches) 	 false 	 undefined 	 undefined
+$32. ((Tutors.Student).Tutors) 	 false 	 undefined 	 undefined
+$33. ((Tutors.Teaches)-Teaches) 	 false 	 undefined 	 undefined
+$34. ((Tutors.Tutors)-Tutors) 	 false 	 undefined 	 undefined
+$35. ((Tutors.univ)-Student) 	 false 	 undefined 	 undefined
+$36. ((Tutors.univ).Teaches) 	 false 	 undefined 	 undefined
+$37. ((Tutors.univ).Tutors) 	 false 	 undefined 	 undefined
+$38. ((univ.Tutors)-Student) 	 false 	 undefined 	 undefined
+$39. ((~Teaches).Person) 	 false 	 undefined 	 undefined
+$40. ((~Teaches).Student) 	 false 	 undefined 	 undefined
+$41. ((~Teaches).Teaches) 	 false 	 undefined 	 undefined
+$42. ((~Teaches).Tutors) 	 false 	 undefined 	 undefined
+$43. ((~Teaches).univ) 	 false 	 undefined 	 undefined
+$44. ((~Tutors)-Tutors) 	 false 	 undefined 	 undefined
+$45. ((~Tutors).Person) 	 false 	 undefined 	 undefined
+$46. ((~Tutors).Student) 	 false 	 undefined 	 undefined
+$47. ((~Tutors).Teaches) 	 false 	 undefined 	 undefined
+$48. ((~Tutors).Tutors) 	 false 	 undefined 	 undefined
+$49. ((~Tutors).univ) 	 false 	 undefined 	 undefined
+$50. (*(Tutors.Tutors)) 	 false 	 undefined 	 undefined
+$51. (*(~Tutors)) 	 false 	 undefined 	 undefined
+$52. (*Tutors) 	 false 	 undefined 	 undefined
+$53. (^(Tutors.Tutors)) 	 false 	 undefined 	 undefined
+$54. (^(~Tutors)) 	 false 	 undefined 	 undefined
+$55. (^Tutors) 	 false 	 undefined 	 undefined
+$56. (Class-(Person.Teaches)) 	 false 	 undefined 	 undefined
+$57. (Class-(Student.Teaches)) 	 false 	 undefined 	 undefined
+$58. (Class-(univ.Teaches)) 	 false 	 undefined 	 undefined
+$59. (Class.(Groups.Group)) 	 false 	 undefined 	 undefined
+$60. (Class.(Groups.univ)) 	 false 	 undefined 	 undefined
+$61. (Class.Groups) 	 false 	 undefined 	 undefined
+$62. (Groups.Group) 	 false 	 undefined 	 undefined
+$63. (Groups.univ) 	 false 	 undefined 	 undefined
+$64. (none->none) 	 false 	 undefined 	 undefined
+$65. (none->none->none) 	 false 	 undefined 	 undefined
+$66. (Person-(Person.Tutors)) 	 false 	 undefined 	 undefined
+$67. (Person-(Student.Tutors)) 	 false 	 undefined 	 undefined
+$68. (Person-(Teaches.Class)) 	 false 	 undefined 	 undefined
+$69. (Person-(Teaches.univ)) 	 false 	 undefined 	 undefined
+$70. (Person-(Tutors.Person)) 	 false 	 undefined 	 undefined
+$71. (Person-(Tutors.Student)) 	 false 	 undefined 	 undefined
+$72. (Person-(Tutors.univ)) 	 false 	 undefined 	 undefined
+$73. (Person-(univ.Tutors)) 	 false 	 undefined 	 undefined
+$74. (Person-Student) 	 false 	 undefined 	 undefined
+$75. (Person.(Class.Groups)) 	 false 	 undefined 	 undefined
+$76. (Person.(Teaches.Groups)) 	 false 	 undefined 	 undefined
+$77. (Person.(Tutors.Teaches)) 	 false 	 undefined 	 undefined
+$78. (Person.(Tutors.Tutors)) 	 false 	 undefined 	 undefined
+$79. (Person.(univ.Groups)) 	 false 	 undefined 	 undefined
+$80. (Person.Teaches) 	 false 	 undefined 	 undefined
+$81. (Person.Tutors) 	 false 	 undefined 	 undefined
+$82. (Student&(Person-Student)) 	 false 	 undefined 	 undefined
+$83. (Student&(Person.Tutors)) 	 false 	 undefined 	 undefined
+$84. (Student&(Student.Tutors)) 	 false 	 undefined 	 undefined
+$85. (Student&(Teaches.Class)) 	 false 	 undefined 	 undefined
+$86. (Student&(Teaches.univ)) 	 false 	 undefined 	 undefined
+$87. (Student&(Tutors.Person)) 	 false 	 undefined 	 undefined
+$88. (Student&(Tutors.Student)) 	 false 	 undefined 	 undefined
+$89. (Student&(Tutors.univ)) 	 false 	 undefined 	 undefined
+$90. (Student&(univ.Tutors)) 	 false 	 undefined 	 undefined
+$91. (Student+(Person.Tutors)) 	 false 	 undefined 	 undefined
+$92. (Student+(Student.Tutors)) 	 false 	 undefined 	 undefined
+$93. (Student+(Teaches.Class)) 	 false 	 undefined 	 undefined
+$94. (Student+(Teaches.univ)) 	 false 	 undefined 	 undefined
+$95. (Student+(Tutors.Person)) 	 false 	 undefined 	 undefined
+$96. (Student+(Tutors.Student)) 	 false 	 undefined 	 undefined
+$97. (Student+(Tutors.univ)) 	 false 	 undefined 	 undefined
+$98. (Student+(univ.Tutors)) 	 false 	 undefined 	 undefined
+$99. (Student-(Person.Tutors)) 	 false 	 undefined 	 undefined
+$100. (Student-(Student.Tutors)) 	 false 	 undefined 	 undefined
+$101. (Student-(Teaches.Class)) 	 false 	 undefined 	 undefined
+$102. (Student-(Teaches.univ)) 	 false 	 undefined 	 undefined
+$103. (Student-(Tutors.Person)) 	 false 	 undefined 	 undefined
+$104. (Student-(Tutors.Student)) 	 false 	 undefined 	 undefined
+$105. (Student-(Tutors.univ)) 	 false 	 undefined 	 undefined
+$106. (Student-(univ.Tutors)) 	 false 	 undefined 	 undefined
+$107. (Student.(*Tutors)) 	 false 	 undefined 	 undefined
+$108. (Student.(^Tutors)) 	 false 	 undefined 	 undefined
+$109. (Student.(Class.Groups)) 	 false 	 undefined 	 undefined
+$110. (Student.(Teaches.Groups)) 	 false 	 undefined 	 undefined
+$111. (Student.(Tutors.Teaches)) 	 false 	 undefined 	 undefined
+$112. (Student.(Tutors.Tutors)) 	 false 	 undefined 	 undefined
+$113. (Student.(univ.Groups)) 	 false 	 undefined 	 undefined
+$114. (Student.Teaches) 	 false 	 undefined 	 undefined
+$115. (Student.Tutors) 	 false 	 undefined 	 undefined
+$116. (Teacher&(Teacher-x)) 	 false 	 undefined 	 undefined
+$117. (Teacher&(x-Teacher)) 	 false 	 undefined 	 undefined
+$118. (Teacher&x) 	 false 	 undefined 	 undefined
+$119. (Teacher+x) 	 false 	 undefined 	 undefined
+$120. (Teacher-x) 	 false 	 undefined 	 undefined
+$121. (Teaches&(Tutors.Teaches)) 	 false 	 undefined 	 undefined
+$122. (Teaches+(Tutors.Teaches)) 	 false 	 undefined 	 undefined
+$123. (Teaches-(Tutors.Teaches)) 	 false 	 undefined 	 undefined
+$124. (Teaches.(Groups.Group)) 	 false 	 undefined 	 undefined
+$125. (Teaches.(Groups.univ)) 	 false 	 undefined 	 undefined
+$126. (Teaches.(Person.Teaches)) 	 false 	 undefined 	 undefined
+$127. (Teaches.(Student.Teaches)) 	 false 	 undefined 	 undefined
+$128. (Teaches.(univ.Teaches)) 	 false 	 undefined 	 undefined
+$129. (Teaches.(~Teaches)) 	 false 	 undefined 	 undefined
+$130. (Teaches.Class) 	 false 	 undefined 	 undefined
+$131. (Teaches.Groups) 	 false 	 undefined 	 undefined
+$132. (Teaches.univ) 	 false 	 undefined 	 undefined
+$133. (Tutors&(Tutors.Tutors)) 	 false 	 undefined 	 undefined
+$134. (Tutors&(~Tutors)) 	 false 	 undefined 	 undefined
+$135. (Tutors+(Tutors.Tutors)) 	 false 	 undefined 	 undefined
+$136. (Tutors+(~Tutors)) 	 false 	 undefined 	 undefined
+$137. (Tutors-(Tutors.Tutors)) 	 false 	 undefined 	 undefined
+$138. (Tutors-(~Tutors)) 	 false 	 undefined 	 undefined
+$139. (Tutors.(^Tutors)) 	 false 	 undefined 	 undefined
+$140. (Tutors.(Class.Groups)) 	 false 	 undefined 	 undefined
+$141. (Tutors.(Person-Student)) 	 false 	 undefined 	 undefined
+$142. (Tutors.(Person.Tutors)) 	 false 	 undefined 	 undefined
+$143. (Tutors.(Student.Tutors)) 	 false 	 undefined 	 undefined
+$144. (Tutors.(Teaches.Class)) 	 false 	 undefined 	 undefined
+$145. (Tutors.(Teaches.Groups)) 	 false 	 undefined 	 undefined
+$146. (Tutors.(Teaches.univ)) 	 false 	 undefined 	 undefined
+$147. (Tutors.(Tutors.Person)) 	 false 	 undefined 	 undefined
+$148. (Tutors.(Tutors.Student)) 	 false 	 undefined 	 undefined
+$149. (Tutors.(Tutors.Teaches)) 	 false 	 undefined 	 undefined
+$150. (Tutors.(Tutors.Tutors)) 	 false 	 undefined 	 undefined
+$151. (Tutors.(Tutors.univ)) 	 false 	 undefined 	 undefined
+$152. (Tutors.(univ.Groups)) 	 false 	 undefined 	 undefined
+$153. (Tutors.(univ.Tutors)) 	 false 	 undefined 	 undefined
+$154. (Tutors.(~Tutors)) 	 false 	 undefined 	 undefined
+$155. (Tutors.Person) 	 false 	 undefined 	 undefined
+$156. (Tutors.Student) 	 false 	 undefined 	 undefined
+$157. (Tutors.Teaches) 	 false 	 undefined 	 undefined
+$158. (Tutors.Tutors) 	 false 	 undefined 	 undefined
+$159. (Tutors.univ) 	 false 	 undefined 	 undefined
+$160. (univ.(Class.Groups)) 	 false 	 undefined 	 undefined
+$161. (univ.(Groups.Group)) 	 false 	 undefined 	 undefined
+$162. (univ.(Groups.univ)) 	 false 	 undefined 	 undefined
+$163. (univ.(Teaches.Groups)) 	 false 	 undefined 	 undefined
+$164. (univ.(Tutors.Teaches)) 	 false 	 undefined 	 undefined
+$165. (univ.(Tutors.Tutors)) 	 false 	 undefined 	 undefined
+$166. (univ.(univ.Groups)) 	 false 	 undefined 	 undefined
+$167. (univ.Groups) 	 false 	 undefined 	 undefined
+$168. (univ.Teaches) 	 false 	 undefined 	 undefined
+$169. (univ.Tutors) 	 false 	 undefined 	 undefined
+$170. (x&(Teacher-x)) 	 false 	 undefined 	 undefined
+$171. (x&(x-Teacher)) 	 false 	 undefined 	 undefined
+$172. (x-Teacher) 	 false 	 undefined 	 undefined
+$173. (~(Class.Groups)) 	 false 	 undefined 	 undefined
+$174. (~(Groups.Group)) 	 false 	 undefined 	 undefined
+$175. (~(Groups.univ)) 	 false 	 undefined 	 undefined
+$176. (~(Tutors.Teaches)) 	 false 	 undefined 	 undefined
+$177. (~(Tutors.Tutors)) 	 false 	 undefined 	 undefined
+$178. (~(univ.Groups)) 	 false 	 undefined 	 undefined
+$179. (~Teaches) 	 false 	 undefined 	 undefined
+$180. (~Tutors) 	 false 	 undefined 	 undefined
+$181. Class 	 false 	 undefined 	 undefined
+$182. Group 	 false 	 undefined 	 undefined
+$183. Groups 	 false 	 undefined 	 undefined
+$184. Int 	 false 	 undefined 	 undefined
+$185. none 	 false 	 undefined 	 undefined
+$186. Person 	 false 	 undefined 	 undefined
+$187. String 	 false 	 undefined 	 undefined
+$188. Student 	 false 	 undefined 	 undefined
+$189. Teacher 	 false 	 undefined 	 undefined
+$190. Teaches 	 false 	 undefined 	 undefined
+$191. Tutors 	 false 	 undefined 	 undefined
+$192. univ 	 false 	 undefined 	 undefined
+$193. x 	 false 	 undefined 	 undefined
+Expected Completion word: Teaches
+Expected Completion line: Teaches.Groups
+Suggestion exists: false
+
+Suggestion in top 1 = false 
+Suggestion in top 5 = false 
+Suggestion in top 10 = false 
+
+Suggestion in top 1 (Alpha) = false
+Suggestion in top 5 (Alpha) = false
+Suggestion in top 10 (Alpha) = false
+
+Suggestion in top 1 (Len) = false
+Suggestion in top 5 (Len) = false
+Suggestion in top 10 (Len) = false
+
+Time taken: 16.984459

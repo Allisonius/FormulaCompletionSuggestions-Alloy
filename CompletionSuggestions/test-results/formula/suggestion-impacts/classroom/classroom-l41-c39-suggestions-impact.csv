@@ -1,0 +1,8 @@
+modelname,filename,position-line,position-character,incompleteline,removedtext,baseline,suggestionedExpression,A_iff_B,A_and_B,not_A_and_B,A_and_not_B,not_A_and_not_B,suggestionImpactTime
+classroom,completion/classroom-complete.als,41,39,"all c:Class | some Teacher & Teaches.","c","{}","  all c:Class | some Teacher & Teaches.c",true,true,false,true,false,18.734
+classroom,completion/classroom-complete.als,41,39,"all c:Class | some Teacher & Teaches.","c","{}","  all c:Class | some Teacher & Teaches.Class",true,true,false,true,false,18.734
+classroom,completion/classroom-complete.als,41,39,"all c:Class | some Teacher & Teaches.","c","{}","  all c:Class | some Teacher & Teaches.Groups",,,,,,18.734
+classroom,completion/classroom-complete.als,41,39,"all c:Class | some Teacher & Teaches.","c","{}","  all c:Class | some Teacher & Teaches.*Tutors",,,,,,18.734
+classroom,completion/classroom-complete.als,41,39,"all c:Class | some Teacher & Teaches.","c","{}","  all c:Class | some Teacher & Teaches.iden",,,,,,18.734
+classroom,completion/classroom-complete.als,41,39,"all c:Class | some Teacher & Teaches.","c","{}","  all c:Class | some Teacher & Teaches.none",true,true,false,true,false,18.734
+classroom,completion/classroom-complete.als,41,39,"all c:Class | some Teacher & Teaches.","c","{}","  all c:Class | some Teacher & Teaches.univ",true,true,false,true,false,18.734

@@ -1,0 +1,7 @@
+modelname,filename,position-line,position-character,incompleteline,removedtext,baseline,suggestionedExpression,A_iff_B,A_and_B,not_A_and_B,A_and_not_B,not_A_and_not_B,suggestionImpactTime
+courses-v2,completion/courses-v2-complete.als,58,42,"all p : Person | all c : Course | c in p.","teaches => c not in p.enrolled","{}","\tall p : Person | all c : Course | c in p.enrolled",true,true,false,true,false,23.873791
+courses-v2,completion/courses-v2-complete.als,58,42,"all p : Person | all c : Course | c in p.","teaches => c not in p.enrolled","{}","\tall p : Person | all c : Course | c in p.projects",,,,,,23.873791
+courses-v2,completion/courses-v2-complete.als,58,42,"all p : Person | all c : Course | c in p.","teaches => c not in p.enrolled","{}","\tall p : Person | all c : Course | c in p.teaches",true,true,false,true,false,23.873791
+courses-v2,completion/courses-v2-complete.als,58,42,"all p : Person | all c : Course | c in p.","teaches => c not in p.enrolled","{}","\tall p : Person | all c : Course | c in p.iden",true,true,false,true,false,23.873791
+courses-v2,completion/courses-v2-complete.als,58,42,"all p : Person | all c : Course | c in p.","teaches => c not in p.enrolled","{}","\tall p : Person | all c : Course | c in p.none",,,,,,23.873791
+courses-v2,completion/courses-v2-complete.als,58,42,"all p : Person | all c : Course | c in p.","teaches => c not in p.enrolled","{}","\tall p : Person | all c : Course | c in p.univ",,,,,,23.873791

@@ -1,0 +1,11 @@
+modelname,filename,position-line,position-character,incompleteline,removedtext,baseline,suggestionedExpression,A_iff_B,A_and_B,not_A_and_B,A_and_not_B,not_A_and_not_B,suggestionImpactTime
+production-line-v2,completion/production-line-v2-complete.als,75,22,"Workstation in begin.","*succ","{}","\tWorkstation in begin.succ",true,true,false,true,false,20.452958
+production-line-v2,completion/production-line-v2-complete.als,75,22,"Workstation in begin.","*succ","{}","\tWorkstation in begin.workers",false,false,false,true,false,20.452958
+production-line-v2,completion/production-line-v2-complete.als,75,22,"Workstation in begin.","*succ","{}","\tWorkstation in begin.~succ",true,true,false,true,false,20.452958
+production-line-v2,completion/production-line-v2-complete.als,75,22,"Workstation in begin.","*succ","{}","\tWorkstation in begin.~workstation",false,false,false,true,false,20.452958
+production-line-v2,completion/production-line-v2-complete.als,75,22,"Workstation in begin.","*succ","{}","\tWorkstation in begin.^succ",true,true,false,true,false,20.452958
+production-line-v2,completion/production-line-v2-complete.als,75,22,"Workstation in begin.","*succ","{}","\tWorkstation in begin.*parts",true,true,false,true,false,20.452958
+production-line-v2,completion/production-line-v2-complete.als,75,22,"Workstation in begin.","*succ","{}","\tWorkstation in begin.*succ",true,true,false,true,false,20.452958
+production-line-v2,completion/production-line-v2-complete.als,75,22,"Workstation in begin.","*succ","{}","\tWorkstation in begin.iden",true,true,false,true,false,20.452958
+production-line-v2,completion/production-line-v2-complete.als,75,22,"Workstation in begin.","*succ","{}","\tWorkstation in begin.none",,,,,,20.452958
+production-line-v2,completion/production-line-v2-complete.als,75,22,"Workstation in begin.","*succ","{}","\tWorkstation in begin.univ",,,,,,20.452958

@@ -1,0 +1,10 @@
+modelname,filename,position-line,position-character,incompleteline,removedtext,baseline,suggestionedExpression,A_iff_B,A_and_B,not_A_and_B,A_and_not_B,not_A_and_not_B,suggestionImpactTime
+c-tree,completion/ctree-sig.als,2,20,"one sig Red extends","Color {}","{}","one sig Red extends Blue",,,,,,4.684583
+c-tree,completion/ctree-sig.als,2,20,"one sig Red extends","Color {}","{}","one sig Red extends Color",,,,,,4.684583
+c-tree,completion/ctree-sig.als,2,20,"one sig Red extends","Color {}","{}","one sig Red extends Node",,,,,,4.684583
+c-tree,completion/ctree-sig.als,2,20,"one sig Red extends","Color {}","{}","one sig Red extends Int",,,,,,4.684583
+c-tree,completion/ctree-sig.als,2,20,"one sig Red extends","Color {}","{}","one sig Red extends String",,,,,,4.684583
+c-tree,completion/ctree-sig.als,2,20,"one sig Red extends","Color {}","{}","one sig Red extends seq/Int",,,,,,4.684583
+c-tree,completion/ctree-sig.als,2,20,"one sig Red extends","Color {}","{}","one sig Red extends iden",,,,,,4.684583
+c-tree,completion/ctree-sig.als,2,20,"one sig Red extends","Color {}","{}","one sig Red extends none",,,,,,4.684583
+c-tree,completion/ctree-sig.als,2,20,"one sig Red extends","Color {}","{}","one sig Red extends univ",,,,,,4.684583

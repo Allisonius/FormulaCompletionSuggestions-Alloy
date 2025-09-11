@@ -1,0 +1,17 @@
+modelname,filename,position-line,position-character,incompleteline,removedtext,baseline,suggestionedExpression,A_iff_B,A_and_B,not_A_and_B,A_and_not_B,not_A_and_not_B,suggestionImpactTime
+production-line-v3,completion/production-line-v3-sig.als,15,22,"sig Component extends","Product {","{}","sig Component extends Component",,,,,,4.571583
+production-line-v3,completion/production-line-v3-sig.als,15,22,"sig Component extends","Product {","{}","sig Component extends Dangerous",,,,,,4.571583
+production-line-v3,completion/production-line-v3-sig.als,15,22,"sig Component extends","Product {","{}","sig Component extends Human",,,,,,4.571583
+production-line-v3,completion/production-line-v3-sig.als,15,22,"sig Component extends","Product {","{}","sig Component extends Material",,,,,,4.571583
+production-line-v3,completion/production-line-v3-sig.als,15,22,"sig Component extends","Product {","{}","sig Component extends Product",,,,,,4.571583
+production-line-v3,completion/production-line-v3-sig.als,15,22,"sig Component extends","Product {","{}","sig Component extends Robot",,,,,,4.571583
+production-line-v3,completion/production-line-v3-sig.als,15,22,"sig Component extends","Product {","{}","sig Component extends Worker",,,,,,4.571583
+production-line-v3,completion/production-line-v3-sig.als,15,22,"sig Component extends","Product {","{}","sig Component extends Workstation",,,,,,4.571583
+production-line-v3,completion/production-line-v3-sig.als,15,22,"sig Component extends","Product {","{}","sig Component extends begin",,,,,,4.571583
+production-line-v3,completion/production-line-v3-sig.als,15,22,"sig Component extends","Product {","{}","sig Component extends end",,,,,,4.571583
+production-line-v3,completion/production-line-v3-sig.als,15,22,"sig Component extends","Product {","{}","sig Component extends Int",,,,,,4.571583
+production-line-v3,completion/production-line-v3-sig.als,15,22,"sig Component extends","Product {","{}","sig Component extends String",,,,,,4.571583
+production-line-v3,completion/production-line-v3-sig.als,15,22,"sig Component extends","Product {","{}","sig Component extends seq/Int",,,,,,4.571583
+production-line-v3,completion/production-line-v3-sig.als,15,22,"sig Component extends","Product {","{}","sig Component extends iden",,,,,,4.571583
+production-line-v3,completion/production-line-v3-sig.als,15,22,"sig Component extends","Product {","{}","sig Component extends none",,,,,,4.571583
+production-line-v3,completion/production-line-v3-sig.als,15,22,"sig Component extends","Product {","{}","sig Component extends univ",,,,,,4.571583

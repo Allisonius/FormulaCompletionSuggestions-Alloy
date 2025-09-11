@@ -1,0 +1,8 @@
+modelname,filename,position-line,position-character,incompleteline,removedtext,baseline,suggestionedExpression,A_iff_B,A_and_B,not_A_and_B,A_and_not_B,not_A_and_not_B,suggestionImpactTime
+graph,completion/graph-complete.als,18,15,"adj = Node ->","Node","{}","\tadj = Node -> Node",true,true,false,true,false,8.456167
+graph,completion/graph-complete.als,18,15,"adj = Node ->","Node","{}","\tadj = Node -> Int",true,true,false,true,false,8.456167
+graph,completion/graph-complete.als,18,15,"adj = Node ->","Node","{}","\tadj = Node -> String",true,true,false,true,false,8.456167
+graph,completion/graph-complete.als,18,15,"adj = Node ->","Node","{}","\tadj = Node -> none",true,true,false,true,false,8.456167
+graph,completion/graph-complete.als,18,15,"adj = Node ->","Node","{}","\tadj = Node -> seq/Int",true,true,false,true,false,8.456167
+graph,completion/graph-complete.als,18,15,"adj = Node ->","Node","{}","\tadj = Node -> univ",true,true,false,true,false,8.456167
+graph,completion/graph-complete.als,18,15,"adj = Node ->","Node","{}","\tadj = Node -> iden",,,,,,8.456167

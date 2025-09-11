@@ -1,0 +1,14 @@
+opened_by
+authorized
+opened_by.r
+~owns
+opened_by.Room
+opened_by.univ
+authorized.univ
+authorized.Employee
+opened_by.secure_lab
+~owns.p
+~owns.univ
+~owns.Person
+~owns.Employee
+~owns.Researcher

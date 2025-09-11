@@ -1,0 +1,39 @@
+Model name: dll
+Filename: completion/dll.als
+Offset: 165
+Term: .
+Vscode Position: line=11 character=13
+----------------------------------
+12 |   Node = DLL.
+----------------------------------
+Completion List:
+# Suggestion 	 Exact 	 Syntactic 	 Semantic
+$1. header.Node 	 false 	 false 	 false
+$2. header 	 false 	 false 	 false
+$3. header.*nxt 	 true 	 true 	 true
+$4. header.*pre 	 false 	 false 	 false
+$5. header.^nxt 	 false 	 false 	 false
+$6. header.^pre 	 false 	 false 	 false
+$7. header.elem 	 false 	 false 	 false
+$8. header.nxt 	 false 	 false 	 false
+$9. header.pre 	 false 	 false 	 false
+$10. header.univ 	 false 	 false 	 false
+$11. header.~nxt 	 false 	 false 	 false
+$12. header.~pre 	 false 	 false 	 false
+Expected Completion word: header
+Expected Completion line: header.*nxt
+Suggestion exists: true
+
+Suggestion in top 1 = false 
+Suggestion in top 5 = true 
+Suggestion in top 10 = true 
+
+Suggestion in top 1 (Alpha) = true
+Suggestion in top 5 (Alpha) = true
+Suggestion in top 10 (Alpha) = true
+
+Suggestion in top 1 (Len) = true
+Suggestion in top 5 (Len) = true
+Suggestion in top 10 (Len) = true
+
+Time taken: 26.398833

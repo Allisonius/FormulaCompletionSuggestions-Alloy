@@ -1,0 +1,53 @@
+Model name: c-tree
+Filename: completion/ctree-complete.als
+Offset: 196
+Term:  & 
+Vscode Position: line=11 character=12
+----------------------------------
+12 |   no iden & 
+----------------------------------
+Completion List:
+# Suggestion 	 Exact 	 Syntactic 	 Semantic
+$1. Blue 	 false 	 false 	 false
+$2. Color 	 false 	 false 	 false
+$3. Node 	 false 	 false 	 false
+$4. Red 	 false 	 false 	 false
+$5. *neighbors.color 	 false 	 false 	 false
+$6. ^neighbors.color 	 false 	 false 	 false
+$7. color 	 false 	 false 	 false
+$8. neighbors 	 true 	 true 	 true
+$9. neighbors.color 	 false 	 false 	 false
+$10. ~color.*neighbors.color 	 false 	 false 	 false
+$11. ~color.^neighbors.color 	 false 	 false 	 false
+$12. ~color.neighbors 	 false 	 false 	 false
+$13. ~color.neighbors.color 	 false 	 false 	 false
+$14. ~color.~neighbors.color 	 false 	 false 	 false
+$15. ~neighbors.color 	 false 	 false 	 false
+$16. ~color 	 false 	 false 	 false
+$17. ~color.*neighbors 	 false 	 false 	 false
+$18. ~color.^neighbors 	 false 	 false 	 false
+$19. ~color.~neighbors 	 false 	 false 	 false
+$20. ~neighbors 	 false 	 false 	 false
+$21. ^neighbors 	 false 	 false 	 false
+$22. *neighbors 	 false 	 false 	 false
+$23. Int 	 false 	 false 	 false
+$24. String 	 false 	 false 	 false
+$25. none 	 false 	 false 	 false
+$26. univ 	 false 	 false 	 false
+Expected Completion word: neighbors
+Expected Completion line: neighbors
+Suggestion exists: true
+
+Suggestion in top 1 = false 
+Suggestion in top 5 = false 
+Suggestion in top 10 = true 
+
+Suggestion in top 1 (Alpha) = false
+Suggestion in top 5 (Alpha) = false
+Suggestion in top 10 (Alpha) = false
+
+Suggestion in top 1 (Len) = false
+Suggestion in top 5 (Len) = false
+Suggestion in top 10 (Len) = false
+
+Time taken: 35.334916

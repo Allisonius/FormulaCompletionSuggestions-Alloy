@@ -1,0 +1,6 @@
+\For{each arity a with a one representative}{
+    encoding += no rep\_map(a)(0) =>
+    \For{for each arity b with a one representative excluding a}{
+        encoding += some rep\_map(b)(0)
+    }
+}

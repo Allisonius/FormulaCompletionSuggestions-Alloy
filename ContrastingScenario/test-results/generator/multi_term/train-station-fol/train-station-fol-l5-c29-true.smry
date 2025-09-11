@@ -1,0 +1,116 @@
+Model name: train-station-fol
+Filename: completion/train-station-fol-sig.als
+Offset: 85
+Term:  in 
+Vscode Position: line=4 character=29
+----------------------------------
+5 | sig Junction, Entry, Exit in 
+----------------------------------
+Completion List:
+# Suggestion 	 Exact 	 Syntactic 	 Semantic
+$1. ((*succs)-succs) 	 false 	 false 	 false
+$2. ((*succs).signals) 	 false 	 false 	 false
+$3. ((^succs)-succs) 	 false 	 false 	 false
+$4. ((^succs).signals) 	 false 	 false 	 false
+$5. ((signals.Signal).signals) 	 false 	 false 	 false
+$6. ((signals.Signal).succs) 	 false 	 false 	 false
+$7. ((signals.univ).signals) 	 false 	 false 	 false
+$8. ((signals.univ).succs) 	 false 	 false 	 false
+$9. ((succs.signals)-signals) 	 false 	 false 	 false
+$10. ((succs.succs)-succs) 	 false 	 false 	 false
+$11. ((succs.Track).signals) 	 false 	 false 	 false
+$12. ((succs.Track).succs) 	 false 	 false 	 false
+$13. ((succs.univ).signals) 	 false 	 false 	 false
+$14. ((succs.univ).succs) 	 false 	 false 	 false
+$15. ((~signals).signals) 	 false 	 false 	 false
+$16. ((~signals).succs) 	 false 	 false 	 false
+$17. ((~signals).Track) 	 false 	 false 	 false
+$18. ((~signals).univ) 	 false 	 false 	 false
+$19. ((~succs)-succs) 	 false 	 false 	 false
+$20. ((~succs).signals) 	 false 	 false 	 false
+$21. ((~succs).succs) 	 false 	 false 	 false
+$22. ((~succs).Track) 	 false 	 false 	 false
+$23. ((~succs).univ) 	 false 	 false 	 false
+$24. (*(succs.succs)) 	 false 	 false 	 false
+$25. (*(~succs)) 	 false 	 false 	 false
+$26. (*succs) 	 false 	 false 	 false
+$27. (^(succs.succs)) 	 false 	 false 	 false
+$28. (^(~succs)) 	 false 	 false 	 false
+$29. (^succs) 	 false 	 false 	 false
+$30. (none->none) 	 false 	 false 	 false
+$31. (none->none->none) 	 false 	 false 	 false
+$32. (Signal-(Track.signals)) 	 false 	 false 	 false
+$33. (Signal-(univ.signals)) 	 false 	 false 	 false
+$34. (signals&(succs.signals)) 	 false 	 false 	 false
+$35. (signals+(succs.signals)) 	 false 	 false 	 false
+$36. (signals-(succs.signals)) 	 false 	 false 	 false
+$37. (signals.(Track.signals)) 	 false 	 false 	 false
+$38. (signals.(univ.signals)) 	 false 	 false 	 false
+$39. (signals.(~signals)) 	 false 	 false 	 false
+$40. (signals.Signal) 	 false 	 false 	 false
+$41. (signals.univ) 	 false 	 false 	 false
+$42. (succs&(succs.succs)) 	 false 	 false 	 false
+$43. (succs&(~succs)) 	 false 	 false 	 false
+$44. (succs+(succs.succs)) 	 false 	 false 	 false
+$45. (succs+(~succs)) 	 false 	 false 	 false
+$46. (succs-(succs.succs)) 	 false 	 false 	 false
+$47. (succs-(~succs)) 	 false 	 false 	 false
+$48. (succs.(^succs)) 	 false 	 false 	 false
+$49. (succs.(signals.Signal)) 	 false 	 false 	 false
+$50. (succs.(signals.univ)) 	 false 	 false 	 false
+$51. (succs.(succs.signals)) 	 false 	 false 	 false
+$52. (succs.(succs.succs)) 	 false 	 false 	 false
+$53. (succs.(succs.Track)) 	 false 	 false 	 false
+$54. (succs.(succs.univ)) 	 false 	 false 	 false
+$55. (succs.(Track.succs)) 	 false 	 false 	 false
+$56. (succs.(univ.succs)) 	 false 	 false 	 false
+$57. (succs.(~succs)) 	 false 	 false 	 false
+$58. (succs.signals) 	 false 	 false 	 false
+$59. (succs.succs) 	 false 	 false 	 false
+$60. (succs.Track) 	 false 	 false 	 false
+$61. (succs.univ) 	 false 	 false 	 false
+$62. (Track-(signals.Signal)) 	 false 	 false 	 false
+$63. (Track-(signals.univ)) 	 false 	 false 	 false
+$64. (Track-(succs.Track)) 	 false 	 false 	 false
+$65. (Track-(succs.univ)) 	 false 	 false 	 false
+$66. (Track-(Track.succs)) 	 false 	 false 	 false
+$67. (Track-(univ.succs)) 	 false 	 false 	 false
+$68. (Track.(succs.signals)) 	 false 	 false 	 false
+$69. (Track.(succs.succs)) 	 false 	 false 	 false
+$70. (Track.signals) 	 false 	 false 	 false
+$71. (Track.succs) 	 false 	 false 	 false
+$72. (univ.(succs.signals)) 	 false 	 false 	 false
+$73. (univ.(succs.succs)) 	 false 	 false 	 false
+$74. (univ.signals) 	 false 	 false 	 false
+$75. (univ.succs) 	 false 	 false 	 false
+$76. (~(succs.signals)) 	 false 	 false 	 false
+$77. (~(succs.succs)) 	 false 	 false 	 false
+$78. (~signals) 	 false 	 false 	 false
+$79. (~succs) 	 false 	 false 	 false
+$80. Int 	 false 	 false 	 false
+$81. none 	 false 	 false 	 false
+$82. Semaphore 	 false 	 false 	 false
+$83. Signal 	 false 	 false 	 false
+$84. signals 	 false 	 false 	 false
+$85. Speed 	 false 	 false 	 false
+$86. String 	 false 	 false 	 false
+$87. succs 	 false 	 false 	 false
+$88. Track 	 true 	 true 	 true
+$89. univ 	 false 	 false 	 false
+Expected Completion word: Track
+Expected Completion line: Track {}
+Suggestion exists: true
+
+Suggestion in top 1 = false 
+Suggestion in top 5 = false 
+Suggestion in top 10 = false 
+
+Suggestion in top 1 (Alpha) = false
+Suggestion in top 5 (Alpha) = false
+Suggestion in top 10 (Alpha) = false
+
+Suggestion in top 1 (Len) = false
+Suggestion in top 5 (Len) = false
+Suggestion in top 10 (Len) = true
+
+Time taken: 16.189042

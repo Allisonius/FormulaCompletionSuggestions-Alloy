@@ -1,0 +1,65 @@
+Model name: lts
+Filename: completion/lts-complete.als
+Offset: 580
+Term: .
+Vscode Position: line=23 character=99
+----------------------------------
+24 | 	let ts = { s1,s2:State | some e:Event | s1->e->s2 in trans } | all s:State | some i:Init | s in i.
+----------------------------------
+Completion List:
+# Suggestion 	 Exact 	 Syntactic 	 Semantic
+$1. *ts.i 	 false 	 undefined 	 undefined
+$2. *ts.s 	 false 	 undefined 	 undefined
+$3. ^ts.i 	 false 	 undefined 	 undefined
+$4. ^ts.s 	 false 	 undefined 	 undefined
+$5. trans.i 	 false 	 undefined 	 undefined
+$6. trans.s 	 false 	 undefined 	 undefined
+$7. trans.ts 	 false 	 undefined 	 undefined
+$8. ts 	 true 	 undefined 	 undefined
+$9. ts.Init 	 false 	 undefined 	 undefined
+$10. ts.State 	 false 	 undefined 	 undefined
+$11. ts.i 	 false 	 undefined 	 undefined
+$12. ts.s 	 false 	 undefined 	 undefined
+$13. ts.trans 	 false 	 undefined 	 undefined
+$14. ts.univ 	 false 	 undefined 	 undefined
+$15. ~ts.i 	 false 	 undefined 	 undefined
+$16. ~ts.s 	 false 	 undefined 	 undefined
+$17. *ts.Init 	 false 	 undefined 	 undefined
+$18. *ts.State 	 false 	 undefined 	 undefined
+$19. ^ts.Init 	 false 	 undefined 	 undefined
+$20. ^ts.State 	 false 	 undefined 	 undefined
+$21. trans.Init 	 false 	 undefined 	 undefined
+$22. trans.State 	 false 	 undefined 	 undefined
+$23. ~ts.Init 	 false 	 undefined 	 undefined
+$24. ~ts.State 	 false 	 undefined 	 undefined
+$25. *ts.trans 	 false 	 undefined 	 undefined
+$26. ^ts.trans 	 false 	 undefined 	 undefined
+$27. trans 	 false 	 undefined 	 undefined
+$28. trans.*ts 	 false 	 undefined 	 undefined
+$29. trans.^ts 	 false 	 undefined 	 undefined
+$30. trans.univ 	 false 	 undefined 	 undefined
+$31. trans.~ts 	 false 	 undefined 	 undefined
+$32. ~ts.trans 	 false 	 undefined 	 undefined
+$33. ~ts 	 false 	 undefined 	 undefined
+$34. ~ts.univ 	 false 	 undefined 	 undefined
+$35. ^ts 	 false 	 undefined 	 undefined
+$36. ^ts.univ 	 false 	 undefined 	 undefined
+$37. *ts 	 false 	 undefined 	 undefined
+$38. *ts.univ 	 false 	 undefined 	 undefined
+Expected Completion word: ^ts
+Expected Completion line: ^ts
+Suggestion exists: true
+
+Suggestion in top 1 = false 
+Suggestion in top 5 = false 
+Suggestion in top 10 = false 
+
+Suggestion in top 1 (Alpha) = false
+Suggestion in top 5 (Alpha) = false
+Suggestion in top 10 (Alpha) = true
+
+Suggestion in top 1 (Len) = false
+Suggestion in top 5 (Len) = true
+Suggestion in top 10 (Len) = true
+
+Time taken: 8.943458

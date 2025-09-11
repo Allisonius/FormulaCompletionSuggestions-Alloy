@@ -1,0 +1,26 @@
+hits: 823 (81.40454995054401)
+~name
+
+hits: 143 (14.14441147378833)
+~(name.name)
+
+hits: 18 (1.7804154302670623)
+~((name.name).name)
+
+hits: 14 (1.3847675568743818)
+~fun_call[]
+
+hits: 6 (0.5934718100890208)
+~(name + name)
+
+hits: 2 (0.19782393669634024)
+~(^fun_call[])
+
+hits: 1 (0.09891196834817012)
+~((name.name) <: name)
+~(((name.name).name).name)
+~(name.(name + name))
+~((name->name) - name)
+~(name->name)
+
+

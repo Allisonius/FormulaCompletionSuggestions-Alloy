@@ -1,0 +1,8 @@
+modelname,filename,position-line,position-character,incompleteline,removedtext,baseline,suggestionedExpression,A_iff_B,A_and_B,not_A_and_B,A_and_not_B,not_A_and_not_B,suggestionImpactTime
+courses-v2,completion/courses-v2-complete.als,37,43,"all p : Project | one c : Course | p in c.","projects","{}","\tall p : Project | one c : Course | p in c.grades",,,,,,28.485833
+courses-v2,completion/courses-v2-complete.als,37,43,"all p : Project | one c : Course | p in c.","projects","{}","\tall p : Project | one c : Course | p in c.projects",true,true,false,true,false,28.485833
+courses-v2,completion/courses-v2-complete.als,37,43,"all p : Project | one c : Course | p in c.","projects","{}","\tall p : Project | one c : Course | p in c.~enrolled",true,true,false,true,false,28.485833
+courses-v2,completion/courses-v2-complete.als,37,43,"all p : Project | one c : Course | p in c.","projects","{}","\tall p : Project | one c : Course | p in c.~teaches",true,true,false,true,false,28.485833
+courses-v2,completion/courses-v2-complete.als,37,43,"all p : Project | one c : Course | p in c.","projects","{}","\tall p : Project | one c : Course | p in c.iden",true,true,false,true,false,28.485833
+courses-v2,completion/courses-v2-complete.als,37,43,"all p : Project | one c : Course | p in c.","projects","{}","\tall p : Project | one c : Course | p in c.none",,,,,,28.485833
+courses-v2,completion/courses-v2-complete.als,37,43,"all p : Project | one c : Course | p in c.","projects","{}","\tall p : Project | one c : Course | p in c.univ",,,,,,28.485833

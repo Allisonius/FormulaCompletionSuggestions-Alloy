@@ -1,0 +1,13 @@
+modelname,filename,position-line,position-character,incompleteline,removedtext,baseline,suggestionedExpression,A_iff_B,A_and_B,not_A_and_B,A_and_not_B,not_A_and_not_B,suggestionImpactTime
+train-station-ltl,completion/train-station-ltl-sig.als,5,21,"sig Junction extends","Track {}","{}","sig Junction extends Entry",,,,,,4.891083
+train-station-ltl,completion/train-station-ltl-sig.als,5,21,"sig Junction extends","Track {}","{}","sig Junction extends Exit",,,,,,4.891083
+train-station-ltl,completion/train-station-ltl-sig.als,5,21,"sig Junction extends","Track {}","{}","sig Junction extends Green",,,,,,4.891083
+train-station-ltl,completion/train-station-ltl-sig.als,5,21,"sig Junction extends","Track {}","{}","sig Junction extends Signal",,,,,,4.891083
+train-station-ltl,completion/train-station-ltl-sig.als,5,21,"sig Junction extends","Track {}","{}","sig Junction extends Track",,,,,,4.891083
+train-station-ltl,completion/train-station-ltl-sig.als,5,21,"sig Junction extends","Track {}","{}","sig Junction extends Train",,,,,,4.891083
+train-station-ltl,completion/train-station-ltl-sig.als,5,21,"sig Junction extends","Track {}","{}","sig Junction extends Int",,,,,,4.891083
+train-station-ltl,completion/train-station-ltl-sig.als,5,21,"sig Junction extends","Track {}","{}","sig Junction extends String",,,,,,4.891083
+train-station-ltl,completion/train-station-ltl-sig.als,5,21,"sig Junction extends","Track {}","{}","sig Junction extends seq/Int",,,,,,4.891083
+train-station-ltl,completion/train-station-ltl-sig.als,5,21,"sig Junction extends","Track {}","{}","sig Junction extends iden",,,,,,4.891083
+train-station-ltl,completion/train-station-ltl-sig.als,5,21,"sig Junction extends","Track {}","{}","sig Junction extends none",,,,,,4.891083
+train-station-ltl,completion/train-station-ltl-sig.als,5,21,"sig Junction extends","Track {}","{}","sig Junction extends univ",,,,,,4.891083

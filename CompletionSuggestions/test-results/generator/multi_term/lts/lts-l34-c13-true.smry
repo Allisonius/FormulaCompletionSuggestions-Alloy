@@ -1,0 +1,77 @@
+Model name: lts
+Filename: completion/lts-complete.als
+Offset: 780
+Term: .
+Vscode Position: line=33 character=13
+----------------------------------
+34 | 	State.trans.
+----------------------------------
+Completion List:
+# Suggestion 	 Exact 	 Syntactic 	 Semantic
+$1. ((State-Init).trans) 	 false 	 false 	 false
+$2. ((trans.Init).Event) 	 false 	 false 	 false
+$3. ((trans.Init).univ) 	 false 	 false 	 false
+$4. ((trans.State).Event) 	 false 	 false 	 false
+$5. ((trans.State).univ) 	 false 	 false 	 false
+$6. ((trans.univ).Event) 	 false 	 false 	 false
+$7. ((trans.univ).univ) 	 false 	 false 	 false
+$8. (Event.(Init.trans)) 	 false 	 false 	 false
+$9. (Event.(State.trans)) 	 false 	 false 	 false
+$10. (Event.(univ.trans)) 	 false 	 false 	 false
+$11. (Init&(State-Init)) 	 false 	 false 	 false
+$12. (Init.(trans.Init)) 	 false 	 false 	 false
+$13. (Init.(trans.State)) 	 false 	 false 	 false
+$14. (Init.(trans.univ)) 	 false 	 false 	 false
+$15. (Init.trans) 	 false 	 false 	 false
+$16. (none->none) 	 false 	 false 	 false
+$17. (none->none->none) 	 false 	 false 	 false
+$18. (State-Init) 	 false 	 false 	 false
+$19. (State.(trans.Init)) 	 false 	 false 	 false
+$20. (State.(trans.State)) 	 false 	 false 	 false
+$21. (State.(trans.univ)) 	 false 	 false 	 false
+$22. (State.trans) 	 false 	 false 	 false
+$23. (trans.(State-Init)) 	 false 	 false 	 false
+$24. (trans.(trans.Init)) 	 false 	 false 	 false
+$25. (trans.(trans.State)) 	 false 	 false 	 false
+$26. (trans.(trans.univ)) 	 false 	 false 	 false
+$27. (trans.Init) 	 false 	 false 	 false
+$28. (trans.State) 	 false 	 false 	 false
+$29. (trans.univ) 	 false 	 false 	 false
+$30. (univ.(Init.trans)) 	 false 	 false 	 false
+$31. (univ.(State.trans)) 	 false 	 false 	 false
+$32. (univ.(trans.Init)) 	 false 	 false 	 false
+$33. (univ.(trans.State)) 	 false 	 false 	 false
+$34. (univ.(trans.univ)) 	 false 	 false 	 false
+$35. (univ.(univ.trans)) 	 false 	 false 	 false
+$36. (univ.trans) 	 false 	 false 	 false
+$37. (~(Init.trans)) 	 false 	 false 	 false
+$38. (~(State.trans)) 	 false 	 false 	 false
+$39. (~(trans.Init)) 	 false 	 false 	 false
+$40. (~(trans.State)) 	 false 	 false 	 false
+$41. (~(trans.univ)) 	 false 	 false 	 false
+$42. (~(univ.trans)) 	 false 	 false 	 false
+$43. Event 	 false 	 false 	 false
+$44. Init 	 false 	 false 	 false
+$45. Int 	 false 	 false 	 false
+$46. none 	 false 	 false 	 false
+$47. State 	 true 	 true 	 true
+$48. String 	 false 	 false 	 false
+$49. trans 	 false 	 false 	 false
+$50. univ 	 false 	 false 	 false
+Expected Completion word: State
+Expected Completion line: State = Event
+Suggestion exists: true
+
+Suggestion in top 1 = false 
+Suggestion in top 5 = false 
+Suggestion in top 10 = false 
+
+Suggestion in top 1 (Alpha) = false
+Suggestion in top 5 (Alpha) = false
+Suggestion in top 10 (Alpha) = false
+
+Suggestion in top 1 (Len) = false
+Suggestion in top 5 (Len) = false
+Suggestion in top 10 (Len) = true
+
+Time taken: 9.397792

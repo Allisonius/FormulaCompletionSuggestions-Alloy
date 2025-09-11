@@ -1,0 +1,12 @@
+modelname,filename,position-line,position-character,incompleteline,removedtext,baseline,suggestionedExpression,A_iff_B,A_and_B,not_A_and_B,A_and_not_B,not_A_and_not_B,suggestionImpactTime
+trash-fol,completion/trash-fol-complete.als,32,27,"all f1, f2 : File | f1 ->","f2 in link implies f2 not in Trash","{}","\tall f1, f2 : File | f1 -> f1",,,,,,7.7355
+trash-fol,completion/trash-fol-complete.als,32,27,"all f1, f2 : File | f1 ->","f2 in link implies f2 not in Trash","{}","\tall f1, f2 : File | f1 -> f2",,,,,,7.7355
+trash-fol,completion/trash-fol-complete.als,32,27,"all f1, f2 : File | f1 ->","f2 in link implies f2 not in Trash","{}","\tall f1, f2 : File | f1 -> File",,,,,,7.7355
+trash-fol,completion/trash-fol-complete.als,32,27,"all f1, f2 : File | f1 ->","f2 in link implies f2 not in Trash","{}","\tall f1, f2 : File | f1 -> Protected",,,,,,7.7355
+trash-fol,completion/trash-fol-complete.als,32,27,"all f1, f2 : File | f1 ->","f2 in link implies f2 not in Trash","{}","\tall f1, f2 : File | f1 -> Trash",,,,,,7.7355
+trash-fol,completion/trash-fol-complete.als,32,27,"all f1, f2 : File | f1 ->","f2 in link implies f2 not in Trash","{}","\tall f1, f2 : File | f1 -> Int",,,,,,7.7355
+trash-fol,completion/trash-fol-complete.als,32,27,"all f1, f2 : File | f1 ->","f2 in link implies f2 not in Trash","{}","\tall f1, f2 : File | f1 -> String",,,,,,7.7355
+trash-fol,completion/trash-fol-complete.als,32,27,"all f1, f2 : File | f1 ->","f2 in link implies f2 not in Trash","{}","\tall f1, f2 : File | f1 -> seq/Int",,,,,,7.7355
+trash-fol,completion/trash-fol-complete.als,32,27,"all f1, f2 : File | f1 ->","f2 in link implies f2 not in Trash","{}","\tall f1, f2 : File | f1 -> iden",,,,,,7.7355
+trash-fol,completion/trash-fol-complete.als,32,27,"all f1, f2 : File | f1 ->","f2 in link implies f2 not in Trash","{}","\tall f1, f2 : File | f1 -> none",,,,,,7.7355
+trash-fol,completion/trash-fol-complete.als,32,27,"all f1, f2 : File | f1 ->","f2 in link implies f2 not in Trash","{}","\tall f1, f2 : File | f1 -> univ",,,,,,7.7355

@@ -1,0 +1,7 @@
+modelname,filename,position-line,position-character,incompleteline,removedtext,baseline,suggestionedExpression,A_iff_B,A_and_B,not_A_and_B,A_and_not_B,not_A_and_not_B,suggestionImpactTime
+handshake,completion/handshake.als,35,22,"all p,q: Person -","Jocelyn | p!=q => #p.shaken != #q.shaken","{}","    all p,q: Person - Hilary",,,,,,4.771875
+handshake,completion/handshake.als,35,22,"all p,q: Person -","Jocelyn | p!=q => #p.shaken != #q.shaken","{}","    all p,q: Person - Jocelyn",,,,,,4.771875
+handshake,completion/handshake.als,35,22,"all p,q: Person -","Jocelyn | p!=q => #p.shaken != #q.shaken","{}","    all p,q: Person - Person",,,,,,4.771875
+handshake,completion/handshake.als,35,22,"all p,q: Person -","Jocelyn | p!=q => #p.shaken != #q.shaken","{}","    all p,q: Person - iden",,,,,,4.771875
+handshake,completion/handshake.als,35,22,"all p,q: Person -","Jocelyn | p!=q => #p.shaken != #q.shaken","{}","    all p,q: Person - none",,,,,,4.771875
+handshake,completion/handshake.als,35,22,"all p,q: Person -","Jocelyn | p!=q => #p.shaken != #q.shaken","{}","    all p,q: Person - univ",,,,,,4.771875

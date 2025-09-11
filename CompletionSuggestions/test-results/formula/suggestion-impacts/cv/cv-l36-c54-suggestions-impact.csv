@@ -1,0 +1,8 @@
+modelname,filename,position-line,position-character,incompleteline,removedtext,baseline,suggestionedExpression,A_iff_B,A_and_B,not_A_and_B,A_and_not_B,not_A_and_not_B,suggestionImpactTime
+cv,completion/cv-complete.als,36,54,"all u : User, disj x,y : u.visible | x not in y.^((u.","profile <: ids).~(u.profile <: ids))","{}","\tall u : User, disj x,y : u.visible | x not in y.^((u.ids",,,,,,5.901416
+cv,completion/cv-complete.als,36,54,"all u : User, disj x,y : u.visible | x not in y.^((u.","profile <: ids).~(u.profile <: ids))","{}","\tall u : User, disj x,y : u.visible | x not in y.^((u.source",,,,,,5.901416
+cv,completion/cv-complete.als,36,54,"all u : User, disj x,y : u.visible | x not in y.^((u.","profile <: ids).~(u.profile <: ids))","{}","\tall u : User, disj x,y : u.visible | x not in y.^((u.~profile",,,,,,5.901416
+cv,completion/cv-complete.als,36,54,"all u : User, disj x,y : u.visible | x not in y.^((u.","profile <: ids).~(u.profile <: ids))","{}","\tall u : User, disj x,y : u.visible | x not in y.^((u.~visible",,,,,,5.901416
+cv,completion/cv-complete.als,36,54,"all u : User, disj x,y : u.visible | x not in y.^((u.","profile <: ids).~(u.profile <: ids))","{}","\tall u : User, disj x,y : u.visible | x not in y.^((u.iden",,,,,,5.901416
+cv,completion/cv-complete.als,36,54,"all u : User, disj x,y : u.visible | x not in y.^((u.","profile <: ids).~(u.profile <: ids))","{}","\tall u : User, disj x,y : u.visible | x not in y.^((u.none",,,,,,5.901416
+cv,completion/cv-complete.als,36,54,"all u : User, disj x,y : u.visible | x not in y.^((u.","profile <: ids).~(u.profile <: ids))","{}","\tall u : User, disj x,y : u.visible | x not in y.^((u.univ",,,,,,5.901416

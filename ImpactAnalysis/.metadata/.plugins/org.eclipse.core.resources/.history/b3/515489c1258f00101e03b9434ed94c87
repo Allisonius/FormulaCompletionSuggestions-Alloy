@@ -1,0 +1,13 @@
+modelname,filename,position-line,position-character,incompleteline,removedtext,baseline,suggestionedExpression,A_iff_B,A_and_B,not_A_and_B,A_and_not_B,not_A_and_not_B,suggestionImpactTime
+classroom-fol,completion/classroom-fol-complete.als,37,38,"all t: Teacher | some c:Class | t ->","c in Teaches","{}","\tall t: Teacher | some c:Class | t -> t",,,,,,12.643666
+classroom-fol,completion/classroom-fol-complete.als,37,38,"all t: Teacher | some c:Class | t ->","c in Teaches","{}","\tall t: Teacher | some c:Class | t -> Class",,,,,,12.643666
+classroom-fol,completion/classroom-fol-complete.als,37,38,"all t: Teacher | some c:Class | t ->","c in Teaches","{}","\tall t: Teacher | some c:Class | t -> Group",,,,,,12.643666
+classroom-fol,completion/classroom-fol-complete.als,37,38,"all t: Teacher | some c:Class | t ->","c in Teaches","{}","\tall t: Teacher | some c:Class | t -> Person",,,,,,12.643666
+classroom-fol,completion/classroom-fol-complete.als,37,38,"all t: Teacher | some c:Class | t ->","c in Teaches","{}","\tall t: Teacher | some c:Class | t -> Student",,,,,,12.643666
+classroom-fol,completion/classroom-fol-complete.als,37,38,"all t: Teacher | some c:Class | t ->","c in Teaches","{}","\tall t: Teacher | some c:Class | t -> Teacher",,,,,,12.643666
+classroom-fol,completion/classroom-fol-complete.als,37,38,"all t: Teacher | some c:Class | t ->","c in Teaches","{}","\tall t: Teacher | some c:Class | t -> Int",,,,,,12.643666
+classroom-fol,completion/classroom-fol-complete.als,37,38,"all t: Teacher | some c:Class | t ->","c in Teaches","{}","\tall t: Teacher | some c:Class | t -> String",,,,,,12.643666
+classroom-fol,completion/classroom-fol-complete.als,37,38,"all t: Teacher | some c:Class | t ->","c in Teaches","{}","\tall t: Teacher | some c:Class | t -> seq/Int",,,,,,12.643666
+classroom-fol,completion/classroom-fol-complete.als,37,38,"all t: Teacher | some c:Class | t ->","c in Teaches","{}","\tall t: Teacher | some c:Class | t -> iden",,,,,,12.643666
+classroom-fol,completion/classroom-fol-complete.als,37,38,"all t: Teacher | some c:Class | t ->","c in Teaches","{}","\tall t: Teacher | some c:Class | t -> none",,,,,,12.643666
+classroom-fol,completion/classroom-fol-complete.als,37,38,"all t: Teacher | some c:Class | t ->","c in Teaches","{}","\tall t: Teacher | some c:Class | t -> univ",,,,,,12.643666

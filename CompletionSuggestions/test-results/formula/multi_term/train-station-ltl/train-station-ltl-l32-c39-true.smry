@@ -1,0 +1,76 @@
+Model name: train-station-ltl
+Filename: completion/train-station-ltl-complete.als
+Offset: 616
+Term: .
+Vscode Position: line=31 character=39
+----------------------------------
+32 | 	all j : Junction, t : prox.j | some t.
+----------------------------------
+Completion List:
+# Suggestion 	 Exact 	 Syntactic 	 Semantic
+$1. *prox.j 	 false 	 undefined 	 undefined
+$2. *prox.t 	 false 	 undefined 	 undefined
+$3. ^prox.j 	 false 	 undefined 	 undefined
+$4. ^prox.t 	 false 	 undefined 	 undefined
+$5. prox.j 	 false 	 undefined 	 undefined
+$6. prox.t 	 false 	 undefined 	 undefined
+$7. ~prox.j 	 false 	 undefined 	 undefined
+$8. ~prox.t 	 false 	 undefined 	 undefined
+$9. *prox.Entry 	 false 	 undefined 	 undefined
+$10. *prox.Exit 	 false 	 undefined 	 undefined
+$11. *prox.Junction 	 false 	 undefined 	 undefined
+$12. *prox.Track 	 false 	 undefined 	 undefined
+$13. ^prox.Entry 	 false 	 undefined 	 undefined
+$14. ^prox.Exit 	 false 	 undefined 	 undefined
+$15. ^prox.Junction 	 false 	 undefined 	 undefined
+$16. ^prox.Track 	 false 	 undefined 	 undefined
+$17. prox.Entry 	 false 	 undefined 	 undefined
+$18. prox.Exit 	 false 	 undefined 	 undefined
+$19. prox.Junction 	 false 	 undefined 	 undefined
+$20. prox.Track 	 false 	 undefined 	 undefined
+$21. signal.Green 	 false 	 undefined 	 undefined
+$22. signal.Green' 	 false 	 undefined 	 undefined
+$23. signal.Signal 	 false 	 undefined 	 undefined
+$24. ~pos.Train 	 false 	 undefined 	 undefined
+$25. ~prox.Entry 	 false 	 undefined 	 undefined
+$26. ~prox.Exit 	 false 	 undefined 	 undefined
+$27. ~prox.Junction 	 false 	 undefined 	 undefined
+$28. ~prox.Track 	 false 	 undefined 	 undefined
+$29. *prox.signal 	 false 	 undefined 	 undefined
+$30. ^prox.signal 	 false 	 undefined 	 undefined
+$31. prox 	 false 	 undefined 	 undefined
+$32. prox.signal 	 false 	 undefined 	 undefined
+$33. prox.univ 	 false 	 undefined 	 undefined
+$34. prox.~pos 	 false 	 undefined 	 undefined
+$35. signal 	 true 	 undefined 	 undefined
+$36. signal.univ 	 false 	 undefined 	 undefined
+$37. ~pos.pos' 	 false 	 undefined 	 undefined
+$38. ~prox.signal 	 false 	 undefined 	 undefined
+$39. *prox.~pos 	 false 	 undefined 	 undefined
+$40. ^prox.~pos 	 false 	 undefined 	 undefined
+$41. ~pos 	 false 	 undefined 	 undefined
+$42. ~pos.univ 	 false 	 undefined 	 undefined
+$43. ~prox 	 false 	 undefined 	 undefined
+$44. ~prox.univ 	 false 	 undefined 	 undefined
+$45. ~prox.~pos 	 false 	 undefined 	 undefined
+$46. ^prox 	 false 	 undefined 	 undefined
+$47. ^prox.univ 	 false 	 undefined 	 undefined
+$48. *prox 	 false 	 undefined 	 undefined
+$49. *prox.univ 	 false 	 undefined 	 undefined
+Expected Completion word: signal
+Expected Completion line: signal
+Suggestion exists: true
+
+Suggestion in top 1 = false 
+Suggestion in top 5 = false 
+Suggestion in top 10 = false 
+
+Suggestion in top 1 (Alpha) = false
+Suggestion in top 5 (Alpha) = false
+Suggestion in top 10 (Alpha) = false
+
+Suggestion in top 1 (Len) = false
+Suggestion in top 5 (Len) = false
+Suggestion in top 10 (Len) = true
+
+Time taken: 27.895042

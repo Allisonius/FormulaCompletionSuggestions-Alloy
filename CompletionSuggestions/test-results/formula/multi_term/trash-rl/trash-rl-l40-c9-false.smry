@@ -1,0 +1,47 @@
+Model name: trash-rl
+Filename: completion/trash-rl-complete.als
+Offset: 363
+Term: .
+Vscode Position: line=39 character=9
+----------------------------------
+40 | 	no link.
+----------------------------------
+Completion List:
+# Suggestion 	 Exact 	 Syntactic 	 Semantic
+$1. File 	 false 	 false 	 false
+$2. File.*link 	 false 	 false 	 false
+$3. File.^link 	 false 	 false 	 false
+$4. File.link 	 false 	 false 	 false
+$5. File.~link 	 false 	 false 	 false
+$6. Protected 	 false 	 false 	 false
+$7. Protected.*link 	 false 	 false 	 false
+$8. Protected.^link 	 false 	 false 	 false
+$9. Protected.link 	 false 	 false 	 false
+$10. Protected.~link 	 false 	 false 	 false
+$11. Trash 	 false 	 false 	 false
+$12. Trash.*link 	 false 	 false 	 false
+$13. Trash.^link 	 false 	 false 	 false
+$14. Trash.link 	 false 	 false 	 false
+$15. Trash.~link 	 false 	 false 	 false
+$16. univ.link 	 false 	 false 	 false
+$17. univ.~link 	 false 	 false 	 false
+$18. univ.^link 	 false 	 false 	 false
+$19. univ 	 false 	 false 	 false
+$20. univ.*link 	 false 	 false 	 false
+Expected Completion word: link
+Expected Completion line: link
+Suggestion exists: false
+
+Suggestion in top 1 = false 
+Suggestion in top 5 = false 
+Suggestion in top 10 = false 
+
+Suggestion in top 1 (Alpha) = false
+Suggestion in top 5 (Alpha) = false
+Suggestion in top 10 (Alpha) = false
+
+Suggestion in top 1 (Len) = false
+Suggestion in top 5 (Len) = false
+Suggestion in top 10 (Len) = false
+
+Time taken: 5.657958

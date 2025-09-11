@@ -1,0 +1,5 @@
+Groups
+Class -> Person -> Group
+Class -> Student -> Group
+~Teaches -> Group
+Groups.univ.Groups

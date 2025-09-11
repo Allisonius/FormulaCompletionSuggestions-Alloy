@@ -1,0 +1,32 @@
+Model name: class-diagram
+Filename: completion/class-diagram-sig.als
+Offset: 56
+Term:  extends 
+Vscode Position: line=4 character=23
+----------------------------------
+5 | one sig Object extends 
+----------------------------------
+Completion List:
+# Suggestion 	 Exact 	 Syntactic 	 Semantic
+$1. Class 	 true 	 true 	 true
+$2. Int 	 false 	 false 	 false
+$3. String 	 false 	 false 	 false
+$4. none 	 false 	 false 	 false
+$5. univ 	 false 	 false 	 false
+Expected Completion word: Class
+Expected Completion line: Class {}
+Suggestion exists: true
+
+Suggestion in top 1 = true 
+Suggestion in top 5 = true 
+Suggestion in top 10 = true 
+
+Suggestion in top 1 (Alpha) = true
+Suggestion in top 5 (Alpha) = true
+Suggestion in top 10 (Alpha) = true
+
+Suggestion in top 1 (Len) = false
+Suggestion in top 5 (Len) = true
+Suggestion in top 10 (Len) = true
+
+Time taken: 9.110291

@@ -1,0 +1,8 @@
+modelname,filename,position-line,position-character,incompleteline,removedtext,baseline,suggestionedExpression,A_iff_B,A_and_B,not_A_and_B,A_and_not_B,not_A_and_not_B,suggestionImpactTime
+class-diagram,completion/class-diagram-complete.als,9,12,"no Object.","ext","{}","  no Object.ext",true,true,false,true,false,5.68375
+class-diagram,completion/class-diagram-complete.als,9,12,"no Object.","ext","{}","  no Object.~ext",true,true,false,true,false,5.68375
+class-diagram,completion/class-diagram-complete.als,9,12,"no Object.","ext","{}","  no Object.^ext",true,true,false,true,false,5.68375
+class-diagram,completion/class-diagram-complete.als,9,12,"no Object.","ext","{}","  no Object.*ext",false,false,false,true,false,5.68375
+class-diagram,completion/class-diagram-complete.als,9,12,"no Object.","ext","{}","  no Object.iden",false,false,false,true,false,5.68375
+class-diagram,completion/class-diagram-complete.als,9,12,"no Object.","ext","{}","  no Object.none",,,,,,5.68375
+class-diagram,completion/class-diagram-complete.als,9,12,"no Object.","ext","{}","  no Object.univ",,,,,,5.68375

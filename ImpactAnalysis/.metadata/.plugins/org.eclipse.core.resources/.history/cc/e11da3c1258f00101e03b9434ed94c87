@@ -1,0 +1,5 @@
+modelname,filename,position-line,position-character,incompleteline,removedtext,baseline,suggestionedExpression,A_iff_B,A_and_B,not_A_and_B,A_and_not_B,not_A_and_not_B,suggestionImpactTime
+lts,completion/lts-complete.als,9,22,"all s:State | some s.","trans","{}","\tall s:State | some s.trans",true,true,false,true,false,7.821709
+lts,completion/lts-complete.als,9,22,"all s:State | some s.","trans","{}","\tall s:State | some s.iden",true,true,false,false,false,7.821709
+lts,completion/lts-complete.als,9,22,"all s:State | some s.","trans","{}","\tall s:State | some s.none",,,,,,7.821709
+lts,completion/lts-complete.als,9,22,"all s:State | some s.","trans","{}","\tall s:State | some s.univ",,,,,,7.821709

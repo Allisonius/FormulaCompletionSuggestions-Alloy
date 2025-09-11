@@ -1,0 +1,52 @@
+Model name: courses-v2
+Filename: completion/courses-v2-complete.als
+Offset: 2532
+Term: .
+Vscode Position: line=92 character=136
+----------------------------------
+93 | 	all c : Course , p : c.projects , disj x , y : (Person <: projects).p | some c.grades[x] and some c.grades[y] implies c.grades[x] in c.
+----------------------------------
+Completion List:
+# Suggestion 	 Exact 	 Syntactic 	 Semantic
+$1. projects.p 	 false 	 undefined 	 undefined
+$2. ~enrolled.x 	 false 	 undefined 	 undefined
+$3. ~enrolled.y 	 false 	 undefined 	 undefined
+$4. ~teaches.x 	 false 	 undefined 	 undefined
+$5. ~teaches.y 	 false 	 undefined 	 undefined
+$6. grades.Grade 	 false 	 undefined 	 undefined
+$7. projects.Project 	 false 	 undefined 	 undefined
+$8. ~enrolled.Person 	 false 	 undefined 	 undefined
+$9. ~enrolled.Professor 	 false 	 undefined 	 undefined
+$10. ~enrolled.Student 	 false 	 undefined 	 undefined
+$11. ~teaches.Person 	 false 	 undefined 	 undefined
+$12. ~teaches.Professor 	 false 	 undefined 	 undefined
+$13. ~teaches.Student 	 false 	 undefined 	 undefined
+$14. grades 	 false 	 undefined 	 undefined
+$15. grades.univ 	 false 	 undefined 	 undefined
+$16. projects 	 false 	 undefined 	 undefined
+$17. projects.univ 	 false 	 undefined 	 undefined
+$18. ~enrolled.projects 	 false 	 undefined 	 undefined
+$19. ~enrolled.teaches 	 false 	 undefined 	 undefined
+$20. ~teaches.enrolled 	 false 	 undefined 	 undefined
+$21. ~teaches.projects 	 false 	 undefined 	 undefined
+$22. ~enrolled 	 false 	 undefined 	 undefined
+$23. ~enrolled.univ 	 false 	 undefined 	 undefined
+$24. ~teaches 	 false 	 undefined 	 undefined
+$25. ~teaches.univ 	 false 	 undefined 	 undefined
+Expected Completion word: grades
+Expected Completion line: grades[y].(prev + iden + next)
+Suggestion exists: false
+
+Suggestion in top 1 = false 
+Suggestion in top 5 = false 
+Suggestion in top 10 = false 
+
+Suggestion in top 1 (Alpha) = false
+Suggestion in top 5 (Alpha) = false
+Suggestion in top 10 (Alpha) = false
+
+Suggestion in top 1 (Len) = true
+Suggestion in top 5 (Len) = true
+Suggestion in top 10 (Len) = true
+
+Time taken: 18.608208

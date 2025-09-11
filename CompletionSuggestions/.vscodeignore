@@ -1,0 +1,15 @@
+.vscode/**
+.vscode-test/**
+.gitignore
+vsc-extension-quickstart.md
+.gradle/**
+alloy4fun_top_correct_corpus/**
+als-corpus/**
+analysis/**
+test-results/**
+server/**
+!server/build/libs/**
+client/testFixture/**
+client/webview-ui/**
+client/src/test/**
+README.md

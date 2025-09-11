@@ -1,0 +1,76 @@
+Model name: trash-ltl
+Filename: completion/trash-ltl-sig.als
+Offset: 56
+Term:  in 
+Vscode Position: line=3 character=17
+----------------------------------
+4 | var sig Trash in 
+----------------------------------
+Completion List:
+# Suggestion 	 Exact 	 Syntactic 	 Semantic
+$1. ((*link)-link) 	 false 	 false 	 false
+$2. ((^link)-link) 	 false 	 false 	 false
+$3. ((link.File).link) 	 false 	 false 	 false
+$4. ((link.link)-link) 	 false 	 false 	 false
+$5. ((link.univ).link) 	 false 	 false 	 false
+$6. ((~link)-link) 	 false 	 false 	 false
+$7. ((~link).File) 	 false 	 false 	 false
+$8. ((~link).link) 	 false 	 false 	 false
+$9. ((~link).univ) 	 false 	 false 	 false
+$10. (*(link.link)) 	 false 	 false 	 false
+$11. (*(~link)) 	 false 	 false 	 false
+$12. (*link) 	 false 	 false 	 false
+$13. (^(link.link)) 	 false 	 false 	 false
+$14. (^(~link)) 	 false 	 false 	 false
+$15. (^link) 	 false 	 false 	 false
+$16. (File-(File.link)) 	 false 	 false 	 false
+$17. (File-(link.File)) 	 false 	 false 	 false
+$18. (File-(link.univ)) 	 false 	 false 	 false
+$19. (File-(univ.link)) 	 false 	 false 	 false
+$20. (File.(link.link)) 	 false 	 false 	 false
+$21. (File.link) 	 false 	 false 	 false
+$22. (link&(link.link)) 	 false 	 false 	 false
+$23. (link&(~link)) 	 false 	 false 	 false
+$24. (link+(link.link)) 	 false 	 false 	 false
+$25. (link+(~link)) 	 false 	 false 	 false
+$26. (link-(link.link)) 	 false 	 false 	 false
+$27. (link-(~link)) 	 false 	 false 	 false
+$28. (link.(^link)) 	 false 	 false 	 false
+$29. (link.(File.link)) 	 false 	 false 	 false
+$30. (link.(link.File)) 	 false 	 false 	 false
+$31. (link.(link.link)) 	 false 	 false 	 false
+$32. (link.(link.univ)) 	 false 	 false 	 false
+$33. (link.(univ.link)) 	 false 	 false 	 false
+$34. (link.(~link)) 	 false 	 false 	 false
+$35. (link.File) 	 false 	 false 	 false
+$36. (link.link) 	 false 	 false 	 false
+$37. (link.univ) 	 false 	 false 	 false
+$38. (none->none) 	 false 	 false 	 false
+$39. (none->none->none) 	 false 	 false 	 false
+$40. (univ.(link.link)) 	 false 	 false 	 false
+$41. (univ.link) 	 false 	 false 	 false
+$42. (~(link.link)) 	 false 	 false 	 false
+$43. (~link) 	 false 	 false 	 false
+$44. File 	 true 	 true 	 true
+$45. Int 	 false 	 false 	 false
+$46. link 	 false 	 false 	 false
+$47. none 	 false 	 false 	 false
+$48. String 	 false 	 false 	 false
+$49. univ 	 false 	 false 	 false
+Expected Completion word: File
+Expected Completion line: File {}
+Suggestion exists: true
+
+Suggestion in top 1 = false 
+Suggestion in top 5 = false 
+Suggestion in top 10 = false 
+
+Suggestion in top 1 (Alpha) = false
+Suggestion in top 5 (Alpha) = false
+Suggestion in top 10 (Alpha) = false
+
+Suggestion in top 1 (Len) = false
+Suggestion in top 5 (Len) = true
+Suggestion in top 10 (Len) = true
+
+Time taken: 20.622291

@@ -1,0 +1,8 @@
+modelname,filename,position-line,position-character,incompleteline,removedtext,baseline,suggestionedExpression,A_iff_B,A_and_B,not_A_and_B,A_and_not_B,not_A_and_not_B,suggestionImpactTime
+classroom-fol,completion/classroom-fol-complete.als,41,39,"all c: Class | some Teacher & Teaches.","c","{}","\tall c: Class | some Teacher & Teaches.c",true,true,false,true,false,13.616459
+classroom-fol,completion/classroom-fol-complete.als,41,39,"all c: Class | some Teacher & Teaches.","c","{}","\tall c: Class | some Teacher & Teaches.Class",true,true,false,true,false,13.616459
+classroom-fol,completion/classroom-fol-complete.als,41,39,"all c: Class | some Teacher & Teaches.","c","{}","\tall c: Class | some Teacher & Teaches.Groups",,,,,,13.616459
+classroom-fol,completion/classroom-fol-complete.als,41,39,"all c: Class | some Teacher & Teaches.","c","{}","\tall c: Class | some Teacher & Teaches.*Tutors",,,,,,13.616459
+classroom-fol,completion/classroom-fol-complete.als,41,39,"all c: Class | some Teacher & Teaches.","c","{}","\tall c: Class | some Teacher & Teaches.iden",,,,,,13.616459
+classroom-fol,completion/classroom-fol-complete.als,41,39,"all c: Class | some Teacher & Teaches.","c","{}","\tall c: Class | some Teacher & Teaches.none",true,true,false,true,false,13.616459
+classroom-fol,completion/classroom-fol-complete.als,41,39,"all c: Class | some Teacher & Teaches.","c","{}","\tall c: Class | some Teacher & Teaches.univ",true,true,false,true,false,13.616459

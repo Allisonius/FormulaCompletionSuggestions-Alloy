@@ -1,0 +1,12 @@
+{
+  "java.compile.nullAnalysis.mode": "automatic",
+  "java.configuration.updateBuildConfiguration": "automatic",
+  "java.jdt.ls.vmargs": "-XX:+UseParallelGC -XX:GCTimeRatio=4 -XX:AdaptiveSizePolicyWeight=90 -Dsun.zip.disableMemoryMapping=true -Xmx2G -Xms100m -Xlog:disable",
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.wordBasedSuggestions": "off",
+  "chat.agent.enabled": true,
+  "[json]": {
+    "editor.wordWrap": "on",
+    "editor.defaultFormatter": "vscode.json-language-features"
+  },
+}

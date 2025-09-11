@@ -1,0 +1,8 @@
+modelname,filename,position-line,position-character,incompleteline,removedtext,baseline,suggestionedExpression,A_iff_B,A_and_B,not_A_and_B,A_and_not_B,not_A_and_not_B,suggestionImpactTime
+trash-rl,completion/trash-rl-complete.als,44,7,"Trash.","link in Trash","{}","\tTrash.link",,,,,,3.020375
+trash-rl,completion/trash-rl-complete.als,44,7,"Trash.","link in Trash","{}","\tTrash.~link",,,,,,3.020375
+trash-rl,completion/trash-rl-complete.als,44,7,"Trash.","link in Trash","{}","\tTrash.^link",,,,,,3.020375
+trash-rl,completion/trash-rl-complete.als,44,7,"Trash.","link in Trash","{}","\tTrash.*link",,,,,,3.020375
+trash-rl,completion/trash-rl-complete.als,44,7,"Trash.","link in Trash","{}","\tTrash.iden",,,,,,3.020375
+trash-rl,completion/trash-rl-complete.als,44,7,"Trash.","link in Trash","{}","\tTrash.none",,,,,,3.020375
+trash-rl,completion/trash-rl-complete.als,44,7,"Trash.","link in Trash","{}","\tTrash.univ",,,,,,3.020375

@@ -1,0 +1,22 @@
+hits: 27 (39.705882352941174)
+(name.name) :> name
+
+hits: 25 (36.76470588235294)
+fun_call[] :> name
+
+hits: 7 (10.294117647058822)
+iden :> name
+
+hits: 2 (2.941176470588235)
+name :> name
+((name.fun_call[]).fun_call[]) :> name
+((fun_call[].fun_call[]).(*name)) :> name
+
+hits: 1 (1.4705882352941175)
+(name.name) :> ({ name: (one name) {
+((name.(fun_call[].(name.name))) != name)
+} })
+(fun_call[].(name.name)) :> (name - name)
+name :> ((name & (name->fun_call[])).name)
+
+

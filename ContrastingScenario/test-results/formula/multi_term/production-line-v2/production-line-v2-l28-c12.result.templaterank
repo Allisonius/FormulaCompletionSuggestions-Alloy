@@ -1,0 +1,8 @@
+workers
+Workstation -> Worker
+begin -> Worker
+end -> Worker
+succ.workers
+~succ.workers
+^succ.workers
+*succ.workers

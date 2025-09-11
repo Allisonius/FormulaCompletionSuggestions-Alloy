@@ -1,0 +1,6 @@
+modelname,filename,position-line,position-character,incompleteline,removedtext,baseline,suggestionedExpression,A_iff_B,A_and_B,not_A_and_B,A_and_not_B,not_A_and_not_B,suggestionImpactTime
+bempl,completion/bempl-complete.als,20,14,"no Employee.","owns","{}","  no Employee.owns",true,true,false,true,false,4.835333
+bempl,completion/bempl-complete.als,20,14,"no Employee.","owns","{}","  no Employee.~authorized",true,true,false,true,false,4.835333
+bempl,completion/bempl-complete.als,20,14,"no Employee.","owns","{}","  no Employee.iden",true,true,false,true,false,4.835333
+bempl,completion/bempl-complete.als,20,14,"no Employee.","owns","{}","  no Employee.none",,,,,,4.835333
+bempl,completion/bempl-complete.als,20,14,"no Employee.","owns","{}","  no Employee.univ",,,,,,4.835333

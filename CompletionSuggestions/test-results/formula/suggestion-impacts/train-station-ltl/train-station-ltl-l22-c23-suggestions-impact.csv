@@ -1,0 +1,10 @@
+modelname,filename,position-line,position-character,incompleteline,removedtext,baseline,suggestionedExpression,A_iff_B,A_and_B,not_A_and_B,A_and_not_B,not_A_and_not_B,suggestionImpactTime
+train-station-ltl,completion/train-station-ltl-complete.als,22,23,"no t : Track | t in t.","^prox","{}","\tno t : Track | t in t.prox",true,true,false,true,false,67.157667
+train-station-ltl,completion/train-station-ltl-complete.als,22,23,"no t : Track | t in t.","^prox","{}","\tno t : Track | t in t.signal",true,true,false,false,false,67.157667
+train-station-ltl,completion/train-station-ltl-complete.als,22,23,"no t : Track | t in t.","^prox","{}","\tno t : Track | t in t.~pos",true,true,false,false,false,67.157667
+train-station-ltl,completion/train-station-ltl-complete.als,22,23,"no t : Track | t in t.","^prox","{}","\tno t : Track | t in t.~prox",true,true,false,true,false,67.157667
+train-station-ltl,completion/train-station-ltl-complete.als,22,23,"no t : Track | t in t.","^prox","{}","\tno t : Track | t in t.^prox",true,true,false,true,false,67.157667
+train-station-ltl,completion/train-station-ltl-complete.als,22,23,"no t : Track | t in t.","^prox","{}","\tno t : Track | t in t.*prox",true,true,false,true,false,67.157667
+train-station-ltl,completion/train-station-ltl-complete.als,22,23,"no t : Track | t in t.","^prox","{}","\tno t : Track | t in t.iden",true,true,false,true,false,67.157667
+train-station-ltl,completion/train-station-ltl-complete.als,22,23,"no t : Track | t in t.","^prox","{}","\tno t : Track | t in t.none",,,,,,67.157667
+train-station-ltl,completion/train-station-ltl-complete.als,22,23,"no t : Track | t in t.","^prox","{}","\tno t : Track | t in t.univ",,,,,,67.157667

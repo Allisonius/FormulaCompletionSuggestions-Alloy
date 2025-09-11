@@ -1,0 +1,11 @@
+modelname,filename,position-line,position-character,incompleteline,removedtext,baseline,suggestionedExpression,A_iff_B,A_and_B,not_A_and_B,A_and_not_B,not_A_and_not_B,suggestionImpactTime
+production-line-v2,completion/production-line-v2-complete.als,47,29,"all c : Workstation | no (c.","workers & Human) or no (c.workers & Robot)","{}","\tall c : Workstation | no (c.succ",,,,,,8.666333
+production-line-v2,completion/production-line-v2-complete.als,47,29,"all c : Workstation | no (c.","workers & Human) or no (c.workers & Robot)","{}","\tall c : Workstation | no (c.workers",,,,,,8.666333
+production-line-v2,completion/production-line-v2-complete.als,47,29,"all c : Workstation | no (c.","workers & Human) or no (c.workers & Robot)","{}","\tall c : Workstation | no (c.~succ",,,,,,8.666333
+production-line-v2,completion/production-line-v2-complete.als,47,29,"all c : Workstation | no (c.","workers & Human) or no (c.workers & Robot)","{}","\tall c : Workstation | no (c.~workstation",,,,,,8.666333
+production-line-v2,completion/production-line-v2-complete.als,47,29,"all c : Workstation | no (c.","workers & Human) or no (c.workers & Robot)","{}","\tall c : Workstation | no (c.^succ",,,,,,8.666333
+production-line-v2,completion/production-line-v2-complete.als,47,29,"all c : Workstation | no (c.","workers & Human) or no (c.workers & Robot)","{}","\tall c : Workstation | no (c.*parts",,,,,,8.666333
+production-line-v2,completion/production-line-v2-complete.als,47,29,"all c : Workstation | no (c.","workers & Human) or no (c.workers & Robot)","{}","\tall c : Workstation | no (c.*succ",,,,,,8.666333
+production-line-v2,completion/production-line-v2-complete.als,47,29,"all c : Workstation | no (c.","workers & Human) or no (c.workers & Robot)","{}","\tall c : Workstation | no (c.iden",,,,,,8.666333
+production-line-v2,completion/production-line-v2-complete.als,47,29,"all c : Workstation | no (c.","workers & Human) or no (c.workers & Robot)","{}","\tall c : Workstation | no (c.none",,,,,,8.666333
+production-line-v2,completion/production-line-v2-complete.als,47,29,"all c : Workstation | no (c.","workers & Human) or no (c.workers & Robot)","{}","\tall c : Workstation | no (c.univ",,,,,,8.666333

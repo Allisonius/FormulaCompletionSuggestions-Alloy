@@ -1,0 +1,22 @@
+Tutors
+~Tutors
+*Tutors
+^Tutors
+Person -> Person
+Person -> Student
+Person -> Teacher
+Student -> Person
+Teacher -> Person
+Student -> Student
+Student -> Teacher
+Teacher -> Student
+Teacher -> Teacher
+Tutors.univ.Groups
+Teaches.Groups.univ
+Teaches.univ.Groups
+Teaches.Class.Groups
+Teaches.Groups.Group
+~Tutors.univ.Groups
+Groups.univ.~Teaches
+^Tutors.univ.Groups
+*Tutors.univ.Groups

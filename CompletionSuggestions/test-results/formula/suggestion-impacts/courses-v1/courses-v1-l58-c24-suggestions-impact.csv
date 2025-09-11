@@ -1,0 +1,7 @@
+modelname,filename,position-line,position-character,incompleteline,removedtext,baseline,suggestionedExpression,A_iff_B,A_and_B,not_A_and_B,A_and_not_B,not_A_and_not_B,suggestionImpactTime
+courses-v1,completion/courses-v1-complete.als,58,24,"(all p : Person | no p.","teaches & p.enrolled)","{}","\t(all p : Person | no p.enrolled",,,,,,9.74025
+courses-v1,completion/courses-v1-complete.als,58,24,"(all p : Person | no p.","teaches & p.enrolled)","{}","\t(all p : Person | no p.projects",,,,,,9.74025
+courses-v1,completion/courses-v1-complete.als,58,24,"(all p : Person | no p.","teaches & p.enrolled)","{}","\t(all p : Person | no p.teaches",,,,,,9.74025
+courses-v1,completion/courses-v1-complete.als,58,24,"(all p : Person | no p.","teaches & p.enrolled)","{}","\t(all p : Person | no p.iden",,,,,,9.74025
+courses-v1,completion/courses-v1-complete.als,58,24,"(all p : Person | no p.","teaches & p.enrolled)","{}","\t(all p : Person | no p.none",,,,,,9.74025
+courses-v1,completion/courses-v1-complete.als,58,24,"(all p : Person | no p.","teaches & p.enrolled)","{}","\t(all p : Person | no p.univ",,,,,,9.74025

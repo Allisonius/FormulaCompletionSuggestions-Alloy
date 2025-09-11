@@ -1,0 +1,15 @@
+Teaches
+Teacher -> Class
+Tutors.Teaches
+~Tutors.Teaches
+^Tutors.Teaches
+*Tutors.Teaches
+Teaches.Class.Groups
+Teaches.c1.Groups
+Teaches.c2.Groups
+Teaches.univ.Groups
+Tutors.univ.Groups
+Groups.univ.~Teaches
+~Tutors.univ.Groups
+^Tutors.univ.Groups
+*Tutors.univ.Groups

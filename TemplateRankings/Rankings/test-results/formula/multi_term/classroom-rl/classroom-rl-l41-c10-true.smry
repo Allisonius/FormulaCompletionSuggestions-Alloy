@@ -1,0 +1,119 @@
+Model name: classroom-rl
+Filename: completion/classroom-rl-complete.als
+Offset: 437
+Term:  in 
+Vscode Position: line=40 character=10
+----------------------------------
+41 | 	Class in 
+----------------------------------
+Completion List:
+# Suggestion 	 Exact 	 Syntactic 	 Semantic
+$1. *Tutors.Person.Teaches 	 false 	 false 	 false
+$2. *Tutors.Student.Teaches 	 false 	 false 	 false
+$3. *Tutors.Teacher.Teaches 	 false 	 false 	 false
+$4. Class 	 false 	 false 	 false
+$5. Group 	 false 	 false 	 false
+$6. Person 	 false 	 false 	 false
+$7. Person.*Tutors.Teaches 	 false 	 false 	 false
+$8. Person.Teaches 	 false 	 false 	 false
+$9. Person.Tutors.Teaches 	 false 	 false 	 false
+$10. Person.^Tutors.Teaches 	 false 	 false 	 false
+$11. Person.~Tutors.Teaches 	 false 	 false 	 false
+$12. Student 	 false 	 false 	 false
+$13. Student.*Tutors.Teaches 	 false 	 false 	 false
+$14. Student.Teaches 	 false 	 false 	 false
+$15. Student.Tutors.Teaches 	 false 	 false 	 false
+$16. Student.^Tutors.Teaches 	 false 	 false 	 false
+$17. Student.~Tutors.Teaches 	 false 	 false 	 false
+$18. Teacher 	 false 	 false 	 false
+$19. Teacher.*Tutors.Teaches 	 false 	 false 	 false
+$20. Teacher.Teaches 	 true 	 true 	 true
+$21. Teacher.Tutors.Teaches 	 false 	 false 	 false
+$22. Teacher.^Tutors.Teaches 	 false 	 false 	 false
+$23. Teacher.~Tutors.Teaches 	 false 	 false 	 false
+$24. Teaches.Class.~Teaches 	 false 	 false 	 false
+$25. Tutors.Person.Teaches 	 false 	 false 	 false
+$26. Tutors.Student.Teaches 	 false 	 false 	 false
+$27. Tutors.Teacher.Teaches 	 false 	 false 	 false
+$28. ^Tutors.Person.Teaches 	 false 	 false 	 false
+$29. ^Tutors.Student.Teaches 	 false 	 false 	 false
+$30. ^Tutors.Teacher.Teaches 	 false 	 false 	 false
+$31. ~Teaches.*Tutors.Person 	 false 	 false 	 false
+$32. ~Teaches.*Tutors.Student 	 false 	 false 	 false
+$33. ~Teaches.*Tutors.Teacher 	 false 	 false 	 false
+$34. ~Teaches.Person 	 false 	 false 	 false
+$35. ~Teaches.Person.*Tutors 	 false 	 false 	 false
+$36. ~Teaches.Person.Teaches 	 false 	 false 	 false
+$37. ~Teaches.Person.Tutors 	 false 	 false 	 false
+$38. ~Teaches.Person.^Tutors 	 false 	 false 	 false
+$39. ~Teaches.Person.~Tutors 	 false 	 false 	 false
+$40. ~Teaches.Student 	 false 	 false 	 false
+$41. ~Teaches.Student.*Tutors 	 false 	 false 	 false
+$42. ~Teaches.Student.Teaches 	 false 	 false 	 false
+$43. ~Teaches.Student.Tutors 	 false 	 false 	 false
+$44. ~Teaches.Student.^Tutors 	 false 	 false 	 false
+$45. ~Teaches.Student.~Tutors 	 false 	 false 	 false
+$46. ~Teaches.Teacher 	 false 	 false 	 false
+$47. ~Teaches.Teacher.*Tutors 	 false 	 false 	 false
+$48. ~Teaches.Teacher.Teaches 	 false 	 false 	 false
+$49. ~Teaches.Teacher.Tutors 	 false 	 false 	 false
+$50. ~Teaches.Teacher.^Tutors 	 false 	 false 	 false
+$51. ~Teaches.Teacher.~Tutors 	 false 	 false 	 false
+$52. ~Teaches.Tutors.Person 	 false 	 false 	 false
+$53. ~Teaches.Tutors.Student 	 false 	 false 	 false
+$54. ~Teaches.Tutors.Teacher 	 false 	 false 	 false
+$55. ~Teaches.^Tutors.Person 	 false 	 false 	 false
+$56. ~Teaches.^Tutors.Student 	 false 	 false 	 false
+$57. ~Teaches.^Tutors.Teacher 	 false 	 false 	 false
+$58. ~Teaches.~Tutors.Person 	 false 	 false 	 false
+$59. ~Teaches.~Tutors.Student 	 false 	 false 	 false
+$60. ~Teaches.~Tutors.Teacher 	 false 	 false 	 false
+$61. ~Tutors.Person.Teaches 	 false 	 false 	 false
+$62. ~Tutors.Student.Teaches 	 false 	 false 	 false
+$63. ~Tutors.Teacher.Teaches 	 false 	 false 	 false
+$64. *Tutors.univ.Teaches 	 false 	 false 	 false
+$65. Teaches.univ.Teaches 	 false 	 false 	 false
+$66. Teaches.univ.~Teaches 	 false 	 false 	 false
+$67. Tutors.univ.Teaches 	 false 	 false 	 false
+$68. Tutors.univ.~Teaches 	 false 	 false 	 false
+$69. ^Tutors.univ.Teaches 	 false 	 false 	 false
+$70. univ.*Tutors.Teaches 	 false 	 false 	 false
+$71. univ.Teaches 	 false 	 false 	 false
+$72. univ.Tutors.Teaches 	 false 	 false 	 false
+$73. univ.^Tutors.Teaches 	 false 	 false 	 false
+$74. univ.~Tutors.Teaches 	 false 	 false 	 false
+$75. ~Teaches.Tutors.univ 	 false 	 false 	 false
+$76. ~Teaches.univ.Teaches 	 false 	 false 	 false
+$77. ~Teaches.univ.Tutors 	 false 	 false 	 false
+$78. ~Tutors.univ.Teaches 	 false 	 false 	 false
+$79. *Tutors.univ.~Teaches 	 false 	 false 	 false
+$80. ^Tutors.univ.~Teaches 	 false 	 false 	 false
+$81. ~Teaches.*Tutors.univ 	 false 	 false 	 false
+$82. ~Teaches.^Tutors.univ 	 false 	 false 	 false
+$83. ~Teaches.univ 	 false 	 false 	 false
+$84. ~Teaches.univ.*Tutors 	 false 	 false 	 false
+$85. ~Teaches.univ.^Tutors 	 false 	 false 	 false
+$86. ~Teaches.univ.~Tutors 	 false 	 false 	 false
+$87. ~Teaches.~Tutors.univ 	 false 	 false 	 false
+$88. ~Tutors.univ.~Teaches 	 false 	 false 	 false
+$89. Int 	 false 	 false 	 false
+$90. String 	 false 	 false 	 false
+$91. none 	 false 	 false 	 false
+$92. univ 	 false 	 false 	 false
+Expected Completion word: Teacher
+Expected Completion line: Teacher.Teaches
+Suggestion exists: true
+
+Suggestion in top 1 = false 
+Suggestion in top 5 = false 
+Suggestion in top 10 = false 
+
+Suggestion in top 1 (Alpha) = false
+Suggestion in top 5 (Alpha) = false
+Suggestion in top 10 (Alpha) = false
+
+Suggestion in top 1 (Len) = false
+Suggestion in top 5 (Len) = false
+Suggestion in top 10 (Len) = true
+
+Time taken: 25.050792

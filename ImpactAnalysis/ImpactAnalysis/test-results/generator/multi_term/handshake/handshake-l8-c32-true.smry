@@ -1,0 +1,262 @@
+Model name: handshake
+Filename: completion/handshake.als
+Offset: 110
+Term:  extends 
+Vscode Position: line=7 character=32
+----------------------------------
+8 | one sig Jocelyn, Hilary extends 
+----------------------------------
+Completion List:
+# Suggestion 	 Exact 	 Syntactic 	 Semantic
+$1. ((*shaken)-shaken) 	 false 	 false 	 false
+$2. ((*shaken)-spouse) 	 false 	 false 	 false
+$3. ((*shaken).spouse) 	 false 	 false 	 false
+$4. ((*spouse)-shaken) 	 false 	 false 	 false
+$5. ((*spouse)-spouse) 	 false 	 false 	 false
+$6. ((*spouse).shaken) 	 false 	 false 	 false
+$7. ((^shaken)-shaken) 	 false 	 false 	 false
+$8. ((^shaken)-spouse) 	 false 	 false 	 false
+$9. ((^shaken).spouse) 	 false 	 false 	 false
+$10. ((^spouse)-shaken) 	 false 	 false 	 false
+$11. ((^spouse)-spouse) 	 false 	 false 	 false
+$12. ((^spouse).shaken) 	 false 	 false 	 false
+$13. ((shaken-spouse).Person) 	 false 	 false 	 false
+$14. ((shaken-spouse).shaken) 	 false 	 false 	 false
+$15. ((shaken-spouse).spouse) 	 false 	 false 	 false
+$16. ((shaken-spouse).univ) 	 false 	 false 	 false
+$17. ((shaken.Person).shaken) 	 false 	 false 	 false
+$18. ((shaken.Person).spouse) 	 false 	 false 	 false
+$19. ((shaken.shaken)-shaken) 	 false 	 false 	 false
+$20. ((shaken.shaken)-spouse) 	 false 	 false 	 false
+$21. ((shaken.spouse)-shaken) 	 false 	 false 	 false
+$22. ((shaken.spouse)-spouse) 	 false 	 false 	 false
+$23. ((shaken.univ).shaken) 	 false 	 false 	 false
+$24. ((shaken.univ).spouse) 	 false 	 false 	 false
+$25. ((spouse&shaken).Person) 	 false 	 false 	 false
+$26. ((spouse&shaken).shaken) 	 false 	 false 	 false
+$27. ((spouse&shaken).spouse) 	 false 	 false 	 false
+$28. ((spouse&shaken).univ) 	 false 	 false 	 false
+$29. ((spouse+shaken).Person) 	 false 	 false 	 false
+$30. ((spouse+shaken).shaken) 	 false 	 false 	 false
+$31. ((spouse+shaken).spouse) 	 false 	 false 	 false
+$32. ((spouse+shaken).univ) 	 false 	 false 	 false
+$33. ((spouse-shaken).Person) 	 false 	 false 	 false
+$34. ((spouse-shaken).shaken) 	 false 	 false 	 false
+$35. ((spouse-shaken).spouse) 	 false 	 false 	 false
+$36. ((spouse-shaken).univ) 	 false 	 false 	 false
+$37. ((spouse.Person).shaken) 	 false 	 false 	 false
+$38. ((spouse.Person).spouse) 	 false 	 false 	 false
+$39. ((spouse.shaken)-shaken) 	 false 	 false 	 false
+$40. ((spouse.shaken)-spouse) 	 false 	 false 	 false
+$41. ((spouse.spouse)-shaken) 	 false 	 false 	 false
+$42. ((spouse.spouse)-spouse) 	 false 	 false 	 false
+$43. ((spouse.univ).shaken) 	 false 	 false 	 false
+$44. ((spouse.univ).spouse) 	 false 	 false 	 false
+$45. ((~shaken)-shaken) 	 false 	 false 	 false
+$46. ((~shaken)-spouse) 	 false 	 false 	 false
+$47. ((~shaken).Person) 	 false 	 false 	 false
+$48. ((~shaken).shaken) 	 false 	 false 	 false
+$49. ((~shaken).spouse) 	 false 	 false 	 false
+$50. ((~shaken).univ) 	 false 	 false 	 false
+$51. ((~spouse)-shaken) 	 false 	 false 	 false
+$52. ((~spouse)-spouse) 	 false 	 false 	 false
+$53. ((~spouse).Person) 	 false 	 false 	 false
+$54. ((~spouse).shaken) 	 false 	 false 	 false
+$55. ((~spouse).spouse) 	 false 	 false 	 false
+$56. ((~spouse).univ) 	 false 	 false 	 false
+$57. (*(shaken-spouse)) 	 false 	 false 	 false
+$58. (*(shaken.shaken)) 	 false 	 false 	 false
+$59. (*(shaken.spouse)) 	 false 	 false 	 false
+$60. (*(spouse&shaken)) 	 false 	 false 	 false
+$61. (*(spouse+shaken)) 	 false 	 false 	 false
+$62. (*(spouse-shaken)) 	 false 	 false 	 false
+$63. (*(spouse.shaken)) 	 false 	 false 	 false
+$64. (*(spouse.spouse)) 	 false 	 false 	 false
+$65. (*(~shaken)) 	 false 	 false 	 false
+$66. (*(~spouse)) 	 false 	 false 	 false
+$67. (*shaken) 	 false 	 false 	 false
+$68. (*spouse) 	 false 	 false 	 false
+$69. (^(shaken-spouse)) 	 false 	 false 	 false
+$70. (^(shaken.shaken)) 	 false 	 false 	 false
+$71. (^(shaken.spouse)) 	 false 	 false 	 false
+$72. (^(spouse&shaken)) 	 false 	 false 	 false
+$73. (^(spouse+shaken)) 	 false 	 false 	 false
+$74. (^(spouse-shaken)) 	 false 	 false 	 false
+$75. (^(spouse.shaken)) 	 false 	 false 	 false
+$76. (^(spouse.spouse)) 	 false 	 false 	 false
+$77. (^(~shaken)) 	 false 	 false 	 false
+$78. (^(~spouse)) 	 false 	 false 	 false
+$79. (^shaken) 	 false 	 false 	 false
+$80. (^spouse) 	 false 	 false 	 false
+$81. (none->none) 	 false 	 false 	 false
+$82. (none->none->none) 	 false 	 false 	 false
+$83. (Person-(Person.shaken)) 	 false 	 false 	 false
+$84. (Person-(Person.spouse)) 	 false 	 false 	 false
+$85. (Person-(shaken.Person)) 	 false 	 false 	 false
+$86. (Person-(shaken.univ)) 	 false 	 false 	 false
+$87. (Person-(spouse.Person)) 	 false 	 false 	 false
+$88. (Person-(spouse.univ)) 	 false 	 false 	 false
+$89. (Person-(univ.shaken)) 	 false 	 false 	 false
+$90. (Person-(univ.spouse)) 	 false 	 false 	 false
+$91. (Person.(shaken-spouse)) 	 false 	 false 	 false
+$92. (Person.(shaken.shaken)) 	 false 	 false 	 false
+$93. (Person.(shaken.spouse)) 	 false 	 false 	 false
+$94. (Person.(spouse&shaken)) 	 false 	 false 	 false
+$95. (Person.(spouse+shaken)) 	 false 	 false 	 false
+$96. (Person.(spouse-shaken)) 	 false 	 false 	 false
+$97. (Person.(spouse.shaken)) 	 false 	 false 	 false
+$98. (Person.(spouse.spouse)) 	 false 	 false 	 false
+$99. (Person.shaken) 	 false 	 false 	 false
+$100. (Person.spouse) 	 false 	 false 	 false
+$101. (shaken&(*spouse)) 	 false 	 false 	 false
+$102. (shaken&(^spouse)) 	 false 	 false 	 false
+$103. (shaken&(shaken-spouse)) 	 false 	 false 	 false
+$104. (shaken&(shaken.shaken)) 	 false 	 false 	 false
+$105. (shaken&(shaken.spouse)) 	 false 	 false 	 false
+$106. (shaken&(spouse-shaken)) 	 false 	 false 	 false
+$107. (shaken&(spouse.shaken)) 	 false 	 false 	 false
+$108. (shaken&(spouse.spouse)) 	 false 	 false 	 false
+$109. (shaken&(~shaken)) 	 false 	 false 	 false
+$110. (shaken&(~spouse)) 	 false 	 false 	 false
+$111. (shaken+(*spouse)) 	 false 	 false 	 false
+$112. (shaken+(^spouse)) 	 false 	 false 	 false
+$113. (shaken+(shaken.shaken)) 	 false 	 false 	 false
+$114. (shaken+(shaken.spouse)) 	 false 	 false 	 false
+$115. (shaken+(spouse.shaken)) 	 false 	 false 	 false
+$116. (shaken+(spouse.spouse)) 	 false 	 false 	 false
+$117. (shaken+(~shaken)) 	 false 	 false 	 false
+$118. (shaken+(~spouse)) 	 false 	 false 	 false
+$119. (shaken-(*spouse)) 	 false 	 false 	 false
+$120. (shaken-(^spouse)) 	 false 	 false 	 false
+$121. (shaken-(shaken.shaken)) 	 false 	 false 	 false
+$122. (shaken-(shaken.spouse)) 	 false 	 false 	 false
+$123. (shaken-(spouse.shaken)) 	 false 	 false 	 false
+$124. (shaken-(spouse.spouse)) 	 false 	 false 	 false
+$125. (shaken-(~shaken)) 	 false 	 false 	 false
+$126. (shaken-(~spouse)) 	 false 	 false 	 false
+$127. (shaken-spouse) 	 false 	 false 	 false
+$128. (shaken.(*spouse)) 	 false 	 false 	 false
+$129. (shaken.(^shaken)) 	 false 	 false 	 false
+$130. (shaken.(^spouse)) 	 false 	 false 	 false
+$131. (shaken.(Person.shaken)) 	 false 	 false 	 false
+$132. (shaken.(Person.spouse)) 	 false 	 false 	 false
+$133. (shaken.(shaken-spouse)) 	 false 	 false 	 false
+$134. (shaken.(shaken.Person)) 	 false 	 false 	 false
+$135. (shaken.(shaken.shaken)) 	 false 	 false 	 false
+$136. (shaken.(shaken.spouse)) 	 false 	 false 	 false
+$137. (shaken.(shaken.univ)) 	 false 	 false 	 false
+$138. (shaken.(spouse&shaken)) 	 false 	 false 	 false
+$139. (shaken.(spouse+shaken)) 	 false 	 false 	 false
+$140. (shaken.(spouse-shaken)) 	 false 	 false 	 false
+$141. (shaken.(spouse.Person)) 	 false 	 false 	 false
+$142. (shaken.(spouse.shaken)) 	 false 	 false 	 false
+$143. (shaken.(spouse.spouse)) 	 false 	 false 	 false
+$144. (shaken.(spouse.univ)) 	 false 	 false 	 false
+$145. (shaken.(univ.shaken)) 	 false 	 false 	 false
+$146. (shaken.(univ.spouse)) 	 false 	 false 	 false
+$147. (shaken.(~shaken)) 	 false 	 false 	 false
+$148. (shaken.(~spouse)) 	 false 	 false 	 false
+$149. (shaken.Person) 	 false 	 false 	 false
+$150. (shaken.shaken) 	 false 	 false 	 false
+$151. (shaken.spouse) 	 false 	 false 	 false
+$152. (shaken.univ) 	 false 	 false 	 false
+$153. (spouse&(*shaken)) 	 false 	 false 	 false
+$154. (spouse&(^shaken)) 	 false 	 false 	 false
+$155. (spouse&(shaken-spouse)) 	 false 	 false 	 false
+$156. (spouse&(shaken.shaken)) 	 false 	 false 	 false
+$157. (spouse&(shaken.spouse)) 	 false 	 false 	 false
+$158. (spouse&(spouse-shaken)) 	 false 	 false 	 false
+$159. (spouse&(spouse.shaken)) 	 false 	 false 	 false
+$160. (spouse&(spouse.spouse)) 	 false 	 false 	 false
+$161. (spouse&(~shaken)) 	 false 	 false 	 false
+$162. (spouse&(~spouse)) 	 false 	 false 	 false
+$163. (spouse&shaken) 	 false 	 false 	 false
+$164. (spouse+(*shaken)) 	 false 	 false 	 false
+$165. (spouse+(^shaken)) 	 false 	 false 	 false
+$166. (spouse+(shaken.shaken)) 	 false 	 false 	 false
+$167. (spouse+(shaken.spouse)) 	 false 	 false 	 false
+$168. (spouse+(spouse.shaken)) 	 false 	 false 	 false
+$169. (spouse+(spouse.spouse)) 	 false 	 false 	 false
+$170. (spouse+(~shaken)) 	 false 	 false 	 false
+$171. (spouse+(~spouse)) 	 false 	 false 	 false
+$172. (spouse+shaken) 	 false 	 false 	 false
+$173. (spouse-(*shaken)) 	 false 	 false 	 false
+$174. (spouse-(^shaken)) 	 false 	 false 	 false
+$175. (spouse-(shaken.shaken)) 	 false 	 false 	 false
+$176. (spouse-(shaken.spouse)) 	 false 	 false 	 false
+$177. (spouse-(spouse.shaken)) 	 false 	 false 	 false
+$178. (spouse-(spouse.spouse)) 	 false 	 false 	 false
+$179. (spouse-(~shaken)) 	 false 	 false 	 false
+$180. (spouse-(~spouse)) 	 false 	 false 	 false
+$181. (spouse-shaken) 	 false 	 false 	 false
+$182. (spouse.(*shaken)) 	 false 	 false 	 false
+$183. (spouse.(^shaken)) 	 false 	 false 	 false
+$184. (spouse.(^spouse)) 	 false 	 false 	 false
+$185. (spouse.(Person.shaken)) 	 false 	 false 	 false
+$186. (spouse.(Person.spouse)) 	 false 	 false 	 false
+$187. (spouse.(shaken-spouse)) 	 false 	 false 	 false
+$188. (spouse.(shaken.Person)) 	 false 	 false 	 false
+$189. (spouse.(shaken.shaken)) 	 false 	 false 	 false
+$190. (spouse.(shaken.spouse)) 	 false 	 false 	 false
+$191. (spouse.(shaken.univ)) 	 false 	 false 	 false
+$192. (spouse.(spouse&shaken)) 	 false 	 false 	 false
+$193. (spouse.(spouse+shaken)) 	 false 	 false 	 false
+$194. (spouse.(spouse-shaken)) 	 false 	 false 	 false
+$195. (spouse.(spouse.Person)) 	 false 	 false 	 false
+$196. (spouse.(spouse.shaken)) 	 false 	 false 	 false
+$197. (spouse.(spouse.spouse)) 	 false 	 false 	 false
+$198. (spouse.(spouse.univ)) 	 false 	 false 	 false
+$199. (spouse.(univ.shaken)) 	 false 	 false 	 false
+$200. (spouse.(univ.spouse)) 	 false 	 false 	 false
+$201. (spouse.(~shaken)) 	 false 	 false 	 false
+$202. (spouse.(~spouse)) 	 false 	 false 	 false
+$203. (spouse.Person) 	 false 	 false 	 false
+$204. (spouse.shaken) 	 false 	 false 	 false
+$205. (spouse.spouse) 	 false 	 false 	 false
+$206. (spouse.univ) 	 false 	 false 	 false
+$207. (univ.(shaken-spouse)) 	 false 	 false 	 false
+$208. (univ.(shaken.shaken)) 	 false 	 false 	 false
+$209. (univ.(shaken.spouse)) 	 false 	 false 	 false
+$210. (univ.(spouse&shaken)) 	 false 	 false 	 false
+$211. (univ.(spouse+shaken)) 	 false 	 false 	 false
+$212. (univ.(spouse-shaken)) 	 false 	 false 	 false
+$213. (univ.(spouse.shaken)) 	 false 	 false 	 false
+$214. (univ.(spouse.spouse)) 	 false 	 false 	 false
+$215. (univ.shaken) 	 false 	 false 	 false
+$216. (univ.spouse) 	 false 	 false 	 false
+$217. (~(shaken-spouse)) 	 false 	 false 	 false
+$218. (~(shaken.shaken)) 	 false 	 false 	 false
+$219. (~(shaken.spouse)) 	 false 	 false 	 false
+$220. (~(spouse&shaken)) 	 false 	 false 	 false
+$221. (~(spouse+shaken)) 	 false 	 false 	 false
+$222. (~(spouse-shaken)) 	 false 	 false 	 false
+$223. (~(spouse.shaken)) 	 false 	 false 	 false
+$224. (~(spouse.spouse)) 	 false 	 false 	 false
+$225. (~shaken) 	 false 	 false 	 false
+$226. (~spouse) 	 false 	 false 	 false
+$227. Hilary 	 false 	 false 	 false
+$228. Int 	 false 	 false 	 false
+$229. Jocelyn 	 false 	 false 	 false
+$230. none 	 false 	 false 	 false
+$231. Person 	 true 	 true 	 true
+$232. shaken 	 false 	 false 	 false
+$233. spouse 	 false 	 false 	 false
+$234. String 	 false 	 false 	 false
+$235. univ 	 false 	 false 	 false
+Expected Completion word: Person
+Expected Completion line: Person {}
+Suggestion exists: true
+
+Suggestion in top 1 = false 
+Suggestion in top 5 = false 
+Suggestion in top 10 = false 
+
+Suggestion in top 1 (Alpha) = false
+Suggestion in top 5 (Alpha) = false
+Suggestion in top 10 (Alpha) = false
+
+Suggestion in top 1 (Len) = false
+Suggestion in top 5 (Len) = true
+Suggestion in top 10 (Len) = true
+
+Time taken: 35.257709

@@ -1,0 +1,352 @@
+import java.io.BufferedReader;
+import java.io.File;
+import java.io.FileNotFoundException;
+import java.io.FileReader;
+import java.io.IOException;
+import java.nio.file.Files;
+import java.nio.file.Path;
+import java.nio.file.Paths;
+import java.util.ArrayList;
+import java.util.Collections;
+import java.util.HashMap;
+import java.util.Scanner;
+import java.util.TreeMap;
+
+import edu.mit.csail.sdg.alloy4.A4Reporter;
+import edu.mit.csail.sdg.parser.CompModule;
+import edu.mit.csail.sdg.parser.CompUtil;
+import parser.ast.nodes.Assertion;
+import parser.ast.nodes.Body;
+import parser.ast.nodes.ExprOrFormula;
+import parser.ast.nodes.Fact;
+import parser.ast.nodes.Function;
+import parser.ast.nodes.ListExpr;
+import parser.ast.nodes.ListFormula;
+import parser.ast.nodes.ModelUnit;
+import parser.ast.nodes.Node;
+import parser.ast.nodes.Predicate;
+import parser.ast.visitor.TemplateHighVisitor;
+import parser.ast.visitor.TemplatesDetailsVisitor;
+import parser.ast.visitor.TemplatesDetailsVisitor_NoRecursive;
+import parser.ast.visitor.TemplatesHighVisitor_NoRecursive;
+
+public class GatherTemplates_NoRecursive {
+	
+	public static void reverse_and_print(String directory, HashMap<String, Integer> templates) {
+		 
+	        //deleting results file if it already exists
+	        try {
+	            Files.deleteIfExists(Paths.get(directory));
+
+	        } catch (IOException e) {
+	            e.printStackTrace();
+	        }
+	        
+			 //Invert map and print in order for most hits to least hits of generic template
+			 TreeMap<Integer, String> reverse_it = new TreeMap<Integer, String>();
+			 int count = 0;
+			 
+			 int total = 0;
+			 for(String template : templates.keySet()) {
+				 total += templates.get(template);
+			 }
+			 
+			 for(String template : templates.keySet()) {
+				 count += templates.get(template);
+				 if(!reverse_it.containsKey(templates.get(template))) {
+					 reverse_it.put(templates.get(template),"");
+				 }
+				 reverse_it.put(templates.get(template),reverse_it.get(templates.get(template)) + template + "\n");
+			 }
+			 
+			 ArrayList<Integer> hit_counts = new ArrayList<Integer>();
+			 for(Integer hits : reverse_it.keySet()) {
+				 hit_counts.add(hits);
+			 }
+			 Collections.reverse(hit_counts);
+			 
+			 String print_templates = "";
+			 for(Integer key : hit_counts) {
+				 double percentage = ((double)key/total) * 100;
+				 print_templates += "hits: " + key + " (" + percentage + ")\n";
+				 print_templates += reverse_it.get(key) + "\n";
+			 }
+			 
+			 String type = directory.replaceAll("Results_High/","");
+			 type = type.replaceAll("Results_Detailed/","");
+			 type = type.replaceAll("LessFaultyAndAutomated/","");
+			 type = type.replaceAll("_templates.txt","");
+			 System.out.println(type + " templates," + templates.keySet().size());
+			 System.out.println(type + " uses, " + count);
+			 
+			 ResultWriter.writeResults(directory, print_templates);
+	}
+	
+	public static void main (String [] args) throws FileNotFoundException {
+		
+		//Comment/Uncomment as needed
+		
+		//Where to store results
+        String directoryName = "Results_Detailed_NoRecursive/";
+       // String directoryName = "Results_High_NoRecursive/";
+
+        directoryName += "LessFaultyAndAutomated/";
+
+        //creating directory if it doesn't exist
+        File directory = new File(directoryName);
+        if (! directory.exists()){
+            directory.mkdirs();
+        } 
+
+        //Which granularity of templates
+        //TemplatesHighVisitor_NoRecursive templates = new TemplatesHighVisitor_NoRecursive();
+        TemplatesDetailsVisitor_NoRecursive templates = new TemplatesDetailsVisitor_NoRecursive();
+
+        //Corpus of models
+        File models = new File("alloy5_less_faulty_automated.txt");
+        Scanner sc = new Scanner(models);
+        
+        HashMap<String,Integer> pred_templates = new HashMap<String, Integer>(); 
+        HashMap<String,Integer> func_templates = new HashMap<String, Integer>(); 
+        HashMap<String,Integer> assertions_templates = new HashMap<String, Integer>(); 
+        HashMap<String,Integer> facts_templates = new HashMap<String, Integer>(); 
+                
+        //iterating over corpus of models
+        while (sc.hasNextLine()) {
+            String model = sc.nextLine();
+            String[] files_to_parse = model.split(",");
+            for (String file : files_to_parse) {
+                Path file_path = Paths.get(file);
+                if (Files.isRegularFile(file_path)) {
+                  
+                    CompModule module = CompUtil.parseEverything_fromFile(A4Reporter.NOP, null, file);
+        		 	assert module != null;
+        		 	ModelUnit mu = new ModelUnit(null, module);
+        		    
+        		 	for(Predicate pred : mu.getPredDeclList()) {
+           		 		Body body = pred.getBody();
+           		 		ExprOrFormula body_expr = body.getBodyExpr();
+           		 		String body_formula = templates.visit(body_expr, null);
+           		 		
+           		 		if(!pred_templates.containsKey(body_formula)) {
+           		 		pred_templates.put(body_formula, 0);
+           		 		}
+           		 		pred_templates.put(body_formula, pred_templates.get(body_formula) + 1);
+           		 	}
+           		 	
+        		 	//Toggle to also measure templates in other part of the model.
+        		 	//All our suggestions are in predicates so we focus on those
+           		  /*for(Fact fact : mu.getFactDeclList()) {
+        		 		Body body = fact.getBody();
+        		 		ExprOrFormula body_expr = body.getBodyExpr();
+        		 		String body_formula = templates.visit(body_expr, null);
+        		 		if(!facts_templates.containsKey(body_formula)) {
+        		 			facts_templates.put(body_formula, 0);
+               		 	}
+        		 		facts_templates.put(body_formula, facts_templates.get(body_formula) + 1);
+        		 	}
+           		 	
+           		 	for(Function func : mu.getFunDeclList()) {
+        		 		Body body = func.getBody();
+        		 		ExprOrFormula body_expr = body.getBodyExpr();
+        		 		String body_formula = templates.visit(body_expr, null);
+        		 		if(!func_templates.containsKey(body_formula)) {
+        		 			func_templates.put(body_formula, 0);
+               		 	}
+        		 		func_templates.put(body_formula, func_templates.get(body_formula) + 1);
+        		 	}
+           		 
+           		 	for(Assertion asserts : mu.getAssertDeclList()) {
+        		 		Body body = asserts.getBody();
+        		 		ExprOrFormula body_expr = body.getBodyExpr();
+        		 		String body_formula = templates.visit(body_expr, null);
+        		 		if(!assertions_templates.containsKey(body_formula)) {
+        		 			assertions_templates.put(body_formula, 0);
+               		 	}
+        		 		assertions_templates.put(body_formula, assertions_templates.get(body_formula) + 1);
+        		 	}*/
+                }
+            }
+        }
+        
+        /**Binary Set Templates**/
+        //relational joins a.b
+        reverse_and_print(directoryName + "join_templates.txt", templates.join_templates);
+        //union a + b
+        reverse_and_print(directoryName + "union_templates.txt", templates.union_templates);
+        //difference a - b
+        reverse_and_print(directoryName + "difference_templates.txt", templates.difference_templates);
+        //intersection a & b
+        reverse_and_print(directoryName + "intersect_templates.txt", templates.intersect_templates);
+        //cross produce a->b
+        reverse_and_print(directoryName + "arrow_templates.txt", templates.arrow_templates);
+        
+        /**Unary Set Templates**/
+        //set cardinality #a
+        reverse_and_print(directoryName + "set_card_templates.txt", templates.set_card_templates);
+        //transpose ~a
+        reverse_and_print(directoryName + "transpose_templates.txt", templates.transpose_templates);
+        //transitive closure ^a
+        reverse_and_print(directoryName + "closure_templates.txt", templates.closure_templates);
+        //reflexive transitive closure *a
+        reverse_and_print(directoryName + "rclosure_templates.txt", templates.rclosure_templates);
+        //a <: b
+        reverse_and_print(directoryName + "domain_templates.txt", templates.domain_templates);
+        //a >: b
+        reverse_and_print(directoryName + "range_templates.txt", templates.range_templates);
+        //a / b
+        reverse_and_print(directoryName + "math_set_templates.txt", templates.math_set_templates);
+        
+        /**Binary Formula Templates**/
+        //a and b
+        reverse_and_print(directoryName + "and_templates.txt", templates.and_templates);
+        //a or b
+        reverse_and_print(directoryName + "or_templates.txt", templates.or_templates);
+        //a => b
+        reverse_and_print(directoryName + "implies_templates.txt", templates.implies_templates);
+        //a <=> b
+        reverse_and_print(directoryName + "biconditional_templates.txt", templates.biconditional_templates);
+        //a in b
+        reverse_and_print(directoryName + "in_templates.txt", templates.in_templates);
+        //a !in b
+        reverse_and_print(directoryName + "not_in_templates.txt", templates.not_in_templates);
+        //a = b
+        reverse_and_print(directoryName + "equals_templates.txt", templates.equals_templates);
+        //a != b
+        reverse_and_print(directoryName + "not_equals_templates.txt", templates.not_equals_templates);
+        // a <= b, etc 
+        reverse_and_print(directoryName + "math_formula_templates.txt", templates.math_formula_templates);
+        
+        /**Unary Formula Templates**/
+        //no a
+        reverse_and_print(directoryName + "no_templates.txt", templates.no_templates);
+        //lone a
+        reverse_and_print(directoryName + "lone_templates.txt", templates.lone_templates);
+        //one a
+        reverse_and_print(directoryName + "one_templates.txt", templates.one_templates);
+        //some a
+        reverse_and_print(directoryName + "some_templates.txt", templates.some_templates);
+        //set a
+        reverse_and_print(directoryName + "set_templates.txt", templates.set_templates);
+        //!a
+        reverse_and_print(directoryName + "not_templates.txt", templates.not_templates);
+        
+        /**Quantifier  Formula Templates**/
+        //all v : domain | a
+        reverse_and_print(directoryName + "quant_all_templates.txt", templates.quant_all_templates);
+        //some v : domain | a
+        reverse_and_print(directoryName + "quant_some_templates.txt", templates.quant_some_templates);
+        //one v : domain | a
+        reverse_and_print(directoryName + "quant_one_templates.txt", templates.quant_one_templates);
+        //lone v : domain | a
+        reverse_and_print(directoryName + "quant_lone_templates.txt", templates.quant_lone_templates);
+        //no v : domain | a
+        reverse_and_print(directoryName + "quant_no_templates.txt", templates.quant_no_templates);
+        
+        /**Other  Formula Templates**/
+        //let v : domain | a
+        reverse_and_print(directoryName + "let_templates.txt", templates.let_templates);
+        //a => b else c
+        reverse_and_print(directoryName + "if_else_templates.txt", templates.if_else_templates);
+        
+        /*Combined Templates**/
+        
+        //Quantifiers
+        HashMap<String, Integer> combined_quant = new HashMap<String,Integer>();
+        combined_quant.putAll(templates.quant_no_templates);
+        combined_quant.putAll(templates.quant_lone_templates);
+        combined_quant.putAll(templates.quant_one_templates);
+        combined_quant.putAll(templates.quant_some_templates);
+        combined_quant.putAll(templates.quant_all_templates);
+        reverse_and_print(directoryName + "combined_quant_templates.txt", combined_quant);
+        
+        //Relational Logic
+        HashMap<String, Integer> combined_rl = new HashMap<String,Integer>();
+        combined_rl.putAll(templates.no_templates);
+        combined_rl.putAll(templates.lone_templates);
+        combined_rl.putAll(templates.one_templates);
+        combined_rl.putAll(templates.some_templates);
+        combined_rl.putAll(templates.set_templates);
+        combined_rl.putAll(templates.not_templates);
+       
+        combined_rl.putAll(templates.in_templates);
+        combined_rl.putAll(templates.not_in_templates);
+        combined_rl.putAll(templates.equals_templates);
+        combined_rl.putAll(templates.not_equals_templates);
+        
+        combined_rl.putAll(templates.join_templates);
+        combined_rl.putAll(templates.union_templates);
+        combined_rl.putAll(templates.difference_templates);
+        combined_rl.putAll(templates.intersect_templates);
+        combined_rl.putAll(templates.arrow_templates);        
+
+        combined_rl.putAll(templates.set_card_templates);
+        combined_rl.putAll(templates.transpose_templates);
+        combined_rl.putAll(templates.closure_templates);
+        combined_rl.putAll(templates.rclosure_templates);
+        combined_rl.putAll(templates.domain_templates);
+        combined_rl.putAll(templates.range_templates);
+        
+        reverse_and_print(directoryName + "combined_rl_templates.txt", combined_rl);
+        
+        //Predicate Logic
+        HashMap<String, Integer> combined_pl = new HashMap<String,Integer>();
+        combined_pl.putAll(templates.and_templates);
+        combined_pl.putAll(templates.or_templates);
+        combined_pl.putAll(templates.implies_templates);
+        combined_pl.putAll(templates.biconditional_templates);
+        
+        reverse_and_print(directoryName + "combined_pl_templates.txt", combined_pl);
+        
+        //All
+        HashMap<String, Integer> combined = new HashMap<String,Integer>();        
+        combined.putAll(templates.quant_no_templates);
+        combined.putAll(templates.quant_lone_templates);
+        combined.putAll(templates.quant_one_templates);
+        combined.putAll(templates.quant_some_templates);
+        combined.putAll(templates.quant_all_templates);
+        
+        combined.putAll(templates.let_templates);
+        combined.putAll(templates.if_else_templates);
+        
+        combined.putAll(templates.no_templates);
+        combined.putAll(templates.lone_templates);
+        combined.putAll(templates.one_templates);
+        combined.putAll(templates.some_templates);
+        combined.putAll(templates.set_templates);
+        combined.putAll(templates.not_templates);
+        
+        combined.putAll(templates.and_templates);
+        combined.putAll(templates.or_templates);
+        combined.putAll(templates.implies_templates);
+        combined.putAll(templates.biconditional_templates);
+        
+        combined.putAll(templates.in_templates);
+        combined.putAll(templates.not_in_templates);
+        combined.putAll(templates.equals_templates);
+        combined.putAll(templates.not_equals_templates);
+        
+        combined.putAll(templates.math_set_templates);
+        combined.putAll(templates.math_formula_templates);
+        
+        combined.putAll(templates.join_templates);
+        combined.putAll(templates.union_templates);
+        combined.putAll(templates.difference_templates);
+        combined.putAll(templates.intersect_templates);
+        combined.putAll(templates.arrow_templates);        
+
+        combined.putAll(templates.set_card_templates);
+        combined.putAll(templates.transpose_templates);
+        combined.putAll(templates.closure_templates);
+        combined.putAll(templates.rclosure_templates);
+        combined.putAll(templates.prime_templates);
+        combined.putAll(templates.domain_templates);
+        combined.putAll(templates.range_templates);
+        reverse_and_print(directoryName + "combined_all_templates.txt", combined);
+        
+        reverse_and_print(directoryName + "pred_templates.txt", pred_templates);
+        reverse_and_print(directoryName + "func_templates.txt", func_templates);
+        reverse_and_print(directoryName + "fact_templates.txt", facts_templates);
+        reverse_and_print(directoryName + "assertions_templates.txt", assertions_templates);
+	}
+}

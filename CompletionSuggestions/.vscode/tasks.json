@@ -1,0 +1,11 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "Client Tsc Watch",
+      "type": "typescript",
+      "tsconfig": "client/tsconfig.json",
+      "problemMatcher": ["$tsc"]
+    }
+  ]
+}

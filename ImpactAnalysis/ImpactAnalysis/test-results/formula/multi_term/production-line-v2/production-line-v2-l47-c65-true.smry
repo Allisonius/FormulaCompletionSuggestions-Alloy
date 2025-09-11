@@ -1,0 +1,255 @@
+Model name: production-line-v2
+Filename: completion/production-line-v2-complete.als
+Offset: 926
+Term:  & 
+Vscode Position: line=46 character=65
+----------------------------------
+47 | 	all c : Workstation | no (c.workers & Human) or no (c.workers & 
+----------------------------------
+Completion List:
+# Suggestion 	 Exact 	 Syntactic 	 Semantic
+$1. *succ.c.workers 	 false 	 undefined 	 undefined
+$2. ^succ.c.workers 	 false 	 undefined 	 undefined
+$3. c 	 false 	 undefined 	 undefined
+$4. c.*succ.workers 	 false 	 undefined 	 undefined
+$5. c.^succ.workers 	 false 	 undefined 	 undefined
+$6. c.succ.workers 	 false 	 undefined 	 undefined
+$7. c.workers 	 false 	 undefined 	 undefined
+$8. c.~succ.workers 	 false 	 undefined 	 undefined
+$9. succ.c.workers 	 false 	 undefined 	 undefined
+$10. workstation.c.*succ 	 false 	 undefined 	 undefined
+$11. workstation.c.^succ 	 false 	 undefined 	 undefined
+$12. workstation.c.succ 	 false 	 undefined 	 undefined
+$13. workstation.c.workers 	 false 	 undefined 	 undefined
+$14. workstation.c.~succ 	 false 	 undefined 	 undefined
+$15. workstation.c.~workstation 	 false 	 undefined 	 undefined
+$16. ~succ.c.workers 	 false 	 undefined 	 undefined
+$17. ~workers.*succ.c 	 false 	 undefined 	 undefined
+$18. ~workers.^succ.c 	 false 	 undefined 	 undefined
+$19. ~workers.c 	 false 	 undefined 	 undefined
+$20. ~workers.c.*succ 	 false 	 undefined 	 undefined
+$21. ~workers.c.^succ 	 false 	 undefined 	 undefined
+$22. ~workers.c.succ 	 false 	 undefined 	 undefined
+$23. ~workers.c.workers 	 false 	 undefined 	 undefined
+$24. ~workers.c.~succ 	 false 	 undefined 	 undefined
+$25. ~workers.c.~workstation 	 false 	 undefined 	 undefined
+$26. ~workers.succ.c 	 false 	 undefined 	 undefined
+$27. ~workers.~succ.c 	 false 	 undefined 	 undefined
+$28. *succ.Workstation.workers 	 false 	 undefined 	 undefined
+$29. *succ.begin.workers 	 false 	 undefined 	 undefined
+$30. *succ.end.workers 	 false 	 undefined 	 undefined
+$31. Component 	 false 	 undefined 	 undefined
+$32. Component.workstation.workers 	 false 	 undefined 	 undefined
+$33. Dangerous 	 false 	 undefined 	 undefined
+$34. Human 	 false 	 undefined 	 undefined
+$35. Material 	 false 	 undefined 	 undefined
+$36. Product 	 false 	 undefined 	 undefined
+$37. Robot 	 true 	 undefined 	 undefined
+$38. Worker 	 false 	 undefined 	 undefined
+$39. Workstation 	 false 	 undefined 	 undefined
+$40. Workstation.*succ.workers 	 false 	 undefined 	 undefined
+$41. Workstation.^succ.workers 	 false 	 undefined 	 undefined
+$42. Workstation.succ.workers 	 false 	 undefined 	 undefined
+$43. Workstation.~succ.workers 	 false 	 undefined 	 undefined
+$44. ^succ.Workstation.workers 	 false 	 undefined 	 undefined
+$45. ^succ.begin.workers 	 false 	 undefined 	 undefined
+$46. ^succ.end.workers 	 false 	 undefined 	 undefined
+$47. begin 	 false 	 undefined 	 undefined
+$48. begin.*succ.workers 	 false 	 undefined 	 undefined
+$49. begin.^succ.workers 	 false 	 undefined 	 undefined
+$50. begin.succ.workers 	 false 	 undefined 	 undefined
+$51. begin.workers 	 false 	 undefined 	 undefined
+$52. begin.~succ.workers 	 false 	 undefined 	 undefined
+$53. end 	 false 	 undefined 	 undefined
+$54. end.*succ.workers 	 false 	 undefined 	 undefined
+$55. end.^succ.workers 	 false 	 undefined 	 undefined
+$56. end.succ.workers 	 false 	 undefined 	 undefined
+$57. end.workers 	 false 	 undefined 	 undefined
+$58. end.~succ.workers 	 false 	 undefined 	 undefined
+$59. succ.Workstation.workers 	 false 	 undefined 	 undefined
+$60. succ.begin.workers 	 false 	 undefined 	 undefined
+$61. succ.end.workers 	 false 	 undefined 	 undefined
+$62. workers.Human.~workers 	 false 	 undefined 	 undefined
+$63. workers.Robot.~workers 	 false 	 undefined 	 undefined
+$64. workers.Worker.~workers 	 false 	 undefined 	 undefined
+$65. workstation.Workstation.*succ 	 false 	 undefined 	 undefined
+$66. workstation.Workstation.^succ 	 false 	 undefined 	 undefined
+$67. workstation.Workstation.succ 	 false 	 undefined 	 undefined
+$68. workstation.Workstation.workers 	 false 	 undefined 	 undefined
+$69. workstation.Workstation.~succ 	 false 	 undefined 	 undefined
+$70. workstation.Workstation.~workstation 	 false 	 undefined 	 undefined
+$71. workstation.begin.*succ 	 false 	 undefined 	 undefined
+$72. workstation.begin.^succ 	 false 	 undefined 	 undefined
+$73. workstation.begin.succ 	 false 	 undefined 	 undefined
+$74. workstation.begin.workers 	 false 	 undefined 	 undefined
+$75. workstation.begin.~succ 	 false 	 undefined 	 undefined
+$76. workstation.begin.~workstation 	 false 	 undefined 	 undefined
+$77. workstation.end.*succ 	 false 	 undefined 	 undefined
+$78. workstation.end.^succ 	 false 	 undefined 	 undefined
+$79. workstation.end.succ 	 false 	 undefined 	 undefined
+$80. workstation.end.workers 	 false 	 undefined 	 undefined
+$81. workstation.end.~succ 	 false 	 undefined 	 undefined
+$82. workstation.end.~workstation 	 false 	 undefined 	 undefined
+$83. ~succ.Workstation.workers 	 false 	 undefined 	 undefined
+$84. ~succ.begin.workers 	 false 	 undefined 	 undefined
+$85. ~succ.end.workers 	 false 	 undefined 	 undefined
+$86. ~workers.*succ.Workstation 	 false 	 undefined 	 undefined
+$87. ~workers.*succ.begin 	 false 	 undefined 	 undefined
+$88. ~workers.*succ.end 	 false 	 undefined 	 undefined
+$89. ~workers.Workstation 	 false 	 undefined 	 undefined
+$90. ~workers.Workstation.*succ 	 false 	 undefined 	 undefined
+$91. ~workers.Workstation.^succ 	 false 	 undefined 	 undefined
+$92. ~workers.Workstation.succ 	 false 	 undefined 	 undefined
+$93. ~workers.Workstation.workers 	 false 	 undefined 	 undefined
+$94. ~workers.Workstation.~succ 	 false 	 undefined 	 undefined
+$95. ~workers.Workstation.~workstation 	 false 	 undefined 	 undefined
+$96. ~workers.^succ.Workstation 	 false 	 undefined 	 undefined
+$97. ~workers.^succ.begin 	 false 	 undefined 	 undefined
+$98. ~workers.^succ.end 	 false 	 undefined 	 undefined
+$99. ~workers.begin 	 false 	 undefined 	 undefined
+$100. ~workers.begin.*succ 	 false 	 undefined 	 undefined
+$101. ~workers.begin.^succ 	 false 	 undefined 	 undefined
+$102. ~workers.begin.succ 	 false 	 undefined 	 undefined
+$103. ~workers.begin.workers 	 false 	 undefined 	 undefined
+$104. ~workers.begin.~succ 	 false 	 undefined 	 undefined
+$105. ~workers.begin.~workstation 	 false 	 undefined 	 undefined
+$106. ~workers.end 	 false 	 undefined 	 undefined
+$107. ~workers.end.*succ 	 false 	 undefined 	 undefined
+$108. ~workers.end.^succ 	 false 	 undefined 	 undefined
+$109. ~workers.end.succ 	 false 	 undefined 	 undefined
+$110. ~workers.end.workers 	 false 	 undefined 	 undefined
+$111. ~workers.end.~succ 	 false 	 undefined 	 undefined
+$112. ~workers.end.~workstation 	 false 	 undefined 	 undefined
+$113. ~workers.succ.Workstation 	 false 	 undefined 	 undefined
+$114. ~workers.succ.begin 	 false 	 undefined 	 undefined
+$115. ~workers.succ.end 	 false 	 undefined 	 undefined
+$116. ~workers.~succ.Workstation 	 false 	 undefined 	 undefined
+$117. ~workers.~succ.begin 	 false 	 undefined 	 undefined
+$118. ~workers.~succ.end 	 false 	 undefined 	 undefined
+$119. ~workers.~workstation.Component 	 false 	 undefined 	 undefined
+$120. ~workstation.Component.*parts 	 false 	 undefined 	 undefined
+$121. ~workstation.Component.^parts 	 false 	 undefined 	 undefined
+$122. ~workstation.Component.parts 	 false 	 undefined 	 undefined
+$123. ~workstation.Component.workstation 	 false 	 undefined 	 undefined
+$124. ~workstation.Component.~parts 	 false 	 undefined 	 undefined
+$125. *parts.univ.succ 	 false 	 undefined 	 undefined
+$126. *parts.univ.workers 	 false 	 undefined 	 undefined
+$127. *succ.univ.parts 	 false 	 undefined 	 undefined
+$128. *succ.univ.workers 	 false 	 undefined 	 undefined
+$129. *succ.univ.workstation 	 false 	 undefined 	 undefined
+$130. ^parts.univ.succ 	 false 	 undefined 	 undefined
+$131. ^parts.univ.workers 	 false 	 undefined 	 undefined
+$132. ^succ.univ.parts 	 false 	 undefined 	 undefined
+$133. ^succ.univ.workers 	 false 	 undefined 	 undefined
+$134. ^succ.univ.workstation 	 false 	 undefined 	 undefined
+$135. parts.univ.*succ 	 false 	 undefined 	 undefined
+$136. parts.univ.^succ 	 false 	 undefined 	 undefined
+$137. parts.univ.succ 	 false 	 undefined 	 undefined
+$138. parts.univ.workers 	 false 	 undefined 	 undefined
+$139. parts.univ.~succ 	 false 	 undefined 	 undefined
+$140. parts.univ.~workers 	 false 	 undefined 	 undefined
+$141. parts.univ.~workstation 	 false 	 undefined 	 undefined
+$142. succ.univ.*parts 	 false 	 undefined 	 undefined
+$143. succ.univ.^parts 	 false 	 undefined 	 undefined
+$144. succ.univ.parts 	 false 	 undefined 	 undefined
+$145. succ.univ.workers 	 false 	 undefined 	 undefined
+$146. succ.univ.workstation 	 false 	 undefined 	 undefined
+$147. succ.univ.~parts 	 false 	 undefined 	 undefined
+$148. succ.univ.~workers 	 false 	 undefined 	 undefined
+$149. univ.*succ.workers 	 false 	 undefined 	 undefined
+$150. univ.^succ.workers 	 false 	 undefined 	 undefined
+$151. univ.succ.workers 	 false 	 undefined 	 undefined
+$152. univ.workers 	 false 	 undefined 	 undefined
+$153. univ.workstation.workers 	 false 	 undefined 	 undefined
+$154. univ.~succ.workers 	 false 	 undefined 	 undefined
+$155. workers.univ.*parts 	 false 	 undefined 	 undefined
+$156. workers.univ.^parts 	 false 	 undefined 	 undefined
+$157. workers.univ.parts 	 false 	 undefined 	 undefined
+$158. workers.univ.workers 	 false 	 undefined 	 undefined
+$159. workers.univ.workstation 	 false 	 undefined 	 undefined
+$160. workers.univ.~parts 	 false 	 undefined 	 undefined
+$161. workers.univ.~workers 	 false 	 undefined 	 undefined
+$162. workstation.univ.*succ 	 false 	 undefined 	 undefined
+$163. workstation.univ.^succ 	 false 	 undefined 	 undefined
+$164. workstation.univ.succ 	 false 	 undefined 	 undefined
+$165. workstation.univ.workers 	 false 	 undefined 	 undefined
+$166. workstation.univ.~succ 	 false 	 undefined 	 undefined
+$167. workstation.univ.~workers 	 false 	 undefined 	 undefined
+$168. workstation.univ.~workstation 	 false 	 undefined 	 undefined
+$169. ~parts.univ.succ 	 false 	 undefined 	 undefined
+$170. ~parts.univ.workers 	 false 	 undefined 	 undefined
+$171. ~succ.univ.parts 	 false 	 undefined 	 undefined
+$172. ~succ.univ.workers 	 false 	 undefined 	 undefined
+$173. ~succ.univ.workstation 	 false 	 undefined 	 undefined
+$174. ~workers.succ.univ 	 false 	 undefined 	 undefined
+$175. ~workers.univ.parts 	 false 	 undefined 	 undefined
+$176. ~workers.univ.succ 	 false 	 undefined 	 undefined
+$177. ~workers.univ.workers 	 false 	 undefined 	 undefined
+$178. ~workers.univ.workstation 	 false 	 undefined 	 undefined
+$179. ~workstation.univ.parts 	 false 	 undefined 	 undefined
+$180. ~workstation.univ.workers 	 false 	 undefined 	 undefined
+$181. ~workstation.univ.workstation 	 false 	 undefined 	 undefined
+$182. *parts.univ.~succ 	 false 	 undefined 	 undefined
+$183. *parts.univ.~workers 	 false 	 undefined 	 undefined
+$184. *parts.univ.~workstation 	 false 	 undefined 	 undefined
+$185. *succ.univ.~parts 	 false 	 undefined 	 undefined
+$186. *succ.univ.~workers 	 false 	 undefined 	 undefined
+$187. ^parts.univ.~succ 	 false 	 undefined 	 undefined
+$188. ^parts.univ.~workers 	 false 	 undefined 	 undefined
+$189. ^parts.univ.~workstation 	 false 	 undefined 	 undefined
+$190. ^succ.univ.~parts 	 false 	 undefined 	 undefined
+$191. ^succ.univ.~workers 	 false 	 undefined 	 undefined
+$192. ~parts.univ.*succ 	 false 	 undefined 	 undefined
+$193. ~parts.univ.^succ 	 false 	 undefined 	 undefined
+$194. ~parts.univ.~succ 	 false 	 undefined 	 undefined
+$195. ~parts.univ.~workers 	 false 	 undefined 	 undefined
+$196. ~parts.univ.~workstation 	 false 	 undefined 	 undefined
+$197. ~succ.univ.*parts 	 false 	 undefined 	 undefined
+$198. ~succ.univ.^parts 	 false 	 undefined 	 undefined
+$199. ~succ.univ.~parts 	 false 	 undefined 	 undefined
+$200. ~succ.univ.~workers 	 false 	 undefined 	 undefined
+$201. ~workers.*succ.univ 	 false 	 undefined 	 undefined
+$202. ~workers.^succ.univ 	 false 	 undefined 	 undefined
+$203. ~workers.univ 	 false 	 undefined 	 undefined
+$204. ~workers.univ.*parts 	 false 	 undefined 	 undefined
+$205. ~workers.univ.*succ 	 false 	 undefined 	 undefined
+$206. ~workers.univ.^parts 	 false 	 undefined 	 undefined
+$207. ~workers.univ.^succ 	 false 	 undefined 	 undefined
+$208. ~workers.univ.~parts 	 false 	 undefined 	 undefined
+$209. ~workers.univ.~succ 	 false 	 undefined 	 undefined
+$210. ~workers.univ.~workstation 	 false 	 undefined 	 undefined
+$211. ~workers.~succ.univ 	 false 	 undefined 	 undefined
+$212. ~workers.~workstation.univ 	 false 	 undefined 	 undefined
+$213. ~workstation.univ.*parts 	 false 	 undefined 	 undefined
+$214. ~workstation.univ.^parts 	 false 	 undefined 	 undefined
+$215. ~workstation.univ.~parts 	 false 	 undefined 	 undefined
+$216. ~workstation.univ.~workers 	 false 	 undefined 	 undefined
+$217. *parts.univ.^succ 	 false 	 undefined 	 undefined
+$218. *succ.univ.^parts 	 false 	 undefined 	 undefined
+$219. ^parts.univ.*succ 	 false 	 undefined 	 undefined
+$220. ^parts.univ.^succ 	 false 	 undefined 	 undefined
+$221. ^succ.univ.*parts 	 false 	 undefined 	 undefined
+$222. ^succ.univ.^parts 	 false 	 undefined 	 undefined
+$223. *parts.univ.*succ 	 false 	 undefined 	 undefined
+$224. *succ.univ.*parts 	 false 	 undefined 	 undefined
+$225. Int 	 false 	 undefined 	 undefined
+$226. String 	 false 	 undefined 	 undefined
+$227. none 	 false 	 undefined 	 undefined
+$228. univ 	 false 	 undefined 	 undefined
+Expected Completion word: Robot
+Expected Completion line: Robot)
+Suggestion exists: true
+
+Suggestion in top 1 = false 
+Suggestion in top 5 = false 
+Suggestion in top 10 = false 
+
+Suggestion in top 1 (Alpha) = false
+Suggestion in top 5 (Alpha) = false
+Suggestion in top 10 (Alpha) = false
+
+Suggestion in top 1 (Len) = false
+Suggestion in top 5 (Len) = false
+Suggestion in top 10 (Len) = true
+
+Time taken: 35.471209

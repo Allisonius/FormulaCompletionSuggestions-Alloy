@@ -1,0 +1,11 @@
+modelname,filename,position-line,position-character,incompleteline,removedtext,baseline,suggestionedExpression,A_iff_B,A_and_B,not_A_and_B,A_and_not_B,not_A_and_not_B,suggestionImpactTime
+train-station-ltl,completion/train-station-ltl-complete.als,92,38,"all j : Junction | always lone (prox.","j).signal & Green","{}","\tall j : Junction | always lone (prox.j",,,,,,9.744292
+train-station-ltl,completion/train-station-ltl-complete.als,92,38,"all j : Junction | always lone (prox.","j).signal & Green","{}","\tall j : Junction | always lone (prox.Entry",,,,,,9.744292
+train-station-ltl,completion/train-station-ltl-complete.als,92,38,"all j : Junction | always lone (prox.","j).signal & Green","{}","\tall j : Junction | always lone (prox.Exit",,,,,,9.744292
+train-station-ltl,completion/train-station-ltl-complete.als,92,38,"all j : Junction | always lone (prox.","j).signal & Green","{}","\tall j : Junction | always lone (prox.Junction",,,,,,9.744292
+train-station-ltl,completion/train-station-ltl-complete.als,92,38,"all j : Junction | always lone (prox.","j).signal & Green","{}","\tall j : Junction | always lone (prox.Track",,,,,,9.744292
+train-station-ltl,completion/train-station-ltl-complete.als,92,38,"all j : Junction | always lone (prox.","j).signal & Green","{}","\tall j : Junction | always lone (prox.signal",,,,,,9.744292
+train-station-ltl,completion/train-station-ltl-complete.als,92,38,"all j : Junction | always lone (prox.","j).signal & Green","{}","\tall j : Junction | always lone (prox.~pos",,,,,,9.744292
+train-station-ltl,completion/train-station-ltl-complete.als,92,38,"all j : Junction | always lone (prox.","j).signal & Green","{}","\tall j : Junction | always lone (prox.iden",,,,,,9.744292
+train-station-ltl,completion/train-station-ltl-complete.als,92,38,"all j : Junction | always lone (prox.","j).signal & Green","{}","\tall j : Junction | always lone (prox.none",,,,,,9.744292
+train-station-ltl,completion/train-station-ltl-complete.als,92,38,"all j : Junction | always lone (prox.","j).signal & Green","{}","\tall j : Junction | always lone (prox.univ",,,,,,9.744292

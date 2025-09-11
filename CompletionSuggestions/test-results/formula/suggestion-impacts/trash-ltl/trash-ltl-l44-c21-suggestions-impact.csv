@@ -1,0 +1,11 @@
+modelname,filename,position-line,position-character,incompleteline,removedtext,baseline,suggestionedExpression,A_iff_B,A_and_B,not_A_and_B,A_and_not_B,not_A_and_not_B,suggestionImpactTime
+trash-ltl,completion/trash-ltl-complete.als,44,21,"always ( all f:link.","File | eventually f in Trash )","{}","\talways ( all f:link.File",,,,,,7.017708
+trash-ltl,completion/trash-ltl-complete.als,44,21,"always ( all f:link.","File | eventually f in Trash )","{}","\talways ( all f:link.Protected",,,,,,7.017708
+trash-ltl,completion/trash-ltl-complete.als,44,21,"always ( all f:link.","File | eventually f in Trash )","{}","\talways ( all f:link.Protected'",,,,,,7.017708
+trash-ltl,completion/trash-ltl-complete.als,44,21,"always ( all f:link.","File | eventually f in Trash )","{}","\talways ( all f:link.Trash",,,,,,7.017708
+trash-ltl,completion/trash-ltl-complete.als,44,21,"always ( all f:link.","File | eventually f in Trash )","{}","\talways ( all f:link.Trash'",,,,,,7.017708
+trash-ltl,completion/trash-ltl-complete.als,44,21,"always ( all f:link.","File | eventually f in Trash )","{}","\talways ( all f:link.link'",,,,,,7.017708
+trash-ltl,completion/trash-ltl-complete.als,44,21,"always ( all f:link.","File | eventually f in Trash )","{}","\talways ( all f:link.File'",,,,,,7.017708
+trash-ltl,completion/trash-ltl-complete.als,44,21,"always ( all f:link.","File | eventually f in Trash )","{}","\talways ( all f:link.iden",,,,,,7.017708
+trash-ltl,completion/trash-ltl-complete.als,44,21,"always ( all f:link.","File | eventually f in Trash )","{}","\talways ( all f:link.none",,,,,,7.017708
+trash-ltl,completion/trash-ltl-complete.als,44,21,"always ( all f:link.","File | eventually f in Trash )","{}","\talways ( all f:link.univ",,,,,,7.017708

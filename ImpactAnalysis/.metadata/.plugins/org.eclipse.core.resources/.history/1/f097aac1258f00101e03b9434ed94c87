@@ -1,0 +1,10 @@
+modelname,filename,position-line,position-character,incompleteline,removedtext,baseline,suggestionedExpression,A_iff_B,A_and_B,not_A_and_B,A_and_not_B,not_A_and_not_B,suggestionImpactTime
+production-line-v3,completion/production-line-v3-complete.als,55,22,"all c:Component, p:c.","parts | p in Dangerous implies c in Dangerous","{}","\tall c:Component, p:c.parts",,,,,,12.911125
+production-line-v3,completion/production-line-v3-complete.als,55,22,"all c:Component, p:c.","parts | p in Dangerous implies c in Dangerous","{}","\tall c:Component, p:c.workstation",,,,,,12.911125
+production-line-v3,completion/production-line-v3-complete.als,55,22,"all c:Component, p:c.","parts | p in Dangerous implies c in Dangerous","{}","\tall c:Component, p:c.~parts",,,,,,12.911125
+production-line-v3,completion/production-line-v3-complete.als,55,22,"all c:Component, p:c.","parts | p in Dangerous implies c in Dangerous","{}","\tall c:Component, p:c.^parts",,,,,,12.911125
+production-line-v3,completion/production-line-v3-complete.als,55,22,"all c:Component, p:c.","parts | p in Dangerous implies c in Dangerous","{}","\tall c:Component, p:c.*parts",,,,,,12.911125
+production-line-v3,completion/production-line-v3-complete.als,55,22,"all c:Component, p:c.","parts | p in Dangerous implies c in Dangerous","{}","\tall c:Component, p:c.*succ",,,,,,12.911125
+production-line-v3,completion/production-line-v3-complete.als,55,22,"all c:Component, p:c.","parts | p in Dangerous implies c in Dangerous","{}","\tall c:Component, p:c.iden",,,,,,12.911125
+production-line-v3,completion/production-line-v3-complete.als,55,22,"all c:Component, p:c.","parts | p in Dangerous implies c in Dangerous","{}","\tall c:Component, p:c.none",,,,,,12.911125
+production-line-v3,completion/production-line-v3-complete.als,55,22,"all c:Component, p:c.","parts | p in Dangerous implies c in Dangerous","{}","\tall c:Component, p:c.univ",,,,,,12.911125

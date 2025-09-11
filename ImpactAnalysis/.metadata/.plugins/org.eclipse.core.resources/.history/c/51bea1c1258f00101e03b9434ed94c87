@@ -1,0 +1,4 @@
+modelname,filename,position-line,position-character,incompleteline,removedtext,baseline,suggestionedExpression,A_iff_B,A_and_B,not_A_and_B,A_and_not_B,not_A_and_not_B,suggestionImpactTime
+lts,completion/lts-complete.als,19,35,"all s : State, e : Event | lone e.","(s.trans)","{}","\tall s : State, e : Event | lone e.iden",true,true,false,false,false,5.511666
+lts,completion/lts-complete.als,19,35,"all s : State, e : Event | lone e.","(s.trans)","{}","\tall s : State, e : Event | lone e.none",,,,,,5.511666
+lts,completion/lts-complete.als,19,35,"all s : State, e : Event | lone e.","(s.trans)","{}","\tall s : State, e : Event | lone e.univ",,,,,,5.511666

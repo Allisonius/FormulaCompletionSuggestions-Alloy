@@ -1,0 +1,10 @@
+modelname,filename,position-line,position-character,incompleteline,removedtext,baseline,suggestionedExpression,A_iff_B,A_and_B,not_A_and_B,A_and_not_B,not_A_and_not_B,suggestionImpactTime
+courses-v2,completion/courses-v2-complete.als,43,18,"all p : Person -","Student | no p.projects and all p : Project | some s : Student | p in s.projects","{}","\tall p : Person - Course",,,,,,12.22
+courses-v2,completion/courses-v2-complete.als,43,18,"all p : Person -","Student | no p.projects and all p : Project | some s : Student | p in s.projects","{}","\tall p : Person - Grade",,,,,,12.22
+courses-v2,completion/courses-v2-complete.als,43,18,"all p : Person -","Student | no p.projects and all p : Project | some s : Student | p in s.projects","{}","\tall p : Person - Person",,,,,,12.22
+courses-v2,completion/courses-v2-complete.als,43,18,"all p : Person -","Student | no p.projects and all p : Project | some s : Student | p in s.projects","{}","\tall p : Person - Professor",,,,,,12.22
+courses-v2,completion/courses-v2-complete.als,43,18,"all p : Person -","Student | no p.projects and all p : Project | some s : Student | p in s.projects","{}","\tall p : Person - Project",,,,,,12.22
+courses-v2,completion/courses-v2-complete.als,43,18,"all p : Person -","Student | no p.projects and all p : Project | some s : Student | p in s.projects","{}","\tall p : Person - Student",,,,,,12.22
+courses-v2,completion/courses-v2-complete.als,43,18,"all p : Person -","Student | no p.projects and all p : Project | some s : Student | p in s.projects","{}","\tall p : Person - iden",,,,,,12.22
+courses-v2,completion/courses-v2-complete.als,43,18,"all p : Person -","Student | no p.projects and all p : Project | some s : Student | p in s.projects","{}","\tall p : Person - none",,,,,,12.22
+courses-v2,completion/courses-v2-complete.als,43,18,"all p : Person -","Student | no p.projects and all p : Project | some s : Student | p in s.projects","{}","\tall p : Person - univ",,,,,,12.22

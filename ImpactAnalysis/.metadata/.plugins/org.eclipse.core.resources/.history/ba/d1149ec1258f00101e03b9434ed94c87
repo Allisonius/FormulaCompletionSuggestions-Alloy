@@ -1,0 +1,10 @@
+modelname,filename,position-line,position-character,incompleteline,removedtext,baseline,suggestionedExpression,A_iff_B,A_and_B,not_A_and_B,A_and_not_B,not_A_and_not_B,suggestionImpactTime
+fsm,completion/fsm.als,40,32,"all n: State | n in FSM.start.","*transition","{}","  all n: State | n in FSM.start.transition",false,false,false,true,false,12.243875
+fsm,completion/fsm.als,40,32,"all n: State | n in FSM.start.","*transition","{}","  all n: State | n in FSM.start.~start",false,false,false,true,false,12.243875
+fsm,completion/fsm.als,40,32,"all n: State | n in FSM.start.","*transition","{}","  all n: State | n in FSM.start.~stop",false,false,false,true,false,12.243875
+fsm,completion/fsm.als,40,32,"all n: State | n in FSM.start.","*transition","{}","  all n: State | n in FSM.start.~transition",false,false,false,true,false,12.243875
+fsm,completion/fsm.als,40,32,"all n: State | n in FSM.start.","*transition","{}","  all n: State | n in FSM.start.^transition",false,false,false,true,false,12.243875
+fsm,completion/fsm.als,40,32,"all n: State | n in FSM.start.","*transition","{}","  all n: State | n in FSM.start.*transition",true,true,false,true,false,12.243875
+fsm,completion/fsm.als,40,32,"all n: State | n in FSM.start.","*transition","{}","  all n: State | n in FSM.start.iden",false,false,false,true,false,12.243875
+fsm,completion/fsm.als,40,32,"all n: State | n in FSM.start.","*transition","{}","  all n: State | n in FSM.start.none",,,,,,12.243875
+fsm,completion/fsm.als,40,32,"all n: State | n in FSM.start.","*transition","{}","  all n: State | n in FSM.start.univ",,,,,,12.243875

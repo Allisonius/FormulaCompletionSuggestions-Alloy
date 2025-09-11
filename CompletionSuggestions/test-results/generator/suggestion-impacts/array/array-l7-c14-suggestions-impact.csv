@@ -1,0 +1,27 @@
+modelname,filename,position-line,position-character,incompleteline,removedtext,baseline,suggestionedExpression,A_iff_B,A_and_B,not_A_and_B,A_and_not_B,not_A_and_not_B,suggestionImpactTime
+array,completion/array-sig.als,7,14,"i2e: Int ->","Element","{}","  i2e: Int -> ((length.Int).length)",,,,,,10.175167
+array,completion/array-sig.als,7,14,"i2e: Int ->","Element","{}","  i2e: Int -> ((length.univ).length)",,,,,,10.175167
+array,completion/array-sig.als,7,14,"i2e: Int ->","Element","{}","  i2e: Int -> ((~length).Array)",,,,,,10.175167
+array,completion/array-sig.als,7,14,"i2e: Int ->","Element","{}","  i2e: Int -> ((~length).length)",,,,,,10.175167
+array,completion/array-sig.als,7,14,"i2e: Int ->","Element","{}","  i2e: Int -> ((~length).univ)",,,,,,10.175167
+array,completion/array-sig.als,7,14,"i2e: Int ->","Element","{}","  i2e: Int -> (Array-(length.Int))",,,,,,10.175167
+array,completion/array-sig.als,7,14,"i2e: Int ->","Element","{}","  i2e: Int -> (Array-(length.univ))",,,,,,10.175167
+array,completion/array-sig.als,7,14,"i2e: Int ->","Element","{}","  i2e: Int -> (Array.length)",,,,,,10.175167
+array,completion/array-sig.als,7,14,"i2e: Int ->","Element","{}","  i2e: Int -> (Int-(Array.length))",,,,,,10.175167
+array,completion/array-sig.als,7,14,"i2e: Int ->","Element","{}","  i2e: Int -> (Int-(univ.length))",,,,,,10.175167
+array,completion/array-sig.als,7,14,"i2e: Int ->","Element","{}","  i2e: Int -> (length.(Array.length))",,,,,,10.175167
+array,completion/array-sig.als,7,14,"i2e: Int ->","Element","{}","  i2e: Int -> (length.(univ.length))",,,,,,10.175167
+array,completion/array-sig.als,7,14,"i2e: Int ->","Element","{}","  i2e: Int -> (length.(~length))",,,,,,10.175167
+array,completion/array-sig.als,7,14,"i2e: Int ->","Element","{}","  i2e: Int -> (length.Int)",,,,,,10.175167
+array,completion/array-sig.als,7,14,"i2e: Int ->","Element","{}","  i2e: Int -> (length.univ)",,,,,,10.175167
+array,completion/array-sig.als,7,14,"i2e: Int ->","Element","{}","  i2e: Int -> (none->none)",,,,,,10.175167
+array,completion/array-sig.als,7,14,"i2e: Int ->","Element","{}","  i2e: Int -> (none->none->none)",,,,,,10.175167
+array,completion/array-sig.als,7,14,"i2e: Int ->","Element","{}","  i2e: Int -> (univ.length)",,,,,,10.175167
+array,completion/array-sig.als,7,14,"i2e: Int ->","Element","{}","  i2e: Int -> (~length)",,,,,,10.175167
+array,completion/array-sig.als,7,14,"i2e: Int ->","Element","{}","  i2e: Int -> Array",,,,,,10.175167
+array,completion/array-sig.als,7,14,"i2e: Int ->","Element","{}","  i2e: Int -> Element",,,,,,10.175167
+array,completion/array-sig.als,7,14,"i2e: Int ->","Element","{}","  i2e: Int -> Int",,,,,,10.175167
+array,completion/array-sig.als,7,14,"i2e: Int ->","Element","{}","  i2e: Int -> length",,,,,,10.175167
+array,completion/array-sig.als,7,14,"i2e: Int ->","Element","{}","  i2e: Int -> none",,,,,,10.175167
+array,completion/array-sig.als,7,14,"i2e: Int ->","Element","{}","  i2e: Int -> String",,,,,,10.175167
+array,completion/array-sig.als,7,14,"i2e: Int ->","Element","{}","  i2e: Int -> univ",,,,,,10.175167

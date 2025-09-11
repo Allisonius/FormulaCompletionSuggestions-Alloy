@@ -1,0 +1,12 @@
+modelname,filename,position-line,position-character,incompleteline,removedtext,baseline,suggestionedExpression,A_iff_B,A_and_B,not_A_and_B,A_and_not_B,not_A_and_not_B,suggestionImpactTime
+cv,completion/cv-sig.als,2,17,"sig User extends","Source {","{}","sig User extends Id",,,,,,5.187459
+cv,completion/cv-sig.als,2,17,"sig User extends","Source {","{}","sig User extends Institution",,,,,,5.187459
+cv,completion/cv-sig.als,2,17,"sig User extends","Source {","{}","sig User extends Source",,,,,,5.187459
+cv,completion/cv-sig.als,2,17,"sig User extends","Source {","{}","sig User extends User",,,,,,5.187459
+cv,completion/cv-sig.als,2,17,"sig User extends","Source {","{}","sig User extends Work",,,,,,5.187459
+cv,completion/cv-sig.als,2,17,"sig User extends","Source {","{}","sig User extends Int",,,,,,5.187459
+cv,completion/cv-sig.als,2,17,"sig User extends","Source {","{}","sig User extends String",,,,,,5.187459
+cv,completion/cv-sig.als,2,17,"sig User extends","Source {","{}","sig User extends seq/Int",,,,,,5.187459
+cv,completion/cv-sig.als,2,17,"sig User extends","Source {","{}","sig User extends iden",,,,,,5.187459
+cv,completion/cv-sig.als,2,17,"sig User extends","Source {","{}","sig User extends none",,,,,,5.187459
+cv,completion/cv-sig.als,2,17,"sig User extends","Source {","{}","sig User extends univ",,,,,,5.187459

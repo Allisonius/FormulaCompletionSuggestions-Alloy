@@ -1,0 +1,35 @@
+Model name: nqueens
+Filename: completion/nqueens.als
+Offset: 367
+Term: .
+Vscode Position: line=24 character=46
+----------------------------------
+25 |     minus[q1.row, q2.row] != minus[q1.col, q2.
+----------------------------------
+Completion List:
+# Suggestion 	 Exact 	 Syntactic 	 Semantic
+$1. col 	 true 	 undefined 	 undefined
+$2. col.Int 	 false 	 undefined 	 undefined
+$3. col.univ 	 false 	 undefined 	 undefined
+$4. col.~row 	 false 	 undefined 	 undefined
+$5. row 	 false 	 undefined 	 undefined
+$6. row.Int 	 false 	 undefined 	 undefined
+$7. row.univ 	 false 	 undefined 	 undefined
+$8. row.~col 	 false 	 undefined 	 undefined
+Expected Completion word: col
+Expected Completion line: col]
+Suggestion exists: true
+
+Suggestion in top 1 = true 
+Suggestion in top 5 = true 
+Suggestion in top 10 = true 
+
+Suggestion in top 1 (Alpha) = true
+Suggestion in top 5 (Alpha) = true
+Suggestion in top 10 (Alpha) = true
+
+Suggestion in top 1 (Len) = true
+Suggestion in top 5 (Len) = true
+Suggestion in top 10 (Len) = true
+
+Time taken: 24.518084

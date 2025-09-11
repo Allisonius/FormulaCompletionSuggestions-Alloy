@@ -1,0 +1,53 @@
+hits: 131 (31.116389548693586)
+(one (name.name))
+
+hits: 84 (19.95249406175772)
+(one name)
+
+hits: 54 (12.826603325415679)
+(one (name.(name.name)))
+(one (name.(~name)))
+
+hits: 34 (8.076009501187649)
+(one ((name.name).name))
+
+hits: 12 (2.8503562945368173)
+(one ((name.name) :> name))
+
+hits: 11 (2.6128266033254155)
+(one fun_call[])
+
+hits: 9 (2.137767220902613)
+(one (fun_call[] :> name))
+
+hits: 5 (1.187648456057007)
+(one (name.fun_call[]))
+
+hits: 4 (0.9501187648456058)
+(one (((name.name).name).name))
+
+hits: 3 (0.7125890736342043)
+(one ((name.name) & (name.name)))
+
+hits: 2 (0.4750593824228029)
+(one (((name.fun_call[]).fun_call[]) :> name))
+(one (name.(name.(name.name))))
+(one ((name.name) + (name.name)))
+(one (((name.name) + (name.name)) + (name.name)))
+(one (name.(~(name.name))))
+
+hits: 1 (0.23752969121140144)
+(one (fun_call[] & name))
+(one ((name.name).(name.name)))
+(one ((name.(name.name)).name))
+(one ((name - name).name))
+(one ({ name: (one name) {
+((name.name) = name)
+} }))
+(one (((name.name).name) & (name.name)))
+(one (name - name))
+(one ((name.(name.name)) & (name.name)))
+(one ((name.name).((name.name).name)))
+(one ((name.(name.name)) & ((name.name).name)))
+
+

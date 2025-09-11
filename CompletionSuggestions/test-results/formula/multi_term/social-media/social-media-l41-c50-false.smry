@@ -1,0 +1,37 @@
+Model name: social-media
+Filename: completion/socialMedia.als
+Offset: 594
+Term:  - 
+Vscode Position: line=40 character=50
+----------------------------------
+41 | 	all u : User | u.suggested = u.follows.follows - 
+----------------------------------
+Completion List:
+# Suggestion 	 Exact 	 Syntactic 	 Semantic
+$1. u 	 false 	 undefined 	 undefined
+$2. Ad 	 false 	 undefined 	 undefined
+$3. Day 	 false 	 undefined 	 undefined
+$4. Influencer 	 false 	 undefined 	 undefined
+$5. Photo 	 false 	 undefined 	 undefined
+$6. User 	 false 	 undefined 	 undefined
+$7. Int 	 false 	 undefined 	 undefined
+$8. String 	 false 	 undefined 	 undefined
+$9. none 	 false 	 undefined 	 undefined
+$10. univ 	 false 	 undefined 	 undefined
+Expected Completion word: u
+Expected Completion line: u.follows - u
+Suggestion exists: false
+
+Suggestion in top 1 = true 
+Suggestion in top 5 = true 
+Suggestion in top 10 = true 
+
+Suggestion in top 1 (Alpha) = false
+Suggestion in top 5 (Alpha) = false
+Suggestion in top 10 (Alpha) = true
+
+Suggestion in top 1 (Len) = true
+Suggestion in top 5 (Len) = true
+Suggestion in top 10 (Len) = true
+
+Time taken: 10.2995

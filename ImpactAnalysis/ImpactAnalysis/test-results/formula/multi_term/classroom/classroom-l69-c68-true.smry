@@ -1,0 +1,38 @@
+Model name: classroom
+Filename: completion/classroom-complete.als
+Offset: 901
+Term:  -> 
+Vscode Position: line=68 character=68
+----------------------------------
+69 |   all c:Class,p:Person | p in (c.Groups).Group implies Teaches.c -> 
+----------------------------------
+Completion List:
+# Suggestion 	 Exact 	 Syntactic 	 Semantic
+$1. c 	 false 	 undefined 	 undefined
+$2. p 	 true 	 undefined 	 undefined
+$3. Class 	 false 	 undefined 	 undefined
+$4. Group 	 false 	 undefined 	 undefined
+$5. Person 	 false 	 undefined 	 undefined
+$6. Student 	 false 	 undefined 	 undefined
+$7. Teacher 	 false 	 undefined 	 undefined
+$8. Int 	 false 	 undefined 	 undefined
+$9. String 	 false 	 undefined 	 undefined
+$10. none 	 false 	 undefined 	 undefined
+$11. univ 	 false 	 undefined 	 undefined
+Expected Completion word: p
+Expected Completion line: p in Tutors
+Suggestion exists: true
+
+Suggestion in top 1 = false 
+Suggestion in top 5 = true 
+Suggestion in top 10 = true 
+
+Suggestion in top 1 (Alpha) = false
+Suggestion in top 5 (Alpha) = false
+Suggestion in top 10 (Alpha) = true
+
+Suggestion in top 1 (Len) = false
+Suggestion in top 5 (Len) = true
+Suggestion in top 10 (Len) = true
+
+Time taken: 10.312875

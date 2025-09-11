@@ -1,0 +1,140 @@
+hits: 354 (34.9457058242843)
+(some name)
+
+hits: 192 (18.95360315893386)
+(some (name.name))
+
+hits: 85 (8.390918065153011)
+(some ((name.name).name))
+
+hits: 44 (4.343534057255676)
+(some fun_call[])
+
+hits: 43 (4.244817374136229)
+(some (name.(name.name)))
+
+hits: 29 (2.8627838104639687)
+(some ((name.name) & name))
+
+hits: 28 (2.7640671273445214)
+(some (name & name))
+
+hits: 27 (2.665350444225074)
+(some (name & ((name.name).name)))
+
+hits: 26 (2.566633761105627)
+(some (((name.name).name) & name))
+
+hits: 20 (1.9743336623889436)
+(some ((name.name) & (name.name)))
+
+hits: 16 (1.5794669299111548)
+(some (name & ((fun_call[].name).name)))
+
+hits: 15 (1.4807502467917077)
+(some ((name.name) :> name))
+
+hits: 9 (0.8884501480750246)
+(some (((name.name).name) & ((name.name).name)))
+
+hits: 8 (0.7897334649555774)
+(some (((fun_call[].name).name) & name))
+(some (fun_call[] & name))
+
+hits: 6 (0.5923000987166831)
+(some (name & (name.name)))
+
+hits: 5 (0.4935834155972359)
+(some (name - name))
+(some (name.((name.name).name)))
+(some (((name.name).name).name))
+
+hits: 4 (0.3948667324777887)
+(some (((name.name).name) & fun_call[]))
+(some (name & (((name.(~(name.name))).name).name)))
+(some ((name.(name.name)) & (name.(name.name))))
+
+hits: 3 (0.29615004935834155)
+(some ((name.(name.name)) - name))
+(some (name.fun_call[]))
+(some (name.(~name)))
+
+hits: 2 (0.19743336623889435)
+(some ((name.name) - (name.name)))
+(some (fun_call[] & (((name.name) - name).name)))
+(some (iden & (((fun_call[].name).(name <: ((^name) :> name))).fun_call[])))
+(some ((name.name).fun_call[]))
+(some (name - (name.name)))
+(some ((name.(^name)) & name))
+(some (((name.name).name) - name))
+(some (((fun_call[].fun_call[]).(*name)) :> name))
+(some (iden & (((fun_call[].(name & (name.(~name)))).(name <: ((^name) :> name))).(name & (name.(~name))))))
+(some (name & fun_call[]))
+(some ((name.(name.name)).name))
+(some (fun_call[] :> name))
+(some (iden & (^fun_call[])))
+(some (((name.name).name) & (name.name)))
+(some (name & ((^name).name)))
+
+hits: 1 (0.09871668311944717)
+(some (((name.name).name) & ((fun_call[].name).name)))
+(some (((fun_call[].name).name) + ((fun_call[].name).name)))
+(some (((name.name) & name) - name))
+(some (name - iden))
+(some ((name.name).(name.name)))
+(some (((name + name).name) & (((name + name) <: name).(name.name))))
+(some ((name.name) & (name - (name.name))))
+(some ((fun_call[].name).name))
+(some (((name + name).name) & (((name.(name + name)) <: name).(name.name))))
+(some (fun_call[] - (name.name)))
+(some (name - (name.(*name))))
+(some (name & (name.(^name))))
+(some (name & (((name - fun_call[]).name).name)))
+(some ((name.(~name)).name))
+(some ((name.name) & (fun_call[].name)))
+(some ({ name: (one ((name.name).name)) {
+(one name: (one name) {
+((name.name) = name)
+})
+} }))
+(some (name.(name + name)))
+(some ((name.name) - ((name.name).name)))
+(some (((name.(~name)).(~name)) & (name.name)))
+(some (((^name).name) & (name.name)))
+(some ((name.name) - name))
+(some (fun_call[] & fun_call[]))
+(some ((fun_call[] & (name.name)) & ({ name: (one name) {
+(some name: (one name) {
+(((name.name) = name) && (((name.name).name) != ((name.name).name)))
+})
+} })))
+(some (fun_call[].name))
+(some (name & ((~name).name)))
+(some (fun_call[] & (name.name)))
+(some ((name.(name.name)) & ((name + name) + name)))
+(some ({ name: (one fun_call[]) {
+pred_call[]
+} }))
+(some (((name.name).name) - ((name.name).name)))
+(some ((name.name) & (name->(name + (name.name)))))
+(some ((name.name) & (name - name)))
+(some ((name - name).name))
+(some (iden & (^(fun_call[] + fun_call[]))))
+(some (((name.name) + name) - (name.name)))
+(some (fun_call[] & (name - ({ name: (one name) {
+(some name: (one name) {
+(((name.name) = name) && (((name.name).name) != ((name.name).name)))
+})
+} }))))
+(some ((name - ({ name: (one name) {
+(some name: (one name) {
+(((name.name) = name) && (((name.name).name) != ((name.name).name)))
+})
+} })) & name))
+(some (((name.name) & (fun_call[].name)) & ({ name: (one name) {
+(all name: (one fun_call[]) {
+((name.name) in ((name.name).name))
+})
+} })))
+
+

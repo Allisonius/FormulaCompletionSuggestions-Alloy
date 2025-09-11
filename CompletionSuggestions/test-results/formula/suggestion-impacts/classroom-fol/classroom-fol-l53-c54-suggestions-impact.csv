@@ -1,0 +1,14 @@
+modelname,filename,position-line,position-character,incompleteline,removedtext,baseline,suggestionedExpression,A_iff_B,A_and_B,not_A_and_B,A_and_not_B,not_A_and_not_B,suggestionImpactTime
+classroom-fol,completion/classroom-fol-complete.als,53,54,"all c: Class, s: Student | some g: Group | c -> s ->","g in Groups","{}","\tall c: Class, s: Student | some g: Group | c -> s -> c",,,,,,14.584833
+classroom-fol,completion/classroom-fol-complete.als,53,54,"all c: Class, s: Student | some g: Group | c -> s ->","g in Groups","{}","\tall c: Class, s: Student | some g: Group | c -> s -> s",,,,,,14.584833
+classroom-fol,completion/classroom-fol-complete.als,53,54,"all c: Class, s: Student | some g: Group | c -> s ->","g in Groups","{}","\tall c: Class, s: Student | some g: Group | c -> s -> Class",,,,,,14.584833
+classroom-fol,completion/classroom-fol-complete.als,53,54,"all c: Class, s: Student | some g: Group | c -> s ->","g in Groups","{}","\tall c: Class, s: Student | some g: Group | c -> s -> Group",,,,,,14.584833
+classroom-fol,completion/classroom-fol-complete.als,53,54,"all c: Class, s: Student | some g: Group | c -> s ->","g in Groups","{}","\tall c: Class, s: Student | some g: Group | c -> s -> Person",,,,,,14.584833
+classroom-fol,completion/classroom-fol-complete.als,53,54,"all c: Class, s: Student | some g: Group | c -> s ->","g in Groups","{}","\tall c: Class, s: Student | some g: Group | c -> s -> Student",,,,,,14.584833
+classroom-fol,completion/classroom-fol-complete.als,53,54,"all c: Class, s: Student | some g: Group | c -> s ->","g in Groups","{}","\tall c: Class, s: Student | some g: Group | c -> s -> Teacher",,,,,,14.584833
+classroom-fol,completion/classroom-fol-complete.als,53,54,"all c: Class, s: Student | some g: Group | c -> s ->","g in Groups","{}","\tall c: Class, s: Student | some g: Group | c -> s -> Int",,,,,,14.584833
+classroom-fol,completion/classroom-fol-complete.als,53,54,"all c: Class, s: Student | some g: Group | c -> s ->","g in Groups","{}","\tall c: Class, s: Student | some g: Group | c -> s -> String",,,,,,14.584833
+classroom-fol,completion/classroom-fol-complete.als,53,54,"all c: Class, s: Student | some g: Group | c -> s ->","g in Groups","{}","\tall c: Class, s: Student | some g: Group | c -> s -> seq/Int",,,,,,14.584833
+classroom-fol,completion/classroom-fol-complete.als,53,54,"all c: Class, s: Student | some g: Group | c -> s ->","g in Groups","{}","\tall c: Class, s: Student | some g: Group | c -> s -> iden",,,,,,14.584833
+classroom-fol,completion/classroom-fol-complete.als,53,54,"all c: Class, s: Student | some g: Group | c -> s ->","g in Groups","{}","\tall c: Class, s: Student | some g: Group | c -> s -> none",,,,,,14.584833
+classroom-fol,completion/classroom-fol-complete.als,53,54,"all c: Class, s: Student | some g: Group | c -> s ->","g in Groups","{}","\tall c: Class, s: Student | some g: Group | c -> s -> univ",,,,,,14.584833

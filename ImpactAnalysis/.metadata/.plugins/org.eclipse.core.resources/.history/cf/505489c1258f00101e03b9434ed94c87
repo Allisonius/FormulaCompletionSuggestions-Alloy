@@ -1,0 +1,9 @@
+modelname,filename,position-line,position-character,incompleteline,removedtext,baseline,suggestionedExpression,A_iff_B,A_and_B,not_A_and_B,A_and_not_B,not_A_and_not_B,suggestionImpactTime
+classroom-fol,completion/classroom-fol-complete.als,33,14,"some Teacher.","Teaches","{}","\tsome Teacher.Teaches",true,true,false,true,false,15.785459
+classroom-fol,completion/classroom-fol-complete.als,33,14,"some Teacher.","Teaches","{}","\tsome Teacher.Tutors",true,true,false,true,false,15.785459
+classroom-fol,completion/classroom-fol-complete.als,33,14,"some Teacher.","Teaches","{}","\tsome Teacher.~Tutors",true,true,false,true,false,15.785459
+classroom-fol,completion/classroom-fol-complete.als,33,14,"some Teacher.","Teaches","{}","\tsome Teacher.^Tutors",true,true,false,true,false,15.785459
+classroom-fol,completion/classroom-fol-complete.als,33,14,"some Teacher.","Teaches","{}","\tsome Teacher.*Tutors",true,true,false,true,false,15.785459
+classroom-fol,completion/classroom-fol-complete.als,33,14,"some Teacher.","Teaches","{}","\tsome Teacher.iden",true,true,false,true,false,15.785459
+classroom-fol,completion/classroom-fol-complete.als,33,14,"some Teacher.","Teaches","{}","\tsome Teacher.none",,,,,,15.785459
+classroom-fol,completion/classroom-fol-complete.als,33,14,"some Teacher.","Teaches","{}","\tsome Teacher.univ",,,,,,15.785459

@@ -1,0 +1,132 @@
+Model name: singly-linked-list
+Filename: completion/singly-linked-list.als
+Offset: 123
+Term: .
+Vscode Position: line=11 character=7
+----------------------------------
+12 |   no l.
+----------------------------------
+Completion List:
+# Suggestion 	 Exact 	 Syntactic 	 Semantic
+$1. ((*link)-link) 	 false 	 undefined 	 undefined
+$2. ((^link)-link) 	 false 	 undefined 	 undefined
+$3. ((header.link)-header) 	 false 	 undefined 	 undefined
+$4. ((header.Node)-l) 	 false 	 undefined 	 undefined
+$5. ((header.Node).header) 	 false 	 undefined 	 undefined
+$6. ((header.univ)-l) 	 false 	 undefined 	 undefined
+$7. ((header.univ).header) 	 false 	 undefined 	 undefined
+$8. ((link.link)-link) 	 false 	 undefined 	 undefined
+$9. ((link.Node).link) 	 false 	 undefined 	 undefined
+$10. ((link.univ).link) 	 false 	 undefined 	 undefined
+$11. ((List-l).header) 	 false 	 undefined 	 undefined
+$12. ((~header).header) 	 false 	 undefined 	 undefined
+$13. ((~header).l) 	 false 	 undefined 	 undefined
+$14. ((~header).List) 	 false 	 undefined 	 undefined
+$15. ((~header).univ) 	 false 	 undefined 	 undefined
+$16. ((~link)-link) 	 false 	 undefined 	 undefined
+$17. ((~link).link) 	 false 	 undefined 	 undefined
+$18. ((~link).Node) 	 false 	 undefined 	 undefined
+$19. ((~link).univ) 	 false 	 undefined 	 undefined
+$20. (*(link.link)) 	 false 	 undefined 	 undefined
+$21. (*(~link)) 	 false 	 undefined 	 undefined
+$22. (*link) 	 false 	 undefined 	 undefined
+$23. (^(link.link)) 	 false 	 undefined 	 undefined
+$24. (^(~link)) 	 false 	 undefined 	 undefined
+$25. (^link) 	 false 	 undefined 	 undefined
+$26. (header&(header.link)) 	 false 	 undefined 	 undefined
+$27. (header+(header.link)) 	 false 	 undefined 	 undefined
+$28. (header-(header.link)) 	 false 	 undefined 	 undefined
+$29. (header.(*link)) 	 false 	 undefined 	 undefined
+$30. (header.(^link)) 	 false 	 undefined 	 undefined
+$31. (header.(l.header)) 	 false 	 undefined 	 undefined
+$32. (header.(link.link)) 	 false 	 undefined 	 undefined
+$33. (header.(link.Node)) 	 false 	 undefined 	 undefined
+$34. (header.(link.univ)) 	 false 	 undefined 	 undefined
+$35. (header.(List.header)) 	 false 	 undefined 	 undefined
+$36. (header.(Node.link)) 	 false 	 undefined 	 undefined
+$37. (header.(univ.header)) 	 false 	 undefined 	 undefined
+$38. (header.(univ.link)) 	 false 	 undefined 	 undefined
+$39. (header.(~header)) 	 false 	 undefined 	 undefined
+$40. (header.(~link)) 	 false 	 undefined 	 undefined
+$41. (header.link) 	 false 	 undefined 	 undefined
+$42. (header.Node) 	 false 	 undefined 	 undefined
+$43. (header.univ) 	 false 	 undefined 	 undefined
+$44. (l&(header.Node)) 	 false 	 undefined 	 undefined
+$45. (l&(header.univ)) 	 false 	 undefined 	 undefined
+$46. (l&(List-l)) 	 false 	 undefined 	 undefined
+$47. (l+(header.Node)) 	 false 	 undefined 	 undefined
+$48. (l+(header.univ)) 	 false 	 undefined 	 undefined
+$49. (l-(header.Node)) 	 false 	 undefined 	 undefined
+$50. (l-(header.univ)) 	 false 	 undefined 	 undefined
+$51. (l.(header.link)) 	 false 	 undefined 	 undefined
+$52. (l.header) 	 false 	 undefined 	 undefined
+$53. (link&(link.link)) 	 false 	 undefined 	 undefined
+$54. (link&(~link)) 	 false 	 undefined 	 undefined
+$55. (link+(link.link)) 	 false 	 undefined 	 undefined
+$56. (link+(~link)) 	 false 	 undefined 	 undefined
+$57. (link-(link.link)) 	 false 	 undefined 	 undefined
+$58. (link-(~link)) 	 false 	 undefined 	 undefined
+$59. (link.(^link)) 	 false 	 undefined 	 undefined
+$60. (link.(l.header)) 	 false 	 undefined 	 undefined
+$61. (link.(link.link)) 	 false 	 undefined 	 undefined
+$62. (link.(link.Node)) 	 false 	 undefined 	 undefined
+$63. (link.(link.univ)) 	 false 	 undefined 	 undefined
+$64. (link.(List.header)) 	 false 	 undefined 	 undefined
+$65. (link.(Node.link)) 	 false 	 undefined 	 undefined
+$66. (link.(univ.header)) 	 false 	 undefined 	 undefined
+$67. (link.(univ.link)) 	 false 	 undefined 	 undefined
+$68. (link.(~header)) 	 false 	 undefined 	 undefined
+$69. (link.(~link)) 	 false 	 undefined 	 undefined
+$70. (link.link) 	 false 	 undefined 	 undefined
+$71. (link.Node) 	 false 	 undefined 	 undefined
+$72. (link.univ) 	 false 	 undefined 	 undefined
+$73. (List-(header.Node)) 	 false 	 undefined 	 undefined
+$74. (List-(header.univ)) 	 false 	 undefined 	 undefined
+$75. (List-l) 	 false 	 undefined 	 undefined
+$76. (List.(header.link)) 	 false 	 undefined 	 undefined
+$77. (List.header) 	 false 	 undefined 	 undefined
+$78. (Node-(l.header)) 	 false 	 undefined 	 undefined
+$79. (Node-(link.Node)) 	 false 	 undefined 	 undefined
+$80. (Node-(link.univ)) 	 false 	 undefined 	 undefined
+$81. (Node-(List.header)) 	 false 	 undefined 	 undefined
+$82. (Node-(Node.link)) 	 false 	 undefined 	 undefined
+$83. (Node-(univ.header)) 	 false 	 undefined 	 undefined
+$84. (Node-(univ.link)) 	 false 	 undefined 	 undefined
+$85. (Node.(link.link)) 	 false 	 undefined 	 undefined
+$86. (Node.link) 	 false 	 undefined 	 undefined
+$87. (none->none) 	 false 	 undefined 	 undefined
+$88. (none->none->none) 	 false 	 undefined 	 undefined
+$89. (univ.(header.link)) 	 false 	 undefined 	 undefined
+$90. (univ.(link.link)) 	 false 	 undefined 	 undefined
+$91. (univ.header) 	 false 	 undefined 	 undefined
+$92. (univ.link) 	 false 	 undefined 	 undefined
+$93. (~(header.link)) 	 false 	 undefined 	 undefined
+$94. (~(link.link)) 	 false 	 undefined 	 undefined
+$95. (~header) 	 false 	 undefined 	 undefined
+$96. (~link) 	 false 	 undefined 	 undefined
+$97. header 	 true 	 undefined 	 undefined
+$98. Int 	 false 	 undefined 	 undefined
+$99. l 	 false 	 undefined 	 undefined
+$100. link 	 false 	 undefined 	 undefined
+$101. List 	 false 	 undefined 	 undefined
+$102. Node 	 false 	 undefined 	 undefined
+$103. none 	 false 	 undefined 	 undefined
+$104. String 	 false 	 undefined 	 undefined
+$105. univ 	 false 	 undefined 	 undefined
+Expected Completion word: header
+Expected Completion line: header or some n: l.header.*link | no n.link
+Suggestion exists: true
+
+Suggestion in top 1 = false 
+Suggestion in top 5 = false 
+Suggestion in top 10 = false 
+
+Suggestion in top 1 (Alpha) = false
+Suggestion in top 5 (Alpha) = false
+Suggestion in top 10 (Alpha) = false
+
+Suggestion in top 1 (Len) = false
+Suggestion in top 5 (Len) = false
+Suggestion in top 10 (Len) = true
+
+Time taken: 20.484708

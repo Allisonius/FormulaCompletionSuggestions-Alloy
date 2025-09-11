@@ -1,0 +1,11 @@
+hits: 4 (44.44444444444444)
+plus[(plus[(plus[(plus[(plus[(plus[(plus[(plus[(#((name.name) & name)), (#((name.name) & name))]), (#((name.name) & name))]), (#((name.name) & name))]), (#((name.name) & name))]), (#((name.name) & name))]), (#((name.name) & name))]), (#((name.name) & name))]), (#((name.name) & name))]
+
+hits: 2 (22.22222222222222)
+plus[(plus[(plus[(plus[(plus[(plus[(plus[(plus[(plus[(#((name.name) & name)), (#((name.name) & name))]), (#((name.name) & name))]), (#((name.name) & name))]), (#((name.name) & name))]), (#((name.name) & name))]), (#((name.name) & name))]), (#((name.name) & name))]), (#((name.name) & name))]), 1]
+plus[(plus[(plus[(plus[(plus[(plus[(plus[(plus[(#((name.name) & name)), (#((name.name) & name))]), (#((name.name) & name))]), (#((name.name) & name))]), (#((name.name) & name))]), (#((name.name) & name))]), (#((name.name) & name))]), (#((name.name) & name))]), fun_call[]]
+
+hits: 1 (11.11111111111111)
+plus[((minus[(name.name), 1]) * fun_call[]), (name.name)]
+
+

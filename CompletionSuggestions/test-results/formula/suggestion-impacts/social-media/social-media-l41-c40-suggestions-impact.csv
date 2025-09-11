@@ -1,0 +1,11 @@
+modelname,filename,position-line,position-character,incompleteline,removedtext,baseline,suggestionedExpression,A_iff_B,A_and_B,not_A_and_B,A_and_not_B,not_A_and_not_B,suggestionImpactTime
+social-media,completion/socialMedia.als,41,40,"all u : User | u.suggested = u.follows.","follows - u.follows - u","{}","\tall u : User | u.suggested = u.follows.follows",true,true,false,true,false,15.925208
+social-media,completion/socialMedia.als,41,40,"all u : User | u.suggested = u.follows.","follows - u.follows - u","{}","\tall u : User | u.suggested = u.follows.posts",true,true,false,true,false,15.925208
+social-media,completion/socialMedia.als,41,40,"all u : User | u.suggested = u.follows.","follows - u.follows - u","{}","\tall u : User | u.suggested = u.follows.sees",true,true,false,true,false,15.925208
+social-media,completion/socialMedia.als,41,40,"all u : User | u.suggested = u.follows.","follows - u.follows - u","{}","\tall u : User | u.suggested = u.follows.suggested",true,true,false,true,false,15.925208
+social-media,completion/socialMedia.als,41,40,"all u : User | u.suggested = u.follows.","follows - u.follows - u","{}","\tall u : User | u.suggested = u.follows.~follows",true,true,false,true,false,15.925208
+social-media,completion/socialMedia.als,41,40,"all u : User | u.suggested = u.follows.","follows - u.follows - u","{}","\tall u : User | u.suggested = u.follows.~suggested",true,true,false,true,false,15.925208
+social-media,completion/socialMedia.als,41,40,"all u : User | u.suggested = u.follows.","follows - u.follows - u","{}","\tall u : User | u.suggested = u.follows.^follows",true,true,false,true,false,15.925208
+social-media,completion/socialMedia.als,41,40,"all u : User | u.suggested = u.follows.","follows - u.follows - u","{}","\tall u : User | u.suggested = u.follows.^suggested",true,true,false,true,false,15.925208
+social-media,completion/socialMedia.als,41,40,"all u : User | u.suggested = u.follows.","follows - u.follows - u","{}","\tall u : User | u.suggested = u.follows.*follows",true,true,false,true,false,15.925208
+social-media,completion/socialMedia.als,41,40,"all u : User | u.suggested = u.follows.","follows - u.follows - u","{}","\tall u : User | u.suggested = u.follows.*suggested",true,true,false,true,false,15.925208

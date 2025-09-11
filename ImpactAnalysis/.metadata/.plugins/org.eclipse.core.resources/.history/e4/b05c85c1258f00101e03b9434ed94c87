@@ -1,0 +1,6 @@
+modelname,filename,position-line,position-character,incompleteline,removedtext,baseline,suggestionedExpression,A_iff_B,A_and_B,not_A_and_B,A_and_not_B,not_A_and_not_B,suggestionImpactTime
+class-diagram,completion/class-diagram-complete.als,19,17,"all c: Class -","Object | c in Object.^~ext","{}","  all c: Class - Class",,,,,,1.983375
+class-diagram,completion/class-diagram-complete.als,19,17,"all c: Class -","Object | c in Object.^~ext","{}","  all c: Class - Object",,,,,,1.983375
+class-diagram,completion/class-diagram-complete.als,19,17,"all c: Class -","Object | c in Object.^~ext","{}","  all c: Class - iden",,,,,,1.983375
+class-diagram,completion/class-diagram-complete.als,19,17,"all c: Class -","Object | c in Object.^~ext","{}","  all c: Class - none",,,,,,1.983375
+class-diagram,completion/class-diagram-complete.als,19,17,"all c: Class -","Object | c in Object.^~ext","{}","  all c: Class - univ",,,,,,1.983375

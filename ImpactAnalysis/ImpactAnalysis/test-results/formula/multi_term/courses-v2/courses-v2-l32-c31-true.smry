@@ -1,0 +1,58 @@
+Model name: courses-v2
+Filename: completion/courses-v2-complete.als
+Offset: 521
+Term: .
+Vscode Position: line=31 character=31
+----------------------------------
+32 | 	all c : Course | some teaches.
+----------------------------------
+Completion List:
+# Suggestion 	 Exact 	 Syntactic 	 Semantic
+$1. c 	 true 	 undefined 	 undefined
+$2. c.grades 	 false 	 undefined 	 undefined
+$3. c.projects 	 false 	 undefined 	 undefined
+$4. c.~enrolled 	 false 	 undefined 	 undefined
+$5. c.~teaches 	 false 	 undefined 	 undefined
+$6. Course 	 false 	 undefined 	 undefined
+$7. Course.grades 	 false 	 undefined 	 undefined
+$8. Course.projects 	 false 	 undefined 	 undefined
+$9. Course.~enrolled 	 false 	 undefined 	 undefined
+$10. Course.~teaches 	 false 	 undefined 	 undefined
+$11. grades.Grade 	 false 	 undefined 	 undefined
+$12. projects.Project 	 false 	 undefined 	 undefined
+$13. ~enrolled.Person 	 false 	 undefined 	 undefined
+$14. ~enrolled.Professor 	 false 	 undefined 	 undefined
+$15. ~enrolled.Student 	 false 	 undefined 	 undefined
+$16. grades 	 false 	 undefined 	 undefined
+$17. grades.univ 	 false 	 undefined 	 undefined
+$18. projects 	 false 	 undefined 	 undefined
+$19. projects.univ 	 false 	 undefined 	 undefined
+$20. univ.enrolled 	 false 	 undefined 	 undefined
+$21. univ.grades 	 false 	 undefined 	 undefined
+$22. univ.projects 	 false 	 undefined 	 undefined
+$23. univ.teaches 	 false 	 undefined 	 undefined
+$24. ~enrolled.projects 	 false 	 undefined 	 undefined
+$25. ~enrolled.teaches 	 false 	 undefined 	 undefined
+$26. univ.~enrolled 	 false 	 undefined 	 undefined
+$27. univ.~projects 	 false 	 undefined 	 undefined
+$28. univ.~teaches 	 false 	 undefined 	 undefined
+$29. ~enrolled 	 false 	 undefined 	 undefined
+$30. ~enrolled.univ 	 false 	 undefined 	 undefined
+$31. univ 	 false 	 undefined 	 undefined
+Expected Completion word: c
+Expected Completion line: c
+Suggestion exists: true
+
+Suggestion in top 1 = true 
+Suggestion in top 5 = true 
+Suggestion in top 10 = true 
+
+Suggestion in top 1 (Alpha) = false
+Suggestion in top 5 (Alpha) = false
+Suggestion in top 10 (Alpha) = true
+
+Suggestion in top 1 (Len) = true
+Suggestion in top 5 (Len) = true
+Suggestion in top 10 (Len) = true
+
+Time taken: 19.639584

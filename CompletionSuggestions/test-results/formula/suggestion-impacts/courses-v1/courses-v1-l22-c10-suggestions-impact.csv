@@ -1,0 +1,8 @@
+modelname,filename,position-line,position-character,incompleteline,removedtext,baseline,suggestionedExpression,A_iff_B,A_and_B,not_A_and_B,A_and_not_B,not_A_and_not_B,suggestionImpactTime
+courses-v1,completion/courses-v1-complete.als,22,10,"enrolled.","Course in Student","{}","\tenrolled.Course",,,,,,11.979667
+courses-v1,completion/courses-v1-complete.als,22,10,"enrolled.","Course in Student","{}","\tenrolled.grades",,,,,,11.979667
+courses-v1,completion/courses-v1-complete.als,22,10,"enrolled.","Course in Student","{}","\tenrolled.projects",,,,,,11.979667
+courses-v1,completion/courses-v1-complete.als,22,10,"enrolled.","Course in Student","{}","\tenrolled.~teaches",,,,,,11.979667
+courses-v1,completion/courses-v1-complete.als,22,10,"enrolled.","Course in Student","{}","\tenrolled.iden",,,,,,11.979667
+courses-v1,completion/courses-v1-complete.als,22,10,"enrolled.","Course in Student","{}","\tenrolled.none",,,,,,11.979667
+courses-v1,completion/courses-v1-complete.als,22,10,"enrolled.","Course in Student","{}","\tenrolled.univ",,,,,,11.979667

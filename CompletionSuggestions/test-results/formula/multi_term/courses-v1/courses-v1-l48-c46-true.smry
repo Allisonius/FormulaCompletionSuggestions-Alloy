@@ -1,0 +1,46 @@
+Model name: courses-v1
+Filename: completion/courses-v1-complete.als
+Offset: 953
+Term:  in 
+Vscode Position: line=47 character=46
+----------------------------------
+48 | 	all s1: Person | all p1: Project | s1->p1 in 
+----------------------------------
+Completion List:
+# Suggestion 	 Exact 	 Syntactic 	 Semantic
+$1. enrolled.Course.grades 	 false 	 undefined 	 undefined
+$2. teaches.Course.grades 	 false 	 undefined 	 undefined
+$3. ~projects.Course.grades 	 false 	 undefined 	 undefined
+$4. Person -> Project 	 false 	 undefined 	 undefined
+$5. Professor -> Project 	 false 	 undefined 	 undefined
+$6. Student -> Project 	 false 	 undefined 	 undefined
+$7. enrolled.projects 	 false 	 undefined 	 undefined
+$8. enrolled.univ.grades 	 false 	 undefined 	 undefined
+$9. enrolled.~teaches.projects 	 false 	 undefined 	 undefined
+$10. grades.univ.projects 	 false 	 undefined 	 undefined
+$11. grades.univ.~enrolled 	 false 	 undefined 	 undefined
+$12. grades.univ.~projects 	 false 	 undefined 	 undefined
+$13. grades.univ.~teaches 	 false 	 undefined 	 undefined
+$14. projects 	 true 	 undefined 	 undefined
+$15. projects.univ.grades 	 false 	 undefined 	 undefined
+$16. teaches.projects 	 false 	 undefined 	 undefined
+$17. teaches.univ.grades 	 false 	 undefined 	 undefined
+$18. teaches.~enrolled.projects 	 false 	 undefined 	 undefined
+$19. ~projects.univ.grades 	 false 	 undefined 	 undefined
+Expected Completion word: projects
+Expected Completion line: projects implies (some c1: Course | c1->p1 in projects and s1->c1 in enrolled)
+Suggestion exists: true
+
+Suggestion in top 1 = false 
+Suggestion in top 5 = false 
+Suggestion in top 10 = false 
+
+Suggestion in top 1 (Alpha) = false
+Suggestion in top 5 (Alpha) = false
+Suggestion in top 10 (Alpha) = false
+
+Suggestion in top 1 (Len) = true
+Suggestion in top 5 (Len) = true
+Suggestion in top 10 (Len) = true
+
+Time taken: 42.10475

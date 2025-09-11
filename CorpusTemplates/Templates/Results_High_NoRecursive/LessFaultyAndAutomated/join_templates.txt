@@ -1,0 +1,429 @@
+hits: 24465 (71.78275922774485)
+name.name
+
+hits: 4828 (14.165835338301743)
+(name.name).name
+
+hits: 1485 (4.35713866557127)
+name.(name.name)
+
+hits: 500 (1.467050055747902)
+((name.name).name).name
+
+hits: 209 (0.6132269233026231)
+(name.name).(name.name)
+
+hits: 153 (0.44891731705885807)
+name.fun_call[]
+
+hits: 150 (0.44011501672437064)
+name.(ordering/next[])
+
+hits: 147 (0.4313127163898832)
+name.(~name)
+
+hits: 146 (0.42837861627838747)
+name.((name.name).name)
+
+hits: 141 (0.41370811572090843)
+name.(^name)
+
+hits: 138 (0.404905815386421)
+fun_call[].name
+
+hits: 133 (0.39023531482894197)
+(name.(name.name)).name
+
+hits: 105 (0.3080805117070594)
+(((name.name).name).name).name
+
+hits: 63 (0.18484830702423566)
+name.(name.(name.name))
+
+hits: 56 (0.16430960624376503)
+name.(~(name.name))
+
+hits: 54 (0.15844140602077345)
+name.(fun_call[].name)
+(name <: name).name
+
+hits: 42 (0.12323220468282378)
+(ordering/last[]).name
+
+hits: 38 (0.11149580423684055)
+name.(*name)
+
+hits: 37 (0.10856170412534476)
+(name.fun_call[]).name
+(name.name).fun_call[]
+
+hits: 36 (0.10562760401384896)
+name.(^(name.name))
+
+hits: 29 (0.08508890323337832)
+(name.name).(name.(time/ordering/next[]))
+
+hits: 28 (0.08215480312188252)
+name.((name.(name.name)).name)
+
+hits: 25 (0.07335250278739511)
+(name.(~name)).name
+
+hits: 22 (0.0645502024529077)
+(name.(name.name)).(name.name)
+
+hits: 21 (0.06161610234141189)
+name.(name + name)
+
+hits: 19 (0.055747902118420276)
+(name.name).(^name)
+
+hits: 18 (0.05281380200692448)
+(name.name).(*name)
+((name.(name.name)).name).name
+(~((name.name).name)).name
+
+hits: 17 (0.049879701895428674)
+fun_call[].fun_call[]
+
+hits: 16 (0.04694560178393287)
+((((name.(~name)) & (name.(~name))) & (name.(~name))) & (name.(~name))).name
+(name.name).(~(name.name))
+
+hits: 15 (0.04401150167243706)
+(ordering/first[]).name
+(name.(ordering/next[])).name
+(name.name).(*(name.name))
+
+hits: 14 (0.04107740156094126)
+(name.name).(name.(name.name))
+fun_call[].(name.name)
+
+hits: 13 (0.03814330144944546)
+name.(*(name + (~name)))
+name.(^fun_call[])
+(name.name).(ordering/last[])
+
+hits: 12 (0.03520920133794965)
+((((name.name).name).name).name).name
+(((name.name).name).(name.name)).name
+(~(name.name)).name
+0.((name.(name.name)).name)
+((name.(ordering/prev[])).name).name
+
+hits: 11 (0.03227510122645385)
+((name.name).name).(*(declarations/ordering/next[]))
+name.(name.((name.(name.name)).name))
+(~name).name
+
+hits: 10 (0.02934100111495804)
+((name.(ordering/next[])).name).name
+(name.((ordering/first[]).name)).name
+name.(name.fun_call[])
+name.(((name.(name.name)).(name.name)).name)
+((name.fun_call[]).fun_call[]).name
+(name.name).(*(ordering/next[]))
+
+hits: 9 (0.02640690100346224)
+name.(*(name.name))
+((name.name).(ordering/next[])).(*(ordering/next[]))
+(name - name).(name.name)
+0.name
+((name + name).name).name
+0.(name.name)
+((name.name).name).(*(ordering/next[]))
+
+hits: 8 (0.023472800891966433)
+(name.name).((name.name).name)
+name.(*(ordering/next[]))
+((name.name).name).(name.name)
+(name.name).(ordering/first[])
+
+hits: 7 (0.02053870078047063)
+(name.name).(name.fun_call[])
+name.(^(name + name))
+(name.(ordering/next[])).(*(ordering/next[]))
+(name.name).(~name)
+
+hits: 6 (0.017604600668974825)
+name.(*fun_call[])
+(name.((ordering/last[]).name)).name
+(name.(name + name)).name
+(name.(name.name)).(name + name)
+(name & name).(*(name <: name))
+name.(name.({ name: (one ({ name: (one name) {
+((0 <= name) && (name <= 1))
+} })),name: (one ({ name: (one name) {
+((0 <= name) && (name <= 1))
+} })),name: (one (((name.(name.({ name: (one ({ name: (one name) {
+((0 <= name) && (name <= 1))
+} })),name: (one ({ name: (one name) {
+((0 <= name) && (name <= 1))
+} })),name: (one fun_call[]) {
+
+} }))).({ name: (one ({ name: (one name) {
+((0 <= name) && (name <= 1))
+} })),name: (one fun_call[]) {
+
+} })).((name.(name.({ name: (one ({ name: (one name) {
+((0 <= name) && (name <= 1))
+} })),name: (one ({ name: (one name) {
+((0 <= name) && (name <= 1))
+} })),name: (one (name + name)) {
+
+} }))).({ name: (one ({ name: (one name) {
+((0 <= name) && (name <= 1))
+} })),name: (one ({ name: (one name) {
+((0 <= name) && (name <= 1))
+} })),name: (one fun_call[]) {
+
+} })))) {
+
+} }))
+(name.name).(name.((name.name).name))
+(name.(name.(name.name))).name
+name.(name.((name.name).name))
+
+hits: 5 (0.01467050055747902)
+name.(~(name + name))
+(name + name).name
+(name.(name.name)).fun_call[]
+(name.name).(^(name.name))
+name.((name.name).(name.name))
+((name.name) & name).name
+((name.name) <: name).name
+(fun_call[].name).name
+name.(name & name)
+((ordering/first[]).(ordering/next[])).name
+
+hits: 4 (0.011736400445983217)
+name.((name + name) + name)
+((name.name).name).(name.(time/ordering/next[]))
+name.((name.(name.(name.name))).(name.name))
+(((name.fun_call[]).fun_call[]).fun_call[]).name
+(name.(name.((name.name).name))).(name.name)
+(ordering/last[]).((name + name) + name)
+(name.name).((name.name).(KeyDistribution/Auth/ordering/first[]))
+(name.((name.name).name)).fun_call[]
+(name.(name.name)).((name.(name.name)).((name.name).name))
+(name.(name.(name.name))).(name.(name.name))
+(name.(name + name)).(name.name)
+1.(name.name)
+(name.fun_call[]).(name.name)
+(name->name).name
+(0.(name.name)).name
+
+hits: 3 (0.008802300334487412)
+((name.(^name)).name).name
+name.(((name.name).name).((name.name).name))
+(ordering/first[]).((name + name) + name)
+name.((name.name).fun_call[])
+((name.name).name).(declarations/ordering/next[])
+name.((name.(name.name)).(name.name))
+(((name.name).name) & (name.name)).name
+1.name
+3.name
+(name.name).(KeyDistribution/Auth/ordering/next[])
+2.name
+((name.name).name).((name.name).name)
+((name.(name.name)).(name.name)).name
+(name.name).((name.name).(name.name))
+(((name.name).name).name).(name.name)
+(name.((name.name).name)).name
+(name.name).(date/ordering/next[])
+(name.(fun_call[].name)).(fun_call[].name)
+fun_call[].(((fun_call[].(name.name)).name).name)
+(name - name).name
+name.(((name.name).name).name)
+((ordering/first[]).name).name
+((ordering/last[]).name).name
+((name - ((name.name).name)).(name.name)).name
+0.(name.((0.(name.name)).name))
+(name.(name.name)).(name.(name.name))
+name.((name.name).(ordering/first[]))
+
+hits: 2 (0.005868200222991608)
+(name.((name.name).(name.name))).(name.name)
+(((name.name) & (name.name)).name).fun_call[]
+((name.name).name).(ordering/first[])
+(name.(((name.name).name).name)).name
+name.(((name & (name->name)).name) <: name)
+(name.(name.name)).((*(name.name)) :> ({ name: (one name) {
+(no (name.(name.name)))
+} }))
+((name.name).name).fun_call[]
+(((name.name).name).name).(name + name)
+(name.(^name)).name
+0.((ordering/first[]).name)
+fun_call[].(name.((name.(name.name)).name))
+((name.name) & (name.name)).name
+(~(^fun_call[])).(~name)
+(name.(name.name)).((name.(name.name)).name)
+(^name).name
+name.(name.(name + name))
+(~(name.name)).(name.name)
+1.(name.((name.(name.name)).name))
+((name - name).name).(name.name)
+name.(name.({ name: (one (0 + 1)),name: (one (0 + 1)),name: (one (((name.(name.({ name: (one (0 + 1)),name: (one (0 + 1)),name: (one fun_call[]) {
+
+} }))).({ name: (one (0 + 1)),name: (one fun_call[]) {
+
+} })).((name.(name.({ name: (one (0 + 1)),name: (one (0 + 1)),name: (one (name + name)) {
+
+} }))).({ name: (one (0 + 1)),name: (one (0 + 1)),name: (one fun_call[]) {
+
+} })))) {
+
+} }))
+(name.(name.({ name: (one ({ name: (one name) {
+((0 <= name) && (name <= 1))
+} })),name: (one ({ name: (one name) {
+((0 <= name) && (name <= 1))
+} })),name: (one fun_call[]) {
+
+} }))).((name.(name.({ name: (one ({ name: (one name) {
+((0 <= name) && (name <= 1))
+} })),name: (one ({ name: (one name) {
+((0 <= name) && (name <= 1))
+} })),name: (one fun_call[]) {
+
+} }))).({ name: (one ({ name: (one name) {
+((0 <= name) && (name <= 1))
+} })),name: (one ({ name: (one name) {
+((0 <= name) && (name <= 1))
+} })),name: (one (name + name)) {
+
+} }))
+((name.name).(*(~name))).name
+(((ordering/last[]).(ordering/prev[])).name).name
+name.(name.({ name: (one ({ name: (one name) {
+((0 <= name) && (name <= 1))
+} })),name: (one ({ name: (one name) {
+((0 <= name) && (name <= 1))
+} })),name: (one fun_call[]) {
+
+} }))
+name.((name + name) & (name + name))
+name.(^(name + (~name)))
+(name.(name <: (((name.(name.name)).name).name))).name
+(name.(*name)).name
+(^(~fun_call[])).(~name)
+(name.name).(KeyDistribution/Auth/ordering/first[])
+((name.name) + (name->name)).(~(name.name))
+(name.name).(0.name)
+(name.((name + name) + name)).name
+(name - iden).name
+(name.name).(TrafficLight/ordering/next[])
+fun_call[].(ordering/next[])
+1.((ordering/first[]).name)
+3.(name.name)
+2.(name.name)
+4.(name.name)
+name.(Time/ordering/prev[])
+(((name.(name.name)).name).name).(name.name)
+((name.(ordering/next[])).(ordering/next[])).name
+(name.name).((name.(name.(name.name))).(name.name))
+(name.name).(5.name)
+(fun_call[].name).fun_call[]
+(((name.(ordering/next[])).(ordering/next[])).name).name
+
+hits: 1 (0.002934100111495804)
+(name.name).(name.(name + name))
+((name.fun_call[]).name).name
+((name.name).fun_call[]).((name.name).fun_call[])
+name.((ordering/first[]).name)
+name.(Channel/ordering/next[])
+name.(*((name - (name->name)) - (name->name)))
+((name.(name.name)).(*((name.name).(name.name)))).(name.name)
+((name.name).(name.(name.name))).(name.name)
+(name.(((((name + name) + name) + name) + name) + name)).name
+(name.name).(^(ordering/next[]))
+name.(^(name - (name->name)))
+(name.(~(name.name))).(*((~(name.name)).(~(name.name))))
+(name.name).((name.name).(name.(name.name)))
+((((~fun_call[]).fun_call[]).fun_call[]).fun_call[]).(~fun_call[])
+(#name).name
+((fun_call[].name).(name.(fun_call[].name))).(fun_call[].name)
+(name.(*((name.name).(name.name)))).(name.name)
+((((name.name).name).(name.name)).name).name
+name.(*(~(name.name)))
+name.(*(name.(name.name)))
+((fun_call[] - 1).((name.name).name)).name
+name.(name - name)
+(fun_call[].name).((fun_call[].name).name)
+0.((name.name).name)
+name.(((((ordering/first[]).(ordering/next[])).(ordering/next[])).(ordering/next[])).name)
+((name.name).name).(*name)
+(KRUSKAL/ordering/last[]).name
+(name.name).((name.fun_call[]).fun_call[])
+fun_call[].(*(name.(name.name)))
+(name.(name.fun_call[])).name
+(((name.name).name).name).(((name.name).name).name)
+(((ordering/first[]).(ordering/next[])).(ordering/next[])).name
+(name.(~name)).(^name)
+name.(fun_call[].(name.name))
+fun_call[].((name.name).name)
+(name.name).(name.(ordering/prev[]))
+(fun_call[].name).(name.(fun_call[].name))
+((fun_call[] + name) - name).name
+((name.name).(KeyDistribution/Auth/ordering/next[])).(KeyDistribution/Auth/ordering/next[])
+(*name).name
+(name.name).(((name + name).name).(KeyDistribution/Auth/ordering/first[]))
+((name.name).name).(~name)
+((name.name).fun_call[]).fun_call[]
+((name.fun_call[]).name).fun_call[]
+((name.(fun_call[].name)).fun_call[]).fun_call[]
+(fun_call[] - fun_call[]).name
+(fun_call[].fun_call[]).(~fun_call[])
+((fun_call[].name).name).(fun_call[].name)
+name.(^(((name.name) <: name).(~((name.name) <: name))))
+((name.((name.name).name)).name).name
+name.((ordering/last[]).name)
+1.((name.(name.name)).name)
+name.(^((name - (name->name)) - (name->name)))
+(name.(name.({ name: (one (0 + 1)),name: (one (0 + 1)),name: (one fun_call[]) {
+
+} }))).((name.(name.({ name: (one (0 + 1)),name: (one (0 + 1)),name: (one fun_call[]) {
+
+} }))).({ name: (one (0 + 1)),name: (one (0 + 1)),name: (one (name + name)) {
+
+} }))
+(PRIM/ordering/first[]).name
+(^(name.name)).name
+name.(name + (~name))
+((fun_call[].(name.name)).name).name
+name.((ordering/prev[]) + (ordering/next[]))
+((((name.name).name) + ((name.name).name)).name).name
+((name.name).(*name)).name
+(name.name).(name.(ordering/next[]))
+4.name
+(fun_call[].fun_call[]).name
+(name.name).(*(name + name))
+name.((fun_call[].name).name)
+5.(name.name)
+(name.(~name)).(~name)
+5.name
+(KRUSKAL/ordering/first[]).name
+name.((name.fun_call[]).(name.name))
+(fun_call[].name).((fun_call[].name).(name.(fun_call[].name)))
+(name.(ordering/next[])).(ordering/next[])
+(*(((name.name) - (name.name)) + (name.name))).(name.name)
+(((((iden + (name.name)).(iden + (name.name))).(iden + (name.name))).(iden + (name.name))).(iden + (name.name))).(iden + (name.name))
+2.((name.(name.name)).name)
+(name.name).(*(ordering/prev[]))
+(name.name).(name + name)
+name.(((name + name) + name) + name)
+name.((name.name) + name)
+((name.name).(name.name)).(name.name)
+(name.name).((name.name).fun_call[])
+((fun_call[] + 1).((name.name).name)).name
+(KeyDistribution/Auth/ordering/first[]).(KeyDistribution/Auth/ordering/next[])
+(((fun_call[].(name.name)).name).name).name
+((((ordering/first[]).(ordering/next[])).(ordering/next[])).(ordering/next[])).name
+(name.(name.(KeyDistribution/Auth/ordering/first[]))).name
+name.(name.(name.(name.name)))
+name.(*((name.name) - (name->name)))
+(PRIM/ordering/last[]).name
+((name.name).(name.name)).name
+
+

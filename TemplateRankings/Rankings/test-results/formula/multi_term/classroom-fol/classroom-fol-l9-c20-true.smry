@@ -1,0 +1,36 @@
+Model name: classroom-fol
+Filename: completion/classroom-fol-sig.als
+Offset: 107
+Term:  -> 
+Vscode Position: line=8 character=20
+----------------------------------
+9 | 	Groups : Person -> 
+----------------------------------
+Completion List:
+# Suggestion 	 Exact 	 Syntactic 	 Semantic
+$1. Class 	 false 	 false 	 false
+$2. Group 	 true 	 true 	 true
+$3. Person 	 false 	 false 	 false
+$4. Student 	 false 	 false 	 false
+$5. Teacher 	 false 	 false 	 false
+$6. Int 	 false 	 false 	 false
+$7. String 	 false 	 false 	 false
+$8. none 	 false 	 false 	 false
+$9. univ 	 false 	 false 	 false
+Expected Completion word: Group
+Expected Completion line: Group
+Suggestion exists: true
+
+Suggestion in top 1 = false 
+Suggestion in top 5 = true 
+Suggestion in top 10 = true 
+
+Suggestion in top 1 (Alpha) = false
+Suggestion in top 5 (Alpha) = true
+Suggestion in top 10 (Alpha) = true
+
+Suggestion in top 1 (Len) = false
+Suggestion in top 5 (Len) = true
+Suggestion in top 10 (Len) = true
+
+Time taken: 16.457417

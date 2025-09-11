@@ -1,0 +1,8 @@
+modelname,filename,position-line,position-character,incompleteline,removedtext,baseline,suggestionedExpression,A_iff_B,A_and_B,not_A_and_B,A_and_not_B,not_A_and_not_B,suggestionImpactTime
+classroom,completion/classroom-complete.als,57,61,"all c:Class | some c.Groups implies some Teacher & Teaches.","c","{}","  all c:Class | some c.Groups implies some Teacher & Teaches.c",true,true,false,true,false,17.228125
+classroom,completion/classroom-complete.als,57,61,"all c:Class | some c.Groups implies some Teacher & Teaches.","c","{}","  all c:Class | some c.Groups implies some Teacher & Teaches.Class",true,true,false,true,false,17.228125
+classroom,completion/classroom-complete.als,57,61,"all c:Class | some c.Groups implies some Teacher & Teaches.","c","{}","  all c:Class | some c.Groups implies some Teacher & Teaches.Groups",,,,,,17.228125
+classroom,completion/classroom-complete.als,57,61,"all c:Class | some c.Groups implies some Teacher & Teaches.","c","{}","  all c:Class | some c.Groups implies some Teacher & Teaches.*Tutors",,,,,,17.228125
+classroom,completion/classroom-complete.als,57,61,"all c:Class | some c.Groups implies some Teacher & Teaches.","c","{}","  all c:Class | some c.Groups implies some Teacher & Teaches.iden",,,,,,17.228125
+classroom,completion/classroom-complete.als,57,61,"all c:Class | some c.Groups implies some Teacher & Teaches.","c","{}","  all c:Class | some c.Groups implies some Teacher & Teaches.none",true,true,false,true,false,17.228125
+classroom,completion/classroom-complete.als,57,61,"all c:Class | some c.Groups implies some Teacher & Teaches.","c","{}","  all c:Class | some c.Groups implies some Teacher & Teaches.univ",true,true,false,true,false,17.228125

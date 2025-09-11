@@ -1,0 +1,9 @@
+modelname,filename,position-line,position-character,incompleteline,removedtext,baseline,suggestionedExpression,A_iff_B,A_and_B,not_A_and_B,A_and_not_B,not_A_and_not_B,suggestionImpactTime
+courses-v2,completion/courses-v2-complete.als,73,45,"all c : Course | c.grades.Grade in enrolled.","c","{}","\tall c : Course | c.grades.Grade in enrolled.c",true,true,false,true,false,27.858333
+courses-v2,completion/courses-v2-complete.als,73,45,"all c : Course | c.grades.Grade in enrolled.","c","{}","\tall c : Course | c.grades.Grade in enrolled.Course",true,true,false,true,false,27.858333
+courses-v2,completion/courses-v2-complete.als,73,45,"all c : Course | c.grades.Grade in enrolled.","c","{}","\tall c : Course | c.grades.Grade in enrolled.grades",,,,,,27.858333
+courses-v2,completion/courses-v2-complete.als,73,45,"all c : Course | c.grades.Grade in enrolled.","c","{}","\tall c : Course | c.grades.Grade in enrolled.projects",,,,,,27.858333
+courses-v2,completion/courses-v2-complete.als,73,45,"all c : Course | c.grades.Grade in enrolled.","c","{}","\tall c : Course | c.grades.Grade in enrolled.~teaches",,,,,,27.858333
+courses-v2,completion/courses-v2-complete.als,73,45,"all c : Course | c.grades.Grade in enrolled.","c","{}","\tall c : Course | c.grades.Grade in enrolled.iden",,,,,,27.858333
+courses-v2,completion/courses-v2-complete.als,73,45,"all c : Course | c.grades.Grade in enrolled.","c","{}","\tall c : Course | c.grades.Grade in enrolled.none",true,true,false,true,false,27.858333
+courses-v2,completion/courses-v2-complete.als,73,45,"all c : Course | c.grades.Grade in enrolled.","c","{}","\tall c : Course | c.grades.Grade in enrolled.univ",true,true,false,true,false,27.858333

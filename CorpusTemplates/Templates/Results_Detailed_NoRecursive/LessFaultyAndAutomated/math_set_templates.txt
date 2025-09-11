@@ -1,0 +1,10 @@
+hits: 2 (22.22222222222222)
+plus[(plus[(plus[(plus[(plus[(plus[(plus[(plus[(#((var.rel) & var)), (#((var.rel) & var))]), (#((var.rel) & var))]), (#((var.rel) & var))]), (#((var.rel) & var))]), (#((var.rel) & var))]), (#((var.rel) & var))]), (#((var.rel) & var))]), (#((var.rel) & var))]
+plus[(plus[(plus[(plus[(plus[(plus[(plus[(plus[(#((var.rel) & sig)), (#((var.rel) & sig))]), (#((var.rel) & sig))]), (#((var.rel) & sig))]), (#((var.rel) & sig))]), (#((var.rel) & sig))]), (#((var.rel) & sig))]), (#((var.rel) & sig))]), fun_call[]]
+plus[(plus[(plus[(plus[(plus[(plus[(plus[(plus[(plus[(#((var.rel) & var)), (#((var.rel) & var))]), (#((var.rel) & var))]), (#((var.rel) & var))]), (#((var.rel) & var))]), (#((var.rel) & var))]), (#((var.rel) & var))]), (#((var.rel) & var))]), (#((var.rel) & var))]), 1]
+plus[(plus[(plus[(plus[(plus[(plus[(plus[(plus[(#((var.rel) & sig)), (#((var.rel) & sig))]), (#((var.rel) & sig))]), (#((var.rel) & sig))]), (#((var.rel) & sig))]), (#((var.rel) & sig))]), (#((var.rel) & sig))]), (#((var.rel) & sig))]), (#((var.rel) & sig))]
+
+hits: 1 (11.11111111111111)
+plus[((minus[(var.rel), 1]) * fun_call[]), (var.rel)]
+
+

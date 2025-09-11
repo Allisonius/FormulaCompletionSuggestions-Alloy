@@ -1,0 +1,21 @@
+hits: 8 (11.76470588235294)
+plus[(#((name.name) & name)), (#((name.name) & name))]
+plus[(plus[(plus[(plus[(plus[(plus[(#((name.name) & name)), (#((name.name) & name))]), (#((name.name) & name))]), (#((name.name) & name))]), (#((name.name) & name))]), (#((name.name) & name))]), (#((name.name) & name))]
+plus[(plus[(plus[(plus[(plus[(#((name.name) & name)), (#((name.name) & name))]), (#((name.name) & name))]), (#((name.name) & name))]), (#((name.name) & name))]), (#((name.name) & name))]
+plus[(plus[(plus[(#((name.name) & name)), (#((name.name) & name))]), (#((name.name) & name))]), (#((name.name) & name))]
+plus[(plus[(plus[(plus[(#((name.name) & name)), (#((name.name) & name))]), (#((name.name) & name))]), (#((name.name) & name))]), (#((name.name) & name))]
+plus[(plus[(plus[(plus[(plus[(plus[(plus[(#((name.name) & name)), (#((name.name) & name))]), (#((name.name) & name))]), (#((name.name) & name))]), (#((name.name) & name))]), (#((name.name) & name))]), (#((name.name) & name))]), (#((name.name) & name))]
+plus[(plus[(#((name.name) & name)), (#((name.name) & name))]), (#((name.name) & name))]
+
+hits: 6 (8.823529411764707)
+plus[(plus[(plus[(plus[(plus[(plus[(plus[(plus[(#((name.name) & name)), (#((name.name) & name))]), (#((name.name) & name))]), (#((name.name) & name))]), (#((name.name) & name))]), (#((name.name) & name))]), (#((name.name) & name))]), (#((name.name) & name))]), (#((name.name) & name))]
+
+hits: 2 (2.941176470588235)
+plus[(plus[(plus[(plus[(plus[(plus[(plus[(plus[(plus[(#((name.name) & name)), (#((name.name) & name))]), (#((name.name) & name))]), (#((name.name) & name))]), (#((name.name) & name))]), (#((name.name) & name))]), (#((name.name) & name))]), (#((name.name) & name))]), (#((name.name) & name))]), 1]
+plus[(plus[(plus[(plus[(plus[(plus[(plus[(plus[(#((name.name) & name)), (#((name.name) & name))]), (#((name.name) & name))]), (#((name.name) & name))]), (#((name.name) & name))]), (#((name.name) & name))]), (#((name.name) & name))]), (#((name.name) & name))]), fun_call[]]
+
+hits: 1 (1.4705882352941175)
+minus[(name.name), 1]
+plus[((minus[(name.name), 1]) * fun_call[]), (name.name)]
+
+

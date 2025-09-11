@@ -1,0 +1,35 @@
+Model name: nqueens
+Filename: completion/nqueens.als
+Offset: 208
+Term: .
+Vscode Position: line=16 character=7
+----------------------------------
+17 |     q1.
+----------------------------------
+Completion List:
+# Suggestion 	 Exact 	 Syntactic 	 Semantic
+$1. col 	 false 	 undefined 	 undefined
+$2. col.Int 	 false 	 undefined 	 undefined
+$3. col.univ 	 false 	 undefined 	 undefined
+$4. col.~row 	 false 	 undefined 	 undefined
+$5. row 	 true 	 undefined 	 undefined
+$6. row.Int 	 false 	 undefined 	 undefined
+$7. row.univ 	 false 	 undefined 	 undefined
+$8. row.~col 	 false 	 undefined 	 undefined
+Expected Completion word: row
+Expected Completion line: row != q2.row
+Suggestion exists: true
+
+Suggestion in top 1 = false 
+Suggestion in top 5 = true 
+Suggestion in top 10 = true 
+
+Suggestion in top 1 (Alpha) = false
+Suggestion in top 5 (Alpha) = true
+Suggestion in top 10 (Alpha) = true
+
+Suggestion in top 1 (Len) = false
+Suggestion in top 5 (Len) = true
+Suggestion in top 10 (Len) = true
+
+Time taken: 9.672625

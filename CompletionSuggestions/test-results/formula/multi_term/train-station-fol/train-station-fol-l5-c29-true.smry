@@ -1,0 +1,35 @@
+Model name: train-station-fol
+Filename: completion/train-station-fol-sig.als
+Offset: 85
+Term:  in 
+Vscode Position: line=4 character=29
+----------------------------------
+5 | sig Junction, Entry, Exit in 
+----------------------------------
+Completion List:
+# Suggestion 	 Exact 	 Syntactic 	 Semantic
+$1. Semaphore 	 false 	 false 	 false
+$2. Signal 	 false 	 false 	 false
+$3. Speed 	 false 	 false 	 false
+$4. Track 	 true 	 true 	 true
+$5. Int 	 false 	 false 	 false
+$6. String 	 false 	 false 	 false
+$7. none 	 false 	 false 	 false
+$8. univ 	 false 	 false 	 false
+Expected Completion word: Track
+Expected Completion line: Track {}
+Suggestion exists: true
+
+Suggestion in top 1 = false 
+Suggestion in top 5 = true 
+Suggestion in top 10 = true 
+
+Suggestion in top 1 (Alpha) = false
+Suggestion in top 5 (Alpha) = false
+Suggestion in top 10 (Alpha) = true
+
+Suggestion in top 1 (Len) = false
+Suggestion in top 5 (Len) = true
+Suggestion in top 10 (Len) = true
+
+Time taken: 11.688958

@@ -1,0 +1,10 @@
+modelname,filename,position-line,position-character,incompleteline,removedtext,baseline,suggestionedExpression,A_iff_B,A_and_B,not_A_and_B,A_and_not_B,not_A_and_not_B,suggestionImpactTime
+fsm,completion/fsm.als,34,16,"no (FSM.stop).","transition","{}","  no (FSM.stop).transition",true,true,false,true,false,25.024958
+fsm,completion/fsm.als,34,16,"no (FSM.stop).","transition","{}","  no (FSM.stop).~start",true,true,false,false,false,25.024958
+fsm,completion/fsm.als,34,16,"no (FSM.stop).","transition","{}","  no (FSM.stop).~stop",false,false,false,true,false,25.024958
+fsm,completion/fsm.als,34,16,"no (FSM.stop).","transition","{}","  no (FSM.stop).~transition",false,false,false,true,false,25.024958
+fsm,completion/fsm.als,34,16,"no (FSM.stop).","transition","{}","  no (FSM.stop).^transition",true,true,false,true,false,25.024958
+fsm,completion/fsm.als,34,16,"no (FSM.stop).","transition","{}","  no (FSM.stop).*transition",false,false,false,true,false,25.024958
+fsm,completion/fsm.als,34,16,"no (FSM.stop).","transition","{}","  no (FSM.stop).iden",false,false,false,true,false,25.024958
+fsm,completion/fsm.als,34,16,"no (FSM.stop).","transition","{}","  no (FSM.stop).none",,,,,,25.024958
+fsm,completion/fsm.als,34,16,"no (FSM.stop).","transition","{}","  no (FSM.stop).univ",,,,,,25.024958

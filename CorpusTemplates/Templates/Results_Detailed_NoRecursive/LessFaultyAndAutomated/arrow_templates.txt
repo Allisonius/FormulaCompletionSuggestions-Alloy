@@ -1,0 +1,87 @@
+hits: 1275 (81.00381194409148)
+var->var
+
+hits: 69 (4.3837357052096575)
+sig->sig
+
+hits: 50 (3.176620076238882)
+var->(var->var)
+
+hits: 22 (1.3977128335451081)
+(var.rel)->(var.rel)
+
+hits: 21 (1.3341804320203303)
+var->sig
+
+hits: 15 (0.9529860228716646)
+var->(var->(var->var))
+
+hits: 14 (0.8894536213468869)
+var->(var.(var.rel))
+
+hits: 10 (0.6353240152477764)
+(var->var)->(var->var)
+
+hits: 7 (0.44472681067344344)
+(var.var)->(var.var)
+sig->(sig.rel)
+
+hits: 6 (0.3811944091486658)
+var->(var.(^rel))
+
+hits: 5 (0.3176620076238882)
+((sig <: var).rel)->((sig <: var).rel)
+sig->var
+
+hits: 4 (0.25412960609911056)
+0->var
+sig->(sig->sig)
+
+hits: 3 (0.1905972045743329)
+(rel.var)->sig
+(sig.rel)->(var.rel)
+var->(var.rel)
+sig->fun_call[]
+fun_call[]->fun_call[]
+
+hits: 2 (0.12706480304955528)
+((((sig.rel).var).rel).var)->var
+(var.(var.rel))->(var.(var.rel))
+var->((var.rel)->var)
+((var.rel).rel)->var
+(var.var)->((var.var).var)
+(var.rel)->sig
+((var.(var.rel)).sig)->sig
+var->(0.(var.rel))
+var->(sig->var)
+
+hits: 1 (0.06353240152477764)
+((sig <: var).rel)->(((sig <: var).rel)->var)
+((sig <: var).rel)->(((sig <: var).rel)->((sig <: var).rel))
+(var.rel)->var
+1->(1->var)
+sig->0
+var->(var.var)
+(var.((sig + sig) + sig))->(var.((sig + sig) + sig))
+var->((sig <: var).rel)
+var->(((var.rel).rel)->var)
+(sig + sig)->(sig + sig)
+((sig <: var).rel)->(var->((sig <: var).rel))
+sig->(sig lone->sig)
+0->(var.rel)
+0->(1->var)
+((rel.var).rel)->fun_call[]
+1->(0->var)
+var->(sig - (var.(var.rel)))
+var->(((sig <: var).rel)->((sig <: var).rel))
+sig->(sig.(fun_call[].rel))
+fun_call[]->(fun_call[]->sig)
+0->(0->var)
+sig->(sig - sig)
+var->(sig->sig)
+((sig + sig) + sig)->0
+((sig <: var).rel)->var
+((var.(var.rel)).rel)->(var->((fun_call[].var).rel))
+0->(ordering/first[])
+
+

@@ -1,0 +1,12 @@
+modelname,filename,position-line,position-character,incompleteline,removedtext,baseline,suggestionedExpression,A_iff_B,A_and_B,not_A_and_B,A_and_not_B,not_A_and_not_B,suggestionImpactTime
+classroom-fol,completion/classroom-fol-complete.als,65,22,"Tutors in Teacher ->","Student","{}","\tTutors in Teacher -> Class",true,true,false,true,false,31.303917
+classroom-fol,completion/classroom-fol-complete.als,65,22,"Tutors in Teacher ->","Student","{}","\tTutors in Teacher -> Group",true,true,false,true,false,31.303917
+classroom-fol,completion/classroom-fol-complete.als,65,22,"Tutors in Teacher ->","Student","{}","\tTutors in Teacher -> Person",true,true,false,true,false,31.303917
+classroom-fol,completion/classroom-fol-complete.als,65,22,"Tutors in Teacher ->","Student","{}","\tTutors in Teacher -> Student",true,true,false,true,false,31.303917
+classroom-fol,completion/classroom-fol-complete.als,65,22,"Tutors in Teacher ->","Student","{}","\tTutors in Teacher -> Teacher",true,true,false,true,false,31.303917
+classroom-fol,completion/classroom-fol-complete.als,65,22,"Tutors in Teacher ->","Student","{}","\tTutors in Teacher -> Int",true,true,false,true,false,31.303917
+classroom-fol,completion/classroom-fol-complete.als,65,22,"Tutors in Teacher ->","Student","{}","\tTutors in Teacher -> String",true,true,false,true,false,31.303917
+classroom-fol,completion/classroom-fol-complete.als,65,22,"Tutors in Teacher ->","Student","{}","\tTutors in Teacher -> seq/Int",true,true,false,true,false,31.303917
+classroom-fol,completion/classroom-fol-complete.als,65,22,"Tutors in Teacher ->","Student","{}","\tTutors in Teacher -> iden",,,,,,31.303917
+classroom-fol,completion/classroom-fol-complete.als,65,22,"Tutors in Teacher ->","Student","{}","\tTutors in Teacher -> none",true,true,false,true,false,31.303917
+classroom-fol,completion/classroom-fol-complete.als,65,22,"Tutors in Teacher ->","Student","{}","\tTutors in Teacher -> univ",true,true,false,true,false,31.303917

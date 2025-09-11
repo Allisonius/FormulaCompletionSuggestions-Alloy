@@ -1,0 +1,116 @@
+Model name: c-tree
+Filename: completion/ctree-complete.als
+Offset: 196
+Term:  & 
+Vscode Position: line=11 character=12
+----------------------------------
+12 |   no iden & 
+----------------------------------
+Completion List:
+# Suggestion 	 Exact 	 Syntactic 	 Semantic
+$1. ((*neighbors)-neighbors) 	 false 	 false 	 false
+$2. ((*neighbors).color) 	 false 	 false 	 false
+$3. ((^neighbors)-neighbors) 	 false 	 false 	 false
+$4. ((^neighbors).color) 	 false 	 false 	 false
+$5. ((color.Color).color) 	 false 	 false 	 false
+$6. ((color.Color).neighbors) 	 false 	 false 	 false
+$7. ((color.univ).color) 	 false 	 false 	 false
+$8. ((color.univ).neighbors) 	 false 	 false 	 false
+$9. ((neighbors.color)-color) 	 false 	 false 	 false
+$10. ((neighbors.neighbors)-neighbors) 	 false 	 false 	 false
+$11. ((neighbors.Node).color) 	 false 	 false 	 false
+$12. ((neighbors.Node).neighbors) 	 false 	 false 	 false
+$13. ((neighbors.univ).color) 	 false 	 false 	 false
+$14. ((neighbors.univ).neighbors) 	 false 	 false 	 false
+$15. ((~color).color) 	 false 	 false 	 false
+$16. ((~color).neighbors) 	 false 	 false 	 false
+$17. ((~color).Node) 	 false 	 false 	 false
+$18. ((~color).univ) 	 false 	 false 	 false
+$19. ((~neighbors)-neighbors) 	 false 	 false 	 false
+$20. ((~neighbors).color) 	 false 	 false 	 false
+$21. ((~neighbors).neighbors) 	 false 	 false 	 false
+$22. ((~neighbors).Node) 	 false 	 false 	 false
+$23. ((~neighbors).univ) 	 false 	 false 	 false
+$24. (*(neighbors.neighbors)) 	 false 	 false 	 false
+$25. (*(~neighbors)) 	 false 	 false 	 false
+$26. (*neighbors) 	 false 	 false 	 false
+$27. (^(neighbors.neighbors)) 	 false 	 false 	 false
+$28. (^(~neighbors)) 	 false 	 false 	 false
+$29. (^neighbors) 	 false 	 false 	 false
+$30. (color&(neighbors.color)) 	 false 	 false 	 false
+$31. (color+(neighbors.color)) 	 false 	 false 	 false
+$32. (color-(neighbors.color)) 	 false 	 false 	 false
+$33. (Color-(Node.color)) 	 false 	 false 	 false
+$34. (Color-(univ.color)) 	 false 	 false 	 false
+$35. (color.(Node.color)) 	 false 	 false 	 false
+$36. (color.(univ.color)) 	 false 	 false 	 false
+$37. (color.(~color)) 	 false 	 false 	 false
+$38. (color.Color) 	 false 	 false 	 false
+$39. (color.univ) 	 false 	 false 	 false
+$40. (neighbors&(neighbors.neighbors)) 	 false 	 false 	 false
+$41. (neighbors&(~neighbors)) 	 false 	 false 	 false
+$42. (neighbors+(neighbors.neighbors)) 	 false 	 false 	 false
+$43. (neighbors+(~neighbors)) 	 false 	 false 	 false
+$44. (neighbors-(neighbors.neighbors)) 	 false 	 false 	 false
+$45. (neighbors-(~neighbors)) 	 false 	 false 	 false
+$46. (neighbors.(^neighbors)) 	 false 	 false 	 false
+$47. (neighbors.(color.Color)) 	 false 	 false 	 false
+$48. (neighbors.(color.univ)) 	 false 	 false 	 false
+$49. (neighbors.(neighbors.color)) 	 false 	 false 	 false
+$50. (neighbors.(neighbors.neighbors)) 	 false 	 false 	 false
+$51. (neighbors.(neighbors.Node)) 	 false 	 false 	 false
+$52. (neighbors.(neighbors.univ)) 	 false 	 false 	 false
+$53. (neighbors.(Node.neighbors)) 	 false 	 false 	 false
+$54. (neighbors.(univ.neighbors)) 	 false 	 false 	 false
+$55. (neighbors.(~neighbors)) 	 false 	 false 	 false
+$56. (neighbors.color) 	 false 	 false 	 false
+$57. (neighbors.neighbors) 	 false 	 false 	 false
+$58. (neighbors.Node) 	 false 	 false 	 false
+$59. (neighbors.univ) 	 false 	 false 	 false
+$60. (Node-(color.Color)) 	 false 	 false 	 false
+$61. (Node-(color.univ)) 	 false 	 false 	 false
+$62. (Node-(neighbors.Node)) 	 false 	 false 	 false
+$63. (Node-(neighbors.univ)) 	 false 	 false 	 false
+$64. (Node-(Node.neighbors)) 	 false 	 false 	 false
+$65. (Node-(univ.neighbors)) 	 false 	 false 	 false
+$66. (Node.(neighbors.color)) 	 false 	 false 	 false
+$67. (Node.(neighbors.neighbors)) 	 false 	 false 	 false
+$68. (Node.color) 	 false 	 false 	 false
+$69. (Node.neighbors) 	 false 	 false 	 false
+$70. (none->none) 	 false 	 false 	 false
+$71. (none->none->none) 	 false 	 false 	 false
+$72. (univ.(neighbors.color)) 	 false 	 false 	 false
+$73. (univ.(neighbors.neighbors)) 	 false 	 false 	 false
+$74. (univ.color) 	 false 	 false 	 false
+$75. (univ.neighbors) 	 false 	 false 	 false
+$76. (~(neighbors.color)) 	 false 	 false 	 false
+$77. (~(neighbors.neighbors)) 	 false 	 false 	 false
+$78. (~color) 	 false 	 false 	 false
+$79. (~neighbors) 	 false 	 false 	 false
+$80. Blue 	 false 	 false 	 false
+$81. Color 	 false 	 false 	 false
+$82. color 	 false 	 false 	 false
+$83. Int 	 false 	 false 	 false
+$84. neighbors 	 true 	 true 	 true
+$85. Node 	 false 	 false 	 false
+$86. none 	 false 	 false 	 false
+$87. Red 	 false 	 false 	 false
+$88. String 	 false 	 false 	 false
+$89. univ 	 false 	 false 	 false
+Expected Completion word: neighbors
+Expected Completion line: neighbors
+Suggestion exists: true
+
+Suggestion in top 1 = false 
+Suggestion in top 5 = false 
+Suggestion in top 10 = false 
+
+Suggestion in top 1 (Alpha) = false
+Suggestion in top 5 (Alpha) = false
+Suggestion in top 10 (Alpha) = false
+
+Suggestion in top 1 (Len) = false
+Suggestion in top 5 (Len) = false
+Suggestion in top 10 (Len) = false
+
+Time taken: 30.104916

@@ -1,0 +1,12 @@
+Groups
+~Teaches
+~Teaches.Tutors
+Groups.Group
+Groups.univ
+~Teaches.Person
+~Teaches.Student
+~Teaches.Teacher
+~Teaches.univ
+~Teaches.~Tutors
+~Teaches.^Tutors
+~Teaches.*Tutors

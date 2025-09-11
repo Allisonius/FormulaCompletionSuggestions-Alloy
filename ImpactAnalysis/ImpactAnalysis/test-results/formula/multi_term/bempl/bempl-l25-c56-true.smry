@@ -1,0 +1,118 @@
+Model name: bempl
+Filename: completion/bempl-complete.als
+Offset: 420
+Term:  in 
+Vscode Position: line=24 character=56
+----------------------------------
+25 |   all p : Person | CanEnter[p, secure_lab] implies p in 
+----------------------------------
+Completion List:
+# Suggestion 	 Exact 	 Syntactic 	 Semantic
+$1. p 	 false 	 undefined 	 undefined
+$2. p.owns.authorized 	 false 	 undefined 	 undefined
+$3. ~authorized.~owns.p 	 false 	 undefined 	 undefined
+$4. ~owns.p.owns 	 false 	 undefined 	 undefined
+$5. Employee 	 false 	 undefined 	 undefined
+$6. Employee.owns.authorized 	 false 	 undefined 	 undefined
+$7. Employee.~authorized.~owns 	 false 	 undefined 	 undefined
+$8. Key 	 false 	 undefined 	 undefined
+$9. Key.authorized 	 false 	 undefined 	 undefined
+$10. Key.~owns 	 false 	 undefined 	 undefined
+$11. Person 	 false 	 undefined 	 undefined
+$12. Person.owns.authorized 	 false 	 undefined 	 undefined
+$13. Researcher 	 true 	 undefined 	 undefined
+$14. Researcher.owns.authorized 	 false 	 undefined 	 undefined
+$15. Room 	 false 	 undefined 	 undefined
+$16. Room.~opened_by.authorized 	 false 	 undefined 	 undefined
+$17. Room.~opened_by.~owns 	 false 	 undefined 	 undefined
+$18. authorized.Employee.owns 	 false 	 undefined 	 undefined
+$19. authorized.Employee.~authorized 	 false 	 undefined 	 undefined
+$20. opened_by.Room.~opened_by 	 false 	 undefined 	 undefined
+$21. opened_by.secure_lab.~opened_by 	 false 	 undefined 	 undefined
+$22. owns.Key 	 false 	 undefined 	 undefined
+$23. owns.Key.authorized 	 false 	 undefined 	 undefined
+$24. owns.Key.opened_by 	 false 	 undefined 	 undefined
+$25. owns.Key.~owns 	 false 	 undefined 	 undefined
+$26. owns.authorized.Employee 	 false 	 undefined 	 undefined
+$27. owns.opened_by.Room 	 false 	 undefined 	 undefined
+$28. owns.opened_by.secure_lab 	 false 	 undefined 	 undefined
+$29. secure_lab 	 false 	 undefined 	 undefined
+$30. secure_lab.~opened_by.authorized 	 false 	 undefined 	 undefined
+$31. secure_lab.~opened_by.~owns 	 false 	 undefined 	 undefined
+$32. ~authorized.Key 	 false 	 undefined 	 undefined
+$33. ~authorized.Key.authorized 	 false 	 undefined 	 undefined
+$34. ~authorized.Key.opened_by 	 false 	 undefined 	 undefined
+$35. ~authorized.Key.~owns 	 false 	 undefined 	 undefined
+$36. ~authorized.opened_by.Room 	 false 	 undefined 	 undefined
+$37. ~authorized.opened_by.secure_lab 	 false 	 undefined 	 undefined
+$38. ~authorized.~owns.Employee 	 false 	 undefined 	 undefined
+$39. ~authorized.~owns.Person 	 false 	 undefined 	 undefined
+$40. ~authorized.~owns.Researcher 	 false 	 undefined 	 undefined
+$41. ~opened_by.Key.authorized 	 false 	 undefined 	 undefined
+$42. ~opened_by.Key.opened_by 	 false 	 undefined 	 undefined
+$43. ~opened_by.Key.~owns 	 false 	 undefined 	 undefined
+$44. ~owns.Employee.owns 	 false 	 undefined 	 undefined
+$45. ~owns.Employee.~authorized 	 false 	 undefined 	 undefined
+$46. ~owns.Person.owns 	 false 	 undefined 	 undefined
+$47. ~owns.Researcher.owns 	 false 	 undefined 	 undefined
+$48. authorized.univ.authorized 	 false 	 undefined 	 undefined
+$49. authorized.univ.owns 	 false 	 undefined 	 undefined
+$50. authorized.univ.~authorized 	 false 	 undefined 	 undefined
+$51. authorized.univ.~opened_by 	 false 	 undefined 	 undefined
+$52. authorized.univ.~owns 	 false 	 undefined 	 undefined
+$53. opened_by.univ.authorized 	 false 	 undefined 	 undefined
+$54. opened_by.univ.owns 	 false 	 undefined 	 undefined
+$55. opened_by.univ.~authorized 	 false 	 undefined 	 undefined
+$56. opened_by.univ.~opened_by 	 false 	 undefined 	 undefined
+$57. opened_by.univ.~owns 	 false 	 undefined 	 undefined
+$58. owns.authorized.univ 	 false 	 undefined 	 undefined
+$59. owns.opened_by.univ 	 false 	 undefined 	 undefined
+$60. owns.univ 	 false 	 undefined 	 undefined
+$61. owns.univ.authorized 	 false 	 undefined 	 undefined
+$62. owns.univ.opened_by 	 false 	 undefined 	 undefined
+$63. owns.univ.~opened_by 	 false 	 undefined 	 undefined
+$64. owns.univ.~owns 	 false 	 undefined 	 undefined
+$65. univ.authorized 	 false 	 undefined 	 undefined
+$66. univ.owns.authorized 	 false 	 undefined 	 undefined
+$67. univ.~opened_by.authorized 	 false 	 undefined 	 undefined
+$68. ~authorized.opened_by.univ 	 false 	 undefined 	 undefined
+$69. ~authorized.univ.authorized 	 false 	 undefined 	 undefined
+$70. ~authorized.univ.opened_by 	 false 	 undefined 	 undefined
+$71. ~opened_by.univ.authorized 	 false 	 undefined 	 undefined
+$72. ~opened_by.univ.opened_by 	 false 	 undefined 	 undefined
+$73. ~opened_by.univ.owns 	 false 	 undefined 	 undefined
+$74. ~owns.univ.authorized 	 false 	 undefined 	 undefined
+$75. ~owns.univ.owns 	 false 	 undefined 	 undefined
+$76. univ.~authorized.~owns 	 false 	 undefined 	 undefined
+$77. univ.~opened_by.~owns 	 false 	 undefined 	 undefined
+$78. univ.~owns 	 false 	 undefined 	 undefined
+$79. ~authorized.univ 	 false 	 undefined 	 undefined
+$80. ~authorized.univ.~opened_by 	 false 	 undefined 	 undefined
+$81. ~authorized.univ.~owns 	 false 	 undefined 	 undefined
+$82. ~authorized.~owns.univ 	 false 	 undefined 	 undefined
+$83. ~opened_by.univ.~authorized 	 false 	 undefined 	 undefined
+$84. ~opened_by.univ.~owns 	 false 	 undefined 	 undefined
+$85. ~owns.univ.~authorized 	 false 	 undefined 	 undefined
+$86. ~owns.univ.~opened_by 	 false 	 undefined 	 undefined
+$87. ~owns.univ.~owns 	 false 	 undefined 	 undefined
+$88. Int 	 false 	 undefined 	 undefined
+$89. String 	 false 	 undefined 	 undefined
+$90. none 	 false 	 undefined 	 undefined
+$91. univ 	 false 	 undefined 	 undefined
+Expected Completion word: Researcher
+Expected Completion line: Researcher
+Suggestion exists: true
+
+Suggestion in top 1 = false 
+Suggestion in top 5 = false 
+Suggestion in top 10 = false 
+
+Suggestion in top 1 (Alpha) = false
+Suggestion in top 5 (Alpha) = false
+Suggestion in top 10 (Alpha) = false
+
+Suggestion in top 1 (Len) = false
+Suggestion in top 5 (Len) = false
+Suggestion in top 10 (Len) = false
+
+Time taken: 28.636834

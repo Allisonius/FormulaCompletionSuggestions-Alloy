@@ -1,0 +1,5 @@
+modelname,filename,position-line,position-character,incompleteline,removedtext,baseline,suggestionedExpression,A_iff_B,A_and_B,not_A_and_B,A_and_not_B,not_A_and_not_B,suggestionImpactTime
+lts,completion/lts-complete.als,34,7,"State.","trans.State = Event","{}","\tState.trans",,,,,,3.205917
+lts,completion/lts-complete.als,34,7,"State.","trans.State = Event","{}","\tState.iden",,,,,,3.205917
+lts,completion/lts-complete.als,34,7,"State.","trans.State = Event","{}","\tState.none",,,,,,3.205917
+lts,completion/lts-complete.als,34,7,"State.","trans.State = Event","{}","\tState.univ",,,,,,3.205917

@@ -1,0 +1,33 @@
+Model name: lts
+Filename: completion/lts-complete.als
+Offset: 673
+Term: .
+Vscode Position: line=28 character=22
+----------------------------------
+29 | 	all s1,s2:State | s1.
+----------------------------------
+Completion List:
+# Suggestion 	 Exact 	 Syntactic 	 Semantic
+$1. trans.s1 	 false 	 undefined 	 undefined
+$2. trans.s2 	 false 	 undefined 	 undefined
+$3. trans.Init 	 false 	 undefined 	 undefined
+$4. trans.State 	 true 	 undefined 	 undefined
+$5. trans 	 false 	 undefined 	 undefined
+$6. trans.univ 	 false 	 undefined 	 undefined
+Expected Completion word: trans
+Expected Completion line: trans.State = s2.trans.State
+Suggestion exists: true
+
+Suggestion in top 1 = false 
+Suggestion in top 5 = true 
+Suggestion in top 10 = true 
+
+Suggestion in top 1 (Alpha) = true
+Suggestion in top 5 (Alpha) = true
+Suggestion in top 10 (Alpha) = true
+
+Suggestion in top 1 (Len) = true
+Suggestion in top 5 (Len) = true
+Suggestion in top 10 (Len) = true
+
+Time taken: 19.103875

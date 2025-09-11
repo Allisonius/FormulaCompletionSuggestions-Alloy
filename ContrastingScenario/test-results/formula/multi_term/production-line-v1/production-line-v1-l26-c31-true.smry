@@ -1,0 +1,53 @@
+Model name: production-line-v1
+Filename: completion/production-line-v1-complete.als
+Offset: 697
+Term: .
+Vscode Position: line=25 character=31
+----------------------------------
+26 |     all c : Component | some c.
+----------------------------------
+Completion List:
+# Suggestion 	 Exact 	 Syntactic 	 Semantic
+$1. *parts.c 	 false 	 undefined 	 undefined
+$2. ^parts.c 	 false 	 undefined 	 undefined
+$3. parts.c 	 false 	 undefined 	 undefined
+$4. ~parts.c 	 false 	 undefined 	 undefined
+$5. *parts.Component 	 false 	 undefined 	 undefined
+$6. *parts.Product 	 false 	 undefined 	 undefined
+$7. *parts.Resource 	 false 	 undefined 	 undefined
+$8. ^parts.Component 	 false 	 undefined 	 undefined
+$9. ^parts.Product 	 false 	 undefined 	 undefined
+$10. ^parts.Resource 	 false 	 undefined 	 undefined
+$11. parts.Component 	 false 	 undefined 	 undefined
+$12. parts.Product 	 false 	 undefined 	 undefined
+$13. parts.Resource 	 false 	 undefined 	 undefined
+$14. position.Position 	 false 	 undefined 	 undefined
+$15. ~parts.Component 	 false 	 undefined 	 undefined
+$16. parts 	 true 	 undefined 	 undefined
+$17. parts.univ 	 false 	 undefined 	 undefined
+$18. position 	 false 	 undefined 	 undefined
+$19. position.univ 	 false 	 undefined 	 undefined
+$20. ~parts.position 	 false 	 undefined 	 undefined
+$21. ~parts 	 false 	 undefined 	 undefined
+$22. ~parts.univ 	 false 	 undefined 	 undefined
+$23. ^parts 	 false 	 undefined 	 undefined
+$24. ^parts.univ 	 false 	 undefined 	 undefined
+$25. *parts 	 false 	 undefined 	 undefined
+$26. *parts.univ 	 false 	 undefined 	 undefined
+Expected Completion word: parts
+Expected Completion line: parts
+Suggestion exists: true
+
+Suggestion in top 1 = false 
+Suggestion in top 5 = false 
+Suggestion in top 10 = false 
+
+Suggestion in top 1 (Alpha) = false
+Suggestion in top 5 (Alpha) = false
+Suggestion in top 10 (Alpha) = false
+
+Suggestion in top 1 (Len) = true
+Suggestion in top 5 (Len) = true
+Suggestion in top 10 (Len) = true
+
+Time taken: 16.390917

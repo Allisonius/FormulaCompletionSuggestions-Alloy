@@ -1,0 +1,27 @@
+modelname,filename,position-line,position-character,incompleteline,removedtext,baseline,suggestionedExpression,A_iff_B,A_and_B,not_A_and_B,A_and_not_B,not_A_and_not_B,suggestionImpactTime
+classroom-fol,completion/classroom-fol-complete.als,65,11,"Tutors in","Teacher -> Student","{}","\tTutors in *Tutors.Groups.Group",true,true,false,true,false,46.476083
+classroom-fol,completion/classroom-fol-complete.als,65,11,"Tutors in","Teacher -> Student","{}","\tTutors in Class.Groups.*Tutors",true,true,false,true,false,46.476083
+classroom-fol,completion/classroom-fol-complete.als,65,11,"Tutors in","Teacher -> Student","{}","\tTutors in Teaches.Class.Groups",true,true,false,true,false,46.476083
+classroom-fol,completion/classroom-fol-complete.als,65,11,"Tutors in","Teacher -> Student","{}","\tTutors in Teaches.Groups.Group",true,true,false,true,false,46.476083
+classroom-fol,completion/classroom-fol-complete.als,65,11,"Tutors in","Teacher -> Student","{}","\tTutors in *Tutors.Teaches.*Tutors",true,true,false,true,false,46.476083
+classroom-fol,completion/classroom-fol-complete.als,65,11,"Tutors in","Teacher -> Student","{}","\tTutors in *Tutors.~Teaches.Tutors",true,true,false,true,false,46.476083
+classroom-fol,completion/classroom-fol-complete.als,65,11,"Tutors in","Teacher -> Student","{}","\tTutors in Person -> Person",true,true,false,false,false,46.476083
+classroom-fol,completion/classroom-fol-complete.als,65,11,"Tutors in","Teacher -> Student","{}","\tTutors in Person -> Student",true,true,false,true,false,46.476083
+classroom-fol,completion/classroom-fol-complete.als,65,11,"Tutors in","Teacher -> Student","{}","\tTutors in Student -> Person",true,true,false,true,false,46.476083
+classroom-fol,completion/classroom-fol-complete.als,65,11,"Tutors in","Teacher -> Student","{}","\tTutors in Student -> Student",true,true,false,true,false,46.476083
+classroom-fol,completion/classroom-fol-complete.als,65,11,"Tutors in","Teacher -> Student","{}","\tTutors in Teaches.*Tutors",true,true,false,true,false,46.476083
+classroom-fol,completion/classroom-fol-complete.als,65,11,"Tutors in","Teacher -> Student","{}","\tTutors in Teaches.*Tutors.~Teaches",true,true,false,true,false,46.476083
+classroom-fol,completion/classroom-fol-complete.als,65,11,"Tutors in","Teacher -> Student","{}","\tTutors in Tutors",true,true,false,false,false,46.476083
+classroom-fol,completion/classroom-fol-complete.als,65,11,"Tutors in","Teacher -> Student","{}","\tTutors in Tutors.Teaches.*Tutors",true,true,false,true,false,46.476083
+classroom-fol,completion/classroom-fol-complete.als,65,11,"Tutors in","Teacher -> Student","{}","\tTutors in ^Tutors.Teaches.*Tutors",true,true,false,true,false,46.476083
+classroom-fol,completion/classroom-fol-complete.als,65,11,"Tutors in","Teacher -> Student","{}","\tTutors in ~Tutors.Teaches.*Tutors",true,true,false,true,false,46.476083
+classroom-fol,completion/classroom-fol-complete.als,65,11,"Tutors in","Teacher -> Student","{}","\tTutors in *Tutors.~Teaches",true,true,false,true,false,46.476083
+classroom-fol,completion/classroom-fol-complete.als,65,11,"Tutors in","Teacher -> Student","{}","\tTutors in *Tutors.~Teaches.*Tutors",true,true,false,true,false,46.476083
+classroom-fol,completion/classroom-fol-complete.als,65,11,"Tutors in","Teacher -> Student","{}","\tTutors in *Tutors.~Teaches.^Tutors",true,true,false,true,false,46.476083
+classroom-fol,completion/classroom-fol-complete.als,65,11,"Tutors in","Teacher -> Student","{}","\tTutors in *Tutors.~Teaches.~Tutors",true,true,false,true,false,46.476083
+classroom-fol,completion/classroom-fol-complete.als,65,11,"Tutors in","Teacher -> Student","{}","\tTutors in ~Tutors",true,true,false,true,false,46.476083
+classroom-fol,completion/classroom-fol-complete.als,65,11,"Tutors in","Teacher -> Student","{}","\tTutors in ^Tutors",true,true,false,false,false,46.476083
+classroom-fol,completion/classroom-fol-complete.als,65,11,"Tutors in","Teacher -> Student","{}","\tTutors in *Tutors",true,true,false,false,false,46.476083
+classroom-fol,completion/classroom-fol-complete.als,65,11,"Tutors in","Teacher -> Student","{}","\tTutors in iden",true,true,false,true,false,46.476083
+classroom-fol,completion/classroom-fol-complete.als,65,11,"Tutors in","Teacher -> Student","{}","\tTutors in none",,,,,,46.476083
+classroom-fol,completion/classroom-fol-complete.als,65,11,"Tutors in","Teacher -> Student","{}","\tTutors in univ",,,,,,46.476083

@@ -1,0 +1,9 @@
+modelname,filename,position-line,position-character,incompleteline,removedtext,baseline,suggestionedExpression,A_iff_B,A_and_B,not_A_and_B,A_and_not_B,not_A_and_not_B,suggestionImpactTime
+classroom-rl,completion/classroom-rl-complete.als,53,37,"all c : Class, s : Student | some s.","(c.Groups)","{}","\tall c : Class, s : Student | some s.Teaches",true,true,false,true,false,14.078416
+classroom-rl,completion/classroom-rl-complete.als,53,37,"all c : Class, s : Student | some s.","(c.Groups)","{}","\tall c : Class, s : Student | some s.Tutors",true,true,false,true,false,14.078416
+classroom-rl,completion/classroom-rl-complete.als,53,37,"all c : Class, s : Student | some s.","(c.Groups)","{}","\tall c : Class, s : Student | some s.~Tutors",true,true,false,true,false,14.078416
+classroom-rl,completion/classroom-rl-complete.als,53,37,"all c : Class, s : Student | some s.","(c.Groups)","{}","\tall c : Class, s : Student | some s.^Tutors",true,true,false,true,false,14.078416
+classroom-rl,completion/classroom-rl-complete.als,53,37,"all c : Class, s : Student | some s.","(c.Groups)","{}","\tall c : Class, s : Student | some s.*Tutors",true,true,false,false,false,14.078416
+classroom-rl,completion/classroom-rl-complete.als,53,37,"all c : Class, s : Student | some s.","(c.Groups)","{}","\tall c : Class, s : Student | some s.iden",true,true,false,false,false,14.078416
+classroom-rl,completion/classroom-rl-complete.als,53,37,"all c : Class, s : Student | some s.","(c.Groups)","{}","\tall c : Class, s : Student | some s.none",,,,,,14.078416
+classroom-rl,completion/classroom-rl-complete.als,53,37,"all c : Class, s : Student | some s.","(c.Groups)","{}","\tall c : Class, s : Student | some s.univ",,,,,,14.078416

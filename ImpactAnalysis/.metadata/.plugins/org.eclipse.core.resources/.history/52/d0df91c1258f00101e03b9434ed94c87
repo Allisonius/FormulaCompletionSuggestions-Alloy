@@ -1,0 +1,21 @@
+modelname,filename,position-line,position-character,incompleteline,removedtext,baseline,suggestionedExpression,A_iff_B,A_and_B,not_A_and_B,A_and_not_B,not_A_and_not_B,suggestionImpactTime
+courses-v1,completion/courses-v1-complete.als,78,30,"all c : Course | c.grades in","Person -> lone Grade","{}","\tall c : Course | c.grades in c.grades",true,true,false,false,false,74.393916
+courses-v1,completion/courses-v1-complete.als,78,30,"all c : Course | c.grades in","Person -> lone Grade","{}","\tall c : Course | c.grades in enrolled.c.grades",true,true,false,true,false,74.393916
+courses-v1,completion/courses-v1-complete.als,78,30,"all c : Course | c.grades in","Person -> lone Grade","{}","\tall c : Course | c.grades in teaches.c.grades",true,true,false,true,false,74.393916
+courses-v1,completion/courses-v1-complete.als,78,30,"all c : Course | c.grades in","Person -> lone Grade","{}","\tall c : Course | c.grades in ~projects.c.grades",true,true,false,true,false,74.393916
+courses-v1,completion/courses-v1-complete.als,78,30,"all c : Course | c.grades in","Person -> lone Grade","{}","\tall c : Course | c.grades in Person.enrolled.grades",true,true,false,true,false,74.393916
+courses-v1,completion/courses-v1-complete.als,78,30,"all c : Course | c.grades in","Person -> lone Grade","{}","\tall c : Course | c.grades in Person.teaches.grades",true,true,false,true,false,74.393916
+courses-v1,completion/courses-v1-complete.als,78,30,"all c : Course | c.grades in","Person -> lone Grade","{}","\tall c : Course | c.grades in Professor.enrolled.grades",true,true,false,true,false,74.393916
+courses-v1,completion/courses-v1-complete.als,78,30,"all c : Course | c.grades in","Person -> lone Grade","{}","\tall c : Course | c.grades in Professor.teaches.grades",true,true,false,true,false,74.393916
+courses-v1,completion/courses-v1-complete.als,78,30,"all c : Course | c.grades in","Person -> lone Grade","{}","\tall c : Course | c.grades in Project.~projects.grades",true,true,false,true,false,74.393916
+courses-v1,completion/courses-v1-complete.als,78,30,"all c : Course | c.grades in","Person -> lone Grade","{}","\tall c : Course | c.grades in Student.enrolled.grades",true,true,false,true,false,74.393916
+courses-v1,completion/courses-v1-complete.als,78,30,"all c : Course | c.grades in","Person -> lone Grade","{}","\tall c : Course | c.grades in Student.teaches.grades",true,true,false,true,false,74.393916
+courses-v1,completion/courses-v1-complete.als,78,30,"all c : Course | c.grades in","Person -> lone Grade","{}","\tall c : Course | c.grades in enrolled.Course.grades",true,true,false,true,false,74.393916
+courses-v1,completion/courses-v1-complete.als,78,30,"all c : Course | c.grades in","Person -> lone Grade","{}","\tall c : Course | c.grades in teaches.Course.grades",true,true,false,true,false,74.393916
+courses-v1,completion/courses-v1-complete.als,78,30,"all c : Course | c.grades in","Person -> lone Grade","{}","\tall c : Course | c.grades in ~projects.Course.grades",true,true,false,true,false,74.393916
+courses-v1,completion/courses-v1-complete.als,78,30,"all c : Course | c.grades in","Person -> lone Grade","{}","\tall c : Course | c.grades in Person -> Grade",true,true,false,false,false,74.393916
+courses-v1,completion/courses-v1-complete.als,78,30,"all c : Course | c.grades in","Person -> lone Grade","{}","\tall c : Course | c.grades in Professor -> Grade",true,true,false,true,false,74.393916
+courses-v1,completion/courses-v1-complete.als,78,30,"all c : Course | c.grades in","Person -> lone Grade","{}","\tall c : Course | c.grades in Student -> Grade",true,true,false,true,false,74.393916
+courses-v1,completion/courses-v1-complete.als,78,30,"all c : Course | c.grades in","Person -> lone Grade","{}","\tall c : Course | c.grades in iden",true,true,false,true,false,74.393916
+courses-v1,completion/courses-v1-complete.als,78,30,"all c : Course | c.grades in","Person -> lone Grade","{}","\tall c : Course | c.grades in none",,,,,,74.393916
+courses-v1,completion/courses-v1-complete.als,78,30,"all c : Course | c.grades in","Person -> lone Grade","{}","\tall c : Course | c.grades in univ",,,,,,74.393916

@@ -1,0 +1,14 @@
+sig State {
+        trans : Event -> State
+}
+sig Init in State {}
+sig Event {}
+
+pred inv2{
+	no disj i1, i2 : Init
+}
+
+/*
+The LTS is deterministic, ie, each state has at most a transition for each event.
+*/
+

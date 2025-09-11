@@ -1,0 +1,11 @@
+modelname,filename,position-line,position-character,incompleteline,removedtext,baseline,suggestionedExpression,A_iff_B,A_and_B,not_A_and_B,A_and_not_B,not_A_and_not_B,suggestionImpactTime
+classroom-rl,completion/classroom-rl-complete.als,53,40,"all c : Class, s : Student | some s.(c.","Groups)","{}","\tall c : Class, s : Student | some s.(c.Groups",,,,,,8.264
+classroom-rl,completion/classroom-rl-complete.als,53,40,"all c : Class, s : Student | some s.(c.","Groups)","{}","\tall c : Class, s : Student | some s.(c.Teaches",,,,,,8.264
+classroom-rl,completion/classroom-rl-complete.als,53,40,"all c : Class, s : Student | some s.(c.","Groups)","{}","\tall c : Class, s : Student | some s.(c.Tutors",,,,,,8.264
+classroom-rl,completion/classroom-rl-complete.als,53,40,"all c : Class, s : Student | some s.(c.","Groups)","{}","\tall c : Class, s : Student | some s.(c.~Teaches",,,,,,8.264
+classroom-rl,completion/classroom-rl-complete.als,53,40,"all c : Class, s : Student | some s.(c.","Groups)","{}","\tall c : Class, s : Student | some s.(c.~Tutors",,,,,,8.264
+classroom-rl,completion/classroom-rl-complete.als,53,40,"all c : Class, s : Student | some s.(c.","Groups)","{}","\tall c : Class, s : Student | some s.(c.^Tutors",,,,,,8.264
+classroom-rl,completion/classroom-rl-complete.als,53,40,"all c : Class, s : Student | some s.(c.","Groups)","{}","\tall c : Class, s : Student | some s.(c.*Tutors",,,,,,8.264
+classroom-rl,completion/classroom-rl-complete.als,53,40,"all c : Class, s : Student | some s.(c.","Groups)","{}","\tall c : Class, s : Student | some s.(c.iden",,,,,,8.264
+classroom-rl,completion/classroom-rl-complete.als,53,40,"all c : Class, s : Student | some s.(c.","Groups)","{}","\tall c : Class, s : Student | some s.(c.none",,,,,,8.264
+classroom-rl,completion/classroom-rl-complete.als,53,40,"all c : Class, s : Student | some s.(c.","Groups)","{}","\tall c : Class, s : Student | some s.(c.univ",,,,,,8.264

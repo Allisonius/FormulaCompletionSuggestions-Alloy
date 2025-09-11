@@ -1,0 +1,151 @@
+Model name: lts
+Filename: completion/lts-complete.als
+Offset: 1020
+Term:  in 
+Vscode Position: line=38 character=100
+----------------------------------
+39 | 	let ts = { s1,s2:State | some e:Event | s1->e->s2 in trans } | all s:Init.^ts | some i:Init | i in 
+----------------------------------
+Completion List:
+# Suggestion 	 Exact 	 Syntactic 	 Semantic
+$1. *ts.Init.ts 	 false 	 undefined 	 undefined
+$2. *ts.State.ts 	 false 	 undefined 	 undefined
+$3. *ts.i 	 false 	 undefined 	 undefined
+$4. *ts.i.*ts 	 false 	 undefined 	 undefined
+$5. *ts.i.^ts 	 false 	 undefined 	 undefined
+$6. *ts.i.ts 	 false 	 undefined 	 undefined
+$7. *ts.i.~ts 	 false 	 undefined 	 undefined
+$8. *ts.s 	 false 	 undefined 	 undefined
+$9. *ts.s.*ts 	 false 	 undefined 	 undefined
+$10. *ts.s.^ts 	 false 	 undefined 	 undefined
+$11. *ts.s.ts 	 false 	 undefined 	 undefined
+$12. *ts.s.~ts 	 false 	 undefined 	 undefined
+$13. *ts.univ.ts 	 false 	 undefined 	 undefined
+$14. Init.ts 	 false 	 undefined 	 undefined
+$15. State.ts 	 false 	 undefined 	 undefined
+$16. ^ts.Init.ts 	 false 	 undefined 	 undefined
+$17. ^ts.State.ts 	 false 	 undefined 	 undefined
+$18. ^ts.i 	 false 	 undefined 	 undefined
+$19. ^ts.i.*ts 	 false 	 undefined 	 undefined
+$20. ^ts.i.^ts 	 false 	 undefined 	 undefined
+$21. ^ts.i.ts 	 false 	 undefined 	 undefined
+$22. ^ts.i.~ts 	 false 	 undefined 	 undefined
+$23. ^ts.s 	 false 	 undefined 	 undefined
+$24. ^ts.s.*ts 	 false 	 undefined 	 undefined
+$25. ^ts.s.^ts 	 false 	 undefined 	 undefined
+$26. ^ts.s.ts 	 false 	 undefined 	 undefined
+$27. ^ts.s.~ts 	 false 	 undefined 	 undefined
+$28. ^ts.univ.ts 	 false 	 undefined 	 undefined
+$29. i 	 false 	 undefined 	 undefined
+$30. i.*ts 	 false 	 undefined 	 undefined
+$31. i.^ts 	 false 	 undefined 	 undefined
+$32. i.ts 	 false 	 undefined 	 undefined
+$33. i.~ts 	 false 	 undefined 	 undefined
+$34. s 	 false 	 undefined 	 undefined
+$35. s.*ts 	 false 	 undefined 	 undefined
+$36. s.^ts 	 true 	 undefined 	 undefined
+$37. s.ts 	 false 	 undefined 	 undefined
+$38. s.~ts 	 false 	 undefined 	 undefined
+$39. ts.Init 	 false 	 undefined 	 undefined
+$40. ts.Init.*ts 	 false 	 undefined 	 undefined
+$41. ts.Init.^ts 	 false 	 undefined 	 undefined
+$42. ts.Init.ts 	 false 	 undefined 	 undefined
+$43. ts.Init.~ts 	 false 	 undefined 	 undefined
+$44. ts.State 	 false 	 undefined 	 undefined
+$45. ts.State.*ts 	 false 	 undefined 	 undefined
+$46. ts.State.^ts 	 false 	 undefined 	 undefined
+$47. ts.State.ts 	 false 	 undefined 	 undefined
+$48. ts.State.~ts 	 false 	 undefined 	 undefined
+$49. ts.i 	 false 	 undefined 	 undefined
+$50. ts.i.*ts 	 false 	 undefined 	 undefined
+$51. ts.i.^ts 	 false 	 undefined 	 undefined
+$52. ts.i.ts 	 false 	 undefined 	 undefined
+$53. ts.i.~ts 	 false 	 undefined 	 undefined
+$54. ts.s 	 false 	 undefined 	 undefined
+$55. ts.s.*ts 	 false 	 undefined 	 undefined
+$56. ts.s.^ts 	 false 	 undefined 	 undefined
+$57. ts.s.ts 	 false 	 undefined 	 undefined
+$58. ts.s.~ts 	 false 	 undefined 	 undefined
+$59. ts.univ 	 false 	 undefined 	 undefined
+$60. ts.univ.*ts 	 false 	 undefined 	 undefined
+$61. ts.univ.^ts 	 false 	 undefined 	 undefined
+$62. ts.univ.ts 	 false 	 undefined 	 undefined
+$63. ts.univ.~ts 	 false 	 undefined 	 undefined
+$64. univ.ts 	 false 	 undefined 	 undefined
+$65. ~ts.Init.ts 	 false 	 undefined 	 undefined
+$66. ~ts.State.ts 	 false 	 undefined 	 undefined
+$67. ~ts.i 	 false 	 undefined 	 undefined
+$68. ~ts.i.*ts 	 false 	 undefined 	 undefined
+$69. ~ts.i.^ts 	 false 	 undefined 	 undefined
+$70. ~ts.i.ts 	 false 	 undefined 	 undefined
+$71. ~ts.i.~ts 	 false 	 undefined 	 undefined
+$72. ~ts.s 	 false 	 undefined 	 undefined
+$73. ~ts.s.*ts 	 false 	 undefined 	 undefined
+$74. ~ts.s.^ts 	 false 	 undefined 	 undefined
+$75. ~ts.s.ts 	 false 	 undefined 	 undefined
+$76. ~ts.s.~ts 	 false 	 undefined 	 undefined
+$77. ~ts.univ.ts 	 false 	 undefined 	 undefined
+$78. *ts.Init 	 false 	 undefined 	 undefined
+$79. *ts.Init.*ts 	 false 	 undefined 	 undefined
+$80. *ts.Init.^ts 	 false 	 undefined 	 undefined
+$81. *ts.Init.~ts 	 false 	 undefined 	 undefined
+$82. *ts.State 	 false 	 undefined 	 undefined
+$83. *ts.State.*ts 	 false 	 undefined 	 undefined
+$84. *ts.State.^ts 	 false 	 undefined 	 undefined
+$85. *ts.State.~ts 	 false 	 undefined 	 undefined
+$86. Init.*ts 	 false 	 undefined 	 undefined
+$87. Init.^ts 	 false 	 undefined 	 undefined
+$88. Init.~ts 	 false 	 undefined 	 undefined
+$89. State 	 false 	 undefined 	 undefined
+$90. State.*ts 	 false 	 undefined 	 undefined
+$91. State.^ts 	 false 	 undefined 	 undefined
+$92. State.~ts 	 false 	 undefined 	 undefined
+$93. ^ts.Init 	 false 	 undefined 	 undefined
+$94. ^ts.Init.*ts 	 false 	 undefined 	 undefined
+$95. ^ts.Init.^ts 	 false 	 undefined 	 undefined
+$96. ^ts.Init.~ts 	 false 	 undefined 	 undefined
+$97. ^ts.State 	 false 	 undefined 	 undefined
+$98. ^ts.State.*ts 	 false 	 undefined 	 undefined
+$99. ^ts.State.^ts 	 false 	 undefined 	 undefined
+$100. ^ts.State.~ts 	 false 	 undefined 	 undefined
+$101. ~ts.Init 	 false 	 undefined 	 undefined
+$102. ~ts.Init.*ts 	 false 	 undefined 	 undefined
+$103. ~ts.Init.^ts 	 false 	 undefined 	 undefined
+$104. ~ts.Init.~ts 	 false 	 undefined 	 undefined
+$105. ~ts.State 	 false 	 undefined 	 undefined
+$106. ~ts.State.*ts 	 false 	 undefined 	 undefined
+$107. ~ts.State.^ts 	 false 	 undefined 	 undefined
+$108. ~ts.State.~ts 	 false 	 undefined 	 undefined
+$109. *ts.univ.~ts 	 false 	 undefined 	 undefined
+$110. ^ts.univ.~ts 	 false 	 undefined 	 undefined
+$111. univ.~ts 	 false 	 undefined 	 undefined
+$112. ~ts.univ 	 false 	 undefined 	 undefined
+$113. ~ts.univ.*ts 	 false 	 undefined 	 undefined
+$114. ~ts.univ.^ts 	 false 	 undefined 	 undefined
+$115. ~ts.univ.~ts 	 false 	 undefined 	 undefined
+$116. *ts.univ.^ts 	 false 	 undefined 	 undefined
+$117. ^ts.univ 	 false 	 undefined 	 undefined
+$118. ^ts.univ.*ts 	 false 	 undefined 	 undefined
+$119. ^ts.univ.^ts 	 false 	 undefined 	 undefined
+$120. univ.^ts 	 false 	 undefined 	 undefined
+$121. *ts.univ 	 false 	 undefined 	 undefined
+$122. *ts.univ.*ts 	 false 	 undefined 	 undefined
+$123. univ 	 false 	 undefined 	 undefined
+$124. univ.*ts 	 false 	 undefined 	 undefined
+Expected Completion word: s
+Expected Completion line: s.^ts
+Suggestion exists: true
+
+Suggestion in top 1 = false 
+Suggestion in top 5 = false 
+Suggestion in top 10 = false 
+
+Suggestion in top 1 (Alpha) = false
+Suggestion in top 5 (Alpha) = false
+Suggestion in top 10 (Alpha) = false
+
+Suggestion in top 1 (Len) = false
+Suggestion in top 5 (Len) = true
+Suggestion in top 10 (Len) = true
+
+Time taken: 21.105

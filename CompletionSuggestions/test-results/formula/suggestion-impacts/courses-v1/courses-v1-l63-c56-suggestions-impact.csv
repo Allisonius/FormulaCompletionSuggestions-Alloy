@@ -1,0 +1,8 @@
+modelname,filename,position-line,position-character,incompleteline,removedtext,baseline,suggestionedExpression,A_iff_B,A_and_B,not_A_and_B,A_and_not_B,not_A_and_not_B,suggestionImpactTime
+courses-v1,completion/courses-v1-complete.als,63,56,"all p: Person | no ((p.teaches.~teaches)-p) & enrolled.","(p.teaches)","{}","\tall p: Person | no ((p.teaches.~teaches)-p) & enrolled.Course",true,true,false,true,false,22.304792
+courses-v1,completion/courses-v1-complete.als,63,56,"all p: Person | no ((p.teaches.~teaches)-p) & enrolled.","(p.teaches)","{}","\tall p: Person | no ((p.teaches.~teaches)-p) & enrolled.grades",,,,,,22.304792
+courses-v1,completion/courses-v1-complete.als,63,56,"all p: Person | no ((p.teaches.~teaches)-p) & enrolled.","(p.teaches)","{}","\tall p: Person | no ((p.teaches.~teaches)-p) & enrolled.projects",,,,,,22.304792
+courses-v1,completion/courses-v1-complete.als,63,56,"all p: Person | no ((p.teaches.~teaches)-p) & enrolled.","(p.teaches)","{}","\tall p: Person | no ((p.teaches.~teaches)-p) & enrolled.~teaches",,,,,,22.304792
+courses-v1,completion/courses-v1-complete.als,63,56,"all p: Person | no ((p.teaches.~teaches)-p) & enrolled.","(p.teaches)","{}","\tall p: Person | no ((p.teaches.~teaches)-p) & enrolled.iden",,,,,,22.304792
+courses-v1,completion/courses-v1-complete.als,63,56,"all p: Person | no ((p.teaches.~teaches)-p) & enrolled.","(p.teaches)","{}","\tall p: Person | no ((p.teaches.~teaches)-p) & enrolled.none",true,true,false,false,false,22.304792
+courses-v1,completion/courses-v1-complete.als,63,56,"all p: Person | no ((p.teaches.~teaches)-p) & enrolled.","(p.teaches)","{}","\tall p: Person | no ((p.teaches.~teaches)-p) & enrolled.univ",true,true,false,true,false,22.304792

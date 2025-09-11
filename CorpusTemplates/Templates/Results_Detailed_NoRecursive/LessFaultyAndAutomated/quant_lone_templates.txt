@@ -1,0 +1,39 @@
+hits: 7 (29.166666666666668)
+lone var: (one sig) {
+(var in (var.rel))
+}
+
+hits: 4 (16.666666666666664)
+lone var: (one sig) {
+(((rel.var).(rel.var)) = var)
+}
+lone var: (one sig) {
+(((rel.var).var) = var)
+}
+
+hits: 2 (8.333333333333332)
+lone var: (one var) {
+((var->var) in var)
+}
+lone var: (one sig) {
+(((var.rel) = var) && ((var.rel) = var))
+}
+
+hits: 1 (4.166666666666666)
+lone var: (one (var.rel)) {
+(var in sig)
+}
+lone var: (one sig) {
+(((var.rel).var) = sig)
+}
+lone var: (one (var - ((sig.rel).rel))) {
+((var = (((var - var) - (sig.rel)) - (var.rel))) && (var = ((var + var) + (sig.rel))))
+}
+lone var: (one sig) {
+(pred_call[] => ((var->var) in (var.rel)))
+}
+lone var: (one (var.rel)) {
+((var.(var.rel)) != (var.(var.rel)))
+}
+
+

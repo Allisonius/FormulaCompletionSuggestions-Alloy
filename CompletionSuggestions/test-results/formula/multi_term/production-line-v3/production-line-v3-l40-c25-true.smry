@@ -1,0 +1,55 @@
+Model name: production-line-v3
+Filename: completion/production-line-v3-complete.als
+Offset: 873
+Term: .
+Vscode Position: line=39 character=25
+----------------------------------
+40 | 	all m : Material | no m.
+----------------------------------
+Completion List:
+# Suggestion 	 Exact 	 Syntactic 	 Semantic
+$1. *parts.m 	 false 	 undefined 	 undefined
+$2. ^parts.m 	 false 	 undefined 	 undefined
+$3. parts.m 	 false 	 undefined 	 undefined
+$4. ~parts.m 	 false 	 undefined 	 undefined
+$5. *parts.Component 	 false 	 undefined 	 undefined
+$6. *parts.Dangerous 	 false 	 undefined 	 undefined
+$7. *parts.Material 	 false 	 undefined 	 undefined
+$8. *parts.Product 	 false 	 undefined 	 undefined
+$9. ^parts.Component 	 false 	 undefined 	 undefined
+$10. ^parts.Dangerous 	 false 	 undefined 	 undefined
+$11. ^parts.Material 	 false 	 undefined 	 undefined
+$12. ^parts.Product 	 false 	 undefined 	 undefined
+$13. parts.Component 	 false 	 undefined 	 undefined
+$14. parts.Dangerous 	 false 	 undefined 	 undefined
+$15. parts.Material 	 false 	 undefined 	 undefined
+$16. parts.Product 	 false 	 undefined 	 undefined
+$17. ~parts.Component 	 false 	 undefined 	 undefined
+$18. ~parts.Dangerous 	 false 	 undefined 	 undefined
+$19. ~parts.Material 	 false 	 undefined 	 undefined
+$20. ~parts.Product 	 false 	 undefined 	 undefined
+$21. parts 	 true 	 undefined 	 undefined
+$22. parts.univ 	 false 	 undefined 	 undefined
+$23. ~parts 	 false 	 undefined 	 undefined
+$24. ~parts.univ 	 false 	 undefined 	 undefined
+$25. ^parts 	 false 	 undefined 	 undefined
+$26. ^parts.univ 	 false 	 undefined 	 undefined
+$27. *parts 	 false 	 undefined 	 undefined
+$28. *parts.univ 	 false 	 undefined 	 undefined
+Expected Completion word: parts
+Expected Completion line: parts
+Suggestion exists: true
+
+Suggestion in top 1 = false 
+Suggestion in top 5 = false 
+Suggestion in top 10 = false 
+
+Suggestion in top 1 (Alpha) = false
+Suggestion in top 5 (Alpha) = false
+Suggestion in top 10 (Alpha) = false
+
+Suggestion in top 1 (Len) = true
+Suggestion in top 5 (Len) = true
+Suggestion in top 10 (Len) = true
+
+Time taken: 11.984334

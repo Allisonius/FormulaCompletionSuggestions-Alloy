@@ -1,0 +1,60 @@
+Model name: singly-linked-list
+Filename: completion/singly-linked-list.als
+Offset: 163
+Term: .
+Vscode Position: line=11 character=47
+----------------------------------
+12 |   no l.header or some n: l.header.*link | no n.
+----------------------------------
+Completion List:
+# Suggestion 	 Exact 	 Syntactic 	 Semantic
+$1. *link.n 	 false 	 undefined 	 undefined
+$2. ^link.n 	 false 	 undefined 	 undefined
+$3. header.n 	 false 	 undefined 	 undefined
+$4. link.n 	 false 	 undefined 	 undefined
+$5. ~header.l 	 false 	 undefined 	 undefined
+$6. ~header.n 	 false 	 undefined 	 undefined
+$7. ~link.n 	 false 	 undefined 	 undefined
+$8. *link.Node 	 false 	 undefined 	 undefined
+$9. ^link.Node 	 false 	 undefined 	 undefined
+$10. header.Node 	 false 	 undefined 	 undefined
+$11. link.Node 	 false 	 undefined 	 undefined
+$12. ~header.List 	 false 	 undefined 	 undefined
+$13. ~link.Node 	 false 	 undefined 	 undefined
+$14. header 	 false 	 undefined 	 undefined
+$15. header.*link 	 false 	 undefined 	 undefined
+$16. header.^link 	 false 	 undefined 	 undefined
+$17. header.link 	 false 	 undefined 	 undefined
+$18. header.univ 	 false 	 undefined 	 undefined
+$19. header.~link 	 false 	 undefined 	 undefined
+$20. link 	 true 	 undefined 	 undefined
+$21. link.univ 	 false 	 undefined 	 undefined
+$22. link.~header 	 false 	 undefined 	 undefined
+$23. *link.~header 	 false 	 undefined 	 undefined
+$24. ^link.~header 	 false 	 undefined 	 undefined
+$25. ~header 	 false 	 undefined 	 undefined
+$26. ~header.univ 	 false 	 undefined 	 undefined
+$27. ~link 	 false 	 undefined 	 undefined
+$28. ~link.univ 	 false 	 undefined 	 undefined
+$29. ~link.~header 	 false 	 undefined 	 undefined
+$30. ^link 	 false 	 undefined 	 undefined
+$31. ^link.univ 	 false 	 undefined 	 undefined
+$32. *link 	 false 	 undefined 	 undefined
+$33. *link.univ 	 false 	 undefined 	 undefined
+Expected Completion word: link
+Expected Completion line: link
+Suggestion exists: true
+
+Suggestion in top 1 = false 
+Suggestion in top 5 = false 
+Suggestion in top 10 = false 
+
+Suggestion in top 1 (Alpha) = false
+Suggestion in top 5 (Alpha) = false
+Suggestion in top 10 (Alpha) = false
+
+Suggestion in top 1 (Len) = true
+Suggestion in top 5 (Len) = true
+Suggestion in top 10 (Len) = true
+
+Time taken: 10.551917

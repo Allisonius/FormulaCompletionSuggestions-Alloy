@@ -1,0 +1,34 @@
+c.grades
+Course.grades
+p.enrolled.grades
+p.teaches.grades
+Person -> Grade
+Professor -> Grade
+Student -> Grade
+univ.grades
+Person.enrolled.grades
+Person.teaches.grades
+Professor.enrolled.grades
+Professor.teaches.grades
+Student.enrolled.grades
+Student.teaches.grades
+enrolled.Course.grades
+enrolled.c.grades
+enrolled.univ.grades
+grades.univ.projects
+projects.univ.grades
+teaches.Course.grades
+teaches.c.grades
+teaches.univ.grades
+univ.enrolled.grades
+univ.teaches.grades
+Project.~projects.grades
+grades.univ.~enrolled
+grades.univ.~projects
+grades.univ.~teaches
+univ.~projects.grades
+~enrolled.univ.grades
+~projects.Course.grades
+~projects.c.grades
+~projects.univ.grades
+~teaches.univ.grades

@@ -1,0 +1,8 @@
+modelname,filename,position-line,position-character,incompleteline,removedtext,baseline,suggestionedExpression,A_iff_B,A_and_B,not_A_and_B,A_and_not_B,not_A_and_not_B,suggestionImpactTime
+cv,completion/cv-complete.als,31,52,"all u : User, disj x,y : u.visible | x not in y.","^(ids.~ids)","{}","    all u : User, disj x,y : u.visible | x not in y.ids",true,true,false,false,false,11.426
+cv,completion/cv-complete.als,31,52,"all u : User, disj x,y : u.visible | x not in y.","^(ids.~ids)","{}","    all u : User, disj x,y : u.visible | x not in y.source",true,true,false,false,false,11.426
+cv,completion/cv-complete.als,31,52,"all u : User, disj x,y : u.visible | x not in y.","^(ids.~ids)","{}","    all u : User, disj x,y : u.visible | x not in y.~profile",true,true,false,false,false,11.426
+cv,completion/cv-complete.als,31,52,"all u : User, disj x,y : u.visible | x not in y.","^(ids.~ids)","{}","    all u : User, disj x,y : u.visible | x not in y.~visible",true,true,false,false,false,11.426
+cv,completion/cv-complete.als,31,52,"all u : User, disj x,y : u.visible | x not in y.","^(ids.~ids)","{}","    all u : User, disj x,y : u.visible | x not in y.iden",true,true,false,false,false,11.426
+cv,completion/cv-complete.als,31,52,"all u : User, disj x,y : u.visible | x not in y.","^(ids.~ids)","{}","    all u : User, disj x,y : u.visible | x not in y.none",,,,,,11.426
+cv,completion/cv-complete.als,31,52,"all u : User, disj x,y : u.visible | x not in y.","^(ids.~ids)","{}","    all u : User, disj x,y : u.visible | x not in y.univ",,,,,,11.426

@@ -1,0 +1,178 @@
+Model name: train-station-ltl
+Filename: completion/train-station-ltl-sig.als
+Offset: 104
+Term:  in 
+Vscode Position: line=5 character=19
+----------------------------------
+6 | sig Entry, Exit in 
+----------------------------------
+Completion List:
+# Suggestion 	 Exact 	 Syntactic 	 Semantic
+$1. ((*prox)-prox) 	 false 	 false 	 false
+$2. ((*prox).signal) 	 false 	 false 	 false
+$3. ((^prox)-prox) 	 false 	 false 	 false
+$4. ((^prox).signal) 	 false 	 false 	 false
+$5. ((pos.prox)-pos) 	 false 	 false 	 false
+$6. ((pos.Track).pos) 	 false 	 false 	 false
+$7. ((pos.univ).pos) 	 false 	 false 	 false
+$8. ((prox.prox)-prox) 	 false 	 false 	 false
+$9. ((prox.signal)-signal) 	 false 	 false 	 false
+$10. ((prox.Track).prox) 	 false 	 false 	 false
+$11. ((prox.Track).signal) 	 false 	 false 	 false
+$12. ((prox.univ).prox) 	 false 	 false 	 false
+$13. ((prox.univ).signal) 	 false 	 false 	 false
+$14. ((signal.Green).prox) 	 false 	 false 	 false
+$15. ((signal.Green).signal) 	 false 	 false 	 false
+$16. ((signal.Signal).prox) 	 false 	 false 	 false
+$17. ((signal.Signal).signal) 	 false 	 false 	 false
+$18. ((signal.univ).prox) 	 false 	 false 	 false
+$19. ((signal.univ).signal) 	 false 	 false 	 false
+$20. ((Track.signal)-Green) 	 false 	 false 	 false
+$21. ((univ.signal)-Green) 	 false 	 false 	 false
+$22. ((~pos).pos) 	 false 	 false 	 false
+$23. ((~pos).Train) 	 false 	 false 	 false
+$24. ((~pos).univ) 	 false 	 false 	 false
+$25. ((~prox)-prox) 	 false 	 false 	 false
+$26. ((~prox).prox) 	 false 	 false 	 false
+$27. ((~prox).signal) 	 false 	 false 	 false
+$28. ((~prox).Track) 	 false 	 false 	 false
+$29. ((~prox).univ) 	 false 	 false 	 false
+$30. ((~signal).prox) 	 false 	 false 	 false
+$31. ((~signal).signal) 	 false 	 false 	 false
+$32. ((~signal).Track) 	 false 	 false 	 false
+$33. ((~signal).univ) 	 false 	 false 	 false
+$34. (*(prox.prox)) 	 false 	 false 	 false
+$35. (*(~prox)) 	 false 	 false 	 false
+$36. (*prox) 	 false 	 false 	 false
+$37. (^(prox.prox)) 	 false 	 false 	 false
+$38. (^(~prox)) 	 false 	 false 	 false
+$39. (^prox) 	 false 	 false 	 false
+$40. (Green&(Signal-Green)) 	 false 	 false 	 false
+$41. (Green&(Track.signal)) 	 false 	 false 	 false
+$42. (Green&(univ.signal)) 	 false 	 false 	 false
+$43. (Green+(Track.signal)) 	 false 	 false 	 false
+$44. (Green+(univ.signal)) 	 false 	 false 	 false
+$45. (Green-(Track.signal)) 	 false 	 false 	 false
+$46. (Green-(univ.signal)) 	 false 	 false 	 false
+$47. (none->none) 	 false 	 false 	 false
+$48. (none->none->none) 	 false 	 false 	 false
+$49. (pos&(pos.prox)) 	 false 	 false 	 false
+$50. (pos+(pos.prox)) 	 false 	 false 	 false
+$51. (pos-(pos.prox)) 	 false 	 false 	 false
+$52. (pos.(*prox)) 	 false 	 false 	 false
+$53. (pos.(^prox)) 	 false 	 false 	 false
+$54. (pos.(prox.prox)) 	 false 	 false 	 false
+$55. (pos.(prox.signal)) 	 false 	 false 	 false
+$56. (pos.(prox.Track)) 	 false 	 false 	 false
+$57. (pos.(prox.univ)) 	 false 	 false 	 false
+$58. (pos.(signal.Green)) 	 false 	 false 	 false
+$59. (pos.(signal.Signal)) 	 false 	 false 	 false
+$60. (pos.(signal.univ)) 	 false 	 false 	 false
+$61. (pos.(Track.prox)) 	 false 	 false 	 false
+$62. (pos.(Train.pos)) 	 false 	 false 	 false
+$63. (pos.(univ.pos)) 	 false 	 false 	 false
+$64. (pos.(univ.prox)) 	 false 	 false 	 false
+$65. (pos.(~pos)) 	 false 	 false 	 false
+$66. (pos.(~prox)) 	 false 	 false 	 false
+$67. (pos.prox) 	 false 	 false 	 false
+$68. (pos.signal) 	 false 	 false 	 false
+$69. (pos.Track) 	 false 	 false 	 false
+$70. (pos.univ) 	 false 	 false 	 false
+$71. (prox&(prox.prox)) 	 false 	 false 	 false
+$72. (prox&(~prox)) 	 false 	 false 	 false
+$73. (prox+(prox.prox)) 	 false 	 false 	 false
+$74. (prox+(~prox)) 	 false 	 false 	 false
+$75. (prox-(prox.prox)) 	 false 	 false 	 false
+$76. (prox-(~prox)) 	 false 	 false 	 false
+$77. (prox.(^prox)) 	 false 	 false 	 false
+$78. (prox.(prox.prox)) 	 false 	 false 	 false
+$79. (prox.(prox.signal)) 	 false 	 false 	 false
+$80. (prox.(prox.Track)) 	 false 	 false 	 false
+$81. (prox.(prox.univ)) 	 false 	 false 	 false
+$82. (prox.(signal.Green)) 	 false 	 false 	 false
+$83. (prox.(signal.Signal)) 	 false 	 false 	 false
+$84. (prox.(signal.univ)) 	 false 	 false 	 false
+$85. (prox.(Track.prox)) 	 false 	 false 	 false
+$86. (prox.(Train.pos)) 	 false 	 false 	 false
+$87. (prox.(univ.pos)) 	 false 	 false 	 false
+$88. (prox.(univ.prox)) 	 false 	 false 	 false
+$89. (prox.(~pos)) 	 false 	 false 	 false
+$90. (prox.(~prox)) 	 false 	 false 	 false
+$91. (prox.prox) 	 false 	 false 	 false
+$92. (prox.signal) 	 false 	 false 	 false
+$93. (prox.Track) 	 false 	 false 	 false
+$94. (prox.univ) 	 false 	 false 	 false
+$95. (signal&(prox.signal)) 	 false 	 false 	 false
+$96. (signal+(prox.signal)) 	 false 	 false 	 false
+$97. (signal-(prox.signal)) 	 false 	 false 	 false
+$98. (Signal-(Track.signal)) 	 false 	 false 	 false
+$99. (Signal-(univ.signal)) 	 false 	 false 	 false
+$100. (Signal-Green) 	 false 	 false 	 false
+$101. (signal.(Signal-Green)) 	 false 	 false 	 false
+$102. (signal.(Track.signal)) 	 false 	 false 	 false
+$103. (signal.(univ.signal)) 	 false 	 false 	 false
+$104. (signal.(~signal)) 	 false 	 false 	 false
+$105. (signal.Green) 	 false 	 false 	 false
+$106. (signal.Signal) 	 false 	 false 	 false
+$107. (signal.univ) 	 false 	 false 	 false
+$108. (Track-(prox.Track)) 	 false 	 false 	 false
+$109. (Track-(prox.univ)) 	 false 	 false 	 false
+$110. (Track-(signal.Green)) 	 false 	 false 	 false
+$111. (Track-(signal.Signal)) 	 false 	 false 	 false
+$112. (Track-(signal.univ)) 	 false 	 false 	 false
+$113. (Track-(Track.prox)) 	 false 	 false 	 false
+$114. (Track-(Train.pos)) 	 false 	 false 	 false
+$115. (Track-(univ.pos)) 	 false 	 false 	 false
+$116. (Track-(univ.prox)) 	 false 	 false 	 false
+$117. (Track.(prox.prox)) 	 false 	 false 	 false
+$118. (Track.(prox.signal)) 	 false 	 false 	 false
+$119. (Track.prox) 	 false 	 false 	 false
+$120. (Track.signal) 	 false 	 false 	 false
+$121. (Train-(pos.Track)) 	 false 	 false 	 false
+$122. (Train-(pos.univ)) 	 false 	 false 	 false
+$123. (Train.(pos.prox)) 	 false 	 false 	 false
+$124. (Train.(pos.signal)) 	 false 	 false 	 false
+$125. (Train.pos) 	 false 	 false 	 false
+$126. (univ.(pos.prox)) 	 false 	 false 	 false
+$127. (univ.(pos.signal)) 	 false 	 false 	 false
+$128. (univ.(prox.prox)) 	 false 	 false 	 false
+$129. (univ.(prox.signal)) 	 false 	 false 	 false
+$130. (univ.pos) 	 false 	 undefined 	 undefined
+$131. (univ.prox) 	 false 	 false 	 false
+$132. (univ.signal) 	 false 	 false 	 false
+$133. (~(pos.prox)) 	 false 	 false 	 false
+$134. (~(pos.signal)) 	 false 	 false 	 false
+$135. (~(prox.prox)) 	 false 	 false 	 false
+$136. (~(prox.signal)) 	 false 	 false 	 false
+$137. (~pos) 	 false 	 false 	 false
+$138. (~prox) 	 false 	 false 	 false
+$139. (~signal) 	 false 	 false 	 false
+$140. Green 	 false 	 false 	 false
+$141. Int 	 false 	 false 	 false
+$142. Junction 	 false 	 false 	 false
+$143. none 	 false 	 false 	 false
+$144. pos 	 false 	 false 	 false
+$145. prox 	 false 	 false 	 false
+$146. Signal 	 false 	 false 	 false
+$147. signal 	 false 	 false 	 false
+$148. String 	 false 	 false 	 false
+$149. Track 	 true 	 true 	 true
+$150. Train 	 false 	 false 	 false
+$151. univ 	 false 	 false 	 false
+Expected Completion word: Track
+Expected Completion line: Track {}
+Suggestion exists: true
+
+Suggestion in top 1 = false 
+Suggestion in top 5 = false 
+Suggestion in top 10 = false 
+
+Suggestion in top 1 (Alpha) = false
+Suggestion in top 5 (Alpha) = false
+Suggestion in top 10 (Alpha) = false
+
+Suggestion in top 1 (Len) = false
+Suggestion in top 5 (Len) = false
+Suggestion in top 10 (Len) = true
+
+Time taken: 14.491375

@@ -1,0 +1,33 @@
+Model name: array
+Filename: completion/array-complete.als
+Offset: 230
+Term: .
+Vscode Position: line=11 character=18
+----------------------------------
+12 |   Element = Array.
+----------------------------------
+Completion List:
+# Suggestion 	 Exact 	 Syntactic 	 Semantic
+$1. i2e.Element 	 false 	 false 	 false
+$2. i2e 	 true 	 true 	 true
+$3. i2e.univ 	 false 	 false 	 false
+$4. length 	 false 	 false 	 false
+$5. length.Int 	 false 	 false 	 false
+$6. length.univ 	 false 	 false 	 false
+Expected Completion word: i2e
+Expected Completion line: i2e[Int]
+Suggestion exists: true
+
+Suggestion in top 1 = false 
+Suggestion in top 5 = true 
+Suggestion in top 10 = true 
+
+Suggestion in top 1 (Alpha) = true
+Suggestion in top 5 (Alpha) = true
+Suggestion in top 10 (Alpha) = true
+
+Suggestion in top 1 (Len) = true
+Suggestion in top 5 (Len) = true
+Suggestion in top 10 (Len) = true
+
+Time taken: 95.798625

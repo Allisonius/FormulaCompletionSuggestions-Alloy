@@ -1,0 +1,13 @@
+link
+File -> File
+File -> Protected
+File -> Trash
+Protected -> File
+Protected -> Protected
+Protected -> Trash
+Trash -> File
+Trash -> Protected
+Trash -> Trash
+~link
+^link
+*link

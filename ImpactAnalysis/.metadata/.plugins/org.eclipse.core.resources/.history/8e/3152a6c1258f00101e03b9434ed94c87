@@ -1,0 +1,10 @@
+modelname,filename,position-line,position-character,incompleteline,removedtext,baseline,suggestionedExpression,A_iff_B,A_and_B,not_A_and_B,A_and_not_B,not_A_and_not_B,suggestionImpactTime
+production-line-v2,completion/production-line-v2-complete.als,33,27,"all c : Component | one c.","workstation","{}","\tall c : Component | one c.parts",true,true,false,true,false,20.031834
+production-line-v2,completion/production-line-v2-complete.als,33,27,"all c : Component | one c.","workstation","{}","\tall c : Component | one c.workstation",true,true,false,true,false,20.031834
+production-line-v2,completion/production-line-v2-complete.als,33,27,"all c : Component | one c.","workstation","{}","\tall c : Component | one c.~parts",true,true,false,true,false,20.031834
+production-line-v2,completion/production-line-v2-complete.als,33,27,"all c : Component | one c.","workstation","{}","\tall c : Component | one c.^parts",true,true,false,true,false,20.031834
+production-line-v2,completion/production-line-v2-complete.als,33,27,"all c : Component | one c.","workstation","{}","\tall c : Component | one c.*parts",true,true,false,true,false,20.031834
+production-line-v2,completion/production-line-v2-complete.als,33,27,"all c : Component | one c.","workstation","{}","\tall c : Component | one c.*succ",true,true,false,false,false,20.031834
+production-line-v2,completion/production-line-v2-complete.als,33,27,"all c : Component | one c.","workstation","{}","\tall c : Component | one c.iden",true,true,false,false,false,20.031834
+production-line-v2,completion/production-line-v2-complete.als,33,27,"all c : Component | one c.","workstation","{}","\tall c : Component | one c.none",,,,,,20.031834
+production-line-v2,completion/production-line-v2-complete.als,33,27,"all c : Component | one c.","workstation","{}","\tall c : Component | one c.univ",,,,,,20.031834

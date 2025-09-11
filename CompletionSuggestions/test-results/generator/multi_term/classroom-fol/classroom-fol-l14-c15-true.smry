@@ -1,0 +1,149 @@
+Model name: classroom-fol
+Filename: completion/classroom-fol-sig.als
+Offset: 162
+Term:  in 
+Vscode Position: line=13 character=15
+----------------------------------
+14 | sig Student in 
+----------------------------------
+Completion List:
+# Suggestion 	 Exact 	 Syntactic 	 Semantic
+$1. ((*Tutors)-Tutors) 	 false 	 false 	 false
+$2. ((*Tutors).Teaches) 	 false 	 false 	 false
+$3. ((^Tutors)-Tutors) 	 false 	 false 	 false
+$4. ((^Tutors).Teaches) 	 false 	 false 	 false
+$5. ((Groups.Group).Person) 	 false 	 false 	 false
+$6. ((Groups.Group).Teaches) 	 false 	 false 	 false
+$7. ((Groups.Group).Tutors) 	 false 	 false 	 false
+$8. ((Groups.Group).univ) 	 false 	 false 	 false
+$9. ((Groups.univ).Person) 	 false 	 false 	 false
+$10. ((Groups.univ).Teaches) 	 false 	 false 	 false
+$11. ((Groups.univ).Tutors) 	 false 	 false 	 false
+$12. ((Groups.univ).univ) 	 false 	 false 	 false
+$13. ((Teaches.Class).Teaches) 	 false 	 false 	 false
+$14. ((Teaches.Class).Tutors) 	 false 	 false 	 false
+$15. ((Teaches.univ).Teaches) 	 false 	 false 	 false
+$16. ((Teaches.univ).Tutors) 	 false 	 false 	 false
+$17. ((Tutors.Person).Teaches) 	 false 	 false 	 false
+$18. ((Tutors.Person).Tutors) 	 false 	 false 	 false
+$19. ((Tutors.Teaches)-Teaches) 	 false 	 false 	 false
+$20. ((Tutors.Tutors)-Tutors) 	 false 	 false 	 false
+$21. ((Tutors.univ).Teaches) 	 false 	 false 	 false
+$22. ((Tutors.univ).Tutors) 	 false 	 false 	 false
+$23. ((~Teaches).Person) 	 false 	 false 	 false
+$24. ((~Teaches).Teaches) 	 false 	 false 	 false
+$25. ((~Teaches).Tutors) 	 false 	 false 	 false
+$26. ((~Teaches).univ) 	 false 	 false 	 false
+$27. ((~Tutors)-Tutors) 	 false 	 false 	 false
+$28. ((~Tutors).Person) 	 false 	 false 	 false
+$29. ((~Tutors).Teaches) 	 false 	 false 	 false
+$30. ((~Tutors).Tutors) 	 false 	 false 	 false
+$31. ((~Tutors).univ) 	 false 	 false 	 false
+$32. (*(Tutors.Tutors)) 	 false 	 false 	 false
+$33. (*(~Tutors)) 	 false 	 false 	 false
+$34. (*Tutors) 	 false 	 false 	 false
+$35. (^(Tutors.Tutors)) 	 false 	 false 	 false
+$36. (^(~Tutors)) 	 false 	 false 	 false
+$37. (^Tutors) 	 false 	 false 	 false
+$38. (Class-(Person.Teaches)) 	 false 	 false 	 false
+$39. (Class-(univ.Teaches)) 	 false 	 false 	 false
+$40. (Class.(Groups.Group)) 	 false 	 false 	 false
+$41. (Class.(Groups.univ)) 	 false 	 false 	 false
+$42. (Class.Groups) 	 false 	 false 	 false
+$43. (Groups.Group) 	 false 	 false 	 false
+$44. (Groups.univ) 	 false 	 false 	 false
+$45. (none->none) 	 false 	 false 	 false
+$46. (none->none->none) 	 false 	 false 	 false
+$47. (Person-(Person.Tutors)) 	 false 	 false 	 false
+$48. (Person-(Teaches.Class)) 	 false 	 false 	 false
+$49. (Person-(Teaches.univ)) 	 false 	 false 	 false
+$50. (Person-(Tutors.Person)) 	 false 	 false 	 false
+$51. (Person-(Tutors.univ)) 	 false 	 false 	 false
+$52. (Person-(univ.Tutors)) 	 false 	 false 	 false
+$53. (Person.(Class.Groups)) 	 false 	 false 	 false
+$54. (Person.(Teaches.Groups)) 	 false 	 false 	 false
+$55. (Person.(Tutors.Teaches)) 	 false 	 false 	 false
+$56. (Person.(Tutors.Tutors)) 	 false 	 false 	 false
+$57. (Person.(univ.Groups)) 	 false 	 false 	 false
+$58. (Person.Teaches) 	 false 	 false 	 false
+$59. (Person.Tutors) 	 false 	 false 	 false
+$60. (Teaches&(Tutors.Teaches)) 	 false 	 false 	 false
+$61. (Teaches+(Tutors.Teaches)) 	 false 	 false 	 false
+$62. (Teaches-(Tutors.Teaches)) 	 false 	 false 	 false
+$63. (Teaches.(Groups.Group)) 	 false 	 false 	 false
+$64. (Teaches.(Groups.univ)) 	 false 	 false 	 false
+$65. (Teaches.(Person.Teaches)) 	 false 	 false 	 false
+$66. (Teaches.(univ.Teaches)) 	 false 	 false 	 false
+$67. (Teaches.(~Teaches)) 	 false 	 false 	 false
+$68. (Teaches.Class) 	 false 	 false 	 false
+$69. (Teaches.Groups) 	 false 	 false 	 false
+$70. (Teaches.univ) 	 false 	 false 	 false
+$71. (Tutors&(Tutors.Tutors)) 	 false 	 false 	 false
+$72. (Tutors&(~Tutors)) 	 false 	 false 	 false
+$73. (Tutors+(Tutors.Tutors)) 	 false 	 false 	 false
+$74. (Tutors+(~Tutors)) 	 false 	 false 	 false
+$75. (Tutors-(Tutors.Tutors)) 	 false 	 false 	 false
+$76. (Tutors-(~Tutors)) 	 false 	 false 	 false
+$77. (Tutors.(^Tutors)) 	 false 	 false 	 false
+$78. (Tutors.(Class.Groups)) 	 false 	 false 	 false
+$79. (Tutors.(Person.Tutors)) 	 false 	 false 	 false
+$80. (Tutors.(Teaches.Class)) 	 false 	 false 	 false
+$81. (Tutors.(Teaches.Groups)) 	 false 	 false 	 false
+$82. (Tutors.(Teaches.univ)) 	 false 	 false 	 false
+$83. (Tutors.(Tutors.Person)) 	 false 	 false 	 false
+$84. (Tutors.(Tutors.Teaches)) 	 false 	 false 	 false
+$85. (Tutors.(Tutors.Tutors)) 	 false 	 false 	 false
+$86. (Tutors.(Tutors.univ)) 	 false 	 false 	 false
+$87. (Tutors.(univ.Groups)) 	 false 	 false 	 false
+$88. (Tutors.(univ.Tutors)) 	 false 	 false 	 false
+$89. (Tutors.(~Tutors)) 	 false 	 false 	 false
+$90. (Tutors.Person) 	 false 	 false 	 false
+$91. (Tutors.Teaches) 	 false 	 false 	 false
+$92. (Tutors.Tutors) 	 false 	 false 	 false
+$93. (Tutors.univ) 	 false 	 false 	 false
+$94. (univ.(Class.Groups)) 	 false 	 false 	 false
+$95. (univ.(Groups.Group)) 	 false 	 false 	 false
+$96. (univ.(Groups.univ)) 	 false 	 false 	 false
+$97. (univ.(Teaches.Groups)) 	 false 	 false 	 false
+$98. (univ.(Tutors.Teaches)) 	 false 	 false 	 false
+$99. (univ.(Tutors.Tutors)) 	 false 	 false 	 false
+$100. (univ.(univ.Groups)) 	 false 	 false 	 false
+$101. (univ.Groups) 	 false 	 false 	 false
+$102. (univ.Teaches) 	 false 	 false 	 false
+$103. (univ.Tutors) 	 false 	 false 	 false
+$104. (~(Class.Groups)) 	 false 	 false 	 false
+$105. (~(Groups.Group)) 	 false 	 false 	 false
+$106. (~(Groups.univ)) 	 false 	 false 	 false
+$107. (~(Tutors.Teaches)) 	 false 	 false 	 false
+$108. (~(Tutors.Tutors)) 	 false 	 false 	 false
+$109. (~(univ.Groups)) 	 false 	 false 	 false
+$110. (~Teaches) 	 false 	 false 	 false
+$111. (~Tutors) 	 false 	 false 	 false
+$112. Class 	 false 	 false 	 false
+$113. Group 	 false 	 false 	 false
+$114. Groups 	 false 	 false 	 false
+$115. Int 	 false 	 false 	 false
+$116. none 	 false 	 false 	 false
+$117. Person 	 true 	 true 	 true
+$118. String 	 false 	 false 	 false
+$119. Teacher 	 false 	 false 	 false
+$120. Teaches 	 false 	 false 	 false
+$121. Tutors 	 false 	 false 	 false
+$122. univ 	 false 	 false 	 false
+Expected Completion word: Person
+Expected Completion line: Person {}
+Suggestion exists: true
+
+Suggestion in top 1 = false 
+Suggestion in top 5 = false 
+Suggestion in top 10 = false 
+
+Suggestion in top 1 (Alpha) = false
+Suggestion in top 5 (Alpha) = false
+Suggestion in top 10 (Alpha) = false
+
+Suggestion in top 1 (Len) = false
+Suggestion in top 5 (Len) = false
+Suggestion in top 10 (Len) = true
+
+Time taken: 14.460833

@@ -1,0 +1,11 @@
+modelname,filename,position-line,position-character,incompleteline,removedtext,baseline,suggestionedExpression,A_iff_B,A_and_B,not_A_and_B,A_and_not_B,not_A_and_not_B,suggestionImpactTime
+production-line-v2,completion/production-line-v2-complete.als,67,35,"all w : Workstation - end | one w.","succ","{}","\tall w : Workstation - end | one w.succ",true,true,false,true,false,24.984084
+production-line-v2,completion/production-line-v2-complete.als,67,35,"all w : Workstation - end | one w.","succ","{}","\tall w : Workstation - end | one w.workers",true,true,false,true,false,24.984084
+production-line-v2,completion/production-line-v2-complete.als,67,35,"all w : Workstation - end | one w.","succ","{}","\tall w : Workstation - end | one w.~succ",true,true,false,true,false,24.984084
+production-line-v2,completion/production-line-v2-complete.als,67,35,"all w : Workstation - end | one w.","succ","{}","\tall w : Workstation - end | one w.~workstation",true,true,false,true,false,24.984084
+production-line-v2,completion/production-line-v2-complete.als,67,35,"all w : Workstation - end | one w.","succ","{}","\tall w : Workstation - end | one w.^succ",true,true,false,true,false,24.984084
+production-line-v2,completion/production-line-v2-complete.als,67,35,"all w : Workstation - end | one w.","succ","{}","\tall w : Workstation - end | one w.*parts",true,true,false,false,false,24.984084
+production-line-v2,completion/production-line-v2-complete.als,67,35,"all w : Workstation - end | one w.","succ","{}","\tall w : Workstation - end | one w.*succ",true,true,false,true,false,24.984084
+production-line-v2,completion/production-line-v2-complete.als,67,35,"all w : Workstation - end | one w.","succ","{}","\tall w : Workstation - end | one w.iden",true,true,false,false,false,24.984084
+production-line-v2,completion/production-line-v2-complete.als,67,35,"all w : Workstation - end | one w.","succ","{}","\tall w : Workstation - end | one w.none",,,,,,24.984084
+production-line-v2,completion/production-line-v2-complete.als,67,35,"all w : Workstation - end | one w.","succ","{}","\tall w : Workstation - end | one w.univ",,,,,,24.984084

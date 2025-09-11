@@ -1,0 +1,27 @@
+hits: 12 (30.0)
+(var.rel) <: (var.rel)
+
+hits: 6 (15.0)
+(sig - sig) <: (var.rel)
+
+hits: 3 (7.5)
+(sig - var) <: (var.rel)
+
+hits: 2 (5.0)
+sig <: var
+var <: var
+(var.rel) <: ((var.rel) :> (var.rel))
+(var.rel) <: sig
+sig <: iden
+((var.rel) - var) <: (var.rel)
+
+hits: 1 (2.5)
+fun_call[] <: (var.rel)
+((var.rel).fun_call[]) <: rel
+var <: sig
+var <: (var.rel)
+(((var.rel).sig) - ((var.rel).sig)) <: (var.rel)
+var <: (rel.sig)
+(var.(rel - rel)) <: ((var.rel) :> (var.(rel - rel)))
+
+

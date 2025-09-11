@@ -1,0 +1,15 @@
+modelname,filename,position-line,position-character,incompleteline,removedtext,baseline,suggestionedExpression,A_iff_B,A_and_B,not_A_and_B,A_and_not_B,not_A_and_not_B,suggestionImpactTime
+production-line-v2,completion/production-line-v2-sig.als,7,25,"sig Human, Robot extends","Worker {}","{}","sig Human, Robot extends Component",,,,,,4.374167
+production-line-v2,completion/production-line-v2-sig.als,7,25,"sig Human, Robot extends","Worker {}","{}","sig Human, Robot extends Dangerous",,,,,,4.374167
+production-line-v2,completion/production-line-v2-sig.als,7,25,"sig Human, Robot extends","Worker {}","{}","sig Human, Robot extends Material",,,,,,4.374167
+production-line-v2,completion/production-line-v2-sig.als,7,25,"sig Human, Robot extends","Worker {}","{}","sig Human, Robot extends Product",,,,,,4.374167
+production-line-v2,completion/production-line-v2-sig.als,7,25,"sig Human, Robot extends","Worker {}","{}","sig Human, Robot extends Worker",,,,,,4.374167
+production-line-v2,completion/production-line-v2-sig.als,7,25,"sig Human, Robot extends","Worker {}","{}","sig Human, Robot extends Workstation",,,,,,4.374167
+production-line-v2,completion/production-line-v2-sig.als,7,25,"sig Human, Robot extends","Worker {}","{}","sig Human, Robot extends begin",,,,,,4.374167
+production-line-v2,completion/production-line-v2-sig.als,7,25,"sig Human, Robot extends","Worker {}","{}","sig Human, Robot extends end",,,,,,4.374167
+production-line-v2,completion/production-line-v2-sig.als,7,25,"sig Human, Robot extends","Worker {}","{}","sig Human, Robot extends Int",,,,,,4.374167
+production-line-v2,completion/production-line-v2-sig.als,7,25,"sig Human, Robot extends","Worker {}","{}","sig Human, Robot extends String",,,,,,4.374167
+production-line-v2,completion/production-line-v2-sig.als,7,25,"sig Human, Robot extends","Worker {}","{}","sig Human, Robot extends seq/Int",,,,,,4.374167
+production-line-v2,completion/production-line-v2-sig.als,7,25,"sig Human, Robot extends","Worker {}","{}","sig Human, Robot extends iden",,,,,,4.374167
+production-line-v2,completion/production-line-v2-sig.als,7,25,"sig Human, Robot extends","Worker {}","{}","sig Human, Robot extends none",,,,,,4.374167
+production-line-v2,completion/production-line-v2-sig.als,7,25,"sig Human, Robot extends","Worker {}","{}","sig Human, Robot extends univ",,,,,,4.374167

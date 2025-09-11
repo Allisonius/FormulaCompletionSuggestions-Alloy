@@ -1,0 +1,1525 @@
+hits: 56 (3.2)
+(((name.name) = name) => ((name.name) = name))
+
+hits: 25 (1.4285714285714286)
+((name !in (name.name)) => ((name.name) = ((name.name) + name)))
+
+hits: 24 (1.3714285714285714)
+((some name) => ((name.name) = ((((name.(~name)) & (name.(~name))) & (name.(~name))) & (name.(~name)))))
+(((name->name) in name) => ((name->name) in fun_call[]))
+
+hits: 23 (1.3142857142857143)
+(pred_call[] => pred_call[])
+
+hits: 22 (1.2571428571428571)
+(((name.name) in name) => ((name.name) in name))
+
+hits: 20 (1.1428571428571428)
+((name != name) => (((name.name).name) = ((name.name).name)))
+
+hits: 19 (1.0857142857142856)
+((name != name) => ((name.name) != (name.name)))
+
+hits: 13 (0.7428571428571429)
+((name !in (name.name)) => (all name: (one name) {
+(name !in (name.name))
+}))
+
+hits: 12 (0.6857142857142857)
+((name in (name.name)) => pred_call[])
+
+hits: 11 (0.6285714285714286)
+(pred_call[] => ((name.(name.name)) = name))
+
+hits: 10 (0.5714285714285714)
+(((name.name) = name) => pred_call[])
+((name != name) => ((((name.name).name) = ((name.name).name)) && (((name.name).name) = ((name.name).name))))
+((name in (one (name.name))) => ((name.(name.name)) = (name.(name.name))))
+
+hits: 8 (0.4571428571428572)
+((some name) => ((no name) && (no name) && (no name)))
+((name in ((name.name).name)) => (name in ((name.name).name)))
+((((name->name) in name) && ((name->name) !in fun_call[])) => (((name->name) in fun_call[]) && ((name->name) !in fun_call[])))
+
+hits: 7 (0.4)
+(((name.name) = (name.name)) => (name = name))
+(((name.(name.name)) = name) => ((name.(name.name)) = name))
+((not (name in ((name.name).name))) => ((no ((name.name).name)) && (no ((name.name).name))))
+((((name.name).name) in name) => ((name.name) !in name))
+((name in name) => (name in name))
+
+hits: 6 (0.34285714285714286)
+(((name.name) = name) => (some name,name: (one name),name: (one (name.name)),name: (one (name.name)) {
+((name in (name.name)) && ((name.name) = (name.name)) && (name in (name.(^name))) && ((name.name) != name))
+}))
+(((name.name) = name) => (some name: (one name),name,name: (one (name.name)) {
+((name in (name.name)) && ((name.name) = (name.name)))
+}))
+((disjoint[name,name] && pred_call[]) => (not (pred_call[] && pred_call[])))
+((((#(name.name)) = 0) || ((name.name) = name)) => (some name,name: (one name),name: (one (name.name)),name: (one (name.name)) {
+((name in (name.name)) && ((name.name) = (name.name)) && ((name = name) || ((name in (name.(^name))) && ((name.name) != name))))
+}))
+((name in (name.name)) => ((name.name) = ((name.name) - name)))
+(((name.((name.name).name)) = (name.((name.name).name))) => (name = name))
+(((name.name) = name) => (((name.fun_call[]).name) = name))
+(((name.(fun_call[].name)) = (name.(fun_call[].name))) => (name = name))
+((name != name) => (((name.name) != (name.name)) || ((name.name) != (name.name))))
+((some (name & name)) => (some (name & name)))
+((name in (fun_call[] & fun_call[])) => (name = name))
+((name in (one (name.name))) => ((name = name) || ((name.(name.name)) = (name.(name.name)))))
+((name in (name.name)) => (some name: (one (name.fun_call[])) {
+((((name.name).name) = name) && (name in (name.name)))
+}))
+((name in (name.name)) => (name in (name.name)))
+((name !in (name.name)) => ((name.name) = ((name.name) - name)))
+(((((name.name).name).name) = name) => (((name.name).name) = name))
+(((name->name) in fun_call[]) => ((name->name) in fun_call[]))
+
+hits: 5 (0.2857142857142857)
+(((name.(name.name)) = (name.(name.name))) => (name = name))
+((name in (name.name)) => (name !in (name.name)))
+(((0 <= name) && (name < fun_call[])) => (fun_call[] = fun_call[]))
+((name in (name.name)) => (((name.name) = name) && ((name.name) = name)))
+((name in name) => pred_call[])
+((name != name) => (fun_call[] != fun_call[]))
+(((name->name) in name) => ((name->name) in name))
+(((name->(name.(name.name))) = (name->name)) => ((name.name) = (((name.name) - (name->(name.(name.name)))) + (name->name))))
+((name in ((name.name).name)) => (((name.name).name) = (((name.name).name) - name)))
+
+hits: 4 (0.2285714285714286)
+((name in (name.name)) => (one name: (one name) {
+(name in (name.name))
+}))
+((some name) => ((name.name) = ((((name.(~name)) & (name.(~name))) & ((name + name).(~name))) & (name.(~name)))))
+(((name.name) = (name.name)) => ((#(fun_call[] & fun_call[])) = 0))
+((some ((name.name).name)) => (some (((name.name).name) & ((name.name).name))))
+((name != name) => ((((name.name).name) = ((name.name).name)) && (((name.name).name) = ((name.name).name)) && (((name.name).name) = ((name.name).name))))
+(((name.name) = name) => (some name,name: (one name),name: (one (name.name)),name: (one (name.name)) {
+((name in (name.name)) && ((name.name) = (name.name)) && ((name = name) || ((name in (name.(^name))) && ((name.name) != name))))
+}))
+((pred_call[] && (not pred_call[])) => ((((name.name).name) = name) && (((name.name).name) = name)))
+((name = name) => ((name.name) = name))
+(((name->(name->(name->name))) in name) => (not (((name->name) in iden) && ((name->name) in iden))))
+(pred_call[] => ((((name.name).name) = name) && (((name.name).name) = name)))
+((pred_call[] && pred_call[]) => (name != name))
+((name in (name.name)) => ((name.name) = (name.name)))
+(((name->name) in (name.(name.name))) => pred_call[])
+(((not pred_call[]) && (((name.name).name) = name)) => ((((name.name).name).name) = name))
+((pred_call[] && (((name.name).name) = name)) => ((((name.name).name).name) = name))
+((name in name) => ((name.name) = fun_call[]))
+((name in (one (name.name))) => (((name.(name.name)).name) = ((name.(name.name)).name)))
+(((name in (name.name)) && (name in (name.name))) => (name in (name.name)))
+((((name.name) = (name.name)) && (name in (name.name))) => (name in (name.(*fun_call[]))))
+((some ((name.name) & (name.name))) => ((name.(name.name)) = (name.(name.name))))
+((some name) => ((name.name) = ((((name.(~name)) & (name.(~name))) & (((name + name) + name).(~name))) & (name.(~name)))))
+((name in (name.name)) => (all name: (one name) {
+(name in (name.name))
+}))
+(((name.(name.name)) = (name.(name.name))) => (no (name.(name.name))))
+((((name->name) in (name.name)) && ((name->name) in (name.name)) && ((name->name) in (name.name))) => ((name->name) in (name.name)))
+((((name->name) in (name.name)) && ((name->name) in (name.name))) => ((name->name) in (name.name)))
+(((name.name) in (name.name)) => ((name.name) in (name.name)))
+((some name: (one name) {
+(name in (name.name))
+}) => (some name: (one name) {
+(name in ((name.name).name))
+}))
+((disjoint[name,name] && ((name.name) = (name.name)) && pred_call[] && pred_call[]) => pred_call[])
+((((name->name) in name) && ((name->name) in name)) => ((name->name) in name))
+(((name.name) = (name.name)) => ((name.name) in ((name.name).(*fun_call[]))))
+((((name.name) = name) && ((name.name) = name)) => ((name.name) = name))
+
+hits: 3 (0.17142857142857143)
+((pred_call[] && (not pred_call[])) => ((name->name) in (name.(~name))))
+((name in ((name.name).name)) => (name !in ((name.name).name)))
+((pred_call[] && pred_call[]) => ((name->name) in (name.(~name))))
+((lone ((name.name).name)) => ((name.name) = (name.name)))
+((not pred_call[]) => ((name.name) = name))
+((((name->name) in name) && ((name->name) in name)) => (name = name))
+((name < fun_call[]) => ((fun_call[].name) = (name.name)))
+((name in (name.name)) => (some name: (one name) {
+(name in (name.name))
+}))
+((pred_call[] && ((((name.name).name).name) = (name.name)) && pred_call[] && (not (some name: (one name) {
+(pred_call[] && ((((name.name).name).name) = (name.name)) && pred_call[] && pred_call[])
+}))) => (((name->name) in fun_call[]) || (not pred_call[])))
+((name < fun_call[]) => ((fun_call[].name) = fun_call[]))
+(((name.name) = name) => (((name.name) = (name.name)) && (some name: (one name) {
+(((name.name) in ((name.(name + name)) & (pred_call[] => (name.name) else (name.name)))) && pred_call[] && (not pred_call[]) && pred_call[])
+})))
+((((name.name).name) = ((name.name).name)) => (((name.name).name) != ((name.name).name)))
+((some (name.name)) => ((name.name) = (name.name)))
+((name != name) => ((#((name.name) & (name.name))) = 0))
+((name in name) => (no (name.name)))
+(pred_call[] => (pred_call[] && (((name->name) in fun_call[]) || (pred_call[] && pred_call[] && pred_call[]))))
+(((name.name) in (name.name)) => (one name: (one (name.name)) {
+(name in (name.name))
+}))
+((name in name) => let name = ((name & name).(*(name <: name))) {
+(name in (name + ((name.name).(*(name <: name)))))
+})
+((some ((name.name).name)) => (some name: (one name) {
+(not pred_call[])
+}))
+((name in ((name.name).name)) => (all name: (one (name - name)) {
+(name !in ((name.name).name))
+}))
+((name = name) => (all name: (one name) {
+((name.(name.name)) = name)
+}))
+(((not pred_call[]) && (not pred_call[])) => ((name->name) in (name.(~name))))
+((name != name) => (no (((name.name).(*name)) & ((name.name).(*name)))))
+(pred_call[] => (pred_call[] && ((name->name) in (name.(~name)))))
+((name in name) => (name !in (name.name)))
+(((name.name) != (name.name)) => ((((name.name).name).name) = (((name.name).name).name)))
+((name !in (name.name)) => ((no name: (one (name.name)) {
+((name in name) && (name in (name.(^name))))
+}) && (name !in ((name.name).name)) && ((name.name) = name)))
+(((some (name.(name.name))) && (some (name.(name.name))) && ((name.(name.name)) in fun_call[])) => pred_call[])
+((((name.name) = name) && pred_call[]) => ((name.name) = name))
+(pred_call[] => ((not pred_call[]) && (not pred_call[])))
+(((name.name) = name) => ((some name: (one name) {
+(let name = (name.(name + name)) {
+((name in ((name.name) & (name.name))) && pred_call[])
+} && ((name.name) = ((name.name) + name)))
+}) && pred_call[]))
+((name != name) => ((#(name.name)) != (#(name.name))))
+((name != ((name.name).name)) => (((name.name).name) = ((name.name).name)))
+((not ((((((name.name).name).name) = name) || ((((name.name).name).name) = name)) && ((((name.name).name).name) = name))) => ((((name.name).name) = name) && (((name.name).name) = name)))
+(((name.name) = name) => (((name.name) = (name.name)) && (some name: (one name) {
+((name in ((name.name) & (name.name))) && (lone ((name.name) - (name.name))) && pred_call[] && (all name: (one (name.name)) {
+let name = (((name.name) in (name.name)) => name else name) {
+pred_call[]
+}
+}) && pred_call[])
+})))
+(((name.name) = name) => (((name.name) = (name.name)) && (some name: (one name) {
+((name in ((name.name) & (name.name))) && pred_call[] && ((name.name) in (name.name)) && pred_call[])
+})))
+(((not pred_call[]) && pred_call[]) => ((name->name) in (name.(~name))))
+((name in ((name.name).name)) => (name !in (((name.name).name) + ((name.name).name))))
+((pred_call[] && pred_call[] && pred_call[]) => pred_call[])
+(pred_call[] => (name in fun_call[]))
+((name = name) => pred_call[])
+(((#fun_call[]) > 0) => ((#fun_call[]) = 0))
+((not (name in (name.name))) => ((name.name) = ((name.name) + name)))
+((name in fun_call[]) => (name !in fun_call[]))
+((name in fun_call[]) => (pred_call[] && ((name->name) in (name.(~name)))))
+(((name.name) = name) => (some name: (one name) {
+(((name.name) in ((name.name) & (name.name))) && pred_call[] && (not pred_call[]) && ((name.name) = ((name.name) + name)) && pred_call[])
+}))
+(pred_call[] => ((name in (fun_call[].name)) && (name in (fun_call[].name)) && pred_call[]))
+(((name.name) in (name.name)) => (some name: (one (name.name)) {
+(name in (name.name))
+}))
+(((#fun_call[]) > 0) => ((#fun_call[]) > 0))
+(((name.name) = (name.name)) => ((name.name) = (name.name)))
+(((((name.name).name) = name) && (((name.name).name) = name) && (((name.name).name) = name) && (((name.name).name) = name)) => (((some (name.(name.name))) && (some (name.(name.name))) && ((name.(name.name)) in fun_call[])) => pred_call[]))
+((((name.name) = name) && ((name.name) = name)) => ((name.name) < (name.name)))
+((name != (name.name)) => (((name.name).name) = ((name.name).name)))
+((some (name.name)) => (no (name.name)))
+((name in name) => (name in ((name & name).(*(name <: name)))))
+
+hits: 2 (0.1142857142857143)
+((((name.name).name) = name) => (((name.name).name) != ((name.name).name)))
+((pred_call[] && pred_call[]) => pred_call[])
+((name in (((name.(name.name)).name) & ((name.(name.name)).name))) => (name = name))
+((name != (name.name)) => (fun_call[] = 1))
+((((name.name).name) = name) => (((name.name).name) != name))
+(((#(name.name)) = 0) => ((#name) = 0))
+((some name) => (name = name))
+((name in (name.name)) => (((name.name) = (name + name)) && (no (name.name))))
+(((fun_call[] in (name - (name.name))) && (no (fun_call[] & name))) => (no (fun_call[] & name)))
+((name !in name) => ((fun_call[] = fun_call[]) && (fun_call[] = fun_call[])))
+((name in (name.name)) => (not (name in (name.name))))
+(((#(name & (name.name))) > 0) => ((#((((name.name) & name).name) & name)) > 0))
+((name in name) => ((name.name) = ((name.name) + (name.name))))
+(((name->name) in name) => ((name.name) = (name.name)))
+((some ((name.name) & name)) => (some name: (one ((name.name) & name)) {
+((name.name) = ((name.name) - name))
+}))
+((name in ((name.name).name)) => (((name.name).name) = name))
+((some (name.name)) => pred_call[])
+(((name->name) in (name.name)) => (all name: (one (name.name)) {
+((name->name) in (name.name))
+}))
+((((name->(name->name)) in name) && (name != name)) => ((name->(name->name)) in name))
+((((name.name).(name.name)) = name) => (((name.name).name) = ((name.name).(name.name))))
+((((name->name) in name) && (name != name)) => ((name->(name->name)) in name))
+((((name->name) in (name.name)) && ((name->name) in (name.name))) => (name = name))
+(((name.(name.name)) = name) => (one (name.(name.name))))
+(pred_call[] => ((not pred_call[]) || (not pred_call[])))
+((name in name) => ((name.name) = (name.name)))
+(((name->name) !in (name.name)) => pred_call[])
+((some (name.name)) => ((some (name.name)) && ((#(name.name)) = fun_call[])))
+((((name.name).name) = name) => pred_call[])
+((some (name.name)) => (some (name & (name.name))))
+((name != (name.(fun_call[].name))) => (((name.(fun_call[].name)).(fun_call[].name)) > (name.(fun_call[].name))))
+((((name.name) = name) && (name !in (((name.name).name) + (name.(name.name))))) => (name !in fun_call[]))
+((pred_call[] && pred_call[]) => let name = fun_call[] {
+let name = fun_call[] {
+(name = name)
+}
+})
+((pred_call[] && ((name.name) in name)) => (not pred_call[]))
+(pred_call[] => ((name.name) = name))
+((((name->name) + (name->name)) in (^name)) => (not ((name->name) in name)))
+(((name.name) = name) => ((((name.name).name).name) = fun_call[]))
+(((name->name) in name) => ((name.name) >= fun_call[]))
+((no (name.name)) => ((name.name) in name))
+((((name.name) = name) && ((name.name) = name) && ((name.name) = name)) => ((name.name) = name))
+((name != name) => ((name.(name.name)) != (name.(name.name))))
+(pred_call[] => (name in name))
+((some (name.name)) => ((name.name) = ((name.name).name)))
+((name != name) => ((name.(name.(name.name))) = name))
+((some name) => (name != name))
+(((name in name) && (name = (name.name)) && (name = (name.name))) => (some name: (one name) {
+(name = (name.name))
+}))
+(((#((name.name) & name)) > 0) => ((#(name & (name.name))) = 0))
+(pred_call[] => (((name.(name.name)).name) = (((name.(name.name)).name) + name)))
+((name !in (name.name)) => (name in (name.name)))
+(((name.(name.name)) != name) => (no (name.(name.name))))
+(((some name) && (some name)) => ((name.name) = (name.name)))
+(((name in (name.(name & name))) && (name in (name.name)) && ((name->name) in (name.name)) && (name in (name.(name + name))) && ((name->name) in (name.name))) => pred_call[])
+((((name.name).name) = name) => (((name.name).name) = name))
+((name in name) => (not (name in name)))
+((name in (name.name)) => ((name.name) != (name.name)))
+((name in (one (name.name))) => (((name->name).name) = ((name->name).name)))
+((pred_call[] && (no name: (one name) {
+pred_call[]
+})) => ((name = fun_call[]) && (((name.name).name) = name) && (((name.name).name) = ((name.name).name)) && (((name.name).name) = fun_call[]) && pred_call[]))
+(pred_call[] => (fun_call[] = (fun_call[] + name)))
+(((#(name.(~name))) < (#(name.(~name)))) => ((name.name) = name))
+((name in ((name.fun_call[]).name)) => (name in (name.name)))
+(pred_call[] => ((some name: (one name) {
+(disjoint[name,name] && disjoint[name,name] && ((name->name) !in (^fun_call[])) && ((name->name) in fun_call[]) && (name in fun_call[]) && ((((name->name) in fun_call[]) => ((name->name) in fun_call[])) || (((name->name) in fun_call[]) => ((name->name) in fun_call[])) || (((name->name) in fun_call[]) => ((name->name) in fun_call[]))) && (name in fun_call[]) && ((name->name) !in (^fun_call[])))
+}) && ((((name->name) in name) => ((name->name) in fun_call[])) || (((name->name) in name) => ((name->name) in fun_call[])) || (((name->name) in name) => ((name->name) in fun_call[])) || (((name->name) in name) => ((name->name) in fun_call[])))))
+((((name->(name->name)) in name) && ((name->(name->name)) in name) && (name < name)) => ((name <= name) && ((name = name) => (name < name))))
+(((#(name.name)) = 0) => (some name,name: (one name),name: (one (name.name)),name: (one (name.name)) {
+((name in (name.name)) && ((name.name) = (name.name)) && ((name = name) || ((name in (name.(^name))) && ((name.name) != name))))
+}))
+((((name.name) = name) && ((name.name) = name)) => ((name.(name.name)) = 0))
+(((name.name) = name) => ((name.name) != name))
+(((#(name.(~name))) = (#(name.(~name)))) => (no (name.name)))
+((((name->(name->name)) in name) && ((name->(name->name)) in name)) => ((name->(name->name)) in name))
+(pred_call[] => (not pred_call[]))
+((((name.name).name) = name) => ((pred_call[] => ((((name.name).name) = name) && (((name.name).name) = name))) && ((pred_call[] && (not pred_call[])) => ((((name.name).name) = name) && (((name.name).name) = name))) && ((not (pred_call[] || pred_call[])) => ((((((((name.name).name).name) = name) || ((((name.name).name).name) = name)) && ((((name.name).name).name) = name)) => ((((((name.name).name).name) = name) => (((name.name).name) = name)) && (((((name.name).name).name) = name) => (((name.name).name) = name)) && (((name.name).name) = name))) && ((not ((((((name.name).name).name) = name) || ((((name.name).name).name) = name)) && ((((name.name).name).name) = name))) => ((((name.name).name) = name) && (((name.name).name) = name)))))))
+((name in ((name.name).name)) => (name in (name.name)))
+((name in ((name.name).name)) => (((name.name).name) in (name.(*fun_call[]))))
+((((#((name.name).name)) >= 1) && pred_call[]) => ((name.name) = (((name.name) + (name->fun_call[])) + (fun_call[]->name))))
+(((name->name) in ((name.((name & name) & name)) - ((name.name)->(name.name)))) => pred_call[])
+((name != name) => pred_call[])
+(((name->name) in name) => ((name->name) !in name))
+((name = 1) => (some name: (one (name.name)) {
+(((name.name) > (((name.name).name).name)) && ((name in ((name.name).name)) || ((name.name) = name) || ((name.name) = name)))
+}))
+(((name.fun_call[]) != -1) => let name = (fun_call[].name) {
+(((name.(name.name)) = (name.fun_call[])) && ((name.(name.name)) = (name.fun_call[])))
+})
+(((name.(name.name)) != (name.(name.name))) => (name in (name.name)))
+(((name.name) = name) => ((name.name) = ((name.name) - name)))
+((((name.name).name) = name) => (name = (name.name)))
+(pred_call[] => (pred_call[] || (no name)))
+((name in (((name.name).name).name)) => (name in name))
+(((name.name) = name) => ((name.name) = (name.name)))
+((name !in fun_call[]) => ((fun_call[] = (fun_call[] + name)) && (((name.name).name) = (((name.name).name) + name))))
+((no (name.name)) => ((no (name.name)) && (no (name.name))))
+(((name.name) != fun_call[]) => (all name: (one ((name.name).name)) {
+(some name: (one fun_call[]) {
+(name in (name.(name.name)))
+})
+}))
+(((#((name.name).name)) > 0) => (name in ((name.name).name)))
+((fun_call[] = name) => pred_call[])
+(pred_call[] => (fun_call[] in (name.name)))
+((name = fun_call[]) => ((name != name) && (fun_call[] = 2)))
+((((name.name).name) = name) => (some name: (one name) {
+((name in ((name.name).name)) && ((name.name) = (name.name)) && ((name.name) in name))
+}))
+(pred_call[] => (((name.name).name) = name))
+((some name: (one name) {
+(name in (((name.name).name).name))
+}) => (some name: (one name) {
+(name in ((name.name).name))
+}))
+((no (name.name)) => (name in name))
+((name = 0) => (some name: (one (name.name)) {
+(((name.name) < (((name.name).name).name)) && ((name in ((name.name).name)) || ((name.name) = name) || ((name.name) = name)))
+}))
+((no (name.name)) => (no (name.name)))
+((some (name.name)) => (one (name.name)))
+(((name.name) = name) => (((name.name) in (name.name)) => (some name: (one (name.name)) {
+(name in (name.name))
+})))
+((name = name) => (name < name))
+(((name->(name->name)) in name) => (some name: (one name) {
+(((name->name) in name) && ((name->(name->name)) in name))
+}))
+(((#(name & (name.name))) > 0) => ((#(((((name.name) & name).name).name) & name)) > 0))
+(((name.name) = name) => (((name.name) in (name.name)) => (one name: (one (name.name)) {
+(name in (name.name))
+})))
+(((name->name) in (name.name)) => (name in (name.name)))
+((some (name.name)) => (fun_call[] = fun_call[]))
+(pred_call[] => ((name in (fun_call[].name)) && (name in (fun_call[].name))))
+(((name.name) = name) => (((name.name) in (name.name)) <=> ((name.name) in (name.name))))
+((some (fun_call[] & (((name.name) - name).name))) => pred_call[])
+((((name.name) = name) && (((name.name) = name) || ((name.name) = name))) => ((name.name) = name))
+((name !in (name.name)) => ((((name.name) = ((name.name) + name)) && (name in (name.name))) => ((name.name) = ((name.name) - name))))
+((name != name) => (no ((name.name) & (name.name))))
+((name != (name.(name.name))) => (((name.(name.name)).(name.name)) > (name.(name.name))))
+(((name.name) = name) => (some disj name,name: (one name),name: (one (name.name)),name: (one (name.name)) {
+((name in (name.name)) && ((name.name) = (name.name)) && (name in (name.(^name))) && ((name.name) != name))
+}))
+(((name.(name.name)) = (name.(name.name))) => (name in (name.name)))
+(((name = fun_call[]) && (name = 0)) => ((name.(name.((name.(name.name)).name))) = (fun_call[].(name.((name.(name.name)).name)))))
+((some ((name.name).name)) => (no ((name.name).name)))
+((name in name) => (((name.name) <: (name.name)) = ((name.name) <: (name.name))))
+(((name in ((name.name).name)) && pred_call[]) => (no name: (one ((name.name).name)) {
+(name in ((name.(^fun_call[])) & (name.(^fun_call[]))))
+}))
+((name in ((name.(name + name)).name)) => (name in (name.name)))
+((name in ((name.name).name)) => (not (some name: (one ((name.name).name)) {
+((name in ((name.(^fun_call[])) & (name.(^fun_call[])))) && (name !in ((name.name).name)))
+})))
+(((#((name.name) & name)) > 0) => ((#(((((name.name) & name).name).name) & name)) > 0))
+(((name in (name.name)) && ((name.name) = name)) => pred_call[])
+((((name.name) = name) && ((name.name) = name)) => (name = name))
+((name != name) => (name in (name.name)))
+((((name->(name->name)) in name) && ((name->(name->name)) in name) && (name != name)) => ((name->(name->name)) in name))
+(((name in (name.((name + name) & (name + name)))) && (name in (name.(name + name))) && ((name->name) in (name.name))) => pred_call[])
+((name in (name.(^name))) => (name in (name.(^name))))
+(pred_call[] => ((name.name) = ((name.name) + name)))
+((name in (name.name)) => ((name in (name.name)) || (some name: (one name) {
+(name in (name.name))
+})))
+((name !in (name.name)) => ((((name.name).name) = (name.name)) && pred_call[] && pred_call[]))
+((((name.name).name) = ((name.name).name)) => (((name.name).name) != name))
+(((name.name) = name) => (fun_call[] = 0))
+((((name + name) in (name.name)) && (name != name) && ((name.name) != fun_call[])) => (((name.name) in (name.name)) && (((name.name).name) = fun_call[])))
+((((name.name).name) = name) => ((((name.fun_call[]).name).name) = name))
+(pred_call[] => (some name: (one name) {
+((name.name) = fun_call[])
+}))
+(((name->name) in (name.name)) => ((name->name) in (name.name)))
+(((name.name) > (name.name)) => (((#((fun_call[] & name) & (name.name))) > 0) && pred_call[]))
+((((name.name) = ((name.name) + name)) && (name in (name.name))) => ((name.name) = ((name.name) - name)))
+(((name.name) = name) => ((plus[(plus[(plus[(plus[(plus[(plus[(plus[(plus[(plus[(#((name.name) & name)), (#((name.name) & name))]), (#((name.name) & name))]), (#((name.name) & name))]), (#((name.name) & name))]), (#((name.name) & name))]), (#((name.name) & name))]), (#((name.name) & name))]), (#((name.name) & name))]), 1]) = (plus[(plus[(plus[(plus[(plus[(plus[(plus[(plus[(#((name.name) & name)), (#((name.name) & name))]), (#((name.name) & name))]), (#((name.name) & name))]), (#((name.name) & name))]), (#((name.name) & name))]), (#((name.name) & name))]), (#((name.name) & name))]), (#((name.name) & name))])))
+((pred_call[] && (some (name.((name.name).name)))) => (name in (name.((name.name).name))))
+(((not (pred_call[] || pred_call[])) && (pred_call[] || pred_call[] || pred_call[] || pred_call[] || (some name: (one name) {
+(pred_call[] && (some name: (one name) {
+((pred_call[] && (pred_call[] || ((name->name) in name)) && pred_call[]) || pred_call[])
+}))
+}))) => (not pred_call[]))
+(pred_call[] => (no name: (one ((name.name).name)) {
+(name in ((name.(^fun_call[])) & (name.(^fun_call[]))))
+}))
+((some ((name.name).name)) => (((name.name).name) in (name.(^name))))
+((((name.name) & name) = name) => (some name: (one (name.name)) {
+((name.name) = ((name.name) - name))
+}))
+((name != (name.name)) => pred_call[])
+((((name.name) = name) && (name !in ((((name.name).name) + (name.(name.name))) + ((name.(name.name)).(name.name))))) => (name !in fun_call[]))
+(((#(name.(~name))) > (#(name.(~name)))) => ((name.name) = name))
+(((name in ((name.name).name)) && (name !in ((name.name).name))) => (name in ((name.name).name)))
+((name !in ((name.name).name)) => (((name.name).name) = (((name.name).name) + name)))
+((not (lone ((name.name).name))) => (all name: (one ((name.name).name)) {
+(some ((name.name).name))
+}))
+(((name.(name.name)) != (name.(name.name))) => (some (name.(name.name))))
+((pred_call[] && pred_call[] && pred_call[] && pred_call[] && (name in (name.name))) => (some name: (one name) {
+((name in (name.name)) && (some name: (one name),name: (one name),name: (one name) {
+((name in (name.(name.name))) && (name in (name.(name.name))) && ((name.name) = (name->name)) && (name in (name.name)))
+}))
+}))
+(((name in ((name.name).name)) && (name in ((name.name).name))) => (not (some name: (one ((name.name).name)) {
+((name in (name.(^fun_call[]))) && (name !in ((name.name).name)))
+})))
+(((name.name) = name) => (((name.name) in (name.name)) => ((name.name) in (name.name))))
+((name = name) => (((name.name) = name) && ((name.name) = fun_call[])))
+(((name = fun_call[]) && (name = name)) => ((name.(name.((name.(name.name)).name))) = (1.(name.((name.(name.name)).name)))))
+((name = (name.name)) => (some name: (one name),name: (one name) {
+((name = (name.name)) && (name = (name.name)) && (name in name))
+}))
+((((name.name) in name) && pred_call[]) => pred_call[])
+((name != name) => ((((name.name).name) - name) = (((name.name).name) - name)))
+((name in (name.(name.name))) => (name in (name.(name.name))))
+((not (pred_call[] || pred_call[])) => ((((((((name.name).name).name) = name) || ((((name.name).name).name) = name)) && ((((name.name).name).name) = name)) => ((((((name.name).name).name) = name) => (((name.name).name) = name)) && (((((name.name).name).name) = name) => (((name.name).name) = name)) && (((name.name).name) = name))) && ((not ((((((name.name).name).name) = name) || ((((name.name).name).name) = name)) && ((((name.name).name).name) = name))) => ((((name.name).name) = name) && (((name.name).name) = name)))))
+((name = fun_call[]) => ((name != name) && (fun_call[] = 1)))
+((((name->(name->name)) in name) && ((name->name) in name)) => ((name->name) in name))
+((not (pred_call[] || pred_call[] || pred_call[])) => (fun_call[] = name) => pred_call[] else ((fun_call[] = name) => pred_call[]))
+(((name.name) = (name.name)) => (no (name.name)))
+((no (fun_call[] & (((name.name) - name).name))) => pred_call[])
+((((name.name) = name) && (name != ((name.name).name))) => (name !in fun_call[]))
+((((name.name).name) = name) => (((name.name).name) = (((name.fun_call[]).name).name)))
+((some name) => (name = fun_call[]))
+((name in (((name.fun_call[]).fun_call[]).name)) => (name in (name.name)))
+((some (((name.name).name) & (name.name))) => (lone ((name + name) - (name.name))))
+((name !in (name.name)) => pred_call[])
+(((((((name.name).name).name) = name) || ((((name.name).name).name) = name)) && ((((name.name).name).name) = name)) => ((((((name.name).name).name) = name) => (((name.name).name) = name)) && (((((name.name).name).name) = name) => (((name.name).name) = name)) && (((name.name).name) = name)))
+(((name in (name.name)) && (name in (name.name))) => (name = name))
+
+hits: 1 (0.05714285714285715)
+(((((name.name).name) = name) && (name in (name.name)) && (name !in (name.name))) => (some name: (one (name.fun_call[])) {
+((((name.name).name) = name) && (all name: (one fun_call[]) {
+(name !in (name.name))
+}))
+}))
+((((name.name).name) = name) => ((((name.name) = name) || ((name.name) = name)) && (((name.name).name) = name)))
+((pred_call[] => (fun_call[] = (fun_call[] - name))) => (fun_call[] = (fun_call[] - name)))
+((((name.name) = name) && ((name.name) = 0) && ((name.name) = name)) => (((name.name) = "General Ward") && ((name.name) = "ICU") && ((name.name) = 0) && ((name.name) = name) && ((name.name) = 1) && ((name.name) = name)))
+((((name.name) = name) && ((name.name) != name) && ((name.name) = name)) => ((name.name) = name))
+(((fun_call[] in name) && ((name.name) in fun_call[])) => ((fun_call[] & name) in (name.name)))
+(((name->name) in name) => (((name = name) => pred_call[]) && ((name = name) => pred_call[]) && (((name != name) && (name != name)) => pred_call[])))
+((no name: (one name) {
+((((name.name).name) = name) && (((name.name).name) = (name.name)))
+}) => (((name.name).name) = ((name.name).name)))
+(((name in fun_call[]) && (((name.name).name) = name) && (name in fun_call[])) => ((name !in ((name.name).name)) && (((name.name).name) in name) && (name in fun_call[])))
+(((some name: (one (name.name)) {
+(((name.name) < (((name.name).name).name)) && ((name in ((name.name).name)) || ((name.name) = name) || ((name.name) = name)))
+}) && (no name: (one (name.name)) {
+(((name.name) > (((name.name).name).name)) && ((name in ((name.name).name)) || ((name.name) = name) || ((name.name) = name)))
+})) => ((((name.name).name) = name) && (((name.name).name) = name)))
+((name = fun_call[]) => ((name.(name.((name.(name.name)).name))) = (name.(name.((name.(name.name)).name)))))
+((((name.name) = name) && ((name.name) in (name + name)) && ((name.name) = name)) => (((name.name) = name) && ((name.name) = name) && (((name.name) != name) => ((name.name) = ((name.name).fun_call[]))) && (((name.name) = name) => ((name.name) = name))))
+(((some (((name.name).name) & ((name.name).name))) && (((name.name).name) !in ((name.name).name))) => (one name: (one ((name.name) & name)) {
+(((name.name) = (name.name)) && (((name.name).name) = ((name.name).name)))
+}))
+(((name = name) && (name = 5)) => (((name.name) = fun_call[]) && ((name.name) = name)))
+(((name = name) && ((name.name) in name)) => ((name.name) = name))
+((name in (name.(name.name))) => (((name.(name.name)) = name) => ((((name.name) = name) && ((name.name) = name) && ((name.(name.name)) = name)) => ((((name.name) in (name + name)) && ((name.name) in (name + name)) && ((name.(name.name)) = name)) => ((((name.name) in ((name + name) + name)) && ((name.name) in ((name + name) + name)) && ((name.(name.name)) = name)) => (((name.name) = name) && ((name.name) = name)))))))
+(((name->name) in fun_call[]) => pred_call[])
+((((name.name) = 1) && ((name.name) = 1)) => (fun_call[] = 9))
+(((not ((((name.name).name).name) = name)) && ((((name.name).name).name) = name)) => (((name.name).name) = name))
+(((#(name.name)) < 3) => ((name.name) = name))
+((name in (name.(name.name))) => (name in (name.(^(name.name)))))
+((name !in name) => (((name in (name.name)) => (all name: (one name) {
+(name in (name.name))
+})) || ((name !in (name.name)) => (all name: (one name) {
+(name !in (name.name))
+}))))
+((name in name) => (all name: (one name) {
+(((name.name) >= (name.name)) => ((name.name) = ((name.name) + 1)))
+}))
+(((#(name.name)) = 2) => (((((name.name).name) in name) => ((name.name) !in name)) && ((((name.name).name) in name) => ((name.name) !in name))))
+(pred_call[] => ((name.name) = (name.name)))
+(((name.name) !in (fun_call[].name)) => ((name.(name.name)) = fun_call[]))
+((some (name.name)) => ((name.name) in ((name.name).(name.name))))
+(((name.name) != name) => (((((name.name).name).name) = (((name.name).name).name)) && ((name.name) = (name.name))))
+(pred_call[] => (all name: (one name) {
+(((name + name) !in (name.name)) && ((name + name) !in (name.name)) && ((name + name) !in (name.name)) && ((name + name) !in (name.name)))
+}))
+((name = fun_call[]) => let name = fun_call[] {
+let name = fun_call[] {
+((name.(name.(name.name))) = (name.(name.((name.(name.name)).name))))
+}
+})
+(((name.name) = (name.name)) => pred_call[])
+((name = ((name.name).name)) => (((name.name).name) = name))
+(((name.name) = (name.name)) => (((name.name) = (name.name)) && (name in name)))
+((some (name & ((fun_call[].name).name))) => ((some (((name.name).name) & name)) && (some (((name.name).name) & name))))
+(((name in ((name.name).name)) && (name !in ((name.name).name)) && (name !in ((name.name).name)) && (name in ((name.name).name)) && (name !in ((name.name).name))) => (((name.name).name) = (((name.name).name) + name)))
+((name !in name) => (((name in (name.name)) => (some name: (one name) {
+(name in (name.name))
+})) && ((name !in (name.name)) => (all name: (one name) {
+(name !in (name.name))
+}))))
+((some (name & ((name.name).name))) => ((no (name & ((name.name).name))) && (some (name & ((name.name).name))) && (some (name & ((name.name).name))) && (no (name & ((name.name).name)))))
+((some ((name.name) & name)) => ((name.name) = ((name.name) - name)))
+((some (name & ((name.name).name))) => pred_call[])
+(((name.name) = name) => ((name.name) = (name - name)))
+(((name.name) !in (name.name)) => ((name.name) = ((name.name) + (name.name))))
+(((name in (name.name)) && ((name.name) != name) && ((name.name) != name) && ((#(name.name)) > 2)) => (((name.name) = (name.name)) && ((name.name) = (name.name))))
+(((name->name) in (name.name)) => ((not (name in (name.name))) && (not (name in (name.name)))))
+((not (lone ((name.name).name))) => ((name.name) = ((name.name) + (name->(((((name.name).name) + ((name.name).name)).name).name)))))
+(((name.name) !in ((name.name).name)) => ((name.name) = ((name.name) + name)))
+(((name in ((name.name).name)) && (((name.name).name) > 0) && ((((name.name).name).name) = 0) && (((name.name).name) = (name.name))) => (((((name.name).name).name) = ((name.name).name)) && ((((name.name).name).name) = ((name.name).name))))
+((name in (fun_call[].name)) => (one name: (one fun_call[]) {
+(((name.name) = name) && ((name.name) = name))
+}))
+((some ((name.(^name)) & name)) => (name in name))
+(((name != name) && ((((name.name).name).name) = name) && ((((name.name).name).name) = name)) => ((((name.name).name) = ((name.name).name)) && (((name.name).name) = ((name.name).name)) && (not (some name: (one (name.(*(name.name)))) {
+(no ((name.name).name))
+}))))
+((((name.name) = (name.name)) && (no ((name + name) & fun_call[]))) => (some name: (one fun_call[]) {
+(((name->name) + (name->name)) in name)
+}))
+((name != name) => (name in (name.(^name))))
+((name >= 4) => (name = fun_call[]))
+((((name.name) in (name + name)) && ((name.name) in (name + name)) && ((name.(name.name)) = name)) => ((((name.name) in ((name + name) + name)) && ((name.name) in ((name + name) + name)) && ((name.(name.name)) = name)) => (((name.name) = name) && ((name.name) = name))))
+(((((name.name) = name) && (not pred_call[])) || (((name.name) = name) && (not pred_call[])) || (((name.name) = name) && (not pred_call[]))) => ((name.name) = name))
+((no ((name.name) & name)) => (some name: (one (name.name)) {
+((name.name) = ((name.name) - name))
+}))
+((name in name) => (some (name - name)))
+(((name in ((name.name).name)) && (name in ((name.name).name))) => ((((name.name).name) = (((name.name).name) + name)) && (((name.name).name) = (((name.name).name) - name)) && (((name.name).name) = (((name.name).name) + name))))
+(((name in (name.(name & name))) && (name in (name.(name + name))) && ((name->name) in (name.name)) && (name in (name.(name + name))) && ((name->name) in (name.name))) => pred_call[])
+((((name.name) = 2) && ((name.name) = 1)) => (fun_call[] = 5))
+((pred_call[] && pred_call[]) => (((name.name) = (name.name)) && (name = name) => ((name.name) = name) else ((name = name) => ((name.name) = name))))
+(((name.name) = name) => ((((name.name).name) & name) = (((name.name).name) & name)))
+(((((name.name).name) = 3) && (((name.name).name) = (((name.name).name).name)) && (((name.name).name) = fun_call[]) && (no name: (one name) {
+pred_call[]
+})) => ((((name.name).name) = name) && (((name.name).name) = ((name.name).name)) && (((name.name).name) = ((name.name).name)) && pred_call[]))
+(((name.(fun_call[].name)) = name) => (({ name: (one (name.(fun_call[].name))) {
+(not (some name: (one (name.(fun_call[].name))) {
+(name in (name.(fun_call[].name)))
+}))
+} }) = name))
+(((name.name) = name) => (some name: (one name) {
+((name.name) = ((name.name) + name))
+}))
+((no (name.name)) => ((name.(name.name)) = name))
+((name !in fun_call[]) => ((fun_call[] = (fun_call[] + name)) && pred_call[]))
+((some name: (one name),name: (one name) {
+((name->(name->name)) in name)
+}) => (some name: (one name) {
+((name->name) in name)
+}))
+((((name.(name.name)) = name) && ((#((name.(name.name)) & ((name.name).name))) > 1)) => (name in (name.(name.name))))
+(((name in ((name.name).name)) && (name in ((name.name).name)) && (name in ((name.name).name)) && (name !in ((name.name).name)) && (((#((name.name).name)) + (#((name.name).name))) <= 3)) => ((((name.name).name) = (((name.name).name) - name)) && (((name.name).name) = (((name.name).name) + name)) && (((name.name).name) = (((name.name).name) + name))))
+((no ((name.name) & name)) => (no ((name.name) & name)))
+((name !in name) => (((name in (name.name)) => (one name: (one name) {
+(name in (name.name))
+})) && ((name !in (name.name)) => (all name: (one name) {
+(name !in (name.name))
+}))))
+((((name.name).name) = ((name.name).name)) => (((#name) = 1) && (name in name)))
+((((name.name) = 2) && ((name.name) = 3)) => (fun_call[] = 3))
+((name in ((name.name).name)) => ((#((name.name).name)) > 1))
+(((((((name.name).name).name) = name) || ((((name.name).name).name) = name)) && ((((name.name).name).name) = name)) => ((((((name.name).name).name) = name) => (((name.name).name) = name)) && ((((((name.name).name).name) = name) && ((((name.name).name).name) = name)) => (((name.name).name) = name)) && (((name.name).name) = name)))
+(((name.name) in (name + name)) => ((#(name.name)) > 1))
+((name in (name.name)) => (all name: (one ((name.name).(*(name.name)))) {
+((name in (name.(*(name.name)))) => (name !in (name.(*(name.name)))))
+}))
+((((name.name) = name) && ((name.name) = name)) => ((#((name.name).(name.name))) >= 2))
+((((name.name).fun_call[]) = 0) => ((name.name) = name))
+((name in name) => ((#(name.name)) = 3))
+(pred_call[] => ((((name.name).name) in name) || let name = (((name.name) + (name->((name.name).name))) - (name->((name.name).name))) {
+let name = ({ name: (one name) {
+(name in (name.(^name)))
+} }) {
+(all disj name,name,name: (one name) {
+((name = (name.name)) => (not pred_call[]))
+})
+}
+}))
+(((name in (fun_call[].name)) && (name in (fun_call[].name))) => (((name->name) in (name.name)) => ((name->name) in (name.name))))
+((((name.name) = name) && ((#(name.name)) = 2)) => (((name.name) = (name.name)) && ((name.name) = (name.name))))
+((name != name) => ((name.name) > (name.name)))
+(((name.(name.name)) = name) => (({ name: (one ((name.name).name)) {
+(not (some name: (one (name.(name.name))) {
+(name in ((name.name).name))
+}))
+} }) = name))
+(((name !in (fun_call[].name)) && (name !in (fun_call[].name))) => (((name->name) in (name.name)) => ((name->name) in (name.name))))
+(((name.name) = (name.name)) => ((name->name) in name))
+((name != name) => ((((name->name) in (name.name)) <=> ((name->name) in (name.name))) && (((name->name) !in (name.name)) <=> ((name->name) !in (name.name)))))
+(((some ((name.name).name)) && ((((name.name).name).name) = name) && ((((name.name).name).name) = name)) => (((name.name).name) = name))
+((((name.name).name) in name) => ((((name.name).name) = name) && (((name.name).name) = name)))
+(((name in (name.name)) && ((name.name) != name) && ((#(name.name)) = 2)) => (((name.name) = (name.name)) && ((name.name) = (name.name))))
+(((name.name) = name) => (((name in (((name.name).name).name)) && ((name.name) = name)) => (((name in (((name.name).name).name)) && ((name.name) = name)) => ((((name in (((name.name).name).name)) => (name in name)) && ((name.name) = name)) => (((name in (((name.name).name).name)) => (name in name)) && (name in (name.name)))))))
+(pred_call[] => ((#(name.name)) >= 1))
+((name in name) => ((#(name & name)) = 1))
+(pred_call[] => (all name: (one name),name: (one name) {
+(((no ((name.name).name)) => (((name.name).name) = ((name.name).name))) && ((((name.name).name) = ((name.name).name)) => (no ((name.name).name))))
+}))
+((name in name) => ((some (name.name)) => (name = (name.name))))
+((((name.name) = name) && ((#(name.name)) = 3)) => ((name.name) = name))
+(((#(name.name)) = 3) => (((((name.name).name) in name) => ((name.name) !in name)) && ((((name.name).name) in name) => ((name.name) !in name)) && ((((name.name).name) in name) => ((name.name) !in name)) && ((((name.name).name) in name) => ((name.name) !in name)) && ((((name.name).name) in name) => ((name.name) !in name))))
+((((name.name) = name) && ((name.name) = name) && ((name.name) = name)) => (((name.name) = name) && pred_call[] && pred_call[]))
+((pred_call[] && ((name.name) = name)) => (all name,name: (one name) {
+((name != name) => pred_call[])
+}))
+((((name.name) in (name + name)) && ((name.name) in (name + name)) && (((name.name).name) = ((name.name).name)) && (name != name)) => (((name.name) in name) && (((name.name).name) = name) && ((name.name) in name) && (((name.name).name) = name)))
+((((name.name) = name) && (((name.name) = name) || ((name.name) = name))) => ((((name.name) = name) => ((name.name) = name)) && ((name.name) = name)))
+(pred_call[] => (all name: (one ((name - name) - name)) {
+let name = (((name.(*fun_call[])) - name) - name) {
+((pred_call[] => ((#(name.name)) = 0)) && (pred_call[] => ((#(name.name)) = 1)) && (pred_call[] => ((#(name.name)) >= 1)))
+}
+}))
+((name != name) => ((name.name) = name))
+((name in (name->(name - name))) => ((name.name) in fun_call[]))
+(((#(name.name)) < 5) => ((name.name) = name))
+((name = (name.name)) => (not pred_call[]))
+((((name.name) = 2) && ((name.name) = 2)) => (fun_call[] = 6))
+((name in ((name.name).name)) => (name in (name.(name.name))))
+((((name.name)->name) = ((name.name)->name)) => ((name.name) = ((name.name) + (name->name))))
+(((#(name.name)) > 0) => ((#((name.name).name)) = 1))
+((((name.(name.name)) = name) && ((name.(name.name)) = name)) => pred_call[])
+((some (name.((name.name).name))) => (some name: (one name) {
+pred_call[]
+}))
+(((name->name) in name) => let name = (name - (name->name)) {
+(not pred_call[])
+})
+(pred_call[] => (name !in ((name.name).name)))
+((not (name = name)) => ((name.(name.name)) = (name.(name.name))))
+((((name.name).name) = 1) => ((((name.name).name) = 0) && ((name in (name.name)) => (name !in (name.name))) && ((name.name) = name)))
+(((name->name) in name) => ((name.name) = ((name.name).(^(name.name)))))
+(((name.(fun_call[].name)) = name) => (({ name: (one ((fun_call[].name).name)) {
+(not (some name: (one (name.(fun_call[].name))) {
+(name in ((fun_call[].name).name))
+}))
+} }) = name))
+((fun_call[] < 25) => (fun_call[] = 0))
+((name in (name.name)) => (pred_call[] && ((name.name) in name)))
+((some ((name.name) & name)) => (name in name))
+(((name.name) = name) => (some name: (one (name.name)) {
+((((name.name).name) = ((name.name).name)) && ((name.name) = (name.name)))
+}))
+((name in fun_call[]) => (((fun_call[] = (fun_call[] - name)) && (name in ((name.name).name))) => ((((name.name).name) = (((name.name).name) - name)) && (all name: (one ((name.name).name)) {
+pred_call[]
+}))))
+(((name != ((name.name).name)) && (name != ((name.name).name))) => (((name.name).name) = name))
+(((name.(name.name)) in (name.(name.name))) => (name in ((name.(name.name)).(name.(name.name)))))
+((name != name) => (((name->name) !in name) || ((name->name) !in name)))
+((name in name) => ((name in name) => pred_call[]))
+(((name.(name.name)) = name) => (name in (((name.(name.name)).(*((name.name).(name.name)))).(name.name))))
+((name in ((name.(name + name)) & name)) => ((no (name.name)) && (no (name.name))))
+(((name != name) && ((name.name) = (name.name)) && ((name.name) = (name.name)) && ((name in name) => ((name in name) => pred_call[]))) => (name in ((name.name).name)))
+((one ((name.name).name)) => (((name.name).name) in ((name.name).name)))
+(((name in name) && (not (fun_call[] = name))) => (((name.name).name) = ((name.name).(name.fun_call[]))))
+((not pred_call[]) => ((name.name) = (name.(name.name))))
+((((name.name).name) = name) => ((#(name.name)) = 0))
+((not (((name.name).name) in name)) => ((((name.name).name) = name) && (((name.name).name) = name)))
+((((name.name).name) != (name.name)) => ((some name: (one name) {
+(((name.name) = fun_call[]) && ((name.name) = (((name.name).name).name)))
+}) && ((name.name) = (name.name)) && (((name.name).name) = ((name.name).name))))
+(((name in (name.name)) && (name in (name.name))) => ((name.name) = name))
+(((name in (name.name)) && (some (name.name))) => (some name: (one name) {
+((name != name) && ((name.name) = fun_call[]))
+}))
+(pred_call[] => (((name.name) = (name.name)) || ((name.name) = ((name.name) + name))))
+(((name.name) = name) => (((((name.name).name).name).name) = (((((name.name).name).name).name) - ((((name.name).name).name).name))))
+((name != name) => ((pred_call[] => (not pred_call[])) && pred_call[]))
+((name in (name.(name.name))) => (name !in ((name.name).name)))
+(pred_call[] => (no name: (one name) {
+((name in ((name.name).name)) && ((name.name) = name))
+}))
+((not (name in name)) => ((name.(name.name)) = (name.(name.name))))
+((((name.name) = name) && ((name.name) != name) && ((name.name) != name) && ((name.name) = name)) => ((name.name) = name))
+(((name.name) = name) => (one name: (one (name - name)) {
+((not (name in (name.name))) && ((name.name) = ((name.name) - name)) && ((name.name) = (name.name)) && pred_call[] && (no (name.name)))
+}))
+((name <= name) => ((name.name) <= (name.name)))
+(pred_call[] => (((name.name).name) in name))
+(((name in (name.name)) && (name = 5)) => ((name.name) = name))
+((not ((((((name.name).name).name) = name) || ((((name.name).name).name) = name)) && ((((name.name).name).name) = name))) => (((not (((name.name).name) in name)) => ((((name.name).name) = name) && (((name.name).name) = name))) && ((((name.name).name) in name) => ((((name.name).name) = name) && (((name.name).name) = name)))))
+(pred_call[] => (((name.name) = (name.name)) || ((name.name) = ((name.name) + (name->name)))))
+(((name->name) in name) => (name !in (name.(^(name - (name->name))))))
+((not (pred_call[] || pred_call[])) => ((((((((name.name).name).name) = name) || ((((name.name).name).name) = name)) && ((((name.name).name).name) = name)) => ((((((name.name).name).name) = name) => (((name.name).name) = name)) && (((not ((((name.name).name).name) = name)) && ((((name.name).name).name) = name)) => (((name.name).name) = name)) && (((name.name).name) = name))) && ((not ((((((name.name).name).name) = name) || ((((name.name).name).name) = name)) && ((((name.name).name).name) = name))) => ((((name.name).name) = name) && (((name.name).name) = name)))))
+(((name in (((name.name).name).(name.fun_call[]))) && (name != name)) => pred_call[])
+((name in name) => (pred_call[] || pred_call[]))
+(((name.name) = (name.name)) => (((name->name) in name) || ((name->name) in name)))
+((((name->name)->(name->name)) in name) => (name = name))
+(((name->name) in name) => ((name.(name.(name.name))) = name))
+(((name.name) = name) => (((name.name) = (name.name)) && ((name.name) = (name.name)) && pred_call[] && (no (name.name)) && ((name.name) = (name.name)) && ((name.name) = (name.name)) && ((name.name) = (name.name))))
+(((name != name) && ((name + name) in (name.name)) && ((name.name) = (name.name))) => (no ((name.name) & (name.name))))
+((fun_call[] = fun_call[]) => (((name.(name.name)).name) = ((name.(name.name)).name)))
+(((not (name in (name.name))) || ((#(name.name)) = 1)) => ((name.name) = (name.name)))
+(((name in ((name.name).name)) && (name in ((name.name).name)) && (name in name) && (name !in name) && (name in name)) => pred_call[])
+((name in (name.name)) => (((name in (name.name)) && (name in (name.name))) => ((name in (name.name)) && let name = (name + name) {
+(name in (name.name))
+})))
+((((name.(name.name)) in (name + name)) && ((#((name.(name.name)) & ((name.name).name))) = (#(name.(name.name))))) => (all name: (one ((name.name).(name.(name.name)))) {
+((name->name) in (name.name))
+}))
+((name in ((name.name).(name.name))) => (one ((name.name).name)))
+(pred_call[] => (all name,name,name,name,name: (one name),name: ((name.name)->one (name.name)) {
+((pred_call[] && pred_call[] && pred_call[] && pred_call[]) => (pred_call[] && pred_call[] && pred_call[]))
+}))
+((not pred_call[]) => ((name.name) = (((name.name) - (name->(name.(name.name)))) + (name->((name + name) - name)))))
+((((#fun_call[]) > 4) && ((#((fun_call[].name) & name)) > 2)) => ((#fun_call[]) = 0))
+(((name.name) = name) => ((name.name) = (((name.name) - name) + name)))
+((some ((name.name).name)) => (pred_call[] || (name = name)))
+(((name !in ((((name.name).name) & (name.name)).name)) && (name in ((((name.name).name) & (name.name)).name))) => ((#(name.name)) > (#(name.name))))
+(((name.name) != name) => (name = name))
+((name !in ((name.name).name)) => (((name.name).name) = name))
+(((#(name.name)) = 5) => ((name.name) = name))
+(((name.name) in name) => ((one (name.name)) && (no (name.name))))
+((((name.name) in (name + name)) && (some name: (one name) {
+((name != name) && ((name.name) = (name.name)) && (some name: (one name),name,name,name: (one fun_call[]) {
+(((name.(name.name)) = (name.name)) && ((name.(name.name)) = (name.name)) && ((name.(name.name)) = (name.name)))
+}) && (some name: (one ((name.name).(*name))) {
+((name.name) in name)
+}))
+})) => (one name: (one ((name.name).(*name))) {
+(((name.name) in name) || ((name.name) in name) || ((name.name) in name))
+}))
+(((name in (name.name)) && (name in (name.name))) => ((name in (name.name)) && let name = (name & name) {
+(name in (name.name))
+}))
+((name != name) => (((name.(name.name)) != (name.(name.name))) || (no (name.(name.name)))))
+(((name in (name.name)) && (name in (name.name))) => ((name in (name.name)) && let name = (name + name) {
+(name in (name.name))
+}))
+((((name->name) in name) && (name != name)) => ((name->name) in (name + (~name))))
+((some (fun_call[] & name)) => (some name: (one ((fun_call[] & name) & (name.name))) {
+(all name: (one name) {
+((((name.name) = name) && (fun_call[] in (name - (name.name)))) => (name in (fun_call[] & name)))
+})
+}))
+((((name.name) = name) && ((name.(name.name)) = name)) => (1 = 0))
+(((name in (((name.name).name).name)) && (name != name)) => pred_call[])
+(((#(name & (name.name))) > 0) => ((#(name & (name.name))) > 0))
+((some (name.name)) => (all name: (one name) {
+((name.name) = (name.name))
+}))
+(pred_call[] => ((#(name.name)) = 0))
+(((((name.name).name) in name) && (((name.name).name) in name) && (((name.name).name) in name) && (((name.name).name) in name)) => (((name.name).name) != ((name.name).name)))
+(pred_call[] => (all name: (one name) {
+((name in (name.name)) => pred_call[])
+}))
+((some ((fun_call[] & (name.name)) & ({ name: (one name) {
+(some name: (one name) {
+(((name.name) = name) && (((name.name).name) != ((name.name).name)))
+})
+} }))) => (({ name: (one name) {
+(some name: (one name) {
+(((name.name) = name) && (((name.name).name) != ((name.name).name)))
+})
+} }) in (name.name)))
+((pred_call[] && (name in name)) => ((all name: (one name) {
+(pred_call[] => (name in fun_call[]))
+}) && (all name: (one name) {
+(pred_call[] => (name in fun_call[]))
+})))
+(((name.name) != name) => ((((name.name).name).name) = (((name.name).name).name)))
+(((fun_call[] > 24) && (fun_call[] < 50)) => (fun_call[] = 25))
+((name > 1) => ((name.name) = fun_call[]))
+((((name->name) in ((name.name) <: ((name.name) :> (name.name)))) && pred_call[]) => pred_call[])
+((some name: (one (name.name)) {
+(((name.name) < (((name.name).name).name)) && ((name in ((name.name).name)) || ((name.name) = name) || ((name.name) = name)))
+}) => ((((name.name).name) = name) && (((name.name).name) = name)))
+((name != name) => ((pred_call[] && ((name.name) = name)) => (all name,name: (one name) {
+((name != name) => pred_call[])
+})))
+(((name in (name.name)) && ((name = name) || (name in (name.name))) && ((name.name) = name) && ((name.name) = name)) => (((name.name) = ((name.name) + name)) && ((name.name) = (name.name))))
+(((((((name.name).name).name) = name) || ((((name.name).name).name) = name)) && ((((name.name).name).name) = name)) => ((((((name.name).name).name) = name) => (((name.name).name) = name)) && (((not ((((name.name).name).name) = name)) && ((((name.name).name).name) = name)) => (((name.name).name) = name)) && (((name.name).name) = name)))
+((name != ((name.name).name)) => ((name.name) = (name.name)))
+(pred_call[] => (all name: (one name),name: (one name) {
+(((some ((name.name).name)) => (((name.name).name) != ((name.name).name))) && ((((name.name).name) != ((name.name).name)) => (some ((name.name).name))))
+}))
+((no (name & ((name.name).name))) => pred_call[])
+(((name in (name.name)) && pred_call[]) => (name in (name.name)))
+((name in (name.name)) => (((name in (name.name)) && (name in (name.name))) => ((name in (name.name)) && let name = (name & name) {
+(name in (name.name))
+})))
+((some ((name.name) & name)) => (all name: (one name) {
+(some (name.name))
+}))
+((((name.name).name) != (name.name)) => pred_call[])
+(((name.name) in ((name.name).name)) => (one name: (one (name.name)) {
+(((name.name) = (name.name)) && ((name.name) = (((name.name) - name) + name)))
+}))
+((name in ((name.name).name)) => (one name: (one name) {
+((name in ((name.name).name)) || (name in ((name.name).name)))
+}))
+(((name in (name.name)) && (name = 1)) => ((name.name) = name))
+(((some (fun_call[] & name)) && (some (fun_call[] & name))) => (fun_call[] in (name.name)))
+((name in ((((name.name).name) & (name.name)).name)) => (not (name in ((name.name).name))))
+(((name->name) in ((name.((name & name) & name)) & ((name.name)->(name.name)))) => pred_call[])
+((some (((^name).name) & (name.name))) => ((one (name.(name.name))) && (((name.(name.name)).name) = ({ name: (one name),name: (one name) {
+(some name: (one ((name.name) & ((name.name).(*name)))) {
+((name = (name.((name.name) + name))) && (name = (name.name)))
+})
+} }))))
+((name = (name.(name.name))) => (not pred_call[]))
+(((name.name) != (name.name)) => ((name.name) = (name.name)))
+((name in ((name.name).name)) => (some name: (one name) {
+(name in (((name.name).name).name))
+}))
+((name < 5) => ((name.name) = fun_call[]))
+((((name.name).name) = fun_call[]) => (((name.name) = ((name.name) + fun_call[])) && ((name.name) = (name.name)) && (no (name.name)) && (no (name.name)) && ((name.name) = name)))
+(pred_call[] => ((name = (name + name)) && (no (name & name))))
+((name in ((name.name).name)) => ((((name.name).name) = (((name.name).name) - name)) || (((name.name).name) = ((name.name).name))))
+((pred_call[] && (no name: (one name) {
+pred_call[]
+})) => ((((name.name).name) = ((name.name).name)) && (((name.name).name) = ((name.name).name)) && (((name.name).name) = fun_call[]) && pred_call[]))
+(((name.name) != name) => ((name.name) = ((name.name).(name.name))))
+(pred_call[] => (((name.name).name) in (name.(^(name.name)))))
+((name = (name.(name.name))) => ((name.name) = ((name.name) - name)))
+(((0 <= name) && (name < fun_call[])) => let name = fun_call[] {
+((fun_call[].(((fun_call[].(name.name)).name).name)) = (fun_call[].(((fun_call[].(name.name)).name).name)))
+})
+(((name.name) = (name.name)) => (((name.name).name) < (((name.name).name).name)))
+((name in ((name.(name + name)) + ((name + name).name))) => pred_call[])
+(pred_call[] => (name in (name.name)))
+((name != name) => ((name !in (name.name)) && (name in (name.name))))
+((name = 1) => ((name.name) = name))
+((((name.(~name)) != name) && (some (name.name)) && ((name.name) in name) && (((name.name).name) = name) && (some (name.name)) && ((name.name) in name) && (((name.name).name) = name) && (((name.name).name) = ((name.name).name))) => (some name: (one ((name.(~name)).name)) {
+((name.name) in (name + name))
+}))
+((name !in ((name.name).name)) => (no name))
+((((name.name).name) in name) => (one name: (one name) {
+((((name.name).name) in name) && (((name.name).name) in name) && (((name.name).name) = (((name.name).name).fun_call[])) && (((name.name).name) = (((name.name).name).fun_call[])) && (((name.name).name) = (((name.name).name).fun_call[])))
+}))
+((name in (name.name)) => (((name.name).name) = name))
+(((name.name) = name) => (((name.name).name) = (((name.name).name) - ((((name.name).name).name).name))))
+((name in (name.name)) => (((name in (name.name)) && (name in (name.name))) => ((name in (name.name)) && let name = (name - name) {
+(name in (name.name))
+})))
+((((name.name) = 3) && ((name.name) = 3)) => (fun_call[] = 8))
+((name in ((name.(name + name)) & name)) => ((one (name.name)) && (no (name.name))))
+(((name = (name.name)) && (name = (name.name))) => (some name: (one name) {
+((name in name) && (name = (name.name)))
+}))
+(((name.fun_call[]) != fun_call[]) => (((name.fun_call[]).fun_call[]) in (name.name)))
+(((((name.name).name).name) != name) => (((name.name).name) = ((name.name).name)))
+(((name->name) in (name.name)) => ((name.name) in (name.name)))
+((some name: (one (name.name)) {
+(some name: (one (name.name)) {
+(not (name = name))
+})
+}) => (name in name))
+((not pred_call[]) => (name !in (name.name)))
+((((((name.name).name).name) = name) && ((((name.name).name).name) = name)) => (((name.name).name) = name))
+(((name.(name.name)) = (name.(name.name))) => ((name->name) in name))
+((((name.name).name) = name) => ((pred_call[] => ((((name.name).name) = name) && (((name.name).name) = name))) && ((pred_call[] && (not pred_call[])) => ((((name.name).name) = name) && (((name.name).name) = name))) && ((not (pred_call[] || pred_call[])) => ((((((((name.name).name).name) = name) || ((((name.name).name).name) = name)) && ((((name.name).name).name) = name)) => ((((((name.name).name).name) = name) => (((name.name).name) = name)) && ((((((name.name).name).name) = name) && ((((name.name).name).name) = name)) => (((name.name).name) = name)) && (((name.name).name) = name))) && ((not ((((((name.name).name).name) = name) || ((((name.name).name).name) = name)) && ((((name.name).name).name) = name))) => (((not (((name.name).name) in name)) => ((((name.name).name) = name) && (((name.name).name) = name))) && ((((name.name).name) in name) => ((((name.name).name) = name) && (((name.name).name) = name)))))))))
+((name = (name.name)) => pred_call[])
+((one (name.name)) => ((name.name) > ((name.name).name)))
+((((#((name.name).name)) >= 2) && (name in ((name.name).name)) && (name !in ((name.name).name))) => (((name.name).name) = (((name.name).name) - name)))
+((((name.(name.name)) != name) && (not ((name.(name.name)) in (name.(name.name))))) => (no (name.(name.(name.name)))))
+(((name->name) in name) => (name in name))
+((some (name.name)) => (name = (name.name)))
+((name in ((name.name).name)) => (one name: (one (name.name)) {
+(((name.name) = name) && ((name.name) = ((name.name) - name)))
+}))
+((((name.name) = name) && ((#(name.name)) > 2)) => (((name.name) = fun_call[]) && ((name.name) = (name.name))))
+(((name = name) && (name = 5)) => (((name.name) = name) && (some (name.name))))
+(((name.name) = (name.name)) => (no ((name.name) & (name.name))))
+(((name->name) in ((name + name).name)) => (name !in (name + name)))
+(((name !in (name.(name.name))) && (name !in ((name.name).name))) => (name !in fun_call[]))
+(((#(name.name)) = 1) => ((name.name) = ((name.name) - (name.name))))
+(((name.name) in (name + name)) => ((name.name) = name))
+((((name.name).name) = ((name.name).name)) => (no ((name.name).name)))
+((name !in ((name.name).(name.fun_call[]))) => (((name.name).(name.fun_call[])) = ((name.name).name)))
+(((fun_call[] > 49) && (fun_call[] < 100)) => ((#fun_call[]) = 0))
+(((fun_call[] = name) && (name in name)) => ((fun_call[] = name) && (all name: (one name) {
+(pred_call[] => (((name.name).name) = name))
+})))
+(((name in fun_call[]) && (name in fun_call[])) => (name = name))
+((((name.(name.name)) in (name + name)) && ((#((name.(name.name)) & ((name.name).name))) = (#(name.(name.name))))) => (name in (name.(name.name))))
+((some (name.name)) => (some name: (one (name.name)) {
+(name != name)
+}))
+(((name->name) in (name.((name + name) + name))) => pred_call[])
+(((no name: (one (name.name)) {
+(((name.name) > (((name.name).name).name)) && ((name in ((name.name).name)) || ((name.name) = name) || ((name.name) = name)))
+}) && (no name: (one (name.name)) {
+(((name.name) < (((name.name).name).name)) && ((name in ((name.name).name)) || ((name.name) = name) || ((name.name) = name)))
+})) => ((((name.name).name) = name) && (((name.name).name) = name)))
+((((name.name) in (name.name)) && ((name.name) in (name.name))) => ((name.(name.name)) = 0))
+((some (name & ((name.name).name))) => (some ((name.name).name)))
+((name in (name + name)) => (name = (name.fun_call[])))
+(((((name.name) = "Morning") && ((name.name) = "Night")) || (((name.name) = "Night") && ((name.name) = "Morning"))) => (no name: (one name) {
+(((name.name) = "Nurse") && (name in (name.name)) && (name in (name.name)))
+}))
+((name = name) => )
+(pred_call[] => disjoint[((((name.name).name).name).name),((name.name).name),(name.name)])
+((((name.name).name) = (((name.name).name) + name)) => ((name !in ((name.name).name)) && ((name.name) = (name.name)) && ((name.name) = (name.name))))
+((not pred_call[]) => (((name.name) = (name.name)) && pred_call[]))
+(((name->name) in (name.name)) => (((name.name).name) = ((name.name).name)))
+(((name in (name.name)) && (name in (name.name))) => ((name in ((name.(name.name)).name)) && (name in ((name.(name.name)).name)) && ((name.((name.(name.name)).name)) = (name.((name.(name.name)).name)))))
+((name != name) => (((name.name) != (name.name)) && (((name.name) & (name.name)) = name)))
+(((name = (name.name)) && ((name->(name->name)) in name) && ((name->(name->name)) in name)) => (some name,name: (one name),name: (one name) {
+((name = (name.name)) && (name = (name.name)) && (name = (name.name)) && (name = (name.name)) && ((name.name) = name) && ((name.name) = name) && (((name.name).name) = name) && (((name.name).name) = name))
+}))
+((((name.name).name) = name) => ((pred_call[] => ((((name.name).name) = name) && (((name.name).name) = name))) && ((pred_call[] && (not pred_call[])) => ((((name.name).name) = name) && (((name.name).name) = name))) && ((not (pred_call[] || pred_call[])) => ((((((((name.name).name).name) = name) || ((((name.name).name).name) = name)) && ((((name.name).name).name) = name)) => ((((((name.name).name).name) = name) => (((name.name).name) = name)) && (((not ((((name.name).name).name) = name)) && ((((name.name).name).name) = name)) => (((name.name).name) = name)) && (((name.name).name) = name))) && ((not ((((((name.name).name).name) = name) || ((((name.name).name).name) = name)) && ((((name.name).name).name) = name))) => ((((name.name).name) = name) && (((name.name).name) = name)))))))
+(((name.name) = name) => ((name.name) in (name + name)))
+((name in name) => (name = (name - name)))
+((((name.name) = 1) && ((name.name) = 3)) => (fun_call[] = 2))
+((((name.name).name) != ((name.name).name)) => (all name: (one (name.name)) {
+pred_call[]
+}))
+((not ((name.name) in ((name.name).name))) => ((name.name) = (name.name)))
+(((name in fun_call[]) && (fun_call[] = name) && (name !in ((name.name).name))) => ((name in ((name.name).name)) && (fun_call[] in name) && (name in ((name.name).name))))
+(((name.name) = name) => (some name: (one name) {
+(((name.name) = name) && ((name.name) = (name.name)) && ((name.name) = (name.name)) && ((name.name) = (name.name)) && ((name.name) = (name.name)))
+}))
+(((0 <= name) && (name < (#((name.name).name)))) => ((name.((name.name).name)) = (name.((name.name).name))))
+(((name.name) = name) => ((#(name.name)) = 0))
+((pred_call[] && ((name->name) in (^(name + (~name))))) => pred_call[])
+((no (name.name)) => ((name.name) = 0))
+((name = 0) => ((name.(name.(name.name))) = (0.(name.((0.(name.name)).name)))))
+(pred_call[] => (fun_call[] = (fun_call[] - name)))
+(((some ((name.name) & name)) && (no ((name.name) & name))) => (some name: (one (name.name)) {
+((name.name) = ((name.name) - name))
+}))
+((some (name.name)) => (all name: (one (((name.name).(^(name + name))) + (name.name))) {
+((name.name) > (name.name))
+}))
+((some (name & ((fun_call[].name).name))) => ((no (name & ((name.name).name))) && (some (name & ((name.name).name))) && (some (name & ((name.name).name))) && (no (name & ((name.name).name)))))
+(((name.name) = name) => (((name.name) != name) && ((name.name) != name) && ((name.name) != name) && ((name.name) != name)))
+(pred_call[] => ((name.name) = (((name.name) - (name->(name.(name.name)))) + (name->name))))
+((name in (name - ({ name: (one name) {
+(some name: (one name) {
+(((name.name) = name) && (((name.name).name) != ((name.name).name)))
+})
+} }))) => (all name: (one fun_call[]) {
+((((name.(name.name)).name)->(name->((fun_call[].name).name))) in fun_call[])
+}))
+(((name = name) && (name = 1)) => (((name.name) = name) && (some (name.name))))
+(((name in (name.name)) && (name in (name.((name + name) + name)))) => ((name->name) in (name + (~name))))
+((some (name.name)) => (((name.name) = fun_call[]) && ((name.name) = fun_call[])))
+((pred_call[] && pred_call[] && pred_call[] && pred_call[]) => ((all name: (one name) {
+(pred_call[] => pred_call[])
+}) && pred_call[] && pred_call[]))
+(((#(name & (name.name))) > 0) => ((#(((((name.name) & name).name).name) & name)) = 0))
+(((name in name) && ((name.name) != name)) => (((name.name).name) = ((name.name).(name.name))))
+((((name.name) & name) = name) => (some name: (one name) {
+((name.name) = ((name.name) - name))
+}))
+(((fun_call[] = (fun_call[] - name)) && (name in ((name.name).name))) => ((((name.name).name) = (((name.name).name) - name)) && (all name: (one ((name.name).name)) {
+pred_call[]
+})))
+(((name != name) && (name in (name.(name.name)))) => (name in (name.(name.name))))
+((name = ((name + name) + name)) => (name in ((name + name) + name)))
+(((name in (name.name)) && (name < 5)) => ((name.name) = fun_call[]))
+((name in (name.name)) => (all name: (one name) {
+(name !in (name.name))
+}))
+((all name: (one (name.name)) {
+((name.(name.name)) = (name.(name.name)))
+}) => (name = name))
+(((name in ((name.name).name)) && (name in ((name.name).name)) && (name in ((name.name).name))) => (((name.name).name) = (((name.name).name) - name)))
+(((#((name.name).name)) = 1) => ((((name.name).name) = (((name.name).name) + name)) && (((name.name).name) = (((name.name).name) - name)) && (((name.name).name) = name)))
+((name in name) => (some (name & name)))
+(((name = name) && pred_call[]) => pred_call[])
+(((name.(name.name)) = name) => ((((name.name) = name) && ((name.name) = name) && ((name.(name.name)) = name)) => ((((name.name) in (name + name)) && ((name.name) in (name + name)) && ((name.(name.name)) = name)) => ((((name.name) in ((name + name) + name)) && ((name.name) in ((name + name) + name)) && ((name.(name.name)) = name)) => (((name.name) = name) && ((name.name) = name))))))
+(pred_call[] => (some name: (one name) {
+(((name->name) in name) && (name in (name.name)) && (name in fun_call[]))
+}))
+((((name.name) = name) && ((name.name) = name) && ((name.(name.name)) = name)) => ((((name.name) in (name + name)) && ((name.name) in (name + name)) && ((name.(name.name)) = name)) => ((((name.name) in ((name + name) + name)) && ((name.name) in ((name + name) + name)) && ((name.(name.name)) = name)) => (((name.name) = name) && ((name.name) = name)))))
+(((name.name) in name) => ((((fun_call[].name) = ((name.name).name)) => (((#(name.name)) = 0) && ((name.name) = fun_call[]) && ((name.name) in name) && (((name.name).name) = (((name.name).name).name)))) && (((fun_call[].name) != ((name.name).name)) => (((name.name) = (name.name)) && ((name.name) = (name.name)) && ((name.name) = (name.name)) && (((name.name).name) = ((name.name).name))))))
+((((name.(name.name)) = name) && ((#((name.(name.name)) & ((name.name).name))) > 1)) => (all name: (one ((name.name).((name.(name.name)) & ((name.name).name)))) {
+((name->name) in (name.name))
+}))
+((fun_call[] = 50) => (((#fun_call[]) > 0) && (fun_call[] = fun_call[])))
+(((name in ((name.name).name)) || (name in ((name.name).name))) => (name in ((name.name).name)))
+(((name.name) = name) => (some name: (one (name - (name.name))) {
+(((name.name) = ((name.name) + name)) && pred_call[])
+}))
+(((((name.name).name).name) = name) => (((((name.name).name).name).name) = name))
+((name in ((name.name).(name.fun_call[]))) => (((name.name).(name.fun_call[])) = (((name.name).name) + name)))
+(((#((fun_call[].name) & name)) < 3) => ((#fun_call[]) = 1))
+(pred_call[] => ((name.name) = (name->(name.name))))
+(((name in (name.name)) && (name in (name.name))) => ((name in (name.name)) && let name = (name - name) {
+(name in (name.name))
+}))
+((some (name.name)) => (some ((name.(~name)).name)))
+((name in ((name.name).name)) => (((name.name).name) != name))
+(((name.name) in name) => (((name.name) = (name.name)) && ((name.name) = (name.name)) && ((name.name) = (name.name)) && (((name.name).name) = ((name.name).name))))
+((((name.name) = name) && ((name.name) = name) && ((name.name) = name) && ((name.name) = name)) => ((name.name) = name))
+(((name->name) in name) => ((name.(name.(name.name))) = fun_call[]))
+(((#fun_call[]) = 0) => ((#fun_call[]) = 0))
+(((name.name) in name) => (some name: (one (name.(*(~name)))) {
+((name.name) in name)
+}))
+(((name->name) in (^(name.name))) => ((name in (name.name)) && (name in (name.(name.name)))))
+(((name in (name.name)) && (name in (name.name)) && ((name->name) in (name.(name & name)))) => pred_call[])
+((((name.name) = (name.name)) && (name in (name.name)) && (name in (name.name))) => ((name.name) != (name.name)))
+(((name != name) && (name != name)) => pred_call[])
+(((#fun_call[]) > 0) => (((#fun_call[]) > 0) && (fun_call[] = 0)))
+((some (name.(name + name))) => ((name !in name) && (name !in name)) => ((name = name) && (name = name)) else (((name.name) = name) && ((name.name) = name)) => (no name) => (((name.name) = (name.name)) && ((name.name) = (name.name))) else ((((name.name).name) = (name.name)) && (((name.name).name) = (name.name)) && ((name.name) = ((name.name).name)) && ((name.name) = ((name.name).name)) && (all name: (one ((name.name) - (name.name))) {
+(((name.name) = ((name.(name.name)).name)) && ((name.name) = ((name.(name.name)).name)))
+})) else (name !in name) => ((name = (fun_call[] + fun_call[])) && (name = name)) else (name !in name) => ((name = name) && (name = (fun_call[] + fun_call[]))) else ((name = name) && (name = name)))
+(((name in (name.(^name))) && (name = (name.name)) && ((name in (name.(^name))) || (name in (name.(^name))))) => (not pred_call[]))
+(((name in (name.name)) && (name in (name.name)) && (name in (name.name))) => (((name.name) = ((name.name) - name)) && ((name.name) = (name.name))))
+(((name > 0) && (name < 4)) => ((name = name) && (name = 1)))
+((((#(name & (name.name))) > 0) && ((#(name & (name.name))) > 0)) => ((#(((name.name) & (name.name)) & name)) > 0))
+((some ((fun_call[].name).name)) => (some (((fun_call[].name).name) + ((fun_call[].name).name))))
+(((name->name) in (name.name)) => let name = (name.name) {
+(name = (name.name))
+})
+(((name.(name.name)) != name) => ((name.(name.name)) !in (name.name)))
+((not (name in (name.name))) => ((name.name) = (name.name)))
+(((name.name) in name) => (one name: (one (name.(~name))) {
+((name.name) in name)
+}))
+((some (((name + name).name) & (((name.(name + name)) <: name).(name.name)))) => (some (name.name)))
+(((name in (((name.name).name).name)) && ((name.name) = name)) => ((((name in (((name.name).name).name)) => (name in name)) && ((name.name) = name)) => (((name in (((name.name).name).name)) => (name in name)) && (name in (name.name)))))
+((name = 5) => ((name.name) = name))
+(((fun_call[].name) != ((name.name).name)) => (((name.name) = (name.name)) && ((name.name) = (name.name)) && ((name.name) = (name.name)) && (((name.name).name) = ((name.name).name))))
+(((((name.name).name) = (name.name)) && (((name.name) < (name.name)) || ((name.name) > (name.name)))) => (((name.name).name) = name))
+((((name.name).name) = name) => (((#name) <= 2) && (name in name)))
+(((no name: (one (name.name)) {
+(((name.name) < (((name.name).name).name)) && ((name in ((name.name).name)) || ((name.name) = name) || ((name.name) = name)))
+}) && (no name: (one (name.name)) {
+(((name.name) > (((name.name).name).name)) && ((name in ((name.name).name)) || ((name.name) = name) || ((name.name) = name)))
+})) => ((((name.name).name) = name) && (((name.name).name) = name)))
+(((name->name) in (name.name)) => ((name->name) !in (name.name)))
+((((name.name) = name) && ((name.name) = name)) => (((name.name) = name) && ((name.name) = name)))
+((name != fun_call[]) => ((name.fun_call[]) in (name.name)))
+((fun_call[] > 49) => (fun_call[] = 50))
+((some (name & ((name.name).name))) => ((some (((name.name).name) & name)) && (some (((name.name).name) & name))))
+((not pred_call[]) => ((name.name) = ((name.name) + (name->name))))
+(((name >= 0) && (name < (#((name.name).name)))) => ((((name.((name.name).name)).name).name) = name))
+((name != name) => (no ((name.(name.name)) & (name.(name.name)))))
+((name != name) => (no name: (one name) {
+((((name.name).name) = name) && ((name.name) = (name.name)) && (name in ((name.name).name)))
+}))
+((fun_call[] = fun_call[]) => ((((((name.(name.name)).name).name) & name) = ((((name.(name.name)).name).name) & name)) && (((((name.(name.name)).name).name) & name) = ((((name.(name.name)).name).name) & name))))
+(((name.name) = name) => (((name.name).name) = (((name.name).name) - name)))
+((((name.name) in name) && (name in name)) => ((one (name.name)) && (one (name.name))))
+((((name.name).name) = name) => (((some name: (one (name.name)) {
+(((name.name) < (((name.name).name).name)) && ((name in ((name.name).name)) || ((name.name) = name) || ((name.name) = name)))
+}) => ((((name.name).name) = name) && (((name.name).name) = name))) && (((some name: (one (name.name)) {
+(((name.name) > (((name.name).name).name)) && ((name in ((name.name).name)) || ((name.name) = name) || ((name.name) = name)))
+}) && (no name: (one (name.name)) {
+(((name.name) < (((name.name).name).name)) && ((name in ((name.name).name)) || ((name.name) = name) || ((name.name) = name)))
+})) => ((((name.name).name) = name) && (((name.name).name) = name))) && (((no name: (one (name.name)) {
+(((name.name) < (((name.name).name).name)) && ((name in ((name.name).name)) || ((name.name) = name) || ((name.name) = name)))
+}) && (no name: (one (name.name)) {
+(((name.name) > (((name.name).name).name)) && ((name in ((name.name).name)) || ((name.name) = name) || ((name.name) = name)))
+})) => ((((name.name).name) = name) && (((name.name).name) = name)))))
+(((#fun_call[]) < 5) => ((#(name.name)) = 1))
+(((name.name) != name) => (((name.name) = ((name.name).(name.name))) || (one name: (one name) {
+(((name.name) = (name.name)) && ((name.name) != (name.name)) && ((name.name) = ((name.name).(name.name))) && ((name.name) !in name) && (((name.name) = 0) || ((name.name) = 1)))
+})))
+((((#(name & (name.name))) > 0) && ((#(name & (name.name))) > 0)) => ((#(((name.name) & (name.name)) & name)) = 0))
+(((((name->name)->(name->name)) in name) && (((name->name)->(name->name)) in name) && (name != name)) => ((name = name) || (name = name)))
+((name != name) => ((not pred_call[]) && (((name in fun_call[]) && (name != (name.fun_call[]))) => (not pred_call[]))))
+((name in name) => (one name: (one name) {
+(name in name)
+}))
+((some (name.(name.name))) => (some (name.(name.name))))
+((one (name.name)) => ((name.name) < ((name.name).name)))
+((fun_call[] != name) => (one fun_call[]))
+(((name.name) != (name.name)) => ((name.name) = ((name.name) + name)))
+((not pred_call[]) => ((name.name) = ((name.name) + name)))
+((name = name) => (((name.name) = name) && (name = name)))
+((name = name) => (all name: (one ((name.name).name)) {
+(((name.name).name) = name)
+}))
+((((name.name) = (name.name)) && ((name.name) = ((name.name).name)) && ((name.name) != ((name.name).name))) => ((name->name) !in name))
+((fun_call[] != name) => pred_call[])
+(((name.name) = name) => (some name: (one (name - (name.name))) {
+((name.name) = ((name.name) + name))
+}))
+(pred_call[] => ((name->name) in (name.name)))
+(((name->name) in name) => ((name.name) != name))
+((name in fun_call[]) => (name in fun_call[]))
+(((((name.name).name) != name) && (((name.name).name) != name)) => ((((name.name).name) = ((name.name).name)) && (((name.name).name) = ((name.name).name)) && (((name.name).name) = ((name.name).name)) && (((name.name).name) = ((name.name).name)) && (((name.name).name) = name) && (((name.name).name) = name)))
+(((0 <= name) && (name < fun_call[])) => ((name.(name.name)) = (fun_call[].(((fun_call[].(name.name)).name).name))))
+((name != name) => (((name.name) = (name.name)) && ((name.name) != (name.name))) => (((name.name) = (name.name)) && (((name.name).name) = ((name.name).name))) else (((name.name) != (name.name)) && (((name.name).name) != ((name.name).name))))
+((((name.(name.name)) = (name.(name.name))) && ((name.(name.name)) = ((name.(name.name)).(name.name))) && ((name.(name.name)) != ((name.(name.name)).(name.name)))) => ((name->name) !in name))
+((name in name) => (some name: (one (name.name)) {
+(some name: (one (name.name)) {
+(not (name = name))
+})
+}))
+((((name.name) = name) || ((name.name) in ((name + name) + name))) => ((((name.name) = name) => ((name.name) = name)) && (((name.name) in (name + name)) => ((name.name) = name))))
+((pred_call[] && (((name.name).name) != ((name.name).name))) => (((name.name).name) = ((((name.name).name).name).name)))
+((((name.name) = 3) && ((name.name) = 2)) => (fun_call[] = 7))
+(((name.name) = (name.name)) => ((pred_call[] && pred_call[]) || (pred_call[] && pred_call[])))
+((one (name.name)) => (((name.name).name) in (((name.name).name).(*fun_call[]))))
+(((((name.name).name).name) = name) => ((#((name.name).name)) < 2))
+((((name.name).name) = ((name.name).name)) => (((name.name).name) < (((name.name).name).name)))
+((name !in name) => ((name !in (name.name)) => (all name: (one name) {
+(name !in (name.name))
+})))
+((((name.name).name) = (name.name)) => (no name: (one name) {
+((((name.name).name) in ((name.name).name)) && (no name: (one name) {
+((name != name) && (((name.name).name) in ((name.name).name)))
+}))
+}) => pred_call[] else (one name: (one ({ name: (one name) {
+((((name.name).name) in ((name.name).name)) && (no name: (one name) {
+((name != name) && (((name.name).name) in ((name.name).name)))
+}))
+} })) {
+pred_call[]
+}))
+(pred_call[] => (no name: (one (name + name)) {
+((name in ((name.name).name)) && ((name.name) = name))
+}))
+((no (name.(~name))) => ((name.name) = ((^(name.name)) + (iden & (name->name)))))
+((some (name.name)) => (some ((name.(^name)) & name)))
+((((name + name) + name) in (name.name)) => (name !in (name.name)))
+(((name.name) in name) => (one name: (one (name.(*(~name)))) {
+((name.name) in name)
+}))
+((((name.name).name) != ((name.name).name)) => (some ((name.name).name)))
+(((name != 0) && (name != fun_call[])) => let name = fun_call[] {
+let name = fun_call[] {
+((name.(name.(name.name))) = (name.(name.((name.(name.name)).name))))
+}
+})
+((name in (name.name)) => (((name.name) + fun_call[]) in (name.name)))
+((pred_call[] && pred_call[] && pred_call[] && pred_call[]) => (pred_call[] && pred_call[] && pred_call[]))
+((((name.name).name) in name) => pred_call[])
+((((name.name) = name) && (fun_call[] in (name - (name.name)))) => (name in (fun_call[] & name)))
+((name = name) => (((some name: (one (name + name)) {
+(pred_call[] && pred_call[])
+}) => pred_call[]) && (pred_call[] => (some name: (one (name + name)) {
+(pred_call[] && pred_call[])
+}))))
+((((name.name) = 1) && ((name.name) = 2)) => (fun_call[] = 1))
+(((some (name & ((name.name).name))) && (some ((name.name).name))) => (((name.name).name) = (((name.name).name) & ((name.name).name))))
+((((name.(~name)) != name) && ((name.name) != name) && ((name.name) in name) && (((name.name).name) = name) && ((name.name) != name) && ((name.name) in name) && (((name.name).name) = name) && (((name.name).name) = ((name.name).name))) => (one name: (one ((name.(~name)).name)) {
+((name.name) in (name + name))
+}))
+(pred_call[] => (fun_call[] >= (name.(name.name))))
+(pred_call[] => ((#name) >= (#name)))
+(((name->name) in (name.name)) => (all name: (one (name.(name.name))) {
+(name in (name.(name.name)))
+}))
+((not ((name in ((name.name).name)) || (name in ((name.name).name)))) => (name in ((name.name).name)))
+((((name.name).name) = name) => ((#(name.(~name))) <= 1))
+((name in name) => ((#(name.name)) = 2))
+((name = fun_call[]) => ((fun_call[].(name.name)) = (fun_call[].name)))
+((((name.name).fun_call[]) > 0) => (name in ((name.name).fun_call[])))
+(pred_call[] => (all name: (one name) {
+((pred_call[] => pred_call[]) && ((name in (name.name)) => pred_call[]) && ((name in (name.name)) => pred_call[]) && (pred_call[] => (name in name)))
+}))
+(((name.name) in name) => ((one (name.name)) && (lone (name.name))))
+(((name.(name.name)) = name) => (name in (name.name)))
+((((name.name) in (name + name)) && (some name: (one name) {
+((name != name) && ((name.name) = (name.name)) && (some name: (one (name.name)) {
+(name in name)
+}))
+})) => (one name: (one ((name.name).(*name))) {
+(((name.name) in name) || ((name.name) in name))
+}))
+((some name: (one name) {
+((#name) = (#(name.(*name))))
+}) => (one name: (one name) {
+(name = (name->name))
+}))
+((name !in name) => (name = (name + name)))
+((((name.name).name) > 0) => (((name.name).name) = fun_call[]))
+((name != name) => ((#(name.name)) = 3))
+(((#((name.name) & name)) > 0) => ((#(name & (name.name))) = 1))
+(((name !in name) && (name = (name.name))) => (name = (name + name)))
+(((name.name) in (name + name)) => ((one (name.name)) && (no (name.name))))
+((((name.name).name) = (((name.name).name) + name)) => ((name !in ((name.name).name)) && ((name.name) = (name.name))))
+((some name: (one name) {
+pred_call[]
+}) => (pred_call[] && pred_call[]))
+((some ((name.name).name)) => (some ((name.name).name)))
+((pred_call[] && pred_call[]) => (name in (name.name)))
+((name != name) => (all name: (one name) {
+((name in ((name.name).name)) || (one name: (one name) {
+((((name.name).name) = name) && (((name.name).name) = (name.name)) && (name in ((name.name).name)))
+})) => (name in ((name.name).name)) else (name !in ((name.name).name))
+}))
+(((name.name) !in ((name.(^name)).name)) => ((name.name) = name))
+((((name.name) != name) || ((#(name.name)) = 0)) => ((name.name) = name))
+((name in ((name.name).name)) => pred_call[])
+((not ((name.(name.name)) in (name.(name.name)))) => (no (name.(name.(name.name)))))
+(((name in name) && (name in name) && ((name.name) != (name.name))) => ((fun_call[] = fun_call[]) && (fun_call[] = fun_call[])))
+((((name.name).name) = name) => (some name: (one name) {
+(((name.name) in (name.name)) && (name in ((name.name).name)) && ((name.name) = (name.name)) && ((name.name) in name))
+}))
+((name in ((name.(name + name)) & name)) => ((one (name.name)) && (one (name.name))))
+(((name.name) != name) => ((name.name) = ((name.name).fun_call[])))
+(((name >= 1) && (name <= 5)) => (((name.name).name) = name))
+((name != name) => (not (((name.name) = (name.name)) && ((name.name) = (name.name)))))
+(((name.name) != name) => ((name.name) = name))
+((name !in name) => ((((name in (name.name)) => (one name: (one name) {
+(name in (name.name))
+})) || (all name: (one name) {
+(name !in (name.name))
+})) && ((name !in (name.name)) => (all name: (one name) {
+(name !in (name.name))
+}))))
+((name in (name.name)) => ((name in (name.name)) && (no (name.name))))
+((name = 0) => ((name = 0) && (name = 0)))
+((some name) => (((name.name) !in ((name.(^name)).name)) => ((name.name) = name)))
+((some (((name.name).name) & name)) => (all name: (one name) {
+(some ((name.name).name))
+}))
+(((((name.name) = name) || ((name.name) = name)) && (((name.name) = name) => ((name.name) in (name + name)))) => ((name.name) = name))
+((fun_call[] = 100) => (((#fun_call[]) > 0) && (fun_call[] = fun_call[])))
+((some fun_call[]) => (((name.name) = name) || ((name.name) = name) || ((name.name) = name) || (((name.name) = name) && ((name.name) = name) && ((name.name) = name) && ((name.name) = (name.name))) || (((name.name) = name) && ((name.name) = name) && ((name.name) = name)) || (((name.name) = name) && ((name.name) = name) && ((name.name) = name)) || (((name.name) = name) && ((name.name) = name) && ((name.name) = name)) || (((name.name) = name) && ((name.name) = name) && ((name.name) = name) && ((name.name) = (name.name))) || (((name.name) = name) && ((name.name) = name) && ((name.name) = name))))
+((fun_call[] > 99) => ((#fun_call[]) = 0))
+((((name.name).name) in ((name.name).name)) => ((#((name.name).name)) = ((#((name.name).name)) - (#(((name.((name.name).name)) - (name.name)).name)))))
+((((name.name) = name) || ((name.name) = name) || ((name.name) = name) || (((name.name) = name) && ((name.name) = name))) => ((name.name) = (name.name)))
+(((name.name) in name) => pred_call[])
+(((name in (name.name)) && ((#(name.name)) = 0)) => ((name.name) = ((name.name) - name)))
+((((name.name).name) = (name.name)) => ((some name: (one name) {
+(((name.name) = fun_call[]) && ((name.name) = (name.name)))
+}) && ((name.name) = fun_call[]) && (((name.name).name) = (((name.name).name).name))))
+((pred_call[] && pred_call[] && pred_call[] && pred_call[] && pred_call[] && pred_call[]) => (pred_call[] && pred_call[] && pred_call[]))
+((((name.name) = name) && ((#(name.name)) = 5)) => ((name.name) = name))
+(((#(name.name)) = 0) => ((name.name) = name))
+((not pred_call[]) => (((name.(name.name)).name) = name))
+(((name.name) in (name - name)) => (some name: (one (name.name)) {
+(((name.name) = ((name.name) - name)) && ((name.name) = name))
+}))
+((some (name & (name.(^name)))) => (name in name))
+(((fun_call[] in name) && pred_call[]) => (name in ((name.name).name)))
+((name !in (fun_call[].name)) => (no name))
+(((name.name) != name) => (no ((name.(^name)).name)))
+((((name.name) in ((name + name) + name)) && ((name.name) in ((name + name) + name)) && ((name.(name.name)) = name)) => (((name.name) = name) && ((name.name) = name)))
+((name in fun_call[]) => (one name: (one name) {
+(((name.name) = (name.(name.name))) && ((name.name) = (name.(name.name))))
+}))
+(((name->name) in (name.name)) => let name = (name.name) {
+((name.name) = name)
+})
+((no ((name.name).name)) => (name in name))
+((some ((name.name).name)) => (all name: (one name) {
+(((name.name).name) = ((name.name).name))
+}))
+((((name.name) = (name.name)) && ((name.name) = (name.name))) => (name = name))
+((name !in ((name.name).name)) => ((name.name) = (name.name)))
+((some ((name.name).name)) => (some (name.name)))
+((((name.name) = name) && ((#(name.name)) = 1)) => (((#(name.name)) = 0) && ((#(name.name)) = 0)))
+((name in (name.(*(name.name)))) => (name !in (name.(*(name.name)))))
+((name in (fun_call[].name)) => (one name: (one fun_call[]) {
+(((name.name) = name) && let name = fun_call[] {
+((name.(name.name)) = fun_call[])
+})
+}))
+((((((name.name).name).name) != 0) && (((name.name).name) = ((((name.name).name).name).name))) => pred_call[])
+((some (name.(name.name))) => (pred_call[] && (no name: (one (name - (name.(name.(name.name))))) {
+pred_call[]
+})))
+((one (name.name)) => pred_call[])
+(((name in ((name.name).name)) && (name in ((name.name).name)) && (name in ((name.name).(name.fun_call[])))) => ((((name.name).name) = (((name.name).name) - name)) && (((name.name).name) = (((name.name).name) - name)) && pred_call[] && (all name: (one (name - name)) {
+pred_call[]
+})))
+((no (name.name)) => ((name.name) = name))
+(((name.name) = (name.name)) => (((name.name) = (name.name)) && ((name.name) = (name.name))))
+((some (fun_call[] & (name - ({ name: (one name) {
+(some name: (one name) {
+(((name.name) = name) && (((name.name).name) != ((name.name).name)))
+})
+} })))) => (some ((name - ({ name: (one name) {
+(some name: (one name) {
+(((name.name) = name) && (((name.name).name) != ((name.name).name)))
+})
+} })) & name)))
+((((name.(name.name)) in name) && ((#(name.(name.name))) >= 1) && ((#(((name.(name.name)) & ((name.name).name)) & ((name.name).name))) = (#(name.(name.name))))) => (name in (name.(name.name))))
+(((name.name) in name) => ((no (name.name)) && (no (name.name))))
+(pred_call[] => ((#(name.name)) = 1))
+((name in name) => (all name: (one (name.name)) {
+(((name.name) = (name.name)) && ((name.name) = (name.name)))
+}))
+(((name in fun_call[]) && (name != (name.fun_call[]))) => (not pred_call[]))
+((some fun_call[]) => (fun_call[] = fun_call[]))
+((((#((name.name).name)) >= 1) && (not pred_call[]) && (not pred_call[])) => ((name.name) = (((name.name) + (name->fun_call[])) + (fun_call[]->name))))
+(((name in fun_call[]) && (fun_call[] = name) && ((name.name) = name) && (name !in fun_call[])) => ((name in ((name.name).name)) && (fun_call[] in name) && (name in fun_call[])))
+((name in name) => (name !in name))
+(((((((name.name).name).name).name).name) != name) => (((name.name).name) = ((name.name).name)))
+((((name.name) in name) || ((name.name) in name)) => (((name.name) = (name.name)) && ((name.name) = (name.name))))
+(pred_call[] => (some ((name.name).name)))
+(((name.name) = name) => ((((name.name) in (name.name)) => (one name: (one (name.name)) {
+(name in (name.name))
+})) || (no name: (one (name.name)) {
+(name in (name.name))
+})))
+(((fun_call[] = name) && (name !in name)) => (fun_call[] = name))
+((some (name.name)) => (all name: (one (((name.name).(^(name + name))) + (name.name))) {
+((name.name) < (name.name))
+}))
+(((name.name) = name) => (all name,name: (one name) {
+((name != name) => ((pred_call[] && ((name.name) = name)) => (all name,name: (one name) {
+((name != name) => pred_call[])
+})))
+}))
+(((name.name) = name) => (((name.name) = name) && (((name.name) = name) || ((name.name) = name))))
+(((name.name) = name) => ((((name.name) in (name.name)) => (some name: (one (name.name)) {
+(name in (name.name))
+})) || (no name: (one (name.name)) {
+(name in (name.name))
+})))
+((some fun_call[]) => (some name: (one (name.name)) {
+pred_call[]
+}))
+((name = 0) => ((fun_call[] = 0) && ((#(name.name)) = 0) && ((#(name.name)) = 0)))
+(((name in name) && (name in ((name.name).name)) && (name !in ((name.(name.name)).(name.name)))) => (name !in ((name.(name.name)).(name.name))))
+(((name.name) in (name + name)) => (((name.name) = name) && ((name.name) = name)))
+(((name !in (name.name)) && ((name.name) = name) && (name = name)) => (((name.name) = ((name.name) + name)) && ((name.name) = name) && ((name.name) = (((name.name) - name) + name))))
+(pred_call[] => (some name: (one (name + name)) {
+(pred_call[] && pred_call[])
+}))
+((name in name) => ((name->name) in (name + (~name))))
+(((((name.name).name) = name) && (name in (name.name)) && (name in (name.name))) => (some name: (one (name.fun_call[])) {
+((((name.name).name) = name) && (all name: (one fun_call[]) {
+(name in (name.name))
+}))
+}))
+((pred_call[] && pred_call[] && pred_call[]) => (some name,name,name,name: (one name) {
+((name in ((name.name).name)) && (name in ((name.name).name)) && (name in ((name.name).name)) && (name in ((name.name).name)) && ((name.name) = (name.name)) && ((name.name) = (name.name)) && pred_call[] && ((#((((name + name) + name) + name).name)) = 1) && (fun_call[] != fun_call[]))
+}))
+(((fun_call[].name) = ((name.name).name)) => (((#(name.name)) = 0) && ((name.name) = fun_call[]) && ((name.name) in name) && (((name.name).name) = (((name.name).name).name))))
+((no (name.(name.name))) => ((name.(name.(name.name))) = ((name.(*((name.name).(name.name)))).(name.name))))
+((((name.name) = name) && ((name.name) != name)) => (((name.name) != name) && ((name.name) != name) && ((name.name) != name) && ((name.name) != name)))
+((name != name) => (((name->name) in name) || ((name->name) in name)))
+((not pred_call[]) => ((name.(name.name)) = (name.(name.name))))
+((pred_call[] && (name in name)) => (all name: (one name) {
+(((name + name) !in (name.name)) && ((name + name) !in (name.name)) && ((name + name) !in (name.name)))
+}))
+(((name in ((name.name).name)) && (name in ((name.name).name)) && (name in ((name.name).name))) => (((name.name).name) = (((name.name).name) + name)))
+(((name.name) in (name + name)) => ((#(name.name)) = 1))
+((name in ((name.name).name)) => ((name !in ((name.name).name)) && (name !in ((name.name).name))))
+(((not (name = name)) && pred_call[]) => pred_call[])
+((name in (name.name)) => ((name.name) = name))
+(((name.name) in name) => (one name: (one ((name.(~name)).name)) {
+((name.name) in name)
+}))
+(((name.name) = name) => ((one name: (one name) {
+((not (name in (name.name))) && (name in (name.name)) && ((name.name) = name) && ((name.name) = ((name.name) - name)))
+}) && ((name.name) = name)))
+((((#fun_call[]) > 0) && ((#fun_call[]) > 0)) => ((#fun_call[]) > 0))
+((fun_call[] = fun_call[]) => (((((name.name).name).name) = (((name.name).name).name)) && ((((name.name).name).name) = (((name.name).name).name))))
+(((((name->name)->(name->name)) in name) && (((name->name)->(name->name)) in name) && (((name->name)->(name->name)) in name) && (((name->name)->(name->name)) in name)) => ((name = name) && ((name = name) || (name = name))))
+(((name in name) && ((name.name) = name)) => ((name in name) && ((name.name) = fun_call[])))
+((not (pred_call[] || pred_call[])) => ((((((((name.name).name).name) = name) || ((((name.name).name).name) = name)) && ((((name.name).name).name) = name)) => ((((((name.name).name).name) = name) => (((name.name).name) = name)) && ((((((name.name).name).name) = name) && ((((name.name).name).name) = name)) => (((name.name).name) = name)) && (((name.name).name) = name))) && ((not ((((((name.name).name).name) = name) || ((((name.name).name).name) = name)) && ((((name.name).name).name) = name))) => (((not (((name.name).name) in name)) => ((((name.name).name) = name) && (((name.name).name) = name))) && ((((name.name).name) in name) => ((((name.name).name) = name) && (((name.name).name) = name)))))))
+(pred_call[] => (all name,name,name,name,name,name,name: (one name) {
+((pred_call[] && pred_call[] && pred_call[] && pred_call[] && pred_call[] && pred_call[]) => (pred_call[] && pred_call[] && pred_call[]))
+}))
+(((name->name) in name) => (not pred_call[]))
+((name != name) => (((name.name) != (name.name)) && ((name.name) != (name.name)) && ((name.name) != (name.name)) && ((name.name) != (name.name))))
+(((name.name) = name) => ((name in name) && ((name.name) = (name + 1))))
+(((name.name) in (fun_call[].name)) => (one name: (one fun_call[]) {
+(((name.name) = (name.name)) && let name = fun_call[] {
+((name.(name.name)) = fun_call[])
+})
+}))
+(((((((name.name).name).name).name) = name) && ((((name.name).name).name) = name)) => ((((((name.name).name) = name) || (((name.name).name) = name)) && (((name.name).name) = name)) || ((((((name.name).name).name) = name) || ((((name.name).name).name) = name)) && ((((name.name).name).name) = name)) || (((((((name.name).name).name).name) = name) || (((((name.name).name).name).name) = name)) && (((((name.name).name).name).name) = name))))
+(((name in (name.(name.name))) && (name in (name.(name.name)))) => (name in (name.(name.name))))
+((name in name) => ((fun_call[].fun_call[]) = (name.(name.name))))
+(((name = name) && (name != 0) && (name != name)) => ((name != 0) && (name != name)) => ((name.(name.((name.(name.name)).name))) = fun_call[]) else ((name.(name.((name.(name.name)).name))) = (name.(name.((name.(name.name)).name)))))
+((one name: (one ((name.name).name)) {
+((((name.name).name) = ((name.name).name)) && ((name.name) = (name.name)) && ((name.name) = name))
+}) => (one name: (one (((name.name).name) & ((name.name).name))) {
+((((name.name).name) = ((name.name).name)) && ((name.name) = (name.name)) && ((name.name) = name))
+}))
+(((some ((name.name) & name)) && (some ((name.name) & name))) => (some name: (one ((name.name) & name)) {
+((name in name) && ((name.name) = ((name.name) - name)))
+}))
+((name != name) => ((#(fun_call[] & fun_call[])) = 0))
+((name in fun_call[]) => (some name: (one ((name.name) - name)) {
+(name in fun_call[])
+}))
+(((some (name.name)) && ((name.name) in fun_call[])) => (some name: (one (((name.name).name).name)) {
+(((name.name) = name) && ((name.name) = (name.name)))
+}))
+((name in (name.name)) => (not (name in fun_call[])))
+((((((name.name).name).name) != 0) && (((name.name).name) != ((((name.name).name).name).name))) => pred_call[])
+(((some name: (one (name.name)) {
+(((name.name) > (((name.name).name).name)) && ((name in ((name.name).name)) || ((name.name) = name) || ((name.name) = name)))
+}) && (no name: (one (name.name)) {
+(((name.name) < (((name.name).name).name)) && ((name in ((name.name).name)) || ((name.name) = name) || ((name.name) = name)))
+})) => ((((name.name).name) = name) && (((name.name).name) = name)))
+((name != (name.(name.name))) => ((name.name) = (name.name)))
+(((name in ((name.name).name)) && (name in (name.name))) => (one name: (one name) {
+(((name.name) = name) && (((name.name).name) = (((name.name).name) + name)))
+}))
+(((((name->name)->(name->name)) in name) && (((name->name)->(name->name)) in name) && (((name->name)->(name->name)) in name) && (name != name) && (name != name) && (name != name)) => ((name = name) || (name = name) || (name = name)))
+(pred_call[] => (fun_call[] in name))
+((name in name) => (name != (name.name)))
+(((((name.name).name) = 3) && (((name.name).name) = fun_call[]) && (((name.name).name) = (((name.name).name).name)) && (no name: (one name) {
+pred_call[]
+})) => ((((name.name).name) = ((name.name).name)) && (((name.name).name) = ((name.name).name)) && pred_call[]))
+((some (((name + name).name) & (((name + name) <: name).(name.name)))) => (some (name.name)))
+((one (name.name)) => (all name: (one (name & (name.(^name)))) {
+((name.name) in ((name.name).(^name)))
+}))
+((((name in (((name.name).name).name)) => (name in name)) && ((name.name) = name)) => (((name in (((name.name).name).name)) => (name in name)) && (name in (name.name))))
+((pred_call[] && pred_call[]) => ((fun_call[] - fun_call[]) <= 1))
+((name in ((name.name).(*name))) => (name !in (name.(^name))))
+(pred_call[] => (((name.(name.name)).name) = name))
+((((name.name).name) = name) => ((((name.name).name) = name) || (((name.name).name) = name)))
+((some ((name.name) & name)) => (some ((name.name) & name)))
+((some ((name.name).name)) => (((name.name).name) != ((name.name).name)))
+((((name.name) = 3) && ((name.name) = 1)) => (fun_call[] = 4))
+((name !in ((name.name).name)) => (((name.name).name) = ((name.name).name)))
+((name in fun_call[]) => (fun_call[] = (fun_call[] - name)))
+((not ((name + name) = 0)) => (some name: (one name) {
+(((name.name) = name) && ((name.name) = name) && (some ((name.name).name)))
+}))
+((((name.name).name) !in name) => ((name.name) != (name.name)))
+((((name.(~name)) != name) && ((name.name) != name) && ((name.name) in name) && ((((name.name) in name) && (((name.name).name) = name)) || (((name.name) in name) && (((name.name).name) = name)))) => (one name: (one ((name.(~name)).name)) {
+((name.name) in name)
+}))
+(((one (name.name)) && ((((name.name).name).name) = (name.name))) => (no (name.name)))
+((some name: (one (name.name)) {
+(((name.name) > (((name.name).name).name)) && ((name in ((name.name).name)) || ((name.name) = name) || ((name.name) = name)))
+}) => ((((name.name).name) = name) && (((name.name).name) = name)))
+(((name->name) in name) => (some name: (one fun_call[]) {
+(((name->name) in name) && ((name->name) in name))
+}))
+((((name.name).name) = 0) => ((((name.name).name) = 1) && ((name !in (name.name)) => (name in (name.name))) && (((name.name) = name) => ((name.name) != name))))
+(((name in name) && (name = (name.name))) => (some name: (one name),name: (one name) {
+((name = (name.name)) && (name = (name.name)))
+}))
+((some (name.name)) => ((name.name) <= ((name.name).name)))
+((no (name.name)) => (no ((name.name) & fun_call[])))
+((some name: (one (name + name)) {
+(pred_call[] && pred_call[])
+}) => pred_call[])
+((name = ((name.name).name)) => ((name.name) = ((name.name) - name)))
+(((name.name) >= (name.name)) => ((name.name) = ((name.name) + 1)))
+(((name in (((name.name).name).name)) && ((name.name) = name)) => (((name in (((name.name).name).name)) && ((name.name) = name)) => ((((name in (((name.name).name).name)) => (name in name)) && ((name.name) = name)) => (((name in (((name.name).name).name)) => (name in name)) && (name in (name.name))))))
+((((name.name) = name) || ((name.name) = name)) => ((name.name) = name))
+((((name.name).name) = name) => (((some name: (one (name.name)) {
+(((name.name) > (((name.name).name).name)) && ((name in ((name.name).name)) || ((name.name) = name) || ((name.name) = name)))
+}) => ((((name.name).name) = name) && (((name.name).name) = name))) && (((some name: (one (name.name)) {
+(((name.name) < (((name.name).name).name)) && ((name in ((name.name).name)) || ((name.name) = name) || ((name.name) = name)))
+}) && (no name: (one (name.name)) {
+(((name.name) > (((name.name).name).name)) && ((name in ((name.name).name)) || ((name.name) = name) || ((name.name) = name)))
+})) => ((((name.name).name) = name) && (((name.name).name) = name))) && (((no name: (one (name.name)) {
+(((name.name) > (((name.name).name).name)) && ((name in ((name.name).name)) || ((name.name) = name) || ((name.name) = name)))
+}) && (no name: (one (name.name)) {
+(((name.name) < (((name.name).name).name)) && ((name in ((name.name).name)) || ((name.name) = name) || ((name.name) = name)))
+})) => ((((name.name).name) = name) && (((name.name).name) = name)))))
+(((name.name) != (name.name)) => ((name.name) != (name.name)))
+(((name in name) && (name in (name.name))) => ((fun_call[] in (name.name)) && (fun_call[] !in name)))
+((name in ((name.name).name)) => (one name: (one (name.name)) {
+(((name.name) = name) && ((name.name) = name))
+}))
+((not pred_call[]) => ((name.name) = (name->(name.(name.name)))))
+(((name = (name.name)) && (name = (name.name))) => ((name->name) in (name.name)))
+(((name->name) in name) => ((name in name) && (name in name)))
+((one (name.name)) => (no name: (one name) {
+((name in (name.name)) && (name = (name.name)))
+}))
+(((name = fun_call[]) && (name = fun_call[])) => (((#(name.name)) = (fun_call[].name)) && ((#(name.name)) = (fun_call[].name))))
+((pred_call[] && pred_call[]) => let name = fun_call[] {
+((-1 <= name) && (name <= 1))
+})
+(((name.name) = name) => (((name.name).name) = ((name.name).name)))
+(((name in ((name.name).name)) && (name in ((name.name).name)) && (name in ((name.name).name)) && (name !in ((name.name).name)) && (((#((name.name).name)) + (#((name.name).name))) <= 3)) => ((((name.name).name) = (((name.name).name) + name)) && (((name.name).name) = (((name.name).name) - name)) && (((name.name).name) = (((name.name).name) + name))))
+((name in ((name.name).(*(name + name)))) => ((name !in (name.(^(name + name)))) && (no ((name.name) & (name.name))) && (lone (name.(~(name + name))))))
+(((name.name) = ((name.name).name)) => ((#(name.name)) = 0))
+(((name.name) != name) => (((name.name).name) = ((name.name).name)))
+((((name.name) != name) || ((name.name) != name)) => ((name.name) != (name.name)))
+(((#fun_call[]) = 0) => (((#fun_call[]) > 0) && (fun_call[] = fun_call[])))
+((not pred_call[]) => ((name.name) = (name.name)))
+((name != name) => (no ((((name.name).name).(*name)) & (((name.name).name).(*name)))))
+((no ((name.name).name)) => (((name.name).name) = ((name.name).name)))
+(((#(name.name)) = 3) => ((name.name) = name))
+(pred_call[] => (((name.name).name) = (0->name)))
+(((name in (name.name)) && (name > 1)) => ((name.name) = fun_call[]))
+((((name.name) in (name.name)) && ((#((name.name) & (name.name))) = 1)) => (((name.name) in (name.name)) && ((((name.name) & (name.name)) in (name.name)) || (one name: (one (name.name)) {
+(name in (name.name))
+}))))
+((name in name) => (name = (name.name)))
+(pred_call[] => (((name.name) = (name.name)) && ((name.name) = name)))
+((name = ((name.name).name)) => (not pred_call[]))
+(((name.(name.name)) = name) => (({ name: (one (name.(name.name))) {
+(not (some name: (one (name.(name.name))) {
+(name in (name.(name.name)))
+}))
+} }) = name))
+((name in (name.name)) => (((#(name.name)) = 1) && ((#(name.name)) = 1)))
+((name !in (fun_call[].name)) => ((name.(name.name)) = name))
+(((name.name) = name) => (((name.name) = name) || ((name.name) = name)))
+((((name.name) = name) && ((#(name.name)) > 2)) => (((name.name) = (name.name)) && ((name.name) = fun_call[])))
+(((name.name) = name) => ((name.name) in (name.name)))
+(((name in (name.((name.name).name))) && (name in (name.((name.name).name)))) => ((name.name) = (name.name)))
+((name !in (name.name)) => (all name: (one (name.(*(name.name)))) {
+(name !in (name.name))
+}))
+(pred_call[] => ((((name.name) = name) => ((name.name) = (name.name))) && (((name.name) != name) => ((name.name) = name))))
+(((name->name) !in name) => ((name->name) in name))
+(((name.name) = name) => (some name: (one name) {
+((((name.name) in name) || ((name.name) in name) || ((name.name) in name)) && ((name.name) = ((name.name) + name)))
+}))
+
+

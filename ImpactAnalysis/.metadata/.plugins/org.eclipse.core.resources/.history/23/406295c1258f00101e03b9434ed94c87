@@ -1,0 +1,7 @@
+modelname,filename,position-line,position-character,incompleteline,removedtext,baseline,suggestionedExpression,A_iff_B,A_and_B,not_A_and_B,A_and_not_B,not_A_and_not_B,suggestionImpactTime
+courses-v2,completion/courses-v2-complete.als,48,20,"all p : Person | p.","projects in p.enrolled.projects","{}","\tall p : Person | p.enrolled",,,,,,10.2015
+courses-v2,completion/courses-v2-complete.als,48,20,"all p : Person | p.","projects in p.enrolled.projects","{}","\tall p : Person | p.projects",,,,,,10.2015
+courses-v2,completion/courses-v2-complete.als,48,20,"all p : Person | p.","projects in p.enrolled.projects","{}","\tall p : Person | p.teaches",,,,,,10.2015
+courses-v2,completion/courses-v2-complete.als,48,20,"all p : Person | p.","projects in p.enrolled.projects","{}","\tall p : Person | p.iden",,,,,,10.2015
+courses-v2,completion/courses-v2-complete.als,48,20,"all p : Person | p.","projects in p.enrolled.projects","{}","\tall p : Person | p.none",,,,,,10.2015
+courses-v2,completion/courses-v2-complete.als,48,20,"all p : Person | p.","projects in p.enrolled.projects","{}","\tall p : Person | p.univ",,,,,,10.2015

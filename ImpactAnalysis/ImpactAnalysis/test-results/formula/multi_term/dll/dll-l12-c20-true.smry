@@ -1,0 +1,105 @@
+Model name: dll
+Filename: completion/dll.als
+Offset: 172
+Term: .
+Vscode Position: line=11 character=20
+----------------------------------
+12 |   Node = DLL.header.
+----------------------------------
+Completion List:
+# Suggestion 	 Exact 	 Syntactic 	 Semantic
+$1. *nxt.Node 	 false 	 false 	 false
+$2. *pre.Node 	 false 	 false 	 false
+$3. ^nxt.Node 	 false 	 false 	 false
+$4. ^pre.Node 	 false 	 false 	 false
+$5. nxt.Node 	 false 	 false 	 false
+$6. pre.Node 	 false 	 false 	 false
+$7. ~header.DLL 	 false 	 false 	 false
+$8. ~nxt.Node 	 false 	 false 	 false
+$9. ~pre.Node 	 false 	 false 	 false
+$10. *nxt.elem 	 false 	 false 	 false
+$11. *nxt.pre 	 false 	 false 	 false
+$12. *pre.elem 	 false 	 false 	 false
+$13. *pre.nxt 	 false 	 false 	 false
+$14. ^nxt.elem 	 false 	 false 	 false
+$15. ^nxt.pre 	 false 	 false 	 false
+$16. ^pre.elem 	 false 	 false 	 false
+$17. ^pre.nxt 	 false 	 false 	 false
+$18. elem 	 false 	 false 	 false
+$19. elem.Int 	 false 	 false 	 false
+$20. elem.univ 	 false 	 false 	 false
+$21. nxt 	 true 	 true 	 true
+$22. nxt.*pre 	 false 	 false 	 false
+$23. nxt.^pre 	 false 	 false 	 false
+$24. nxt.elem 	 false 	 false 	 false
+$25. nxt.pre 	 false 	 false 	 false
+$26. nxt.univ 	 false 	 false 	 false
+$27. nxt.~header 	 false 	 false 	 false
+$28. nxt.~pre 	 false 	 false 	 false
+$29. pre 	 false 	 false 	 false
+$30. pre.*nxt 	 false 	 false 	 false
+$31. pre.^nxt 	 false 	 false 	 false
+$32. pre.elem 	 false 	 false 	 false
+$33. pre.nxt 	 false 	 false 	 false
+$34. pre.univ 	 false 	 false 	 false
+$35. pre.~header 	 false 	 false 	 false
+$36. pre.~nxt 	 false 	 false 	 false
+$37. ~nxt.elem 	 false 	 false 	 false
+$38. ~nxt.pre 	 false 	 false 	 false
+$39. ~pre.elem 	 false 	 false 	 false
+$40. ~pre.nxt 	 false 	 false 	 false
+$41. *nxt.~header 	 false 	 false 	 false
+$42. *nxt.~pre 	 false 	 false 	 false
+$43. *pre.~header 	 false 	 false 	 false
+$44. *pre.~nxt 	 false 	 false 	 false
+$45. ^nxt.~header 	 false 	 false 	 false
+$46. ^nxt.~pre 	 false 	 false 	 false
+$47. ^pre.~header 	 false 	 false 	 false
+$48. ^pre.~nxt 	 false 	 false 	 false
+$49. ~header 	 false 	 false 	 false
+$50. ~header.univ 	 false 	 false 	 false
+$51. ~nxt 	 false 	 false 	 false
+$52. ~nxt.*pre 	 false 	 false 	 false
+$53. ~nxt.^pre 	 false 	 false 	 false
+$54. ~nxt.univ 	 false 	 false 	 false
+$55. ~nxt.~header 	 false 	 false 	 false
+$56. ~nxt.~pre 	 false 	 false 	 false
+$57. ~pre 	 false 	 false 	 false
+$58. ~pre.*nxt 	 false 	 false 	 false
+$59. ~pre.^nxt 	 false 	 false 	 false
+$60. ~pre.univ 	 false 	 false 	 false
+$61. ~pre.~header 	 false 	 false 	 false
+$62. ~pre.~nxt 	 false 	 false 	 false
+$63. *nxt.^pre 	 false 	 false 	 false
+$64. *pre.^nxt 	 false 	 false 	 false
+$65. ^nxt 	 false 	 false 	 false
+$66. ^nxt.*pre 	 false 	 false 	 false
+$67. ^nxt.^pre 	 false 	 false 	 false
+$68. ^nxt.univ 	 false 	 false 	 false
+$69. ^pre 	 false 	 false 	 false
+$70. ^pre.*nxt 	 false 	 false 	 false
+$71. ^pre.^nxt 	 false 	 false 	 false
+$72. ^pre.univ 	 false 	 false 	 false
+$73. *nxt 	 false 	 false 	 false
+$74. *nxt.*pre 	 false 	 false 	 false
+$75. *nxt.univ 	 false 	 false 	 false
+$76. *pre 	 false 	 false 	 false
+$77. *pre.*nxt 	 false 	 false 	 false
+$78. *pre.univ 	 false 	 false 	 false
+Expected Completion word: *nxt
+Expected Completion line: *nxt
+Suggestion exists: true
+
+Suggestion in top 1 = false 
+Suggestion in top 5 = false 
+Suggestion in top 10 = false 
+
+Suggestion in top 1 (Alpha) = true
+Suggestion in top 5 (Alpha) = true
+Suggestion in top 10 (Alpha) = true
+
+Suggestion in top 1 (Len) = false
+Suggestion in top 5 (Len) = false
+Suggestion in top 10 (Len) = true
+
+Time taken: 10.201334

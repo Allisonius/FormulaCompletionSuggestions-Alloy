@@ -1,0 +1,113 @@
+
+public class SuggestionResult implements Comparable<SuggestionResult> {
+	String suggestion;
+	String template;
+	String loc_template;
+	boolean doesMatchExactly;
+	boolean doesMatchSyntactically;
+	boolean doesMatchSemantically;
+	long orig_rank;
+	int priority_level;
+	long new_rank;
+	int alpha_rank;
+	int len_rank;
+	
+	public SuggestionResult(String suggestion, String template, String loc_template, boolean doesMatchExactly, boolean doesMatchSyntactically, boolean doesMatchSemantically, long orig_rank, int priority_level) {
+		this.suggestion = suggestion;
+		this.template = template;
+		this.loc_template = loc_template;
+		this.doesMatchExactly = doesMatchExactly;
+		this.doesMatchSyntactically = doesMatchSyntactically;
+		this.doesMatchSemantically = doesMatchSemantically;
+		this.orig_rank = orig_rank;
+		this.priority_level = priority_level;
+	}
+	
+	public String getSuggestion() {
+		return suggestion;
+	}
+	
+	public void setRank(long rank) {
+		new_rank = rank;
+	}
+	
+	public boolean changedRank() {
+		return new_rank != orig_rank;
+	}
+	
+	public String printChange(){
+		String result = "";
+		result += suggestion + ",";
+		result += new_rank + ",";
+		result += orig_rank + ",";
+		result += alpha_rank + ",";
+		result += len_rank + ",";
+		result += priority_level + ",";
+		result += doesMatchExactly + ",";
+		result += doesMatchSyntactically + ",";
+		result += doesMatchSemantically;
+		return result;
+	}
+
+	@Override
+	public int compareTo(SuggestionResult o) {
+		//Break ties
+		//First: want less joins
+		//Secondary: want less operators
+		
+		int count_dot_ops = countDotOps(suggestion);
+		int compare_count_dot_ops = countDotOps(o.suggestion);
+		
+		if(count_dot_ops < compare_count_dot_ops) {
+			return -1;
+		}
+		else if(count_dot_ops > compare_count_dot_ops) {
+			return 1;
+		}
+		else {
+			int num_ops = countOps(suggestion);
+			int num_ops_compare = countOps(o.suggestion);
+			
+			if(num_ops < num_ops_compare) {
+				return -1;
+			}
+			else if(num_ops > num_ops_compare) {
+				return 1;
+			}
+			else {
+				return suggestion.compareTo(o.getSuggestion());
+			}
+		}
+	}
+	
+	//Collect number of relational joins
+	public int countDotOps(String suggestion) {
+		int num = 0;
+		
+		for(int i = 0; i < suggestion.length(); i++) {
+			if(suggestion.charAt(i) == '.') {
+				num++;
+			}
+		}
+		
+		return num;
+	}
+	
+	//Collect number of relational unary operators
+	public int countOps(String suggestion) {
+		int num = 0;
+		
+		for(int i = 0; i < suggestion.length(); i++) {
+			if(suggestion.charAt(i) == '^') {
+				num++;
+			}
+			else if(suggestion.charAt(i) == '*') {
+				num++;
+			}
+			else if(suggestion.charAt(i) == '~') {
+				num++;
+			}
+		}
+		return num;
+	}
+}

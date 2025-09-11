@@ -1,0 +1,102 @@
+Model name: train-station-ltl
+Filename: completion/train-station-ltl-complete.als
+Offset: 1347
+Term: .
+Vscode Position: line=71 character=12
+----------------------------------
+72 | 	always pos.
+----------------------------------
+Completion List:
+# Suggestion 	 Exact 	 Syntactic 	 Semantic
+$1. *prox.Entry 	 false 	 false 	 false
+$2. *prox.Exit 	 false 	 false 	 false
+$3. *prox.Junction 	 false 	 false 	 false
+$4. *prox.Track 	 false 	 false 	 false
+$5. Entry 	 false 	 false 	 false
+$6. Entry.*prox 	 false 	 false 	 false
+$7. Entry.^prox 	 false 	 false 	 false
+$8. Entry.prox 	 false 	 false 	 false
+$9. Entry.signal 	 false 	 false 	 false
+$10. Entry.~pos 	 false 	 false 	 false
+$11. Entry.~prox 	 false 	 false 	 false
+$12. Exit 	 false 	 false 	 false
+$13. Exit.*prox 	 false 	 false 	 false
+$14. Exit.^prox 	 false 	 false 	 false
+$15. Exit.prox 	 false 	 false 	 false
+$16. Exit.signal 	 false 	 false 	 false
+$17. Exit.~pos 	 false 	 false 	 false
+$18. Exit.~prox 	 false 	 false 	 false
+$19. Junction 	 false 	 false 	 false
+$20. Junction.*prox 	 false 	 false 	 false
+$21. Junction.^prox 	 false 	 false 	 false
+$22. Junction.prox 	 false 	 false 	 false
+$23. Junction.signal 	 false 	 false 	 false
+$24. Junction.~pos 	 false 	 false 	 false
+$25. Junction.~prox 	 false 	 false 	 false
+$26. Track 	 false 	 false 	 false
+$27. Track.*prox 	 false 	 false 	 false
+$28. Track.^prox 	 false 	 false 	 false
+$29. Track.prox 	 false 	 false 	 false
+$30. Track.signal 	 false 	 false 	 false
+$31. Track.~pos 	 false 	 false 	 false
+$32. Track.~prox 	 false 	 false 	 false
+$33. ^prox.Entry 	 false 	 false 	 false
+$34. ^prox.Exit 	 false 	 false 	 false
+$35. ^prox.Junction 	 false 	 false 	 false
+$36. ^prox.Track 	 false 	 false 	 false
+$37. prox.Entry 	 false 	 false 	 false
+$38. prox.Exit 	 false 	 false 	 false
+$39. prox.Junction 	 false 	 false 	 false
+$40. prox.Track 	 false 	 false 	 false
+$41. signal.Green 	 false 	 false 	 false
+$42. signal.Green' 	 false 	 false 	 false
+$43. signal.Signal 	 false 	 false 	 false
+$44. ~prox.Entry 	 false 	 false 	 false
+$45. ~prox.Exit 	 false 	 false 	 false
+$46. ~prox.Junction 	 false 	 false 	 false
+$47. ~prox.Track 	 false 	 false 	 false
+$48. *prox.signal 	 false 	 false 	 false
+$49. ^prox.signal 	 false 	 false 	 false
+$50. prox 	 false 	 false 	 false
+$51. prox.signal 	 false 	 false 	 false
+$52. prox.univ 	 false 	 false 	 false
+$53. prox.~pos 	 false 	 false 	 false
+$54. signal 	 false 	 false 	 false
+$55. signal.univ 	 false 	 false 	 false
+$56. univ.pos 	 false 	 undefined 	 undefined
+$57. univ.pos' 	 false 	 false 	 false
+$58. univ.prox 	 false 	 false 	 false
+$59. univ.signal 	 false 	 false 	 false
+$60. ~prox.signal 	 false 	 false 	 false
+$61. *prox.~pos 	 false 	 false 	 false
+$62. ^prox.~pos 	 false 	 false 	 false
+$63. univ.~pos 	 false 	 false 	 false
+$64. univ.~prox 	 false 	 false 	 false
+$65. univ.~signal 	 false 	 false 	 false
+$66. ~prox 	 false 	 false 	 false
+$67. ~prox.univ 	 false 	 false 	 false
+$68. ~prox.~pos 	 false 	 false 	 false
+$69. ^prox 	 false 	 false 	 false
+$70. ^prox.univ 	 false 	 false 	 false
+$71. univ.^prox 	 false 	 false 	 false
+$72. *prox 	 false 	 false 	 false
+$73. *prox.univ 	 false 	 false 	 false
+$74. univ 	 false 	 false 	 false
+$75. univ.*prox 	 false 	 false 	 false
+Expected Completion word: ~pos
+Expected Completion line: ~pos in iden
+Suggestion exists: false
+
+Suggestion in top 1 = false 
+Suggestion in top 5 = false 
+Suggestion in top 10 = false 
+
+Suggestion in top 1 (Alpha) = false
+Suggestion in top 5 (Alpha) = false
+Suggestion in top 10 (Alpha) = false
+
+Suggestion in top 1 (Len) = false
+Suggestion in top 5 (Len) = false
+Suggestion in top 10 (Len) = false
+
+Time taken: 22.105333

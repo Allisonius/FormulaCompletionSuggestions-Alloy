@@ -1,0 +1,11 @@
+modelname,filename,position-line,position-character,incompleteline,removedtext,baseline,suggestionedExpression,A_iff_B,A_and_B,not_A_and_B,A_and_not_B,not_A_and_not_B,suggestionImpactTime
+classroom,completion/classroom-complete.als,53,36,"all c:Class,s:Student | some s.(c.","Groups)","{}","  all c:Class,s:Student | some s.(c.Groups",,,,,,10.499708
+classroom,completion/classroom-complete.als,53,36,"all c:Class,s:Student | some s.(c.","Groups)","{}","  all c:Class,s:Student | some s.(c.Teaches",,,,,,10.499708
+classroom,completion/classroom-complete.als,53,36,"all c:Class,s:Student | some s.(c.","Groups)","{}","  all c:Class,s:Student | some s.(c.Tutors",,,,,,10.499708
+classroom,completion/classroom-complete.als,53,36,"all c:Class,s:Student | some s.(c.","Groups)","{}","  all c:Class,s:Student | some s.(c.~Teaches",,,,,,10.499708
+classroom,completion/classroom-complete.als,53,36,"all c:Class,s:Student | some s.(c.","Groups)","{}","  all c:Class,s:Student | some s.(c.~Tutors",,,,,,10.499708
+classroom,completion/classroom-complete.als,53,36,"all c:Class,s:Student | some s.(c.","Groups)","{}","  all c:Class,s:Student | some s.(c.^Tutors",,,,,,10.499708
+classroom,completion/classroom-complete.als,53,36,"all c:Class,s:Student | some s.(c.","Groups)","{}","  all c:Class,s:Student | some s.(c.*Tutors",,,,,,10.499708
+classroom,completion/classroom-complete.als,53,36,"all c:Class,s:Student | some s.(c.","Groups)","{}","  all c:Class,s:Student | some s.(c.iden",,,,,,10.499708
+classroom,completion/classroom-complete.als,53,36,"all c:Class,s:Student | some s.(c.","Groups)","{}","  all c:Class,s:Student | some s.(c.none",,,,,,10.499708
+classroom,completion/classroom-complete.als,53,36,"all c:Class,s:Student | some s.(c.","Groups)","{}","  all c:Class,s:Student | some s.(c.univ",,,,,,10.499708

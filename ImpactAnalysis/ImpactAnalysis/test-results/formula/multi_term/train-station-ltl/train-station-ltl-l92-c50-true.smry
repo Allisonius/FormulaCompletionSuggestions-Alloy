@@ -1,0 +1,267 @@
+Model name: train-station-ltl
+Filename: completion/train-station-ltl-complete.als
+Offset: 2082
+Term:  & 
+Vscode Position: line=91 character=50
+----------------------------------
+92 | 	all j : Junction | always lone (prox.j).signal & 
+----------------------------------
+Completion List:
+# Suggestion 	 Exact 	 Syntactic 	 Semantic
+$1. *prox.j.signal 	 false 	 undefined 	 undefined
+$2. ^prox.j.signal 	 false 	 undefined 	 undefined
+$3. j 	 false 	 undefined 	 undefined
+$4. j.*prox.signal 	 false 	 undefined 	 undefined
+$5. j.^prox.signal 	 false 	 undefined 	 undefined
+$6. j.prox.signal 	 false 	 undefined 	 undefined
+$7. j.signal 	 false 	 undefined 	 undefined
+$8. j.~prox.signal 	 false 	 undefined 	 undefined
+$9. pos'.j.*prox 	 false 	 undefined 	 undefined
+$10. pos'.j.^prox 	 false 	 undefined 	 undefined
+$11. pos'.j.prox 	 false 	 undefined 	 undefined
+$12. pos'.j.signal 	 false 	 undefined 	 undefined
+$13. pos'.j.~pos 	 false 	 undefined 	 undefined
+$14. pos'.j.~prox 	 false 	 undefined 	 undefined
+$15. pos.j.*prox 	 false 	 undefined 	 undefined
+$16. pos.j.^prox 	 false 	 undefined 	 undefined
+$17. pos.j.prox 	 false 	 undefined 	 undefined
+$18. pos.j.signal 	 false 	 undefined 	 undefined
+$19. pos.j.~pos 	 false 	 undefined 	 undefined
+$20. pos.j.~prox 	 false 	 undefined 	 undefined
+$21. prox.j.signal 	 false 	 undefined 	 undefined
+$22. ~prox.j.signal 	 false 	 undefined 	 undefined
+$23. ~signal.*prox.j 	 false 	 undefined 	 undefined
+$24. ~signal.^prox.j 	 false 	 undefined 	 undefined
+$25. ~signal.j 	 false 	 undefined 	 undefined
+$26. ~signal.j.*prox 	 false 	 undefined 	 undefined
+$27. ~signal.j.^prox 	 false 	 undefined 	 undefined
+$28. ~signal.j.prox 	 false 	 undefined 	 undefined
+$29. ~signal.j.signal 	 false 	 undefined 	 undefined
+$30. ~signal.j.~pos 	 false 	 undefined 	 undefined
+$31. ~signal.j.~prox 	 false 	 undefined 	 undefined
+$32. ~signal.prox.j 	 false 	 undefined 	 undefined
+$33. ~signal.~prox.j 	 false 	 undefined 	 undefined
+$34. *prox.Entry.signal 	 false 	 undefined 	 undefined
+$35. *prox.Exit.signal 	 false 	 undefined 	 undefined
+$36. *prox.Junction.signal 	 false 	 undefined 	 undefined
+$37. *prox.Track.signal 	 false 	 undefined 	 undefined
+$38. Entry 	 false 	 undefined 	 undefined
+$39. Entry.*prox.signal 	 false 	 undefined 	 undefined
+$40. Entry.^prox.signal 	 false 	 undefined 	 undefined
+$41. Entry.prox.signal 	 false 	 undefined 	 undefined
+$42. Entry.signal 	 false 	 undefined 	 undefined
+$43. Entry.~prox.signal 	 false 	 undefined 	 undefined
+$44. Exit 	 false 	 undefined 	 undefined
+$45. Exit.*prox.signal 	 false 	 undefined 	 undefined
+$46. Exit.^prox.signal 	 false 	 undefined 	 undefined
+$47. Exit.prox.signal 	 false 	 undefined 	 undefined
+$48. Exit.signal 	 false 	 undefined 	 undefined
+$49. Exit.~prox.signal 	 false 	 undefined 	 undefined
+$50. Green 	 true 	 undefined 	 undefined
+$51. Green' 	 false 	 undefined 	 undefined
+$52. Junction 	 false 	 undefined 	 undefined
+$53. Junction.*prox.signal 	 false 	 undefined 	 undefined
+$54. Junction.^prox.signal 	 false 	 undefined 	 undefined
+$55. Junction.prox.signal 	 false 	 undefined 	 undefined
+$56. Junction.signal 	 false 	 undefined 	 undefined
+$57. Junction.~prox.signal 	 false 	 undefined 	 undefined
+$58. Signal 	 false 	 undefined 	 undefined
+$59. Track 	 false 	 undefined 	 undefined
+$60. Track.*prox.signal 	 false 	 undefined 	 undefined
+$61. Track.^prox.signal 	 false 	 undefined 	 undefined
+$62. Track.prox.signal 	 false 	 undefined 	 undefined
+$63. Track.signal 	 false 	 undefined 	 undefined
+$64. Track.~prox.signal 	 false 	 undefined 	 undefined
+$65. Train 	 false 	 undefined 	 undefined
+$66. Train.pos'.signal 	 false 	 undefined 	 undefined
+$67. Train.pos.signal 	 false 	 undefined 	 undefined
+$68. ^prox.Entry.signal 	 false 	 undefined 	 undefined
+$69. ^prox.Exit.signal 	 false 	 undefined 	 undefined
+$70. ^prox.Junction.signal 	 false 	 undefined 	 undefined
+$71. ^prox.Track.signal 	 false 	 undefined 	 undefined
+$72. pos'.Entry.*prox 	 false 	 undefined 	 undefined
+$73. pos'.Entry.^prox 	 false 	 undefined 	 undefined
+$74. pos'.Entry.prox 	 false 	 undefined 	 undefined
+$75. pos'.Entry.signal 	 false 	 undefined 	 undefined
+$76. pos'.Entry.~pos 	 false 	 undefined 	 undefined
+$77. pos'.Entry.~prox 	 false 	 undefined 	 undefined
+$78. pos'.Exit.*prox 	 false 	 undefined 	 undefined
+$79. pos'.Exit.^prox 	 false 	 undefined 	 undefined
+$80. pos'.Exit.prox 	 false 	 undefined 	 undefined
+$81. pos'.Exit.signal 	 false 	 undefined 	 undefined
+$82. pos'.Exit.~pos 	 false 	 undefined 	 undefined
+$83. pos'.Exit.~prox 	 false 	 undefined 	 undefined
+$84. pos'.Junction.*prox 	 false 	 undefined 	 undefined
+$85. pos'.Junction.^prox 	 false 	 undefined 	 undefined
+$86. pos'.Junction.prox 	 false 	 undefined 	 undefined
+$87. pos'.Junction.signal 	 false 	 undefined 	 undefined
+$88. pos'.Junction.~pos 	 false 	 undefined 	 undefined
+$89. pos'.Junction.~prox 	 false 	 undefined 	 undefined
+$90. pos'.Track.*prox 	 false 	 undefined 	 undefined
+$91. pos'.Track.^prox 	 false 	 undefined 	 undefined
+$92. pos'.Track.prox 	 false 	 undefined 	 undefined
+$93. pos'.Track.signal 	 false 	 undefined 	 undefined
+$94. pos'.Track.~pos 	 false 	 undefined 	 undefined
+$95. pos'.Track.~prox 	 false 	 undefined 	 undefined
+$96. pos.Entry.*prox 	 false 	 undefined 	 undefined
+$97. pos.Entry.^prox 	 false 	 undefined 	 undefined
+$98. pos.Entry.prox 	 false 	 undefined 	 undefined
+$99. pos.Entry.signal 	 false 	 undefined 	 undefined
+$100. pos.Entry.~pos 	 false 	 undefined 	 undefined
+$101. pos.Entry.~prox 	 false 	 undefined 	 undefined
+$102. pos.Exit.*prox 	 false 	 undefined 	 undefined
+$103. pos.Exit.^prox 	 false 	 undefined 	 undefined
+$104. pos.Exit.prox 	 false 	 undefined 	 undefined
+$105. pos.Exit.signal 	 false 	 undefined 	 undefined
+$106. pos.Exit.~pos 	 false 	 undefined 	 undefined
+$107. pos.Exit.~prox 	 false 	 undefined 	 undefined
+$108. pos.Junction.*prox 	 false 	 undefined 	 undefined
+$109. pos.Junction.^prox 	 false 	 undefined 	 undefined
+$110. pos.Junction.prox 	 false 	 undefined 	 undefined
+$111. pos.Junction.signal 	 false 	 undefined 	 undefined
+$112. pos.Junction.~pos 	 false 	 undefined 	 undefined
+$113. pos.Junction.~prox 	 false 	 undefined 	 undefined
+$114. pos.Track.*prox 	 false 	 undefined 	 undefined
+$115. pos.Track.^prox 	 false 	 undefined 	 undefined
+$116. pos.Track.prox 	 false 	 undefined 	 undefined
+$117. pos.Track.signal 	 false 	 undefined 	 undefined
+$118. pos.Track.~pos 	 false 	 undefined 	 undefined
+$119. pos.Track.~prox 	 false 	 undefined 	 undefined
+$120. prox.Entry.signal 	 false 	 undefined 	 undefined
+$121. prox.Exit.signal 	 false 	 undefined 	 undefined
+$122. prox.Junction.signal 	 false 	 undefined 	 undefined
+$123. prox.Track.signal 	 false 	 undefined 	 undefined
+$124. signal.Green'.~signal 	 false 	 undefined 	 undefined
+$125. signal.Green.~signal 	 false 	 undefined 	 undefined
+$126. signal.Signal.~signal 	 false 	 undefined 	 undefined
+$127. ~pos.Train.pos 	 false 	 undefined 	 undefined
+$128. ~pos.Train.pos' 	 false 	 undefined 	 undefined
+$129. ~prox.Entry.signal 	 false 	 undefined 	 undefined
+$130. ~prox.Exit.signal 	 false 	 undefined 	 undefined
+$131. ~prox.Junction.signal 	 false 	 undefined 	 undefined
+$132. ~prox.Track.signal 	 false 	 undefined 	 undefined
+$133. ~signal.*prox.Entry 	 false 	 undefined 	 undefined
+$134. ~signal.*prox.Exit 	 false 	 undefined 	 undefined
+$135. ~signal.*prox.Junction 	 false 	 undefined 	 undefined
+$136. ~signal.*prox.Track 	 false 	 undefined 	 undefined
+$137. ~signal.Entry 	 false 	 undefined 	 undefined
+$138. ~signal.Entry.*prox 	 false 	 undefined 	 undefined
+$139. ~signal.Entry.^prox 	 false 	 undefined 	 undefined
+$140. ~signal.Entry.prox 	 false 	 undefined 	 undefined
+$141. ~signal.Entry.signal 	 false 	 undefined 	 undefined
+$142. ~signal.Entry.~pos 	 false 	 undefined 	 undefined
+$143. ~signal.Entry.~prox 	 false 	 undefined 	 undefined
+$144. ~signal.Exit 	 false 	 undefined 	 undefined
+$145. ~signal.Exit.*prox 	 false 	 undefined 	 undefined
+$146. ~signal.Exit.^prox 	 false 	 undefined 	 undefined
+$147. ~signal.Exit.prox 	 false 	 undefined 	 undefined
+$148. ~signal.Exit.signal 	 false 	 undefined 	 undefined
+$149. ~signal.Exit.~pos 	 false 	 undefined 	 undefined
+$150. ~signal.Exit.~prox 	 false 	 undefined 	 undefined
+$151. ~signal.Junction 	 false 	 undefined 	 undefined
+$152. ~signal.Junction.*prox 	 false 	 undefined 	 undefined
+$153. ~signal.Junction.^prox 	 false 	 undefined 	 undefined
+$154. ~signal.Junction.prox 	 false 	 undefined 	 undefined
+$155. ~signal.Junction.signal 	 false 	 undefined 	 undefined
+$156. ~signal.Junction.~pos 	 false 	 undefined 	 undefined
+$157. ~signal.Junction.~prox 	 false 	 undefined 	 undefined
+$158. ~signal.Track 	 false 	 undefined 	 undefined
+$159. ~signal.Track.*prox 	 false 	 undefined 	 undefined
+$160. ~signal.Track.^prox 	 false 	 undefined 	 undefined
+$161. ~signal.Track.prox 	 false 	 undefined 	 undefined
+$162. ~signal.Track.signal 	 false 	 undefined 	 undefined
+$163. ~signal.Track.~pos 	 false 	 undefined 	 undefined
+$164. ~signal.Track.~prox 	 false 	 undefined 	 undefined
+$165. ~signal.^prox.Entry 	 false 	 undefined 	 undefined
+$166. ~signal.^prox.Exit 	 false 	 undefined 	 undefined
+$167. ~signal.^prox.Junction 	 false 	 undefined 	 undefined
+$168. ~signal.^prox.Track 	 false 	 undefined 	 undefined
+$169. ~signal.prox.Entry 	 false 	 undefined 	 undefined
+$170. ~signal.prox.Exit 	 false 	 undefined 	 undefined
+$171. ~signal.prox.Junction 	 false 	 undefined 	 undefined
+$172. ~signal.prox.Track 	 false 	 undefined 	 undefined
+$173. ~signal.~pos.Train 	 false 	 undefined 	 undefined
+$174. ~signal.~prox.Entry 	 false 	 undefined 	 undefined
+$175. ~signal.~prox.Exit 	 false 	 undefined 	 undefined
+$176. ~signal.~prox.Junction 	 false 	 undefined 	 undefined
+$177. ~signal.~prox.Track 	 false 	 undefined 	 undefined
+$178. *prox.univ.pos 	 false 	 undefined 	 undefined
+$179. *prox.univ.pos' 	 false 	 undefined 	 undefined
+$180. *prox.univ.signal 	 false 	 undefined 	 undefined
+$181. ^prox.univ.pos 	 false 	 undefined 	 undefined
+$182. ^prox.univ.pos' 	 false 	 undefined 	 undefined
+$183. ^prox.univ.signal 	 false 	 undefined 	 undefined
+$184. pos'.univ.*prox 	 false 	 undefined 	 undefined
+$185. pos'.univ.^prox 	 false 	 undefined 	 undefined
+$186. pos'.univ.prox 	 false 	 undefined 	 undefined
+$187. pos'.univ.signal 	 false 	 undefined 	 undefined
+$188. pos'.univ.~pos 	 false 	 undefined 	 undefined
+$189. pos'.univ.~prox 	 false 	 undefined 	 undefined
+$190. pos'.univ.~signal 	 false 	 undefined 	 undefined
+$191. pos.univ.*prox 	 false 	 undefined 	 undefined
+$192. pos.univ.^prox 	 false 	 undefined 	 undefined
+$193. pos.univ.prox 	 false 	 undefined 	 undefined
+$194. pos.univ.signal 	 false 	 undefined 	 undefined
+$195. pos.univ.~pos 	 false 	 undefined 	 undefined
+$196. pos.univ.~prox 	 false 	 undefined 	 undefined
+$197. pos.univ.~signal 	 false 	 undefined 	 undefined
+$198. prox.univ.pos 	 false 	 undefined 	 undefined
+$199. prox.univ.pos' 	 false 	 undefined 	 undefined
+$200. prox.univ.signal 	 false 	 undefined 	 undefined
+$201. prox.univ.~signal 	 false 	 undefined 	 undefined
+$202. signal.univ.pos 	 false 	 undefined 	 undefined
+$203. signal.univ.pos' 	 false 	 undefined 	 undefined
+$204. signal.univ.signal 	 false 	 undefined 	 undefined
+$205. signal.univ.~signal 	 false 	 undefined 	 undefined
+$206. univ.*prox.signal 	 false 	 undefined 	 undefined
+$207. univ.^prox.signal 	 false 	 undefined 	 undefined
+$208. univ.pos'.signal 	 false 	 undefined 	 undefined
+$209. univ.pos.signal 	 false 	 undefined 	 undefined
+$210. univ.prox.signal 	 false 	 undefined 	 undefined
+$211. univ.signal 	 false 	 undefined 	 undefined
+$212. univ.~prox.signal 	 false 	 undefined 	 undefined
+$213. ~pos.univ.pos 	 false 	 undefined 	 undefined
+$214. ~pos.univ.pos' 	 false 	 undefined 	 undefined
+$215. ~pos.univ.signal 	 false 	 undefined 	 undefined
+$216. ~prox.univ.pos 	 false 	 undefined 	 undefined
+$217. ~prox.univ.pos' 	 false 	 undefined 	 undefined
+$218. ~prox.univ.signal 	 false 	 undefined 	 undefined
+$219. ~signal.prox.univ 	 false 	 undefined 	 undefined
+$220. ~signal.univ.pos 	 false 	 undefined 	 undefined
+$221. ~signal.univ.pos' 	 false 	 undefined 	 undefined
+$222. ~signal.univ.prox 	 false 	 undefined 	 undefined
+$223. ~signal.univ.signal 	 false 	 undefined 	 undefined
+$224. *prox.univ.~signal 	 false 	 undefined 	 undefined
+$225. ^prox.univ.~signal 	 false 	 undefined 	 undefined
+$226. ~pos.univ.~signal 	 false 	 undefined 	 undefined
+$227. ~prox.univ.~signal 	 false 	 undefined 	 undefined
+$228. ~signal.*prox.univ 	 false 	 undefined 	 undefined
+$229. ~signal.^prox.univ 	 false 	 undefined 	 undefined
+$230. ~signal.univ 	 false 	 undefined 	 undefined
+$231. ~signal.univ.*prox 	 false 	 undefined 	 undefined
+$232. ~signal.univ.^prox 	 false 	 undefined 	 undefined
+$233. ~signal.univ.~pos 	 false 	 undefined 	 undefined
+$234. ~signal.univ.~prox 	 false 	 undefined 	 undefined
+$235. ~signal.~pos.univ 	 false 	 undefined 	 undefined
+$236. ~signal.~prox.univ 	 false 	 undefined 	 undefined
+$237. Int 	 false 	 undefined 	 undefined
+$238. String 	 false 	 undefined 	 undefined
+$239. none 	 false 	 undefined 	 undefined
+$240. univ 	 false 	 undefined 	 undefined
+Expected Completion word: Green
+Expected Completion line: Green	
+Suggestion exists: true
+
+Suggestion in top 1 = false 
+Suggestion in top 5 = false 
+Suggestion in top 10 = false 
+
+Suggestion in top 1 (Alpha) = false
+Suggestion in top 5 (Alpha) = false
+Suggestion in top 10 (Alpha) = false
+
+Suggestion in top 1 (Len) = false
+Suggestion in top 5 (Len) = false
+Suggestion in top 10 (Len) = true
+
+Time taken: 38.127375

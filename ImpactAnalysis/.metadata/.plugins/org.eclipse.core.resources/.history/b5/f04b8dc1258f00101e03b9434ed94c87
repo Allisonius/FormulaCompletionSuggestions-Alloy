@@ -1,0 +1,9 @@
+modelname,filename,position-line,position-character,incompleteline,removedtext,baseline,suggestionedExpression,A_iff_B,A_and_B,not_A_and_B,A_and_not_B,not_A_and_not_B,suggestionImpactTime
+classroom-rl,completion/classroom-rl-complete.als,41,18,"Class in Teacher.","Teaches","{}","\tClass in Teacher.Teaches",true,true,false,true,false,12.460917
+classroom-rl,completion/classroom-rl-complete.als,41,18,"Class in Teacher.","Teaches","{}","\tClass in Teacher.Tutors",true,true,false,true,false,12.460917
+classroom-rl,completion/classroom-rl-complete.als,41,18,"Class in Teacher.","Teaches","{}","\tClass in Teacher.~Tutors",true,true,false,true,false,12.460917
+classroom-rl,completion/classroom-rl-complete.als,41,18,"Class in Teacher.","Teaches","{}","\tClass in Teacher.^Tutors",true,true,false,true,false,12.460917
+classroom-rl,completion/classroom-rl-complete.als,41,18,"Class in Teacher.","Teaches","{}","\tClass in Teacher.*Tutors",true,true,false,true,false,12.460917
+classroom-rl,completion/classroom-rl-complete.als,41,18,"Class in Teacher.","Teaches","{}","\tClass in Teacher.iden",true,true,false,true,false,12.460917
+classroom-rl,completion/classroom-rl-complete.als,41,18,"Class in Teacher.","Teaches","{}","\tClass in Teacher.none",,,,,,12.460917
+classroom-rl,completion/classroom-rl-complete.als,41,18,"Class in Teacher.","Teaches","{}","\tClass in Teacher.univ",,,,,,12.460917

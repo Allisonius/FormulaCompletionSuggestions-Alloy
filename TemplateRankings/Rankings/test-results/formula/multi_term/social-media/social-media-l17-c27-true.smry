@@ -1,0 +1,70 @@
+Model name: social-media
+Filename: completion/socialMedia.als
+Offset: 233
+Term: .
+Vscode Position: line=16 character=27
+----------------------------------
+17 | 	all p : Photo | one posts.
+----------------------------------
+Completion List:
+# Suggestion 	 Exact 	 Syntactic 	 Semantic
+$1. p 	 true 	 undefined 	 undefined
+$2. p.date 	 false 	 undefined 	 undefined
+$3. p.~posts 	 false 	 undefined 	 undefined
+$4. p.~sees 	 false 	 undefined 	 undefined
+$5. Ad 	 false 	 undefined 	 undefined
+$6. Ad.date 	 false 	 undefined 	 undefined
+$7. Ad.~posts 	 false 	 undefined 	 undefined
+$8. Ad.~sees 	 false 	 undefined 	 undefined
+$9. Photo 	 false 	 undefined 	 undefined
+$10. Photo.date 	 false 	 undefined 	 undefined
+$11. Photo.~posts 	 false 	 undefined 	 undefined
+$12. Photo.~sees 	 false 	 undefined 	 undefined
+$13. date.Day 	 false 	 undefined 	 undefined
+$14. ~sees.Influencer 	 false 	 undefined 	 undefined
+$15. ~sees.User 	 false 	 undefined 	 undefined
+$16. date 	 false 	 undefined 	 undefined
+$17. date.univ 	 false 	 undefined 	 undefined
+$18. univ.date 	 false 	 undefined 	 undefined
+$19. univ.follows 	 false 	 undefined 	 undefined
+$20. univ.posts 	 false 	 undefined 	 undefined
+$21. univ.sees 	 false 	 undefined 	 undefined
+$22. univ.suggested 	 false 	 undefined 	 undefined
+$23. ~sees.follows 	 false 	 undefined 	 undefined
+$24. ~sees.posts 	 false 	 undefined 	 undefined
+$25. ~sees.suggested 	 false 	 undefined 	 undefined
+$26. univ.~date 	 false 	 undefined 	 undefined
+$27. univ.~follows 	 false 	 undefined 	 undefined
+$28. univ.~posts 	 false 	 undefined 	 undefined
+$29. univ.~sees 	 false 	 undefined 	 undefined
+$30. univ.~suggested 	 false 	 undefined 	 undefined
+$31. ~sees 	 false 	 undefined 	 undefined
+$32. ~sees.*follows 	 false 	 undefined 	 undefined
+$33. ~sees.*suggested 	 false 	 undefined 	 undefined
+$34. ~sees.^follows 	 false 	 undefined 	 undefined
+$35. ~sees.^suggested 	 false 	 undefined 	 undefined
+$36. ~sees.univ 	 false 	 undefined 	 undefined
+$37. ~sees.~follows 	 false 	 undefined 	 undefined
+$38. ~sees.~suggested 	 false 	 undefined 	 undefined
+$39. univ.^follows 	 false 	 undefined 	 undefined
+$40. univ.^suggested 	 false 	 undefined 	 undefined
+$41. univ 	 false 	 undefined 	 undefined
+$42. univ.*follows 	 false 	 undefined 	 undefined
+$43. univ.*suggested 	 false 	 undefined 	 undefined
+Expected Completion word: p
+Expected Completion line: p
+Suggestion exists: true
+
+Suggestion in top 1 = true 
+Suggestion in top 5 = true 
+Suggestion in top 10 = true 
+
+Suggestion in top 1 (Alpha) = false
+Suggestion in top 5 (Alpha) = false
+Suggestion in top 10 (Alpha) = false
+
+Suggestion in top 1 (Len) = true
+Suggestion in top 5 (Len) = true
+Suggestion in top 10 (Len) = true
+
+Time taken: 17.273125

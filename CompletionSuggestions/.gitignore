@@ -1,0 +1,15 @@
+**/node_modules
+*.vsix
+.gradle/
+.DS_Store
+
+# JetBrains IDEs
+.idea/
+!**/.idea/codeStyles/
+!**/.idea/inspectionProfiles/
+!**/.idea/runConfigurations/
+*.iml
+*.iws
+
+# Test Results
+# test-results/*

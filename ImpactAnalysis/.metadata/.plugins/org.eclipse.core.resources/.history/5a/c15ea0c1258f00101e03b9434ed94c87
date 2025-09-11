@@ -1,0 +1,12 @@
+modelname,filename,position-line,position-character,incompleteline,removedtext,baseline,suggestionedExpression,A_iff_B,A_and_B,not_A_and_B,A_and_not_B,not_A_and_not_B,suggestionImpactTime
+handshake,completion/handshake.als,11,42,"all p: Person | no (p + p.spouse) & p.","shaken","{}","    all p: Person | no (p + p.spouse) & p.shaken",true,true,false,true,false,11.428959
+handshake,completion/handshake.als,11,42,"all p: Person | no (p + p.spouse) & p.","shaken","{}","    all p: Person | no (p + p.spouse) & p.spouse",false,false,false,true,false,11.428959
+handshake,completion/handshake.als,11,42,"all p: Person | no (p + p.spouse) & p.","shaken","{}","    all p: Person | no (p + p.spouse) & p.~shaken",true,true,false,true,false,11.428959
+handshake,completion/handshake.als,11,42,"all p: Person | no (p + p.spouse) & p.","shaken","{}","    all p: Person | no (p + p.spouse) & p.~spouse",false,false,false,true,false,11.428959
+handshake,completion/handshake.als,11,42,"all p: Person | no (p + p.spouse) & p.","shaken","{}","    all p: Person | no (p + p.spouse) & p.^shaken",true,true,false,true,false,11.428959
+handshake,completion/handshake.als,11,42,"all p: Person | no (p + p.spouse) & p.","shaken","{}","    all p: Person | no (p + p.spouse) & p.^spouse",false,false,false,true,false,11.428959
+handshake,completion/handshake.als,11,42,"all p: Person | no (p + p.spouse) & p.","shaken","{}","    all p: Person | no (p + p.spouse) & p.*shaken",false,false,false,true,false,11.428959
+handshake,completion/handshake.als,11,42,"all p: Person | no (p + p.spouse) & p.","shaken","{}","    all p: Person | no (p + p.spouse) & p.*spouse",false,false,false,true,false,11.428959
+handshake,completion/handshake.als,11,42,"all p: Person | no (p + p.spouse) & p.","shaken","{}","    all p: Person | no (p + p.spouse) & p.iden",false,false,false,true,false,11.428959
+handshake,completion/handshake.als,11,42,"all p: Person | no (p + p.spouse) & p.","shaken","{}","    all p: Person | no (p + p.spouse) & p.none",,,,,,11.428959
+handshake,completion/handshake.als,11,42,"all p: Person | no (p + p.spouse) & p.","shaken","{}","    all p: Person | no (p + p.spouse) & p.univ",,,,,,11.428959

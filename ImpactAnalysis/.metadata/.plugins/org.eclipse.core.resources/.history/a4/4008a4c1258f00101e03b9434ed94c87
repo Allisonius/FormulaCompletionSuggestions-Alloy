@@ -1,0 +1,6 @@
+modelname,filename,position-line,position-character,incompleteline,removedtext,baseline,suggestionedExpression,A_iff_B,A_and_B,not_A_and_B,A_and_not_B,not_A_and_not_B,suggestionImpactTime
+nqueens,completion/nqueens.als,25,46,"minus[q1.row, q2.row] != minus[q1.col, q2.","col]","{}","    minus[q1.row, q2.row] != minus[q1.col, q2.col",,,,,,4.182667
+nqueens,completion/nqueens.als,25,46,"minus[q1.row, q2.row] != minus[q1.col, q2.","col]","{}","    minus[q1.row, q2.row] != minus[q1.col, q2.row",,,,,,4.182667
+nqueens,completion/nqueens.als,25,46,"minus[q1.row, q2.row] != minus[q1.col, q2.","col]","{}","    minus[q1.row, q2.row] != minus[q1.col, q2.iden",,,,,,4.182667
+nqueens,completion/nqueens.als,25,46,"minus[q1.row, q2.row] != minus[q1.col, q2.","col]","{}","    minus[q1.row, q2.row] != minus[q1.col, q2.none",,,,,,4.182667
+nqueens,completion/nqueens.als,25,46,"minus[q1.row, q2.row] != minus[q1.col, q2.","col]","{}","    minus[q1.row, q2.row] != minus[q1.col, q2.univ",,,,,,4.182667

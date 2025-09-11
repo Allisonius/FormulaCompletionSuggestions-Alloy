@@ -1,0 +1,644 @@
+import java.io.File;
+import java.io.FileWriter;
+import java.io.IOException;
+import java.util.ArrayList;
+import java.util.HashMap;
+import java.util.Scanner;
+import java.util.TreeMap;
+import java.util.TreeSet;
+
+import org.json.simple.JSONArray;
+import org.json.simple.JSONObject;
+import org.json.simple.parser.JSONParser;
+
+import RankPriority.CrossProduct;
+import RankPriority.Difference;
+import RankPriority.Equals;
+import RankPriority.ExtendsOp;
+import RankPriority.In;
+import RankPriority.Intersection;
+import RankPriority.Join;
+import RankPriority.NotEquals;
+import RankPriority.NotIn;
+import RankPriority.Union;
+import edu.mit.csail.sdg.alloy4.A4Reporter;
+import edu.mit.csail.sdg.alloy4.ErrorWarning;
+import edu.mit.csail.sdg.ast.Command;
+import edu.mit.csail.sdg.ast.Expr;
+import edu.mit.csail.sdg.parser.CompModule;
+import edu.mit.csail.sdg.parser.CompUtil;
+import edu.mit.csail.sdg.translator.A4Options;
+import edu.mit.csail.sdg.translator.A4Solution;
+import edu.mit.csail.sdg.translator.TranslateAlloyToKodkod;
+
+public class RankList {
+	
+	public static void main (String [] args) {
+		
+		//Read in suggestion situation from json results array
+		
+		String source = "formula";
+		//String source = "generator";
+		String [] models = {"array", "bempl", "binary-tree", "class-diagram", "classroom", "classroom-fol", "classroom-rl", "courses-v1",
+				"courses-v2", "c-tree", "cv", "dll", "fsm", "grade", "graph", "handshake", "lts", "nqueens", 
+				"production-line-v1", "production-line-v2", "production-line-v3", "singly-linked-list", "social-media", "train-station-fol",
+				"train-station-ltl", "trash-fol", "trash-ltl", "trash-rl"
+		};
+		
+		//String [] models = {"trash-fol"};
+		//String model = "array";
+		//String model = "binary-tree";
+		//String model = "classroom";
+		//String model = "classroom-fol";
+		
+		String result_dir = "results" + File.separator;
+		
+		String pos_change = "";
+		int pos = 0;
+		
+		String neutral_change = "";
+		int neutral = 0;
+		
+		String neg_change = "";
+		int neg = 0;
+		
+		String pos_change_syn = "";
+		int pos_syn = 0;
+		
+		String neutral_change_syn = "";
+		int neutral_syn = 0;
+		
+		String neg_change_syn = "";
+		int neg_syn = 0;
+		
+		String pos_change_sem = "";
+		int pos_sem = 0;
+		
+		String neutral_change_sem = "";
+		int neutral_sem = 0;
+		
+		String neg_change_sem = "";
+		int neg_sem = 0;
+		
+		String pos_change_first = "";
+		int pos_first = 0;
+		
+		String neutral_change_first = "";
+		int neutral_first = 0;
+		
+		String neg_change_first = "";
+		int neg_first = 0;
+		
+		int total_exact = 0;
+		int total_syn = 0;
+		int total_sem = 0;
+		int first = 0;
+		
+		int top_1_alpha = 0;
+		int top_5_alpha = 0;
+		int top_10_alpha = 0;
+		
+		int top_1_length = 0;
+		int top_5_length = 0;
+		int top_10_length = 0;
+		
+		String syn_with_ranks = "";
+		String sem_with_ranks = "";
+		String first_with_ranks = "";
+		
+		
+		
+		for(String model : models) {
+			String directory = "test-results" + File.separator + source + File.separator + "multi_term" + File.separator + model + File.separator;
+			
+			String model_dir = "models" + File.separator;
+			
+			//String file = directory +File.separator + "array-l12-c18.result.json";
+			//String file = directory +File.separator + "classroom-l29-c12.result.json";
+			//String file = directory +File.separator + "classroom-l41-c39.result.json";
+			
+			File folder = new File(directory);
+			File[] listOfFiles = folder.listFiles();
+
+			A4Reporter rep = new A4Reporter() {
+		          @Override
+		          public void warning(ErrorWarning msg) {
+		              System.out.println(msg.toString().trim());
+		              System.out.flush();
+		          }
+			    };
+			    
+		     A4Options options = new A4Options();
+		     options.solver = A4Options.SatSolver.SAT4J; //This SAT solver is Alloy's default 
+		     
+		     
+		     //Parse model
+		     CompModule world = CompUtil.parseEverything_fromFile(rep, null, model_dir + model + ".als");
+			
+			for(File file : listOfFiles) {
+				String f = file.getName();
+				if(f.contains("json")) {
+					
+					ArrayList<String> top10 = new ArrayList<String>();
+					
+					File myObj = new File(directory + f);
+				    Scanner myReader;
+				    Object obj = null;
+				    try {
+						myReader = new Scanner(myObj);
+						while (myReader.hasNextLine()) {
+
+							String data = myReader.nextLine();
+							obj = new JSONParser().parse(data);
+							JSONObject jo = (JSONObject) obj; 
+							
+							String term = (String) jo.get("term");
+														
+							//String list = (String) jo.get("completionList");
+							//String [] completionList = list.split(",");
+								
+							//Get template of the last term prior to completion suggestion
+							String incompleteLine = (String) jo.get("incompletionLine");
+							//System.out.println(incompleteLine);
+							CompletionLineTemplates lineTemplate = new CompletionLineTemplates(model, model_dir);
+							String loc_template = lineTemplate.cleanLine(incompleteLine, term, model);
+							//System.out.println(loc_template);
+							//System.out.println("------");
+							String expectedCompletionLine = (String) jo.get("expectedCompletionWord");
+
+							JSONArray evaluationResult = (JSONArray) jo.get("evaluationResult");
+							
+							boolean top1Alpha = (boolean) jo.get("suggestionInTop1Alpha");
+							boolean top5Alpha = (boolean) jo.get("suggestionInTop5Alpha");
+							boolean top10Alpha = (boolean) jo.get("suggestionInTop10Alpha");
+							
+							boolean top1Length = (boolean) jo.get("suggestionInTop1Len");
+							boolean top5Length = (boolean) jo.get("suggestionInTop5Len");
+							boolean top10Length = (boolean) jo.get("suggestionInTop10Len");
+							
+							if(top1Alpha) {
+								top_1_alpha++;
+							}
+							if(top5Alpha) {
+								top_5_alpha++;
+							}
+
+							if(top10Alpha) {
+								top_10_alpha++;
+							}
+
+							
+							if(top1Length) {
+								top_1_length++;
+							}
+
+							if(top5Length) {
+								top_5_length++;
+							}
+
+							if(top10Length) {
+								top_10_length++;
+							}
+
+
+							TreeMap<Integer, TreeSet<SuggestionResult>> ranked_suggestions = new TreeMap<Integer, TreeSet<SuggestionResult>>();
+				
+							TreeSet<String> suggestions = new TreeSet<String>();
+							HashMap<Integer, TreeSet<String>> suggestions_by_len = new HashMap<Integer, TreeSet<String>>();
+							
+							TreeSet<SuggestionResult> syn_corr_suggetions = new TreeSet<SuggestionResult>();
+							TreeSet<SuggestionResult> first_corr_suggetions = new TreeSet<SuggestionResult>();
+							TreeSet<SuggestionResult> sem_corr_suggetions = new TreeSet<SuggestionResult>();
+
+							
+							for(int i = 0; i < evaluationResult.size(); i++) {
+								
+								
+								JSONObject result = (JSONObject) evaluationResult.get(i);
+								String suggestion = (String) result.get("suggestion");
+								suggestions.add(suggestion);
+								
+								if(!suggestions_by_len.containsKey(suggestion.length())) {
+									suggestions_by_len.put(suggestion.length(), new TreeSet<String>());
+								}
+								suggestions_by_len.get(suggestion.length()).add(suggestion);
+								
+								JSONArray breakdown = (JSONArray) result.get("expressionComponents");
+								long rank = (long) result.get("rank");
+								boolean doesMatchExactly = (boolean) result.get("doesMatchExactly");
+								
+								boolean doesMatchSyntactically = false;
+								try{
+									doesMatchSyntactically = (boolean) result.get("doesMatchSyntactically");
+								}
+								catch(Exception e) {
+									doesMatchSyntactically = false;
+								}
+								
+								boolean doesMatchSemantically = false;
+								try{
+									doesMatchSemantically = (boolean) result.get("doesMatchSemantically");
+								}
+								catch(Exception e) {
+									doesMatchSemantically = false;
+								}
+								
+								//Remove if semantic code working correctly
+								try {
+									int scope = 3;
+									String expression = "";
+									if(incompleteLine.startsWith("(")) {
+										expression = "(" + incompleteLine + " " + suggestion + ")) <=> " + "(" + incompleteLine + " " + expectedCompletionLine + ")) ";
+									}
+									else {
+										expression = "(" + incompleteLine + " " + suggestion + ") <=> " + "(" + incompleteLine + " " + expectedCompletionLine + ") ";
+									}
+								   // System.out.println(expression);
+									Expr new_pred = CompUtil.parseOneExpression_fromString(world, expression);
+									Command cmd = new Command(false, scope, scope, scope, world.getAllReachableFacts().and(new_pred));
+								    A4Solution instance = TranslateAlloyToKodkod.execute_command(rep, world.getAllReachableSigs(), cmd, options);
+									if(instance.satisfiable()) {
+										doesMatchSemantically = true;
+									}
+									else {
+										doesMatchSemantically = false;
+									}
+								}
+								catch (Exception e) {
+									
+								}
+								
+													
+								String template = "";
+								for(int j = 0; j < breakdown.size(); j++) {
+									JSONObject component = (JSONObject) breakdown.get(j);
+									String label = (String) component.get("label");
+									String type = (String) component.get("type");
+									if(type.equals("OPERATOR")) {
+										template += label;
+									}
+									else if (type.equals("OTHER")) {
+										template += "VARIABLE";
+									}
+									else {
+										template += type;
+									}
+								}
+																
+								int level = 0;
+								if(term.equals(".")) {
+									Join join = new Join();
+									//process a relational join ranking
+									level = join.priorityLevel(loc_template, template);
+								}
+								else if(term.equals(" -> ")) {
+									CrossProduct cross_product = new CrossProduct();
+									//process a relational join ranking
+									level = cross_product.priorityLevel(loc_template, template);
+								}
+								else if(term.equals(" in ")) {
+									In in = new In();
+									//process a relational join ranking
+									level = in.priorityLevel(loc_template, template);
+								}
+								else if(term.equals(" not in ")) {
+									NotIn not_in = new NotIn();
+									//process a relational join ranking
+									level = not_in.priorityLevel(loc_template, template);
+								}
+								else if(term.equals(" = ")) {
+									Equals equals = new Equals();
+									//process a relational join ranking
+									level = equals.priorityLevel(loc_template, template);
+								}
+								else if(term.equals(" not = ")) {
+									NotEquals not_equals = new NotEquals();
+									//process a relational join ranking
+									level = not_equals.priorityLevel(loc_template, template);
+								}
+								else if(term.equals(" & ")) {
+									Intersection intersection = new Intersection();
+									//process a relational join ranking
+									level = intersection.priorityLevel(loc_template, template);
+								}
+								else if(term.equals(" + ")) {
+									Union union = new Union();
+									//process a relational join ranking
+									level = union.priorityLevel(loc_template, template);
+								}
+								else if(term.equals(" - ")) {
+									Difference difference = new Difference();
+									//process a relational join ranking
+									level = difference.priorityLevel(loc_template, template);
+								}
+								else if(term.equals(" extends ")) { 
+									ExtendsOp extendsop = new ExtendsOp();
+									//process a relational join ranking
+									level = extendsop.priorityLevel(loc_template, template);
+								}
+			
+								if(suggestion.equals("Int") || suggestion.equals("String") || suggestion.equals("seq/Int")) {
+									level = Integer.MAX_VALUE;
+								}
+								SuggestionResult suggestion_result = new SuggestionResult(suggestion, template, loc_template, doesMatchExactly, doesMatchSyntactically, doesMatchSemantically, rank, level);
+
+								if(ranked_suggestions.containsKey(level)) {
+									ranked_suggestions.get(level).add(suggestion_result);
+								}
+								else {
+									ranked_suggestions.put(level, new TreeSet<SuggestionResult>());
+									ranked_suggestions.get(level).add(suggestion_result);
+								}
+ 
+							}
+							
+							//Organize ranked list
+							long rank = 1;
+							for(int i : ranked_suggestions.keySet()) {
+								for(SuggestionResult suggestion : ranked_suggestions.get(i)) {
+									top10.add(suggestion.suggestion);
+									suggestion.setRank(rank);
+									rank++;
+									
+								}
+							}
+							
+							//print ranked list
+							long orig_corr = -1;
+							long new_corr = -1;
+							
+							boolean corr_encountered = false;
+							
+							for(int i : ranked_suggestions.keySet()) {
+								for(SuggestionResult suggestion : ranked_suggestions.get(i)) {
+									//if(suggestion.changedRank()) {
+									//	System.out.println(suggestion.printChange());
+									//}
+									
+									if(suggestion.doesMatchExactly) {
+										total_exact++;
+										
+										orig_corr = suggestion.orig_rank;
+										new_corr = suggestion.new_rank;
+										syn_corr_suggetions.add(suggestion);
+										if(!corr_encountered) {
+											first_corr_suggetions.add(suggestion);
+										}
+										/*if(new_corr < orig_corr) {
+											pos++;
+											pos_change +=  model + "," + term + "," +suggestion.printChange() + "\n";
+											if(!corr_encountered) {
+												first++;
+												pos_first++;
+												pos_change_first += model + "," + f  + "," + term + "," + suggestion.printChange() + ",exact\n";
+											}
+										}
+										else if (new_corr == orig_corr) {
+											neutral++;
+											neutral_change += model + "," + term + "," + suggestion.printChange() + "\n";
+											if(!corr_encountered) {
+												first++;
+												neutral_first++;
+												neutral_change_first += model + "," + f  + "," + term + "," + suggestion.printChange() +",exact\n";
+											}
+										}
+										else {
+											neg++;
+											neg_change += model + "," + f  + "," + term + "," + suggestion.printChange() + "\n";
+											if(!corr_encountered) {
+												first++;
+												neg_first++;
+												neg_change_first += model + "," + f  + "," + term + "," + suggestion.printChange() +",exact\n";
+											}
+											
+										}*/
+										
+										corr_encountered = true;
+									}
+									else if(suggestion.doesMatchSyntactically) {
+										total_syn++;
+										orig_corr = suggestion.orig_rank;
+										new_corr = suggestion.new_rank;
+										
+										/*if(new_corr < orig_corr) {
+											pos_syn++;
+											pos_change_syn +=  model + "," + term + "," +suggestion.printChange() + "\n";
+										}
+										else if (new_corr == orig_corr) {
+											neutral_syn++;
+											neutral_change_syn += model + "," + term + "," + suggestion.printChange() + "\n";
+										}
+										else {
+											neg_syn++;
+											neg_change_syn += model + "," + f  + "," + term + "," + suggestion.printChange() + "\n";
+											
+										}*/
+										
+									}
+									else if(suggestion.doesMatchSemantically) {
+										total_sem++;	
+										orig_corr = suggestion.orig_rank;
+										new_corr = suggestion.new_rank;
+										sem_corr_suggetions.add(suggestion);
+										if(!corr_encountered) {
+											first_corr_suggetions.add(suggestion);
+										}
+										/*if(new_corr < orig_corr) {
+											pos_sem++;
+											pos_change_sem +=  model + "," + term + "," +suggestion.printChange() + "\n";
+											if(!corr_encountered) {
+												first++;
+												pos_first++;
+												pos_change_first += model + "," + f  + "," + term + "," + suggestion.printChange() + ",sem\n";
+											}
+										}
+										else if (new_corr == orig_corr) {
+											neutral_sem++;
+											neutral_change_sem += model + "," + term + "," + suggestion.printChange() + "\n";
+											if(!corr_encountered) {
+												first++;
+												neutral_first++;
+												neutral_change_first += model + "," + f  + "," + term + "," + suggestion.printChange() +",sem\n";
+											}
+										}
+										else {
+											neg_sem++;
+											neg_change_sem += model + "," + f  + "," + term + "," + suggestion.printChange() + "\n";
+											if(!corr_encountered) {
+												first++;
+												neg_first++;
+												neg_change_first += model + "," + f  + "," + term + "," + suggestion.printChange() +",sem\n";
+											}
+											
+										}*/
+										corr_encountered = true;
+									}
+								}
+							}
+							
+							//TreeSet<String> suggestions = new TreeSet<String>();
+							//HashMap<Integer, TreeSet<String>> suggestions_by_len = new HashMap<Integer, TreeSet<String>>();
+							for(SuggestionResult suggestion : syn_corr_suggetions) {
+								int alpha = 1;
+								for(String s : suggestions) {
+									if(s.equals(suggestion.getSuggestion())) {
+										suggestion.alpha_rank = alpha;
+										break;
+									}
+									alpha++;
+								}
+								
+								int len = 1;
+								for(int l : suggestions_by_len.keySet()) {
+									for(String s : suggestions_by_len.get(l)) {
+										if(s.equals(suggestion.getSuggestion())) {
+											suggestion.len_rank = len;
+											break;
+										}
+										len++;
+									}									
+								}
+								syn_with_ranks += suggestion.printChange() +  "\n";
+							}
+							
+							for(SuggestionResult suggestion : sem_corr_suggetions) {
+								int alpha = 1;
+								for(String s : suggestions) {
+									if(s.equals(suggestion.getSuggestion())) {
+										suggestion.alpha_rank = alpha;
+										break;
+									}
+									alpha++;
+								}
+								
+								int len = 1;
+								for(int l : suggestions_by_len.keySet()) {
+									for(String s : suggestions_by_len.get(l)) {
+										if(s.equals(suggestion.getSuggestion())) {
+											suggestion.len_rank = len;
+											break;
+										}
+										len++;
+									}									
+								}
+								sem_with_ranks += suggestion.printChange() + "\n";
+							}
+							
+							for(SuggestionResult suggestion : first_corr_suggetions) {
+								int alpha = 1;
+								for(String s : suggestions) {
+									if(s.equals(suggestion.getSuggestion())) {
+										suggestion.alpha_rank = alpha;
+										break;
+									}
+									alpha++;
+								}
+								
+								int len = 1;
+								for(int l : suggestions_by_len.keySet()) {
+									for(String s : suggestions_by_len.get(l)) {
+										if(s.equals(suggestion.getSuggestion())) {
+											suggestion.len_rank = len;
+											break;
+										}
+										len++;
+									}									
+								}
+								first_with_ranks += suggestion.printChange() + "\n";
+							}
+							
+							//System.out.println("---");
+						}
+					} catch (Exception e) {
+						// TODO Auto-generated catch block
+						e.printStackTrace();
+					}
+				    
+				    String print_list_in_order = "";
+				    String dir = directory + f.replaceAll(".json", "");
+				    for(int i = 0; i < top10.size(); i++) {
+				    	print_list_in_order += top10.get(i) + "\n";
+				    }
+				    try {
+					  FileWriter myWriter = new FileWriter(dir + ".templaterank");
+				      myWriter.write(print_list_in_order.trim());
+				      myWriter.close();
+				    } catch (IOException e) {
+				      System.out.println("An error occurred.");
+				      e.printStackTrace();
+				    }
+				}
+			}
+		}
+		try {
+			
+			  FileWriter myWriter = new FileWriter(result_dir + source + "_syn_ranks.txt");
+		      myWriter.write(syn_with_ranks);
+		      myWriter.close();
+		      
+		      myWriter = new FileWriter(result_dir + source + "_sem_ranks.txt");
+		      myWriter.write(sem_with_ranks);
+		      myWriter.close();
+		      
+		      myWriter = new FileWriter(result_dir + source + "_first_ranks.txt");
+		      myWriter.write(first_with_ranks);
+		      myWriter.close();
+		      /*FileWriter myWriter = new FileWriter(result_dir + "_" + source + "_pos.txt");
+		      myWriter.write(pos + "," + total_exact + "\n" + pos_change);
+		      myWriter.close();
+		      
+		      myWriter = new FileWriter(result_dir + "_" + source + "_neg.txt");
+		      myWriter.write(neg + "," + total_exact + "\n" + neg_change);
+		      myWriter.close();
+		      
+		      myWriter = new FileWriter(result_dir + "_" + source + "_neutral.txt");
+		      myWriter.write(neutral + "," + total_exact + "\n" + neutral_change);
+		      myWriter.close();
+		      
+		      myWriter = new FileWriter(result_dir + "_" + source + "_pos_sem.txt");
+		      myWriter.write(pos_sem + "," + total_sem + "\n" + pos_change_sem);
+		      myWriter.close();
+		      
+		      myWriter = new FileWriter(result_dir + "_" + source + "_neg_sem.txt");
+		      myWriter.write(neg_sem + "," + total_sem + "\n" + neg_change_sem);
+		      myWriter.close();
+		      
+		      myWriter = new FileWriter(result_dir + "_" + source + "_neutral_sem.txt");
+		      myWriter.write(neutral_sem + "," + total_sem + "\n" + neutral_change_sem);
+		      myWriter.close();
+		      
+		      myWriter = new FileWriter(result_dir + "_" + source + "_pos_first.txt");
+		      myWriter.write(pos_first + "," + first + "\n" + pos_change_first);
+		      myWriter.close();
+		      
+		      myWriter = new FileWriter(result_dir + "_" + source + "_neg_first.txt");
+		      myWriter.write(neg_first + "," + first + "\n" + neg_change_first);
+		      myWriter.close();
+		      
+		      myWriter = new FileWriter(result_dir + "_" + source + "_neutral_first.txt");
+		      myWriter.write(neutral_first + "," + first + "\n" + neutral_change_first);
+		      myWriter.close();*/
+	    } catch (IOException e) {
+	      System.out.println("An error occurred.");
+	      e.printStackTrace();
+	    }
+		
+		System.out.println(top_1_alpha);
+		System.out.println(top_5_alpha);
+		System.out.println(top_10_alpha);
+		
+		System.out.println(top_1_length);
+		System.out.println(top_5_length);
+		System.out.println(top_10_length);
+	}
+	
+	public static void listFilesForFolder(final File folder) {
+	    for (final File fileEntry : folder.listFiles()) {
+	        if (fileEntry.isDirectory()) {
+	            listFilesForFolder(fileEntry);
+	        } else {
+	            System.out.println(fileEntry.getName());
+	        }
+	    }
+	}
+}

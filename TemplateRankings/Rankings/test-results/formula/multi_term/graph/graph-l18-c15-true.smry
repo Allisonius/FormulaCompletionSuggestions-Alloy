@@ -1,0 +1,32 @@
+Model name: graph
+Filename: completion/graph-complete.als
+Offset: 182
+Term:  -> 
+Vscode Position: line=17 character=15
+----------------------------------
+18 | 	adj = Node -> 
+----------------------------------
+Completion List:
+# Suggestion 	 Exact 	 Syntactic 	 Semantic
+$1. Node 	 true 	 true 	 true
+$2. Int 	 false 	 false 	 false
+$3. String 	 false 	 false 	 false
+$4. none 	 false 	 false 	 false
+$5. univ 	 false 	 false 	 false
+Expected Completion word: Node
+Expected Completion line: Node
+Suggestion exists: true
+
+Suggestion in top 1 = true 
+Suggestion in top 5 = true 
+Suggestion in top 10 = true 
+
+Suggestion in top 1 (Alpha) = false
+Suggestion in top 5 (Alpha) = true
+Suggestion in top 10 (Alpha) = true
+
+Suggestion in top 1 (Len) = false
+Suggestion in top 5 (Len) = true
+Suggestion in top 10 (Len) = true
+
+Time taken: 7.720291

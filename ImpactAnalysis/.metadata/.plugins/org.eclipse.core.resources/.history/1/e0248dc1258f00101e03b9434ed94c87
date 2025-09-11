@@ -1,0 +1,9 @@
+modelname,filename,position-line,position-character,incompleteline,removedtext,baseline,suggestionedExpression,A_iff_B,A_and_B,not_A_and_B,A_and_not_B,not_A_and_not_B,suggestionImpactTime
+classroom-rl,completion/classroom-rl-complete.als,37,26,"all t : Teacher | some t.","Teaches","{}","\tall t : Teacher | some t.Teaches",true,true,false,true,false,12.608375
+classroom-rl,completion/classroom-rl-complete.als,37,26,"all t : Teacher | some t.","Teaches","{}","\tall t : Teacher | some t.Tutors",true,true,false,true,false,12.608375
+classroom-rl,completion/classroom-rl-complete.als,37,26,"all t : Teacher | some t.","Teaches","{}","\tall t : Teacher | some t.~Tutors",true,true,false,true,false,12.608375
+classroom-rl,completion/classroom-rl-complete.als,37,26,"all t : Teacher | some t.","Teaches","{}","\tall t : Teacher | some t.^Tutors",true,true,false,true,false,12.608375
+classroom-rl,completion/classroom-rl-complete.als,37,26,"all t : Teacher | some t.","Teaches","{}","\tall t : Teacher | some t.*Tutors",true,true,false,false,false,12.608375
+classroom-rl,completion/classroom-rl-complete.als,37,26,"all t : Teacher | some t.","Teaches","{}","\tall t : Teacher | some t.iden",true,true,false,false,false,12.608375
+classroom-rl,completion/classroom-rl-complete.als,37,26,"all t : Teacher | some t.","Teaches","{}","\tall t : Teacher | some t.none",,,,,,12.608375
+classroom-rl,completion/classroom-rl-complete.als,37,26,"all t : Teacher | some t.","Teaches","{}","\tall t : Teacher | some t.univ",,,,,,12.608375

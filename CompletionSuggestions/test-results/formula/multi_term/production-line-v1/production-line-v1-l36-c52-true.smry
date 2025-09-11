@@ -1,0 +1,70 @@
+Model name: production-line-v1
+Filename: completion/production-line-v1-complete.als
+Offset: 947
+Term: .
+Vscode Position: line=35 character=52
+----------------------------------
+36 |     all c : Component | some (Robot <: position).(c.
+----------------------------------
+Completion List:
+# Suggestion 	 Exact 	 Syntactic 	 Semantic
+$1. *parts.c 	 false 	 undefined 	 undefined
+$2. ^parts.c 	 false 	 undefined 	 undefined
+$3. parts.c 	 false 	 undefined 	 undefined
+$4. ~parts.c 	 false 	 undefined 	 undefined
+$5. ~position.c 	 false 	 undefined 	 undefined
+$6. *parts.Component 	 false 	 undefined 	 undefined
+$7. *parts.Product 	 false 	 undefined 	 undefined
+$8. *parts.Resource 	 false 	 undefined 	 undefined
+$9. Position 	 false 	 undefined 	 undefined
+$10. Position.~position 	 false 	 undefined 	 undefined
+$11. ^parts.Component 	 false 	 undefined 	 undefined
+$12. ^parts.Product 	 false 	 undefined 	 undefined
+$13. ^parts.Resource 	 false 	 undefined 	 undefined
+$14. parts.Component 	 false 	 undefined 	 undefined
+$15. parts.Product 	 false 	 undefined 	 undefined
+$16. parts.Resource 	 false 	 undefined 	 undefined
+$17. position.Position 	 false 	 undefined 	 undefined
+$18. ~parts.Component 	 false 	 undefined 	 undefined
+$19. ~position.Component 	 false 	 undefined 	 undefined
+$20. ~position.Robot 	 false 	 undefined 	 undefined
+$21. parts 	 false 	 undefined 	 undefined
+$22. parts.univ 	 false 	 undefined 	 undefined
+$23. position 	 true 	 undefined 	 undefined
+$24. position.univ 	 false 	 undefined 	 undefined
+$25. univ.parts 	 false 	 undefined 	 undefined
+$26. univ.position 	 false 	 undefined 	 undefined
+$27. ~parts.position 	 false 	 undefined 	 undefined
+$28. ~position.parts 	 false 	 undefined 	 undefined
+$29. univ.~parts 	 false 	 undefined 	 undefined
+$30. univ.~position 	 false 	 undefined 	 undefined
+$31. ~parts 	 false 	 undefined 	 undefined
+$32. ~parts.univ 	 false 	 undefined 	 undefined
+$33. ~position 	 false 	 undefined 	 undefined
+$34. ~position.*parts 	 false 	 undefined 	 undefined
+$35. ~position.^parts 	 false 	 undefined 	 undefined
+$36. ~position.univ 	 false 	 undefined 	 undefined
+$37. ^parts 	 false 	 undefined 	 undefined
+$38. ^parts.univ 	 false 	 undefined 	 undefined
+$39. univ.^parts 	 false 	 undefined 	 undefined
+$40. *parts 	 false 	 undefined 	 undefined
+$41. *parts.univ 	 false 	 undefined 	 undefined
+$42. univ 	 false 	 undefined 	 undefined
+$43. univ.*parts 	 false 	 undefined 	 undefined
+Expected Completion word: position
+Expected Completion line: position) & Robot
+Suggestion exists: true
+
+Suggestion in top 1 = false 
+Suggestion in top 5 = false 
+Suggestion in top 10 = false 
+
+Suggestion in top 1 (Alpha) = false
+Suggestion in top 5 (Alpha) = false
+Suggestion in top 10 (Alpha) = false
+
+Suggestion in top 1 (Len) = false
+Suggestion in top 5 (Len) = false
+Suggestion in top 10 (Len) = false
+
+Time taken: 9.985375

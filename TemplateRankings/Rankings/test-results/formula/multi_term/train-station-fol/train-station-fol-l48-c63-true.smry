@@ -1,0 +1,68 @@
+Model name: train-station-fol
+Filename: completion/train-station-fol-complete.als
+Offset: 1011
+Term: .
+Vscode Position: line=47 character=63
+----------------------------------
+48 | 	all disj t1,t2: Track|t1 in Entry and t2 in Exit =>  t2 in t1.
+----------------------------------
+Completion List:
+# Suggestion 	 Exact 	 Syntactic 	 Semantic
+$1. *succs.t1 	 false 	 undefined 	 undefined
+$2. *succs.t2 	 false 	 undefined 	 undefined
+$3. ^succs.t1 	 false 	 undefined 	 undefined
+$4. ^succs.t2 	 false 	 undefined 	 undefined
+$5. succs.t1 	 false 	 undefined 	 undefined
+$6. succs.t2 	 false 	 undefined 	 undefined
+$7. ~succs.t1 	 false 	 undefined 	 undefined
+$8. ~succs.t2 	 false 	 undefined 	 undefined
+$9. *succs.Entry 	 false 	 undefined 	 undefined
+$10. *succs.Exit 	 false 	 undefined 	 undefined
+$11. *succs.Junction 	 false 	 undefined 	 undefined
+$12. *succs.Track 	 false 	 undefined 	 undefined
+$13. ^succs.Entry 	 false 	 undefined 	 undefined
+$14. ^succs.Exit 	 false 	 undefined 	 undefined
+$15. ^succs.Junction 	 false 	 undefined 	 undefined
+$16. ^succs.Track 	 false 	 undefined 	 undefined
+$17. signals.Semaphore 	 false 	 undefined 	 undefined
+$18. signals.Signal 	 false 	 undefined 	 undefined
+$19. signals.Speed 	 false 	 undefined 	 undefined
+$20. succs.Entry 	 false 	 undefined 	 undefined
+$21. succs.Exit 	 false 	 undefined 	 undefined
+$22. succs.Junction 	 false 	 undefined 	 undefined
+$23. succs.Track 	 false 	 undefined 	 undefined
+$24. ~succs.Entry 	 false 	 undefined 	 undefined
+$25. ~succs.Exit 	 false 	 undefined 	 undefined
+$26. ~succs.Junction 	 false 	 undefined 	 undefined
+$27. ~succs.Track 	 false 	 undefined 	 undefined
+$28. *succs.signals 	 false 	 undefined 	 undefined
+$29. ^succs.signals 	 false 	 undefined 	 undefined
+$30. signals 	 false 	 undefined 	 undefined
+$31. signals.univ 	 false 	 undefined 	 undefined
+$32. succs 	 true 	 undefined 	 undefined
+$33. succs.signals 	 false 	 undefined 	 undefined
+$34. succs.univ 	 false 	 undefined 	 undefined
+$35. ~succs.signals 	 false 	 undefined 	 undefined
+$36. ~succs 	 false 	 undefined 	 undefined
+$37. ~succs.univ 	 false 	 undefined 	 undefined
+$38. ^succs 	 false 	 undefined 	 undefined
+$39. ^succs.univ 	 false 	 undefined 	 undefined
+$40. *succs 	 false 	 undefined 	 undefined
+$41. *succs.univ 	 false 	 undefined 	 undefined
+Expected Completion word: ^succs
+Expected Completion line: ^succs
+Suggestion exists: true
+
+Suggestion in top 1 = false 
+Suggestion in top 5 = false 
+Suggestion in top 10 = false 
+
+Suggestion in top 1 (Alpha) = false
+Suggestion in top 5 (Alpha) = false
+Suggestion in top 10 (Alpha) = true
+
+Suggestion in top 1 (Len) = false
+Suggestion in top 5 (Len) = true
+Suggestion in top 10 (Len) = true
+
+Time taken: 17.768334

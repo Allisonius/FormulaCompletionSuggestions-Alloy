@@ -1,0 +1,33 @@
+Model name: class-diagram
+Filename: completion/class-diagram-complete.als
+Offset: 343
+Term:  - 
+Vscode Position: line=18 character=17
+----------------------------------
+19 |   all c: Class - 
+----------------------------------
+Completion List:
+# Suggestion 	 Exact 	 Syntactic 	 Semantic
+$1. Class 	 false 	 false 	 false
+$2. Object 	 true 	 true 	 true
+$3. Int 	 false 	 false 	 false
+$4. String 	 false 	 false 	 false
+$5. none 	 false 	 false 	 false
+$6. univ 	 false 	 false 	 false
+Expected Completion word: Object
+Expected Completion line: Object | c in Object.^~ext
+Suggestion exists: true
+
+Suggestion in top 1 = false 
+Suggestion in top 5 = true 
+Suggestion in top 10 = true 
+
+Suggestion in top 1 (Alpha) = false
+Suggestion in top 5 (Alpha) = true
+Suggestion in top 10 (Alpha) = true
+
+Suggestion in top 1 (Len) = false
+Suggestion in top 5 (Len) = true
+Suggestion in top 10 (Len) = true
+
+Time taken: 11.037792

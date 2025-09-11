@@ -1,0 +1,147 @@
+{
+  "name": "alloy-language-extension",
+  "publisher": "anonymous",
+  "displayName": "Alloy Language Extension",
+  "description": "A Visual Studio Code extension for Alloy, a declarative language for modeling and analyzing software systems.",
+  "version": "1.3.0",
+  "engines": {
+    "vscode": "^1.84.0"
+  },
+  "categories": [
+    "Programming Languages"
+  ],
+  "main": "./client/out/extension",
+  "activationEvents": [
+    "onCommand:alloy.suggestionImpact",
+    "onCommand:alloy.showInstance",
+    "onCommand:alloy.runCommand",
+    "onCommand:alloy.showLegacyView",
+    "onLanguage:alloy"
+  ],
+  "contributes": {
+    "commands": [
+      {
+        "command": "alloy.showInstance",
+        "title": "Show Alloy Instance",
+        "category": "Alloy Instance",
+        "when": "editorLangId == alloy"
+      },
+      {
+        "command": "alloy.runCommand",
+        "title": "Run Alloy Command",
+        "category": "Alloy Instance",
+        "when": "editorLangId == alloy"
+      },
+      {
+        "command": "alloy.showLegacyView",
+        "title": "Show Alloy Legacy Scenario Visualization",
+        "category": "Alloy Instance",
+        "when": "editorLangId == alloy",
+        "args": {
+          "command": "Run {} for 3"
+        }
+      },
+      {
+        "command": "alloy.suggestionImpact",
+        "title": "Show Suggestion Impact",
+        "category": "Alloy Instance",
+        "when": "editorLangId == alloy"
+      },
+      {
+        "command": "alloy.evaluateSuggestion",
+        "title": "Evaluate Suggestion",
+        "category": "Alloy Instance",
+        "when": "editorLangId == alloy"
+      }
+    ],
+    "configuration": {
+      "type": "object",
+      "title": "Example configuration",
+      "properties": {
+        "alloy.maxNumberOfProblems": {
+          "scope": "resource",
+          "type": "number",
+          "default": 100,
+          "description": "Controls the maximum number of problems produced by the server."
+        },
+        "alloy.trace.server": {
+          "scope": "window",
+          "type": "string",
+          "enum": [
+            "off",
+            "messages",
+            "verbose"
+          ],
+          "default": "verbose",
+          "description": "Traces the communication between VS Code and the language server."
+        }
+      }
+    },
+    "languages": [
+      {
+        "id": "alloy",
+        "aliases": [
+          "Alloy",
+          "alloy"
+        ],
+        "extensions": [
+          ".als"
+        ],
+        "configuration": "./language-configuration.json"
+      }
+    ],
+    "grammars": [
+      {
+        "language": "alloy",
+        "scopeName": "source.alloy",
+        "path": "./syntaxes/alloy.tmLanguage.json"
+      }
+    ]
+  },
+  "scripts": {
+    "install:all": "npm install && cd client && npm install && cd webview-ui && npm install",
+    "start:webview": "cd client/webview-ui && npm run start",
+    "build:webview": "cd client/webview-ui && npm run build",
+    "clean": "rimraf ./client/out && npm run build:webview",
+    "precompile": "npm run clean",
+    "build:project": "npm run compile && npm run build:server",
+    "compile": "npm run compile:tsc",
+    "compile:esb": "node ./esbuild.js",
+    "compile:tsc": "tsc -p ./",
+    "package:esb": "NODE_ENV=production node ./esbuild.js",
+    "package": "vsce package --pre-release --allow-missing-repository",
+    "watch": "node ./esbuild.js --watch",
+    "lint": "eslint ./client/src ./server/src --ext .ts,.tsx",
+    "postinstall": "cd client && npm install && cd ..",
+    "test": "vscode-test",
+    "experiment:completion:formula": "npm run compile && cd ./client && node out/test/runTest.js --formula-completion && rm -r .vscode-test/user-data",
+    "experiment:completion:generator": "npm run compile && cd ./client && node out/test/runTest.js --generator-completion && rm -r .vscode-test/user-data",
+    "experiment:error-checking": "npm run compile && cd ./client && node out/test/runTest.js --error-checking && rm -r .vscode-test/user-data",
+    "build:server": "cd server && ./gradlew build --no-daemon"
+  },
+  "devDependencies": {
+    "@types/node": "^16.18.34",
+    "@typescript-eslint/eslint-plugin": "^6.7.0",
+    "@typescript-eslint/parser": "^6.7.0",
+    "@vscode/vsce": "^3.5.0",
+    "esbuild": "^0.16.17",
+    "eslint": "^8.35.0",
+    "mocha": "^9.2.1",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.2.2"
+  },
+  "vsce": {
+    "baseContentUrl": "https://example.com/fake",
+    "baseImagesUrl": "https://example.com/fake/images",
+    "pre-release": true,
+    "skipLicense": true,
+    "readmePath": "extension-details.md"
+  },
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "dependencies": {
+    "all": "^0.0.0"
+  }
+}

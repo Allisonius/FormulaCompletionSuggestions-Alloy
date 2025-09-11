@@ -1,0 +1,37 @@
+hits: 28 (22.04724409448819)
+(lone (name.name))
+
+hits: 20 (15.748031496062993)
+(lone fun_call[])
+
+hits: 19 (14.960629921259844)
+(lone ((name.name).name))
+
+hits: 13 (10.236220472440944)
+(lone (name.(name.name)))
+(lone name)
+
+hits: 5 (3.937007874015748)
+(lone (name.(~(name + name))))
+(lone (name.(~name)))
+(lone (name.(~(name.name))))
+
+hits: 3 (2.3622047244094486)
+(lone ((name.name) - (name.name)))
+
+hits: 2 (1.574803149606299)
+(lone ((name.name) & (name.name)))
+(lone ((name->(name->name)) & name))
+(lone ((name.name) - fun_call[]))
+(lone ((name + name) - (name.name)))
+(lone (name.fun_call[]))
+
+hits: 1 (0.7874015748031495)
+(lone ((name.name).(name.name)))
+(lone ((name.name) & name))
+(lone ((fun_call[] - fun_call[]).name))
+(lone (name.((name.name).name)))
+(lone ((name.name).(~(name.name))))
+(lone ((name.(~name)).(~name)))
+
+

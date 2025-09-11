@@ -1,0 +1,11 @@
+modelname,filename,position-line,position-character,incompleteline,removedtext,baseline,suggestionedExpression,A_iff_B,A_and_B,not_A_and_B,A_and_not_B,not_A_and_not_B,suggestionImpactTime
+social-media,completion/socialMedia.als,25,41,"all p : User | p.sees - Ad in p.follows.","posts","{}","\tall p : User | p.sees - Ad in p.follows.follows",true,true,false,true,false,16.459166
+social-media,completion/socialMedia.als,25,41,"all p : User | p.sees - Ad in p.follows.","posts","{}","\tall p : User | p.sees - Ad in p.follows.posts",true,true,false,true,false,16.459166
+social-media,completion/socialMedia.als,25,41,"all p : User | p.sees - Ad in p.follows.","posts","{}","\tall p : User | p.sees - Ad in p.follows.sees",true,true,false,true,false,16.459166
+social-media,completion/socialMedia.als,25,41,"all p : User | p.sees - Ad in p.follows.","posts","{}","\tall p : User | p.sees - Ad in p.follows.suggested",true,true,false,true,false,16.459166
+social-media,completion/socialMedia.als,25,41,"all p : User | p.sees - Ad in p.follows.","posts","{}","\tall p : User | p.sees - Ad in p.follows.~follows",true,true,false,true,false,16.459166
+social-media,completion/socialMedia.als,25,41,"all p : User | p.sees - Ad in p.follows.","posts","{}","\tall p : User | p.sees - Ad in p.follows.~suggested",true,true,false,true,false,16.459166
+social-media,completion/socialMedia.als,25,41,"all p : User | p.sees - Ad in p.follows.","posts","{}","\tall p : User | p.sees - Ad in p.follows.^follows",true,true,false,true,false,16.459166
+social-media,completion/socialMedia.als,25,41,"all p : User | p.sees - Ad in p.follows.","posts","{}","\tall p : User | p.sees - Ad in p.follows.^suggested",true,true,false,true,false,16.459166
+social-media,completion/socialMedia.als,25,41,"all p : User | p.sees - Ad in p.follows.","posts","{}","\tall p : User | p.sees - Ad in p.follows.*follows",true,true,false,true,false,16.459166
+social-media,completion/socialMedia.als,25,41,"all p : User | p.sees - Ad in p.follows.","posts","{}","\tall p : User | p.sees - Ad in p.follows.*suggested",true,true,false,true,false,16.459166

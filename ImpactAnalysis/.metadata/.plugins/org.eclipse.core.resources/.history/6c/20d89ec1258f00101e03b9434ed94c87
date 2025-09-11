@@ -1,0 +1,7 @@
+modelname,filename,position-line,position-character,incompleteline,removedtext,baseline,suggestionedExpression,A_iff_B,A_and_B,not_A_and_B,A_and_not_B,not_A_and_not_B,suggestionImpactTime
+grade,completion/grade-complete.als,18,8,"s in c.","assistant_for || s in c.instructor_of","{}","\ts in c.assistant_for",,,,,,4.661
+grade,completion/grade-complete.als,18,8,"s in c.","assistant_for || s in c.instructor_of","{}","\ts in c.instructor_of",,,,,,4.661
+grade,completion/grade-complete.als,18,8,"s in c.","assistant_for || s in c.instructor_of","{}","\ts in c.~associated_with",,,,,,4.661
+grade,completion/grade-complete.als,18,8,"s in c.","assistant_for || s in c.instructor_of","{}","\ts in c.iden",,,,,,4.661
+grade,completion/grade-complete.als,18,8,"s in c.","assistant_for || s in c.instructor_of","{}","\ts in c.none",,,,,,4.661
+grade,completion/grade-complete.als,18,8,"s in c.","assistant_for || s in c.instructor_of","{}","\ts in c.univ",,,,,,4.661

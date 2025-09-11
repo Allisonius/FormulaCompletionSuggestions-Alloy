@@ -1,0 +1,86 @@
+Model name: lts
+Filename: completion/lts-complete.als
+Offset: 995
+Term: .
+Vscode Position: line=38 character=75
+----------------------------------
+39 | 	let ts = { s1,s2:State | some e:Event | s1->e->s2 in trans } | all s:Init.
+----------------------------------
+Completion List:
+# Suggestion 	 Exact 	 Syntactic 	 Semantic
+$1. ((State-Init).trans) 	 false 	 undefined 	 undefined
+$2. ((trans.Init).e) 	 false 	 undefined 	 undefined
+$3. ((trans.Init).Event) 	 false 	 undefined 	 undefined
+$4. ((trans.Init).univ) 	 false 	 undefined 	 undefined
+$5. ((trans.State).e) 	 false 	 undefined 	 undefined
+$6. ((trans.State).Event) 	 false 	 undefined 	 undefined
+$7. ((trans.State).univ) 	 false 	 undefined 	 undefined
+$8. ((trans.univ).e) 	 false 	 undefined 	 undefined
+$9. ((trans.univ).Event) 	 false 	 undefined 	 undefined
+$10. ((trans.univ).univ) 	 false 	 undefined 	 undefined
+$11. (e&(Event-e)) 	 false 	 undefined 	 undefined
+$12. (e.(Init.trans)) 	 false 	 undefined 	 undefined
+$13. (e.(State.trans)) 	 false 	 undefined 	 undefined
+$14. (e.(univ.trans)) 	 false 	 undefined 	 undefined
+$15. (Event-e) 	 false 	 undefined 	 undefined
+$16. (Event.(Init.trans)) 	 false 	 undefined 	 undefined
+$17. (Event.(State.trans)) 	 false 	 undefined 	 undefined
+$18. (Event.(univ.trans)) 	 false 	 undefined 	 undefined
+$19. (Init&(State-Init)) 	 false 	 undefined 	 undefined
+$20. (Init.(trans.Init)) 	 false 	 undefined 	 undefined
+$21. (Init.(trans.State)) 	 false 	 undefined 	 undefined
+$22. (Init.(trans.univ)) 	 false 	 undefined 	 undefined
+$23. (Init.trans) 	 false 	 undefined 	 undefined
+$24. (none->none) 	 false 	 undefined 	 undefined
+$25. (none->none->none) 	 false 	 undefined 	 undefined
+$26. (State-Init) 	 false 	 undefined 	 undefined
+$27. (State.(trans.Init)) 	 false 	 undefined 	 undefined
+$28. (State.(trans.State)) 	 false 	 undefined 	 undefined
+$29. (State.(trans.univ)) 	 false 	 undefined 	 undefined
+$30. (State.trans) 	 false 	 undefined 	 undefined
+$31. (trans.(State-Init)) 	 false 	 undefined 	 undefined
+$32. (trans.(trans.Init)) 	 false 	 undefined 	 undefined
+$33. (trans.(trans.State)) 	 false 	 undefined 	 undefined
+$34. (trans.(trans.univ)) 	 false 	 undefined 	 undefined
+$35. (trans.Init) 	 false 	 undefined 	 undefined
+$36. (trans.State) 	 false 	 undefined 	 undefined
+$37. (trans.univ) 	 false 	 undefined 	 undefined
+$38. (univ.(Init.trans)) 	 false 	 undefined 	 undefined
+$39. (univ.(State.trans)) 	 false 	 undefined 	 undefined
+$40. (univ.(trans.Init)) 	 false 	 undefined 	 undefined
+$41. (univ.(trans.State)) 	 false 	 undefined 	 undefined
+$42. (univ.(trans.univ)) 	 false 	 undefined 	 undefined
+$43. (univ.(univ.trans)) 	 false 	 undefined 	 undefined
+$44. (univ.trans) 	 false 	 undefined 	 undefined
+$45. (~(Init.trans)) 	 false 	 undefined 	 undefined
+$46. (~(State.trans)) 	 false 	 undefined 	 undefined
+$47. (~(trans.Init)) 	 false 	 undefined 	 undefined
+$48. (~(trans.State)) 	 false 	 undefined 	 undefined
+$49. (~(trans.univ)) 	 false 	 undefined 	 undefined
+$50. (~(univ.trans)) 	 false 	 undefined 	 undefined
+$51. e 	 false 	 undefined 	 undefined
+$52. Event 	 false 	 undefined 	 undefined
+$53. Init 	 false 	 undefined 	 undefined
+$54. Int 	 false 	 undefined 	 undefined
+$55. none 	 false 	 undefined 	 undefined
+$56. State 	 false 	 undefined 	 undefined
+$57. String 	 false 	 undefined 	 undefined
+$58. trans 	 false 	 undefined 	 undefined
+$59. univ 	 false 	 undefined 	 undefined
+Expected Completion word: ^ts
+Expected Completion line: ^ts | some i:Init | i in s.^ts
+Suggestion exists: false
+
+Suggestion in top 1 = false 
+Suggestion in top 5 = false 
+Suggestion in top 10 = false 
+
+Suggestion in top 1 (Alpha) = false
+Suggestion in top 5 (Alpha) = false
+Suggestion in top 10 (Alpha) = false
+
+Suggestion in top 1 (Len) = false
+Suggestion in top 5 (Len) = false
+Suggestion in top 10 (Len) = false
+
+Time taken: 9.433291

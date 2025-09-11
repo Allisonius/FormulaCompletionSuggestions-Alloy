@@ -1,0 +1,113 @@
+Model name: dll
+Filename: completion/dll.als
+Offset: 610
+Term: .
+Vscode Position: line=30 character=32
+----------------------------------
+31 |   all n: Node | some n.nxt => n.
+----------------------------------
+Completion List:
+# Suggestion 	 Exact 	 Syntactic 	 Semantic
+$1. *nxt.n 	 false 	 undefined 	 undefined
+$2. *pre.n 	 false 	 undefined 	 undefined
+$3. ^nxt.n 	 false 	 undefined 	 undefined
+$4. ^pre.n 	 false 	 undefined 	 undefined
+$5. nxt.n 	 false 	 undefined 	 undefined
+$6. pre.n 	 false 	 undefined 	 undefined
+$7. ~nxt.n 	 false 	 undefined 	 undefined
+$8. ~pre.n 	 false 	 undefined 	 undefined
+$9. *nxt.Node 	 false 	 undefined 	 undefined
+$10. *pre.Node 	 false 	 undefined 	 undefined
+$11. ^nxt.Node 	 false 	 undefined 	 undefined
+$12. ^pre.Node 	 false 	 undefined 	 undefined
+$13. nxt.Node 	 false 	 undefined 	 undefined
+$14. pre.Node 	 false 	 undefined 	 undefined
+$15. ~header.DLL 	 false 	 undefined 	 undefined
+$16. ~nxt.Node 	 false 	 undefined 	 undefined
+$17. ~pre.Node 	 false 	 undefined 	 undefined
+$18. *nxt.elem 	 false 	 undefined 	 undefined
+$19. *nxt.pre 	 false 	 undefined 	 undefined
+$20. *pre.elem 	 false 	 undefined 	 undefined
+$21. *pre.nxt 	 false 	 undefined 	 undefined
+$22. ^nxt.elem 	 false 	 undefined 	 undefined
+$23. ^nxt.pre 	 false 	 undefined 	 undefined
+$24. ^pre.elem 	 false 	 undefined 	 undefined
+$25. ^pre.nxt 	 false 	 undefined 	 undefined
+$26. elem 	 true 	 undefined 	 undefined
+$27. elem.Int 	 false 	 undefined 	 undefined
+$28. elem.univ 	 false 	 undefined 	 undefined
+$29. nxt 	 false 	 undefined 	 undefined
+$30. nxt.*pre 	 false 	 undefined 	 undefined
+$31. nxt.^pre 	 false 	 undefined 	 undefined
+$32. nxt.elem 	 false 	 undefined 	 undefined
+$33. nxt.pre 	 false 	 undefined 	 undefined
+$34. nxt.univ 	 false 	 undefined 	 undefined
+$35. nxt.~header 	 false 	 undefined 	 undefined
+$36. nxt.~pre 	 false 	 undefined 	 undefined
+$37. pre 	 false 	 undefined 	 undefined
+$38. pre.*nxt 	 false 	 undefined 	 undefined
+$39. pre.^nxt 	 false 	 undefined 	 undefined
+$40. pre.elem 	 false 	 undefined 	 undefined
+$41. pre.nxt 	 false 	 undefined 	 undefined
+$42. pre.univ 	 false 	 undefined 	 undefined
+$43. pre.~header 	 false 	 undefined 	 undefined
+$44. pre.~nxt 	 false 	 undefined 	 undefined
+$45. ~nxt.elem 	 false 	 undefined 	 undefined
+$46. ~nxt.pre 	 false 	 undefined 	 undefined
+$47. ~pre.elem 	 false 	 undefined 	 undefined
+$48. ~pre.nxt 	 false 	 undefined 	 undefined
+$49. *nxt.~header 	 false 	 undefined 	 undefined
+$50. *nxt.~pre 	 false 	 undefined 	 undefined
+$51. *pre.~header 	 false 	 undefined 	 undefined
+$52. *pre.~nxt 	 false 	 undefined 	 undefined
+$53. ^nxt.~header 	 false 	 undefined 	 undefined
+$54. ^nxt.~pre 	 false 	 undefined 	 undefined
+$55. ^pre.~header 	 false 	 undefined 	 undefined
+$56. ^pre.~nxt 	 false 	 undefined 	 undefined
+$57. ~header 	 false 	 undefined 	 undefined
+$58. ~header.univ 	 false 	 undefined 	 undefined
+$59. ~nxt 	 false 	 undefined 	 undefined
+$60. ~nxt.*pre 	 false 	 undefined 	 undefined
+$61. ~nxt.^pre 	 false 	 undefined 	 undefined
+$62. ~nxt.univ 	 false 	 undefined 	 undefined
+$63. ~nxt.~header 	 false 	 undefined 	 undefined
+$64. ~nxt.~pre 	 false 	 undefined 	 undefined
+$65. ~pre 	 false 	 undefined 	 undefined
+$66. ~pre.*nxt 	 false 	 undefined 	 undefined
+$67. ~pre.^nxt 	 false 	 undefined 	 undefined
+$68. ~pre.univ 	 false 	 undefined 	 undefined
+$69. ~pre.~header 	 false 	 undefined 	 undefined
+$70. ~pre.~nxt 	 false 	 undefined 	 undefined
+$71. *nxt.^pre 	 false 	 undefined 	 undefined
+$72. *pre.^nxt 	 false 	 undefined 	 undefined
+$73. ^nxt 	 false 	 undefined 	 undefined
+$74. ^nxt.*pre 	 false 	 undefined 	 undefined
+$75. ^nxt.^pre 	 false 	 undefined 	 undefined
+$76. ^nxt.univ 	 false 	 undefined 	 undefined
+$77. ^pre 	 false 	 undefined 	 undefined
+$78. ^pre.*nxt 	 false 	 undefined 	 undefined
+$79. ^pre.^nxt 	 false 	 undefined 	 undefined
+$80. ^pre.univ 	 false 	 undefined 	 undefined
+$81. *nxt 	 false 	 undefined 	 undefined
+$82. *nxt.*pre 	 false 	 undefined 	 undefined
+$83. *nxt.univ 	 false 	 undefined 	 undefined
+$84. *pre 	 false 	 undefined 	 undefined
+$85. *pre.*nxt 	 false 	 undefined 	 undefined
+$86. *pre.univ 	 false 	 undefined 	 undefined
+Expected Completion word: elem
+Expected Completion line: elem <= n.nxt.elem
+Suggestion exists: true
+
+Suggestion in top 1 = false 
+Suggestion in top 5 = false 
+Suggestion in top 10 = false 
+
+Suggestion in top 1 (Alpha) = false
+Suggestion in top 5 (Alpha) = false
+Suggestion in top 10 (Alpha) = false
+
+Suggestion in top 1 (Len) = false
+Suggestion in top 5 (Len) = true
+Suggestion in top 10 (Len) = true
+
+Time taken: 12.420292

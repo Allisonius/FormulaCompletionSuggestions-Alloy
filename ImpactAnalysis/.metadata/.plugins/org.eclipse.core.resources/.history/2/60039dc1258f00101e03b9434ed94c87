@@ -1,0 +1,14 @@
+modelname,filename,position-line,position-character,incompleteline,removedtext,baseline,suggestionedExpression,A_iff_B,A_and_B,not_A_and_B,A_and_not_B,not_A_and_not_B,suggestionImpactTime
+dll,completion/dll.als,31,42,"all n: Node | some n.nxt => n.elem <= n.","nxt.elem","{}","  all n: Node | some n.nxt => n.elem <= n.elem",true,true,false,false,false,9.674333
+dll,completion/dll.als,31,42,"all n: Node | some n.nxt => n.elem <= n.","nxt.elem","{}","  all n: Node | some n.nxt => n.elem <= n.nxt",,,,,,9.674333
+dll,completion/dll.als,31,42,"all n: Node | some n.nxt => n.elem <= n.","nxt.elem","{}","  all n: Node | some n.nxt => n.elem <= n.pre",,,,,,9.674333
+dll,completion/dll.als,31,42,"all n: Node | some n.nxt => n.elem <= n.","nxt.elem","{}","  all n: Node | some n.nxt => n.elem <= n.~header",,,,,,9.674333
+dll,completion/dll.als,31,42,"all n: Node | some n.nxt => n.elem <= n.","nxt.elem","{}","  all n: Node | some n.nxt => n.elem <= n.~nxt",,,,,,9.674333
+dll,completion/dll.als,31,42,"all n: Node | some n.nxt => n.elem <= n.","nxt.elem","{}","  all n: Node | some n.nxt => n.elem <= n.~pre",,,,,,9.674333
+dll,completion/dll.als,31,42,"all n: Node | some n.nxt => n.elem <= n.","nxt.elem","{}","  all n: Node | some n.nxt => n.elem <= n.^nxt",,,,,,9.674333
+dll,completion/dll.als,31,42,"all n: Node | some n.nxt => n.elem <= n.","nxt.elem","{}","  all n: Node | some n.nxt => n.elem <= n.^pre",,,,,,9.674333
+dll,completion/dll.als,31,42,"all n: Node | some n.nxt => n.elem <= n.","nxt.elem","{}","  all n: Node | some n.nxt => n.elem <= n.*nxt",,,,,,9.674333
+dll,completion/dll.als,31,42,"all n: Node | some n.nxt => n.elem <= n.","nxt.elem","{}","  all n: Node | some n.nxt => n.elem <= n.*pre",,,,,,9.674333
+dll,completion/dll.als,31,42,"all n: Node | some n.nxt => n.elem <= n.","nxt.elem","{}","  all n: Node | some n.nxt => n.elem <= n.iden",,,,,,9.674333
+dll,completion/dll.als,31,42,"all n: Node | some n.nxt => n.elem <= n.","nxt.elem","{}","  all n: Node | some n.nxt => n.elem <= n.none",,,,,,9.674333
+dll,completion/dll.als,31,42,"all n: Node | some n.nxt => n.elem <= n.","nxt.elem","{}","  all n: Node | some n.nxt => n.elem <= n.univ",,,,,,9.674333

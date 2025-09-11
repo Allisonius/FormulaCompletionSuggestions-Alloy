@@ -1,0 +1,12 @@
+modelname,filename,position-line,position-character,incompleteline,removedtext,baseline,suggestionedExpression,A_iff_B,A_and_B,not_A_and_B,A_and_not_B,not_A_and_not_B,suggestionImpactTime
+handshake,completion/handshake.als,27,29,"all p: Person | p.spouse.","spouse = p","{}","    all p: Person | p.spouse.shaken",,,,,,9.373667
+handshake,completion/handshake.als,27,29,"all p: Person | p.spouse.","spouse = p","{}","    all p: Person | p.spouse.spouse",,,,,,9.373667
+handshake,completion/handshake.als,27,29,"all p: Person | p.spouse.","spouse = p","{}","    all p: Person | p.spouse.~shaken",,,,,,9.373667
+handshake,completion/handshake.als,27,29,"all p: Person | p.spouse.","spouse = p","{}","    all p: Person | p.spouse.~spouse",,,,,,9.373667
+handshake,completion/handshake.als,27,29,"all p: Person | p.spouse.","spouse = p","{}","    all p: Person | p.spouse.^shaken",,,,,,9.373667
+handshake,completion/handshake.als,27,29,"all p: Person | p.spouse.","spouse = p","{}","    all p: Person | p.spouse.^spouse",,,,,,9.373667
+handshake,completion/handshake.als,27,29,"all p: Person | p.spouse.","spouse = p","{}","    all p: Person | p.spouse.*shaken",,,,,,9.373667
+handshake,completion/handshake.als,27,29,"all p: Person | p.spouse.","spouse = p","{}","    all p: Person | p.spouse.*spouse",,,,,,9.373667
+handshake,completion/handshake.als,27,29,"all p: Person | p.spouse.","spouse = p","{}","    all p: Person | p.spouse.iden",,,,,,9.373667
+handshake,completion/handshake.als,27,29,"all p: Person | p.spouse.","spouse = p","{}","    all p: Person | p.spouse.none",,,,,,9.373667
+handshake,completion/handshake.als,27,29,"all p: Person | p.spouse.","spouse = p","{}","    all p: Person | p.spouse.univ",,,,,,9.373667

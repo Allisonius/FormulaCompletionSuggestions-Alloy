@@ -1,0 +1,12 @@
+modelname,filename,position-line,position-character,incompleteline,removedtext,baseline,suggestionedExpression,A_iff_B,A_and_B,not_A_and_B,A_and_not_B,not_A_and_not_B,suggestionImpactTime
+handshake,completion/handshake.als,39,11,"Hilary.","spouse = Jocelyn","{}","    Hilary.shaken",,,,,,9.503916
+handshake,completion/handshake.als,39,11,"Hilary.","spouse = Jocelyn","{}","    Hilary.spouse",,,,,,9.503916
+handshake,completion/handshake.als,39,11,"Hilary.","spouse = Jocelyn","{}","    Hilary.~shaken",,,,,,9.503916
+handshake,completion/handshake.als,39,11,"Hilary.","spouse = Jocelyn","{}","    Hilary.~spouse",,,,,,9.503916
+handshake,completion/handshake.als,39,11,"Hilary.","spouse = Jocelyn","{}","    Hilary.^shaken",,,,,,9.503916
+handshake,completion/handshake.als,39,11,"Hilary.","spouse = Jocelyn","{}","    Hilary.^spouse",,,,,,9.503916
+handshake,completion/handshake.als,39,11,"Hilary.","spouse = Jocelyn","{}","    Hilary.*shaken",,,,,,9.503916
+handshake,completion/handshake.als,39,11,"Hilary.","spouse = Jocelyn","{}","    Hilary.*spouse",,,,,,9.503916
+handshake,completion/handshake.als,39,11,"Hilary.","spouse = Jocelyn","{}","    Hilary.iden",,,,,,9.503916
+handshake,completion/handshake.als,39,11,"Hilary.","spouse = Jocelyn","{}","    Hilary.none",,,,,,9.503916
+handshake,completion/handshake.als,39,11,"Hilary.","spouse = Jocelyn","{}","    Hilary.univ",,,,,,9.503916

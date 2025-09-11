@@ -1,0 +1,36 @@
+Model name: grade
+Filename: completion/grade-sig.als
+Offset: 44
+Term:  extends 
+Vscode Position: line=2 character=20
+----------------------------------
+3 | sig Student extends 
+----------------------------------
+Completion List:
+# Suggestion 	 Exact 	 Syntactic 	 Semantic
+$1. Assignment 	 false 	 false 	 false
+$2. Class 	 false 	 false 	 false
+$3. Person 	 true 	 true 	 true
+$4. Professor 	 false 	 false 	 false
+$5. Student 	 false 	 false 	 false
+$6. Int 	 false 	 false 	 false
+$7. String 	 false 	 false 	 false
+$8. none 	 false 	 false 	 false
+$9. univ 	 false 	 false 	 false
+Expected Completion word: Person
+Expected Completion line: Person {}
+Suggestion exists: true
+
+Suggestion in top 1 = false 
+Suggestion in top 5 = true 
+Suggestion in top 10 = true 
+
+Suggestion in top 1 (Alpha) = false
+Suggestion in top 5 (Alpha) = true
+Suggestion in top 10 (Alpha) = true
+
+Suggestion in top 1 (Len) = false
+Suggestion in top 5 (Len) = true
+Suggestion in top 10 (Len) = true
+
+Time taken: 12.701625

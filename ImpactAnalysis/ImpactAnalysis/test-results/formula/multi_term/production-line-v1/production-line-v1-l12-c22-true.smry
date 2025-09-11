@@ -1,0 +1,37 @@
+Model name: production-line-v1
+Filename: completion/production-line-v1-sig.als
+Offset: 417
+Term:  extends 
+Vscode Position: line=11 character=22
+----------------------------------
+12 | sig Component extends 
+----------------------------------
+Completion List:
+# Suggestion 	 Exact 	 Syntactic 	 Semantic
+$1. Component 	 false 	 false 	 false
+$2. Position 	 false 	 false 	 false
+$3. Product 	 true 	 true 	 true
+$4. Resource 	 false 	 false 	 false
+$5. Robot 	 false 	 false 	 false
+$6. ordering/Ord 	 false 	 undefined 	 undefined
+$7. Int 	 false 	 false 	 false
+$8. String 	 false 	 false 	 false
+$9. none 	 false 	 false 	 false
+$10. univ 	 false 	 false 	 false
+Expected Completion word: Product
+Expected Completion line: Product {
+Suggestion exists: true
+
+Suggestion in top 1 = false 
+Suggestion in top 5 = true 
+Suggestion in top 10 = true 
+
+Suggestion in top 1 (Alpha) = false
+Suggestion in top 5 (Alpha) = false
+Suggestion in top 10 (Alpha) = true
+
+Suggestion in top 1 (Len) = false
+Suggestion in top 5 (Len) = false
+Suggestion in top 10 (Len) = true
+
+Time taken: 7.0885

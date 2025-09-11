@@ -1,0 +1,7 @@
+modelname,filename,position-line,position-character,incompleteline,removedtext,baseline,suggestionedExpression,A_iff_B,A_and_B,not_A_and_B,A_and_not_B,not_A_and_not_B,suggestionImpactTime
+grade,completion/grade-complete.als,18,32,"s in c.assistant_for || s in c.","instructor_of","{}","\ts in c.assistant_for || s in c.assistant_for",,,,,,3.584041
+grade,completion/grade-complete.als,18,32,"s in c.assistant_for || s in c.","instructor_of","{}","\ts in c.assistant_for || s in c.instructor_of",,,,,,3.584041
+grade,completion/grade-complete.als,18,32,"s in c.assistant_for || s in c.","instructor_of","{}","\ts in c.assistant_for || s in c.~associated_with",,,,,,3.584041
+grade,completion/grade-complete.als,18,32,"s in c.assistant_for || s in c.","instructor_of","{}","\ts in c.assistant_for || s in c.iden",,,,,,3.584041
+grade,completion/grade-complete.als,18,32,"s in c.assistant_for || s in c.","instructor_of","{}","\ts in c.assistant_for || s in c.none",,,,,,3.584041
+grade,completion/grade-complete.als,18,32,"s in c.assistant_for || s in c.","instructor_of","{}","\ts in c.assistant_for || s in c.univ",,,,,,3.584041

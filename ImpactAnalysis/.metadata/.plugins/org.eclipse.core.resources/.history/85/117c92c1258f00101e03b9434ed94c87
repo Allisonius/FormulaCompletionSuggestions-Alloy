@@ -1,0 +1,7 @@
+modelname,filename,position-line,position-character,incompleteline,removedtext,baseline,suggestionedExpression,A_iff_B,A_and_B,not_A_and_B,A_and_not_B,not_A_and_not_B,suggestionImpactTime
+courses-v1,completion/courses-v1-complete.als,88,30,"all p : Person, disj x,y : p.","projects | no ((Person <: projects).x & projects.y) - p","{}","\tall p : Person, disj x,y : p.enrolled",,,,,,9.50425
+courses-v1,completion/courses-v1-complete.als,88,30,"all p : Person, disj x,y : p.","projects | no ((Person <: projects).x & projects.y) - p","{}","\tall p : Person, disj x,y : p.projects",,,,,,9.50425
+courses-v1,completion/courses-v1-complete.als,88,30,"all p : Person, disj x,y : p.","projects | no ((Person <: projects).x & projects.y) - p","{}","\tall p : Person, disj x,y : p.teaches",,,,,,9.50425
+courses-v1,completion/courses-v1-complete.als,88,30,"all p : Person, disj x,y : p.","projects | no ((Person <: projects).x & projects.y) - p","{}","\tall p : Person, disj x,y : p.iden",,,,,,9.50425
+courses-v1,completion/courses-v1-complete.als,88,30,"all p : Person, disj x,y : p.","projects | no ((Person <: projects).x & projects.y) - p","{}","\tall p : Person, disj x,y : p.none",,,,,,9.50425
+courses-v1,completion/courses-v1-complete.als,88,30,"all p : Person, disj x,y : p.","projects | no ((Person <: projects).x & projects.y) - p","{}","\tall p : Person, disj x,y : p.univ",,,,,,9.50425

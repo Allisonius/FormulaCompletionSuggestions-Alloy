@@ -1,0 +1,8 @@
+col
+row
+col.Int
+row.Int
+col.univ
+row.univ
+col.~row
+row.~col

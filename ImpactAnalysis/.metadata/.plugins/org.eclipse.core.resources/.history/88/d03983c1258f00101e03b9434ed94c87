@@ -1,0 +1,13 @@
+modelname,filename,position-line,position-character,incompleteline,removedtext,baseline,suggestionedExpression,A_iff_B,A_and_B,not_A_and_B,A_and_not_B,not_A_and_not_B,suggestionImpactTime
+bempl,completion/bempl-sig.als,7,21,"sig Employee extends","Person {}","{}","sig Employee extends Employee",,,,,,4.134875
+bempl,completion/bempl-sig.als,7,21,"sig Employee extends","Person {}","{}","sig Employee extends Key",,,,,,4.134875
+bempl,completion/bempl-sig.als,7,21,"sig Employee extends","Person {}","{}","sig Employee extends Person",,,,,,4.134875
+bempl,completion/bempl-sig.als,7,21,"sig Employee extends","Person {}","{}","sig Employee extends Researcher",,,,,,4.134875
+bempl,completion/bempl-sig.als,7,21,"sig Employee extends","Person {}","{}","sig Employee extends Room",,,,,,4.134875
+bempl,completion/bempl-sig.als,7,21,"sig Employee extends","Person {}","{}","sig Employee extends secure_lab",,,,,,4.134875
+bempl,completion/bempl-sig.als,7,21,"sig Employee extends","Person {}","{}","sig Employee extends Int",,,,,,4.134875
+bempl,completion/bempl-sig.als,7,21,"sig Employee extends","Person {}","{}","sig Employee extends String",,,,,,4.134875
+bempl,completion/bempl-sig.als,7,21,"sig Employee extends","Person {}","{}","sig Employee extends seq/Int",,,,,,4.134875
+bempl,completion/bempl-sig.als,7,21,"sig Employee extends","Person {}","{}","sig Employee extends iden",,,,,,4.134875
+bempl,completion/bempl-sig.als,7,21,"sig Employee extends","Person {}","{}","sig Employee extends none",,,,,,4.134875
+bempl,completion/bempl-sig.als,7,21,"sig Employee extends","Person {}","{}","sig Employee extends univ",,,,,,4.134875

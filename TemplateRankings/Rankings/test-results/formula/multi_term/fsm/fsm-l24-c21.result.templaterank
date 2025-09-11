@@ -1,0 +1,16 @@
+start
+stop
+start.transition
+stop.transition
+start.State
+start.univ
+stop.State
+stop.univ
+start.~stop
+start.~transition
+stop.~start
+stop.~transition
+start.^transition
+stop.^transition
+start.*transition
+stop.*transition

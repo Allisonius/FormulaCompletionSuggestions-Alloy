@@ -1,0 +1,8 @@
+modelname,filename,position-line,position-character,incompleteline,removedtext,baseline,suggestionedExpression,A_iff_B,A_and_B,not_A_and_B,A_and_not_B,not_A_and_not_B,suggestionImpactTime
+courses-v2,completion/courses-v2-complete.als,48,43,"all p : Person | p.projects in p.enrolled.","projects","{}","\tall p : Person | p.projects in p.enrolled.grades",,,,,,28.414625
+courses-v2,completion/courses-v2-complete.als,48,43,"all p : Person | p.projects in p.enrolled.","projects","{}","\tall p : Person | p.projects in p.enrolled.projects",true,true,false,true,false,28.414625
+courses-v2,completion/courses-v2-complete.als,48,43,"all p : Person | p.projects in p.enrolled.","projects","{}","\tall p : Person | p.projects in p.enrolled.~enrolled",true,true,false,true,false,28.414625
+courses-v2,completion/courses-v2-complete.als,48,43,"all p : Person | p.projects in p.enrolled.","projects","{}","\tall p : Person | p.projects in p.enrolled.~teaches",true,true,false,true,false,28.414625
+courses-v2,completion/courses-v2-complete.als,48,43,"all p : Person | p.projects in p.enrolled.","projects","{}","\tall p : Person | p.projects in p.enrolled.iden",true,true,false,true,false,28.414625
+courses-v2,completion/courses-v2-complete.als,48,43,"all p : Person | p.projects in p.enrolled.","projects","{}","\tall p : Person | p.projects in p.enrolled.none",,,,,,28.414625
+courses-v2,completion/courses-v2-complete.als,48,43,"all p : Person | p.projects in p.enrolled.","projects","{}","\tall p : Person | p.projects in p.enrolled.univ",,,,,,28.414625

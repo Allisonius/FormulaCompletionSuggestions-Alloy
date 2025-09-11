@@ -1,0 +1,17 @@
+modelname,filename,position-line,position-character,incompleteline,removedtext,baseline,suggestionedExpression,A_iff_B,A_and_B,not_A_and_B,A_and_not_B,not_A_and_not_B,suggestionImpactTime
+production-line-v2,completion/production-line-v2-complete.als,28,31,"workers in Workstation one ->","some Worker","{}","\tworkers in Workstation one -> Component",true,true,false,true,false,38.157459
+production-line-v2,completion/production-line-v2-complete.als,28,31,"workers in Workstation one ->","some Worker","{}","\tworkers in Workstation one -> Dangerous",true,true,false,true,false,38.157459
+production-line-v2,completion/production-line-v2-complete.als,28,31,"workers in Workstation one ->","some Worker","{}","\tworkers in Workstation one -> Human",true,true,false,true,false,38.157459
+production-line-v2,completion/production-line-v2-complete.als,28,31,"workers in Workstation one ->","some Worker","{}","\tworkers in Workstation one -> Material",true,true,false,true,false,38.157459
+production-line-v2,completion/production-line-v2-complete.als,28,31,"workers in Workstation one ->","some Worker","{}","\tworkers in Workstation one -> Product",true,true,false,true,false,38.157459
+production-line-v2,completion/production-line-v2-complete.als,28,31,"workers in Workstation one ->","some Worker","{}","\tworkers in Workstation one -> Robot",true,true,false,true,false,38.157459
+production-line-v2,completion/production-line-v2-complete.als,28,31,"workers in Workstation one ->","some Worker","{}","\tworkers in Workstation one -> Worker",true,true,false,true,false,38.157459
+production-line-v2,completion/production-line-v2-complete.als,28,31,"workers in Workstation one ->","some Worker","{}","\tworkers in Workstation one -> Workstation",false,false,false,true,false,38.157459
+production-line-v2,completion/production-line-v2-complete.als,28,31,"workers in Workstation one ->","some Worker","{}","\tworkers in Workstation one -> begin",false,false,false,true,false,38.157459
+production-line-v2,completion/production-line-v2-complete.als,28,31,"workers in Workstation one ->","some Worker","{}","\tworkers in Workstation one -> end",false,false,false,true,false,38.157459
+production-line-v2,completion/production-line-v2-complete.als,28,31,"workers in Workstation one ->","some Worker","{}","\tworkers in Workstation one -> Int",false,false,false,true,false,38.157459
+production-line-v2,completion/production-line-v2-complete.als,28,31,"workers in Workstation one ->","some Worker","{}","\tworkers in Workstation one -> String",true,true,false,true,false,38.157459
+production-line-v2,completion/production-line-v2-complete.als,28,31,"workers in Workstation one ->","some Worker","{}","\tworkers in Workstation one -> seq/Int",false,false,false,true,false,38.157459
+production-line-v2,completion/production-line-v2-complete.als,28,31,"workers in Workstation one ->","some Worker","{}","\tworkers in Workstation one -> iden",,,,,,38.157459
+production-line-v2,completion/production-line-v2-complete.als,28,31,"workers in Workstation one ->","some Worker","{}","\tworkers in Workstation one -> none",true,true,false,true,false,38.157459
+production-line-v2,completion/production-line-v2-complete.als,28,31,"workers in Workstation one ->","some Worker","{}","\tworkers in Workstation one -> univ",false,false,false,true,false,38.157459

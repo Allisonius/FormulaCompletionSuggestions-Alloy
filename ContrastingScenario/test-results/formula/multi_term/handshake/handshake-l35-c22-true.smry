@@ -1,0 +1,34 @@
+Model name: handshake
+Filename: completion/handshake.als
+Offset: 582
+Term:  - 
+Vscode Position: line=34 character=22
+----------------------------------
+35 |     all p,q: Person - 
+----------------------------------
+Completion List:
+# Suggestion 	 Exact 	 Syntactic 	 Semantic
+$1. Hilary 	 false 	 false 	 false
+$2. Jocelyn 	 true 	 true 	 true
+$3. Person 	 false 	 false 	 false
+$4. Int 	 false 	 false 	 false
+$5. String 	 false 	 false 	 false
+$6. none 	 false 	 false 	 false
+$7. univ 	 false 	 false 	 false
+Expected Completion word: Jocelyn
+Expected Completion line: Jocelyn | p!=q => #p.shaken != #q.shaken
+Suggestion exists: true
+
+Suggestion in top 1 = false 
+Suggestion in top 5 = true 
+Suggestion in top 10 = true 
+
+Suggestion in top 1 (Alpha) = false
+Suggestion in top 5 (Alpha) = true
+Suggestion in top 10 (Alpha) = true
+
+Suggestion in top 1 (Len) = false
+Suggestion in top 5 (Len) = false
+Suggestion in top 10 (Len) = true
+
+Time taken: 10.093583

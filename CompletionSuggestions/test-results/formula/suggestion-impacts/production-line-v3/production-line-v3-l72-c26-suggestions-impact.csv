@@ -1,0 +1,10 @@
+modelname,filename,position-line,position-character,incompleteline,removedtext,baseline,suggestionedExpression,A_iff_B,A_and_B,not_A_and_B,A_and_not_B,not_A_and_not_B,suggestionImpactTime
+production-line-v3,completion/production-line-v3-complete.als,72,26,"all c : Component, p : c.","parts | p.workstation in ^succ.(c.workstation)","{}","\tall c : Component, p : c.parts",,,,,,6.300292
+production-line-v3,completion/production-line-v3-complete.als,72,26,"all c : Component, p : c.","parts | p.workstation in ^succ.(c.workstation)","{}","\tall c : Component, p : c.workstation",,,,,,6.300292
+production-line-v3,completion/production-line-v3-complete.als,72,26,"all c : Component, p : c.","parts | p.workstation in ^succ.(c.workstation)","{}","\tall c : Component, p : c.~parts",,,,,,6.300292
+production-line-v3,completion/production-line-v3-complete.als,72,26,"all c : Component, p : c.","parts | p.workstation in ^succ.(c.workstation)","{}","\tall c : Component, p : c.^parts",,,,,,6.300292
+production-line-v3,completion/production-line-v3-complete.als,72,26,"all c : Component, p : c.","parts | p.workstation in ^succ.(c.workstation)","{}","\tall c : Component, p : c.*parts",,,,,,6.300292
+production-line-v3,completion/production-line-v3-complete.als,72,26,"all c : Component, p : c.","parts | p.workstation in ^succ.(c.workstation)","{}","\tall c : Component, p : c.*succ",,,,,,6.300292
+production-line-v3,completion/production-line-v3-complete.als,72,26,"all c : Component, p : c.","parts | p.workstation in ^succ.(c.workstation)","{}","\tall c : Component, p : c.iden",,,,,,6.300292
+production-line-v3,completion/production-line-v3-complete.als,72,26,"all c : Component, p : c.","parts | p.workstation in ^succ.(c.workstation)","{}","\tall c : Component, p : c.none",,,,,,6.300292
+production-line-v3,completion/production-line-v3-complete.als,72,26,"all c : Component, p : c.","parts | p.workstation in ^succ.(c.workstation)","{}","\tall c : Component, p : c.univ",,,,,,6.300292

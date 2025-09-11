@@ -1,0 +1,17 @@
+Course
+Grade
+Person
+Professor
+Project
+Student
+enrolled
+grades
+projects
+teaches
+~enrolled
+~projects
+~teaches
+Int
+String
+none
+univ

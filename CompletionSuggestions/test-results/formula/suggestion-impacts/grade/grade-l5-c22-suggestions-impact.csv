@@ -1,0 +1,12 @@
+modelname,filename,position-line,position-character,incompleteline,removedtext,baseline,suggestionedExpression,A_iff_B,A_and_B,not_A_and_B,A_and_not_B,not_A_and_not_B,suggestionImpactTime
+grade,completion/grade-sig.als,5,22,"sig Professor extends","Person {}","{}","sig Professor extends Assignment",,,,,,4.253041
+grade,completion/grade-sig.als,5,22,"sig Professor extends","Person {}","{}","sig Professor extends Class",,,,,,4.253041
+grade,completion/grade-sig.als,5,22,"sig Professor extends","Person {}","{}","sig Professor extends Person",,,,,,4.253041
+grade,completion/grade-sig.als,5,22,"sig Professor extends","Person {}","{}","sig Professor extends Professor",,,,,,4.253041
+grade,completion/grade-sig.als,5,22,"sig Professor extends","Person {}","{}","sig Professor extends Student",,,,,,4.253041
+grade,completion/grade-sig.als,5,22,"sig Professor extends","Person {}","{}","sig Professor extends Int",,,,,,4.253041
+grade,completion/grade-sig.als,5,22,"sig Professor extends","Person {}","{}","sig Professor extends String",,,,,,4.253041
+grade,completion/grade-sig.als,5,22,"sig Professor extends","Person {}","{}","sig Professor extends seq/Int",,,,,,4.253041
+grade,completion/grade-sig.als,5,22,"sig Professor extends","Person {}","{}","sig Professor extends iden",,,,,,4.253041
+grade,completion/grade-sig.als,5,22,"sig Professor extends","Person {}","{}","sig Professor extends none",,,,,,4.253041
+grade,completion/grade-sig.als,5,22,"sig Professor extends","Person {}","{}","sig Professor extends univ",,,,,,4.253041

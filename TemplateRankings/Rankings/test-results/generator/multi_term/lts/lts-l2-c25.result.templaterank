@@ -1,0 +1,11 @@
+Event
+Init
+State
+(Init&(State-Init))
+(State-Init)
+(none->none)
+(none->none->none)
+Int
+String
+none
+univ

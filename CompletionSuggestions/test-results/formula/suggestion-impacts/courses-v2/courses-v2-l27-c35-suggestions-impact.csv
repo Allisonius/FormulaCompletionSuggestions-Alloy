@@ -1,0 +1,7 @@
+modelname,filename,position-line,position-character,incompleteline,removedtext,baseline,suggestionedExpression,A_iff_B,A_and_B,not_A_and_B,A_and_not_B,not_A_and_not_B,suggestionImpactTime
+courses-v2,completion/courses-v2-complete.als,27,35,"all p : Person - Professor | no p.","teaches","{}","\tall p : Person - Professor | no p.enrolled",true,true,false,true,false,24.690875
+courses-v2,completion/courses-v2-complete.als,27,35,"all p : Person - Professor | no p.","teaches","{}","\tall p : Person - Professor | no p.projects",true,true,false,true,false,24.690875
+courses-v2,completion/courses-v2-complete.als,27,35,"all p : Person - Professor | no p.","teaches","{}","\tall p : Person - Professor | no p.teaches",true,true,false,true,false,24.690875
+courses-v2,completion/courses-v2-complete.als,27,35,"all p : Person - Professor | no p.","teaches","{}","\tall p : Person - Professor | no p.iden",true,true,false,true,false,24.690875
+courses-v2,completion/courses-v2-complete.als,27,35,"all p : Person - Professor | no p.","teaches","{}","\tall p : Person - Professor | no p.none",,,,,,24.690875
+courses-v2,completion/courses-v2-complete.als,27,35,"all p : Person - Professor | no p.","teaches","{}","\tall p : Person - Professor | no p.univ",,,,,,24.690875

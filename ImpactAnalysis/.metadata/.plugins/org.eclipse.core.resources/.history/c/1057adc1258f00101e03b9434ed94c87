@@ -1,0 +1,11 @@
+modelname,filename,position-line,position-character,incompleteline,removedtext,baseline,suggestionedExpression,A_iff_B,A_and_B,not_A_and_B,A_and_not_B,not_A_and_not_B,suggestionImpactTime
+social-media,completion/socialMedia.als,25,33,"all p : User | p.sees - Ad in p.","follows.posts","{}","\tall p : User | p.sees - Ad in p.follows",true,true,false,true,false,18.645292
+social-media,completion/socialMedia.als,25,33,"all p : User | p.sees - Ad in p.","follows.posts","{}","\tall p : User | p.sees - Ad in p.posts",true,true,false,true,false,18.645292
+social-media,completion/socialMedia.als,25,33,"all p : User | p.sees - Ad in p.","follows.posts","{}","\tall p : User | p.sees - Ad in p.sees",true,true,false,false,false,18.645292
+social-media,completion/socialMedia.als,25,33,"all p : User | p.sees - Ad in p.","follows.posts","{}","\tall p : User | p.sees - Ad in p.suggested",true,true,false,true,false,18.645292
+social-media,completion/socialMedia.als,25,33,"all p : User | p.sees - Ad in p.","follows.posts","{}","\tall p : User | p.sees - Ad in p.~follows",true,true,false,true,false,18.645292
+social-media,completion/socialMedia.als,25,33,"all p : User | p.sees - Ad in p.","follows.posts","{}","\tall p : User | p.sees - Ad in p.~suggested",true,true,false,true,false,18.645292
+social-media,completion/socialMedia.als,25,33,"all p : User | p.sees - Ad in p.","follows.posts","{}","\tall p : User | p.sees - Ad in p.^follows",true,true,false,true,false,18.645292
+social-media,completion/socialMedia.als,25,33,"all p : User | p.sees - Ad in p.","follows.posts","{}","\tall p : User | p.sees - Ad in p.^suggested",true,true,false,true,false,18.645292
+social-media,completion/socialMedia.als,25,33,"all p : User | p.sees - Ad in p.","follows.posts","{}","\tall p : User | p.sees - Ad in p.*follows",true,true,false,true,false,18.645292
+social-media,completion/socialMedia.als,25,33,"all p : User | p.sees - Ad in p.","follows.posts","{}","\tall p : User | p.sees - Ad in p.*suggested",true,true,false,true,false,18.645292

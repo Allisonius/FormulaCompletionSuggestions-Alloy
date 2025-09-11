@@ -1,0 +1,13 @@
+modelname,filename,position-line,position-character,incompleteline,removedtext,baseline,suggestionedExpression,A_iff_B,A_and_B,not_A_and_B,A_and_not_B,not_A_and_not_B,suggestionImpactTime
+train-station-ltl,completion/train-station-ltl-sig.als,9,17,"var sig Green in","Signal {}","{}","var sig Green in Entry",,,,,,3.9925
+train-station-ltl,completion/train-station-ltl-sig.als,9,17,"var sig Green in","Signal {}","{}","var sig Green in Exit",,,,,,3.9925
+train-station-ltl,completion/train-station-ltl-sig.als,9,17,"var sig Green in","Signal {}","{}","var sig Green in Junction",,,,,,3.9925
+train-station-ltl,completion/train-station-ltl-sig.als,9,17,"var sig Green in","Signal {}","{}","var sig Green in Signal",,,,,,3.9925
+train-station-ltl,completion/train-station-ltl-sig.als,9,17,"var sig Green in","Signal {}","{}","var sig Green in Track",,,,,,3.9925
+train-station-ltl,completion/train-station-ltl-sig.als,9,17,"var sig Green in","Signal {}","{}","var sig Green in Train",,,,,,3.9925
+train-station-ltl,completion/train-station-ltl-sig.als,9,17,"var sig Green in","Signal {}","{}","var sig Green in Int",,,,,,3.9925
+train-station-ltl,completion/train-station-ltl-sig.als,9,17,"var sig Green in","Signal {}","{}","var sig Green in String",,,,,,3.9925
+train-station-ltl,completion/train-station-ltl-sig.als,9,17,"var sig Green in","Signal {}","{}","var sig Green in seq/Int",,,,,,3.9925
+train-station-ltl,completion/train-station-ltl-sig.als,9,17,"var sig Green in","Signal {}","{}","var sig Green in iden",,,,,,3.9925
+train-station-ltl,completion/train-station-ltl-sig.als,9,17,"var sig Green in","Signal {}","{}","var sig Green in none",,,,,,3.9925
+train-station-ltl,completion/train-station-ltl-sig.als,9,17,"var sig Green in","Signal {}","{}","var sig Green in univ",,,,,,3.9925

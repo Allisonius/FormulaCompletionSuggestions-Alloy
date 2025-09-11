@@ -1,0 +1,10 @@
+modelname,filename,position-line,position-character,incompleteline,removedtext,baseline,suggestionedExpression,A_iff_B,A_and_B,not_A_and_B,A_and_not_B,not_A_and_not_B,suggestionImpactTime
+production-line-v2,completion/production-line-v2-complete.als,52,27,"no c : Component | c in c.","^parts","{}","\tno c : Component | c in c.parts",true,true,false,true,false,18.447583
+production-line-v2,completion/production-line-v2-complete.als,52,27,"no c : Component | c in c.","^parts","{}","\tno c : Component | c in c.workstation",true,true,false,false,false,18.447583
+production-line-v2,completion/production-line-v2-complete.als,52,27,"no c : Component | c in c.","^parts","{}","\tno c : Component | c in c.~parts",true,true,false,true,false,18.447583
+production-line-v2,completion/production-line-v2-complete.als,52,27,"no c : Component | c in c.","^parts","{}","\tno c : Component | c in c.^parts",true,true,false,true,false,18.447583
+production-line-v2,completion/production-line-v2-complete.als,52,27,"no c : Component | c in c.","^parts","{}","\tno c : Component | c in c.*parts",true,true,false,true,false,18.447583
+production-line-v2,completion/production-line-v2-complete.als,52,27,"no c : Component | c in c.","^parts","{}","\tno c : Component | c in c.*succ",true,true,false,true,false,18.447583
+production-line-v2,completion/production-line-v2-complete.als,52,27,"no c : Component | c in c.","^parts","{}","\tno c : Component | c in c.iden",true,true,false,true,false,18.447583
+production-line-v2,completion/production-line-v2-complete.als,52,27,"no c : Component | c in c.","^parts","{}","\tno c : Component | c in c.none",,,,,,18.447583
+production-line-v2,completion/production-line-v2-complete.als,52,27,"no c : Component | c in c.","^parts","{}","\tno c : Component | c in c.univ",,,,,,18.447583

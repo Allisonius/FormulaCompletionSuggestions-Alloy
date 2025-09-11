@@ -1,0 +1,7 @@
+modelname,filename,position-line,position-character,incompleteline,removedtext,baseline,suggestionedExpression,A_iff_B,A_and_B,not_A_and_B,A_and_not_B,not_A_and_not_B,suggestionImpactTime
+dll,completion/dll.als,12,13,"Node = DLL.","header.*nxt","{}","  Node = DLL.header",true,true,false,true,false,9.630875
+dll,completion/dll.als,12,13,"Node = DLL.","header.*nxt","{}","  Node = DLL.*nxt",false,false,false,true,false,9.630875
+dll,completion/dll.als,12,13,"Node = DLL.","header.*nxt","{}","  Node = DLL.*pre",false,false,false,true,false,9.630875
+dll,completion/dll.als,12,13,"Node = DLL.","header.*nxt","{}","  Node = DLL.iden",false,false,false,true,false,9.630875
+dll,completion/dll.als,12,13,"Node = DLL.","header.*nxt","{}","  Node = DLL.none",,,,,,9.630875
+dll,completion/dll.als,12,13,"Node = DLL.","header.*nxt","{}","  Node = DLL.univ",,,,,,9.630875

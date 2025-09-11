@@ -1,0 +1,13 @@
+modelname,filename,position-line,position-character,incompleteline,removedtext,baseline,suggestionedExpression,A_iff_B,A_and_B,not_A_and_B,A_and_not_B,not_A_and_not_B,suggestionImpactTime
+classroom-fol,completion/classroom-fol-complete.als,73,41,"all p:Person | some Teacher & (^Tutors).","p","{}","\tall p:Person | some Teacher & (^Tutors).p",true,true,false,true,false,20.753333
+classroom-fol,completion/classroom-fol-complete.als,73,41,"all p:Person | some Teacher & (^Tutors).","p","{}","\tall p:Person | some Teacher & (^Tutors).Person",true,true,false,true,false,20.753333
+classroom-fol,completion/classroom-fol-complete.als,73,41,"all p:Person | some Teacher & (^Tutors).","p","{}","\tall p:Person | some Teacher & (^Tutors).Student",true,true,false,true,false,20.753333
+classroom-fol,completion/classroom-fol-complete.als,73,41,"all p:Person | some Teacher & (^Tutors).","p","{}","\tall p:Person | some Teacher & (^Tutors).Teacher",true,true,false,true,false,20.753333
+classroom-fol,completion/classroom-fol-complete.als,73,41,"all p:Person | some Teacher & (^Tutors).","p","{}","\tall p:Person | some Teacher & (^Tutors).Teaches",,,,,,20.753333
+classroom-fol,completion/classroom-fol-complete.als,73,41,"all p:Person | some Teacher & (^Tutors).","p","{}","\tall p:Person | some Teacher & (^Tutors).Tutors",,,,,,20.753333
+classroom-fol,completion/classroom-fol-complete.als,73,41,"all p:Person | some Teacher & (^Tutors).","p","{}","\tall p:Person | some Teacher & (^Tutors).~Tutors",,,,,,20.753333
+classroom-fol,completion/classroom-fol-complete.als,73,41,"all p:Person | some Teacher & (^Tutors).","p","{}","\tall p:Person | some Teacher & (^Tutors).^Tutors",,,,,,20.753333
+classroom-fol,completion/classroom-fol-complete.als,73,41,"all p:Person | some Teacher & (^Tutors).","p","{}","\tall p:Person | some Teacher & (^Tutors).*Tutors",,,,,,20.753333
+classroom-fol,completion/classroom-fol-complete.als,73,41,"all p:Person | some Teacher & (^Tutors).","p","{}","\tall p:Person | some Teacher & (^Tutors).iden",,,,,,20.753333
+classroom-fol,completion/classroom-fol-complete.als,73,41,"all p:Person | some Teacher & (^Tutors).","p","{}","\tall p:Person | some Teacher & (^Tutors).none",true,true,false,true,false,20.753333
+classroom-fol,completion/classroom-fol-complete.als,73,41,"all p:Person | some Teacher & (^Tutors).","p","{}","\tall p:Person | some Teacher & (^Tutors).univ",true,true,false,true,false,20.753333

@@ -1,0 +1,12 @@
+modelname,filename,position-line,position-character,incompleteline,removedtext,baseline,suggestionedExpression,A_iff_B,A_and_B,not_A_and_B,A_and_not_B,not_A_and_not_B,suggestionImpactTime
+bempl,completion/bempl-sig.als,8,23,"sig Researcher extends","Person {}","{}","sig Researcher extends Employee",,,,,,4.179167
+bempl,completion/bempl-sig.als,8,23,"sig Researcher extends","Person {}","{}","sig Researcher extends Key",,,,,,4.179167
+bempl,completion/bempl-sig.als,8,23,"sig Researcher extends","Person {}","{}","sig Researcher extends Person",,,,,,4.179167
+bempl,completion/bempl-sig.als,8,23,"sig Researcher extends","Person {}","{}","sig Researcher extends Room",,,,,,4.179167
+bempl,completion/bempl-sig.als,8,23,"sig Researcher extends","Person {}","{}","sig Researcher extends secure_lab",,,,,,4.179167
+bempl,completion/bempl-sig.als,8,23,"sig Researcher extends","Person {}","{}","sig Researcher extends Int",,,,,,4.179167
+bempl,completion/bempl-sig.als,8,23,"sig Researcher extends","Person {}","{}","sig Researcher extends String",,,,,,4.179167
+bempl,completion/bempl-sig.als,8,23,"sig Researcher extends","Person {}","{}","sig Researcher extends seq/Int",,,,,,4.179167
+bempl,completion/bempl-sig.als,8,23,"sig Researcher extends","Person {}","{}","sig Researcher extends iden",,,,,,4.179167
+bempl,completion/bempl-sig.als,8,23,"sig Researcher extends","Person {}","{}","sig Researcher extends none",,,,,,4.179167
+bempl,completion/bempl-sig.als,8,23,"sig Researcher extends","Person {}","{}","sig Researcher extends univ",,,,,,4.179167

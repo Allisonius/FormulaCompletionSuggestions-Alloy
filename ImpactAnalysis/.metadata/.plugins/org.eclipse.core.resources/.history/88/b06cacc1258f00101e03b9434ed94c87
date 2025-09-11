@@ -1,0 +1,9 @@
+modelname,filename,position-line,position-character,incompleteline,removedtext,baseline,suggestionedExpression,A_iff_B,A_and_B,not_A_and_B,A_and_not_B,not_A_and_not_B,suggestionImpactTime
+singly-linked-list,completion/singly-linked-list.als,12,34,"no l.header or some n: l.header.","*link | no n.link","{}","  no l.header or some n: l.header.link",,,,,,2.59825
+singly-linked-list,completion/singly-linked-list.als,12,34,"no l.header or some n: l.header.","*link | no n.link","{}","  no l.header or some n: l.header.~header",,,,,,2.59825
+singly-linked-list,completion/singly-linked-list.als,12,34,"no l.header or some n: l.header.","*link | no n.link","{}","  no l.header or some n: l.header.~link",,,,,,2.59825
+singly-linked-list,completion/singly-linked-list.als,12,34,"no l.header or some n: l.header.","*link | no n.link","{}","  no l.header or some n: l.header.^link",,,,,,2.59825
+singly-linked-list,completion/singly-linked-list.als,12,34,"no l.header or some n: l.header.","*link | no n.link","{}","  no l.header or some n: l.header.*link",,,,,,2.59825
+singly-linked-list,completion/singly-linked-list.als,12,34,"no l.header or some n: l.header.","*link | no n.link","{}","  no l.header or some n: l.header.iden",,,,,,2.59825
+singly-linked-list,completion/singly-linked-list.als,12,34,"no l.header or some n: l.header.","*link | no n.link","{}","  no l.header or some n: l.header.none",,,,,,2.59825
+singly-linked-list,completion/singly-linked-list.als,12,34,"no l.header or some n: l.header.","*link | no n.link","{}","  no l.header or some n: l.header.univ",,,,,,2.59825

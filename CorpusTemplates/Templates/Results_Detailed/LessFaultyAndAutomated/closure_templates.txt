@@ -1,0 +1,55 @@
+hits: 225 (46.2962962962963)
+^rel
+
+hits: 68 (13.991769547325102)
+^var
+
+hits: 58 (11.934156378600823)
+^fun_call[]
+
+hits: 40 (8.23045267489712)
+^(var.rel)
+
+hits: 19 (3.909465020576132)
+^(~rel)
+
+hits: 15 (3.0864197530864197)
+^(rel.var)
+
+hits: 11 (2.263374485596708)
+^(rel + rel)
+
+hits: 10 (2.05761316872428)
+^(sig.rel)
+
+hits: 8 (1.646090534979424)
+^(~fun_call[])
+
+hits: 4 (0.823045267489712)
+^(~var)
+
+hits: 3 (0.6172839506172839)
+^(fun_call[] + fun_call[])
+^(ordering/next[])
+^(rel + (~rel))
+
+hits: 2 (0.411522633744856)
+^(var.(rel + rel))
+^(rel.rel)
+^(var <: ((sig.rel).var))
+^(fun_call[] - fun_call[])
+
+hits: 1 (0.205761316872428)
+^(ordering/prev[])
+^(sig.(var.rel))
+^(var + rel)
+^(var + (var.rel))
+^((var + var) + var)
+^((~fun_call[]) + fun_call[])
+^((var.rel).(var.rel))
+^((rel - (sig->var)) - (var->sig))
+^(var - (var->var))
+^(var + var)
+^(((var.rel) <: rel).(~((var.rel) <: rel)))
+
+

@@ -1,0 +1,6 @@
+modelname,filename,position-line,position-character,incompleteline,removedtext,baseline,suggestionedExpression,A_iff_B,A_and_B,not_A_and_B,A_and_not_B,not_A_and_not_B,suggestionImpactTime
+nqueens,completion/nqueens.als,13,33,"all q: Queen | q.col >= 0 && q.","col < #Queen","{}","  all q: Queen | q.col >= 0 && q.col",,,,,,3.974916
+nqueens,completion/nqueens.als,13,33,"all q: Queen | q.col >= 0 && q.","col < #Queen","{}","  all q: Queen | q.col >= 0 && q.row",,,,,,3.974916
+nqueens,completion/nqueens.als,13,33,"all q: Queen | q.col >= 0 && q.","col < #Queen","{}","  all q: Queen | q.col >= 0 && q.iden",,,,,,3.974916
+nqueens,completion/nqueens.als,13,33,"all q: Queen | q.col >= 0 && q.","col < #Queen","{}","  all q: Queen | q.col >= 0 && q.none",,,,,,3.974916
+nqueens,completion/nqueens.als,13,33,"all q: Queen | q.col >= 0 && q.","col < #Queen","{}","  all q: Queen | q.col >= 0 && q.univ",,,,,,3.974916

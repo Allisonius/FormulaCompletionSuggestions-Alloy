@@ -1,0 +1,216 @@
+Model name: production-line-v1
+Filename: completion/production-line-v1-complete.als
+Offset: 697
+Term: .
+Vscode Position: line=25 character=31
+----------------------------------
+26 |     all c : Component | some c.
+----------------------------------
+Completion List:
+# Suggestion 	 Exact 	 Syntactic 	 Semantic
+$1. ((c-Component).parts) 	 false 	 undefined 	 undefined
+$2. ((c-Component).position) 	 false 	 undefined 	 undefined
+$3. ((Component&c).parts) 	 false 	 undefined 	 undefined
+$4. ((Component&c).position) 	 false 	 undefined 	 undefined
+$5. ((Component+c).parts) 	 false 	 undefined 	 undefined
+$6. ((Component+c).position) 	 false 	 undefined 	 undefined
+$7. ((Component-c).parts) 	 false 	 undefined 	 undefined
+$8. ((Component-c).position) 	 false 	 undefined 	 undefined
+$9. ((First.Position).First) 	 false 	 undefined 	 undefined
+$10. ((First.Position).Next) 	 false 	 undefined 	 undefined
+$11. ((First.univ).First) 	 false 	 undefined 	 undefined
+$12. ((First.univ).Next) 	 false 	 undefined 	 undefined
+$13. ((Next.Position)-First) 	 false 	 undefined 	 undefined
+$14. ((Next.Position).Position) 	 false 	 undefined 	 undefined
+$15. ((Next.Position).univ) 	 false 	 undefined 	 undefined
+$16. ((Next.univ)-First) 	 false 	 undefined 	 undefined
+$17. ((Next.univ).Position) 	 false 	 undefined 	 undefined
+$18. ((Next.univ).univ) 	 false 	 undefined 	 undefined
+$19. ((parts.Product)-c) 	 false 	 undefined 	 undefined
+$20. ((parts.Product)-Component) 	 false 	 undefined 	 undefined
+$21. ((parts.Product).parts) 	 false 	 undefined 	 undefined
+$22. ((parts.Product).position) 	 false 	 undefined 	 undefined
+$23. ((parts.univ)-c) 	 false 	 undefined 	 undefined
+$24. ((parts.univ)-Component) 	 false 	 undefined 	 undefined
+$25. ((parts.univ).parts) 	 false 	 undefined 	 undefined
+$26. ((parts.univ).position) 	 false 	 undefined 	 undefined
+$27. ((position.Position)-c) 	 false 	 undefined 	 undefined
+$28. ((position.Position)-Component) 	 false 	 undefined 	 undefined
+$29. ((position.Position).parts) 	 false 	 undefined 	 undefined
+$30. ((position.Position).position) 	 false 	 undefined 	 undefined
+$31. ((position.univ)-c) 	 false 	 undefined 	 undefined
+$32. ((position.univ)-Component) 	 false 	 undefined 	 undefined
+$33. ((position.univ).parts) 	 false 	 undefined 	 undefined
+$34. ((position.univ).position) 	 false 	 undefined 	 undefined
+$35. ((~First).First) 	 false 	 undefined 	 undefined
+$36. ((~First).Next) 	 false 	 undefined 	 undefined
+$37. ((~First).ordering/Ord) 	 false 	 undefined 	 undefined
+$38. ((~First).univ) 	 false 	 undefined 	 undefined
+$39. ((~parts).c) 	 false 	 undefined 	 undefined
+$40. ((~parts).Component) 	 false 	 undefined 	 undefined
+$41. ((~parts).parts) 	 false 	 undefined 	 undefined
+$42. ((~parts).position) 	 false 	 undefined 	 undefined
+$43. ((~parts).univ) 	 false 	 undefined 	 undefined
+$44. ((~position).c) 	 false 	 undefined 	 undefined
+$45. ((~position).Component) 	 false 	 undefined 	 undefined
+$46. ((~position).parts) 	 false 	 undefined 	 undefined
+$47. ((~position).position) 	 false 	 undefined 	 undefined
+$48. ((~position).Robot) 	 false 	 undefined 	 undefined
+$49. ((~position).univ) 	 false 	 undefined 	 undefined
+$50. (*(ordering/Ord.Next)) 	 false 	 undefined 	 undefined
+$51. (*(univ.Next)) 	 false 	 undefined 	 undefined
+$52. (^(ordering/Ord.Next)) 	 false 	 undefined 	 undefined
+$53. (^(univ.Next)) 	 false 	 undefined 	 undefined
+$54. (c&(c-Component)) 	 false 	 undefined 	 undefined
+$55. (c&(Component-c)) 	 false 	 undefined 	 undefined
+$56. (c&(parts.Product)) 	 false 	 undefined 	 undefined
+$57. (c&(parts.univ)) 	 false 	 undefined 	 undefined
+$58. (c&(position.Position)) 	 false 	 undefined 	 undefined
+$59. (c&(position.univ)) 	 false 	 undefined 	 undefined
+$60. (c+(parts.Product)) 	 false 	 undefined 	 undefined
+$61. (c+(parts.univ)) 	 false 	 undefined 	 undefined
+$62. (c+(position.Position)) 	 false 	 undefined 	 undefined
+$63. (c+(position.univ)) 	 false 	 undefined 	 undefined
+$64. (c-(parts.Product)) 	 false 	 undefined 	 undefined
+$65. (c-(parts.univ)) 	 false 	 undefined 	 undefined
+$66. (c-(position.Position)) 	 false 	 undefined 	 undefined
+$67. (c-(position.univ)) 	 false 	 undefined 	 undefined
+$68. (c-Component) 	 false 	 undefined 	 undefined
+$69. (c.parts) 	 false 	 undefined 	 undefined
+$70. (c.position) 	 false 	 undefined 	 undefined
+$71. (Component&(c-Component)) 	 false 	 undefined 	 undefined
+$72. (Component&(Component-c)) 	 false 	 undefined 	 undefined
+$73. (Component&(parts.Product)) 	 false 	 undefined 	 undefined
+$74. (Component&(parts.univ)) 	 false 	 undefined 	 undefined
+$75. (Component&(position.Position)) 	 false 	 undefined 	 undefined
+$76. (Component&(position.univ)) 	 false 	 undefined 	 undefined
+$77. (Component&c) 	 false 	 undefined 	 undefined
+$78. (Component+(parts.Product)) 	 false 	 undefined 	 undefined
+$79. (Component+(parts.univ)) 	 false 	 undefined 	 undefined
+$80. (Component+(position.Position)) 	 false 	 undefined 	 undefined
+$81. (Component+(position.univ)) 	 false 	 undefined 	 undefined
+$82. (Component+c) 	 false 	 undefined 	 undefined
+$83. (Component-(parts.Product)) 	 false 	 undefined 	 undefined
+$84. (Component-(parts.univ)) 	 false 	 undefined 	 undefined
+$85. (Component-(position.Position)) 	 false 	 undefined 	 undefined
+$86. (Component-(position.univ)) 	 false 	 undefined 	 undefined
+$87. (Component-c) 	 false 	 undefined 	 undefined
+$88. (Component.parts) 	 false 	 undefined 	 undefined
+$89. (Component.position) 	 false 	 undefined 	 undefined
+$90. (First&(Next.Position)) 	 false 	 undefined 	 undefined
+$91. (First&(Next.univ)) 	 false 	 undefined 	 undefined
+$92. (First+(Next.Position)) 	 false 	 undefined 	 undefined
+$93. (First+(Next.univ)) 	 false 	 undefined 	 undefined
+$94. (First-(Next.Position)) 	 false 	 undefined 	 undefined
+$95. (First-(Next.univ)) 	 false 	 undefined 	 undefined
+$96. (First.(c.position)) 	 false 	 undefined 	 undefined
+$97. (First.(Component.position)) 	 false 	 undefined 	 undefined
+$98. (First.(ordering/Ord.First)) 	 false 	 undefined 	 undefined
+$99. (First.(ordering/Ord.Next)) 	 false 	 undefined 	 undefined
+$100. (First.(Robot.position)) 	 false 	 undefined 	 undefined
+$101. (First.(univ.First)) 	 false 	 undefined 	 undefined
+$102. (First.(univ.Next)) 	 false 	 undefined 	 undefined
+$103. (First.(univ.position)) 	 false 	 undefined 	 undefined
+$104. (First.(~First)) 	 false 	 undefined 	 undefined
+$105. (First.(~position)) 	 false 	 undefined 	 undefined
+$106. (First.Position) 	 false 	 undefined 	 undefined
+$107. (First.univ) 	 false 	 undefined 	 undefined
+$108. (Next.(c.position)) 	 false 	 undefined 	 undefined
+$109. (Next.(Component.position)) 	 false 	 undefined 	 undefined
+$110. (Next.(ordering/Ord.First)) 	 false 	 undefined 	 undefined
+$111. (Next.(ordering/Ord.Next)) 	 false 	 undefined 	 undefined
+$112. (Next.(Robot.position)) 	 false 	 undefined 	 undefined
+$113. (Next.(univ.First)) 	 false 	 undefined 	 undefined
+$114. (Next.(univ.Next)) 	 false 	 undefined 	 undefined
+$115. (Next.(univ.position)) 	 false 	 undefined 	 undefined
+$116. (Next.(~First)) 	 false 	 undefined 	 undefined
+$117. (Next.(~position)) 	 false 	 undefined 	 undefined
+$118. (Next.Position) 	 false 	 undefined 	 undefined
+$119. (Next.univ) 	 false 	 undefined 	 undefined
+$120. (none->none) 	 false 	 undefined 	 undefined
+$121. (none->none->none) 	 false 	 undefined 	 undefined
+$122. (ordering/Ord-(First.Position)) 	 false 	 undefined 	 undefined
+$123. (ordering/Ord-(First.univ)) 	 false 	 undefined 	 undefined
+$124. (ordering/Ord.(Next.Position)) 	 false 	 undefined 	 undefined
+$125. (ordering/Ord.(Next.univ)) 	 false 	 undefined 	 undefined
+$126. (ordering/Ord.First) 	 false 	 undefined 	 undefined
+$127. (ordering/Ord.Next) 	 false 	 undefined 	 undefined
+$128. (parts.(c.parts)) 	 false 	 undefined 	 undefined
+$129. (parts.(Component.parts)) 	 false 	 undefined 	 undefined
+$130. (parts.(univ.parts)) 	 false 	 undefined 	 undefined
+$131. (parts.(~parts)) 	 false 	 undefined 	 undefined
+$132. (parts.Product) 	 false 	 undefined 	 undefined
+$133. (parts.univ) 	 false 	 undefined 	 undefined
+$134. (Position-(c.position)) 	 false 	 undefined 	 undefined
+$135. (Position-(Component.position)) 	 false 	 undefined 	 undefined
+$136. (Position-(ordering/Ord.First)) 	 false 	 undefined 	 undefined
+$137. (Position-(Robot.position)) 	 false 	 undefined 	 undefined
+$138. (Position-(univ.First)) 	 false 	 undefined 	 undefined
+$139. (Position-(univ.position)) 	 false 	 undefined 	 undefined
+$140. (position.(c.position)) 	 false 	 undefined 	 undefined
+$141. (position.(Component.position)) 	 false 	 undefined 	 undefined
+$142. (position.(ordering/Ord.First)) 	 false 	 undefined 	 undefined
+$143. (Position.(ordering/Ord.Next)) 	 false 	 undefined 	 undefined
+$144. (position.(ordering/Ord.Next)) 	 false 	 undefined 	 undefined
+$145. (position.(Robot.position)) 	 false 	 undefined 	 undefined
+$146. (position.(univ.First)) 	 false 	 undefined 	 undefined
+$147. (Position.(univ.Next)) 	 false 	 undefined 	 undefined
+$148. (position.(univ.Next)) 	 false 	 undefined 	 undefined
+$149. (position.(univ.position)) 	 false 	 undefined 	 undefined
+$150. (position.(~First)) 	 false 	 undefined 	 undefined
+$151. (position.(~position)) 	 false 	 undefined 	 undefined
+$152. (position.Position) 	 false 	 undefined 	 undefined
+$153. (position.univ) 	 false 	 undefined 	 undefined
+$154. (Product-(c.parts)) 	 false 	 undefined 	 undefined
+$155. (Product-(Component.parts)) 	 false 	 undefined 	 undefined
+$156. (Product-(univ.parts)) 	 false 	 undefined 	 undefined
+$157. (Robot-(position.Position)) 	 false 	 undefined 	 undefined
+$158. (Robot-(position.univ)) 	 false 	 undefined 	 undefined
+$159. (Robot.position) 	 false 	 undefined 	 undefined
+$160. (univ.(Next.Position)) 	 false 	 undefined 	 undefined
+$161. (univ.(Next.univ)) 	 false 	 undefined 	 undefined
+$162. (univ.(ordering/Ord.Next)) 	 false 	 undefined 	 undefined
+$163. (univ.(univ.Next)) 	 false 	 undefined 	 undefined
+$164. (univ.First) 	 false 	 undefined 	 undefined
+$165. (univ.Next) 	 false 	 undefined 	 undefined
+$166. (univ.parts) 	 false 	 undefined 	 undefined
+$167. (univ.position) 	 false 	 undefined 	 undefined
+$168. (~(Next.Position)) 	 false 	 undefined 	 undefined
+$169. (~(Next.univ)) 	 false 	 undefined 	 undefined
+$170. (~(ordering/Ord.Next)) 	 false 	 undefined 	 undefined
+$171. (~(univ.Next)) 	 false 	 undefined 	 undefined
+$172. (~First) 	 false 	 undefined 	 undefined
+$173. (~parts) 	 false 	 undefined 	 undefined
+$174. (~position) 	 false 	 undefined 	 undefined
+$175. c 	 false 	 undefined 	 undefined
+$176. Component 	 false 	 undefined 	 undefined
+$177. First 	 false 	 undefined 	 undefined
+$178. Int 	 false 	 undefined 	 undefined
+$179. Next 	 false 	 undefined 	 undefined
+$180. none 	 false 	 undefined 	 undefined
+$181. ordering/Ord 	 false 	 undefined 	 undefined
+$182. parts 	 true 	 undefined 	 undefined
+$183. Position 	 false 	 undefined 	 undefined
+$184. position 	 false 	 undefined 	 undefined
+$185. Product 	 false 	 undefined 	 undefined
+$186. Resource 	 false 	 undefined 	 undefined
+$187. Robot 	 false 	 undefined 	 undefined
+$188. String 	 false 	 undefined 	 undefined
+$189. univ 	 false 	 undefined 	 undefined
+Expected Completion word: parts
+Expected Completion line: parts
+Suggestion exists: true
+
+Suggestion in top 1 = false 
+Suggestion in top 5 = false 
+Suggestion in top 10 = false 
+
+Suggestion in top 1 (Alpha) = false
+Suggestion in top 5 (Alpha) = false
+Suggestion in top 10 (Alpha) = false
+
+Suggestion in top 1 (Len) = false
+Suggestion in top 5 (Len) = false
+Suggestion in top 10 (Len) = true
+
+Time taken: 40.852959

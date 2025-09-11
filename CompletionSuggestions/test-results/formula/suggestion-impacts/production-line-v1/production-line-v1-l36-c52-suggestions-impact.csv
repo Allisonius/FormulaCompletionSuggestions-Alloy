@@ -1,0 +1,11 @@
+modelname,filename,position-line,position-character,incompleteline,removedtext,baseline,suggestionedExpression,A_iff_B,A_and_B,not_A_and_B,A_and_not_B,not_A_and_not_B,suggestionImpactTime
+production-line-v1,completion/production-line-v1-complete.als,36,52,"all c : Component | some (Robot <: position).(c.","position) & Robot","{}","    all c : Component | some (Robot <: position).(c.Position",,,,,,3.98675
+production-line-v1,completion/production-line-v1-complete.als,36,52,"all c : Component | some (Robot <: position).(c.","position) & Robot","{}","    all c : Component | some (Robot <: position).(c.parts",,,,,,3.98675
+production-line-v1,completion/production-line-v1-complete.als,36,52,"all c : Component | some (Robot <: position).(c.","position) & Robot","{}","    all c : Component | some (Robot <: position).(c.position",,,,,,3.98675
+production-line-v1,completion/production-line-v1-complete.als,36,52,"all c : Component | some (Robot <: position).(c.","position) & Robot","{}","    all c : Component | some (Robot <: position).(c.~parts",,,,,,3.98675
+production-line-v1,completion/production-line-v1-complete.als,36,52,"all c : Component | some (Robot <: position).(c.","position) & Robot","{}","    all c : Component | some (Robot <: position).(c.~position",,,,,,3.98675
+production-line-v1,completion/production-line-v1-complete.als,36,52,"all c : Component | some (Robot <: position).(c.","position) & Robot","{}","    all c : Component | some (Robot <: position).(c.^parts",,,,,,3.98675
+production-line-v1,completion/production-line-v1-complete.als,36,52,"all c : Component | some (Robot <: position).(c.","position) & Robot","{}","    all c : Component | some (Robot <: position).(c.*parts",,,,,,3.98675
+production-line-v1,completion/production-line-v1-complete.als,36,52,"all c : Component | some (Robot <: position).(c.","position) & Robot","{}","    all c : Component | some (Robot <: position).(c.iden",,,,,,3.98675
+production-line-v1,completion/production-line-v1-complete.als,36,52,"all c : Component | some (Robot <: position).(c.","position) & Robot","{}","    all c : Component | some (Robot <: position).(c.none",,,,,,3.98675
+production-line-v1,completion/production-line-v1-complete.als,36,52,"all c : Component | some (Robot <: position).(c.","position) & Robot","{}","    all c : Component | some (Robot <: position).(c.univ",,,,,,3.98675

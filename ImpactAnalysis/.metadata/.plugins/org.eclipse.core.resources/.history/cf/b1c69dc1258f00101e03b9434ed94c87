@@ -1,0 +1,7 @@
+modelname,filename,position-line,position-character,incompleteline,removedtext,baseline,suggestionedExpression,A_iff_B,A_and_B,not_A_and_B,A_and_not_B,not_A_and_not_B,suggestionImpactTime
+fsm,completion/fsm.als,34,10,"no (FSM.","stop).transition","{}","  no (FSM.start",,,,,,3.069
+fsm,completion/fsm.als,34,10,"no (FSM.","stop).transition","{}","  no (FSM.stop",,,,,,3.069
+fsm,completion/fsm.als,34,10,"no (FSM.","stop).transition","{}","  no (FSM.*transition",,,,,,3.069
+fsm,completion/fsm.als,34,10,"no (FSM.","stop).transition","{}","  no (FSM.iden",,,,,,3.069
+fsm,completion/fsm.als,34,10,"no (FSM.","stop).transition","{}","  no (FSM.none",,,,,,3.069
+fsm,completion/fsm.als,34,10,"no (FSM.","stop).transition","{}","  no (FSM.univ",,,,,,3.069

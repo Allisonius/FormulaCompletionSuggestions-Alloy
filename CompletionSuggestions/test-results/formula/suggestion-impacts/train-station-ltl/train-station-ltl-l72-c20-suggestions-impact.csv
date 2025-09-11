@@ -1,0 +1,46 @@
+modelname,filename,position-line,position-character,incompleteline,removedtext,baseline,suggestionedExpression,A_iff_B,A_and_B,not_A_and_B,A_and_not_B,not_A_and_not_B,suggestionImpactTime
+train-station-ltl,completion/train-station-ltl-complete.als,72,20,"always pos.~pos in","iden","{}","\talways pos.~pos in *prox.pos",true,true,false,true,false,358.167291
+train-station-ltl,completion/train-station-ltl-complete.als,72,20,"always pos.~pos in","iden","{}","\talways pos.~pos in *prox.pos'",true,true,false,true,false,358.167291
+train-station-ltl,completion/train-station-ltl-complete.als,72,20,"always pos.~pos in","iden","{}","\talways pos.~pos in *prox.pos'.*prox",true,true,false,true,false,358.167291
+train-station-ltl,completion/train-station-ltl-complete.als,72,20,"always pos.~pos in","iden","{}","\talways pos.~pos in *prox.pos'.^prox",true,true,false,true,false,358.167291
+train-station-ltl,completion/train-station-ltl-complete.als,72,20,"always pos.~pos in","iden","{}","\talways pos.~pos in *prox.pos'.prox",true,true,false,true,false,358.167291
+train-station-ltl,completion/train-station-ltl-complete.als,72,20,"always pos.~pos in","iden","{}","\talways pos.~pos in *prox.pos'.~prox",true,true,false,true,false,358.167291
+train-station-ltl,completion/train-station-ltl-complete.als,72,20,"always pos.~pos in","iden","{}","\talways pos.~pos in *prox.pos.*prox",true,true,false,true,false,358.167291
+train-station-ltl,completion/train-station-ltl-complete.als,72,20,"always pos.~pos in","iden","{}","\talways pos.~pos in *prox.pos.^prox",true,true,false,true,false,358.167291
+train-station-ltl,completion/train-station-ltl-complete.als,72,20,"always pos.~pos in","iden","{}","\talways pos.~pos in *prox.pos.prox",true,true,false,true,false,358.167291
+train-station-ltl,completion/train-station-ltl-complete.als,72,20,"always pos.~pos in","iden","{}","\talways pos.~pos in *prox.pos.~prox",true,true,false,true,false,358.167291
+train-station-ltl,completion/train-station-ltl-complete.als,72,20,"always pos.~pos in","iden","{}","\talways pos.~pos in *prox.signal.*prox",true,true,false,true,false,358.167291
+train-station-ltl,completion/train-station-ltl-complete.als,72,20,"always pos.~pos in","iden","{}","\talways pos.~pos in *prox.~pos.pos'",true,true,false,true,false,358.167291
+train-station-ltl,completion/train-station-ltl-complete.als,72,20,"always pos.~pos in","iden","{}","\talways pos.~pos in *prox.~signal.prox",true,true,false,true,false,358.167291
+train-station-ltl,completion/train-station-ltl-complete.als,72,20,"always pos.~pos in","iden","{}","\talways pos.~pos in Train -> Entry",true,true,false,true,false,358.167291
+train-station-ltl,completion/train-station-ltl-complete.als,72,20,"always pos.~pos in","iden","{}","\talways pos.~pos in Train -> Exit",true,true,false,true,false,358.167291
+train-station-ltl,completion/train-station-ltl-complete.als,72,20,"always pos.~pos in","iden","{}","\talways pos.~pos in Train -> Track",true,true,false,true,false,358.167291
+train-station-ltl,completion/train-station-ltl-complete.als,72,20,"always pos.~pos in","iden","{}","\talways pos.~pos in pos",true,true,false,true,false,358.167291
+train-station-ltl,completion/train-station-ltl-complete.als,72,20,"always pos.~pos in","iden","{}","\talways pos.~pos in pos'",true,true,false,true,false,358.167291
+train-station-ltl,completion/train-station-ltl-complete.als,72,20,"always pos.~pos in","iden","{}","\talways pos.~pos in pos'.*prox",true,true,false,true,false,358.167291
+train-station-ltl,completion/train-station-ltl-complete.als,72,20,"always pos.~pos in","iden","{}","\talways pos.~pos in pos'.*prox.pos",true,true,false,true,false,358.167291
+train-station-ltl,completion/train-station-ltl-complete.als,72,20,"always pos.~pos in","iden","{}","\talways pos.~pos in pos'.*prox.pos'",true,true,false,true,false,358.167291
+train-station-ltl,completion/train-station-ltl-complete.als,72,20,"always pos.~pos in","iden","{}","\talways pos.~pos in pos'.*prox.~signal",true,true,false,true,false,358.167291
+train-station-ltl,completion/train-station-ltl-complete.als,72,20,"always pos.~pos in","iden","{}","\talways pos.~pos in pos'.^prox",true,true,false,true,false,358.167291
+train-station-ltl,completion/train-station-ltl-complete.als,72,20,"always pos.~pos in","iden","{}","\talways pos.~pos in pos'.prox",true,true,false,true,false,358.167291
+train-station-ltl,completion/train-station-ltl-complete.als,72,20,"always pos.~pos in","iden","{}","\talways pos.~pos in pos'.signal.*prox",true,true,false,true,false,358.167291
+train-station-ltl,completion/train-station-ltl-complete.als,72,20,"always pos.~pos in","iden","{}","\talways pos.~pos in pos'.~pos.*prox",true,true,false,true,false,358.167291
+train-station-ltl,completion/train-station-ltl-complete.als,72,20,"always pos.~pos in","iden","{}","\talways pos.~pos in pos'.~pos.pos'",true,true,false,true,false,358.167291
+train-station-ltl,completion/train-station-ltl-complete.als,72,20,"always pos.~pos in","iden","{}","\talways pos.~pos in pos'.~prox",true,true,false,true,false,358.167291
+train-station-ltl,completion/train-station-ltl-complete.als,72,20,"always pos.~pos in","iden","{}","\talways pos.~pos in pos.*prox",true,true,false,true,false,358.167291
+train-station-ltl,completion/train-station-ltl-complete.als,72,20,"always pos.~pos in","iden","{}","\talways pos.~pos in pos.*prox.pos",true,true,false,true,false,358.167291
+train-station-ltl,completion/train-station-ltl-complete.als,72,20,"always pos.~pos in","iden","{}","\talways pos.~pos in pos.*prox.pos'",true,true,false,true,false,358.167291
+train-station-ltl,completion/train-station-ltl-complete.als,72,20,"always pos.~pos in","iden","{}","\talways pos.~pos in pos.*prox.~signal",true,true,false,true,false,358.167291
+train-station-ltl,completion/train-station-ltl-complete.als,72,20,"always pos.~pos in","iden","{}","\talways pos.~pos in pos.^prox",true,true,false,true,false,358.167291
+train-station-ltl,completion/train-station-ltl-complete.als,72,20,"always pos.~pos in","iden","{}","\talways pos.~pos in pos.prox",true,true,false,true,false,358.167291
+train-station-ltl,completion/train-station-ltl-complete.als,72,20,"always pos.~pos in","iden","{}","\talways pos.~pos in pos.signal.*prox",true,true,false,true,false,358.167291
+train-station-ltl,completion/train-station-ltl-complete.als,72,20,"always pos.~pos in","iden","{}","\talways pos.~pos in pos.~prox",true,true,false,true,false,358.167291
+train-station-ltl,completion/train-station-ltl-complete.als,72,20,"always pos.~pos in","iden","{}","\talways pos.~pos in *prox.~pos.*prox",true,true,false,true,false,358.167291
+train-station-ltl,completion/train-station-ltl-complete.als,72,20,"always pos.~pos in","iden","{}","\talways pos.~pos in *prox.~signal",true,true,false,true,false,358.167291
+train-station-ltl,completion/train-station-ltl-complete.als,72,20,"always pos.~pos in","iden","{}","\talways pos.~pos in *prox.~signal.*prox",true,true,false,true,false,358.167291
+train-station-ltl,completion/train-station-ltl-complete.als,72,20,"always pos.~pos in","iden","{}","\talways pos.~pos in *prox.~signal.^prox",true,true,false,true,false,358.167291
+train-station-ltl,completion/train-station-ltl-complete.als,72,20,"always pos.~pos in","iden","{}","\talways pos.~pos in *prox.~signal.~prox",true,true,false,true,false,358.167291
+train-station-ltl,completion/train-station-ltl-complete.als,72,20,"always pos.~pos in","iden","{}","\talways pos.~pos in *prox",true,true,false,true,false,358.167291
+train-station-ltl,completion/train-station-ltl-complete.als,72,20,"always pos.~pos in","iden","{}","\talways pos.~pos in iden",true,true,false,true,false,358.167291
+train-station-ltl,completion/train-station-ltl-complete.als,72,20,"always pos.~pos in","iden","{}","\talways pos.~pos in none",,,,,,358.167291
+train-station-ltl,completion/train-station-ltl-complete.als,72,20,"always pos.~pos in","iden","{}","\talways pos.~pos in univ",,,,,,358.167291

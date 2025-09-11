@@ -1,0 +1,59 @@
+Model name: fsm
+Filename: completion/fsm.als
+Offset: 829
+Term: .
+Vscode Position: line=44 character=31
+----------------------------------
+45 |   all n: State | FSM.stop in n.
+----------------------------------
+Completion List:
+# Suggestion 	 Exact 	 Syntactic 	 Semantic
+$1. *transition.n 	 false 	 undefined 	 undefined
+$2. ^transition.n 	 false 	 undefined 	 undefined
+$3. transition.n 	 false 	 undefined 	 undefined
+$4. ~transition.n 	 false 	 undefined 	 undefined
+$5. *transition.State 	 false 	 undefined 	 undefined
+$6. ^transition.State 	 false 	 undefined 	 undefined
+$7. transition.State 	 false 	 undefined 	 undefined
+$8. ~start.FSM 	 false 	 undefined 	 undefined
+$9. ~stop.FSM 	 false 	 undefined 	 undefined
+$10. ~transition.State 	 false 	 undefined 	 undefined
+$11. transition 	 true 	 undefined 	 undefined
+$12. transition.univ 	 false 	 undefined 	 undefined
+$13. transition.~start 	 false 	 undefined 	 undefined
+$14. transition.~stop 	 false 	 undefined 	 undefined
+$15. ~start.stop 	 false 	 undefined 	 undefined
+$16. ~stop.start 	 false 	 undefined 	 undefined
+$17. *transition.~start 	 false 	 undefined 	 undefined
+$18. *transition.~stop 	 false 	 undefined 	 undefined
+$19. ^transition.~start 	 false 	 undefined 	 undefined
+$20. ^transition.~stop 	 false 	 undefined 	 undefined
+$21. ~start 	 false 	 undefined 	 undefined
+$22. ~start.univ 	 false 	 undefined 	 undefined
+$23. ~stop 	 false 	 undefined 	 undefined
+$24. ~stop.univ 	 false 	 undefined 	 undefined
+$25. ~transition 	 false 	 undefined 	 undefined
+$26. ~transition.univ 	 false 	 undefined 	 undefined
+$27. ~transition.~start 	 false 	 undefined 	 undefined
+$28. ~transition.~stop 	 false 	 undefined 	 undefined
+$29. ^transition 	 false 	 undefined 	 undefined
+$30. ^transition.univ 	 false 	 undefined 	 undefined
+$31. *transition 	 false 	 undefined 	 undefined
+$32. *transition.univ 	 false 	 undefined 	 undefined
+Expected Completion word: *transition
+Expected Completion line: *transition 
+Suggestion exists: true
+
+Suggestion in top 1 = false 
+Suggestion in top 5 = false 
+Suggestion in top 10 = false 
+
+Suggestion in top 1 (Alpha) = true
+Suggestion in top 5 (Alpha) = true
+Suggestion in top 10 (Alpha) = true
+
+Suggestion in top 1 (Len) = false
+Suggestion in top 5 (Len) = false
+Suggestion in top 10 (Len) = false
+
+Time taken: 7.027834

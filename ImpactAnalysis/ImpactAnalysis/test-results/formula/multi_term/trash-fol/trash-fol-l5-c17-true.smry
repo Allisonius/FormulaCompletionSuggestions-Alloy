@@ -1,0 +1,33 @@
+Model name: trash-fol
+Filename: completion/trash-fol-sig.als
+Offset: 68
+Term:  in 
+Vscode Position: line=4 character=17
+----------------------------------
+5 | sig Protected in 
+----------------------------------
+Completion List:
+# Suggestion 	 Exact 	 Syntactic 	 Semantic
+$1. File 	 true 	 true 	 true
+$2. Trash 	 false 	 false 	 false
+$3. Int 	 false 	 false 	 false
+$4. String 	 false 	 false 	 false
+$5. none 	 false 	 false 	 false
+$6. univ 	 false 	 false 	 false
+Expected Completion word: File
+Expected Completion line: File {}
+Suggestion exists: true
+
+Suggestion in top 1 = true 
+Suggestion in top 5 = true 
+Suggestion in top 10 = true 
+
+Suggestion in top 1 (Alpha) = true
+Suggestion in top 5 (Alpha) = true
+Suggestion in top 10 (Alpha) = true
+
+Suggestion in top 1 (Len) = false
+Suggestion in top 5 (Len) = true
+Suggestion in top 10 (Len) = true
+
+Time taken: 8.678459

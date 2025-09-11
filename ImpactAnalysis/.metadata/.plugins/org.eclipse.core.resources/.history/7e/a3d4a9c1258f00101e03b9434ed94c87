@@ -1,0 +1,11 @@
+modelname,filename,position-line,position-character,incompleteline,removedtext,baseline,suggestionedExpression,A_iff_B,A_and_B,not_A_and_B,A_and_not_B,not_A_and_not_B,suggestionImpactTime
+production-line-v3,completion/production-line-v3-complete.als,45,29,"all w : Workstation  | no w.","workers & Robot or no w.workers & Human","{}","\tall w : Workstation  | no w.succ",true,true,false,true,false,20.969416
+production-line-v3,completion/production-line-v3-complete.als,45,29,"all w : Workstation  | no w.","workers & Robot or no w.workers & Human","{}","\tall w : Workstation  | no w.workers",true,true,false,true,false,20.969416
+production-line-v3,completion/production-line-v3-complete.als,45,29,"all w : Workstation  | no w.","workers & Robot or no w.workers & Human","{}","\tall w : Workstation  | no w.~succ",true,true,false,true,false,20.969416
+production-line-v3,completion/production-line-v3-complete.als,45,29,"all w : Workstation  | no w.","workers & Robot or no w.workers & Human","{}","\tall w : Workstation  | no w.~workstation",true,true,false,true,false,20.969416
+production-line-v3,completion/production-line-v3-complete.als,45,29,"all w : Workstation  | no w.","workers & Robot or no w.workers & Human","{}","\tall w : Workstation  | no w.^succ",true,true,false,true,false,20.969416
+production-line-v3,completion/production-line-v3-complete.als,45,29,"all w : Workstation  | no w.","workers & Robot or no w.workers & Human","{}","\tall w : Workstation  | no w.*parts",false,false,false,true,false,20.969416
+production-line-v3,completion/production-line-v3-complete.als,45,29,"all w : Workstation  | no w.","workers & Robot or no w.workers & Human","{}","\tall w : Workstation  | no w.*succ",false,false,false,true,false,20.969416
+production-line-v3,completion/production-line-v3-complete.als,45,29,"all w : Workstation  | no w.","workers & Robot or no w.workers & Human","{}","\tall w : Workstation  | no w.iden",false,false,false,true,false,20.969416
+production-line-v3,completion/production-line-v3-complete.als,45,29,"all w : Workstation  | no w.","workers & Robot or no w.workers & Human","{}","\tall w : Workstation  | no w.none",,,,,,20.969416
+production-line-v3,completion/production-line-v3-complete.als,45,29,"all w : Workstation  | no w.","workers & Robot or no w.workers & Human","{}","\tall w : Workstation  | no w.univ",,,,,,20.969416

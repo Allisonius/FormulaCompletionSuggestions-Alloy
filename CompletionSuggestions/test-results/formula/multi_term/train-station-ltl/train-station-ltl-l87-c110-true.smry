@@ -1,0 +1,52 @@
+Model name: train-station-ltl
+Filename: completion/train-station-ltl-complete.als
+Offset: 1908
+Term: .
+Vscode Position: line=86 character=110
+----------------------------------
+87 | 	all t : Train, p : Track | always (t.pos = p and p.signal not in Green implies (p.signal in Green releases t.
+----------------------------------
+Completion List:
+# Suggestion 	 Exact 	 Syntactic 	 Semantic
+$1. pos'.p 	 false 	 undefined 	 undefined
+$2. pos.p 	 false 	 undefined 	 undefined
+$3. pos'.Entry 	 false 	 undefined 	 undefined
+$4. pos'.Exit 	 false 	 undefined 	 undefined
+$5. pos'.Junction 	 false 	 undefined 	 undefined
+$6. pos'.Track 	 false 	 undefined 	 undefined
+$7. pos.Entry 	 false 	 undefined 	 undefined
+$8. pos.Exit 	 false 	 undefined 	 undefined
+$9. pos.Junction 	 false 	 undefined 	 undefined
+$10. pos.Track 	 false 	 undefined 	 undefined
+$11. pos 	 true 	 undefined 	 undefined
+$12. pos' 	 false 	 undefined 	 undefined
+$13. pos'.*prox 	 false 	 undefined 	 undefined
+$14. pos'.^prox 	 false 	 undefined 	 undefined
+$15. pos'.prox 	 false 	 undefined 	 undefined
+$16. pos'.signal 	 false 	 undefined 	 undefined
+$17. pos'.univ 	 false 	 undefined 	 undefined
+$18. pos'.~pos 	 false 	 undefined 	 undefined
+$19. pos'.~prox 	 false 	 undefined 	 undefined
+$20. pos.*prox 	 false 	 undefined 	 undefined
+$21. pos.^prox 	 false 	 undefined 	 undefined
+$22. pos.prox 	 false 	 undefined 	 undefined
+$23. pos.signal 	 false 	 undefined 	 undefined
+$24. pos.univ 	 false 	 undefined 	 undefined
+$25. pos.~prox 	 false 	 undefined 	 undefined
+Expected Completion word: pos
+Expected Completion line: pos = p))
+Suggestion exists: true
+
+Suggestion in top 1 = false 
+Suggestion in top 5 = false 
+Suggestion in top 10 = false 
+
+Suggestion in top 1 (Alpha) = true
+Suggestion in top 5 (Alpha) = true
+Suggestion in top 10 (Alpha) = true
+
+Suggestion in top 1 (Len) = true
+Suggestion in top 5 (Len) = true
+Suggestion in top 10 (Len) = true
+
+Time taken: 13.736584

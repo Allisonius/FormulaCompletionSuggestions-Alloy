@@ -1,0 +1,43 @@
+Model name: fsm
+Filename: completion/fsm.als
+Offset: 382
+Term: .
+Vscode Position: line=23 character=21
+----------------------------------
+24 |   no FSM.start & FSM.
+----------------------------------
+Completion List:
+# Suggestion 	 Exact 	 Syntactic 	 Semantic
+$1. start.State 	 false 	 false 	 false
+$2. stop.State 	 false 	 false 	 false
+$3. start 	 false 	 false 	 false
+$4. start.*transition 	 false 	 false 	 false
+$5. start.^transition 	 false 	 false 	 false
+$6. start.transition 	 false 	 false 	 false
+$7. start.univ 	 false 	 false 	 false
+$8. start.~stop 	 false 	 false 	 false
+$9. start.~transition 	 false 	 false 	 false
+$10. stop 	 true 	 true 	 true
+$11. stop.*transition 	 false 	 false 	 false
+$12. stop.^transition 	 false 	 false 	 false
+$13. stop.transition 	 false 	 false 	 false
+$14. stop.univ 	 false 	 false 	 false
+$15. stop.~start 	 false 	 false 	 false
+$16. stop.~transition 	 false 	 false 	 false
+Expected Completion word: stop
+Expected Completion line: stop
+Suggestion exists: true
+
+Suggestion in top 1 = false 
+Suggestion in top 5 = false 
+Suggestion in top 10 = true 
+
+Suggestion in top 1 (Alpha) = false
+Suggestion in top 5 (Alpha) = false
+Suggestion in top 10 (Alpha) = true
+
+Suggestion in top 1 (Len) = true
+Suggestion in top 5 (Len) = true
+Suggestion in top 10 (Len) = true
+
+Time taken: 7.172583

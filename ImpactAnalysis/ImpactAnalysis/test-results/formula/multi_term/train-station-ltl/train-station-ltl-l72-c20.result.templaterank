@@ -1,0 +1,10 @@
+Train -> Train
+pos'.~pos
+pos.prox.~pos
+pos'.prox.~pos
+pos.~prox.~pos
+pos'.~prox.~pos
+pos.^prox.~pos
+pos'.^prox.~pos
+pos.*prox.~pos
+pos'.*prox.~pos

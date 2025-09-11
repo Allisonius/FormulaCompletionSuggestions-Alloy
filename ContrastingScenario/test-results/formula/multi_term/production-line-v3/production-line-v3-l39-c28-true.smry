@@ -1,0 +1,65 @@
+Model name: production-line-v3
+Filename: completion/production-line-v3-complete.als
+Offset: 842
+Term: .
+Vscode Position: line=38 character=28
+----------------------------------
+39 | 	all c : Component | some c.
+----------------------------------
+Completion List:
+# Suggestion 	 Exact 	 Syntactic 	 Semantic
+$1. *parts.c 	 false 	 undefined 	 undefined
+$2. ^parts.c 	 false 	 undefined 	 undefined
+$3. parts.c 	 false 	 undefined 	 undefined
+$4. ~parts.c 	 false 	 undefined 	 undefined
+$5. *parts.Component 	 false 	 false 	 false
+$6. *parts.Dangerous 	 false 	 false 	 false
+$7. *parts.Material 	 false 	 false 	 false
+$8. *parts.Product 	 false 	 false 	 false
+$9. ^parts.Component 	 false 	 false 	 false
+$10. ^parts.Dangerous 	 false 	 false 	 false
+$11. ^parts.Material 	 false 	 false 	 false
+$12. ^parts.Product 	 false 	 false 	 false
+$13. parts.Component 	 false 	 false 	 false
+$14. parts.Dangerous 	 false 	 false 	 false
+$15. parts.Material 	 false 	 false 	 false
+$16. parts.Product 	 false 	 false 	 false
+$17. workstation.Workstation 	 false 	 false 	 false
+$18. workstation.begin 	 false 	 false 	 false
+$19. workstation.end 	 false 	 false 	 false
+$20. ~parts.Component 	 false 	 false 	 false
+$21. ~parts.Dangerous 	 false 	 false 	 false
+$22. ~parts.Material 	 false 	 false 	 false
+$23. ~parts.Product 	 false 	 false 	 false
+$24. parts 	 true 	 true 	 true
+$25. parts.univ 	 false 	 false 	 false
+$26. workstation 	 false 	 false 	 false
+$27. workstation.*succ 	 false 	 false 	 false
+$28. workstation.^succ 	 false 	 false 	 false
+$29. workstation.succ 	 false 	 false 	 false
+$30. workstation.univ 	 false 	 false 	 false
+$31. workstation.workers 	 false 	 false 	 false
+$32. workstation.~succ 	 false 	 false 	 false
+$33. ~parts 	 false 	 false 	 false
+$34. ~parts.univ 	 false 	 false 	 false
+$35. ^parts 	 false 	 false 	 false
+$36. ^parts.univ 	 false 	 false 	 false
+$37. *parts 	 false 	 false 	 false
+$38. *parts.univ 	 false 	 false 	 false
+Expected Completion word: parts
+Expected Completion line: parts
+Suggestion exists: true
+
+Suggestion in top 1 = false 
+Suggestion in top 5 = false 
+Suggestion in top 10 = false 
+
+Suggestion in top 1 (Alpha) = false
+Suggestion in top 5 (Alpha) = false
+Suggestion in top 10 (Alpha) = false
+
+Suggestion in top 1 (Len) = true
+Suggestion in top 5 (Len) = true
+Suggestion in top 10 (Len) = true
+
+Time taken: 9.784167

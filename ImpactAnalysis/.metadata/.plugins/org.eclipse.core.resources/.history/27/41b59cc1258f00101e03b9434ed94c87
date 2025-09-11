@@ -1,0 +1,14 @@
+modelname,filename,position-line,position-character,incompleteline,removedtext,baseline,suggestionedExpression,A_iff_B,A_and_B,not_A_and_B,A_and_not_B,not_A_and_not_B,suggestionImpactTime
+dll,completion/dll.als,25,38,"no disj n1, n2: Node | n1.elem = n2.","elem","{}","  no disj n1, n2: Node | n1.elem = n2.elem",true,true,false,true,false,20.211167
+dll,completion/dll.als,25,38,"no disj n1, n2: Node | n1.elem = n2.","elem","{}","  no disj n1, n2: Node | n1.elem = n2.nxt",true,true,false,false,false,20.211167
+dll,completion/dll.als,25,38,"no disj n1, n2: Node | n1.elem = n2.","elem","{}","  no disj n1, n2: Node | n1.elem = n2.pre",true,true,false,false,false,20.211167
+dll,completion/dll.als,25,38,"no disj n1, n2: Node | n1.elem = n2.","elem","{}","  no disj n1, n2: Node | n1.elem = n2.~header",true,true,false,false,false,20.211167
+dll,completion/dll.als,25,38,"no disj n1, n2: Node | n1.elem = n2.","elem","{}","  no disj n1, n2: Node | n1.elem = n2.~nxt",true,true,false,false,false,20.211167
+dll,completion/dll.als,25,38,"no disj n1, n2: Node | n1.elem = n2.","elem","{}","  no disj n1, n2: Node | n1.elem = n2.~pre",true,true,false,false,false,20.211167
+dll,completion/dll.als,25,38,"no disj n1, n2: Node | n1.elem = n2.","elem","{}","  no disj n1, n2: Node | n1.elem = n2.^nxt",true,true,false,false,false,20.211167
+dll,completion/dll.als,25,38,"no disj n1, n2: Node | n1.elem = n2.","elem","{}","  no disj n1, n2: Node | n1.elem = n2.^pre",true,true,false,false,false,20.211167
+dll,completion/dll.als,25,38,"no disj n1, n2: Node | n1.elem = n2.","elem","{}","  no disj n1, n2: Node | n1.elem = n2.*nxt",true,true,false,false,false,20.211167
+dll,completion/dll.als,25,38,"no disj n1, n2: Node | n1.elem = n2.","elem","{}","  no disj n1, n2: Node | n1.elem = n2.*pre",true,true,false,false,false,20.211167
+dll,completion/dll.als,25,38,"no disj n1, n2: Node | n1.elem = n2.","elem","{}","  no disj n1, n2: Node | n1.elem = n2.iden",true,true,false,false,false,20.211167
+dll,completion/dll.als,25,38,"no disj n1, n2: Node | n1.elem = n2.","elem","{}","  no disj n1, n2: Node | n1.elem = n2.none",,,,,,20.211167
+dll,completion/dll.als,25,38,"no disj n1, n2: Node | n1.elem = n2.","elem","{}","  no disj n1, n2: Node | n1.elem = n2.univ",,,,,,20.211167

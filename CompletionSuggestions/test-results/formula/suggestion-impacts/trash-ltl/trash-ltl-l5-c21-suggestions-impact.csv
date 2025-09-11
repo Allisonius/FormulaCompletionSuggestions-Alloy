@@ -1,0 +1,9 @@
+modelname,filename,position-line,position-character,incompleteline,removedtext,baseline,suggestionedExpression,A_iff_B,A_and_B,not_A_and_B,A_and_not_B,not_A_and_not_B,suggestionImpactTime
+trash-ltl,completion/trash-ltl-sig.als,5,21,"var sig Protected in","File {}","{}","var sig Protected in File",,,,,,2.497375
+trash-ltl,completion/trash-ltl-sig.als,5,21,"var sig Protected in","File {}","{}","var sig Protected in Trash",,,,,,2.497375
+trash-ltl,completion/trash-ltl-sig.als,5,21,"var sig Protected in","File {}","{}","var sig Protected in Int",,,,,,2.497375
+trash-ltl,completion/trash-ltl-sig.als,5,21,"var sig Protected in","File {}","{}","var sig Protected in String",,,,,,2.497375
+trash-ltl,completion/trash-ltl-sig.als,5,21,"var sig Protected in","File {}","{}","var sig Protected in seq/Int",,,,,,2.497375
+trash-ltl,completion/trash-ltl-sig.als,5,21,"var sig Protected in","File {}","{}","var sig Protected in iden",,,,,,2.497375
+trash-ltl,completion/trash-ltl-sig.als,5,21,"var sig Protected in","File {}","{}","var sig Protected in none",,,,,,2.497375
+trash-ltl,completion/trash-ltl-sig.als,5,21,"var sig Protected in","File {}","{}","var sig Protected in univ",,,,,,2.497375

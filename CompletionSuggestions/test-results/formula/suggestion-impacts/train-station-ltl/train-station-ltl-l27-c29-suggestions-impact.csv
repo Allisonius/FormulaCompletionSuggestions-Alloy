@@ -1,0 +1,9 @@
+modelname,filename,position-line,position-character,incompleteline,removedtext,baseline,suggestionedExpression,A_iff_B,A_and_B,not_A_and_B,A_and_not_B,not_A_and_not_B,suggestionImpactTime
+train-station-ltl,completion/train-station-ltl-complete.als,27,29,"all s : Signal | one signal.","s","{}","\tall s : Signal | one signal.s",true,true,false,true,false,58.305709
+train-station-ltl,completion/train-station-ltl-complete.als,27,29,"all s : Signal | one signal.","s","{}","\tall s : Signal | one signal.Green",true,true,false,true,false,58.305709
+train-station-ltl,completion/train-station-ltl-complete.als,27,29,"all s : Signal | one signal.","s","{}","\tall s : Signal | one signal.Green'",true,true,false,true,false,58.305709
+train-station-ltl,completion/train-station-ltl-complete.als,27,29,"all s : Signal | one signal.","s","{}","\tall s : Signal | one signal.Signal",true,true,false,true,false,58.305709
+train-station-ltl,completion/train-station-ltl-complete.als,27,29,"all s : Signal | one signal.","s","{}","\tall s : Signal | one signal.*prox",true,true,false,true,false,58.305709
+train-station-ltl,completion/train-station-ltl-complete.als,27,29,"all s : Signal | one signal.","s","{}","\tall s : Signal | one signal.iden",true,true,false,true,false,58.305709
+train-station-ltl,completion/train-station-ltl-complete.als,27,29,"all s : Signal | one signal.","s","{}","\tall s : Signal | one signal.none",true,true,false,true,false,58.305709
+train-station-ltl,completion/train-station-ltl-complete.als,27,29,"all s : Signal | one signal.","s","{}","\tall s : Signal | one signal.univ",true,true,false,true,false,58.305709

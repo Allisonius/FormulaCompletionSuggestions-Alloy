@@ -1,0 +1,229 @@
+Model name: social-media
+Filename: completion/socialMedia.als
+Offset: 516
+Term:  in 
+Vscode Position: line=36 character=31
+----------------------------------
+37 | 	all i:Influencer, d:Day| d in 
+----------------------------------
+Completion List:
+# Suggestion 	 Exact 	 Syntactic 	 Semantic
+$1. d 	 false 	 undefined 	 undefined
+$2. date.d.~date 	 false 	 undefined 	 undefined
+$3. i 	 false 	 undefined 	 undefined
+$4. i.posts.date 	 true 	 undefined 	 undefined
+$5. i.sees.date 	 false 	 undefined 	 undefined
+$6. ~date.~posts.i 	 false 	 undefined 	 undefined
+$7. ~date.~sees.i 	 false 	 undefined 	 undefined
+$8. ~posts.i.*follows 	 false 	 undefined 	 undefined
+$9. ~posts.i.*suggested 	 false 	 undefined 	 undefined
+$10. ~posts.i.^follows 	 false 	 undefined 	 undefined
+$11. ~posts.i.^suggested 	 false 	 undefined 	 undefined
+$12. ~posts.i.follows 	 false 	 undefined 	 undefined
+$13. ~posts.i.posts 	 false 	 undefined 	 undefined
+$14. ~posts.i.sees 	 false 	 undefined 	 undefined
+$15. ~posts.i.suggested 	 false 	 undefined 	 undefined
+$16. ~posts.i.~follows 	 false 	 undefined 	 undefined
+$17. ~posts.i.~suggested 	 false 	 undefined 	 undefined
+$18. ~sees.i.*follows 	 false 	 undefined 	 undefined
+$19. ~sees.i.*suggested 	 false 	 undefined 	 undefined
+$20. ~sees.i.^follows 	 false 	 undefined 	 undefined
+$21. ~sees.i.^suggested 	 false 	 undefined 	 undefined
+$22. ~sees.i.follows 	 false 	 undefined 	 undefined
+$23. ~sees.i.posts 	 false 	 undefined 	 undefined
+$24. ~sees.i.sees 	 false 	 undefined 	 undefined
+$25. ~sees.i.suggested 	 false 	 undefined 	 undefined
+$26. ~sees.i.~follows 	 false 	 undefined 	 undefined
+$27. ~sees.i.~suggested 	 false 	 undefined 	 undefined
+$28. Ad 	 false 	 undefined 	 undefined
+$29. Ad.date 	 false 	 undefined 	 undefined
+$30. Day 	 false 	 undefined 	 undefined
+$31. Influencer 	 false 	 undefined 	 undefined
+$32. Influencer.posts.date 	 false 	 undefined 	 undefined
+$33. Influencer.sees.date 	 false 	 undefined 	 undefined
+$34. Photo 	 false 	 undefined 	 undefined
+$35. Photo.date 	 false 	 undefined 	 undefined
+$36. User 	 false 	 undefined 	 undefined
+$37. User.posts.date 	 false 	 undefined 	 undefined
+$38. User.sees.date 	 false 	 undefined 	 undefined
+$39. date.Day.~date 	 false 	 undefined 	 undefined
+$40. posts.Ad.date 	 false 	 undefined 	 undefined
+$41. posts.Ad.~posts 	 false 	 undefined 	 undefined
+$42. posts.Ad.~sees 	 false 	 undefined 	 undefined
+$43. posts.Photo.date 	 false 	 undefined 	 undefined
+$44. posts.Photo.~posts 	 false 	 undefined 	 undefined
+$45. posts.Photo.~sees 	 false 	 undefined 	 undefined
+$46. sees.Ad.date 	 false 	 undefined 	 undefined
+$47. sees.Ad.~posts 	 false 	 undefined 	 undefined
+$48. sees.Ad.~sees 	 false 	 undefined 	 undefined
+$49. sees.Photo.date 	 false 	 undefined 	 undefined
+$50. sees.Photo.~posts 	 false 	 undefined 	 undefined
+$51. sees.Photo.~sees 	 false 	 undefined 	 undefined
+$52. ~date.Ad 	 false 	 undefined 	 undefined
+$53. ~date.Ad.date 	 false 	 undefined 	 undefined
+$54. ~date.Ad.~posts 	 false 	 undefined 	 undefined
+$55. ~date.Ad.~sees 	 false 	 undefined 	 undefined
+$56. ~date.Photo 	 false 	 undefined 	 undefined
+$57. ~date.Photo.date 	 false 	 undefined 	 undefined
+$58. ~date.Photo.~posts 	 false 	 undefined 	 undefined
+$59. ~date.Photo.~sees 	 false 	 undefined 	 undefined
+$60. ~date.~posts.Influencer 	 false 	 undefined 	 undefined
+$61. ~date.~posts.User 	 false 	 undefined 	 undefined
+$62. ~date.~sees.Influencer 	 false 	 undefined 	 undefined
+$63. ~date.~sees.User 	 false 	 undefined 	 undefined
+$64. ~posts.Influencer.*follows 	 false 	 undefined 	 undefined
+$65. ~posts.Influencer.*suggested 	 false 	 undefined 	 undefined
+$66. ~posts.Influencer.^follows 	 false 	 undefined 	 undefined
+$67. ~posts.Influencer.^suggested 	 false 	 undefined 	 undefined
+$68. ~posts.Influencer.follows 	 false 	 undefined 	 undefined
+$69. ~posts.Influencer.posts 	 false 	 undefined 	 undefined
+$70. ~posts.Influencer.sees 	 false 	 undefined 	 undefined
+$71. ~posts.Influencer.suggested 	 false 	 undefined 	 undefined
+$72. ~posts.Influencer.~follows 	 false 	 undefined 	 undefined
+$73. ~posts.Influencer.~suggested 	 false 	 undefined 	 undefined
+$74. ~posts.User.*follows 	 false 	 undefined 	 undefined
+$75. ~posts.User.*suggested 	 false 	 undefined 	 undefined
+$76. ~posts.User.^follows 	 false 	 undefined 	 undefined
+$77. ~posts.User.^suggested 	 false 	 undefined 	 undefined
+$78. ~posts.User.follows 	 false 	 undefined 	 undefined
+$79. ~posts.User.posts 	 false 	 undefined 	 undefined
+$80. ~posts.User.sees 	 false 	 undefined 	 undefined
+$81. ~posts.User.suggested 	 false 	 undefined 	 undefined
+$82. ~posts.User.~follows 	 false 	 undefined 	 undefined
+$83. ~posts.User.~suggested 	 false 	 undefined 	 undefined
+$84. ~sees.Influencer.*follows 	 false 	 undefined 	 undefined
+$85. ~sees.Influencer.*suggested 	 false 	 undefined 	 undefined
+$86. ~sees.Influencer.^follows 	 false 	 undefined 	 undefined
+$87. ~sees.Influencer.^suggested 	 false 	 undefined 	 undefined
+$88. ~sees.Influencer.follows 	 false 	 undefined 	 undefined
+$89. ~sees.Influencer.posts 	 false 	 undefined 	 undefined
+$90. ~sees.Influencer.sees 	 false 	 undefined 	 undefined
+$91. ~sees.Influencer.suggested 	 false 	 undefined 	 undefined
+$92. ~sees.Influencer.~follows 	 false 	 undefined 	 undefined
+$93. ~sees.Influencer.~suggested 	 false 	 undefined 	 undefined
+$94. ~sees.User.*follows 	 false 	 undefined 	 undefined
+$95. ~sees.User.*suggested 	 false 	 undefined 	 undefined
+$96. ~sees.User.^follows 	 false 	 undefined 	 undefined
+$97. ~sees.User.^suggested 	 false 	 undefined 	 undefined
+$98. ~sees.User.follows 	 false 	 undefined 	 undefined
+$99. ~sees.User.posts 	 false 	 undefined 	 undefined
+$100. ~sees.User.sees 	 false 	 undefined 	 undefined
+$101. ~sees.User.suggested 	 false 	 undefined 	 undefined
+$102. ~sees.User.~follows 	 false 	 undefined 	 undefined
+$103. ~sees.User.~suggested 	 false 	 undefined 	 undefined
+$104. *follows.univ.date 	 false 	 undefined 	 undefined
+$105. *suggested.univ.date 	 false 	 undefined 	 undefined
+$106. ^follows.univ.date 	 false 	 undefined 	 undefined
+$107. ^suggested.univ.date 	 false 	 undefined 	 undefined
+$108. date.univ.*follows 	 false 	 undefined 	 undefined
+$109. date.univ.*suggested 	 false 	 undefined 	 undefined
+$110. date.univ.^follows 	 false 	 undefined 	 undefined
+$111. date.univ.^suggested 	 false 	 undefined 	 undefined
+$112. date.univ.date 	 false 	 undefined 	 undefined
+$113. date.univ.follows 	 false 	 undefined 	 undefined
+$114. date.univ.posts 	 false 	 undefined 	 undefined
+$115. date.univ.sees 	 false 	 undefined 	 undefined
+$116. date.univ.suggested 	 false 	 undefined 	 undefined
+$117. date.univ.~date 	 false 	 undefined 	 undefined
+$118. date.univ.~follows 	 false 	 undefined 	 undefined
+$119. date.univ.~suggested 	 false 	 undefined 	 undefined
+$120. follows.univ.date 	 false 	 undefined 	 undefined
+$121. follows.univ.~date 	 false 	 undefined 	 undefined
+$122. follows.univ.~posts 	 false 	 undefined 	 undefined
+$123. follows.univ.~sees 	 false 	 undefined 	 undefined
+$124. posts.univ.date 	 false 	 undefined 	 undefined
+$125. posts.univ.~date 	 false 	 undefined 	 undefined
+$126. posts.univ.~posts 	 false 	 undefined 	 undefined
+$127. posts.univ.~sees 	 false 	 undefined 	 undefined
+$128. sees.univ.date 	 false 	 undefined 	 undefined
+$129. sees.univ.~date 	 false 	 undefined 	 undefined
+$130. sees.univ.~posts 	 false 	 undefined 	 undefined
+$131. sees.univ.~sees 	 false 	 undefined 	 undefined
+$132. suggested.univ.date 	 false 	 undefined 	 undefined
+$133. suggested.univ.~date 	 false 	 undefined 	 undefined
+$134. suggested.univ.~posts 	 false 	 undefined 	 undefined
+$135. suggested.univ.~sees 	 false 	 undefined 	 undefined
+$136. univ.date 	 false 	 undefined 	 undefined
+$137. univ.posts.date 	 false 	 undefined 	 undefined
+$138. univ.sees.date 	 false 	 undefined 	 undefined
+$139. ~date.univ.date 	 false 	 undefined 	 undefined
+$140. ~date.univ.follows 	 false 	 undefined 	 undefined
+$141. ~date.univ.posts 	 false 	 undefined 	 undefined
+$142. ~date.univ.sees 	 false 	 undefined 	 undefined
+$143. ~date.univ.suggested 	 false 	 undefined 	 undefined
+$144. ~follows.univ.date 	 false 	 undefined 	 undefined
+$145. ~posts.univ.date 	 false 	 undefined 	 undefined
+$146. ~posts.univ.follows 	 false 	 undefined 	 undefined
+$147. ~posts.univ.posts 	 false 	 undefined 	 undefined
+$148. ~posts.univ.sees 	 false 	 undefined 	 undefined
+$149. ~posts.univ.suggested 	 false 	 undefined 	 undefined
+$150. ~sees.univ.date 	 false 	 undefined 	 undefined
+$151. ~sees.univ.follows 	 false 	 undefined 	 undefined
+$152. ~sees.univ.posts 	 false 	 undefined 	 undefined
+$153. ~sees.univ.sees 	 false 	 undefined 	 undefined
+$154. ~sees.univ.suggested 	 false 	 undefined 	 undefined
+$155. ~suggested.univ.date 	 false 	 undefined 	 undefined
+$156. *follows.univ.~date 	 false 	 undefined 	 undefined
+$157. *follows.univ.~posts 	 false 	 undefined 	 undefined
+$158. *follows.univ.~sees 	 false 	 undefined 	 undefined
+$159. *suggested.univ.~date 	 false 	 undefined 	 undefined
+$160. *suggested.univ.~posts 	 false 	 undefined 	 undefined
+$161. *suggested.univ.~sees 	 false 	 undefined 	 undefined
+$162. ^follows.univ.~date 	 false 	 undefined 	 undefined
+$163. ^follows.univ.~posts 	 false 	 undefined 	 undefined
+$164. ^follows.univ.~sees 	 false 	 undefined 	 undefined
+$165. ^suggested.univ.~date 	 false 	 undefined 	 undefined
+$166. ^suggested.univ.~posts 	 false 	 undefined 	 undefined
+$167. ^suggested.univ.~sees 	 false 	 undefined 	 undefined
+$168. ~date.univ 	 false 	 undefined 	 undefined
+$169. ~date.univ.*follows 	 false 	 undefined 	 undefined
+$170. ~date.univ.*suggested 	 false 	 undefined 	 undefined
+$171. ~date.univ.^follows 	 false 	 undefined 	 undefined
+$172. ~date.univ.^suggested 	 false 	 undefined 	 undefined
+$173. ~date.univ.~follows 	 false 	 undefined 	 undefined
+$174. ~date.univ.~posts 	 false 	 undefined 	 undefined
+$175. ~date.univ.~sees 	 false 	 undefined 	 undefined
+$176. ~date.univ.~suggested 	 false 	 undefined 	 undefined
+$177. ~date.~posts.univ 	 false 	 undefined 	 undefined
+$178. ~date.~sees.univ 	 false 	 undefined 	 undefined
+$179. ~follows.univ.~date 	 false 	 undefined 	 undefined
+$180. ~follows.univ.~posts 	 false 	 undefined 	 undefined
+$181. ~follows.univ.~sees 	 false 	 undefined 	 undefined
+$182. ~posts.univ.*follows 	 false 	 undefined 	 undefined
+$183. ~posts.univ.*suggested 	 false 	 undefined 	 undefined
+$184. ~posts.univ.^follows 	 false 	 undefined 	 undefined
+$185. ~posts.univ.^suggested 	 false 	 undefined 	 undefined
+$186. ~posts.univ.~date 	 false 	 undefined 	 undefined
+$187. ~posts.univ.~follows 	 false 	 undefined 	 undefined
+$188. ~posts.univ.~suggested 	 false 	 undefined 	 undefined
+$189. ~sees.univ.*follows 	 false 	 undefined 	 undefined
+$190. ~sees.univ.*suggested 	 false 	 undefined 	 undefined
+$191. ~sees.univ.^follows 	 false 	 undefined 	 undefined
+$192. ~sees.univ.^suggested 	 false 	 undefined 	 undefined
+$193. ~sees.univ.~date 	 false 	 undefined 	 undefined
+$194. ~sees.univ.~follows 	 false 	 undefined 	 undefined
+$195. ~sees.univ.~suggested 	 false 	 undefined 	 undefined
+$196. ~suggested.univ.~date 	 false 	 undefined 	 undefined
+$197. ~suggested.univ.~posts 	 false 	 undefined 	 undefined
+$198. ~suggested.univ.~sees 	 false 	 undefined 	 undefined
+$199. Int 	 false 	 undefined 	 undefined
+$200. String 	 false 	 undefined 	 undefined
+$201. none 	 false 	 undefined 	 undefined
+$202. univ 	 false 	 undefined 	 undefined
+Expected Completion word: i
+Expected Completion line: i.posts.date
+Suggestion exists: true
+
+Suggestion in top 1 = false 
+Suggestion in top 5 = true 
+Suggestion in top 10 = true 
+
+Suggestion in top 1 (Alpha) = false
+Suggestion in top 5 (Alpha) = false
+Suggestion in top 10 (Alpha) = false
+
+Suggestion in top 1 (Len) = false
+Suggestion in top 5 (Len) = true
+Suggestion in top 10 (Len) = true
+
+Time taken: 56.357167

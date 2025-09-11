@@ -1,0 +1,53 @@
+Model name: classroom-fol
+Filename: completion/classroom-fol-complete.als
+Offset: 635
+Term:  in 
+Vscode Position: line=44 character=66
+----------------------------------
+45 | 	all t: Teacher, c1,c2: Class | t -> c1 in Teaches and t -> c2 in 
+----------------------------------
+Completion List:
+# Suggestion 	 Exact 	 Syntactic 	 Semantic
+$1. Teaches.c1.Groups 	 false 	 undefined 	 undefined
+$2. Teaches.c2.Groups 	 false 	 undefined 	 undefined
+$3. c1 	 false 	 undefined 	 undefined
+$4. c2 	 false 	 undefined 	 undefined
+$5. t 	 false 	 undefined 	 undefined
+$6. Class 	 false 	 undefined 	 undefined
+$7. Group 	 false 	 undefined 	 undefined
+$8. Person 	 false 	 undefined 	 undefined
+$9. Student 	 false 	 undefined 	 undefined
+$10. Teacher 	 false 	 undefined 	 undefined
+$11. Teaches.Class.Groups 	 false 	 undefined 	 undefined
+$12. *Tutors.Teaches 	 false 	 undefined 	 undefined
+$13. *Tutors.univ.Groups 	 false 	 undefined 	 undefined
+$14. Groups.univ.~Teaches 	 false 	 undefined 	 undefined
+$15. Teaches 	 true 	 undefined 	 undefined
+$16. Teaches.univ.Groups 	 false 	 undefined 	 undefined
+$17. Tutors.Teaches 	 false 	 undefined 	 undefined
+$18. Tutors.univ.Groups 	 false 	 undefined 	 undefined
+$19. ^Tutors.Teaches 	 false 	 undefined 	 undefined
+$20. ^Tutors.univ.Groups 	 false 	 undefined 	 undefined
+$21. ~Tutors.Teaches 	 false 	 undefined 	 undefined
+$22. ~Tutors.univ.Groups 	 false 	 undefined 	 undefined
+$23. Int 	 false 	 undefined 	 undefined
+$24. String 	 false 	 undefined 	 undefined
+$25. none 	 false 	 undefined 	 undefined
+$26. univ 	 false 	 undefined 	 undefined
+Expected Completion word: Teaches
+Expected Completion line: Teaches => c1 = c2
+Suggestion exists: true
+
+Suggestion in top 1 = false 
+Suggestion in top 5 = false 
+Suggestion in top 10 = false 
+
+Suggestion in top 1 (Alpha) = false
+Suggestion in top 5 (Alpha) = false
+Suggestion in top 10 (Alpha) = false
+
+Suggestion in top 1 (Len) = false
+Suggestion in top 5 (Len) = false
+Suggestion in top 10 (Len) = false
+
+Time taken: 24.313583

@@ -1,0 +1,12 @@
+modelname,filename,position-line,position-character,incompleteline,removedtext,baseline,suggestionedExpression,A_iff_B,A_and_B,not_A_and_B,A_and_not_B,not_A_and_not_B,suggestionImpactTime
+courses-v1,completion/courses-v1-sig.als,9,25,"sig Professor,Student in","Person {}","{}","sig Professor,Student in Course",,,,,,4.484
+courses-v1,completion/courses-v1-sig.als,9,25,"sig Professor,Student in","Person {}","{}","sig Professor,Student in Grade",,,,,,4.484
+courses-v1,completion/courses-v1-sig.als,9,25,"sig Professor,Student in","Person {}","{}","sig Professor,Student in Person",,,,,,4.484
+courses-v1,completion/courses-v1-sig.als,9,25,"sig Professor,Student in","Person {}","{}","sig Professor,Student in Project",,,,,,4.484
+courses-v1,completion/courses-v1-sig.als,9,25,"sig Professor,Student in","Person {}","{}","sig Professor,Student in ordering/Ord",,,,,,4.484
+courses-v1,completion/courses-v1-sig.als,9,25,"sig Professor,Student in","Person {}","{}","sig Professor,Student in Int",,,,,,4.484
+courses-v1,completion/courses-v1-sig.als,9,25,"sig Professor,Student in","Person {}","{}","sig Professor,Student in String",,,,,,4.484
+courses-v1,completion/courses-v1-sig.als,9,25,"sig Professor,Student in","Person {}","{}","sig Professor,Student in seq/Int",,,,,,4.484
+courses-v1,completion/courses-v1-sig.als,9,25,"sig Professor,Student in","Person {}","{}","sig Professor,Student in iden",,,,,,4.484
+courses-v1,completion/courses-v1-sig.als,9,25,"sig Professor,Student in","Person {}","{}","sig Professor,Student in none",,,,,,4.484
+courses-v1,completion/courses-v1-sig.als,9,25,"sig Professor,Student in","Person {}","{}","sig Professor,Student in univ",,,,,,4.484

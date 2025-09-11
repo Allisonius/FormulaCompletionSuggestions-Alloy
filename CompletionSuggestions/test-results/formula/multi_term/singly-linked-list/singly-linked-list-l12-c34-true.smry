@@ -1,0 +1,47 @@
+Model name: singly-linked-list
+Filename: completion/singly-linked-list.als
+Offset: 150
+Term: .
+Vscode Position: line=11 character=34
+----------------------------------
+12 |   no l.header or some n: l.header.
+----------------------------------
+Completion List:
+# Suggestion 	 Exact 	 Syntactic 	 Semantic
+$1. ~header.l 	 false 	 undefined 	 undefined
+$2. *link.Node 	 false 	 undefined 	 undefined
+$3. ^link.Node 	 false 	 undefined 	 undefined
+$4. link.Node 	 false 	 undefined 	 undefined
+$5. ~header.List 	 false 	 undefined 	 undefined
+$6. ~link.Node 	 false 	 undefined 	 undefined
+$7. link 	 true 	 undefined 	 undefined
+$8. link.univ 	 false 	 undefined 	 undefined
+$9. link.~header 	 false 	 undefined 	 undefined
+$10. *link.~header 	 false 	 undefined 	 undefined
+$11. ^link.~header 	 false 	 undefined 	 undefined
+$12. ~header 	 false 	 undefined 	 undefined
+$13. ~header.univ 	 false 	 undefined 	 undefined
+$14. ~link 	 false 	 undefined 	 undefined
+$15. ~link.univ 	 false 	 undefined 	 undefined
+$16. ~link.~header 	 false 	 undefined 	 undefined
+$17. ^link 	 false 	 undefined 	 undefined
+$18. ^link.univ 	 false 	 undefined 	 undefined
+$19. *link 	 false 	 undefined 	 undefined
+$20. *link.univ 	 false 	 undefined 	 undefined
+Expected Completion word: *link
+Expected Completion line: *link | no n.link
+Suggestion exists: true
+
+Suggestion in top 1 = false 
+Suggestion in top 5 = false 
+Suggestion in top 10 = false 
+
+Suggestion in top 1 (Alpha) = true
+Suggestion in top 5 (Alpha) = true
+Suggestion in top 10 (Alpha) = true
+
+Suggestion in top 1 (Len) = false
+Suggestion in top 5 (Len) = true
+Suggestion in top 10 (Len) = true
+
+Time taken: 10.434458

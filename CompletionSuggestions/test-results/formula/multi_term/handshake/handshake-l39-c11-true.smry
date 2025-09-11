@@ -1,0 +1,99 @@
+Model name: handshake
+Filename: completion/handshake.als
+Offset: 653
+Term: .
+Vscode Position: line=38 character=11
+----------------------------------
+39 |     Hilary.
+----------------------------------
+Completion List:
+# Suggestion 	 Exact 	 Syntactic 	 Semantic
+$1. *shaken.Hilary 	 false 	 false 	 false
+$2. *shaken.Jocelyn 	 false 	 false 	 false
+$3. *shaken.Person 	 false 	 false 	 false
+$4. *spouse.Hilary 	 false 	 false 	 false
+$5. *spouse.Jocelyn 	 false 	 false 	 false
+$6. *spouse.Person 	 false 	 false 	 false
+$7. ^shaken.Hilary 	 false 	 false 	 false
+$8. ^shaken.Jocelyn 	 false 	 false 	 false
+$9. ^shaken.Person 	 false 	 false 	 false
+$10. ^spouse.Hilary 	 false 	 false 	 false
+$11. ^spouse.Jocelyn 	 false 	 false 	 false
+$12. ^spouse.Person 	 false 	 false 	 false
+$13. shaken.Hilary 	 false 	 false 	 false
+$14. shaken.Jocelyn 	 false 	 false 	 false
+$15. shaken.Person 	 false 	 false 	 false
+$16. spouse.Hilary 	 false 	 false 	 false
+$17. spouse.Jocelyn 	 false 	 false 	 false
+$18. spouse.Person 	 false 	 false 	 false
+$19. ~shaken.Hilary 	 false 	 false 	 false
+$20. ~shaken.Jocelyn 	 false 	 false 	 false
+$21. ~shaken.Person 	 false 	 false 	 false
+$22. ~spouse.Hilary 	 false 	 false 	 false
+$23. ~spouse.Jocelyn 	 false 	 false 	 false
+$24. ~spouse.Person 	 false 	 false 	 false
+$25. *shaken.spouse 	 false 	 false 	 false
+$26. *spouse.shaken 	 false 	 false 	 false
+$27. ^shaken.spouse 	 false 	 false 	 false
+$28. ^spouse.shaken 	 false 	 false 	 false
+$29. shaken 	 false 	 false 	 false
+$30. shaken.*spouse 	 false 	 false 	 false
+$31. shaken.^spouse 	 false 	 false 	 false
+$32. shaken.spouse 	 false 	 false 	 false
+$33. shaken.univ 	 false 	 false 	 false
+$34. shaken.~spouse 	 false 	 false 	 false
+$35. spouse 	 true 	 true 	 true
+$36. spouse.*shaken 	 false 	 false 	 false
+$37. spouse.^shaken 	 false 	 false 	 false
+$38. spouse.shaken 	 false 	 false 	 false
+$39. spouse.univ 	 false 	 false 	 false
+$40. spouse.~shaken 	 false 	 false 	 false
+$41. ~shaken.spouse 	 false 	 false 	 false
+$42. ~spouse.shaken 	 false 	 false 	 false
+$43. *shaken.~spouse 	 false 	 false 	 false
+$44. *spouse.~shaken 	 false 	 false 	 false
+$45. ^shaken.~spouse 	 false 	 false 	 false
+$46. ^spouse.~shaken 	 false 	 false 	 false
+$47. ~shaken 	 false 	 false 	 false
+$48. ~shaken.*spouse 	 false 	 false 	 false
+$49. ~shaken.^spouse 	 false 	 false 	 false
+$50. ~shaken.univ 	 false 	 false 	 false
+$51. ~shaken.~spouse 	 false 	 false 	 false
+$52. ~spouse 	 false 	 false 	 false
+$53. ~spouse.*shaken 	 false 	 false 	 false
+$54. ~spouse.^shaken 	 false 	 false 	 false
+$55. ~spouse.univ 	 false 	 false 	 false
+$56. ~spouse.~shaken 	 false 	 false 	 false
+$57. *shaken.^spouse 	 false 	 false 	 false
+$58. *spouse.^shaken 	 false 	 false 	 false
+$59. ^shaken 	 false 	 false 	 false
+$60. ^shaken.*spouse 	 false 	 false 	 false
+$61. ^shaken.^spouse 	 false 	 false 	 false
+$62. ^shaken.univ 	 false 	 false 	 false
+$63. ^spouse 	 false 	 false 	 false
+$64. ^spouse.*shaken 	 false 	 false 	 false
+$65. ^spouse.^shaken 	 false 	 false 	 false
+$66. ^spouse.univ 	 false 	 false 	 false
+$67. *shaken 	 false 	 false 	 false
+$68. *shaken.*spouse 	 false 	 false 	 false
+$69. *shaken.univ 	 false 	 false 	 false
+$70. *spouse 	 false 	 false 	 false
+$71. *spouse.*shaken 	 false 	 false 	 false
+$72. *spouse.univ 	 false 	 false 	 false
+Expected Completion word: spouse
+Expected Completion line: spouse = Jocelyn
+Suggestion exists: true
+
+Suggestion in top 1 = false 
+Suggestion in top 5 = false 
+Suggestion in top 10 = false 
+
+Suggestion in top 1 (Alpha) = false
+Suggestion in top 5 (Alpha) = false
+Suggestion in top 10 (Alpha) = false
+
+Suggestion in top 1 (Len) = false
+Suggestion in top 5 (Len) = true
+Suggestion in top 10 (Len) = true
+
+Time taken: 11.711792

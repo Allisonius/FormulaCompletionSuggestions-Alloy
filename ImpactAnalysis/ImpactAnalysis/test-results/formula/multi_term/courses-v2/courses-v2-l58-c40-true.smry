@@ -1,0 +1,160 @@
+Model name: courses-v2
+Filename: completion/courses-v2-complete.als
+Offset: 1287
+Term:  in 
+Vscode Position: line=57 character=40
+----------------------------------
+58 | 	all p : Person | all c : Course | c in 
+----------------------------------
+Completion List:
+# Suggestion 	 Exact 	 Syntactic 	 Semantic
+$1. c 	 false 	 undefined 	 undefined
+$2. c.~enrolled.teaches 	 false 	 undefined 	 undefined
+$3. c.~teaches.enrolled 	 false 	 undefined 	 undefined
+$4. enrolled.c.projects 	 false 	 undefined 	 undefined
+$5. enrolled.c.~enrolled 	 false 	 undefined 	 undefined
+$6. enrolled.c.~teaches 	 false 	 undefined 	 undefined
+$7. p.enrolled 	 false 	 undefined 	 undefined
+$8. p.teaches 	 true 	 undefined 	 undefined
+$9. teaches.c.projects 	 false 	 undefined 	 undefined
+$10. teaches.c.~enrolled 	 false 	 undefined 	 undefined
+$11. teaches.c.~teaches 	 false 	 undefined 	 undefined
+$12. ~enrolled.p 	 false 	 undefined 	 undefined
+$13. ~enrolled.p.enrolled 	 false 	 undefined 	 undefined
+$14. ~enrolled.p.projects 	 false 	 undefined 	 undefined
+$15. ~enrolled.p.teaches 	 false 	 undefined 	 undefined
+$16. ~enrolled.teaches.c 	 false 	 undefined 	 undefined
+$17. ~projects.c.projects 	 false 	 undefined 	 undefined
+$18. ~projects.c.~enrolled 	 false 	 undefined 	 undefined
+$19. ~projects.c.~teaches 	 false 	 undefined 	 undefined
+$20. ~projects.p.enrolled 	 false 	 undefined 	 undefined
+$21. ~projects.p.projects 	 false 	 undefined 	 undefined
+$22. ~projects.p.teaches 	 false 	 undefined 	 undefined
+$23. ~teaches.enrolled.c 	 false 	 undefined 	 undefined
+$24. ~teaches.p 	 false 	 undefined 	 undefined
+$25. ~teaches.p.enrolled 	 false 	 undefined 	 undefined
+$26. ~teaches.p.projects 	 false 	 undefined 	 undefined
+$27. ~teaches.p.teaches 	 false 	 undefined 	 undefined
+$28. Course.~enrolled.teaches 	 false 	 undefined 	 undefined
+$29. Course.~teaches.enrolled 	 false 	 undefined 	 undefined
+$30. Person.enrolled 	 false 	 undefined 	 undefined
+$31. Person.teaches 	 false 	 undefined 	 undefined
+$32. Professor.enrolled 	 false 	 undefined 	 undefined
+$33. Professor.teaches 	 false 	 undefined 	 undefined
+$34. Project.~projects 	 false 	 undefined 	 undefined
+$35. Project.~projects.enrolled 	 false 	 undefined 	 undefined
+$36. Project.~projects.teaches 	 false 	 undefined 	 undefined
+$37. Student.enrolled 	 false 	 undefined 	 undefined
+$38. Student.teaches 	 false 	 undefined 	 undefined
+$39. enrolled.Course.projects 	 false 	 undefined 	 undefined
+$40. enrolled.Course.~enrolled 	 false 	 undefined 	 undefined
+$41. enrolled.Course.~teaches 	 false 	 undefined 	 undefined
+$42. projects.Project 	 false 	 undefined 	 undefined
+$43. projects.Project.~projects 	 false 	 undefined 	 undefined
+$44. teaches.Course.projects 	 false 	 undefined 	 undefined
+$45. teaches.Course.~enrolled 	 false 	 undefined 	 undefined
+$46. teaches.Course.~teaches 	 false 	 undefined 	 undefined
+$47. ~enrolled.Person 	 false 	 undefined 	 undefined
+$48. ~enrolled.Person.enrolled 	 false 	 undefined 	 undefined
+$49. ~enrolled.Person.projects 	 false 	 undefined 	 undefined
+$50. ~enrolled.Person.teaches 	 false 	 undefined 	 undefined
+$51. ~enrolled.Professor 	 false 	 undefined 	 undefined
+$52. ~enrolled.Professor.enrolled 	 false 	 undefined 	 undefined
+$53. ~enrolled.Professor.projects 	 false 	 undefined 	 undefined
+$54. ~enrolled.Professor.teaches 	 false 	 undefined 	 undefined
+$55. ~enrolled.Student 	 false 	 undefined 	 undefined
+$56. ~enrolled.Student.enrolled 	 false 	 undefined 	 undefined
+$57. ~enrolled.Student.projects 	 false 	 undefined 	 undefined
+$58. ~enrolled.Student.teaches 	 false 	 undefined 	 undefined
+$59. ~enrolled.projects.Project 	 false 	 undefined 	 undefined
+$60. ~enrolled.teaches.Course 	 false 	 undefined 	 undefined
+$61. ~projects.Course.projects 	 false 	 undefined 	 undefined
+$62. ~projects.Course.~enrolled 	 false 	 undefined 	 undefined
+$63. ~projects.Course.~teaches 	 false 	 undefined 	 undefined
+$64. ~projects.Person.enrolled 	 false 	 undefined 	 undefined
+$65. ~projects.Person.projects 	 false 	 undefined 	 undefined
+$66. ~projects.Person.teaches 	 false 	 undefined 	 undefined
+$67. ~projects.Professor.enrolled 	 false 	 undefined 	 undefined
+$68. ~projects.Professor.projects 	 false 	 undefined 	 undefined
+$69. ~projects.Professor.teaches 	 false 	 undefined 	 undefined
+$70. ~projects.Student.enrolled 	 false 	 undefined 	 undefined
+$71. ~projects.Student.projects 	 false 	 undefined 	 undefined
+$72. ~projects.Student.teaches 	 false 	 undefined 	 undefined
+$73. ~teaches.Person 	 false 	 undefined 	 undefined
+$74. ~teaches.Person.enrolled 	 false 	 undefined 	 undefined
+$75. ~teaches.Person.projects 	 false 	 undefined 	 undefined
+$76. ~teaches.Person.teaches 	 false 	 undefined 	 undefined
+$77. ~teaches.Professor 	 false 	 undefined 	 undefined
+$78. ~teaches.Professor.enrolled 	 false 	 undefined 	 undefined
+$79. ~teaches.Professor.projects 	 false 	 undefined 	 undefined
+$80. ~teaches.Professor.teaches 	 false 	 undefined 	 undefined
+$81. ~teaches.Student 	 false 	 undefined 	 undefined
+$82. ~teaches.Student.enrolled 	 false 	 undefined 	 undefined
+$83. ~teaches.Student.projects 	 false 	 undefined 	 undefined
+$84. ~teaches.Student.teaches 	 false 	 undefined 	 undefined
+$85. ~teaches.enrolled.Course 	 false 	 undefined 	 undefined
+$86. ~teaches.projects.Project 	 false 	 undefined 	 undefined
+$87. enrolled.univ.enrolled 	 false 	 undefined 	 undefined
+$88. enrolled.univ.projects 	 false 	 undefined 	 undefined
+$89. enrolled.univ.teaches 	 false 	 undefined 	 undefined
+$90. enrolled.univ.~enrolled 	 false 	 undefined 	 undefined
+$91. enrolled.univ.~projects 	 false 	 undefined 	 undefined
+$92. enrolled.univ.~teaches 	 false 	 undefined 	 undefined
+$93. projects.univ 	 false 	 undefined 	 undefined
+$94. projects.univ.enrolled 	 false 	 undefined 	 undefined
+$95. projects.univ.projects 	 false 	 undefined 	 undefined
+$96. projects.univ.teaches 	 false 	 undefined 	 undefined
+$97. projects.univ.~enrolled 	 false 	 undefined 	 undefined
+$98. projects.univ.~projects 	 false 	 undefined 	 undefined
+$99. projects.univ.~teaches 	 false 	 undefined 	 undefined
+$100. teaches.univ.enrolled 	 false 	 undefined 	 undefined
+$101. teaches.univ.projects 	 false 	 undefined 	 undefined
+$102. teaches.univ.teaches 	 false 	 undefined 	 undefined
+$103. teaches.univ.~enrolled 	 false 	 undefined 	 undefined
+$104. teaches.univ.~projects 	 false 	 undefined 	 undefined
+$105. teaches.univ.~teaches 	 false 	 undefined 	 undefined
+$106. univ.enrolled 	 false 	 undefined 	 undefined
+$107. univ.teaches 	 false 	 undefined 	 undefined
+$108. univ.~enrolled.teaches 	 false 	 undefined 	 undefined
+$109. univ.~projects.enrolled 	 false 	 undefined 	 undefined
+$110. univ.~projects.teaches 	 false 	 undefined 	 undefined
+$111. univ.~teaches.enrolled 	 false 	 undefined 	 undefined
+$112. ~enrolled.projects.univ 	 false 	 undefined 	 undefined
+$113. ~enrolled.teaches.univ 	 false 	 undefined 	 undefined
+$114. ~enrolled.univ.enrolled 	 false 	 undefined 	 undefined
+$115. ~enrolled.univ.projects 	 false 	 undefined 	 undefined
+$116. ~enrolled.univ.teaches 	 false 	 undefined 	 undefined
+$117. ~projects.univ.enrolled 	 false 	 undefined 	 undefined
+$118. ~projects.univ.projects 	 false 	 undefined 	 undefined
+$119. ~projects.univ.teaches 	 false 	 undefined 	 undefined
+$120. ~teaches.enrolled.univ 	 false 	 undefined 	 undefined
+$121. ~teaches.projects.univ 	 false 	 undefined 	 undefined
+$122. ~teaches.univ.enrolled 	 false 	 undefined 	 undefined
+$123. ~teaches.univ.projects 	 false 	 undefined 	 undefined
+$124. ~teaches.univ.teaches 	 false 	 undefined 	 undefined
+$125. univ.~projects 	 false 	 undefined 	 undefined
+$126. ~enrolled.univ 	 false 	 undefined 	 undefined
+$127. ~enrolled.univ.~projects 	 false 	 undefined 	 undefined
+$128. ~projects.univ.~enrolled 	 false 	 undefined 	 undefined
+$129. ~projects.univ.~projects 	 false 	 undefined 	 undefined
+$130. ~projects.univ.~teaches 	 false 	 undefined 	 undefined
+$131. ~teaches.univ 	 false 	 undefined 	 undefined
+$132. ~teaches.univ.~projects 	 false 	 undefined 	 undefined
+$133. univ 	 false 	 undefined 	 undefined
+Expected Completion word: p
+Expected Completion line: p.teaches => c not in p.enrolled
+Suggestion exists: true
+
+Suggestion in top 1 = false 
+Suggestion in top 5 = false 
+Suggestion in top 10 = true 
+
+Suggestion in top 1 (Alpha) = false
+Suggestion in top 5 (Alpha) = false
+Suggestion in top 10 (Alpha) = false
+
+Suggestion in top 1 (Len) = false
+Suggestion in top 5 (Len) = true
+Suggestion in top 10 (Len) = true
+
+Time taken: 69.902417

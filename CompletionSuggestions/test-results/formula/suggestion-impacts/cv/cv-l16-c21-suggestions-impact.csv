@@ -1,0 +1,7 @@
+modelname,filename,position-line,position-character,incompleteline,removedtext,baseline,suggestionedExpression,A_iff_B,A_and_B,not_A_and_B,A_and_not_B,not_A_and_not_B,suggestionImpactTime
+cv,completion/cv-complete.als,16,21,"all u : User | u.","visible in u.profile","{}","    all u : User | u.profile",,,,,,6.675834
+cv,completion/cv-complete.als,16,21,"all u : User | u.","visible in u.profile","{}","    all u : User | u.visible",,,,,,6.675834
+cv,completion/cv-complete.als,16,21,"all u : User | u.","visible in u.profile","{}","    all u : User | u.~source",,,,,,6.675834
+cv,completion/cv-complete.als,16,21,"all u : User | u.","visible in u.profile","{}","    all u : User | u.iden",,,,,,6.675834
+cv,completion/cv-complete.als,16,21,"all u : User | u.","visible in u.profile","{}","    all u : User | u.none",,,,,,6.675834
+cv,completion/cv-complete.als,16,21,"all u : User | u.","visible in u.profile","{}","    all u : User | u.univ",,,,,,6.675834

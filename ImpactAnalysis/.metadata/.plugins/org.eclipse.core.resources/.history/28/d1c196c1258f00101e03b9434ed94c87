@@ -1,0 +1,11 @@
+modelname,filename,position-line,position-character,incompleteline,removedtext,baseline,suggestionedExpression,A_iff_B,A_and_B,not_A_and_B,A_and_not_B,not_A_and_not_B,suggestionImpactTime
+courses-v2,completion/courses-v2-complete.als,63,43,"all p : Person | no (p.teaches.~teaches -","p) & p.teaches.~enrolled","{}","\tall p : Person | no (p.teaches.~teaches - p",,,,,,14.865084
+courses-v2,completion/courses-v2-complete.als,63,43,"all p : Person | no (p.teaches.~teaches -","p) & p.teaches.~enrolled","{}","\tall p : Person | no (p.teaches.~teaches - Course",,,,,,14.865084
+courses-v2,completion/courses-v2-complete.als,63,43,"all p : Person | no (p.teaches.~teaches -","p) & p.teaches.~enrolled","{}","\tall p : Person | no (p.teaches.~teaches - Grade",,,,,,14.865084
+courses-v2,completion/courses-v2-complete.als,63,43,"all p : Person | no (p.teaches.~teaches -","p) & p.teaches.~enrolled","{}","\tall p : Person | no (p.teaches.~teaches - Person",,,,,,14.865084
+courses-v2,completion/courses-v2-complete.als,63,43,"all p : Person | no (p.teaches.~teaches -","p) & p.teaches.~enrolled","{}","\tall p : Person | no (p.teaches.~teaches - Professor",,,,,,14.865084
+courses-v2,completion/courses-v2-complete.als,63,43,"all p : Person | no (p.teaches.~teaches -","p) & p.teaches.~enrolled","{}","\tall p : Person | no (p.teaches.~teaches - Project",,,,,,14.865084
+courses-v2,completion/courses-v2-complete.als,63,43,"all p : Person | no (p.teaches.~teaches -","p) & p.teaches.~enrolled","{}","\tall p : Person | no (p.teaches.~teaches - Student",,,,,,14.865084
+courses-v2,completion/courses-v2-complete.als,63,43,"all p : Person | no (p.teaches.~teaches -","p) & p.teaches.~enrolled","{}","\tall p : Person | no (p.teaches.~teaches - iden",,,,,,14.865084
+courses-v2,completion/courses-v2-complete.als,63,43,"all p : Person | no (p.teaches.~teaches -","p) & p.teaches.~enrolled","{}","\tall p : Person | no (p.teaches.~teaches - none",,,,,,14.865084
+courses-v2,completion/courses-v2-complete.als,63,43,"all p : Person | no (p.teaches.~teaches -","p) & p.teaches.~enrolled","{}","\tall p : Person | no (p.teaches.~teaches - univ",,,,,,14.865084

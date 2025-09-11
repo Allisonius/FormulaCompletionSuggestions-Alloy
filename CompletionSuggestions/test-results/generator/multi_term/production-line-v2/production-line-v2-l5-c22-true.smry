@@ -1,0 +1,253 @@
+Model name: production-line-v2
+Filename: completion/production-line-v2-sig.als
+Offset: 89
+Term:  in 
+Vscode Position: line=4 character=22
+----------------------------------
+5 | one sig begin, end in 
+----------------------------------
+Completion List:
+# Suggestion 	 Exact 	 Syntactic 	 Semantic
+$1. ((*parts)-parts) 	 false 	 false 	 false
+$2. ((*parts).Dangerous) 	 false 	 false 	 false
+$3. ((*succ)-succ) 	 false 	 false 	 false
+$4. ((*succ).workers) 	 false 	 false 	 false
+$5. ((^parts)-parts) 	 false 	 false 	 false
+$6. ((^parts).Dangerous) 	 false 	 false 	 false
+$7. ((^succ)-succ) 	 false 	 false 	 false
+$8. ((^succ).workers) 	 false 	 false 	 false
+$9. ((Dangerous.parts)-Dangerous) 	 false 	 false 	 false
+$10. ((parts.Dangerous)-Dangerous) 	 false 	 false 	 false
+$11. ((parts.Dangerous).parts) 	 false 	 false 	 false
+$12. ((parts.parts)-parts) 	 false 	 false 	 false
+$13. ((parts.Product)-Dangerous) 	 false 	 false 	 false
+$14. ((parts.Product).parts) 	 false 	 false 	 false
+$15. ((parts.univ)-Dangerous) 	 false 	 false 	 false
+$16. ((parts.univ).parts) 	 false 	 false 	 false
+$17. ((Product-Dangerous).parts) 	 false 	 false 	 false
+$18. ((Product.parts)-Dangerous) 	 false 	 false 	 false
+$19. ((succ.succ)-succ) 	 false 	 false 	 false
+$20. ((succ.univ).succ) 	 false 	 false 	 false
+$21. ((succ.univ).workers) 	 false 	 false 	 false
+$22. ((succ.workers)-workers) 	 false 	 false 	 false
+$23. ((succ.Workstation).succ) 	 false 	 false 	 false
+$24. ((succ.Workstation).workers) 	 false 	 false 	 false
+$25. ((univ.parts)-Dangerous) 	 false 	 false 	 false
+$26. ((workers.univ).succ) 	 false 	 false 	 false
+$27. ((workers.univ).workers) 	 false 	 false 	 false
+$28. ((workers.Worker).succ) 	 false 	 false 	 false
+$29. ((workers.Worker).workers) 	 false 	 false 	 false
+$30. ((workstation.succ)-workstation) 	 false 	 false 	 false
+$31. ((workstation.univ)-Component) 	 false 	 false 	 false
+$32. ((workstation.univ).workstation) 	 false 	 false 	 false
+$33. ((workstation.Workstation)-Component) 	 false 	 false 	 false
+$34. ((workstation.Workstation).workstation) 	 false 	 false 	 false
+$35. ((~parts)-parts) 	 false 	 false 	 false
+$36. ((~parts).Dangerous) 	 false 	 false 	 false
+$37. ((~parts).parts) 	 false 	 false 	 false
+$38. ((~parts).Product) 	 false 	 false 	 false
+$39. ((~parts).univ) 	 false 	 false 	 false
+$40. ((~succ)-succ) 	 false 	 false 	 false
+$41. ((~succ).succ) 	 false 	 false 	 false
+$42. ((~succ).univ) 	 false 	 false 	 false
+$43. ((~succ).workers) 	 false 	 false 	 false
+$44. ((~succ).Workstation) 	 false 	 false 	 false
+$45. ((~workers).succ) 	 false 	 false 	 false
+$46. ((~workers).univ) 	 false 	 false 	 false
+$47. ((~workers).workers) 	 false 	 false 	 false
+$48. ((~workers).Workstation) 	 false 	 false 	 false
+$49. ((~workstation).Component) 	 false 	 false 	 false
+$50. ((~workstation).univ) 	 false 	 false 	 false
+$51. ((~workstation).workstation) 	 false 	 false 	 false
+$52. (*(parts.parts)) 	 false 	 false 	 false
+$53. (*(succ.succ)) 	 false 	 false 	 false
+$54. (*(~parts)) 	 false 	 false 	 false
+$55. (*(~succ)) 	 false 	 false 	 false
+$56. (*parts) 	 false 	 false 	 false
+$57. (*succ) 	 false 	 false 	 false
+$58. (^(parts.parts)) 	 false 	 false 	 false
+$59. (^(succ.succ)) 	 false 	 false 	 false
+$60. (^(~parts)) 	 false 	 false 	 false
+$61. (^(~succ)) 	 false 	 false 	 false
+$62. (^parts) 	 false 	 false 	 false
+$63. (^succ) 	 false 	 false 	 false
+$64. (Component&(workstation.univ)) 	 false 	 false 	 false
+$65. (Component&(workstation.Workstation)) 	 false 	 false 	 false
+$66. (Component+(workstation.univ)) 	 false 	 false 	 false
+$67. (Component+(workstation.Workstation)) 	 false 	 false 	 false
+$68. (Component-(workstation.univ)) 	 false 	 false 	 false
+$69. (Component-(workstation.Workstation)) 	 false 	 false 	 false
+$70. (Component.(workstation.succ)) 	 false 	 false 	 false
+$71. (Component.(workstation.workers)) 	 false 	 false 	 false
+$72. (Component.workstation) 	 false 	 false 	 false
+$73. (Dangerous&(Dangerous.parts)) 	 false 	 false 	 false
+$74. (Dangerous&(parts.Dangerous)) 	 false 	 false 	 false
+$75. (Dangerous&(parts.Product)) 	 false 	 false 	 false
+$76. (Dangerous&(parts.univ)) 	 false 	 false 	 false
+$77. (Dangerous&(Product-Dangerous)) 	 false 	 false 	 false
+$78. (Dangerous&(Product.parts)) 	 false 	 false 	 false
+$79. (Dangerous&(univ.parts)) 	 false 	 false 	 false
+$80. (Dangerous+(Dangerous.parts)) 	 false 	 false 	 false
+$81. (Dangerous+(parts.Dangerous)) 	 false 	 false 	 false
+$82. (Dangerous+(parts.Product)) 	 false 	 false 	 false
+$83. (Dangerous+(parts.univ)) 	 false 	 false 	 false
+$84. (Dangerous+(Product.parts)) 	 false 	 false 	 false
+$85. (Dangerous+(univ.parts)) 	 false 	 false 	 false
+$86. (Dangerous-(Dangerous.parts)) 	 false 	 false 	 false
+$87. (Dangerous-(parts.Dangerous)) 	 false 	 false 	 false
+$88. (Dangerous-(parts.Product)) 	 false 	 false 	 false
+$89. (Dangerous-(parts.univ)) 	 false 	 false 	 false
+$90. (Dangerous-(Product.parts)) 	 false 	 false 	 false
+$91. (Dangerous-(univ.parts)) 	 false 	 false 	 false
+$92. (Dangerous.(*parts)) 	 false 	 false 	 false
+$93. (Dangerous.(^parts)) 	 false 	 false 	 false
+$94. (Dangerous.(parts.parts)) 	 false 	 false 	 false
+$95. (Dangerous.parts) 	 false 	 false 	 false
+$96. (none->none) 	 false 	 false 	 false
+$97. (none->none->none) 	 false 	 false 	 false
+$98. (parts&(parts.parts)) 	 false 	 false 	 false
+$99. (parts&(~parts)) 	 false 	 false 	 false
+$100. (parts+(parts.parts)) 	 false 	 false 	 false
+$101. (parts+(~parts)) 	 false 	 false 	 false
+$102. (parts-(parts.parts)) 	 false 	 false 	 false
+$103. (parts-(~parts)) 	 false 	 false 	 false
+$104. (parts.(^parts)) 	 false 	 false 	 false
+$105. (parts.(Dangerous.parts)) 	 false 	 false 	 false
+$106. (parts.(parts.Dangerous)) 	 false 	 false 	 false
+$107. (parts.(parts.parts)) 	 false 	 false 	 false
+$108. (parts.(parts.Product)) 	 false 	 false 	 false
+$109. (parts.(parts.univ)) 	 false 	 false 	 false
+$110. (parts.(Product-Dangerous)) 	 false 	 false 	 false
+$111. (parts.(Product.parts)) 	 false 	 false 	 false
+$112. (parts.(univ.parts)) 	 false 	 false 	 false
+$113. (parts.(~parts)) 	 false 	 false 	 false
+$114. (parts.Dangerous) 	 false 	 false 	 false
+$115. (parts.parts) 	 false 	 false 	 false
+$116. (parts.Product) 	 false 	 false 	 false
+$117. (parts.univ) 	 false 	 false 	 false
+$118. (Product-(Dangerous.parts)) 	 false 	 false 	 false
+$119. (Product-(parts.Dangerous)) 	 false 	 false 	 false
+$120. (Product-(parts.Product)) 	 false 	 false 	 false
+$121. (Product-(parts.univ)) 	 false 	 false 	 false
+$122. (Product-(Product.parts)) 	 false 	 false 	 false
+$123. (Product-(univ.parts)) 	 false 	 false 	 false
+$124. (Product-Dangerous) 	 false 	 false 	 false
+$125. (Product.(parts.parts)) 	 false 	 false 	 false
+$126. (Product.parts) 	 false 	 false 	 false
+$127. (succ&(succ.succ)) 	 false 	 false 	 false
+$128. (succ&(~succ)) 	 false 	 false 	 false
+$129. (succ+(succ.succ)) 	 false 	 false 	 false
+$130. (succ+(~succ)) 	 false 	 false 	 false
+$131. (succ-(succ.succ)) 	 false 	 false 	 false
+$132. (succ-(~succ)) 	 false 	 false 	 false
+$133. (succ.(^succ)) 	 false 	 false 	 false
+$134. (succ.(Component.workstation)) 	 false 	 false 	 false
+$135. (succ.(succ.succ)) 	 false 	 false 	 false
+$136. (succ.(succ.univ)) 	 false 	 false 	 false
+$137. (succ.(succ.workers)) 	 false 	 false 	 false
+$138. (succ.(succ.Workstation)) 	 false 	 false 	 false
+$139. (succ.(univ.succ)) 	 false 	 false 	 false
+$140. (succ.(univ.workstation)) 	 false 	 false 	 false
+$141. (succ.(workers.univ)) 	 false 	 false 	 false
+$142. (succ.(workers.Worker)) 	 false 	 false 	 false
+$143. (succ.(Workstation.succ)) 	 false 	 false 	 false
+$144. (succ.(~succ)) 	 false 	 false 	 false
+$145. (succ.(~workstation)) 	 false 	 false 	 false
+$146. (succ.succ) 	 false 	 false 	 false
+$147. (succ.univ) 	 false 	 false 	 false
+$148. (succ.workers) 	 false 	 false 	 false
+$149. (succ.Workstation) 	 false 	 false 	 false
+$150. (univ.(parts.parts)) 	 false 	 false 	 false
+$151. (univ.(succ.succ)) 	 false 	 false 	 false
+$152. (univ.(succ.workers)) 	 false 	 false 	 false
+$153. (univ.(workstation.succ)) 	 false 	 false 	 false
+$154. (univ.(workstation.workers)) 	 false 	 false 	 false
+$155. (univ.parts) 	 false 	 false 	 false
+$156. (univ.succ) 	 false 	 false 	 false
+$157. (univ.workers) 	 false 	 false 	 false
+$158. (univ.workstation) 	 false 	 false 	 false
+$159. (Worker-(univ.workers)) 	 false 	 false 	 false
+$160. (Worker-(Workstation.workers)) 	 false 	 false 	 false
+$161. (workers&(succ.workers)) 	 false 	 false 	 false
+$162. (workers+(succ.workers)) 	 false 	 false 	 false
+$163. (workers-(succ.workers)) 	 false 	 false 	 false
+$164. (workers.(univ.workers)) 	 false 	 false 	 false
+$165. (workers.(Workstation.workers)) 	 false 	 false 	 false
+$166. (workers.(~workers)) 	 false 	 false 	 false
+$167. (workers.univ) 	 false 	 false 	 false
+$168. (workers.Worker) 	 false 	 false 	 false
+$169. (workstation&(workstation.succ)) 	 false 	 false 	 false
+$170. (workstation+(workstation.succ)) 	 false 	 false 	 false
+$171. (Workstation-(Component.workstation)) 	 false 	 false 	 false
+$172. (Workstation-(succ.univ)) 	 false 	 false 	 false
+$173. (Workstation-(succ.Workstation)) 	 false 	 false 	 false
+$174. (Workstation-(univ.succ)) 	 false 	 false 	 false
+$175. (Workstation-(univ.workstation)) 	 false 	 false 	 false
+$176. (Workstation-(workers.univ)) 	 false 	 false 	 false
+$177. (Workstation-(workers.Worker)) 	 false 	 false 	 false
+$178. (Workstation-(Workstation.succ)) 	 false 	 false 	 false
+$179. (workstation-(workstation.succ)) 	 false 	 false 	 false
+$180. (workstation.(*succ)) 	 false 	 false 	 false
+$181. (workstation.(^succ)) 	 false 	 false 	 false
+$182. (workstation.(Component.workstation)) 	 false 	 false 	 false
+$183. (Workstation.(succ.succ)) 	 false 	 false 	 false
+$184. (workstation.(succ.succ)) 	 false 	 false 	 false
+$185. (workstation.(succ.univ)) 	 false 	 false 	 false
+$186. (Workstation.(succ.workers)) 	 false 	 false 	 false
+$187. (workstation.(succ.workers)) 	 false 	 false 	 false
+$188. (workstation.(succ.Workstation)) 	 false 	 false 	 false
+$189. (workstation.(univ.succ)) 	 false 	 false 	 false
+$190. (workstation.(univ.workstation)) 	 false 	 false 	 false
+$191. (workstation.(workers.univ)) 	 false 	 false 	 false
+$192. (workstation.(workers.Worker)) 	 false 	 false 	 false
+$193. (workstation.(Workstation.succ)) 	 false 	 false 	 false
+$194. (workstation.(~succ)) 	 false 	 false 	 false
+$195. (workstation.(~workstation)) 	 false 	 false 	 false
+$196. (Workstation.succ) 	 false 	 false 	 false
+$197. (workstation.succ) 	 false 	 false 	 false
+$198. (workstation.univ) 	 false 	 false 	 false
+$199. (Workstation.workers) 	 false 	 false 	 false
+$200. (workstation.workers) 	 false 	 false 	 false
+$201. (workstation.Workstation) 	 false 	 false 	 false
+$202. (~(parts.parts)) 	 false 	 false 	 false
+$203. (~(succ.succ)) 	 false 	 false 	 false
+$204. (~(succ.workers)) 	 false 	 false 	 false
+$205. (~(workstation.succ)) 	 false 	 false 	 false
+$206. (~(workstation.workers)) 	 false 	 false 	 false
+$207. (~parts) 	 false 	 false 	 false
+$208. (~succ) 	 false 	 false 	 false
+$209. (~workers) 	 false 	 false 	 false
+$210. (~workstation) 	 false 	 false 	 false
+$211. Component 	 false 	 false 	 false
+$212. Dangerous 	 false 	 false 	 false
+$213. Human 	 false 	 false 	 false
+$214. Int 	 false 	 false 	 false
+$215. Material 	 false 	 false 	 false
+$216. none 	 false 	 false 	 false
+$217. parts 	 false 	 false 	 false
+$218. Product 	 false 	 false 	 false
+$219. Robot 	 false 	 false 	 false
+$220. String 	 false 	 false 	 false
+$221. succ 	 false 	 false 	 false
+$222. univ 	 false 	 false 	 false
+$223. Worker 	 false 	 false 	 false
+$224. workers 	 false 	 false 	 false
+$225. Workstation 	 true 	 true 	 true
+$226. workstation 	 false 	 false 	 false
+Expected Completion word: Workstation
+Expected Completion line: Workstation {}
+Suggestion exists: true
+
+Suggestion in top 1 = false 
+Suggestion in top 5 = false 
+Suggestion in top 10 = false 
+
+Suggestion in top 1 (Alpha) = false
+Suggestion in top 5 (Alpha) = false
+Suggestion in top 10 (Alpha) = false
+
+Suggestion in top 1 (Len) = false
+Suggestion in top 5 (Len) = false
+Suggestion in top 10 (Len) = false
+
+Time taken: 29.294958

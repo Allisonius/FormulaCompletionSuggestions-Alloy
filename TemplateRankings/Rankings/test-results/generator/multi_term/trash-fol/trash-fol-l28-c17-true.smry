@@ -1,0 +1,203 @@
+Model name: trash-fol
+Filename: completion/trash-fol-complete.als
+Offset: 344
+Term:  -> 
+Vscode Position: line=27 character=17
+----------------------------------
+28 | 	link in File -> 
+----------------------------------
+Completion List:
+# Suggestion 	 Exact 	 Syntactic 	 Semantic
+$1. ((*link)-link) 	 false 	 false 	 false
+$2. ((*link).Protected) 	 false 	 false 	 false
+$3. ((*link).Trash) 	 false 	 false 	 false
+$4. ((^link)-link) 	 false 	 false 	 false
+$5. ((^link).Protected) 	 false 	 false 	 false
+$6. ((^link).Trash) 	 false 	 false 	 false
+$7. ((File-Protected)-Trash) 	 false 	 false 	 false
+$8. ((File-Protected).link) 	 false 	 false 	 false
+$9. ((File-Trash)-Protected) 	 false 	 false 	 false
+$10. ((File-Trash).link) 	 false 	 false 	 false
+$11. ((File.link)-Protected) 	 false 	 false 	 false
+$12. ((File.link)-Trash) 	 false 	 false 	 false
+$13. ((link.File)-Protected) 	 false 	 false 	 false
+$14. ((link.File)-Trash) 	 false 	 false 	 false
+$15. ((link.File).link) 	 false 	 false 	 false
+$16. ((link.link)-link) 	 false 	 false 	 false
+$17. ((link.Protected)-Protected) 	 false 	 false 	 false
+$18. ((link.Protected)-Trash) 	 false 	 false 	 false
+$19. ((link.Protected).link) 	 false 	 false 	 false
+$20. ((link.Trash)-Protected) 	 false 	 false 	 false
+$21. ((link.Trash)-Trash) 	 false 	 false 	 false
+$22. ((link.Trash).link) 	 false 	 false 	 false
+$23. ((link.univ)-Protected) 	 false 	 false 	 false
+$24. ((link.univ)-Trash) 	 false 	 false 	 false
+$25. ((link.univ).link) 	 false 	 false 	 false
+$26. ((Protected-Trash).link) 	 false 	 false 	 false
+$27. ((Protected.link)-Protected) 	 false 	 false 	 false
+$28. ((Protected.link)-Trash) 	 false 	 false 	 false
+$29. ((Trash&Protected).link) 	 false 	 false 	 false
+$30. ((Trash+Protected).link) 	 false 	 false 	 false
+$31. ((Trash-Protected).link) 	 false 	 false 	 false
+$32. ((Trash.link)-Protected) 	 false 	 false 	 false
+$33. ((Trash.link)-Trash) 	 false 	 false 	 false
+$34. ((univ.link)-Protected) 	 false 	 false 	 false
+$35. ((univ.link)-Trash) 	 false 	 false 	 false
+$36. ((~link)-link) 	 false 	 false 	 false
+$37. ((~link).File) 	 false 	 false 	 false
+$38. ((~link).link) 	 false 	 false 	 false
+$39. ((~link).Protected) 	 false 	 false 	 false
+$40. ((~link).Trash) 	 false 	 false 	 false
+$41. ((~link).univ) 	 false 	 false 	 false
+$42. (*(link.link)) 	 false 	 false 	 false
+$43. (*(~link)) 	 false 	 false 	 false
+$44. (*link) 	 false 	 false 	 false
+$45. (^(link.link)) 	 false 	 false 	 false
+$46. (^(~link)) 	 false 	 false 	 false
+$47. (^link) 	 false 	 false 	 false
+$48. (File-(File.link)) 	 false 	 false 	 false
+$49. (File-(link.File)) 	 false 	 false 	 false
+$50. (File-(link.Protected)) 	 false 	 false 	 false
+$51. (File-(link.Trash)) 	 false 	 false 	 false
+$52. (File-(link.univ)) 	 false 	 false 	 false
+$53. (File-(Protected-Trash)) 	 false 	 false 	 false
+$54. (File-(Protected.link)) 	 false 	 false 	 false
+$55. (File-(Trash&Protected)) 	 false 	 false 	 false
+$56. (File-(Trash-Protected)) 	 false 	 false 	 false
+$57. (File-(Trash.link)) 	 false 	 false 	 false
+$58. (File-(univ.link)) 	 false 	 false 	 false
+$59. (File-Protected) 	 false 	 false 	 false
+$60. (File-Trash) 	 false 	 false 	 false
+$61. (File.(link.link)) 	 false 	 false 	 false
+$62. (File.link) 	 false 	 false 	 false
+$63. (link&(link.link)) 	 false 	 false 	 false
+$64. (link&(~link)) 	 false 	 false 	 false
+$65. (link+(link.link)) 	 false 	 false 	 false
+$66. (link+(~link)) 	 false 	 false 	 false
+$67. (link-(link.link)) 	 false 	 false 	 false
+$68. (link-(~link)) 	 false 	 false 	 false
+$69. (link.(^link)) 	 false 	 false 	 false
+$70. (link.(File-Protected)) 	 false 	 false 	 false
+$71. (link.(File-Trash)) 	 false 	 false 	 false
+$72. (link.(File.link)) 	 false 	 false 	 false
+$73. (link.(link.File)) 	 false 	 false 	 false
+$74. (link.(link.link)) 	 false 	 false 	 false
+$75. (link.(link.Protected)) 	 false 	 false 	 false
+$76. (link.(link.Trash)) 	 false 	 false 	 false
+$77. (link.(link.univ)) 	 false 	 false 	 false
+$78. (link.(Protected-Trash)) 	 false 	 false 	 false
+$79. (link.(Protected.link)) 	 false 	 false 	 false
+$80. (link.(Trash&Protected)) 	 false 	 false 	 false
+$81. (link.(Trash+Protected)) 	 false 	 false 	 false
+$82. (link.(Trash-Protected)) 	 false 	 false 	 false
+$83. (link.(Trash.link)) 	 false 	 false 	 false
+$84. (link.(univ.link)) 	 false 	 false 	 false
+$85. (link.(~link)) 	 false 	 false 	 false
+$86. (link.File) 	 false 	 false 	 false
+$87. (link.link) 	 false 	 false 	 false
+$88. (link.Protected) 	 false 	 false 	 false
+$89. (link.Trash) 	 false 	 false 	 false
+$90. (link.univ) 	 false 	 false 	 false
+$91. (none->none) 	 false 	 false 	 false
+$92. (none->none->none) 	 false 	 false 	 false
+$93. (Protected&(File-Protected)) 	 false 	 false 	 false
+$94. (Protected&(File-Trash)) 	 false 	 false 	 false
+$95. (Protected&(File.link)) 	 false 	 false 	 false
+$96. (Protected&(link.File)) 	 false 	 false 	 false
+$97. (Protected&(link.Protected)) 	 false 	 false 	 false
+$98. (Protected&(link.Trash)) 	 false 	 false 	 false
+$99. (Protected&(link.univ)) 	 false 	 false 	 false
+$100. (Protected&(Protected-Trash)) 	 false 	 false 	 false
+$101. (Protected&(Protected.link)) 	 false 	 false 	 false
+$102. (Protected&(Trash-Protected)) 	 false 	 false 	 false
+$103. (Protected&(Trash.link)) 	 false 	 false 	 false
+$104. (Protected&(univ.link)) 	 false 	 false 	 false
+$105. (Protected+(File-Trash)) 	 false 	 false 	 false
+$106. (Protected+(File.link)) 	 false 	 false 	 false
+$107. (Protected+(link.File)) 	 false 	 false 	 false
+$108. (Protected+(link.Protected)) 	 false 	 false 	 false
+$109. (Protected+(link.Trash)) 	 false 	 false 	 false
+$110. (Protected+(link.univ)) 	 false 	 false 	 false
+$111. (Protected+(Protected.link)) 	 false 	 false 	 false
+$112. (Protected+(Trash.link)) 	 false 	 false 	 false
+$113. (Protected+(univ.link)) 	 false 	 false 	 false
+$114. (Protected-(File-Trash)) 	 false 	 false 	 false
+$115. (Protected-(File.link)) 	 false 	 false 	 false
+$116. (Protected-(link.File)) 	 false 	 false 	 false
+$117. (Protected-(link.Protected)) 	 false 	 false 	 false
+$118. (Protected-(link.Trash)) 	 false 	 false 	 false
+$119. (Protected-(link.univ)) 	 false 	 false 	 false
+$120. (Protected-(Protected.link)) 	 false 	 false 	 false
+$121. (Protected-(Trash.link)) 	 false 	 false 	 false
+$122. (Protected-(univ.link)) 	 false 	 false 	 false
+$123. (Protected-Trash) 	 false 	 false 	 false
+$124. (Protected.(*link)) 	 false 	 false 	 false
+$125. (Protected.(^link)) 	 false 	 false 	 false
+$126. (Protected.(link.link)) 	 false 	 false 	 false
+$127. (Protected.link) 	 false 	 false 	 false
+$128. (Trash&(File-Protected)) 	 false 	 false 	 false
+$129. (Trash&(File-Trash)) 	 false 	 false 	 false
+$130. (Trash&(File.link)) 	 false 	 false 	 false
+$131. (Trash&(link.File)) 	 false 	 false 	 false
+$132. (Trash&(link.Protected)) 	 false 	 false 	 false
+$133. (Trash&(link.Trash)) 	 false 	 false 	 false
+$134. (Trash&(link.univ)) 	 false 	 false 	 false
+$135. (Trash&(Protected-Trash)) 	 false 	 false 	 false
+$136. (Trash&(Protected.link)) 	 false 	 false 	 false
+$137. (Trash&(Trash-Protected)) 	 false 	 false 	 false
+$138. (Trash&(Trash.link)) 	 false 	 false 	 false
+$139. (Trash&(univ.link)) 	 false 	 false 	 false
+$140. (Trash&Protected) 	 false 	 false 	 false
+$141. (Trash+(File-Protected)) 	 false 	 false 	 false
+$142. (Trash+(File.link)) 	 false 	 false 	 false
+$143. (Trash+(link.File)) 	 false 	 false 	 false
+$144. (Trash+(link.Protected)) 	 false 	 false 	 false
+$145. (Trash+(link.Trash)) 	 false 	 false 	 false
+$146. (Trash+(link.univ)) 	 false 	 false 	 false
+$147. (Trash+(Protected.link)) 	 false 	 false 	 false
+$148. (Trash+(Trash.link)) 	 false 	 false 	 false
+$149. (Trash+(univ.link)) 	 false 	 false 	 false
+$150. (Trash+Protected) 	 false 	 false 	 false
+$151. (Trash-(File-Protected)) 	 false 	 false 	 false
+$152. (Trash-(File.link)) 	 false 	 false 	 false
+$153. (Trash-(link.File)) 	 false 	 false 	 false
+$154. (Trash-(link.Protected)) 	 false 	 false 	 false
+$155. (Trash-(link.Trash)) 	 false 	 false 	 false
+$156. (Trash-(link.univ)) 	 false 	 false 	 false
+$157. (Trash-(Protected.link)) 	 false 	 false 	 false
+$158. (Trash-(Trash.link)) 	 false 	 false 	 false
+$159. (Trash-(univ.link)) 	 false 	 false 	 false
+$160. (Trash-Protected) 	 false 	 false 	 false
+$161. (Trash.(*link)) 	 false 	 false 	 false
+$162. (Trash.(^link)) 	 false 	 false 	 false
+$163. (Trash.(link.link)) 	 false 	 false 	 false
+$164. (Trash.link) 	 false 	 false 	 false
+$165. (univ.(link.link)) 	 false 	 false 	 false
+$166. (univ.link) 	 false 	 false 	 false
+$167. (~(link.link)) 	 false 	 false 	 false
+$168. (~link) 	 false 	 false 	 false
+$169. File 	 true 	 true 	 true
+$170. Int 	 false 	 false 	 false
+$171. link 	 false 	 false 	 false
+$172. none 	 false 	 false 	 false
+$173. Protected 	 false 	 false 	 false
+$174. String 	 false 	 false 	 false
+$175. Trash 	 false 	 false 	 false
+$176. univ 	 false 	 false 	 false
+Expected Completion word: lone
+Expected Completion line: lone File
+Suggestion exists: true
+
+Suggestion in top 1 = false 
+Suggestion in top 5 = false 
+Suggestion in top 10 = false 
+
+Suggestion in top 1 (Alpha) = false
+Suggestion in top 5 (Alpha) = false
+Suggestion in top 10 (Alpha) = false
+
+Suggestion in top 1 (Len) = false
+Suggestion in top 5 (Len) = false
+Suggestion in top 10 (Len) = false
+
+Time taken: 11.135833

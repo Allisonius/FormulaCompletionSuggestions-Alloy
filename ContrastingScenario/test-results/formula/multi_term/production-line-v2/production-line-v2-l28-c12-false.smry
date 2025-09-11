@@ -1,0 +1,35 @@
+Model name: production-line-v2
+Filename: completion/production-line-v2-complete.als
+Offset: 507
+Term:  in 
+Vscode Position: line=27 character=12
+----------------------------------
+28 | 	workers in 
+----------------------------------
+Completion List:
+# Suggestion 	 Exact 	 Syntactic 	 Semantic
+$1. *succ.workers 	 false 	 false 	 false
+$2. Workstation -> Worker 	 false 	 false 	 false
+$3. ^succ.workers 	 false 	 false 	 false
+$4. begin -> Worker 	 false 	 false 	 false
+$5. end -> Worker 	 false 	 false 	 false
+$6. succ.workers 	 false 	 false 	 false
+$7. workers 	 false 	 false 	 false
+$8. ~succ.workers 	 false 	 false 	 false
+Expected Completion word: Workstation
+Expected Completion line: Workstation one -> some Worker
+Suggestion exists: false
+
+Suggestion in top 1 = false 
+Suggestion in top 5 = false 
+Suggestion in top 10 = false 
+
+Suggestion in top 1 (Alpha) = false
+Suggestion in top 5 (Alpha) = false
+Suggestion in top 10 (Alpha) = false
+
+Suggestion in top 1 (Len) = false
+Suggestion in top 5 (Len) = false
+Suggestion in top 10 (Len) = false
+
+Time taken: 29.907125

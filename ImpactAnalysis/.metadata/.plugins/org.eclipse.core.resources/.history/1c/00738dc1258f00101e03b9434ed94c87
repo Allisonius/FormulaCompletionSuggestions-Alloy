@@ -1,0 +1,8 @@
+modelname,filename,position-line,position-character,incompleteline,removedtext,baseline,suggestionedExpression,A_iff_B,A_and_B,not_A_and_B,A_and_not_B,not_A_and_not_B,suggestionImpactTime
+classroom-rl,completion/classroom-rl-complete.als,49,30,"all c : Class | lone Teaches.","c & Teacher","{}","\tall c : Class | lone Teaches.c",true,true,false,true,false,12.852542
+classroom-rl,completion/classroom-rl-complete.als,49,30,"all c : Class | lone Teaches.","c & Teacher","{}","\tall c : Class | lone Teaches.Class",true,true,false,true,false,12.852542
+classroom-rl,completion/classroom-rl-complete.als,49,30,"all c : Class | lone Teaches.","c & Teacher","{}","\tall c : Class | lone Teaches.Groups",true,true,false,true,false,12.852542
+classroom-rl,completion/classroom-rl-complete.als,49,30,"all c : Class | lone Teaches.","c & Teacher","{}","\tall c : Class | lone Teaches.*Tutors",true,true,false,true,false,12.852542
+classroom-rl,completion/classroom-rl-complete.als,49,30,"all c : Class | lone Teaches.","c & Teacher","{}","\tall c : Class | lone Teaches.iden",true,true,false,true,false,12.852542
+classroom-rl,completion/classroom-rl-complete.als,49,30,"all c : Class | lone Teaches.","c & Teacher","{}","\tall c : Class | lone Teaches.none",true,true,false,false,false,12.852542
+classroom-rl,completion/classroom-rl-complete.als,49,30,"all c : Class | lone Teaches.","c & Teacher","{}","\tall c : Class | lone Teaches.univ",true,true,false,true,false,12.852542

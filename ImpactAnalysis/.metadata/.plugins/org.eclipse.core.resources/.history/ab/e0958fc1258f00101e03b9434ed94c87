@@ -1,0 +1,8 @@
+modelname,filename,position-line,position-character,incompleteline,removedtext,baseline,suggestionedExpression,A_iff_B,A_and_B,not_A_and_B,A_and_not_B,not_A_and_not_B,suggestionImpactTime
+courses-v1,completion/courses-v1-complete.als,27,9,"teaches.","Course in Professor","{}","\tteaches.Course",,,,,,13.284333
+courses-v1,completion/courses-v1-complete.als,27,9,"teaches.","Course in Professor","{}","\tteaches.grades",,,,,,13.284333
+courses-v1,completion/courses-v1-complete.als,27,9,"teaches.","Course in Professor","{}","\tteaches.projects",,,,,,13.284333
+courses-v1,completion/courses-v1-complete.als,27,9,"teaches.","Course in Professor","{}","\tteaches.~enrolled",,,,,,13.284333
+courses-v1,completion/courses-v1-complete.als,27,9,"teaches.","Course in Professor","{}","\tteaches.iden",,,,,,13.284333
+courses-v1,completion/courses-v1-complete.als,27,9,"teaches.","Course in Professor","{}","\tteaches.none",,,,,,13.284333
+courses-v1,completion/courses-v1-complete.als,27,9,"teaches.","Course in Professor","{}","\tteaches.univ",,,,,,13.284333

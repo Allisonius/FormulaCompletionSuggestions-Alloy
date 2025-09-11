@@ -1,0 +1,110 @@
+// A launch configuration that launches the extension inside a new window
+// Use IntelliSense to learn about possible attributes.
+// Hover to view descriptions of existing attributes.
+// For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "Extension",
+      "type": "extensionHost",
+      "request": "launch",
+      "args": ["--extensionDevelopmentPath=${workspaceFolder}"],
+      "preLaunchTask": "npm: compile"
+    },
+    {
+      "name": "Extension: Server Debug",
+      "type": "extensionHost",
+      "request": "launch",
+      "args": ["--extensionDevelopmentPath=${workspaceFolder}"],
+      "preLaunchTask": "npm: compile",
+      "env": {
+        "SERVER_DEBUG": "true"
+      }
+    },
+    {
+      "name": "E2E Test: Completion - DEBUG",
+      "type": "extensionHost",
+      "request": "launch",
+      "runtimeExecutable": "${execPath}",
+      "args": [
+        "--extensionDevelopmentPath=${workspaceRoot}",
+        "--extensionTestsPath=${workspaceRoot}/client/out/test/multi-term-tests.js",
+        "${workspaceRoot}/client/testFixture"
+      ],
+      "outFiles": ["${workspaceRoot}/client/out/test/**/*.js"],
+      "preLaunchTask": "npm: compile",
+      "env": {
+        "SERVER_DEBUG": "true"
+      }
+    },
+    {
+      "name": "E2E Test: Formula Completion",
+      "type": "extensionHost",
+      "request": "launch",
+      "runtimeExecutable": "${execPath}",
+      "args": [
+        "--extensionDevelopmentPath=${workspaceRoot}",
+        "--extensionTestsPath=${workspaceRoot}/client/out/test/multi-term-tests.js",
+        "${workspaceRoot}/client/testFixture"
+      ],
+      "outFiles": ["${workspaceRoot}/client/out/test/**/*.js"],
+      "preLaunchTask": "npm: compile"
+    },
+    {
+      "name": "E2E Test: Generator Completion",
+      "type": "extensionHost",
+      "request": "launch",
+      "runtimeExecutable": "${execPath}",
+      "args": [
+        "--extensionDevelopmentPath=${workspaceRoot}",
+        "--extensionTestsPath=${workspaceRoot}/client/out/test/multi-term-tests.js",
+        "${workspaceRoot}/client/testFixture"
+      ],
+      "outFiles": ["${workspaceRoot}/client/out/test/**/*.js"],
+      "preLaunchTask": "npm: compile",
+      "env": {
+        "GENERATOR_COMPLETION": "true"
+      }
+    },
+    {
+      "name": "E2E Test: Error Checking",
+      "type": "extensionHost",
+      "request": "launch",
+      "runtimeExecutable": "${execPath}",
+      "args": [
+        "--extensionDevelopmentPath=${workspaceRoot}",
+        "--extensionTestsPath=${workspaceRoot}/client/out/test/error-checking-runner.js",
+        "${workspaceRoot}/client/testFixture"
+      ],
+      "outFiles": ["${workspaceRoot}/client/out/test/**/*.js"],
+      "preLaunchTask": "npm: compile"
+    },
+    {
+      "name": "Sample Test",
+      "type": "extensionHost",
+      "request": "launch",
+      "runtimeExecutable": "${execPath}",
+      "args": [
+        "--extensionDevelopmentPath=${workspaceRoot}",
+        "--extensionTestsPath=${workspaceRoot}/client/out/test/sample-index.js",
+        "${workspaceRoot}/client/testFixture"
+      ],
+      "outFiles": ["${workspaceRoot}/client/out/test/**/*.js"]
+      // "preLaunchTask": "npm: compile"
+    },
+    {
+      "type": "node",
+      "request": "launch",
+      "name": "Unit Tests",
+      "program": "${workspaceRoot}/node_modules/mocha/bin/_mocha",
+      "cwd": "${workspaceFolder}/client",
+      "args": [
+        "--require",
+        "ts-node/register",
+        "${workspaceFolder}/client/src/test/**/*.spec.ts"
+      ],
+      "internalConsoleOptions": "openOnSessionStart"
+    }
+  ]
+}

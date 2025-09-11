@@ -1,0 +1,44 @@
+Model name: courses-v2
+Filename: completion/courses-v2-complete.als
+Offset: 2557
+Term:  + 
+Vscode Position: line=92 character=161
+----------------------------------
+93 | 	all c : Course , p : c.projects , disj x , y : (Person <: projects).p | some c.grades[x] and some c.grades[y] implies c.grades[x] in c.grades[y].(prev + iden + 
+----------------------------------
+Completion List:
+# Suggestion 	 Exact 	 Syntactic 	 Semantic
+$1. Course 	 false 	 undefined 	 undefined
+$2. Grade 	 false 	 undefined 	 undefined
+$3. Person 	 false 	 undefined 	 undefined
+$4. Professor 	 false 	 undefined 	 undefined
+$5. Project 	 false 	 undefined 	 undefined
+$6. Student 	 false 	 undefined 	 undefined
+$7. enrolled 	 false 	 undefined 	 undefined
+$8. grades 	 false 	 undefined 	 undefined
+$9. projects 	 false 	 undefined 	 undefined
+$10. teaches 	 false 	 undefined 	 undefined
+$11. ~enrolled 	 false 	 undefined 	 undefined
+$12. ~projects 	 false 	 undefined 	 undefined
+$13. ~teaches 	 false 	 undefined 	 undefined
+$14. Int 	 false 	 undefined 	 undefined
+$15. String 	 false 	 undefined 	 undefined
+$16. none 	 false 	 undefined 	 undefined
+$17. univ 	 false 	 undefined 	 undefined
+Expected Completion word: next
+Expected Completion line: next)
+Suggestion exists: false
+
+Suggestion in top 1 = false 
+Suggestion in top 5 = false 
+Suggestion in top 10 = false 
+
+Suggestion in top 1 (Alpha) = false
+Suggestion in top 5 (Alpha) = false
+Suggestion in top 10 (Alpha) = false
+
+Suggestion in top 1 (Len) = false
+Suggestion in top 5 (Len) = false
+Suggestion in top 10 (Len) = false
+
+Time taken: 32.126459

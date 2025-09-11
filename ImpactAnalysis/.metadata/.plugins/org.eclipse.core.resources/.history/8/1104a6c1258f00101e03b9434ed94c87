@@ -1,0 +1,16 @@
+modelname,filename,position-line,position-character,incompleteline,removedtext,baseline,suggestionedExpression,A_iff_B,A_and_B,not_A_and_B,A_and_not_B,not_A_and_not_B,suggestionImpactTime
+production-line-v2,completion/production-line-v2-sig.als,19,17,"sig Dangerous in","Product {}","{}","sig Dangerous in Component",,,,,,4.051583
+production-line-v2,completion/production-line-v2-sig.als,19,17,"sig Dangerous in","Product {}","{}","sig Dangerous in Human",,,,,,4.051583
+production-line-v2,completion/production-line-v2-sig.als,19,17,"sig Dangerous in","Product {}","{}","sig Dangerous in Material",,,,,,4.051583
+production-line-v2,completion/production-line-v2-sig.als,19,17,"sig Dangerous in","Product {}","{}","sig Dangerous in Product",,,,,,4.051583
+production-line-v2,completion/production-line-v2-sig.als,19,17,"sig Dangerous in","Product {}","{}","sig Dangerous in Robot",,,,,,4.051583
+production-line-v2,completion/production-line-v2-sig.als,19,17,"sig Dangerous in","Product {}","{}","sig Dangerous in Worker",,,,,,4.051583
+production-line-v2,completion/production-line-v2-sig.als,19,17,"sig Dangerous in","Product {}","{}","sig Dangerous in Workstation",,,,,,4.051583
+production-line-v2,completion/production-line-v2-sig.als,19,17,"sig Dangerous in","Product {}","{}","sig Dangerous in begin",,,,,,4.051583
+production-line-v2,completion/production-line-v2-sig.als,19,17,"sig Dangerous in","Product {}","{}","sig Dangerous in end",,,,,,4.051583
+production-line-v2,completion/production-line-v2-sig.als,19,17,"sig Dangerous in","Product {}","{}","sig Dangerous in Int",,,,,,4.051583
+production-line-v2,completion/production-line-v2-sig.als,19,17,"sig Dangerous in","Product {}","{}","sig Dangerous in String",,,,,,4.051583
+production-line-v2,completion/production-line-v2-sig.als,19,17,"sig Dangerous in","Product {}","{}","sig Dangerous in seq/Int",,,,,,4.051583
+production-line-v2,completion/production-line-v2-sig.als,19,17,"sig Dangerous in","Product {}","{}","sig Dangerous in iden",,,,,,4.051583
+production-line-v2,completion/production-line-v2-sig.als,19,17,"sig Dangerous in","Product {}","{}","sig Dangerous in none",,,,,,4.051583
+production-line-v2,completion/production-line-v2-sig.als,19,17,"sig Dangerous in","Product {}","{}","sig Dangerous in univ",,,,,,4.051583

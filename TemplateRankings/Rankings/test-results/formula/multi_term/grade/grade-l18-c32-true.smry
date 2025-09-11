@@ -1,0 +1,38 @@
+Model name: grade
+Filename: completion/grade-complete.als
+Offset: 322
+Term: .
+Vscode Position: line=17 character=32
+----------------------------------
+18 | 	s in c.assistant_for || s in c.
+----------------------------------
+Completion List:
+# Suggestion 	 Exact 	 Syntactic 	 Semantic
+$1. assistant_for.Student 	 false 	 undefined 	 undefined
+$2. instructor_of.Professor 	 false 	 undefined 	 undefined
+$3. ~associated_with.Assignment 	 false 	 undefined 	 undefined
+$4. assistant_for 	 false 	 undefined 	 undefined
+$5. assistant_for.univ 	 false 	 undefined 	 undefined
+$6. assistant_for.~assigned_to 	 false 	 undefined 	 undefined
+$7. instructor_of 	 true 	 undefined 	 undefined
+$8. instructor_of.univ 	 false 	 undefined 	 undefined
+$9. ~associated_with.assigned_to 	 false 	 undefined 	 undefined
+$10. ~associated_with 	 false 	 undefined 	 undefined
+$11. ~associated_with.univ 	 false 	 undefined 	 undefined
+Expected Completion word: instructor_of
+Expected Completion line: instructor_of
+Suggestion exists: true
+
+Suggestion in top 1 = false 
+Suggestion in top 5 = false 
+Suggestion in top 10 = true 
+
+Suggestion in top 1 (Alpha) = false
+Suggestion in top 5 (Alpha) = false
+Suggestion in top 10 (Alpha) = true
+
+Suggestion in top 1 (Len) = false
+Suggestion in top 5 (Len) = true
+Suggestion in top 10 (Len) = true
+
+Time taken: 7.816542

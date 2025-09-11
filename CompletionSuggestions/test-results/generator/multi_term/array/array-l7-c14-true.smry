@@ -1,0 +1,53 @@
+Model name: array
+Filename: completion/array-sig.als
+Offset: 144
+Term:  -> 
+Vscode Position: line=6 character=14
+----------------------------------
+7 |   i2e: Int -> 
+----------------------------------
+Completion List:
+# Suggestion 	 Exact 	 Syntactic 	 Semantic
+$1. ((length.Int).length) 	 false 	 false 	 false
+$2. ((length.univ).length) 	 false 	 false 	 false
+$3. ((~length).Array) 	 false 	 false 	 false
+$4. ((~length).length) 	 false 	 false 	 false
+$5. ((~length).univ) 	 false 	 false 	 false
+$6. (Array-(length.Int)) 	 false 	 false 	 false
+$7. (Array-(length.univ)) 	 false 	 false 	 false
+$8. (Array.length) 	 false 	 false 	 false
+$9. (Int-(Array.length)) 	 false 	 false 	 false
+$10. (Int-(univ.length)) 	 false 	 false 	 false
+$11. (length.(Array.length)) 	 false 	 false 	 false
+$12. (length.(univ.length)) 	 false 	 false 	 false
+$13. (length.(~length)) 	 false 	 false 	 false
+$14. (length.Int) 	 false 	 false 	 false
+$15. (length.univ) 	 false 	 false 	 false
+$16. (none->none) 	 false 	 false 	 false
+$17. (none->none->none) 	 false 	 false 	 false
+$18. (univ.length) 	 false 	 false 	 false
+$19. (~length) 	 false 	 false 	 false
+$20. Array 	 false 	 false 	 false
+$21. Element 	 true 	 true 	 true
+$22. Int 	 false 	 false 	 false
+$23. length 	 false 	 false 	 false
+$24. none 	 false 	 false 	 false
+$25. String 	 false 	 false 	 false
+$26. univ 	 false 	 false 	 false
+Expected Completion word: Element
+Expected Completion line: Element
+Suggestion exists: true
+
+Suggestion in top 1 = false 
+Suggestion in top 5 = false 
+Suggestion in top 10 = false 
+
+Suggestion in top 1 (Alpha) = false
+Suggestion in top 5 (Alpha) = false
+Suggestion in top 10 (Alpha) = false
+
+Suggestion in top 1 (Len) = false
+Suggestion in top 5 (Len) = false
+Suggestion in top 10 (Len) = true
+
+Time taken: 271.237458

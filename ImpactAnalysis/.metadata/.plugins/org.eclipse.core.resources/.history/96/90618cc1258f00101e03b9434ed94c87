@@ -1,0 +1,11 @@
+modelname,filename,position-line,position-character,incompleteline,removedtext,baseline,suggestionedExpression,A_iff_B,A_and_B,not_A_and_B,A_and_not_B,not_A_and_not_B,suggestionImpactTime
+classroom-rl,completion/classroom-rl-sig.als,12,20,"sig Teacher extends","Person  {}","{}","sig Teacher extends Class",,,,,,3.52225
+classroom-rl,completion/classroom-rl-sig.als,12,20,"sig Teacher extends","Person  {}","{}","sig Teacher extends Group",,,,,,3.52225
+classroom-rl,completion/classroom-rl-sig.als,12,20,"sig Teacher extends","Person  {}","{}","sig Teacher extends Person",,,,,,3.52225
+classroom-rl,completion/classroom-rl-sig.als,12,20,"sig Teacher extends","Person  {}","{}","sig Teacher extends Student",,,,,,3.52225
+classroom-rl,completion/classroom-rl-sig.als,12,20,"sig Teacher extends","Person  {}","{}","sig Teacher extends Int",,,,,,3.52225
+classroom-rl,completion/classroom-rl-sig.als,12,20,"sig Teacher extends","Person  {}","{}","sig Teacher extends String",,,,,,3.52225
+classroom-rl,completion/classroom-rl-sig.als,12,20,"sig Teacher extends","Person  {}","{}","sig Teacher extends seq/Int",,,,,,3.52225
+classroom-rl,completion/classroom-rl-sig.als,12,20,"sig Teacher extends","Person  {}","{}","sig Teacher extends iden",,,,,,3.52225
+classroom-rl,completion/classroom-rl-sig.als,12,20,"sig Teacher extends","Person  {}","{}","sig Teacher extends none",,,,,,3.52225
+classroom-rl,completion/classroom-rl-sig.als,12,20,"sig Teacher extends","Person  {}","{}","sig Teacher extends univ",,,,,,3.52225

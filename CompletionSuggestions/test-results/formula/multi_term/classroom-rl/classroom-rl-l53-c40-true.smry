@@ -1,0 +1,73 @@
+Model name: classroom-rl
+Filename: completion/classroom-rl-complete.als
+Offset: 617
+Term: .
+Vscode Position: line=52 character=40
+----------------------------------
+53 | 	all c : Class, s : Student | some s.(c.
+----------------------------------
+Completion List:
+# Suggestion 	 Exact 	 Syntactic 	 Semantic
+$1. *Tutors.s 	 false 	 undefined 	 undefined
+$2. Teaches.c 	 false 	 undefined 	 undefined
+$3. Tutors.s 	 false 	 undefined 	 undefined
+$4. ^Tutors.s 	 false 	 undefined 	 undefined
+$5. ~Teaches.s 	 false 	 undefined 	 undefined
+$6. ~Tutors.s 	 false 	 undefined 	 undefined
+$7. *Tutors.Person 	 false 	 undefined 	 undefined
+$8. *Tutors.Student 	 false 	 undefined 	 undefined
+$9. *Tutors.Teacher 	 false 	 undefined 	 undefined
+$10. Groups.Group 	 false 	 undefined 	 undefined
+$11. Teaches.Class 	 false 	 undefined 	 undefined
+$12. Tutors.Person 	 false 	 undefined 	 undefined
+$13. Tutors.Student 	 false 	 undefined 	 undefined
+$14. Tutors.Teacher 	 false 	 undefined 	 undefined
+$15. ^Tutors.Person 	 false 	 undefined 	 undefined
+$16. ^Tutors.Student 	 false 	 undefined 	 undefined
+$17. ^Tutors.Teacher 	 false 	 undefined 	 undefined
+$18. ~Teaches.Person 	 false 	 undefined 	 undefined
+$19. ~Teaches.Student 	 false 	 undefined 	 undefined
+$20. ~Teaches.Teacher 	 false 	 undefined 	 undefined
+$21. ~Tutors.Person 	 false 	 undefined 	 undefined
+$22. ~Tutors.Student 	 false 	 undefined 	 undefined
+$23. ~Tutors.Teacher 	 false 	 undefined 	 undefined
+$24. *Tutors.Teaches 	 false 	 undefined 	 undefined
+$25. Groups 	 true 	 undefined 	 undefined
+$26. Groups.univ 	 false 	 undefined 	 undefined
+$27. Teaches 	 false 	 undefined 	 undefined
+$28. Teaches.Groups 	 false 	 undefined 	 undefined
+$29. Teaches.univ 	 false 	 undefined 	 undefined
+$30. Tutors 	 false 	 undefined 	 undefined
+$31. Tutors.Teaches 	 false 	 undefined 	 undefined
+$32. Tutors.univ 	 false 	 undefined 	 undefined
+$33. ^Tutors.Teaches 	 false 	 undefined 	 undefined
+$34. ~Teaches.Tutors 	 false 	 undefined 	 undefined
+$35. ~Tutors.Teaches 	 false 	 undefined 	 undefined
+$36. ~Teaches 	 false 	 undefined 	 undefined
+$37. ~Teaches.*Tutors 	 false 	 undefined 	 undefined
+$38. ~Teaches.^Tutors 	 false 	 undefined 	 undefined
+$39. ~Teaches.univ 	 false 	 undefined 	 undefined
+$40. ~Teaches.~Tutors 	 false 	 undefined 	 undefined
+$41. ~Tutors 	 false 	 undefined 	 undefined
+$42. ~Tutors.univ 	 false 	 undefined 	 undefined
+$43. ^Tutors 	 false 	 undefined 	 undefined
+$44. ^Tutors.univ 	 false 	 undefined 	 undefined
+$45. *Tutors 	 false 	 undefined 	 undefined
+$46. *Tutors.univ 	 false 	 undefined 	 undefined
+Expected Completion word: Groups
+Expected Completion line: Groups)
+Suggestion exists: true
+
+Suggestion in top 1 = false 
+Suggestion in top 5 = false 
+Suggestion in top 10 = false 
+
+Suggestion in top 1 (Alpha) = false
+Suggestion in top 5 (Alpha) = false
+Suggestion in top 10 (Alpha) = false
+
+Suggestion in top 1 (Len) = true
+Suggestion in top 5 (Len) = true
+Suggestion in top 10 (Len) = true
+
+Time taken: 16.970625
