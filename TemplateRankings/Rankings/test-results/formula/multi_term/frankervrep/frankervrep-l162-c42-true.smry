@@ -1,0 +1,47 @@
+Model name: frankervrep
+Filename: completion/frankenvrep-sig.als
+Offset: 3809
+Term: .
+Vscode Position: line=161 character=42
+----------------------------------
+162 | 	all p: Plugin | one r: RobotApp | p in r.
+----------------------------------
+Completion List:
+# Suggestion 	 Exact 	 Syntactic 	 Semantic
+$1. includes.p 	 false 	 undefined 	 undefined
+$2. includes.ButtonInterface 	 false 	 undefined 	 undefined
+$3. includes.ButtonInterface_instance 	 false 	 undefined 	 undefined
+$4. includes.Clutch_Plugin 	 false 	 undefined 	 undefined
+$5. includes.Clutch_instance 	 false 	 undefined 	 undefined
+$6. includes.DummyController 	 false 	 undefined 	 undefined
+$7. includes.GeomagicTouchPlugin_instance 	 false 	 undefined 	 undefined
+$8. includes.GeomagicTouch_plugin 	 false 	 undefined 	 undefined
+$9. includes.GrasperLimits 	 false 	 undefined 	 undefined
+$10. includes.HomePosition 	 false 	 undefined 	 undefined
+$11. includes.HomePosition_instance 	 false 	 undefined 	 undefined
+$12. includes.IKSolver_plugin 	 false 	 undefined 	 undefined
+$13. includes.Plugin 	 false 	 undefined 	 undefined
+$14. includes.Scale 	 false 	 undefined 	 undefined
+$15. includes.SolverPlugin 	 false 	 undefined 	 undefined
+$16. includes 	 true 	 undefined 	 undefined
+$17. includes.setButtonForPedal 	 false 	 undefined 	 undefined
+$18. includes.solverfamily 	 false 	 undefined 	 undefined
+$19. includes.univ 	 false 	 undefined 	 undefined
+$20. includes.~loads 	 false 	 undefined 	 undefined
+Expected Completion word: includes
+Expected Completion line: includes
+Suggestion exists: true
+
+Suggestion in top 1 = false 
+Suggestion in top 5 = false 
+Suggestion in top 10 = false 
+
+Suggestion in top 1 (Alpha) = true
+Suggestion in top 5 (Alpha) = true
+Suggestion in top 10 (Alpha) = true
+
+Suggestion in top 1 (Len) = true
+Suggestion in top 5 (Len) = true
+Suggestion in top 10 (Len) = true
+
+Time taken: 43.714166

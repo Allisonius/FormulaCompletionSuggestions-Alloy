@@ -1,0 +1,100 @@
+Model name: java_meta_model
+Filename: completion/java_meta_model-complete.als
+Offset: 6496
+Term: .
+Vscode Position: line=255 character=28
+----------------------------------
+256 |   one disj m1,m:Method | m1.
+----------------------------------
+Expected Completion word: id
+Expected Completion line: id = m.id && #m1.param = 0 && m.param = t1 && m1.b + m.b in LiteralValue && sameHierarchy[m1,m]
+Suggestion exists: true
+Completion List:
+# Suggestion 	 Exact 	 Syntactic 	 Semantic
+$1. param.t1 	 false 	 undefined 	 undefined
+$2. return.t1 	 false 	 undefined 	 undefined
+$3. ~methods.t1 	 false 	 undefined 	 undefined
+$4. acc.Accessibility 	 false 	 undefined 	 undefined
+$5. acc.private_ 	 false 	 undefined 	 undefined
+$6. acc.protected 	 false 	 undefined 	 undefined
+$7. acc.public 	 false 	 undefined 	 undefined
+$8. b.Body 	 false 	 undefined 	 undefined
+$9. b.ConstructorFieldInvocation 	 false 	 undefined 	 undefined
+$10. b.ConstructorMethodInvocation 	 false 	 undefined 	 undefined
+$11. b.FieldInvocation 	 false 	 undefined 	 undefined
+$12. b.LiteralValue 	 false 	 undefined 	 undefined
+$13. b.MethodInvocation 	 false 	 undefined 	 undefined
+$14. id.ClassId 	 false 	 undefined 	 undefined
+$15. id.FieldId 	 false 	 undefined 	 undefined
+$16. id.Id 	 false 	 undefined 	 undefined
+$17. id.MethodId 	 false 	 undefined 	 undefined
+$18. param.Class 	 false 	 undefined 	 undefined
+$19. param.Int_ 	 false 	 undefined 	 undefined
+$20. param.Long_ 	 false 	 undefined 	 undefined
+$21. param.PrimitiveType 	 false 	 undefined 	 undefined
+$22. param.Type 	 false 	 undefined 	 undefined
+$23. return.Class 	 false 	 undefined 	 undefined
+$24. return.Int_ 	 false 	 undefined 	 undefined
+$25. return.Long_ 	 false 	 undefined 	 undefined
+$26. return.PrimitiveType 	 false 	 undefined 	 undefined
+$27. return.Type 	 false 	 undefined 	 undefined
+$28. ~methods.Class 	 false 	 undefined 	 undefined
+$29. ~methods.Int_ 	 false 	 undefined 	 undefined
+$30. ~methods.Long_ 	 false 	 undefined 	 undefined
+$31. ~methods.PrimitiveType 	 false 	 undefined 	 undefined
+$32. ~methods.Type 	 false 	 undefined 	 undefined
+$33. acc 	 false 	 undefined 	 undefined
+$34. acc.univ 	 false 	 undefined 	 undefined
+$35. b 	 false 	 undefined 	 undefined
+$36. b.id 	 false 	 undefined 	 undefined
+$37. b.idClass 	 false 	 undefined 	 undefined
+$38. b.idClass2 	 false 	 undefined 	 undefined
+$39. b.idField 	 false 	 undefined 	 undefined
+$40. b.idMethod 	 false 	 undefined 	 undefined
+$41. b.q 	 false 	 undefined 	 undefined
+$42. b.qField 	 false 	 undefined 	 undefined
+$43. b.univ 	 false 	 undefined 	 undefined
+$44. id 	 true 	 undefined 	 undefined
+$45. id.univ 	 false 	 undefined 	 undefined
+$46. id.~idClass 	 false 	 undefined 	 undefined
+$47. id.~idClass2 	 false 	 undefined 	 undefined
+$48. id.~idField 	 false 	 undefined 	 undefined
+$49. id.~idMethod 	 false 	 undefined 	 undefined
+$50. param 	 false 	 undefined 	 undefined
+$51. param.*extend 	 false 	 undefined 	 undefined
+$52. param.^extend 	 false 	 undefined 	 undefined
+$53. param.extend 	 false 	 undefined 	 undefined
+$54. param.fields 	 false 	 undefined 	 undefined
+$55. param.id 	 false 	 undefined 	 undefined
+$56. param.methods 	 false 	 undefined 	 undefined
+$57. param.package 	 false 	 undefined 	 undefined
+$58. param.univ 	 false 	 undefined 	 undefined
+$59. param.~extend 	 false 	 undefined 	 undefined
+$60. param.~return 	 false 	 undefined 	 undefined
+$61. param.~type 	 false 	 undefined 	 undefined
+$62. return 	 false 	 undefined 	 undefined
+$63. return.*extend 	 false 	 undefined 	 undefined
+$64. return.^extend 	 false 	 undefined 	 undefined
+$65. return.extend 	 false 	 undefined 	 undefined
+$66. return.fields 	 false 	 undefined 	 undefined
+$67. return.id 	 false 	 undefined 	 undefined
+$68. return.methods 	 false 	 undefined 	 undefined
+$69. return.package 	 false 	 undefined 	 undefined
+$70. return.univ 	 false 	 undefined 	 undefined
+$71. return.~extend 	 false 	 undefined 	 undefined
+$72. return.~param 	 false 	 undefined 	 undefined
+$73. return.~type 	 false 	 undefined 	 undefined
+$74. ~methods.extend 	 false 	 undefined 	 undefined
+$75. ~methods.fields 	 false 	 undefined 	 undefined
+$76. ~methods.id 	 false 	 undefined 	 undefined
+$77. ~methods.package 	 false 	 undefined 	 undefined
+$78. ~methods 	 false 	 undefined 	 undefined
+$79. ~methods.*extend 	 false 	 undefined 	 undefined
+$80. ~methods.^extend 	 false 	 undefined 	 undefined
+$81. ~methods.univ 	 false 	 undefined 	 undefined
+$82. ~methods.~extend 	 false 	 undefined 	 undefined
+$83. ~methods.~param 	 false 	 undefined 	 undefined
+$84. ~methods.~return 	 false 	 undefined 	 undefined
+$85. ~methods.~type 	 false 	 undefined 	 undefined
+
+Time taken: 70.173625

@@ -1,0 +1,16 @@
+setButtonForPedal
+solverfamily
+~includes
+~loads
+setButtonForPedal.PedalButton
+setButtonForPedal.assigned
+setButtonForPedal.univ
+solverfamily.IKSolver_family
+solverfamily.SolverFamily
+solverfamily.calls
+solverfamily.univ
+~includes.RobotApp
+~includes.univ
+~loads.LoadedPlugins
+~loads.loaded_plugins_of_
+~loads.univ

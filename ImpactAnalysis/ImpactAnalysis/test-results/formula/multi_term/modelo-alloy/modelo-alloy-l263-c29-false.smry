@@ -1,0 +1,16 @@
+Model name: modelo-alloy
+Filename: completion/ModeloAlloy-complete.als
+Offset: 6605
+Term: .
+Vscode Position: line=262 character=29
+----------------------------------
+263 |       #(aP.advertisedProduct.
+----------------------------------
+Expected Completion word: undefined
+Expected Completion line: TargetSpecies &
+Suggestion exists: false
+Completion List:
+# Suggestion 	 Exact 	 Syntactic 	 Semantic
+
+
+Time taken: 35.361167

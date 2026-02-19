@@ -1,0 +1,16 @@
+Model name: git
+Filename: completion/git-complete.als
+Offset: 5764
+Term:  in 
+Vscode Position: line=275 character=23
+----------------------------------
+276 | 	{f : File |  f not in 
+----------------------------------
+Expected Completion word: undefined
+Expected Completion line: index.s and some f2 : File | f -> f2 in samepath and some f2.belongsTo.(HEAD[s]) and f2.content != f.content}	
+Suggestion exists: false
+Completion List:
+# Suggestion 	 Exact 	 Syntactic 	 Semantic
+
+
+Time taken: 68.556292

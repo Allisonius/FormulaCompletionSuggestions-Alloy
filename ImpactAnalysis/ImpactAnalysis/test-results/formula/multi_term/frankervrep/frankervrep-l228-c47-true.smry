@@ -1,0 +1,46 @@
+Model name: frankervrep
+Filename: completion/frankenvrep-sig.als
+Offset: 5337
+Term: .
+Vscode Position: line=227 character=47
+----------------------------------
+228 | 	all a: RobotControl.output | a not in ArmType.
+----------------------------------
+Completion List:
+# Suggestion 	 Exact 	 Syntactic 	 Semantic
+$1. anglelimit.a 	 false 	 undefined 	 undefined
+$2. anglelimit.ArmAngle 	 false 	 undefined 	 undefined
+$3. anglelimit.armangle 	 false 	 undefined 	 undefined
+$4. inverseKSolver.FrankenBot 	 false 	 undefined 	 undefined
+$5. inverseKSolver.KinematicModel 	 false 	 undefined 	 undefined
+$6. ~armModel.FrankenVREPArm 	 false 	 undefined 	 undefined
+$7. ~armModel.RobotArm 	 false 	 undefined 	 undefined
+$8. anglelimit 	 true 	 undefined 	 undefined
+$9. anglelimit.univ 	 false 	 undefined 	 undefined
+$10. anglelimit.~output 	 false 	 undefined 	 undefined
+$11. inverseKSolver 	 false 	 undefined 	 undefined
+$12. inverseKSolver.solverResult 	 false 	 undefined 	 undefined
+$13. inverseKSolver.univ 	 false 	 undefined 	 undefined
+$14. inverseKSolver.~calls 	 false 	 undefined 	 undefined
+$15. ~armModel.armside 	 false 	 undefined 	 undefined
+$16. ~armModel.effectorType 	 false 	 undefined 	 undefined
+$17. ~armModel 	 false 	 undefined 	 undefined
+$18. ~armModel.univ 	 false 	 undefined 	 undefined
+$19. ~armModel.~arms 	 false 	 undefined 	 undefined
+Expected Completion word: anglelimit
+Expected Completion line: anglelimit implies ProduceFeedback[a]
+Suggestion exists: true
+
+Suggestion in top 1 = false 
+Suggestion in top 5 = false 
+Suggestion in top 10 = true 
+
+Suggestion in top 1 (Alpha) = false
+Suggestion in top 5 (Alpha) = false
+Suggestion in top 10 (Alpha) = true
+
+Suggestion in top 1 (Len) = false
+Suggestion in top 5 (Len) = true
+Suggestion in top 10 (Len) = true
+
+Time taken: 40.081583

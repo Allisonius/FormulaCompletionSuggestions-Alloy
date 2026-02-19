@@ -1,0 +1,60 @@
+Model name: modelo-alloy
+Filename: completion/ModeloAlloy-complete.als
+Offset: 7805
+Term: .
+Vscode Position: line=300 character=17
+----------------------------------
+301 |     e1.eventDate.
+----------------------------------
+Expected Completion word: DayValue
+Expected Completion line: DayValue != e2.eventDate.DayValue
+Suggestion exists: true
+Completion List:
+# Suggestion 	 Exact 	 Syntactic 	 Semantic
+$1. ~eventDate.e1 	 false 	 undefined 	 undefined
+$2. ~eventDate.e2 	 false 	 undefined 	 undefined
+$3. ~publishedDate.e1 	 false 	 undefined 	 undefined
+$4. ~publishedDate.e2 	 false 	 undefined 	 undefined
+$5. ~eventDate.AdoptionAd 	 false 	 undefined 	 undefined
+$6. ~eventDate.Event 	 false 	 undefined 	 undefined
+$7. ~eventDate.NormalPost 	 false 	 undefined 	 undefined
+$8. ~eventDate.ProductAd 	 false 	 undefined 	 undefined
+$9. ~eventDate.Publication 	 false 	 undefined 	 undefined
+$10. ~publishedDate.AdoptionAd 	 false 	 undefined 	 undefined
+$11. ~publishedDate.Event 	 false 	 undefined 	 undefined
+$12. ~publishedDate.NormalPost 	 false 	 undefined 	 undefined
+$13. ~publishedDate.ProductAd 	 false 	 undefined 	 undefined
+$14. ~publishedDate.Publication 	 false 	 undefined 	 undefined
+$15. DayValue 	 true 	 undefined 	 undefined
+$16. DayValue.Int 	 false 	 undefined 	 undefined
+$17. DayValue.univ 	 false 	 undefined 	 undefined
+$18. ~eventDate.adoptPet 	 false 	 undefined 	 undefined
+$19. ~eventDate.advertisedProduct 	 false 	 undefined 	 undefined
+$20. ~eventDate.creator 	 false 	 undefined 	 undefined
+$21. ~eventDate.eventStatus 	 false 	 undefined 	 undefined
+$22. ~eventDate.location 	 false 	 undefined 	 undefined
+$23. ~eventDate.participants 	 false 	 undefined 	 undefined
+$24. ~eventDate.publishedDate 	 false 	 undefined 	 undefined
+$25. ~eventDate.publisher 	 false 	 undefined 	 undefined
+$26. ~eventDate.recommendedPets 	 false 	 undefined 	 undefined
+$27. ~eventDate.tagged 	 false 	 undefined 	 undefined
+$28. ~publishedDate.adoptPet 	 false 	 undefined 	 undefined
+$29. ~publishedDate.advertisedProduct 	 false 	 undefined 	 undefined
+$30. ~publishedDate.creator 	 false 	 undefined 	 undefined
+$31. ~publishedDate.eventDate 	 false 	 undefined 	 undefined
+$32. ~publishedDate.eventStatus 	 false 	 undefined 	 undefined
+$33. ~publishedDate.location 	 false 	 undefined 	 undefined
+$34. ~publishedDate.participants 	 false 	 undefined 	 undefined
+$35. ~publishedDate.publisher 	 false 	 undefined 	 undefined
+$36. ~publishedDate.recommendedPets 	 false 	 undefined 	 undefined
+$37. ~publishedDate.tagged 	 false 	 undefined 	 undefined
+$38. ~eventDate 	 false 	 undefined 	 undefined
+$39. ~eventDate.univ 	 false 	 undefined 	 undefined
+$40. ~eventDate.~commentedPost 	 false 	 undefined 	 undefined
+$41. ~eventDate.~posts 	 false 	 undefined 	 undefined
+$42. ~publishedDate 	 false 	 undefined 	 undefined
+$43. ~publishedDate.univ 	 false 	 undefined 	 undefined
+$44. ~publishedDate.~commentedPost 	 false 	 undefined 	 undefined
+$45. ~publishedDate.~posts 	 false 	 undefined 	 undefined
+
+Time taken: 31.996708

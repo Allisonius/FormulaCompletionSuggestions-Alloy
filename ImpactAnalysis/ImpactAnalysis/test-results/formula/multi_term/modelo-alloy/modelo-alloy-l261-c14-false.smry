@@ -1,0 +1,16 @@
+Model name: modelo-alloy
+Filename: completion/ModeloAlloy-complete.als
+Offset: 6484
+Term: .
+Vscode Position: line=260 character=14
+----------------------------------
+261 |     all m: aP.
+----------------------------------
+Expected Completion word: undefined
+Expected Completion line: recommendedPets | {
+Suggestion exists: false
+Completion List:
+# Suggestion 	 Exact 	 Syntactic 	 Semantic
+
+
+Time taken: 36.555125

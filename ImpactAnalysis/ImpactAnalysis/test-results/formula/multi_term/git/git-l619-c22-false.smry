@@ -1,0 +1,17 @@
+Model name: git
+Filename: completion/git-complete.als
+Offset: 14037
+Term:  - 
+Vscode Position: line=618 character=22
+----------------------------------
+619 | 	index.sp = index.s - 
+----------------------------------
+Expected Completion word: f
+Expected Completion line: f
+Suggestion exists: false
+Completion List:
+# Suggestion 	 Exact 	 Syntactic 	 Semantic
+$1. File -> State 	 false 	 undefined 	 undefined
+$2. index 	 false 	 undefined 	 undefined
+
+Time taken: 64.906084

@@ -1,0 +1,54 @@
+Model name: icd
+Filename: completion/icd-complete.als
+Offset: 2501
+Term: .
+Vscode Position: line=81 character=27
+----------------------------------
+82 |   ss.joules_to_deliver = s.
+----------------------------------
+Expected Completion word: network.joules_to_deliver
+Expected Completion line: network.joules_to_deliver and
+Suggestion exists: true
+Completion List:
+# Suggestion 	 Exact 	 Syntactic 	 Semantic
+$1. authorised_card.Principal 	 false 	 undefined 	 undefined
+$2. icd_mode.Mode 	 false 	 undefined 	 undefined
+$3. icd_mode.ModeOff 	 false 	 undefined 	 undefined
+$4. icd_mode.ModeOn 	 false 	 undefined 	 undefined
+$5. impulse_mode.Mode 	 false 	 undefined 	 undefined
+$6. impulse_mode.ModeOff 	 false 	 undefined 	 undefined
+$7. impulse_mode.ModeOn 	 false 	 undefined 	 undefined
+$8. joules_to_deliver.InitialJoulesToDeliver 	 false 	 undefined 	 undefined
+$9. joules_to_deliver.Joules 	 false 	 undefined 	 undefined
+$10. last_action.Action 	 false 	 undefined 	 undefined
+$11. last_action.AttackerAction 	 false 	 undefined 	 undefined
+$12. last_action.DummyInitialAction 	 false 	 undefined 	 undefined
+$13. last_action.RecvChangeSettings 	 false 	 undefined 	 undefined
+$14. last_action.RecvModeOn 	 false 	 undefined 	 undefined
+$15. last_action.SendChangeSettings 	 false 	 undefined 	 undefined
+$16. last_action.SendModeOn 	 false 	 undefined 	 undefined
+$17. network.ChangeSettingsMessage 	 false 	 undefined 	 undefined
+$18. network.Message 	 false 	 undefined 	 undefined
+$19. network.ModeOnMessage 	 false 	 undefined 	 undefined
+$20. authorised_card 	 false 	 undefined 	 undefined
+$21. authorised_card.roles 	 false 	 undefined 	 undefined
+$22. authorised_card.univ 	 false 	 undefined 	 undefined
+$23. authorised_card.~source 	 false 	 undefined 	 undefined
+$24. authorised_card.~who 	 false 	 undefined 	 undefined
+$25. icd_mode 	 false 	 undefined 	 undefined
+$26. icd_mode.univ 	 false 	 undefined 	 undefined
+$27. icd_mode.~impulse_mode 	 false 	 undefined 	 undefined
+$28. impulse_mode 	 false 	 undefined 	 undefined
+$29. impulse_mode.univ 	 false 	 undefined 	 undefined
+$30. impulse_mode.~icd_mode 	 false 	 undefined 	 undefined
+$31. joules_to_deliver 	 false 	 undefined 	 undefined
+$32. joules_to_deliver.univ 	 false 	 undefined 	 undefined
+$33. last_action 	 false 	 undefined 	 undefined
+$34. last_action.univ 	 false 	 undefined 	 undefined
+$35. last_action.who 	 false 	 undefined 	 undefined
+$36. network 	 false 	 undefined 	 undefined
+$37. network.joules_to_deliver 	 true 	 undefined 	 undefined
+$38. network.source 	 false 	 undefined 	 undefined
+$39. network.univ 	 false 	 undefined 	 undefined
+
+Time taken: 49.96525

@@ -1,0 +1,49 @@
+Model name: java_meta_model
+Filename: completion/java_meta_model-complete.als
+Offset: 6742
+Term:  in 
+Vscode Position: line=259 character=113
+----------------------------------
+260 |   one disj m1,m:Method | m1.id = m.id && #m1.param = i1 && #m.param = i2 && m1.param != m.param && m1.b + m.b in 
+----------------------------------
+Expected Completion word: LiteralValue
+Expected Completion line: LiteralValue && sameHierarchy[m1,m]
+Suggestion exists: true
+Completion List:
+# Suggestion 	 Exact 	 Syntactic 	 Semantic
+$1. i1 	 false 	 undefined 	 undefined
+$2. i2 	 false 	 undefined 	 undefined
+$3. m 	 false 	 undefined 	 undefined
+$4. m1 	 false 	 undefined 	 undefined
+$5. Accessibility 	 false 	 undefined 	 undefined
+$6. Body 	 false 	 undefined 	 undefined
+$7. Class 	 false 	 undefined 	 undefined
+$8. ClassId 	 false 	 undefined 	 undefined
+$9. ConstructorFieldInvocation 	 false 	 undefined 	 undefined
+$10. ConstructorMethodInvocation 	 false 	 undefined 	 undefined
+$11. Field 	 false 	 undefined 	 undefined
+$12. FieldId 	 false 	 undefined 	 undefined
+$13. FieldInvocation 	 false 	 undefined 	 undefined
+$14. Id 	 false 	 undefined 	 undefined
+$15. Int_ 	 false 	 undefined 	 undefined
+$16. LiteralValue 	 true 	 undefined 	 undefined
+$17. Long_ 	 false 	 undefined 	 undefined
+$18. Method 	 false 	 undefined 	 undefined
+$19. MethodId 	 false 	 undefined 	 undefined
+$20. MethodInvocation 	 false 	 undefined 	 undefined
+$21. Package 	 false 	 undefined 	 undefined
+$22. PrimitiveType 	 false 	 undefined 	 undefined
+$23. Qualifier 	 false 	 undefined 	 undefined
+$24. Type 	 false 	 undefined 	 undefined
+$25. private_ 	 false 	 undefined 	 undefined
+$26. protected 	 false 	 undefined 	 undefined
+$27. public 	 false 	 undefined 	 undefined
+$28. qthis_ 	 false 	 undefined 	 undefined
+$29. super_ 	 false 	 undefined 	 undefined
+$30. this_ 	 false 	 undefined 	 undefined
+$31. Int 	 false 	 undefined 	 undefined
+$32. String 	 false 	 undefined 	 undefined
+$33. none 	 false 	 undefined 	 undefined
+$34. univ 	 false 	 undefined 	 undefined
+
+Time taken: 69.088292

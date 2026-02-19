@@ -1,0 +1,82 @@
+Model name: frankervrep
+Filename: completion/frankenvrep-sig.als
+Offset: 80
+Term:  extends 
+Vscode Position: line=3 character=22
+----------------------------------
+4 | lone sig Left extends 
+----------------------------------
+Completion List:
+# Suggestion 	 Exact 	 Syntactic 	 Semantic
+$1. ArmAngle 	 false 	 false 	 false
+$2. ArmType 	 false 	 false 	 false
+$3. ButtonInterface 	 false 	 false 	 false
+$4. ButtonInterface_instance 	 false 	 false 	 false
+$5. CauteryButton 	 false 	 false 	 false
+$6. Cautery_Hook 	 false 	 false 	 false
+$7. Cautery_Shears 	 false 	 false 	 false
+$8. Cautery_Tissue_Grasper 	 false 	 false 	 false
+$9. ClutchButton 	 false 	 false 	 false
+$10. Clutch_Plugin 	 false 	 false 	 false
+$11. Clutch_instance 	 false 	 false 	 false
+$12. Coordinate 	 false 	 false 	 false
+$13. Current_Robot 	 false 	 false 	 false
+$14. DummyController 	 false 	 false 	 false
+$15. EffectorType 	 false 	 false 	 false
+$16. FrankenBot 	 false 	 false 	 false
+$17. FrankenVREP 	 false 	 false 	 false
+$18. FrankenVREPArm 	 false 	 false 	 false
+$19. GeomagicTouch 	 false 	 false 	 false
+$20. GeomagicTouchPlugin_instance 	 false 	 false 	 false
+$21. GeomagicTouch_plugin 	 false 	 false 	 false
+$22. GrasperLimits 	 false 	 false 	 false
+$23. HPButton 	 false 	 false 	 false
+$24. HapticFeedback 	 false 	 false 	 false
+$25. HapticsDisabled 	 false 	 false 	 false
+$26. HapticsEnabled 	 false 	 false 	 false
+$27. HomePosition 	 false 	 false 	 false
+$28. HomePosition_instance 	 false 	 false 	 false
+$29. IKSolver_family 	 false 	 false 	 false
+$30. IKSolver_plugin 	 false 	 false 	 false
+$31. KinematicModel 	 false 	 false 	 false
+$32. LoadedPlugins 	 false 	 false 	 false
+$33. PedalButton 	 false 	 false 	 false
+$34. PedalFunction 	 false 	 false 	 false
+$35. Plugin 	 false 	 false 	 false
+$36. Right 	 false 	 false 	 false
+$37. Robot 	 false 	 false 	 false
+$38. RobotApp 	 false 	 false 	 false
+$39. RobotArm 	 false 	 false 	 false
+$40. RobotControl 	 false 	 false 	 false
+$41. Scale 	 false 	 false 	 false
+$42. ScaleButton 	 false 	 false 	 false
+$43. Shears 	 false 	 false 	 false
+$44. Side 	 true 	 true 	 true
+$45. SolverFamily 	 false 	 false 	 false
+$46. SolverPlugin 	 false 	 false 	 false
+$47. Tissue_Grasper 	 false 	 false 	 false
+$48. UsedGeomagicTouch 	 false 	 false 	 false
+$49. armangle 	 false 	 false 	 false
+$50. loaded_plugins_of_ 	 false 	 false 	 false
+$51. xyz_input 	 false 	 false 	 false
+$52. Int 	 false 	 false 	 false
+$53. String 	 false 	 false 	 false
+$54. none 	 false 	 false 	 false
+$55. univ 	 false 	 false 	 false
+Expected Completion word: Side
+Expected Completion line: Side{}
+Suggestion exists: true
+
+Suggestion in top 1 = false 
+Suggestion in top 5 = false 
+Suggestion in top 10 = false 
+
+Suggestion in top 1 (Alpha) = false
+Suggestion in top 5 (Alpha) = false
+Suggestion in top 10 (Alpha) = false
+
+Suggestion in top 1 (Len) = false
+Suggestion in top 5 (Len) = true
+Suggestion in top 10 (Len) = true
+
+Time taken: 176.318459

@@ -1,0 +1,31 @@
+Model name: icd
+Filename: completion/icd-complete.als
+Offset: 1439
+Term: .
+Vscode Position: line=53 character=17
+----------------------------------
+54 |   ss.last_action.
+----------------------------------
+Expected Completion word: who
+Expected Completion line: who = m.source
+Suggestion exists: true
+Completion List:
+# Suggestion 	 Exact 	 Syntactic 	 Semantic
+$1. ~last_action.s 	 false 	 undefined 	 undefined
+$2. ~last_action.ss 	 false 	 undefined 	 undefined
+$3. who.Principal 	 false 	 undefined 	 undefined
+$4. ~last_action.State 	 false 	 undefined 	 undefined
+$5. who 	 true 	 undefined 	 undefined
+$6. who.roles 	 false 	 undefined 	 undefined
+$7. who.univ 	 false 	 undefined 	 undefined
+$8. who.~authorised_card 	 false 	 undefined 	 undefined
+$9. who.~source 	 false 	 undefined 	 undefined
+$10. ~last_action.authorised_card 	 false 	 undefined 	 undefined
+$11. ~last_action.icd_mode 	 false 	 undefined 	 undefined
+$12. ~last_action.impulse_mode 	 false 	 undefined 	 undefined
+$13. ~last_action.joules_to_deliver 	 false 	 undefined 	 undefined
+$14. ~last_action.network 	 false 	 undefined 	 undefined
+$15. ~last_action 	 false 	 undefined 	 undefined
+$16. ~last_action.univ 	 false 	 undefined 	 undefined
+
+Time taken: 49.811875

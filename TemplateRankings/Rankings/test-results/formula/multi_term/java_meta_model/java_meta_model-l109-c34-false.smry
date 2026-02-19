@@ -1,0 +1,16 @@
+Model name: java_meta_model
+Filename: completion/java_meta_model-complete.als
+Offset: 2269
+Term: .
+Vscode Position: line=108 character=34
+----------------------------------
+109 |            (some f:Field | f in c.
+----------------------------------
+Expected Completion word: undefined
+Expected Completion line: fields && f.id = ci.idField)
+Suggestion exists: false
+Completion List:
+# Suggestion 	 Exact 	 Syntactic 	 Semantic
+
+
+Time taken: 66.418708

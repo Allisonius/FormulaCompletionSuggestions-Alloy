@@ -1,0 +1,28 @@
+Model name: frankervrep
+Filename: completion/frankenvrep-sig.als
+Offset: 4418
+Term:  in 
+Vscode Position: line=179 character=18
+----------------------------------
+180 | 	GrasperLimits in 
+----------------------------------
+Completion List:
+# Suggestion 	 Exact 	 Syntactic 	 Semantic
+
+Expected Completion word: LoadedPlugins
+Expected Completion line: LoadedPlugins.loads
+Suggestion exists: false
+
+Suggestion in top 1 = false 
+Suggestion in top 5 = false 
+Suggestion in top 10 = false 
+
+Suggestion in top 1 (Alpha) = false
+Suggestion in top 5 (Alpha) = false
+Suggestion in top 10 (Alpha) = false
+
+Suggestion in top 1 (Len) = false
+Suggestion in top 5 (Len) = false
+Suggestion in top 10 (Len) = false
+
+Time taken: 119.046666

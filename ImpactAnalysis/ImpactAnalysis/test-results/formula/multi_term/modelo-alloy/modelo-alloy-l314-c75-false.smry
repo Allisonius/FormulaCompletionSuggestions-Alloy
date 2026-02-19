@@ -1,0 +1,16 @@
+Model name: modelo-alloy
+Filename: completion/ModeloAlloy-complete.als
+Offset: 8131
+Term: .
+Vscode Position: line=313 character=75
+----------------------------------
+314 |     (daysRemaining[e.eventDate] =< 7 and #{e.participants}=<6) implies #(e.
+----------------------------------
+Expected Completion word: undefined
+Expected Completion line: eventStatus)>0
+Suggestion exists: false
+Completion List:
+# Suggestion 	 Exact 	 Syntactic 	 Semantic
+
+
+Time taken: 41.493833

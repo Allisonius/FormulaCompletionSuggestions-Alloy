@@ -1,0 +1,32 @@
+Model name: frankervrep
+Filename: completion/frankenvrep-sig.als
+Offset: 4849
+Term: .
+Vscode Position: line=208 character=15
+----------------------------------
+209 | 	#RobotControl.
+----------------------------------
+Completion List:
+# Suggestion 	 Exact 	 Syntactic 	 Semantic
+$1. output.ArmAngle 	 false 	 false 	 false
+$2. output.armangle 	 false 	 false 	 false
+$3. output 	 true 	 true 	 true
+$4. output.univ 	 false 	 false 	 false
+$5. output.~anglelimit 	 false 	 false 	 false
+Expected Completion word: output
+Expected Completion line: output > 1
+Suggestion exists: true
+
+Suggestion in top 1 = false 
+Suggestion in top 5 = true 
+Suggestion in top 10 = true 
+
+Suggestion in top 1 (Alpha) = true
+Suggestion in top 5 (Alpha) = true
+Suggestion in top 10 (Alpha) = true
+
+Suggestion in top 1 (Len) = true
+Suggestion in top 5 (Len) = true
+Suggestion in top 10 (Len) = true
+
+Time taken: 24.360542

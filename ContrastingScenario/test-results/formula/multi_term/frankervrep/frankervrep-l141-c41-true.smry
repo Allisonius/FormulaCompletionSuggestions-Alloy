@@ -1,0 +1,51 @@
+Model name: frankervrep
+Filename: completion/frankenvrep-sig.als
+Offset: 3305
+Term: .
+Vscode Position: line=140 character=41
+----------------------------------
+141 |     all r: RobotArm | one k: ArmType | r.
+----------------------------------
+Completion List:
+# Suggestion 	 Exact 	 Syntactic 	 Semantic
+$1. armModel.k 	 false 	 undefined 	 undefined
+$2. armModel.ArmType 	 false 	 undefined 	 undefined
+$3. armModel.FrankenVREP 	 false 	 undefined 	 undefined
+$4. armside.Left 	 false 	 undefined 	 undefined
+$5. armside.Right 	 false 	 undefined 	 undefined
+$6. armside.Side 	 false 	 undefined 	 undefined
+$7. effectorType.Cautery_Hook 	 false 	 undefined 	 undefined
+$8. effectorType.Cautery_Shears 	 false 	 undefined 	 undefined
+$9. effectorType.Cautery_Tissue_Grasper 	 false 	 undefined 	 undefined
+$10. effectorType.EffectorType 	 false 	 undefined 	 undefined
+$11. effectorType.Shears 	 false 	 undefined 	 undefined
+$12. effectorType.Tissue_Grasper 	 false 	 undefined 	 undefined
+$13. ~arms.Current_Robot 	 false 	 undefined 	 undefined
+$14. ~arms.Robot 	 false 	 undefined 	 undefined
+$15. armModel 	 true 	 undefined 	 undefined
+$16. armModel.anglelimit 	 false 	 undefined 	 undefined
+$17. armModel.inverseKSolver 	 false 	 undefined 	 undefined
+$18. armModel.univ 	 false 	 undefined 	 undefined
+$19. armside 	 false 	 undefined 	 undefined
+$20. armside.univ 	 false 	 undefined 	 undefined
+$21. effectorType 	 false 	 undefined 	 undefined
+$22. effectorType.univ 	 false 	 undefined 	 undefined
+$23. ~arms 	 false 	 undefined 	 undefined
+$24. ~arms.univ 	 false 	 undefined 	 undefined
+Expected Completion word: armModel
+Expected Completion line: armModel = k
+Suggestion exists: true
+
+Suggestion in top 1 = false 
+Suggestion in top 5 = false 
+Suggestion in top 10 = false 
+
+Suggestion in top 1 (Alpha) = false
+Suggestion in top 5 (Alpha) = true
+Suggestion in top 10 (Alpha) = true
+
+Suggestion in top 1 (Len) = false
+Suggestion in top 5 (Len) = true
+Suggestion in top 10 (Len) = true
+
+Time taken: 55.01875

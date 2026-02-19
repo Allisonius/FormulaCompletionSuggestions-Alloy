@@ -1,0 +1,32 @@
+Model name: frankervrep
+Filename: completion/frankenvrep-sig.als
+Offset: 3139
+Term: .
+Vscode Position: line=135 character=21
+----------------------------------
+136 | 	all o: RobotControl.
+----------------------------------
+Completion List:
+# Suggestion 	 Exact 	 Syntactic 	 Semantic
+$1. output.ArmAngle 	 false 	 false 	 false
+$2. output.armangle 	 false 	 false 	 false
+$3. output 	 true 	 true 	 true
+$4. output.univ 	 false 	 false 	 false
+$5. output.~anglelimit 	 false 	 false 	 false
+Expected Completion word: output
+Expected Completion line: output | one a: getArmAngles[KinematicModel,Coordinate] | o = a
+Suggestion exists: true
+
+Suggestion in top 1 = false 
+Suggestion in top 5 = true 
+Suggestion in top 10 = true 
+
+Suggestion in top 1 (Alpha) = true
+Suggestion in top 5 (Alpha) = true
+Suggestion in top 10 (Alpha) = true
+
+Suggestion in top 1 (Len) = true
+Suggestion in top 5 (Len) = true
+Suggestion in top 10 (Len) = true
+
+Time taken: 59.63625

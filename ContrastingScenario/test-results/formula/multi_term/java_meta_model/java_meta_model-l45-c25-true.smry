@@ -1,0 +1,44 @@
+Model name: java_meta_model
+Filename: completion/java_meta_model-sig.als
+Offset: 731
+Term:  extends 
+Vscode Position: line=44 character=25
+----------------------------------
+45 | sig LiteralValue extends 
+----------------------------------
+Expected Completion word: Body
+Expected Completion line: Body {} // returns a random value
+Suggestion exists: true
+Completion List:
+# Suggestion 	 Exact 	 Syntactic 	 Semantic
+$1. Accessibility 	 false 	 false 	 false
+$2. Body 	 true 	 true 	 true
+$3. Class 	 false 	 false 	 false
+$4. ClassId 	 false 	 false 	 false
+$5. ConstructorFieldInvocation 	 false 	 false 	 false
+$6. ConstructorMethodInvocation 	 false 	 false 	 false
+$7. Field 	 false 	 false 	 false
+$8. FieldId 	 false 	 false 	 false
+$9. FieldInvocation 	 false 	 false 	 false
+$10. Id 	 false 	 false 	 false
+$11. Int_ 	 false 	 false 	 false
+$12. Long_ 	 false 	 false 	 false
+$13. Method 	 false 	 false 	 false
+$14. MethodId 	 false 	 false 	 false
+$15. MethodInvocation 	 false 	 false 	 false
+$16. Package 	 false 	 false 	 false
+$17. PrimitiveType 	 false 	 false 	 false
+$18. Qualifier 	 false 	 false 	 false
+$19. Type 	 false 	 false 	 false
+$20. private_ 	 false 	 false 	 false
+$21. protected 	 false 	 false 	 false
+$22. public 	 false 	 false 	 false
+$23. qthis_ 	 false 	 false 	 false
+$24. super_ 	 false 	 false 	 false
+$25. this_ 	 false 	 false 	 false
+$26. Int 	 false 	 false 	 false
+$27. String 	 false 	 false 	 false
+$28. none 	 false 	 false 	 false
+$29. univ 	 false 	 false 	 false
+
+Time taken: 30.428417

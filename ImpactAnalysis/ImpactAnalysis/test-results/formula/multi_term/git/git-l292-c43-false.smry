@@ -1,0 +1,32 @@
+Model name: git
+Filename: completion/git-complete.als
+Offset: 6148
+Term:  - 
+Vscode Position: line=291 character=43
+----------------------------------
+292 | 	index.sp = index.s - n.*parent.samepath - 
+----------------------------------
+Expected Completion word: samepath.(*parent).(n.samepath)
+Expected Completion line: samepath.(*parent).(n.samepath) + leaves[s,n.samepath]
+Suggestion exists: false
+Completion List:
+# Suggestion 	 Exact 	 Syntactic 	 Semantic
+$1. n 	 false 	 undefined 	 undefined
+$2. s 	 false 	 undefined 	 undefined
+$3. sp 	 false 	 undefined 	 undefined
+$4. Blob 	 false 	 undefined 	 undefined
+$5. Commit 	 false 	 undefined 	 undefined
+$6. Dir 	 false 	 undefined 	 undefined
+$7. File 	 false 	 undefined 	 undefined
+$8. Name 	 false 	 undefined 	 undefined
+$9. Node 	 false 	 undefined 	 undefined
+$10. Object 	 false 	 undefined 	 undefined
+$11. Root 	 false 	 undefined 	 undefined
+$12. State 	 false 	 undefined 	 undefined
+$13. Tree 	 false 	 undefined 	 undefined
+$14. Int 	 false 	 undefined 	 undefined
+$15. String 	 false 	 undefined 	 undefined
+$16. none 	 false 	 undefined 	 undefined
+$17. univ 	 false 	 undefined 	 undefined
+
+Time taken: 63.747625

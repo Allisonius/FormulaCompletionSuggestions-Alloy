@@ -1,0 +1,115 @@
+Model name: frankervrep
+Filename: completion/frankenvrep-sig.als
+Offset: 3708
+Term:  in 
+Vscode Position: line=156 character=67
+----------------------------------
+157 | 	all c: Coordinate | some a: ArmAngle, s : KinematicModel| c->a in 
+----------------------------------
+Completion List:
+# Suggestion 	 Exact 	 Syntactic 	 Semantic
+$1. calls.s.solverResult 	 false 	 undefined 	 undefined
+$2. inverseKSolver.s.solverResult 	 false 	 undefined 	 undefined
+$3. s.solverResult 	 true 	 undefined 	 undefined
+$4. solverResult.a.~anglelimit 	 false 	 undefined 	 undefined
+$5. solverResult.a.~output 	 false 	 undefined 	 undefined
+$6. ArmType.inverseKSolver.solverResult 	 false 	 undefined 	 undefined
+$7. FrankenBot.solverResult 	 false 	 undefined 	 undefined
+$8. FrankenVREP.inverseKSolver.solverResult 	 false 	 undefined 	 undefined
+$9. IKSolver_family.calls.solverResult 	 false 	 undefined 	 undefined
+$10. KinematicModel.solverResult 	 false 	 undefined 	 undefined
+$11. SolverFamily.calls.solverResult 	 false 	 undefined 	 undefined
+$12. calls.FrankenBot.solverResult 	 false 	 undefined 	 undefined
+$13. calls.KinematicModel.solverResult 	 false 	 undefined 	 undefined
+$14. inverseKSolver.FrankenBot.solverResult 	 false 	 undefined 	 undefined
+$15. inverseKSolver.KinematicModel.solverResult 	 false 	 undefined 	 undefined
+$16. solverResult.ArmAngle.~anglelimit 	 false 	 undefined 	 undefined
+$17. solverResult.ArmAngle.~output 	 false 	 undefined 	 undefined
+$18. solverResult.armangle.~anglelimit 	 false 	 undefined 	 undefined
+$19. solverResult.armangle.~output 	 false 	 undefined 	 undefined
+$20. Coordinate -> ArmAngle 	 false 	 undefined 	 undefined
+$21. anglelimit.univ.solverResult 	 false 	 undefined 	 undefined
+$22. armModel.univ.solverResult 	 false 	 undefined 	 undefined
+$23. arms.univ.solverResult 	 false 	 undefined 	 undefined
+$24. armside.univ.solverResult 	 false 	 undefined 	 undefined
+$25. assigned.univ.solverResult 	 false 	 undefined 	 undefined
+$26. calls.univ.solverResult 	 false 	 undefined 	 undefined
+$27. effectorType.univ.solverResult 	 false 	 undefined 	 undefined
+$28. force.univ.solverResult 	 false 	 undefined 	 undefined
+$29. includes.univ.solverResult 	 false 	 undefined 	 undefined
+$30. input.univ.solverResult 	 false 	 undefined 	 undefined
+$31. inverseKSolver.univ.solverResult 	 false 	 undefined 	 undefined
+$32. loads.univ.solverResult 	 false 	 undefined 	 undefined
+$33. output.univ.solverResult 	 false 	 undefined 	 undefined
+$34. setButtonForPedal.univ.solverResult 	 false 	 undefined 	 undefined
+$35. solverResult.univ.anglelimit 	 false 	 undefined 	 undefined
+$36. solverResult.univ.armModel 	 false 	 undefined 	 undefined
+$37. solverResult.univ.arms 	 false 	 undefined 	 undefined
+$38. solverResult.univ.armside 	 false 	 undefined 	 undefined
+$39. solverResult.univ.assigned 	 false 	 undefined 	 undefined
+$40. solverResult.univ.calls 	 false 	 undefined 	 undefined
+$41. solverResult.univ.effectorType 	 false 	 undefined 	 undefined
+$42. solverResult.univ.force 	 false 	 undefined 	 undefined
+$43. solverResult.univ.includes 	 false 	 undefined 	 undefined
+$44. solverResult.univ.input 	 false 	 undefined 	 undefined
+$45. solverResult.univ.inverseKSolver 	 false 	 undefined 	 undefined
+$46. solverResult.univ.loads 	 false 	 undefined 	 undefined
+$47. solverResult.univ.output 	 false 	 undefined 	 undefined
+$48. solverResult.univ.setButtonForPedal 	 false 	 undefined 	 undefined
+$49. solverResult.univ.solverfamily 	 false 	 undefined 	 undefined
+$50. solverResult.univ.~anglelimit 	 false 	 undefined 	 undefined
+$51. solverResult.univ.~armModel 	 false 	 undefined 	 undefined
+$52. solverResult.univ.~arms 	 false 	 undefined 	 undefined
+$53. solverResult.univ.~armside 	 false 	 undefined 	 undefined
+$54. solverResult.univ.~assigned 	 false 	 undefined 	 undefined
+$55. solverResult.univ.~calls 	 false 	 undefined 	 undefined
+$56. solverResult.univ.~effectorType 	 false 	 undefined 	 undefined
+$57. solverResult.univ.~force 	 false 	 undefined 	 undefined
+$58. solverResult.univ.~includes 	 false 	 undefined 	 undefined
+$59. solverResult.univ.~inverseKSolver 	 false 	 undefined 	 undefined
+$60. solverResult.univ.~loads 	 false 	 undefined 	 undefined
+$61. solverResult.univ.~output 	 false 	 undefined 	 undefined
+$62. solverResult.univ.~setButtonForPedal 	 false 	 undefined 	 undefined
+$63. solverResult.univ.~solverfamily 	 false 	 undefined 	 undefined
+$64. solverfamily.univ.solverResult 	 false 	 undefined 	 undefined
+$65. univ.calls.solverResult 	 false 	 undefined 	 undefined
+$66. univ.inverseKSolver.solverResult 	 false 	 undefined 	 undefined
+$67. univ.solverResult 	 false 	 undefined 	 undefined
+$68. ~anglelimit.univ.solverResult 	 false 	 undefined 	 undefined
+$69. ~armModel.univ.solverResult 	 false 	 undefined 	 undefined
+$70. ~arms.univ.solverResult 	 false 	 undefined 	 undefined
+$71. ~armside.univ.solverResult 	 false 	 undefined 	 undefined
+$72. ~assigned.univ.solverResult 	 false 	 undefined 	 undefined
+$73. ~assigned.~setButtonForPedal.solverfamily 	 false 	 undefined 	 undefined
+$74. ~calls.univ.solverResult 	 false 	 undefined 	 undefined
+$75. ~calls.~solverfamily.setButtonForPedal 	 false 	 undefined 	 undefined
+$76. ~effectorType.univ.solverResult 	 false 	 undefined 	 undefined
+$77. ~force.univ.solverResult 	 false 	 undefined 	 undefined
+$78. ~includes.univ.solverResult 	 false 	 undefined 	 undefined
+$79. ~input.univ.solverResult 	 false 	 undefined 	 undefined
+$80. ~inverseKSolver.univ.solverResult 	 false 	 undefined 	 undefined
+$81. ~loads.univ.solverResult 	 false 	 undefined 	 undefined
+$82. ~output.univ.solverResult 	 false 	 undefined 	 undefined
+$83. ~setButtonForPedal.solverfamily 	 false 	 undefined 	 undefined
+$84. ~setButtonForPedal.solverfamily.calls 	 false 	 undefined 	 undefined
+$85. ~setButtonForPedal.univ.solverResult 	 false 	 undefined 	 undefined
+$86. ~solverfamily.setButtonForPedal 	 false 	 undefined 	 undefined
+$87. ~solverfamily.setButtonForPedal.assigned 	 false 	 undefined 	 undefined
+$88. ~solverfamily.univ.solverResult 	 false 	 undefined 	 undefined
+Expected Completion word: s
+Expected Completion line: s.solverResult
+Suggestion exists: true
+
+Suggestion in top 1 = false 
+Suggestion in top 5 = true 
+Suggestion in top 10 = true 
+
+Suggestion in top 1 (Alpha) = false
+Suggestion in top 5 (Alpha) = false
+Suggestion in top 10 (Alpha) = false
+
+Suggestion in top 1 (Len) = true
+Suggestion in top 5 (Len) = true
+Suggestion in top 10 (Len) = true
+
+Time taken: 219.451042

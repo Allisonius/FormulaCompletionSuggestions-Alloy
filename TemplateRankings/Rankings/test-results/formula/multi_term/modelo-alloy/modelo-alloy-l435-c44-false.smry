@@ -1,0 +1,16 @@
+Model name: modelo-alloy
+Filename: completion/ModeloAlloy-complete.als
+Offset: 11324
+Term: .
+Vscode Position: line=434 character=44
+----------------------------------
+435 |       #{ p: NormalPost | p in m.posts and p.
+----------------------------------
+Expected Completion word: undefined
+Expected Completion line: publishedDate = f } = 4
+Suggestion exists: false
+Completion List:
+# Suggestion 	 Exact 	 Syntactic 	 Semantic
+
+
+Time taken: 41.835542

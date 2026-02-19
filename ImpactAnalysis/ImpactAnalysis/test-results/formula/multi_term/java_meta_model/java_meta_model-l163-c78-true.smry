@@ -1,0 +1,89 @@
+Model name: java_meta_model
+Filename: completion/java_meta_model-complete.als
+Offset: 3813
+Term: .
+Vscode Position: line=162 character=78
+----------------------------------
+163 |           some c1,c2: Class, m1:c1.methods, m2:c2.methods |  mi in m1.b && mi.
+----------------------------------
+Expected Completion word: id
+Expected Completion line: id = m2.id && c2 in c1.^extend && (m2.acc != private_)
+Suggestion exists: true
+Completion List:
+# Suggestion 	 Exact 	 Syntactic 	 Semantic
+$1. ~b.m1 	 false 	 undefined 	 undefined
+$2. ~b.m2 	 false 	 undefined 	 undefined
+$3. id.ClassId 	 false 	 undefined 	 undefined
+$4. id.FieldId 	 false 	 undefined 	 undefined
+$5. id.Id 	 false 	 undefined 	 undefined
+$6. id.MethodId 	 false 	 undefined 	 undefined
+$7. idClass.ClassId 	 false 	 undefined 	 undefined
+$8. idClass.FieldId 	 false 	 undefined 	 undefined
+$9. idClass.Id 	 false 	 undefined 	 undefined
+$10. idClass.MethodId 	 false 	 undefined 	 undefined
+$11. idClass2.ClassId 	 false 	 undefined 	 undefined
+$12. idClass2.FieldId 	 false 	 undefined 	 undefined
+$13. idClass2.Id 	 false 	 undefined 	 undefined
+$14. idClass2.MethodId 	 false 	 undefined 	 undefined
+$15. idField.ClassId 	 false 	 undefined 	 undefined
+$16. idField.FieldId 	 false 	 undefined 	 undefined
+$17. idField.Id 	 false 	 undefined 	 undefined
+$18. idField.MethodId 	 false 	 undefined 	 undefined
+$19. idMethod.ClassId 	 false 	 undefined 	 undefined
+$20. idMethod.FieldId 	 false 	 undefined 	 undefined
+$21. idMethod.Id 	 false 	 undefined 	 undefined
+$22. idMethod.MethodId 	 false 	 undefined 	 undefined
+$23. q.Qualifier 	 false 	 undefined 	 undefined
+$24. q.qthis_ 	 false 	 undefined 	 undefined
+$25. q.super_ 	 false 	 undefined 	 undefined
+$26. q.this_ 	 false 	 undefined 	 undefined
+$27. qField.Qualifier 	 false 	 undefined 	 undefined
+$28. qField.qthis_ 	 false 	 undefined 	 undefined
+$29. qField.super_ 	 false 	 undefined 	 undefined
+$30. qField.this_ 	 false 	 undefined 	 undefined
+$31. ~b.Method 	 false 	 undefined 	 undefined
+$32. id 	 true 	 undefined 	 undefined
+$33. id.univ 	 false 	 undefined 	 undefined
+$34. id.~idClass 	 false 	 undefined 	 undefined
+$35. id.~idClass2 	 false 	 undefined 	 undefined
+$36. id.~idField 	 false 	 undefined 	 undefined
+$37. id.~idMethod 	 false 	 undefined 	 undefined
+$38. idClass 	 false 	 undefined 	 undefined
+$39. idClass.univ 	 false 	 undefined 	 undefined
+$40. idClass.~id 	 false 	 undefined 	 undefined
+$41. idClass.~idClass2 	 false 	 undefined 	 undefined
+$42. idClass.~idField 	 false 	 undefined 	 undefined
+$43. idClass.~idMethod 	 false 	 undefined 	 undefined
+$44. idClass2 	 false 	 undefined 	 undefined
+$45. idClass2.univ 	 false 	 undefined 	 undefined
+$46. idClass2.~id 	 false 	 undefined 	 undefined
+$47. idClass2.~idClass 	 false 	 undefined 	 undefined
+$48. idClass2.~idField 	 false 	 undefined 	 undefined
+$49. idClass2.~idMethod 	 false 	 undefined 	 undefined
+$50. idField 	 false 	 undefined 	 undefined
+$51. idField.univ 	 false 	 undefined 	 undefined
+$52. idField.~id 	 false 	 undefined 	 undefined
+$53. idField.~idClass 	 false 	 undefined 	 undefined
+$54. idField.~idClass2 	 false 	 undefined 	 undefined
+$55. idField.~idMethod 	 false 	 undefined 	 undefined
+$56. idMethod 	 false 	 undefined 	 undefined
+$57. idMethod.univ 	 false 	 undefined 	 undefined
+$58. idMethod.~id 	 false 	 undefined 	 undefined
+$59. idMethod.~idClass 	 false 	 undefined 	 undefined
+$60. idMethod.~idClass2 	 false 	 undefined 	 undefined
+$61. idMethod.~idField 	 false 	 undefined 	 undefined
+$62. q 	 false 	 undefined 	 undefined
+$63. q.univ 	 false 	 undefined 	 undefined
+$64. q.~qField 	 false 	 undefined 	 undefined
+$65. qField 	 false 	 undefined 	 undefined
+$66. qField.univ 	 false 	 undefined 	 undefined
+$67. qField.~q 	 false 	 undefined 	 undefined
+$68. ~b.acc 	 false 	 undefined 	 undefined
+$69. ~b.id 	 false 	 undefined 	 undefined
+$70. ~b.param 	 false 	 undefined 	 undefined
+$71. ~b.return 	 false 	 undefined 	 undefined
+$72. ~b 	 false 	 undefined 	 undefined
+$73. ~b.univ 	 false 	 undefined 	 undefined
+$74. ~b.~methods 	 false 	 undefined 	 undefined
+
+Time taken: 62.36075

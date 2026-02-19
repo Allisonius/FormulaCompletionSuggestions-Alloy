@@ -1,0 +1,128 @@
+Model name: java_meta_model
+Filename: completion/java_meta_model-complete.als
+Offset: 8847
+Term: .
+Vscode Position: line=358 character=68
+----------------------------------
+359 | no c1,c2: Class | c1 != c2 && c1.package = c2.package && c1.id = c2.
+----------------------------------
+Expected Completion word: id
+Expected Completion line: id
+Suggestion exists: true
+Completion List:
+# Suggestion 	 Exact 	 Syntactic 	 Semantic
+$1. *extend.c1 	 false 	 undefined 	 undefined
+$2. *extend.c2 	 false 	 undefined 	 undefined
+$3. ^extend.c1 	 false 	 undefined 	 undefined
+$4. ^extend.c2 	 false 	 undefined 	 undefined
+$5. extend.c1 	 false 	 undefined 	 undefined
+$6. extend.c2 	 false 	 undefined 	 undefined
+$7. ~extend.c1 	 false 	 undefined 	 undefined
+$8. ~extend.c2 	 false 	 undefined 	 undefined
+$9. *extend.Class 	 false 	 undefined 	 undefined
+$10. *extend.Int_ 	 false 	 undefined 	 undefined
+$11. *extend.Long_ 	 false 	 undefined 	 undefined
+$12. *extend.PrimitiveType 	 false 	 undefined 	 undefined
+$13. *extend.Type 	 false 	 undefined 	 undefined
+$14. ^extend.Class 	 false 	 undefined 	 undefined
+$15. ^extend.Int_ 	 false 	 undefined 	 undefined
+$16. ^extend.Long_ 	 false 	 undefined 	 undefined
+$17. ^extend.PrimitiveType 	 false 	 undefined 	 undefined
+$18. ^extend.Type 	 false 	 undefined 	 undefined
+$19. extend.Class 	 false 	 undefined 	 undefined
+$20. extend.Int_ 	 false 	 undefined 	 undefined
+$21. extend.Long_ 	 false 	 undefined 	 undefined
+$22. extend.PrimitiveType 	 false 	 undefined 	 undefined
+$23. extend.Type 	 false 	 undefined 	 undefined
+$24. fields.Field 	 false 	 undefined 	 undefined
+$25. id.ClassId 	 false 	 undefined 	 undefined
+$26. id.FieldId 	 false 	 undefined 	 undefined
+$27. id.Id 	 false 	 undefined 	 undefined
+$28. id.MethodId 	 false 	 undefined 	 undefined
+$29. methods.Method 	 false 	 undefined 	 undefined
+$30. package.Package 	 false 	 undefined 	 undefined
+$31. ~extend.Class 	 false 	 undefined 	 undefined
+$32. ~extend.Int_ 	 false 	 undefined 	 undefined
+$33. ~extend.Long_ 	 false 	 undefined 	 undefined
+$34. ~extend.PrimitiveType 	 false 	 undefined 	 undefined
+$35. ~extend.Type 	 false 	 undefined 	 undefined
+$36. ~param.Method 	 false 	 undefined 	 undefined
+$37. ~return.Method 	 false 	 undefined 	 undefined
+$38. ~type.Field 	 false 	 undefined 	 undefined
+$39. *extend.fields 	 false 	 undefined 	 undefined
+$40. *extend.id 	 false 	 undefined 	 undefined
+$41. *extend.methods 	 false 	 undefined 	 undefined
+$42. *extend.package 	 false 	 undefined 	 undefined
+$43. ^extend.fields 	 false 	 undefined 	 undefined
+$44. ^extend.id 	 false 	 undefined 	 undefined
+$45. ^extend.methods 	 false 	 undefined 	 undefined
+$46. ^extend.package 	 false 	 undefined 	 undefined
+$47. extend 	 false 	 undefined 	 undefined
+$48. extend.fields 	 false 	 undefined 	 undefined
+$49. extend.id 	 false 	 undefined 	 undefined
+$50. extend.methods 	 false 	 undefined 	 undefined
+$51. extend.package 	 false 	 undefined 	 undefined
+$52. extend.univ 	 false 	 undefined 	 undefined
+$53. extend.~param 	 false 	 undefined 	 undefined
+$54. extend.~return 	 false 	 undefined 	 undefined
+$55. extend.~type 	 false 	 undefined 	 undefined
+$56. fields 	 false 	 undefined 	 undefined
+$57. fields.acc 	 false 	 undefined 	 undefined
+$58. fields.id 	 false 	 undefined 	 undefined
+$59. fields.type 	 false 	 undefined 	 undefined
+$60. fields.univ 	 false 	 undefined 	 undefined
+$61. id 	 true 	 undefined 	 undefined
+$62. id.univ 	 false 	 undefined 	 undefined
+$63. id.~idClass 	 false 	 undefined 	 undefined
+$64. id.~idClass2 	 false 	 undefined 	 undefined
+$65. id.~idField 	 false 	 undefined 	 undefined
+$66. id.~idMethod 	 false 	 undefined 	 undefined
+$67. methods 	 false 	 undefined 	 undefined
+$68. methods.acc 	 false 	 undefined 	 undefined
+$69. methods.b 	 false 	 undefined 	 undefined
+$70. methods.id 	 false 	 undefined 	 undefined
+$71. methods.param 	 false 	 undefined 	 undefined
+$72. methods.return 	 false 	 undefined 	 undefined
+$73. methods.univ 	 false 	 undefined 	 undefined
+$74. package 	 false 	 undefined 	 undefined
+$75. package.univ 	 false 	 undefined 	 undefined
+$76. ~extend.fields 	 false 	 undefined 	 undefined
+$77. ~extend.id 	 false 	 undefined 	 undefined
+$78. ~extend.methods 	 false 	 undefined 	 undefined
+$79. ~extend.package 	 false 	 undefined 	 undefined
+$80. ~param.acc 	 false 	 undefined 	 undefined
+$81. ~param.b 	 false 	 undefined 	 undefined
+$82. ~param.id 	 false 	 undefined 	 undefined
+$83. ~param.return 	 false 	 undefined 	 undefined
+$84. ~return.acc 	 false 	 undefined 	 undefined
+$85. ~return.b 	 false 	 undefined 	 undefined
+$86. ~return.id 	 false 	 undefined 	 undefined
+$87. ~return.param 	 false 	 undefined 	 undefined
+$88. ~type.acc 	 false 	 undefined 	 undefined
+$89. ~type.id 	 false 	 undefined 	 undefined
+$90. *extend.~param 	 false 	 undefined 	 undefined
+$91. *extend.~return 	 false 	 undefined 	 undefined
+$92. *extend.~type 	 false 	 undefined 	 undefined
+$93. ^extend.~param 	 false 	 undefined 	 undefined
+$94. ^extend.~return 	 false 	 undefined 	 undefined
+$95. ^extend.~type 	 false 	 undefined 	 undefined
+$96. ~extend 	 false 	 undefined 	 undefined
+$97. ~extend.univ 	 false 	 undefined 	 undefined
+$98. ~extend.~param 	 false 	 undefined 	 undefined
+$99. ~extend.~return 	 false 	 undefined 	 undefined
+$100. ~extend.~type 	 false 	 undefined 	 undefined
+$101. ~param 	 false 	 undefined 	 undefined
+$102. ~param.univ 	 false 	 undefined 	 undefined
+$103. ~param.~methods 	 false 	 undefined 	 undefined
+$104. ~return 	 false 	 undefined 	 undefined
+$105. ~return.univ 	 false 	 undefined 	 undefined
+$106. ~return.~methods 	 false 	 undefined 	 undefined
+$107. ~type 	 false 	 undefined 	 undefined
+$108. ~type.univ 	 false 	 undefined 	 undefined
+$109. ~type.~fields 	 false 	 undefined 	 undefined
+$110. ^extend 	 false 	 undefined 	 undefined
+$111. ^extend.univ 	 false 	 undefined 	 undefined
+$112. *extend 	 false 	 undefined 	 undefined
+$113. *extend.univ 	 false 	 undefined 	 undefined
+
+Time taken: 71.651958

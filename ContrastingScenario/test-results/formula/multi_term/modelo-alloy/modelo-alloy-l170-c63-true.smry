@@ -1,0 +1,18 @@
+Model name: modelo-alloy
+Filename: completion/ModeloAlloy-complete.als
+Offset: 3903
+Term: .
+Vscode Position: line=169 character=63
+----------------------------------
+170 |   all p: Publication | p.publishedDate.DayValue =< currentDate.
+----------------------------------
+Expected Completion word: DayValue
+Expected Completion line: DayValue
+Suggestion exists: true
+Completion List:
+# Suggestion 	 Exact 	 Syntactic 	 Semantic
+$1. DayValue 	 true 	 undefined 	 undefined
+$2. DayValue.Int 	 false 	 undefined 	 undefined
+$3. DayValue.univ 	 false 	 undefined 	 undefined
+
+Time taken: 48.01875

@@ -1,0 +1,41 @@
+Model name: icd
+Filename: completion/icd-complete.als
+Offset: 3680
+Term:  in 
+Vscode Position: line=123 character=58
+----------------------------------
+124 |   all s : State | (all ss : State | ss.last_action not in 
+----------------------------------
+Expected Completion word: AttackerAction
+Expected Completion line: AttackerAction) =>
+Suggestion exists: true
+Completion List:
+# Suggestion 	 Exact 	 Syntactic 	 Semantic
+$1. s 	 false 	 undefined 	 undefined
+$2. ss 	 false 	 undefined 	 undefined
+$3. Action 	 false 	 false 	 false
+$4. AttackerAction 	 true 	 true 	 true
+$5. Cardiologist 	 false 	 false 	 false
+$6. ChangeSettingsMessage 	 false 	 false 	 false
+$7. DummyInitialAction 	 false 	 false 	 false
+$8. InitialJoulesToDeliver 	 false 	 false 	 false
+$9. Joules 	 false 	 false 	 false
+$10. Message 	 false 	 false 	 false
+$11. Mode 	 false 	 false 	 false
+$12. ModeOff 	 false 	 false 	 false
+$13. ModeOn 	 false 	 false 	 false
+$14. ModeOnMessage 	 false 	 false 	 false
+$15. Patient 	 false 	 false 	 false
+$16. Principal 	 false 	 false 	 false
+$17. RecvChangeSettings 	 false 	 false 	 false
+$18. RecvModeOn 	 false 	 false 	 false
+$19. Role 	 false 	 false 	 false
+$20. SendChangeSettings 	 false 	 false 	 false
+$21. SendModeOn 	 false 	 false 	 false
+$22. State 	 false 	 false 	 false
+$23. Int 	 false 	 false 	 false
+$24. String 	 false 	 false 	 false
+$25. none 	 false 	 false 	 false
+$26. univ 	 false 	 false 	 false
+
+Time taken: 88.683042

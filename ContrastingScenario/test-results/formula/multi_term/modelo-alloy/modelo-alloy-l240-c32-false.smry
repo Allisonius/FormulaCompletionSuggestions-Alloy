@@ -1,0 +1,60 @@
+Model name: modelo-alloy
+Filename: completion/ModeloAlloy-complete.als
+Offset: 5925
+Term:  in 
+Vscode Position: line=239 character=32
+----------------------------------
+240 |    #{ v: Veterinarian | prod in 
+----------------------------------
+Expected Completion word: v.verifies
+Expected Completion line: v.verifies } > 3 
+Suggestion exists: false
+Completion List:
+# Suggestion 	 Exact 	 Syntactic 	 Semantic
+$1. prod 	 false 	 undefined 	 undefined
+$2. AdoptionAd 	 false 	 undefined 	 undefined
+$3. AggressiveBehavior 	 false 	 undefined 	 undefined
+$4. BATHS 	 false 	 undefined 	 undefined
+$5. CARE 	 false 	 undefined 	 undefined
+$6. CAT 	 false 	 undefined 	 undefined
+$7. COMPETITIONS 	 false 	 undefined 	 undefined
+$8. Comment 	 false 	 undefined 	 undefined
+$9. DOG 	 false 	 undefined 	 undefined
+$10. Date 	 false 	 undefined 	 undefined
+$11. Event 	 false 	 undefined 	 undefined
+$12. EventConfirmed 	 false 	 undefined 	 undefined
+$13. FERRET 	 false 	 undefined 	 undefined
+$14. FISH 	 false 	 undefined 	 undefined
+$15. FOOD 	 false 	 undefined 	 undefined
+$16. GAMES 	 false 	 undefined 	 undefined
+$17. IGUANA 	 false 	 undefined 	 undefined
+$18. Location 	 false 	 undefined 	 undefined
+$19. Name 	 false 	 undefined 	 undefined
+$20. NormalPost 	 false 	 undefined 	 undefined
+$21. Owner 	 false 	 undefined 	 undefined
+$22. PARROT 	 false 	 undefined 	 undefined
+$23. PETTING 	 false 	 undefined 	 undefined
+$24. Pet 	 false 	 undefined 	 undefined
+$25. Product 	 false 	 undefined 	 undefined
+$26. ProductAd 	 false 	 undefined 	 undefined
+$27. Publication 	 false 	 undefined 	 undefined
+$28. RABBIT 	 false 	 undefined 	 undefined
+$29. SLEEP 	 false 	 undefined 	 undefined
+$30. SNAKE 	 false 	 undefined 	 undefined
+$31. Species 	 false 	 undefined 	 undefined
+$32. TOYS 	 false 	 undefined 	 undefined
+$33. TURTLE 	 false 	 undefined 	 undefined
+$34. TasteType 	 false 	 undefined 	 undefined
+$35. User 	 false 	 undefined 	 undefined
+$36. Vaccine 	 false 	 undefined 	 undefined
+$37. VaccinesUpToDate 	 false 	 undefined 	 undefined
+$38. Veterinarian 	 false 	 undefined 	 undefined
+$39. WALKS 	 false 	 undefined 	 undefined
+$40. WATER 	 false 	 undefined 	 undefined
+$41. currentDate 	 false 	 undefined 	 undefined
+$42. Int 	 false 	 undefined 	 undefined
+$43. String 	 false 	 undefined 	 undefined
+$44. none 	 false 	 undefined 	 undefined
+$45. univ 	 false 	 undefined 	 undefined
+
+Time taken: 32.662875

@@ -1,0 +1,16 @@
+Model name: git
+Filename: completion/git-complete.als
+Offset: 12420
+Term: .
+Vscode Position: line=561 character=46
+----------------------------------
+562 | 	{ f3 : File | f1.content -> f2.content -> f3.
+----------------------------------
+Expected Completion word: undefined
+Expected Completion line: content in merging }
+Suggestion exists: false
+Completion List:
+# Suggestion 	 Exact 	 Syntactic 	 Semantic
+
+
+Time taken: 67.025458

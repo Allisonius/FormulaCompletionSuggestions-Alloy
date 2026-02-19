@@ -1,0 +1,16 @@
+Model name: java_meta_model
+Filename: completion/java_meta_model-complete.als
+Offset: 4305
+Term:  in 
+Vscode Position: line=176 character=115
+----------------------------------
+177 |           some c1,c2: Class, m1:c1.methods, f:c2.fields | mi in m1.b && mi.idField = f.id && ((c1 = c2) || ((c2 in 
+----------------------------------
+Expected Completion word: undefined
+Expected Completion line: c1.^extend) && (f.acc != private_)))
+Suggestion exists: false
+Completion List:
+# Suggestion 	 Exact 	 Syntactic 	 Semantic
+
+
+Time taken: 71.351875

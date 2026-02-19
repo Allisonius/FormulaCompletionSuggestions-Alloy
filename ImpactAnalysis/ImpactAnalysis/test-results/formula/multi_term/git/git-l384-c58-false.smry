@@ -1,0 +1,16 @@
+Model name: git
+Filename: completion/git-complete.als
+Offset: 8096
+Term:  -> 
+Vscode Position: line=383 character=58
+----------------------------------
+384 | 	some c : Commit-stored.s | refs.sp = refs.s ++ HEAD.s -> 
+----------------------------------
+Expected Completion word: undefined
+Expected Completion line: c
+Suggestion exists: false
+Completion List:
+# Suggestion 	 Exact 	 Syntactic 	 Semantic
+
+
+Time taken: 66.499208

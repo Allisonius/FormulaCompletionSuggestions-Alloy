@@ -1,0 +1,16 @@
+Model name: modelo-alloy
+Filename: completion/ModeloAlloy-complete.als
+Offset: 11133
+Term: .
+Vscode Position: line=427 character=24
+----------------------------------
+428 |     all m: Pet | m in p.
+----------------------------------
+Expected Completion word: undefined
+Expected Completion line: ownerOf and p in m.petOf
+Suggestion exists: false
+Completion List:
+# Suggestion 	 Exact 	 Syntactic 	 Semantic
+
+
+Time taken: 43.59325

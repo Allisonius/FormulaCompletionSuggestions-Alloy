@@ -1,0 +1,145 @@
+Model name: git
+Filename: completion/git-complete.als
+Offset: 6493
+Term: .
+Vscode Position: line=307 character=18
+----------------------------------
+308 | 	heads.sp = heads.
+----------------------------------
+Expected Completion word: s
+Expected Completion line: s
+Suggestion exists: true
+Completion List:
+# Suggestion 	 Exact 	 Syntactic 	 Semantic
+$1. s 	 true 	 undefined 	 undefined
+$2. s.~HEAD 	 false 	 undefined 	 undefined
+$3. s.~current 	 false 	 undefined 	 undefined
+$4. s.~heads 	 false 	 undefined 	 undefined
+$5. s.~index 	 false 	 undefined 	 undefined
+$6. s.~stored 	 false 	 undefined 	 undefined
+$7. sp 	 false 	 undefined 	 undefined
+$8. sp.~HEAD 	 false 	 undefined 	 undefined
+$9. sp.~current 	 false 	 undefined 	 undefined
+$10. sp.~heads 	 false 	 undefined 	 undefined
+$11. sp.~index 	 false 	 undefined 	 undefined
+$12. sp.~stored 	 false 	 undefined 	 undefined
+$13. State 	 false 	 undefined 	 undefined
+$14. State.~HEAD 	 false 	 undefined 	 undefined
+$15. State.~current 	 false 	 undefined 	 undefined
+$16. State.~heads 	 false 	 undefined 	 undefined
+$17. State.~index 	 false 	 undefined 	 undefined
+$18. State.~stored 	 false 	 undefined 	 undefined
+$19. ~HEAD.Name 	 false 	 undefined 	 undefined
+$20. ~current.Dir 	 false 	 undefined 	 undefined
+$21. ~current.File 	 false 	 undefined 	 undefined
+$22. ~current.Node 	 false 	 undefined 	 undefined
+$23. ~current.Root 	 false 	 undefined 	 undefined
+$24. ~index.Dir 	 false 	 undefined 	 undefined
+$25. ~index.File 	 false 	 undefined 	 undefined
+$26. ~index.Node 	 false 	 undefined 	 undefined
+$27. ~index.Root 	 false 	 undefined 	 undefined
+$28. ~stored.Blob 	 false 	 undefined 	 undefined
+$29. ~stored.Commit 	 false 	 undefined 	 undefined
+$30. ~stored.Object 	 false 	 undefined 	 undefined
+$31. ~stored.Tree 	 false 	 undefined 	 undefined
+$32. univ.HEAD 	 false 	 undefined 	 undefined
+$33. univ.belongsTo 	 false 	 undefined 	 undefined
+$34. univ.children 	 false 	 undefined 	 undefined
+$35. univ.conflict 	 false 	 undefined 	 undefined
+$36. univ.content 	 false 	 undefined 	 undefined
+$37. univ.current 	 false 	 undefined 	 undefined
+$38. univ.heads 	 false 	 undefined 	 undefined
+$39. univ.index 	 false 	 undefined 	 undefined
+$40. univ.merging 	 false 	 undefined 	 undefined
+$41. univ.name 	 false 	 undefined 	 undefined
+$42. univ.parent 	 false 	 undefined 	 undefined
+$43. univ.previous 	 false 	 undefined 	 undefined
+$44. univ.refs 	 false 	 undefined 	 undefined
+$45. univ.samepath 	 false 	 undefined 	 undefined
+$46. univ.stored 	 false 	 undefined 	 undefined
+$47. univ.tbc 	 false 	 undefined 	 undefined
+$48. univ.tree 	 false 	 undefined 	 undefined
+$49. ~HEAD.heads 	 false 	 undefined 	 undefined
+$50. ~HEAD.refs 	 false 	 undefined 	 undefined
+$51. ~current.belongsTo 	 false 	 undefined 	 undefined
+$52. ~current.content 	 false 	 undefined 	 undefined
+$53. ~current.index 	 false 	 undefined 	 undefined
+$54. ~current.name 	 false 	 undefined 	 undefined
+$55. ~current.parent 	 false 	 undefined 	 undefined
+$56. ~current.samepath 	 false 	 undefined 	 undefined
+$57. ~current.tbc 	 false 	 undefined 	 undefined
+$58. ~index.belongsTo 	 false 	 undefined 	 undefined
+$59. ~index.content 	 false 	 undefined 	 undefined
+$60. ~index.current 	 false 	 undefined 	 undefined
+$61. ~index.name 	 false 	 undefined 	 undefined
+$62. ~index.parent 	 false 	 undefined 	 undefined
+$63. ~index.samepath 	 false 	 undefined 	 undefined
+$64. ~index.tbc 	 false 	 undefined 	 undefined
+$65. ~stored.children 	 false 	 undefined 	 undefined
+$66. ~stored.conflict 	 false 	 undefined 	 undefined
+$67. ~stored.content 	 false 	 undefined 	 undefined
+$68. ~stored.merging 	 false 	 undefined 	 undefined
+$69. ~stored.previous 	 false 	 undefined 	 undefined
+$70. ~stored.tree 	 false 	 undefined 	 undefined
+$71. univ.~HEAD 	 false 	 undefined 	 undefined
+$72. univ.~children 	 false 	 undefined 	 undefined
+$73. univ.~conflict 	 false 	 undefined 	 undefined
+$74. univ.~content 	 false 	 undefined 	 undefined
+$75. univ.~current 	 false 	 undefined 	 undefined
+$76. univ.~heads 	 false 	 undefined 	 undefined
+$77. univ.~index 	 false 	 undefined 	 undefined
+$78. univ.~name 	 false 	 undefined 	 undefined
+$79. univ.~parent 	 false 	 undefined 	 undefined
+$80. univ.~previous 	 false 	 undefined 	 undefined
+$81. univ.~samepath 	 false 	 undefined 	 undefined
+$82. univ.~stored 	 false 	 undefined 	 undefined
+$83. univ.~tree 	 false 	 undefined 	 undefined
+$84. ~HEAD 	 false 	 undefined 	 undefined
+$85. ~HEAD.univ 	 false 	 undefined 	 undefined
+$86. ~HEAD.~name 	 false 	 undefined 	 undefined
+$87. ~current 	 false 	 undefined 	 undefined
+$88. ~current.*parent 	 false 	 undefined 	 undefined
+$89. ~current.*samepath 	 false 	 undefined 	 undefined
+$90. ~current.^parent 	 false 	 undefined 	 undefined
+$91. ~current.^samepath 	 false 	 undefined 	 undefined
+$92. ~current.univ 	 false 	 undefined 	 undefined
+$93. ~current.~parent 	 false 	 undefined 	 undefined
+$94. ~current.~samepath 	 false 	 undefined 	 undefined
+$95. ~index 	 false 	 undefined 	 undefined
+$96. ~index.*parent 	 false 	 undefined 	 undefined
+$97. ~index.*samepath 	 false 	 undefined 	 undefined
+$98. ~index.^parent 	 false 	 undefined 	 undefined
+$99. ~index.^samepath 	 false 	 undefined 	 undefined
+$100. ~index.univ 	 false 	 undefined 	 undefined
+$101. ~index.~parent 	 false 	 undefined 	 undefined
+$102. ~index.~samepath 	 false 	 undefined 	 undefined
+$103. ~stored 	 false 	 undefined 	 undefined
+$104. ~stored.*children 	 false 	 undefined 	 undefined
+$105. ~stored.*conflict 	 false 	 undefined 	 undefined
+$106. ~stored.*previous 	 false 	 undefined 	 undefined
+$107. ~stored.*tree 	 false 	 undefined 	 undefined
+$108. ~stored.^children 	 false 	 undefined 	 undefined
+$109. ~stored.^conflict 	 false 	 undefined 	 undefined
+$110. ~stored.^previous 	 false 	 undefined 	 undefined
+$111. ~stored.^tree 	 false 	 undefined 	 undefined
+$112. ~stored.univ 	 false 	 undefined 	 undefined
+$113. ~stored.~children 	 false 	 undefined 	 undefined
+$114. ~stored.~conflict 	 false 	 undefined 	 undefined
+$115. ~stored.~content 	 false 	 undefined 	 undefined
+$116. ~stored.~previous 	 false 	 undefined 	 undefined
+$117. ~stored.~tree 	 false 	 undefined 	 undefined
+$118. univ.^children 	 false 	 undefined 	 undefined
+$119. univ.^conflict 	 false 	 undefined 	 undefined
+$120. univ.^parent 	 false 	 undefined 	 undefined
+$121. univ.^previous 	 false 	 undefined 	 undefined
+$122. univ.^samepath 	 false 	 undefined 	 undefined
+$123. univ.^tree 	 false 	 undefined 	 undefined
+$124. univ 	 false 	 undefined 	 undefined
+$125. univ.*children 	 false 	 undefined 	 undefined
+$126. univ.*conflict 	 false 	 undefined 	 undefined
+$127. univ.*parent 	 false 	 undefined 	 undefined
+$128. univ.*previous 	 false 	 undefined 	 undefined
+$129. univ.*samepath 	 false 	 undefined 	 undefined
+$130. univ.*tree 	 false 	 undefined 	 undefined
+
+Time taken: 66.220125

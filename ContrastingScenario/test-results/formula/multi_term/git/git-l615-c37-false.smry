@@ -1,0 +1,16 @@
+Model name: git
+Filename: completion/git-complete.als
+Offset: 13917
+Term:  -> 
+Vscode Position: line=614 character=37
+----------------------------------
+615 | 	some from and some fp : File | f -> 
+----------------------------------
+Expected Completion word: undefined
+Expected Completion line: fp in samepath and some fp.belongsTo.from
+Suggestion exists: false
+Completion List:
+# Suggestion 	 Exact 	 Syntactic 	 Semantic
+
+
+Time taken: 63.72175

@@ -1,0 +1,53 @@
+Model name: frankervrep
+Filename: completion/frankenvrep-sig.als
+Offset: 4217
+Term: .
+Vscode Position: line=173 character=30
+----------------------------------
+174 | 	CauteryButton in PedalButton.
+----------------------------------
+Completion List:
+# Suggestion 	 Exact 	 Syntactic 	 Semantic
+$1. assigned.CauteryButton 	 false 	 false 	 false
+$2. assigned.ClutchButton 	 false 	 false 	 false
+$3. assigned.HPButton 	 false 	 false 	 false
+$4. assigned.PedalFunction 	 false 	 false 	 false
+$5. assigned.ScaleButton 	 false 	 false 	 false
+$6. ~setButtonForPedal.ButtonInterface 	 false 	 false 	 false
+$7. ~setButtonForPedal.ButtonInterface_instance 	 false 	 false 	 false
+$8. ~setButtonForPedal.Clutch_Plugin 	 false 	 false 	 false
+$9. ~setButtonForPedal.Clutch_instance 	 false 	 false 	 false
+$10. ~setButtonForPedal.DummyController 	 false 	 false 	 false
+$11. ~setButtonForPedal.GeomagicTouchPlugin_instance 	 false 	 false 	 false
+$12. ~setButtonForPedal.GeomagicTouch_plugin 	 false 	 false 	 false
+$13. ~setButtonForPedal.GrasperLimits 	 false 	 false 	 false
+$14. ~setButtonForPedal.HomePosition 	 false 	 false 	 false
+$15. ~setButtonForPedal.HomePosition_instance 	 false 	 false 	 false
+$16. ~setButtonForPedal.IKSolver_plugin 	 false 	 false 	 false
+$17. ~setButtonForPedal.Plugin 	 false 	 false 	 false
+$18. ~setButtonForPedal.Scale 	 false 	 false 	 false
+$19. ~setButtonForPedal.SolverPlugin 	 false 	 false 	 false
+$20. assigned 	 true 	 true 	 true
+$21. assigned.univ 	 false 	 false 	 false
+$22. ~setButtonForPedal.solverfamily 	 false 	 false 	 false
+$23. ~setButtonForPedal 	 false 	 false 	 false
+$24. ~setButtonForPedal.univ 	 false 	 false 	 false
+$25. ~setButtonForPedal.~includes 	 false 	 false 	 false
+$26. ~setButtonForPedal.~loads 	 false 	 false 	 false
+Expected Completion word: assigned
+Expected Completion line: assigned &&
+Suggestion exists: true
+
+Suggestion in top 1 = false 
+Suggestion in top 5 = false 
+Suggestion in top 10 = false 
+
+Suggestion in top 1 (Alpha) = false
+Suggestion in top 5 (Alpha) = false
+Suggestion in top 10 (Alpha) = false
+
+Suggestion in top 1 (Len) = true
+Suggestion in top 5 (Len) = true
+Suggestion in top 10 (Len) = true
+
+Time taken: 23.909041

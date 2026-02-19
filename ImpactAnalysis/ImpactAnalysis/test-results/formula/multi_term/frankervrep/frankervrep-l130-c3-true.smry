@@ -1,0 +1,44 @@
+Model name: frankervrep
+Filename: completion/frankenvrep-sig.als
+Offset: 3035
+Term: .
+Vscode Position: line=129 character=3
+----------------------------------
+130 | 	s.
+----------------------------------
+Completion List:
+# Suggestion 	 Exact 	 Syntactic 	 Semantic
+$1. solverResult.ArmAngle 	 false 	 undefined 	 undefined
+$2. solverResult.armangle 	 false 	 undefined 	 undefined
+$3. ~calls.IKSolver_family 	 false 	 undefined 	 undefined
+$4. ~calls.SolverFamily 	 false 	 undefined 	 undefined
+$5. ~inverseKSolver.ArmType 	 false 	 undefined 	 undefined
+$6. ~inverseKSolver.FrankenVREP 	 false 	 undefined 	 undefined
+$7. solverResult 	 true 	 undefined 	 undefined
+$8. solverResult.univ 	 false 	 undefined 	 undefined
+$9. solverResult.~anglelimit 	 false 	 undefined 	 undefined
+$10. solverResult.~output 	 false 	 undefined 	 undefined
+$11. ~inverseKSolver.anglelimit 	 false 	 undefined 	 undefined
+$12. ~calls 	 false 	 undefined 	 undefined
+$13. ~calls.univ 	 false 	 undefined 	 undefined
+$14. ~calls.~solverfamily 	 false 	 undefined 	 undefined
+$15. ~inverseKSolver 	 false 	 undefined 	 undefined
+$16. ~inverseKSolver.univ 	 false 	 undefined 	 undefined
+$17. ~inverseKSolver.~armModel 	 false 	 undefined 	 undefined
+Expected Completion word: solverResult
+Expected Completion line: solverResult[c]
+Suggestion exists: true
+
+Suggestion in top 1 = false 
+Suggestion in top 5 = false 
+Suggestion in top 10 = true 
+
+Suggestion in top 1 (Alpha) = false
+Suggestion in top 5 (Alpha) = false
+Suggestion in top 10 (Alpha) = false
+
+Suggestion in top 1 (Len) = false
+Suggestion in top 5 (Len) = true
+Suggestion in top 10 (Len) = true
+
+Time taken: 34.983666

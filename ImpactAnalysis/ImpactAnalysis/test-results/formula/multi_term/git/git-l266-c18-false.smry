@@ -1,0 +1,16 @@
+Model name: git
+Filename: completion/git-complete.als
+Offset: 5480
+Term:  in 
+Vscode Position: line=265 character=18
+----------------------------------
+266 | 	{f : File | f in 
+----------------------------------
+Expected Completion word: undefined
+Expected Completion line: index.s}
+Suggestion exists: false
+Completion List:
+# Suggestion 	 Exact 	 Syntactic 	 Semantic
+
+
+Time taken: 67.328375

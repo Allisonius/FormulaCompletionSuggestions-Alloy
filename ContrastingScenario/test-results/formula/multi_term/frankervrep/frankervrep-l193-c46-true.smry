@@ -1,0 +1,53 @@
+Model name: frankervrep
+Filename: completion/frankenvrep-sig.als
+Offset: 4630
+Term: .
+Vscode Position: line=192 character=46
+----------------------------------
+193 | 	all a, b : PedalButton | a != b implies no a.
+----------------------------------
+Completion List:
+# Suggestion 	 Exact 	 Syntactic 	 Semantic
+$1. assigned.CauteryButton 	 false 	 undefined 	 undefined
+$2. assigned.ClutchButton 	 false 	 undefined 	 undefined
+$3. assigned.HPButton 	 false 	 undefined 	 undefined
+$4. assigned.PedalFunction 	 false 	 undefined 	 undefined
+$5. assigned.ScaleButton 	 false 	 undefined 	 undefined
+$6. ~setButtonForPedal.ButtonInterface 	 false 	 undefined 	 undefined
+$7. ~setButtonForPedal.ButtonInterface_instance 	 false 	 undefined 	 undefined
+$8. ~setButtonForPedal.Clutch_Plugin 	 false 	 undefined 	 undefined
+$9. ~setButtonForPedal.Clutch_instance 	 false 	 undefined 	 undefined
+$10. ~setButtonForPedal.DummyController 	 false 	 undefined 	 undefined
+$11. ~setButtonForPedal.GeomagicTouchPlugin_instance 	 false 	 undefined 	 undefined
+$12. ~setButtonForPedal.GeomagicTouch_plugin 	 false 	 undefined 	 undefined
+$13. ~setButtonForPedal.GrasperLimits 	 false 	 undefined 	 undefined
+$14. ~setButtonForPedal.HomePosition 	 false 	 undefined 	 undefined
+$15. ~setButtonForPedal.HomePosition_instance 	 false 	 undefined 	 undefined
+$16. ~setButtonForPedal.IKSolver_plugin 	 false 	 undefined 	 undefined
+$17. ~setButtonForPedal.Plugin 	 false 	 undefined 	 undefined
+$18. ~setButtonForPedal.Scale 	 false 	 undefined 	 undefined
+$19. ~setButtonForPedal.SolverPlugin 	 false 	 undefined 	 undefined
+$20. assigned 	 true 	 undefined 	 undefined
+$21. assigned.univ 	 false 	 undefined 	 undefined
+$22. ~setButtonForPedal.solverfamily 	 false 	 undefined 	 undefined
+$23. ~setButtonForPedal 	 false 	 undefined 	 undefined
+$24. ~setButtonForPedal.univ 	 false 	 undefined 	 undefined
+$25. ~setButtonForPedal.~includes 	 false 	 undefined 	 undefined
+$26. ~setButtonForPedal.~loads 	 false 	 undefined 	 undefined
+Expected Completion word: assigned
+Expected Completion line: assigned & b.assigned
+Suggestion exists: true
+
+Suggestion in top 1 = false 
+Suggestion in top 5 = false 
+Suggestion in top 10 = false 
+
+Suggestion in top 1 (Alpha) = false
+Suggestion in top 5 (Alpha) = false
+Suggestion in top 10 (Alpha) = false
+
+Suggestion in top 1 (Len) = true
+Suggestion in top 5 (Len) = true
+Suggestion in top 10 (Len) = true
+
+Time taken: 44.433292

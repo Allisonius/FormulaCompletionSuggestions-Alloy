@@ -1,0 +1,54 @@
+Model name: icd
+Filename: completion/icd-complete.als
+Offset: 3661
+Term: .
+Vscode Position: line=123 character=39
+----------------------------------
+124 |   all s : State | (all ss : State | ss.
+----------------------------------
+Expected Completion word: last_action
+Expected Completion line: last_action not in AttackerAction) =>
+Suggestion exists: true
+Completion List:
+# Suggestion 	 Exact 	 Syntactic 	 Semantic
+$1. authorised_card.Principal 	 false 	 false 	 false
+$2. icd_mode.Mode 	 false 	 false 	 false
+$3. icd_mode.ModeOff 	 false 	 false 	 false
+$4. icd_mode.ModeOn 	 false 	 false 	 false
+$5. impulse_mode.Mode 	 false 	 false 	 false
+$6. impulse_mode.ModeOff 	 false 	 false 	 false
+$7. impulse_mode.ModeOn 	 false 	 false 	 false
+$8. joules_to_deliver.InitialJoulesToDeliver 	 false 	 undefined 	 undefined
+$9. joules_to_deliver.Joules 	 false 	 undefined 	 undefined
+$10. last_action.Action 	 false 	 false 	 false
+$11. last_action.AttackerAction 	 false 	 false 	 false
+$12. last_action.DummyInitialAction 	 false 	 false 	 false
+$13. last_action.RecvChangeSettings 	 false 	 false 	 false
+$14. last_action.RecvModeOn 	 false 	 false 	 false
+$15. last_action.SendChangeSettings 	 false 	 false 	 false
+$16. last_action.SendModeOn 	 false 	 false 	 false
+$17. network.ChangeSettingsMessage 	 false 	 false 	 false
+$18. network.Message 	 false 	 false 	 false
+$19. network.ModeOnMessage 	 false 	 false 	 false
+$20. authorised_card 	 false 	 false 	 false
+$21. authorised_card.roles 	 false 	 false 	 false
+$22. authorised_card.univ 	 false 	 false 	 false
+$23. authorised_card.~source 	 false 	 false 	 false
+$24. authorised_card.~who 	 false 	 false 	 false
+$25. icd_mode 	 false 	 false 	 false
+$26. icd_mode.univ 	 false 	 false 	 false
+$27. icd_mode.~impulse_mode 	 false 	 false 	 false
+$28. impulse_mode 	 false 	 false 	 false
+$29. impulse_mode.univ 	 false 	 false 	 false
+$30. impulse_mode.~icd_mode 	 false 	 false 	 false
+$31. joules_to_deliver 	 false 	 undefined 	 undefined
+$32. joules_to_deliver.univ 	 false 	 undefined 	 undefined
+$33. last_action 	 true 	 true 	 true
+$34. last_action.univ 	 false 	 false 	 false
+$35. last_action.who 	 false 	 false 	 false
+$36. network 	 false 	 false 	 false
+$37. network.joules_to_deliver 	 false 	 false 	 false
+$38. network.source 	 false 	 false 	 false
+$39. network.univ 	 false 	 false 	 false
+
+Time taken: 38.431083
