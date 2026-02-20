@@ -18,6 +18,7 @@ import edu.mit.csail.sdg.ast.Command;
 import edu.mit.csail.sdg.ast.Expr;
 import edu.mit.csail.sdg.ast.ExprUnary;
 import edu.mit.csail.sdg.ast.ExprVar;
+import edu.mit.csail.sdg.ast.Func;
 import edu.mit.csail.sdg.ast.Sig;
 import edu.mit.csail.sdg.ast.Sig.Field;
 import edu.mit.csail.sdg.parser.CompModule;
@@ -35,26 +36,27 @@ public class ImpactAnalysis_NoTarget {
 		//What models and suggestions to read in
 		String source = "formula";
 
+		//benchmark
 		String [] models = {"array", "bempl","binary-tree", "class-diagram","classroom","classroom-fol", "classroom-rl", "courses-v1",
-				"courses-v2", "c-tree", "cv", "dll", "fsm", "grade", "graph", "handshake", "lts", "nqueens",
-				"production-line-v1", "production-line-v2", "production-line-v3", "singly-linked-list", "social-media", "train-station-fol",
-				"train-station-ltl", "trash-fol", "trash-ltl", "trash-rl"
+		"courses-v2", "c-tree", "cv", "dll", "fsm", "grade", "graph", "handshake", "lts", "nqueens",
+		"production-line-v1", "production-line-v2", "production-line-v3", "singly-linked-list", "social-media", "train-station-fol",
+		"train-station-ltl", "trash-fol", "trash-ltl", "trash-rl"
 		};
-		
-		//Establish parameters for models with them
-		HashMap<String, String> parameters = new HashMap<String, String>();
-		parameters.put("bempl", "r:Room,p:Person");
-		parameters.put("grade", "c:Class,s:Person,a:Assignment");
-		parameters.put("singly-linked-list", "l:List");
+		boolean benchmark = true;
 
+		//large models
+		//String [] models = {"git", "frankervrep", "icd", "java_meta_model","modelo-alloy"};
+		//boolean benchmark = false;
+		
 		//Where to store the results and result string to print at the end
 		String result_dir = "results" + File.separator;
-		String results = "";
+		
 		
 		//Choose default scope
 		int scope = 3;
-		
+		String result_total = "";
 		for(String model : models) {
+			String results = "";
 			//Build the relevant directory locations.
 			//Directory where the json file is stored from the completion suggestion generator
 			String directory = "test-results" + File.separator + source + File.separator + "multi_term" + File.separator + model + File.separator;
@@ -75,9 +77,22 @@ public class ImpactAnalysis_NoTarget {
 		    //Grab the default command as a basis to build out own commands
 		    Command c = world.getAllCommands().get(0); 
 		    
+
+		    //Collect parameters and their scopes
+		    ArrayList<Parameter> parameters = new ArrayList<Parameter>();
+		    for(Func pred : world.getAllFunc()) {
+		    	for(ExprVar ev : pred.params()) {
+		    		if(benchmark)
+		    			parameters.add(new Parameter(ev.label, ev.type().toString(), pred.pos.y, pred.pos.y2));
+		    		else
+		    			parameters.add(new Parameter(ev.label, ev.type().toString(), pred.pos.y-2, pred.pos.y2-2));
+		    	}
+		    } 
+		    
 		    for(File file : listOfFiles) {
 				String f = file.getName();
-				if(f.contains("json")) { //The json files contains all the suggestions and all details about the completion location
+
+				if(f.contains("json") ) { //The json files contains all the suggestions and all details about the completion location
 	
 					File myObj = new File(directory + f);
 				    Scanner myReader;
@@ -93,20 +108,23 @@ public class ImpactAnalysis_NoTarget {
 						String incompleteLine = (String) jo.get("incompletionLine"); //Get everything up to the completion location
 						JSONArray evaluationResult = (JSONArray) jo.get("evaluationResult"); //Get the list of completion suggestions
 						
+						
+						incompleteLine = incompleteLine.replaceAll("\\(","");
+						incompleteLine = incompleteLine.replaceAll("\\)","");
+	
+						
 						//Add parameter variables to the Analyzer's execution environment
-						if(parameters.containsKey(model)) {
-							String [] params = parameters.get(model).split(",");
-							for(int i = 0; i < params.length; i++) {
-								String [] param = params[i].split(":");
-								world.addGlobal(param[0], CompUtil.parseOneExpression_fromString(world, param[1]));
+						long line_number = (Long) jo.get("line");
+						
+						for(Parameter p : parameters) {
+							if(line_number >= p.start_line && line_number <= p.end_line) {
+								world.addGlobal(p.variable, CompUtil.parseOneExpression_fromString(world, p.type));
 							}
-							
-							
 						}
-							
+
 						//Iterate over all suggestions for the completion location
 						for(int r = 0; r < evaluationResult.size(); r++) {
-					
+							
 							JSONObject result = (JSONObject) evaluationResult.get(r);
 							String suggestion = (String) result.get("suggestion"); //grab suggestion
 							String new_state_string = incompleteLine + " " + suggestion; //build "after" state
@@ -127,13 +145,12 @@ public class ImpactAnalysis_NoTarget {
 								can_execute_inst = TranslateAlloyToKodkod.execute_command(rep, world.getAllReachableSigs(), can_execute, options);
 							
 							}
-							catch (Exception e) {
-							
+							catch (Exception e) { 
 							}
 								
 							//Continue if we can provide an impact analysis 
 							if(can_execute_inst != null) {
-								
+							
 								//Discover the previously compilable state. Truncate repeatedly
 								for(int i = 0; i < temp.length; i++) {
 									String attempt = "";
@@ -202,11 +219,20 @@ public class ImpactAnalysis_NoTarget {
 					}
 				}
 		     }
+		    result_total += results;
+		    try {
+				  FileWriter myWriter = new FileWriter(result_dir + source + "_impact_base_" + model + ".txt");
+			      myWriter.write(results);
+			      myWriter.close();
+		    } catch (IOException e) {
+		      System.out.println("An error occurred.");
+		      e.printStackTrace();
+		    }
 		}
 		
-		try {
+		  try {
 			  FileWriter myWriter = new FileWriter(result_dir + source + "_impact_base.txt");
-		      myWriter.write(results);
+		      myWriter.write(result_total);
 		      myWriter.close();
 	    } catch (IOException e) {
 	      System.out.println("An error occurred.");

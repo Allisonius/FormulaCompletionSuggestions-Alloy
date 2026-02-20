@@ -9,11 +9,8 @@ This folder contains the code to take a list of completion suggestions and re-ra
 
 ## How to Execute
 
-- In the `scr` folder `RankList.java` contains the executable code to run rank a list based on templates.
-- The file take the following parameters:
-  - Cap on number of suggestions to be contrasted
-  - Directory where the completion suggestion templated-based rankings are stored (`.TEMPLATERANK` file extensions)
-  - Directory where to store the results of the experiments
+- In the `scr` folder `RankList.java` contains the executable code to run rank a list based on templates. This includes checking for syntatic and semantic correctness.
+- In the `scr` folder `RankListRuntime.java` calculates the time to just re-rank the list based on templates.
 
 # Experiments
 - To replicate our experiments, the java files are currently set up to point to the directory with our completion suggestions (folder `test-results`)

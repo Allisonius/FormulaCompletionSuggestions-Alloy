@@ -45,7 +45,7 @@ import edu.mit.csail.sdg.translator.A4Options;
 import edu.mit.csail.sdg.translator.A4Solution;
 import edu.mit.csail.sdg.translator.TranslateAlloyToKodkod;
 
-public class RankList {
+public class RankListRuntime {
 	//Order of all variables that are in scope
 	static ArrayList<String> order = new ArrayList<String>();
 	static HashSet<String> lets = new HashSet<String>();
@@ -53,35 +53,23 @@ public class RankList {
 	public static void main (String [] args) {
 		
 		//What models and suggestions to read in to re-rank using templates
-		//String source = "llm";
 		String source = "formula";
 		//String source = "generator";
-		
-		//Benchmark models
+
+		//All models
 		String [] models = {"array", "bempl", "binary-tree", "class-diagram", "classroom", "classroom-fol", "classroom-rl", "courses-v1",
 				"courses-v2", "c-tree", "cv", "dll", "fsm", "grade", "graph", "handshake", "lts", "nqueens", 
 				"production-line-v1", "production-line-v2", "production-line-v3", "singly-linked-list", "social-media", "train-station-fol",
-				"train-station-ltl", "trash-fol", "trash-ltl", "trash-rl"
-		};
-		boolean benchmark = true;
+				"train-station-ltl", "trash-fol", "trash-ltl", "trash-rl", "frankervrep","git","icd","java_meta_model", "modelo-alloy" };
 		
-		//Large models
-		//String [] models = {"frankervrep","git","icd","java_meta_model", "modelo-alloy"};
-		//boolean benchmark = false;
-				
 		//Where to store the results and result string to print at the end
 		String result_dir = "results" + File.separator;
 		
 		//Store information for printing metrics
-		String syn_with_ranks = "";
-		String first_with_ranks = "";
 		String print_details = "";
 		
-		String syn_total = "";
-		String first_total = "";
 
 		for(String model : models) {
-			
 			//Build the relevant directory locations.
 			//Directory where the json file is stored from the completion suggestion generator
 			String directory = "test-results" + File.separator + source + File.separator + "multi_term" + File.separator + model + File.separator;
@@ -92,17 +80,7 @@ public class RankList {
 			File folder = new File(directory);
 			File[] listOfFiles = folder.listFiles();
 			
-			//Measure some high level metrics across all completion locations
-			int total_exact = 0;
-			int total_sem = 0;
-			int total_suggestions = 0;
-			int total_start_term = 0;
 			
-			//Store information about where different types of correct suggestions are in the ranked list
-			HashSet<String> loc_exact = new HashSet<String>();
-			HashSet<String> loc_sem = new HashSet<String>();
-			HashSet<String> loc_start = new HashSet<String>();
-			HashSet<String> loc_start_or_match = new HashSet<String>();
 			
 			//Configure objects for Analyzer commmand executions
 			A4Reporter rep = new A4Reporter() {
@@ -118,25 +96,28 @@ public class RankList {
 		     
 		     //Parse model
 		     CompModule world = CompUtil.parseEverything_fromFile(rep, null, model_dir + model + ".als");
+		     ArrayList<Parameter> parameters = new ArrayList<Parameter>();
 
 		     //Collect any parameters - each parameter is an in scope designed variable
-		    ArrayList<Parameter> parameters = new ArrayList<Parameter>();
-		    for(Func pred : world.getAllFunc()) {
+		     for(Func pred : world.getAllFunc()) {
 		    	for(ExprVar ev : pred.params()) {
-		    		if(benchmark)
-		    			parameters.add(new Parameter(ev.label, ev.type().toString(), pred.pos.y, pred.pos.y2));
-		    		else
-		    			parameters.add(new Parameter(ev.label, ev.type().toString(), pred.pos.y-2, pred.pos.y2-2));
+		    		parameters.add(new Parameter(ev.label, ev.type().toString(), pred.pos.y, pred.pos.y2));
 		    	}
-		    } 
-			    
+		     }
+			 
+		     long start_time = System.nanoTime();
+		     int num_loc = 0;
+		     
 			 for(File file : listOfFiles) {
 				String f = file.getName(); //The json files contains all the suggestions and all details about the completion location
 				if(f.contains("json")  ) {
+					if(f.contains("true"))
+						num_loc++;
 					
 					//Reset world to remove any parameters stored as global variables
 					world = CompUtil.parseEverything_fromFile(rep, null, model_dir + model + ".als");
 					
+					long alt_start_time = System.nanoTime();
 					//Will store the order the template ranking produces, printed to result file and used by contrasting scenario
 					ArrayList<String> template_rank_ordered_sug = new ArrayList<String>();
 					
@@ -171,22 +152,7 @@ public class RankList {
 							String expectedCompletionLine = (String) jo.get("expectedCompletionLine");
 							long line_number = (Long) jo.get("line");
 							
-					
-							//Some completion locations are inlined with the declaration of the fact/pred/func - remove these declarations for we have a standalone compilable formula
-							//Check for and remove inline declarations
-							String inline = incompleteLine + expectedCompletionLine;
-
-							if(inline.startsWith("pred ") || inline.startsWith("fact ") || inline.startsWith("func ")) { 
-								if(inline.contains("}")) {
-									incompleteLine = incompleteLine.substring(incompleteLine.indexOf("{") + 1);
-									expectedCompletionLine = expectedCompletionLine.substring(0, expectedCompletionLine.lastIndexOf("}"));
-								}
-								else {
-									incompleteLine = incompleteLine.substring(incompleteLine.indexOf("{") + 1);
-								}
-							}
-							
-							//Add parameter variables to the Analyzer's execution environment if completion line is within scope of the parameter variable
+							//Add parameter variables to the Analyzer's execution environment
 							for(Parameter p : parameters) {
 								if(line_number >= p.start_line && line_number <= p.end_line) {
 									world.addGlobal(p.variable, CompUtil.parseOneExpression_fromString(world, p.type));
@@ -213,6 +179,8 @@ public class RankList {
 							expectedCompletionLine = expectedCompletionLine.replaceAll("\\(","");
 							expectedCompletionLine = expectedCompletionLine.replaceAll("\\)","");
 							
+							
+							
 							expectedCompletionLine = clean_expectedCompletionLine(expectedCompletionLine);
 							incompleteLine = clean_incompleteLine(incompleteLine);
 							String line = incompleteLine + " " + expectedCompletionLine; //rebuild line
@@ -221,13 +189,28 @@ public class RankList {
 							HashMap<String, String> vars = new HashMap<String, String>();
 							
 							line = line.trim();
+							if(line.startsWith("pred ")) { //inlined pred
+								if(line.contains("}")) {
+									line = line.substring(line.indexOf("{") + 1);
+									line = line.substring(0, line.lastIndexOf("}"));
+								}
+								else {
+									line = line.substring(line.indexOf("{") + 1);
+								}
+							}
+							
+							if(line.startsWith("fact ")  && line.contains("}")) { // inline fact
+								line = line.substring(line.indexOf("{") + 1);
+								line = line.substring(0, line.lastIndexOf("}"));
+							}
+							
+							if(line.startsWith("fun ")  && line.contains("}")) { // inline function
+								line = line.substring(line.indexOf("{") + 1);
+								line = line.substring(0, line.lastIndexOf("}"));
+							}
+							
 							Expr line_expr = null;
-							
-							String start_line = ""; //stores quantified variable declarations
-							String end_line = ""; //stores end of quantified declarations
-							String disj = "";
-							
-							try { //Attempts to compile the reconstructed formula in order to gather all variables and their domain
+							try {
 								try {
 									line_expr = CompUtil.parseOneExpression_fromString(world, line);	
 									vars = findVars(line_expr, vars); //Iterate over completion location, find all variables in scope. Note: not needed if directly connected to completion pipeline as these are gathered there 
@@ -242,6 +225,10 @@ public class RankList {
 							catch(Exception e2) {
 								
 							}
+							
+							String start_line = ""; //stores quantified variable declarations
+							String end_line = ""; //stores end of quantified declarations
+							String disj = "";
 							
 							//For all variables in scope, build existentially quantified or let expressions to properly declare the variables
 							for(int i = 0; i < order.size(); i++) {
@@ -276,128 +263,17 @@ public class RankList {
 				
 							//Builds baseline: alphanetical ranking and length based ranking
 							TreeSet<String> suggestions = new TreeSet<String>();
-							HashMap<Integer, TreeSet<String>> suggestions_by_len = new HashMap<Integer, TreeSet<String>>();
-							
-							//Stores all suggestions that match syntatic, and first semantic correct suggestion (which could also be syntacticly correct)
-							TreeSet<SuggestionResult> syn_corr_suggetions = new TreeSet<SuggestionResult>();
-							TreeSet<SuggestionResult> first_corr_suggetions = new TreeSet<SuggestionResult>();
-
+				
 							//Iterate over all suggestions
 							for(int i = 0; i < evaluationResult.size(); i++) {
-								total_suggestions++;
+							
 								
 								JSONObject result = (JSONObject) evaluationResult.get(i);
 								String suggestion = (String) result.get("suggestion");
 								suggestions.add(suggestion);
 								
-								if(!suggestions_by_len.containsKey(suggestion.length())) {
-									suggestions_by_len.put(suggestion.length(), new TreeSet<String>());
-								}
-								suggestions_by_len.get(suggestion.length()).add(suggestion);
-								
 								JSONArray breakdown = (JSONArray) result.get("expressionComponents");
 								long rank = (long) result.get("rank");
-								
-								
-								boolean doesMatchExactly = false;
-								boolean doesMatchSyntactically = false;
-								boolean doesMatchSemantically = false;
-								
-								if(expectedCompletionLine.equals(suggestion) ) { 
-								//if(expectedCompletionLine.equals(suggestion) || expectedCompletionWord.equals(suggestion) ) { // can toggle expectedCompletionWord as acceptable as well
-									//If exact match, means syntatic and semantic match
-									doesMatchExactly = true;
-									doesMatchSyntactically = true;
-									doesMatchSemantically = true;
-									loc_exact.add(f);
-									loc_sem.add(f);
-									loc_start_or_match.add(f);
-								}
-								else {
-									
-									//Determine if it would be a start + match
-									if(expectedCompletionWord.startsWith(suggestion)) {
-										total_start_term++;
-										loc_start.add(f);
-										loc_start_or_match.add(f);
-									}
-									
-									//Check the suggestion for semantic equivalence
-									String expression = "";
-									//incompleteLine = clean_incompleteLine(incompleteLine);
-									try {
-										int scope = 3;
-
-										if(incompleteLine.startsWith("(")) {
-											expression = "(" + incompleteLine + " " + suggestion + ")) <=> " + "(" + incompleteLine + " " + expectedCompletionLine + ")) ";
-										}
-										else {
-											expression = "(" + incompleteLine + " " + suggestion + ") <=> " + "(" + incompleteLine + " " + expectedCompletionLine + ") ";
-										}
-										Expr new_pred = CompUtil.parseOneExpression_fromString(world, expression);
-										Command cmd = new Command(false, scope, scope, scope, world.getAllReachableFacts().and(new_pred));
-									    A4Solution instance = TranslateAlloyToKodkod.execute_command(rep, world.getAllReachableSigs(), cmd, options);
-										if(instance.satisfiable()) {
-											doesMatchSemantically = true;
-											loc_sem.add(f);
-											loc_start_or_match.add(f);
-										}
-										else {
-											doesMatchSemantically = false;
-										}
-									}
-									catch (Exception e) {
-										try {
-											int scope = 3;
-											
-											if(incompleteLine.startsWith("(")) {
-												expression = "(" + incompleteLine + " " + suggestion + ")) != " + "(" + incompleteLine + " " + expectedCompletionLine + ")) ";
-											}
-											else {
-												expression = "(" + incompleteLine + " " + suggestion + ") != " + "(" + incompleteLine + " " + expectedCompletionLine + ") ";
-											}
-											Expr new_pred = CompUtil.parseOneExpression_fromString(world, expression);
-											Command cmd = new Command(false, scope, scope, scope, world.getAllReachableFacts().and(new_pred));
-										    A4Solution instance = TranslateAlloyToKodkod.execute_command(rep, world.getAllReachableSigs(), cmd, options);
-											if(!instance.satisfiable()) {
-												doesMatchSemantically = true;
-												loc_sem.add(f);
-												loc_start_or_match.add(f);
-											}
-											else {
-												doesMatchSemantically = false;
-											}
-										}
-										catch(Exception e2) {
-											try {
-												int scope = 3;
-												
-												if(incompleteLine.startsWith("(")) {
-													expression = start_line + "\n" + disj + "\n" + "(" + suggestion + ")) != " + "(" + expectedCompletionLine + "))" + end_line;
-												}
-												else {
-													expression = start_line + "\n" + disj + "\n" + "(" + suggestion + ") != " + "(" + expectedCompletionLine + ")" + end_line;
-												}
-												Expr new_pred = CompUtil.parseOneExpression_fromString(world, expression);
-												Command cmd = new Command(false, scope, scope, scope, world.getAllReachableFacts().and(new_pred));
-											    A4Solution instance = TranslateAlloyToKodkod.execute_command(rep, world.getAllReachableSigs(), cmd, options);
-												if(!instance.satisfiable()) {
-													doesMatchSemantically = true;
-													loc_sem.add(f);
-													loc_start_or_match.add(f);
-												}
-												else {
-													doesMatchSemantically = false;
-												}
-											}
-											catch(Exception e3) {
-												//System.out.println(expression);
-												doesMatchSemantically = false;
-											}
-										}
-									}
-								}
-								
 								
 								// Build template of the suggestion				
 								String template = "";
@@ -465,7 +341,7 @@ public class RankList {
 								}
 
 								//Build suggestion rank object
-								SuggestionResult suggestion_result = new SuggestionResult(suggestion, template, loc_template, doesMatchExactly, doesMatchSyntactically, doesMatchSemantically, rank, level);
+								SuggestionResult suggestion_result = new SuggestionResult(suggestion, template, loc_template, false, false, false, rank, level);
 
 								if(ranked_suggestions.containsKey(level)) {
 									ranked_suggestions.get(level).add(suggestion_result);
@@ -485,136 +361,27 @@ public class RankList {
 									rank++;
 									
 								}
-							}
-							
-							// Build metrics for when first syntactic suggestion encountered and first correct in any way
-							boolean corr_encountered = false;
-							
-							for(int i : ranked_suggestions.keySet()) {
-								for(SuggestionResult suggestion : ranked_suggestions.get(i)) {
-									
-									if(suggestion.doesMatchExactly) {
-										total_exact++;
-										total_sem++;
-										syn_corr_suggetions.add(suggestion);
-									}
-									 
-									if(suggestion.doesMatchSemantically) {
-										total_sem++;	
-										loc_sem.add(f);
-										if(!corr_encountered) {
-											first_corr_suggetions.add(suggestion);
-										}
-										corr_encountered = true;
-									}
-								}
-							}
-							
-							//For all syntactically correct suggestions, get their length and alphabetical rankings
-							for(SuggestionResult suggestion : syn_corr_suggetions) {
-								int alpha = 1;
-								for(String s : suggestions) {
-									if(s.equals(suggestion.getSuggestion())) {
-										suggestion.alpha_rank = alpha;
-										break;
-									}
-									alpha++;
-								}
-								
-								int len = 1;
-								for(int l : suggestions_by_len.keySet()) {
-									for(String s : suggestions_by_len.get(l)) {
-										if(s.equals(suggestion.getSuggestion())) {
-											suggestion.len_rank = len;
-											break;
-										}
-										len++;
-									}									
-								}
-								syn_with_ranks += suggestion.printChange() +  "\n";
-							}
-							
-							//For all first correct suggestions, get their length and alphabetical rankings
-							for(SuggestionResult suggestion : first_corr_suggetions) {
-								int alpha = 1;
-								for(String s : suggestions) {
-									if(s.equals(suggestion.getSuggestion())) {
-										suggestion.alpha_rank = alpha;
-										break;
-									}
-									alpha++;
-								}
-								
-								int len = 1;
-								for(int l : suggestions_by_len.keySet()) {
-									for(String s : suggestions_by_len.get(l)) {
-										if(s.equals(suggestion.getSuggestion())) {
-											suggestion.len_rank = len;
-											break;
-										}
-										len++;
-									}									
-								}
-								first_with_ranks += suggestion.printChange() + "\n";
-							}
+							}							
 						}
 					} catch (Exception e) {
 						// TODO Auto-generated catch block
 						e.printStackTrace();
 						System.out.println(f);
 					}
-				    
-				    //print the template based ranking order
-				    String print_list_in_order = "";
-				    String dir = directory + f.replaceAll(".json", "");
-				    for(int i = 0; i < template_rank_ordered_sug.size(); i++) {
-				    	print_list_in_order += template_rank_ordered_sug.get(i) + "\n";
-				    }
-				    try {
-					  FileWriter myWriter = new FileWriter(dir + ".templaterank");
-				      myWriter.write(print_list_in_order.trim());
-				      myWriter.close();
-				    } catch (IOException e) {
-				      System.out.println("An error occurred.");
-				      e.printStackTrace();
-				    }
+	
 				    order = new ArrayList<String>();
 				    lets = new HashSet<String>();
 				}
+				
 			}
+			 long end_time = System.nanoTime();
 			 //store details on performance
-			print_details += model + "," + total_exact + "," + loc_exact.size() + "," + total_start_term + "," + loc_start.size() + "," + loc_start_or_match.size() + "," + total_sem + "," + loc_sem.size() + "," + total_suggestions + "\n";
-			
-			syn_total += syn_with_ranks;
-			first_total += first_with_ranks;
-			
-			
-			try {
-				  FileWriter myWriter = new FileWriter(result_dir + source + "_syn_rank_" + model + "s.txt");
-			      myWriter.write(syn_with_ranks);
-			      myWriter.close();
-			      
-			      myWriter = new FileWriter(result_dir + source + "_first_ranks_" + model + "s.txt");
-			      myWriter.write(first_with_ranks);
-			      myWriter.close();
-		    } catch (IOException e) {
-		      System.out.println("An error occurred.");
-		      e.printStackTrace();
-		    }
-			
-			syn_with_ranks="";
-			first_with_ranks = "";
+		    long runtime = (end_time- start_time) / 1000000;
+			print_details += model + "," + runtime + "," + num_loc + "\n";
+
 		}
 		try {
-			  FileWriter myWriter = new FileWriter(result_dir + source + "_syn_ranks.txt");
-		      myWriter.write(syn_total);
-		      myWriter.close();
-		      
-		      myWriter = new FileWriter(result_dir + source + "_first_ranks.txt");
-		      myWriter.write(first_total);
-		      myWriter.close();
-		      
-		      myWriter = new FileWriter(result_dir + source + "_highlevel.txt");
+			  FileWriter myWriter = new FileWriter(result_dir + source + "_runtimes.txt");
 		      myWriter.write(print_details);
 		      myWriter.close();
 	    } catch (IOException e) {

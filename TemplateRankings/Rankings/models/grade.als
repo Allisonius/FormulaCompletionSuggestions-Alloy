@@ -13,3 +13,18 @@ sig Assignment {
 	associated_with: one Class,
 	assigned_to: some Student
 }
+
+pred IsAssistantOrInstructor(s: Person, c: Class) {
+	s in c.assistant_for || s in c.instructor_of
+}
+
+pred PolicyAllowsGrading(s: Person, a: Assignment) {
+	IsAssistantOrInstructor[s, a.associated_with] && s !in a.assigned_to
+}
+
+// Should help create tests.
+assert NoOneCanGradeTheirOwnAssignment {
+	all s : Person, a: Assignment | PolicyAllowsGrading[s, a] implies not s in a.assigned_to 
+}
+
+check NoOneCanGradeTheirOwnAssignment
