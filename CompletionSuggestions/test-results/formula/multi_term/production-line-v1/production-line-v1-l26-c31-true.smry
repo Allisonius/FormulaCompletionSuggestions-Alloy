@@ -6,6 +6,9 @@ Vscode Position: line=25 character=31
 ----------------------------------
 26 |     all c : Component | some c.
 ----------------------------------
+Expected Completion word: parts
+Expected Completion line: parts
+Suggestion exists: true
 Completion List:
 # Suggestion 	 Exact 	 Syntactic 	 Semantic
 $1. *parts.c 	 false 	 undefined 	 undefined
@@ -23,31 +26,25 @@ $12. parts.Product 	 false 	 undefined 	 undefined
 $13. parts.Resource 	 false 	 undefined 	 undefined
 $14. position.Position 	 false 	 undefined 	 undefined
 $15. ~parts.Component 	 false 	 undefined 	 undefined
-$16. parts 	 true 	 undefined 	 undefined
-$17. parts.univ 	 false 	 undefined 	 undefined
-$18. position 	 false 	 undefined 	 undefined
-$19. position.univ 	 false 	 undefined 	 undefined
-$20. ~parts.position 	 false 	 undefined 	 undefined
-$21. ~parts 	 false 	 undefined 	 undefined
-$22. ~parts.univ 	 false 	 undefined 	 undefined
-$23. ^parts 	 false 	 undefined 	 undefined
-$24. ^parts.univ 	 false 	 undefined 	 undefined
-$25. *parts 	 false 	 undefined 	 undefined
-$26. *parts.univ 	 false 	 undefined 	 undefined
-Expected Completion word: parts
-Expected Completion line: parts
-Suggestion exists: true
+$16. ~parts.Product 	 false 	 undefined 	 undefined
+$17. ~parts.Resource 	 false 	 undefined 	 undefined
+$18. *parts.position 	 false 	 undefined 	 undefined
+$19. ^parts.position 	 false 	 undefined 	 undefined
+$20. parts 	 true 	 undefined 	 undefined
+$21. parts.position 	 false 	 undefined 	 undefined
+$22. parts.univ 	 false 	 undefined 	 undefined
+$23. position 	 false 	 undefined 	 undefined
+$24. position.univ 	 false 	 undefined 	 undefined
+$25. ~parts.position 	 false 	 undefined 	 undefined
+$26. ~parts 	 false 	 undefined 	 undefined
+$27. ~parts.univ 	 false 	 undefined 	 undefined
+$28. ^parts 	 false 	 undefined 	 undefined
+$29. ^parts.univ 	 false 	 undefined 	 undefined
+$30.  	 false 	 undefined 	 undefined
+$31. *parts 	 false 	 undefined 	 undefined
+$32. *parts.univ 	 false 	 undefined 	 undefined
 
-Suggestion in top 1 = false 
-Suggestion in top 5 = false 
-Suggestion in top 10 = false 
-
-Suggestion in top 1 (Alpha) = false
-Suggestion in top 5 (Alpha) = false
-Suggestion in top 10 (Alpha) = false
-
-Suggestion in top 1 (Len) = true
-Suggestion in top 5 (Len) = true
-Suggestion in top 10 (Len) = true
-
-Time taken: 16.390917
+Time taken: 14.424458
+Preprocessing time: 2
+Parsing time: 1
+Generation time: 1

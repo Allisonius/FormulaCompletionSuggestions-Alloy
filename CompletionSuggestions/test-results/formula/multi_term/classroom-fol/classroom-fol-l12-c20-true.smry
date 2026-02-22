@@ -6,6 +6,9 @@ Vscode Position: line=11 character=20
 ----------------------------------
 12 | sig Teacher extends 
 ----------------------------------
+Expected Completion word: Person
+Expected Completion line: Person {}
+Suggestion exists: true
 Completion List:
 # Suggestion 	 Exact 	 Syntactic 	 Semantic
 $1. Class 	 false 	 false 	 false
@@ -16,20 +19,8 @@ $5. Int 	 false 	 false 	 false
 $6. String 	 false 	 false 	 false
 $7. none 	 false 	 false 	 false
 $8. univ 	 false 	 false 	 false
-Expected Completion word: Person
-Expected Completion line: Person {}
-Suggestion exists: true
 
-Suggestion in top 1 = false 
-Suggestion in top 5 = true 
-Suggestion in top 10 = true 
-
-Suggestion in top 1 (Alpha) = false
-Suggestion in top 5 (Alpha) = true
-Suggestion in top 10 (Alpha) = true
-
-Suggestion in top 1 (Len) = false
-Suggestion in top 5 (Len) = false
-Suggestion in top 10 (Len) = true
-
-Time taken: 10.583291
+Time taken: 22.534
+Preprocessing time: 2
+Parsing time: 0
+Generation time: 0

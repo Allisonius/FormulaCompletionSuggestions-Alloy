@@ -1,0 +1,32 @@
+Model name: courses-v2
+Filename: completion/courses-v2-complete.als
+Offset: 1847
+Term:  in 
+Vscode Position: line=77 character=62
+----------------------------------
+78 | 	all c : Course | all p : Person | lone g : Grade | p -> g in 
+----------------------------------
+Expected Completion word: c.grades
+Expected Completion line: c.grades
+Suggestion exists: true
+Completion List:
+# Suggestion 	 Exact 	 Syntactic 	 Semantic
+$1. c.grades 	 true 	 true 	 true
+$2. c.grades[p] 	 false 	 undefined 	 undefined
+$3. c.grades.p 	 false 	 undefined 	 undefined
+$4. c.grades[univ] 	 false 	 false 	 false
+$5. c.grades & (p->univ) 	 false 	 undefined 	 undefined
+$6. c.grades & (univ->g) 	 false 	 undefined 	 undefined
+$7. c.grades & (p->g) 	 false 	 undefined 	 undefined
+$8. ~c.grades 	 false 	 undefined 	 undefined
+$9. ~c.grades[g] 	 false 	 undefined 	 undefined
+$10. ~c.grades.g 	 false 	 undefined 	 undefined
+$11. c.grades.(p->g) 	 false 	 undefined 	 undefined
+$12. c.grades & univ 	 false 	 undefined 	 undefined
+$13. c.grades + univ 	 false 	 undefined 	 undefined
+$14. c.grades - univ 	 false 	 undefined 	 undefined
+
+Time taken: 6434.493542
+Preprocessing time: N/A
+Parsing time: N/A
+Generation time: N/A

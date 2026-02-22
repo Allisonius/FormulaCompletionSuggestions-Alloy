@@ -6,6 +6,9 @@ Vscode Position: line=17 character=8
 ----------------------------------
 18 |   Array.
 ----------------------------------
+Expected Completion word: length
+Expected Completion line: length >= 0
+Suggestion exists: true
 Completion List:
 # Suggestion 	 Exact 	 Syntactic 	 Semantic
 $1. i2e.Element 	 false 	 false 	 false
@@ -14,20 +17,9 @@ $3. i2e.univ 	 false 	 false 	 false
 $4. length 	 true 	 true 	 true
 $5. length.Int 	 false 	 false 	 false
 $6. length.univ 	 false 	 false 	 false
-Expected Completion word: length
-Expected Completion line: length >= 0
-Suggestion exists: true
+$7.  	 false 	 false 	 false
 
-Suggestion in top 1 = false 
-Suggestion in top 5 = true 
-Suggestion in top 10 = true 
-
-Suggestion in top 1 (Alpha) = false
-Suggestion in top 5 (Alpha) = true
-Suggestion in top 10 (Alpha) = true
-
-Suggestion in top 1 (Len) = false
-Suggestion in top 5 (Len) = true
-Suggestion in top 10 (Len) = true
-
-Time taken: 30.921334
+Time taken: 26.772875
+Preprocessing time: 6
+Parsing time: 2
+Generation time: 2

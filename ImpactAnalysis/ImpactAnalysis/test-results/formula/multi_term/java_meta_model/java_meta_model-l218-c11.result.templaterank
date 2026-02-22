@@ -70,6 +70,9 @@ public
 qthis_
 super_
 this_
+Int_.^extend
+Long_.^extend
+PrimitiveType.^extend
 extend.Int_
 extend.Long_
 extend.PrimitiveType
@@ -148,9 +151,6 @@ PrimitiveType.~extend
 ~qField.ConstructorMethodInvocation
 ~qField.LiteralValue
 ~qField.MethodInvocation
-Int_.^extend
-Long_.^extend
-PrimitiveType.^extend
 ^extend.Int_
 ^extend.Long_
 ^extend.PrimitiveType

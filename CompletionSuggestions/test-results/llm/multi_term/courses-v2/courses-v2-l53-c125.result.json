@@ -1,0 +1,323 @@
+{
+  "modelName": "courses-v2",
+  "filename": "completion/courses-v2-complete.als",
+  "offset": 1169,
+  "term": ".",
+  "line": 53,
+  "character": 125,
+  "incompletionLine": "all p : Person , c : Course , ps1 , ps2 : Project | ps1 in p.projects && ps2 in p.projects && ps1 in c.projects && ps2 in c.",
+  "completionList": "projects, projects.~projects, projects.^projects, projects.*projects, projects + univ, projects & univ, projects - univ, projects -> univ, projects .~projects, projects .^projects, projects .*projects, projects .~Person, projects .~Course",
+  "evaluationResult": [
+    {
+      "suggestion": "projects",
+      "rank": 1,
+      "doesMatchExactly": true,
+      "startsWithSuggestion": true,
+      "doesCompile": false,
+      "expressionComponents": [
+        {
+          "label": "projects",
+          "type": "RELATION"
+        }
+      ]
+    },
+    {
+      "suggestion": "projects.~projects",
+      "rank": 2,
+      "doesMatchExactly": false,
+      "startsWithSuggestion": false,
+      "doesCompile": false,
+      "expressionComponents": [
+        {
+          "label": "projects",
+          "type": "RELATION"
+        },
+        {
+          "label": ".",
+          "type": "OPERATOR"
+        },
+        {
+          "label": "~",
+          "type": "OPERATOR"
+        },
+        {
+          "label": "projects",
+          "type": "RELATION"
+        }
+      ]
+    },
+    {
+      "suggestion": "projects.^projects",
+      "rank": 3,
+      "doesMatchExactly": false,
+      "startsWithSuggestion": false,
+      "doesCompile": false,
+      "expressionComponents": [
+        {
+          "label": "projects",
+          "type": "RELATION"
+        },
+        {
+          "label": ".",
+          "type": "OPERATOR"
+        },
+        {
+          "label": "^",
+          "type": "OPERATOR"
+        },
+        {
+          "label": "projects",
+          "type": "RELATION"
+        }
+      ]
+    },
+    {
+      "suggestion": "projects.*projects",
+      "rank": 4,
+      "doesMatchExactly": false,
+      "startsWithSuggestion": false,
+      "doesCompile": false,
+      "expressionComponents": [
+        {
+          "label": "projects",
+          "type": "RELATION"
+        },
+        {
+          "label": ".",
+          "type": "OPERATOR"
+        },
+        {
+          "label": "*",
+          "type": "OPERATOR"
+        },
+        {
+          "label": "projects",
+          "type": "RELATION"
+        }
+      ]
+    },
+    {
+      "suggestion": "projects + univ",
+      "rank": 5,
+      "doesMatchExactly": false,
+      "startsWithSuggestion": false,
+      "doesCompile": false,
+      "expressionComponents": [
+        {
+          "label": "projects",
+          "type": "RELATION"
+        },
+        {
+          "label": "+",
+          "type": "OPERATOR"
+        },
+        {
+          "label": "univ",
+          "type": "CONSTANT"
+        }
+      ]
+    },
+    {
+      "suggestion": "projects & univ",
+      "rank": 6,
+      "doesMatchExactly": false,
+      "startsWithSuggestion": false,
+      "doesCompile": false,
+      "expressionComponents": [
+        {
+          "label": "projects",
+          "type": "RELATION"
+        },
+        {
+          "label": "&",
+          "type": "OPERATOR"
+        },
+        {
+          "label": "univ",
+          "type": "CONSTANT"
+        }
+      ]
+    },
+    {
+      "suggestion": "projects - univ",
+      "rank": 7,
+      "doesMatchExactly": false,
+      "startsWithSuggestion": false,
+      "doesCompile": false,
+      "expressionComponents": [
+        {
+          "label": "projects",
+          "type": "RELATION"
+        },
+        {
+          "label": "-",
+          "type": "OPERATOR"
+        },
+        {
+          "label": "univ",
+          "type": "CONSTANT"
+        }
+      ]
+    },
+    {
+      "suggestion": "projects -> univ",
+      "rank": 8,
+      "doesMatchExactly": false,
+      "startsWithSuggestion": false,
+      "doesCompile": false,
+      "expressionComponents": [
+        {
+          "label": "projects",
+          "type": "RELATION"
+        },
+        {
+          "label": "->",
+          "type": "OPERATOR"
+        },
+        {
+          "label": "univ",
+          "type": "CONSTANT"
+        }
+      ]
+    },
+    {
+      "suggestion": "projects .~projects",
+      "rank": 9,
+      "doesMatchExactly": false,
+      "startsWithSuggestion": false,
+      "doesCompile": false,
+      "expressionComponents": [
+        {
+          "label": "projects",
+          "type": "RELATION"
+        },
+        {
+          "label": ".",
+          "type": "OPERATOR"
+        },
+        {
+          "label": "~",
+          "type": "OPERATOR"
+        },
+        {
+          "label": "projects",
+          "type": "RELATION"
+        }
+      ]
+    },
+    {
+      "suggestion": "projects .^projects",
+      "rank": 10,
+      "doesMatchExactly": false,
+      "startsWithSuggestion": false,
+      "doesCompile": false,
+      "expressionComponents": [
+        {
+          "label": "projects",
+          "type": "RELATION"
+        },
+        {
+          "label": ".",
+          "type": "OPERATOR"
+        },
+        {
+          "label": "^",
+          "type": "OPERATOR"
+        },
+        {
+          "label": "projects",
+          "type": "RELATION"
+        }
+      ]
+    },
+    {
+      "suggestion": "projects .*projects",
+      "rank": 11,
+      "doesMatchExactly": false,
+      "startsWithSuggestion": false,
+      "doesCompile": false,
+      "expressionComponents": [
+        {
+          "label": "projects",
+          "type": "RELATION"
+        },
+        {
+          "label": ".",
+          "type": "OPERATOR"
+        },
+        {
+          "label": "*",
+          "type": "OPERATOR"
+        },
+        {
+          "label": "projects",
+          "type": "RELATION"
+        }
+      ]
+    },
+    {
+      "suggestion": "projects .~Person",
+      "rank": 12,
+      "doesMatchExactly": false,
+      "startsWithSuggestion": false,
+      "doesCompile": false,
+      "expressionComponents": [
+        {
+          "label": "projects",
+          "type": "RELATION"
+        },
+        {
+          "label": ".",
+          "type": "OPERATOR"
+        },
+        {
+          "label": "~",
+          "type": "OPERATOR"
+        },
+        {
+          "label": "Person",
+          "type": "SIGNATURE"
+        }
+      ]
+    },
+    {
+      "suggestion": "projects .~Course",
+      "rank": 13,
+      "doesMatchExactly": false,
+      "startsWithSuggestion": false,
+      "doesCompile": false,
+      "expressionComponents": [
+        {
+          "label": "projects",
+          "type": "RELATION"
+        },
+        {
+          "label": ".",
+          "type": "OPERATOR"
+        },
+        {
+          "label": "~",
+          "type": "OPERATOR"
+        },
+        {
+          "label": "Course",
+          "type": "SIGNATURE"
+        }
+      ]
+    }
+  ],
+  "completionGenerated": true,
+  "suggestionExists": true,
+  "suggestionInTop1": true,
+  "suggestionInTop5": true,
+  "suggestionInTop10": true,
+  "suggestionInTop1Alpha": true,
+  "suggestionInTop5Alpha": true,
+  "suggestionInTop10Alpha": true,
+  "suggestionInTop1Len": true,
+  "suggestionInTop5Len": true,
+  "suggestionInTop10Len": true,
+  "expectedCompletionWord": "projects",
+  "expectedCompletionLine": "projects implies ps1 = ps2",
+  "elapsedTimeInMs": 4512.6825
+}

@@ -6,6 +6,9 @@ Vscode Position: line=38 character=11
 ----------------------------------
 39 |     Hilary.
 ----------------------------------
+Expected Completion word: spouse
+Expected Completion line: spouse = Jocelyn
+Suggestion exists: true
 Completion List:
 # Suggestion 	 Exact 	 Syntactic 	 Semantic
 $1. *shaken.Hilary 	 false 	 false 	 false
@@ -74,26 +77,15 @@ $63. ^spouse 	 false 	 false 	 false
 $64. ^spouse.*shaken 	 false 	 false 	 false
 $65. ^spouse.^shaken 	 false 	 false 	 false
 $66. ^spouse.univ 	 false 	 false 	 false
-$67. *shaken 	 false 	 false 	 false
-$68. *shaken.*spouse 	 false 	 false 	 false
-$69. *shaken.univ 	 false 	 false 	 false
-$70. *spouse 	 false 	 false 	 false
-$71. *spouse.*shaken 	 false 	 false 	 false
-$72. *spouse.univ 	 false 	 false 	 false
-Expected Completion word: spouse
-Expected Completion line: spouse = Jocelyn
-Suggestion exists: true
+$67.  	 false 	 false 	 false
+$68. *shaken 	 false 	 false 	 false
+$69. *shaken.*spouse 	 false 	 false 	 false
+$70. *shaken.univ 	 false 	 false 	 false
+$71. *spouse 	 false 	 false 	 false
+$72. *spouse.*shaken 	 false 	 false 	 false
+$73. *spouse.univ 	 false 	 false 	 false
 
-Suggestion in top 1 = false 
-Suggestion in top 5 = false 
-Suggestion in top 10 = false 
-
-Suggestion in top 1 (Alpha) = false
-Suggestion in top 5 (Alpha) = false
-Suggestion in top 10 (Alpha) = false
-
-Suggestion in top 1 (Len) = false
-Suggestion in top 5 (Len) = true
-Suggestion in top 10 (Len) = true
-
-Time taken: 11.711792
+Time taken: 12.431041
+Preprocessing time: 3
+Parsing time: 1
+Generation time: 1

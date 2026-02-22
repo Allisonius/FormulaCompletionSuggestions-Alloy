@@ -1,0 +1,49 @@
+Model name: courses-v2
+Filename: completion/courses-v2-complete.als
+Offset: 341
+Term: .
+Vscode Position: line=21 character=33
+----------------------------------
+22 | 	all p : Person - Student | no p.
+----------------------------------
+Expected Completion word: enrolled
+Expected Completion line: enrolled
+Suggestion exists: false
+Completion List:
+# Suggestion 	 Exact 	 Syntactic 	 Semantic
+$1. p.teaches 	 false 	 false 	 false
+$2. p.enrolled 	 false 	 false 	 false
+$3. p.projects 	 false 	 false 	 false
+$4. p.teaches.projects 	 false 	 false 	 false
+$5. p.teaches.grades 	 false 	 false 	 false
+$6. p.teaches.projects + univ 	 false 	 false 	 false
+$7. p.teaches.projects & univ 	 false 	 false 	 false
+$8. p.teaches.projects^ 	 false 	 undefined 	 undefined
+$9. p.teaches.projects* 	 false 	 undefined 	 undefined
+$10. p.teaches.grades 	 false 	 false 	 false
+$11. p.teaches.grades^ 	 false 	 undefined 	 undefined
+$12. p.teaches.grades* 	 false 	 undefined 	 undefined
+$13. p.enrolled.projects 	 false 	 false 	 false
+$14. p.enrolled.grades 	 false 	 false 	 false
+$15. p.enrolled.projects + univ 	 false 	 false 	 false
+$16. p.enrolled.projects & univ 	 false 	 false 	 false
+$17. p.enrolled.projects^ 	 false 	 undefined 	 undefined
+$18. p.enrolled.projects* 	 false 	 undefined 	 undefined
+$19. p.enrolled.grades 	 false 	 false 	 false
+$20. p.enrolled.grades^ 	 false 	 undefined 	 undefined
+$21. p.enrolled.grades* 	 false 	 undefined 	 undefined
+$22. p.projects + univ 	 false 	 false 	 false
+$23. p.projects & univ 	 false 	 false 	 false
+$24. p.projects^ 	 false 	 undefined 	 undefined
+$25. p.projects* 	 false 	 undefined 	 undefined
+$26. p.teaches + univ 	 false 	 false 	 false
+$27. p.teaches & univ 	 false 	 false 	 false
+$28. p.enrolled + univ 	 false 	 false 	 false
+$29. p.enrolled & univ 	 false 	 false 	 false
+$30. p.teaches.projects.grades 	 false 	 false 	 false
+$31. p.enrolled.projects.grades 	 false 	 false 	 false
+
+Time taken: 6875.683166
+Preprocessing time: N/A
+Parsing time: N/A
+Generation time: N/A

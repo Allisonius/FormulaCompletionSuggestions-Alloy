@@ -1,1 +1,9 @@
 modelname,filename,position-line,position-character,incompleteline,removedtext,baseline,suggestionedExpression,A_iff_B,A_and_B,not_A_and_B,A_and_not_B,not_A_and_not_B,suggestionImpactTime
+array,completion/array-complete.als,31,17,"all idx: Array.","i2e.Element | lone Array.i2e[idx]","{}","  all idx: Array.length",,,,,,8.537417
+array,completion/array-complete.als,31,17,"all idx: Array.","i2e.Element | lone Array.i2e[idx]","{}","  all idx: Array.i2e",,,,,,8.537417
+array,completion/array-complete.als,31,17,"all idx: Array.","i2e.Element | lone Array.i2e[idx]","{}","  all idx: Array.i2e.idx",,,,,,8.537417
+array,completion/array-complete.als,31,17,"all idx: Array.","i2e.Element | lone Array.i2e[idx]","{}","  all idx: Array.i2e.length",,,,,,8.537417
+array,completion/array-complete.als,31,17,"all idx: Array.","i2e.Element | lone Array.i2e[idx]","{}","  all idx: Array.~i2e",,,,,,8.537417
+array,completion/array-complete.als,31,17,"all idx: Array.","i2e.Element | lone Array.i2e[idx]","{}","  all idx: Array.~i2e.idx",,,,,,8.537417
+array,completion/array-complete.als,31,17,"all idx: Array.","i2e.Element | lone Array.i2e[idx]","{}","  all idx: Array.~i2e.length",,,,,,8.537417
+array,completion/array-complete.als,31,17,"all idx: Array.","i2e.Element | lone Array.i2e[idx]","{}","  all idx: Array.univ",,,,,,8.537417

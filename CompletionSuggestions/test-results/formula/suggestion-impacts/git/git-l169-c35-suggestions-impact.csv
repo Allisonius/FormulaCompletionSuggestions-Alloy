@@ -1,0 +1,24 @@
+modelname,filename,position-line,position-character,incompleteline,removedtext,baseline,suggestionedExpression,A_iff_B,A_and_B,not_A_and_B,A_and_not_B,not_A_and_not_B,suggestionImpactTime
+git,completion/git-complete.als,169,35,"all t : stored.s & Tree | Name.(t.","content) in stored.s","{}","\tall t : stored.s & Tree | Name.(t.stored.s",,,,,,167.046458
+git,completion/git-complete.als,169,35,"all t : stored.s & Tree | Name.(t.","content) in stored.s","{}","\tall t : stored.s & Tree | Name.(t.content.Blob",,,,,,167.046458
+git,completion/git-complete.als,169,35,"all t : stored.s & Tree | Name.(t.","content) in stored.s","{}","\tall t : stored.s & Tree | Name.(t.stored.State",,,,,,167.046458
+git,completion/git-complete.als,169,35,"all t : stored.s & Tree | Name.(t.","content) in stored.s","{}","\tall t : stored.s & Tree | Name.(t.~tree.Commit",,,,,,167.046458
+git,completion/git-complete.als,169,35,"all t : stored.s & Tree | Name.(t.","content) in stored.s","{}","\tall t : stored.s & Tree | Name.(t.content",,,,,,167.046458
+git,completion/git-complete.als,169,35,"all t : stored.s & Tree | Name.(t.","content) in stored.s","{}","\tall t : stored.s & Tree | Name.(t.content.*conflict",,,,,,167.046458
+git,completion/git-complete.als,169,35,"all t : stored.s & Tree | Name.(t.","content) in stored.s","{}","\tall t : stored.s & Tree | Name.(t.content.^conflict",,,,,,167.046458
+git,completion/git-complete.als,169,35,"all t : stored.s & Tree | Name.(t.","content) in stored.s","{}","\tall t : stored.s & Tree | Name.(t.content.conflict",,,,,,167.046458
+git,completion/git-complete.als,169,35,"all t : stored.s & Tree | Name.(t.","content) in stored.s","{}","\tall t : stored.s & Tree | Name.(t.content.merging",,,,,,167.046458
+git,completion/git-complete.als,169,35,"all t : stored.s & Tree | Name.(t.","content) in stored.s","{}","\tall t : stored.s & Tree | Name.(t.content.univ",,,,,,167.046458
+git,completion/git-complete.als,169,35,"all t : stored.s & Tree | Name.(t.","content) in stored.s","{}","\tall t : stored.s & Tree | Name.(t.content.~conflict",,,,,,167.046458
+git,completion/git-complete.als,169,35,"all t : stored.s & Tree | Name.(t.","content) in stored.s","{}","\tall t : stored.s & Tree | Name.(t.stored",,,,,,167.046458
+git,completion/git-complete.als,169,35,"all t : stored.s & Tree | Name.(t.","content) in stored.s","{}","\tall t : stored.s & Tree | Name.(t.stored.univ",,,,,,167.046458
+git,completion/git-complete.als,169,35,"all t : stored.s & Tree | Name.(t.","content) in stored.s","{}","\tall t : stored.s & Tree | Name.(t.stored.~HEAD",,,,,,167.046458
+git,completion/git-complete.als,169,35,"all t : stored.s & Tree | Name.(t.","content) in stored.s","{}","\tall t : stored.s & Tree | Name.(t.stored.~current",,,,,,167.046458
+git,completion/git-complete.als,169,35,"all t : stored.s & Tree | Name.(t.","content) in stored.s","{}","\tall t : stored.s & Tree | Name.(t.stored.~heads",,,,,,167.046458
+git,completion/git-complete.als,169,35,"all t : stored.s & Tree | Name.(t.","content) in stored.s","{}","\tall t : stored.s & Tree | Name.(t.stored.~index",,,,,,167.046458
+git,completion/git-complete.als,169,35,"all t : stored.s & Tree | Name.(t.","content) in stored.s","{}","\tall t : stored.s & Tree | Name.(t.~tree.previous",,,,,,167.046458
+git,completion/git-complete.als,169,35,"all t : stored.s & Tree | Name.(t.","content) in stored.s","{}","\tall t : stored.s & Tree | Name.(t.~tree",,,,,,167.046458
+git,completion/git-complete.als,169,35,"all t : stored.s & Tree | Name.(t.","content) in stored.s","{}","\tall t : stored.s & Tree | Name.(t.~tree.*previous",,,,,,167.046458
+git,completion/git-complete.als,169,35,"all t : stored.s & Tree | Name.(t.","content) in stored.s","{}","\tall t : stored.s & Tree | Name.(t.~tree.^previous",,,,,,167.046458
+git,completion/git-complete.als,169,35,"all t : stored.s & Tree | Name.(t.","content) in stored.s","{}","\tall t : stored.s & Tree | Name.(t.~tree.univ",,,,,,167.046458
+git,completion/git-complete.als,169,35,"all t : stored.s & Tree | Name.(t.","content) in stored.s","{}","\tall t : stored.s & Tree | Name.(t.~tree.~previous",,,,,,167.046458

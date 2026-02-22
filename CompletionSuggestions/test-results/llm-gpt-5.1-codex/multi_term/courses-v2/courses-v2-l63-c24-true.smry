@@ -1,0 +1,39 @@
+Model name: courses-v2
+Filename: completion/courses-v2-complete.als
+Offset: 1415
+Term: .
+Vscode Position: line=62 character=24
+----------------------------------
+63 | 	all p : Person | no (p.
+----------------------------------
+Expected Completion word: teaches.~teaches
+Expected Completion line: teaches.~teaches - p) & p.teaches.~enrolled
+Suggestion exists: true
+Completion List:
+# Suggestion 	 Exact 	 Syntactic 	 Semantic
+$1. teaches 	 false 	 undefined 	 undefined
+$2. enrolled 	 false 	 undefined 	 undefined
+$3. projects 	 false 	 undefined 	 undefined
+$4. teaches.projects 	 false 	 undefined 	 undefined
+$5. enrolled.projects 	 false 	 undefined 	 undefined
+$6. projects.~projects 	 false 	 undefined 	 undefined
+$7. teaches.grades 	 false 	 undefined 	 undefined
+$8. enrolled.grades 	 false 	 undefined 	 undefined
+$9. projects.~projects.grades 	 false 	 undefined 	 undefined
+$10. teaches.~teaches 	 true 	 undefined 	 undefined
+$11. teaches.~enrolled 	 false 	 undefined 	 undefined
+$12. enrolled.~teaches 	 false 	 undefined 	 undefined
+$13. enrolled.~enrolled 	 false 	 undefined 	 undefined
+$14. teaches.projects.~projects 	 false 	 undefined 	 undefined
+$15. enrolled.projects.~projects 	 false 	 undefined 	 undefined
+$16. projects.~projects.projects 	 false 	 undefined 	 undefined
+$17. teaches.projects.~projects.grades 	 false 	 undefined 	 undefined
+$18. enrolled.projects.~projects.grades 	 false 	 undefined 	 undefined
+$19. teaches + univ 	 false 	 undefined 	 undefined
+$20. enrolled + univ 	 false 	 undefined 	 undefined
+$21. projects + univ 	 false 	 undefined 	 undefined
+$22. teaches & univ 	 false 	 undefined 	 undefined
+$23. enrolled & univ 	 false 	 undefined 	 undefined
+$24. projects & univ 	 false 	 undefined 	 undefined
+
+Time taken: 39583.136333

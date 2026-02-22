@@ -34,12 +34,6 @@ class DotVisitorTest extends BaseVisitorTest {
 
 		DotVisitor visitor = new DotVisitor(model, completionParams, alloyEvaluation, quantifiers);
 		var completionItems = visitor.visit(tree);
-		completionItems.stream()
-		               .distinct()
-		               .sorted(Comparator.comparing(CompletionItem::getSortText))
-		               .map(completionItem -> completionItem.getLabel() + " :: " + completionItem.getDetail())
-		               .forEach(System.out::println);
-
 		assertThat(completionItems, hasItems(hasProperty("label", is("Groups"))));
 	}
 
@@ -47,11 +41,10 @@ class DotVisitorTest extends BaseVisitorTest {
 	public void testWithQuantifiers() {
 		CompletionModelBuilder modelBuilder = ClassroomFolModel.modelBuilder();
 		String model = modelBuilder.withContent("pred abc {")
-		                           .withCompletionLine("some p: Person | some Tutors. ")
+		                           .withCompletionLine("some p: Person | some Tutors.")
 		                           .withContent("}")
 		                           .build();
 		alloyParser parser = buildParser(model);
-		System.out.println(model);
 		CompletionParams completionParams = buildCompletionParams(modelBuilder);
 		var tree = parser.alloyModule();
 		AlloyEvaluation alloyEvaluation = buildAlloyEvaluation(model, completionParams);
@@ -63,12 +56,6 @@ class DotVisitorTest extends BaseVisitorTest {
 		                             .stream()
 		                             .sorted(Comparator.comparing(CompletionItem::getSortText))
 		                             .collect(Collectors.toList());
-		completionItems.stream()
-		               .distinct()
-		               .sorted(Comparator.comparing(CompletionItem::getSortText))
-		               .map(completionItem -> completionItem.getLabel() + " :: " + completionItem.getDetail())
-		               .forEach(System.out::println);
-
 		assertThat(completionItems, hasItem(hasProperty("label", is("p"))));
 	}
 
@@ -76,11 +63,10 @@ class DotVisitorTest extends BaseVisitorTest {
 	public void testWithQuantifiersInQualifier() {
 		CompletionModelBuilder modelBuilder = ClassroomFolModel.modelBuilder();
 		String model = modelBuilder.withContent("pred abc {")
-		                           .withCompletionLine("some p: Person | some p. ")
+		                           .withCompletionLine("some p: Person | some p.")
 		                           .withContent("}")
 		                           .build();
 		alloyParser parser = buildParser(model);
-		System.out.println(model);
 		CompletionParams completionParams = buildCompletionParams(modelBuilder);
 		var tree = parser.alloyModule();
 		AlloyEvaluation alloyEvaluation = buildAlloyEvaluation(model, completionParams);
@@ -92,7 +78,6 @@ class DotVisitorTest extends BaseVisitorTest {
 		                             .stream()
 		                             .sorted(Comparator.comparing(CompletionItem::getSortText))
 		                             .collect(Collectors.toList());
-		printCompletionItems(completionItems);
 		assertThat(completionItems, hasItem(hasProperty("label", is("Tutors"))));
 		assertThat(completionItems, hasItem(hasProperty("label", is("Teaches"))));
 	}
@@ -113,12 +98,6 @@ class DotVisitorTest extends BaseVisitorTest {
 
 		DotVisitor visitor = new DotVisitor(model, completionParams, alloyEvaluation, quantifiers);
 		var completionItems = visitor.visit(tree);
-		completionItems.stream()
-		               .distinct()
-		               .sorted(Comparator.comparing(CompletionItem::getSortText))
-		               .map(completionItem -> completionItem.getLabel() + " :: " + completionItem.getDetail())
-		               .forEach(System.out::println);
-
 		assertThat(completionItems, hasItems(hasProperty("label", is("Group"))));
 	}
 
@@ -131,6 +110,6 @@ class DotVisitorTest extends BaseVisitorTest {
 				                           "let ts = { s1,s2:State | some e:Event | s1->e->s2 in trans } | all s:Init.^ts | some i:Init | i in s. ")
 		                           .withContent("}");
 		var completionItems = generateCompletionForVisitor(modelBuilder, DotVisitor.class);
-		printCompletionItems(completionItems);
+//		assertThat(completionItems, hasItem(hasProperty("label", is("s"))));
 	}
 }

@@ -1,0 +1,35 @@
+Model name: git-fixable
+Filename: completion/git-complete-fixable.als
+Offset: 14824
+Term:  -> 
+Vscode Position: line=610 character=23
+----------------------------------
+611 | 	some fp : File | f -> 
+----------------------------------
+Expected Completion word: fp
+Expected Completion line: fp in samepath and some fp.belongsTo.(HEAD[s])
+Suggestion exists: true
+Completion List:
+# Suggestion 	 Exact 	 Syntactic 	 Semantic
+$1. f 	 false 	 undefined 	 undefined
+$2. fp 	 true 	 undefined 	 undefined
+$3. s 	 false 	 undefined 	 undefined
+$4. Blob 	 false 	 undefined 	 undefined
+$5. Commit 	 false 	 undefined 	 undefined
+$6. Dir 	 false 	 undefined 	 undefined
+$7. File 	 false 	 undefined 	 undefined
+$8. Name 	 false 	 undefined 	 undefined
+$9. Node 	 false 	 undefined 	 undefined
+$10. Object 	 false 	 undefined 	 undefined
+$11. Root 	 false 	 undefined 	 undefined
+$12. State 	 false 	 undefined 	 undefined
+$13. Tree 	 false 	 undefined 	 undefined
+$14. Int 	 false 	 undefined 	 undefined
+$15. String 	 false 	 undefined 	 undefined
+$16. none 	 false 	 undefined 	 undefined
+$17. univ 	 false 	 undefined 	 undefined
+
+Time taken: 49.378583
+Preprocessing time: 13
+Parsing time: 6
+Generation time: 0

@@ -1,0 +1,39 @@
+Model name: frankervrep
+Filename: completion/frankenvrep-complete.als
+Offset: 4265
+Term: .
+Vscode Position: line=174 character=36
+----------------------------------
+175 | 	GrasperLimits not in LoadedPlugins.
+----------------------------------
+Expected Completion word: loads
+Expected Completion line: loads &&
+Suggestion exists: true
+Completion List:
+# Suggestion 	 Exact 	 Syntactic 	 Semantic
+$1. loads.ButtonInterface 	 false 	 false 	 false
+$2. loads.ButtonInterface_instance 	 false 	 false 	 false
+$3. loads.Clutch_Plugin 	 false 	 false 	 false
+$4. loads.Clutch_instance 	 false 	 false 	 false
+$5. loads.DummyController 	 false 	 false 	 false
+$6. loads.GeomagicTouchPlugin_instance 	 false 	 false 	 false
+$7. loads.GeomagicTouch_plugin 	 false 	 false 	 false
+$8. loads.GrasperLimits 	 false 	 false 	 false
+$9. loads.HomePosition 	 false 	 false 	 false
+$10. loads.HomePosition_instance 	 false 	 false 	 false
+$11. loads.IKSolver_plugin 	 false 	 false 	 false
+$12. loads.Plugin 	 false 	 false 	 false
+$13. loads.Scale 	 false 	 false 	 false
+$14. loads.SolverPlugin 	 false 	 false 	 false
+$15. loads 	 true 	 true 	 true
+$16. loads 	 true 	 true 	 true
+$17. loads.setButtonForPedal 	 false 	 false 	 false
+$18. loads.solverfamily 	 false 	 false 	 false
+$19. loads.univ 	 false 	 false 	 false
+$20. loads.~includes 	 false 	 false 	 false
+$21.  	 false 	 false 	 false
+
+Time taken: 27.197
+Preprocessing time: 5
+Parsing time: 2
+Generation time: 1

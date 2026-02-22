@@ -1,0 +1,19 @@
+modelname,filename,position-line,position-character,incompleteline,removedtext,baseline,suggestionedExpression,A_iff_B,A_and_B,not_A_and_B,A_and_not_B,not_A_and_not_B,suggestionImpactTime
+git,completion/git-complete.als,616,37,"some from and some fp : File | f ->","fp in samepath and some fp.belongsTo.from","some from","\tsome from and some fp : File | f -> f",,,,,,113.652417
+git,completion/git-complete.als,616,37,"some from and some fp : File | f ->","fp in samepath and some fp.belongsTo.from","some from","\tsome from and some fp : File | f -> fp",,,,,,113.652417
+git,completion/git-complete.als,616,37,"some from and some fp : File | f ->","fp in samepath and some fp.belongsTo.from","some from","\tsome from and some fp : File | f -> from",,,,,,113.652417
+git,completion/git-complete.als,616,37,"some from and some fp : File | f ->","fp in samepath and some fp.belongsTo.from","some from","\tsome from and some fp : File | f -> s",,,,,,113.652417
+git,completion/git-complete.als,616,37,"some from and some fp : File | f ->","fp in samepath and some fp.belongsTo.from","some from","\tsome from and some fp : File | f -> Blob",,,,,,113.652417
+git,completion/git-complete.als,616,37,"some from and some fp : File | f ->","fp in samepath and some fp.belongsTo.from","some from","\tsome from and some fp : File | f -> Commit",,,,,,113.652417
+git,completion/git-complete.als,616,37,"some from and some fp : File | f ->","fp in samepath and some fp.belongsTo.from","some from","\tsome from and some fp : File | f -> Dir",,,,,,113.652417
+git,completion/git-complete.als,616,37,"some from and some fp : File | f ->","fp in samepath and some fp.belongsTo.from","some from","\tsome from and some fp : File | f -> File",,,,,,113.652417
+git,completion/git-complete.als,616,37,"some from and some fp : File | f ->","fp in samepath and some fp.belongsTo.from","some from","\tsome from and some fp : File | f -> Name",,,,,,113.652417
+git,completion/git-complete.als,616,37,"some from and some fp : File | f ->","fp in samepath and some fp.belongsTo.from","some from","\tsome from and some fp : File | f -> Node",,,,,,113.652417
+git,completion/git-complete.als,616,37,"some from and some fp : File | f ->","fp in samepath and some fp.belongsTo.from","some from","\tsome from and some fp : File | f -> Object",,,,,,113.652417
+git,completion/git-complete.als,616,37,"some from and some fp : File | f ->","fp in samepath and some fp.belongsTo.from","some from","\tsome from and some fp : File | f -> Root",,,,,,113.652417
+git,completion/git-complete.als,616,37,"some from and some fp : File | f ->","fp in samepath and some fp.belongsTo.from","some from","\tsome from and some fp : File | f -> State",,,,,,113.652417
+git,completion/git-complete.als,616,37,"some from and some fp : File | f ->","fp in samepath and some fp.belongsTo.from","some from","\tsome from and some fp : File | f -> Tree",,,,,,113.652417
+git,completion/git-complete.als,616,37,"some from and some fp : File | f ->","fp in samepath and some fp.belongsTo.from","some from","\tsome from and some fp : File | f -> Int",,,,,,113.652417
+git,completion/git-complete.als,616,37,"some from and some fp : File | f ->","fp in samepath and some fp.belongsTo.from","some from","\tsome from and some fp : File | f -> String",,,,,,113.652417
+git,completion/git-complete.als,616,37,"some from and some fp : File | f ->","fp in samepath and some fp.belongsTo.from","some from","\tsome from and some fp : File | f -> none",,,,,,113.652417
+git,completion/git-complete.als,616,37,"some from and some fp : File | f ->","fp in samepath and some fp.belongsTo.from","some from","\tsome from and some fp : File | f -> univ",,,,,,113.652417

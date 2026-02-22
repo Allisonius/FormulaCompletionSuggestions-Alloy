@@ -6,30 +6,33 @@ Vscode Position: line=35 character=70
 ----------------------------------
 36 | 	all u : User, disj x,y : u.visible | x not in y.^((u.profile <: ids).
 ----------------------------------
+Expected Completion word: u.profile
+Expected Completion line: ~(u.profile <: ids))
+Suggestion exists: false
 Completion List:
 # Suggestion 	 Exact 	 Syntactic 	 Semantic
 $1. ~ids.x 	 false 	 undefined 	 undefined
 $2. ~ids.y 	 false 	 undefined 	 undefined
-$3. ~ids.Work 	 false 	 undefined 	 undefined
-$4. ~ids.source 	 false 	 undefined 	 undefined
-$5. ~ids 	 false 	 undefined 	 undefined
-$6. ~ids.univ 	 false 	 undefined 	 undefined
-$7. ~ids.~profile 	 false 	 undefined 	 undefined
-$8. ~ids.~visible 	 false 	 undefined 	 undefined
-Expected Completion word: ~
-Expected Completion line: ~(u.profile <: ids))
-Suggestion exists: false
+$3. Id 	 false 	 undefined 	 undefined
+$4. Id.~ids 	 false 	 undefined 	 undefined
+$5. ~ids.Work 	 false 	 undefined 	 undefined
+$6. univ.ids 	 false 	 undefined 	 undefined
+$7. univ.profile 	 false 	 undefined 	 undefined
+$8. univ.source 	 false 	 undefined 	 undefined
+$9. univ.visible 	 false 	 undefined 	 undefined
+$10. ~ids.source 	 false 	 undefined 	 undefined
+$11. univ.~ids 	 false 	 undefined 	 undefined
+$12. univ.~profile 	 false 	 undefined 	 undefined
+$13. univ.~source 	 false 	 undefined 	 undefined
+$14. univ.~visible 	 false 	 undefined 	 undefined
+$15. ~ids 	 false 	 undefined 	 undefined
+$16. ~ids.univ 	 false 	 undefined 	 undefined
+$17. ~ids.~profile 	 false 	 undefined 	 undefined
+$18. ~ids.~visible 	 false 	 undefined 	 undefined
+$19.  	 false 	 undefined 	 undefined
+$20. univ 	 false 	 undefined 	 undefined
 
-Suggestion in top 1 = false 
-Suggestion in top 5 = false 
-Suggestion in top 10 = false 
-
-Suggestion in top 1 (Alpha) = false
-Suggestion in top 5 (Alpha) = false
-Suggestion in top 10 (Alpha) = false
-
-Suggestion in top 1 (Len) = false
-Suggestion in top 5 (Len) = false
-Suggestion in top 10 (Len) = false
-
-Time taken: 9.7675
+Time taken: 10.358333
+Preprocessing time: 3
+Parsing time: 1
+Generation time: 1

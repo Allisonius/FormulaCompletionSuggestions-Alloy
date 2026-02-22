@@ -1,0 +1,28 @@
+Model name: git-redacted
+Filename: completion/git-complete-redacted.als
+Offset: 758
+Term:  in 
+Vscode Position: line=50 character=6
+----------------------------------
+51 | 	n in 
+----------------------------------
+Expected Completion word: Root
+Expected Completion line: Root and o = c.tree
+Suggestion exists: true
+Completion List:
+# Suggestion 	 Exact 	 Syntactic 	 Semantic
+$1. Node 	 false 	 undefined 	 undefined
+$2. n.samepath 	 false 	 undefined 	 undefined
+$3. n.*samepath 	 false 	 undefined 	 undefined
+$4. n.^samepath 	 false 	 undefined 	 undefined
+$5. n.parent 	 false 	 undefined 	 undefined
+$6. n.*parent 	 false 	 undefined 	 undefined
+$7. n.^parent 	 false 	 undefined 	 undefined
+$8. n.name.~name 	 false 	 undefined 	 undefined
+$9. Dir 	 false 	 undefined 	 undefined
+$10. Root 	 true 	 undefined 	 undefined
+
+Time taken: 98295.914958
+Preprocessing time: N/A
+Parsing time: N/A
+Generation time: N/A

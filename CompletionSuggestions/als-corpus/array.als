@@ -22,7 +22,7 @@ fact InBound {
 }
 
 // Part (b)
-pred NoConflict() {
+pred NoConflict {
   // Each index maps to at most one element.
   all idx: Array.i2e.Element | lone Array.i2e[idx]
 }

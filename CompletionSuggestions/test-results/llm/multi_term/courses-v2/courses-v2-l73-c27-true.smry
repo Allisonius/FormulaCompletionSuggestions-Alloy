@@ -1,0 +1,19 @@
+Model name: courses-v2
+Filename: completion/courses-v2-complete.als
+Offset: 1703
+Term: .
+Vscode Position: line=72 character=27
+----------------------------------
+73 | 	all c : Course | c.grades.
+----------------------------------
+Expected Completion word: Grade
+Expected Completion line: Grade in enrolled.c
+Suggestion exists: true
+Completion List:
+# Suggestion 	 Exact 	 Syntactic 	 Semantic
+$1. Grade 	 true 	 undefined 	 undefined
+$2. ~Grade 	 false 	 undefined 	 undefined
+$3. univ 	 false 	 undefined 	 undefined
+$4. ~grades 	 false 	 undefined 	 undefined
+
+Time taken: 23141.334542

@@ -1,0 +1,18 @@
+modelname,filename,position-line,position-character,incompleteline,removedtext,baseline,suggestionedExpression,A_iff_B,A_and_B,not_A_and_B,A_and_not_B,not_A_and_not_B,suggestionImpactTime
+git,completion/git-complete.als,612,23,"some fp : File | f ->","fp in samepath and some fp.belongsTo.(HEAD[s])","{}","\tsome fp : File | f -> f",,,,,,109.072666
+git,completion/git-complete.als,612,23,"some fp : File | f ->","fp in samepath and some fp.belongsTo.(HEAD[s])","{}","\tsome fp : File | f -> fp",,,,,,109.072666
+git,completion/git-complete.als,612,23,"some fp : File | f ->","fp in samepath and some fp.belongsTo.(HEAD[s])","{}","\tsome fp : File | f -> s",,,,,,109.072666
+git,completion/git-complete.als,612,23,"some fp : File | f ->","fp in samepath and some fp.belongsTo.(HEAD[s])","{}","\tsome fp : File | f -> Blob",,,,,,109.072666
+git,completion/git-complete.als,612,23,"some fp : File | f ->","fp in samepath and some fp.belongsTo.(HEAD[s])","{}","\tsome fp : File | f -> Commit",,,,,,109.072666
+git,completion/git-complete.als,612,23,"some fp : File | f ->","fp in samepath and some fp.belongsTo.(HEAD[s])","{}","\tsome fp : File | f -> Dir",,,,,,109.072666
+git,completion/git-complete.als,612,23,"some fp : File | f ->","fp in samepath and some fp.belongsTo.(HEAD[s])","{}","\tsome fp : File | f -> File",,,,,,109.072666
+git,completion/git-complete.als,612,23,"some fp : File | f ->","fp in samepath and some fp.belongsTo.(HEAD[s])","{}","\tsome fp : File | f -> Name",,,,,,109.072666
+git,completion/git-complete.als,612,23,"some fp : File | f ->","fp in samepath and some fp.belongsTo.(HEAD[s])","{}","\tsome fp : File | f -> Node",,,,,,109.072666
+git,completion/git-complete.als,612,23,"some fp : File | f ->","fp in samepath and some fp.belongsTo.(HEAD[s])","{}","\tsome fp : File | f -> Object",,,,,,109.072666
+git,completion/git-complete.als,612,23,"some fp : File | f ->","fp in samepath and some fp.belongsTo.(HEAD[s])","{}","\tsome fp : File | f -> Root",,,,,,109.072666
+git,completion/git-complete.als,612,23,"some fp : File | f ->","fp in samepath and some fp.belongsTo.(HEAD[s])","{}","\tsome fp : File | f -> State",,,,,,109.072666
+git,completion/git-complete.als,612,23,"some fp : File | f ->","fp in samepath and some fp.belongsTo.(HEAD[s])","{}","\tsome fp : File | f -> Tree",,,,,,109.072666
+git,completion/git-complete.als,612,23,"some fp : File | f ->","fp in samepath and some fp.belongsTo.(HEAD[s])","{}","\tsome fp : File | f -> Int",,,,,,109.072666
+git,completion/git-complete.als,612,23,"some fp : File | f ->","fp in samepath and some fp.belongsTo.(HEAD[s])","{}","\tsome fp : File | f -> String",,,,,,109.072666
+git,completion/git-complete.als,612,23,"some fp : File | f ->","fp in samepath and some fp.belongsTo.(HEAD[s])","{}","\tsome fp : File | f -> none",,,,,,109.072666
+git,completion/git-complete.als,612,23,"some fp : File | f ->","fp in samepath and some fp.belongsTo.(HEAD[s])","{}","\tsome fp : File | f -> univ",,,,,,109.072666

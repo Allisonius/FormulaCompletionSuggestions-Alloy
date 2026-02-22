@@ -1,0 +1,14 @@
+modelname,filename,position-line,position-character,incompleteline,removedtext,baseline,suggestionedExpression,A_iff_B,A_and_B,not_A_and_B,A_and_not_B,not_A_and_not_B,suggestionImpactTime
+git,completion/git-sig.als,27,21,"one sig Root extends","Dir {}","{}","one sig Root extends Blob",,,,,,9.605833
+git,completion/git-sig.als,27,21,"one sig Root extends","Dir {}","{}","one sig Root extends Commit",,,,,,9.605833
+git,completion/git-sig.als,27,21,"one sig Root extends","Dir {}","{}","one sig Root extends Dir",,,,,,9.605833
+git,completion/git-sig.als,27,21,"one sig Root extends","Dir {}","{}","one sig Root extends File",,,,,,9.605833
+git,completion/git-sig.als,27,21,"one sig Root extends","Dir {}","{}","one sig Root extends Name",,,,,,9.605833
+git,completion/git-sig.als,27,21,"one sig Root extends","Dir {}","{}","one sig Root extends Node",,,,,,9.605833
+git,completion/git-sig.als,27,21,"one sig Root extends","Dir {}","{}","one sig Root extends Object",,,,,,9.605833
+git,completion/git-sig.als,27,21,"one sig Root extends","Dir {}","{}","one sig Root extends State",,,,,,9.605833
+git,completion/git-sig.als,27,21,"one sig Root extends","Dir {}","{}","one sig Root extends Tree",,,,,,9.605833
+git,completion/git-sig.als,27,21,"one sig Root extends","Dir {}","{}","one sig Root extends Int",,,,,,9.605833
+git,completion/git-sig.als,27,21,"one sig Root extends","Dir {}","{}","one sig Root extends String",,,,,,9.605833
+git,completion/git-sig.als,27,21,"one sig Root extends","Dir {}","{}","one sig Root extends none",,,,,,9.605833
+git,completion/git-sig.als,27,21,"one sig Root extends","Dir {}","{}","one sig Root extends univ",,,,,,9.605833

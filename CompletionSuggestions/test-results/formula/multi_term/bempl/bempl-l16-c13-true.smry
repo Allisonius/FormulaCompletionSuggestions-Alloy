@@ -6,36 +6,34 @@ Vscode Position: line=15 character=13
 ----------------------------------
 16 | 	r in p.owns.
 ----------------------------------
-Completion List:
-# Suggestion 	 Exact 	 Syntactic 	 Semantic
-$1. opened_by.r 	 false 	 undefined 	 undefined
-$2. ~owns.p 	 false 	 undefined 	 undefined
-$3. authorized.Employee 	 false 	 undefined 	 undefined
-$4. opened_by.Room 	 false 	 undefined 	 undefined
-$5. opened_by.secure_lab 	 false 	 undefined 	 undefined
-$6. ~owns.Employee 	 false 	 undefined 	 undefined
-$7. ~owns.Person 	 false 	 undefined 	 undefined
-$8. ~owns.Researcher 	 false 	 undefined 	 undefined
-$9. authorized 	 false 	 undefined 	 undefined
-$10. authorized.univ 	 false 	 undefined 	 undefined
-$11. opened_by 	 true 	 undefined 	 undefined
-$12. opened_by.univ 	 false 	 undefined 	 undefined
-$13. ~owns 	 false 	 undefined 	 undefined
-$14. ~owns.univ 	 false 	 undefined 	 undefined
 Expected Completion word: opened_by
 Expected Completion line: opened_by
 Suggestion exists: true
+Completion List:
+# Suggestion 	 Exact 	 Syntactic 	 Semantic
+$1. authorized.p 	 false 	 undefined 	 undefined
+$2. opened_by.r 	 false 	 undefined 	 undefined
+$3. ~owns.p 	 false 	 undefined 	 undefined
+$4. authorized.Employee 	 false 	 undefined 	 undefined
+$5. authorized.Person 	 false 	 undefined 	 undefined
+$6. authorized.Researcher 	 false 	 undefined 	 undefined
+$7. opened_by.Room 	 false 	 undefined 	 undefined
+$8. opened_by.secure_lab 	 false 	 undefined 	 undefined
+$9. ~owns.Employee 	 false 	 undefined 	 undefined
+$10. ~owns.Person 	 false 	 undefined 	 undefined
+$11. ~owns.Researcher 	 false 	 undefined 	 undefined
+$12. authorized 	 false 	 undefined 	 undefined
+$13. authorized.owns 	 false 	 undefined 	 undefined
+$14. authorized.univ 	 false 	 undefined 	 undefined
+$15. opened_by 	 true 	 undefined 	 undefined
+$16. opened_by 	 true 	 undefined 	 undefined
+$17. opened_by.univ 	 false 	 undefined 	 undefined
+$18. ~owns 	 false 	 undefined 	 undefined
+$19. ~owns.univ 	 false 	 undefined 	 undefined
+$20. ~owns.~authorized 	 false 	 undefined 	 undefined
+$21.  	 false 	 undefined 	 undefined
 
-Suggestion in top 1 = false 
-Suggestion in top 5 = false 
-Suggestion in top 10 = false 
-
-Suggestion in top 1 (Alpha) = false
-Suggestion in top 5 (Alpha) = false
-Suggestion in top 10 (Alpha) = true
-
-Suggestion in top 1 (Len) = false
-Suggestion in top 5 (Len) = true
-Suggestion in top 10 (Len) = true
-
-Time taken: 11.481833
+Time taken: 21.550167
+Preprocessing time: 3
+Parsing time: 1
+Generation time: 2

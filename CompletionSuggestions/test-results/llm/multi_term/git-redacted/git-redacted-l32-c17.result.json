@@ -1,0 +1,114 @@
+{
+  "modelName": "git-redacted",
+  "filename": "completion/git-sig.als",
+  "offset": 552,
+  "term": " extends ",
+  "line": 32,
+  "character": 17,
+  "incompletionLine": "sig Blob extends",
+  "completionList": "Object, Object + Tree, Object + Commit, Object + Tree + Commit",
+  "evaluationResult": [
+    {
+      "suggestion": "Object",
+      "rank": 1,
+      "doesMatchExactly": true,
+      "startsWithSuggestion": true,
+      "doesCompile": false,
+      "doesMatchSyntactically": true,
+      "expressionComponents": [
+        {
+          "label": "Object",
+          "type": "SIGNATURE"
+        }
+      ]
+    },
+    {
+      "suggestion": "Object + Tree",
+      "rank": 2,
+      "doesMatchExactly": false,
+      "startsWithSuggestion": false,
+      "doesCompile": false,
+      "doesMatchSyntactically": false,
+      "expressionComponents": [
+        {
+          "label": "Object",
+          "type": "SIGNATURE"
+        },
+        {
+          "label": "+",
+          "type": "OPERATOR"
+        },
+        {
+          "label": "Tree",
+          "type": "SIGNATURE"
+        }
+      ]
+    },
+    {
+      "suggestion": "Object + Commit",
+      "rank": 3,
+      "doesMatchExactly": false,
+      "startsWithSuggestion": false,
+      "doesCompile": false,
+      "doesMatchSyntactically": false,
+      "expressionComponents": [
+        {
+          "label": "Object",
+          "type": "SIGNATURE"
+        },
+        {
+          "label": "+",
+          "type": "OPERATOR"
+        },
+        {
+          "label": "Commit",
+          "type": "SIGNATURE"
+        }
+      ]
+    },
+    {
+      "suggestion": "Object + Tree + Commit",
+      "rank": 4,
+      "doesMatchExactly": false,
+      "startsWithSuggestion": false,
+      "doesCompile": false,
+      "doesMatchSyntactically": false,
+      "expressionComponents": [
+        {
+          "label": "Object",
+          "type": "SIGNATURE"
+        },
+        {
+          "label": "+",
+          "type": "OPERATOR"
+        },
+        {
+          "label": "Tree",
+          "type": "SIGNATURE"
+        },
+        {
+          "label": "+",
+          "type": "OPERATOR"
+        },
+        {
+          "label": "Commit",
+          "type": "SIGNATURE"
+        }
+      ]
+    }
+  ],
+  "completionGenerated": true,
+  "suggestionExists": true,
+  "suggestionInTop1": true,
+  "suggestionInTop5": true,
+  "suggestionInTop10": true,
+  "suggestionInTop1Alpha": true,
+  "suggestionInTop5Alpha": true,
+  "suggestionInTop10Alpha": true,
+  "suggestionInTop1Len": true,
+  "suggestionInTop5Len": true,
+  "suggestionInTop10Len": true,
+  "expectedCompletionWord": "Object",
+  "expectedCompletionLine": "Object {",
+  "elapsedTimeInMs": 13109.005875
+}

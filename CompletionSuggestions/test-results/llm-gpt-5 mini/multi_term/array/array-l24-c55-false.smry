@@ -1,0 +1,25 @@
+Model name: array
+Filename: completion/array-complete.als
+Offset: 513
+Term: .
+Vscode Position: line=23 character=55
+----------------------------------
+24 |   all idx: Array.i2e.Element | idx >= 0 && idx < Array.
+----------------------------------
+Expected Completion word: length
+Expected Completion line: length
+Suggestion exists: false
+Completion List:
+# Suggestion 	 Exact 	 Syntactic 	 Semantic
+$1. Array.length 	 false 	 false 	 false
+$2. Array.length + 1 	 false 	 false 	 false
+$3. Array.length - 1 	 false 	 false 	 false
+$4. Array.length & univ 	 false 	 false 	 false
+$5. Array.length^ 	 false 	 undefined 	 undefined
+$6. Array.length* 	 false 	 undefined 	 undefined
+$7. ~Array.length 	 false 	 undefined 	 undefined
+
+Time taken: 5919.005292
+Preprocessing time: N/A
+Parsing time: N/A
+Generation time: N/A

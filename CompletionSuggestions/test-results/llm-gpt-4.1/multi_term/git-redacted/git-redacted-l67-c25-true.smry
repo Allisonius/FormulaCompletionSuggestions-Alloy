@@ -1,0 +1,62 @@
+Model name: git-redacted
+Filename: completion/git-complete-redacted.als
+Offset: 1098
+Term:  in 
+Vscode Position: line=66 character=25
+----------------------------------
+67 | 	all n : Node | n not in 
+----------------------------------
+Expected Completion word: n.^parent
+Expected Completion line: n.^parent
+Suggestion exists: true
+Completion List:
+# Suggestion 	 Exact 	 Syntactic 	 Semantic
+$1. n.belongsTo 	 false 	 false 	 false
+$2. n.name 	 false 	 false 	 false
+$3. n.parent 	 false 	 false 	 false
+$4. n.current 	 false 	 false 	 false
+$5. n.samepath 	 false 	 false 	 false
+$6. n.^samepath 	 false 	 false 	 false
+$7. n.*samepath 	 false 	 false 	 false
+$8. n.~samepath 	 false 	 false 	 false
+$9. n.^parent 	 true 	 true 	 true
+$10. n.*parent 	 false 	 false 	 false
+$11. n.~parent 	 false 	 false 	 false
+$12. n.current.^belongsTo 	 false 	 undefined 	 undefined
+$13. n.current.*belongsTo 	 false 	 undefined 	 undefined
+$14. n.current.~belongsTo 	 false 	 undefined 	 undefined
+$15. n.name.refs 	 false 	 false 	 false
+$16. n.name.heads 	 false 	 false 	 false
+$17. n.name.HEAD 	 false 	 false 	 false
+$18. n.parent.tbc 	 false 	 false 	 false
+$19. n.parent.content 	 false 	 undefined 	 undefined
+$20. n.parent.name 	 false 	 false 	 false
+$21. n.parent.belongsTo 	 false 	 false 	 false
+$22. n.parent.current 	 false 	 false 	 false
+$23. n.parent.samepath 	 false 	 false 	 false
+$24. n.parent.^parent 	 false 	 false 	 false
+$25. n.parent.*parent 	 false 	 false 	 false
+$26. n.parent.~parent 	 false 	 false 	 false
+$27. n.parent.tbc.State 	 false 	 false 	 false
+$28. n.parent.content.Name 	 false 	 false 	 false
+$29. n.parent.content.Blob 	 false 	 false 	 false
+$30. n.parent.content.Tree 	 false 	 false 	 false
+$31. n.parent.content.univ 	 false 	 false 	 false
+$32. n.current.univ 	 false 	 undefined 	 undefined
+$33. n.samepath.univ 	 false 	 undefined 	 undefined
+$34. n.name.refs.State 	 false 	 false 	 false
+$35. n.name.heads.univ 	 false 	 undefined 	 undefined
+$36. n.name.HEAD.univ 	 false 	 undefined 	 undefined
+$37. n.belongsTo.Commit 	 false 	 false 	 false
+$38. n.belongsTo.Object 	 false 	 false 	 false
+$39. n.belongsTo.univ 	 false 	 false 	 false
+$40. n.parent.univ 	 false 	 undefined 	 undefined
+$41. n.name.univ 	 false 	 undefined 	 undefined
+$42. n.current.univ 	 false 	 undefined 	 undefined
+$43. n.samepath.univ 	 false 	 undefined 	 undefined
+$44. univ 	 false 	 false 	 false
+
+Time taken: 6510.786791
+Preprocessing time: N/A
+Parsing time: N/A
+Generation time: N/A

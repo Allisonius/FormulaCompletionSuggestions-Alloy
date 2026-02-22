@@ -1,0 +1,2 @@
+modelname,filename,position-line,position-character,incompleteline,removedtext,baseline,suggestionedExpression,A_iff_B,A_and_B,not_A_and_B,A_and_not_B,not_A_and_not_B,suggestionImpactTime
+git,completion/git-complete.als,616,43,"some from and some fp : File | f -> fp in","samepath and some fp.belongsTo.from","{}","\tsome from and some fp : File | f -> fp in File -> File",,,,,,24.893875

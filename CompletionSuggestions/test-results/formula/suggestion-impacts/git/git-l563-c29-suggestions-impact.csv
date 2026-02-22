@@ -1,0 +1,17 @@
+modelname,filename,position-line,position-character,incompleteline,removedtext,baseline,suggestionedExpression,A_iff_B,A_and_B,not_A_and_B,A_and_not_B,not_A_and_not_B,suggestionImpactTime
+git,completion/git-complete.als,563,29,"{ f3 : File | f1.content ->","f2.content -> f3.content in merging }","{}","\t{ f3 : File | f1.content -> f1",,,,,,105.463042
+git,completion/git-complete.als,563,29,"{ f3 : File | f1.content ->","f2.content -> f3.content in merging }","{}","\t{ f3 : File | f1.content -> f2",,,,,,105.463042
+git,completion/git-complete.als,563,29,"{ f3 : File | f1.content ->","f2.content -> f3.content in merging }","{}","\t{ f3 : File | f1.content -> Blob",,,,,,105.463042
+git,completion/git-complete.als,563,29,"{ f3 : File | f1.content ->","f2.content -> f3.content in merging }","{}","\t{ f3 : File | f1.content -> Commit",,,,,,105.463042
+git,completion/git-complete.als,563,29,"{ f3 : File | f1.content ->","f2.content -> f3.content in merging }","{}","\t{ f3 : File | f1.content -> Dir",,,,,,105.463042
+git,completion/git-complete.als,563,29,"{ f3 : File | f1.content ->","f2.content -> f3.content in merging }","{}","\t{ f3 : File | f1.content -> File",,,,,,105.463042
+git,completion/git-complete.als,563,29,"{ f3 : File | f1.content ->","f2.content -> f3.content in merging }","{}","\t{ f3 : File | f1.content -> Name",,,,,,105.463042
+git,completion/git-complete.als,563,29,"{ f3 : File | f1.content ->","f2.content -> f3.content in merging }","{}","\t{ f3 : File | f1.content -> Node",,,,,,105.463042
+git,completion/git-complete.als,563,29,"{ f3 : File | f1.content ->","f2.content -> f3.content in merging }","{}","\t{ f3 : File | f1.content -> Object",,,,,,105.463042
+git,completion/git-complete.als,563,29,"{ f3 : File | f1.content ->","f2.content -> f3.content in merging }","{}","\t{ f3 : File | f1.content -> Root",,,,,,105.463042
+git,completion/git-complete.als,563,29,"{ f3 : File | f1.content ->","f2.content -> f3.content in merging }","{}","\t{ f3 : File | f1.content -> State",,,,,,105.463042
+git,completion/git-complete.als,563,29,"{ f3 : File | f1.content ->","f2.content -> f3.content in merging }","{}","\t{ f3 : File | f1.content -> Tree",,,,,,105.463042
+git,completion/git-complete.als,563,29,"{ f3 : File | f1.content ->","f2.content -> f3.content in merging }","{}","\t{ f3 : File | f1.content -> Int",,,,,,105.463042
+git,completion/git-complete.als,563,29,"{ f3 : File | f1.content ->","f2.content -> f3.content in merging }","{}","\t{ f3 : File | f1.content -> String",,,,,,105.463042
+git,completion/git-complete.als,563,29,"{ f3 : File | f1.content ->","f2.content -> f3.content in merging }","{}","\t{ f3 : File | f1.content -> none",,,,,,105.463042
+git,completion/git-complete.als,563,29,"{ f3 : File | f1.content ->","f2.content -> f3.content in merging }","{}","\t{ f3 : File | f1.content -> univ",,,,,,105.463042

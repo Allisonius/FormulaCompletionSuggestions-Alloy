@@ -6,6 +6,9 @@ Vscode Position: line=62 character=24
 ----------------------------------
 63 | 	all p : Person | no (p.
 ----------------------------------
+Expected Completion word: teaches.~teaches
+Expected Completion line: teaches.~teaches - p) & p.teaches.~enrolled
+Suggestion exists: false
 Completion List:
 # Suggestion 	 Exact 	 Syntactic 	 Semantic
 $1. enrolled.Course 	 false 	 undefined 	 undefined
@@ -23,20 +26,9 @@ $12. teaches.grades 	 false 	 undefined 	 undefined
 $13. teaches.projects 	 false 	 undefined 	 undefined
 $14. teaches.univ 	 false 	 undefined 	 undefined
 $15. teaches.~enrolled 	 false 	 undefined 	 undefined
-Expected Completion word: teaches
-Expected Completion line: teaches.~teaches - p) & p.teaches.~enrolled
-Suggestion exists: false
+$16.  	 false 	 undefined 	 undefined
 
-Suggestion in top 1 = false 
-Suggestion in top 5 = false 
-Suggestion in top 10 = false 
-
-Suggestion in top 1 (Alpha) = false
-Suggestion in top 5 (Alpha) = false
-Suggestion in top 10 (Alpha) = true
-
-Suggestion in top 1 (Len) = true
-Suggestion in top 5 (Len) = true
-Suggestion in top 10 (Len) = true
-
-Time taken: 19.5145
+Time taken: 21.299541
+Preprocessing time: 4
+Parsing time: 3
+Generation time: 1

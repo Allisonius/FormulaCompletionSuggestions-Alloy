@@ -33,11 +33,18 @@ public class AlloyExpressionParsingUtils {
 			if (expr.getChildCount() > 1) {
 				expressionBuilder.addChild(new TerminalNodeImpl(new CommonToken(22, "(")));
 			}
-			for (var child : expr.children) {
+			for (int i = 0; i < expr.getChildCount(); i++) {
+				var child = expr.getChild(i);
 				if (child instanceof alloyParser.ExprContext) {
 					var result = parseExpWithQuantifier((alloyParser.ExprContext) child, quantifierMap);
 					expressionBuilder.addChild(result);
-				} else if (child instanceof RuleContext) {
+				} else if (child instanceof alloyParser.DotOpContext) {
+					var nextChild = (i + 1 < expr.getChildCount()) ? expr.getChild(i + 1) : null;
+					if (nextChild != null && nextChild.getChildCount() > 0) {
+						expressionBuilder.addChild((alloyParser.DotOpContext) child);
+					}
+				}
+				else if (child instanceof RuleContext) {
 					expressionBuilder.addChild((RuleContext) child);
 				} else if (child instanceof TerminalNodeImpl) {
 					expressionBuilder.addChild((TerminalNodeImpl) child);
@@ -79,7 +86,8 @@ public class AlloyExpressionParsingUtils {
 			for (var child : ctx.decl()) {
 				var decl = (alloyParser.DeclContext) child;
 				var names = decl.name();
-				var expr = decl.expr();
+				var expr = findDeclarationExpression(decl.expr());
+				if (expr == null) continue;
 				if (expr.getChild(expr.getChildCount() - 1).getText().equals("")) {
 					continue;
 				}
@@ -88,6 +96,15 @@ public class AlloyExpressionParsingUtils {
 					quantifierMap.put(name.getText(), parsedExpr);
 				}
 
+			}
+			for (int i = 0; i < ctx.getChildCount(); i++) {
+				var child = ctx.getChild(i);
+				if (child.getText().equals("|")) {
+					if (i + 1 < ctx.getChildCount() && ctx.getChild(i + 1) instanceof alloyParser.ExprContext) {
+						var nestedQuantifierMap = getQuantifierMap((alloyParser.ExprContext) ctx.getChild(i + 1), quantifierMap);
+						quantifierMap.putAll(nestedQuantifierMap);
+					}
+				}
 			}
 			return quantifierMap;
 		} else if ((ctx.compareOp() != null || ctx.binOp() != null || ctx.arrowOp() != null) &&
@@ -182,23 +199,6 @@ public class AlloyExpressionParsingUtils {
 		return sb.toString();
 	}
 
-	public static String findCompletionTerm(alloyParser.ExprContext expr,
-	                                        Map<String, alloyParser.ExprContext> quantifierMap) {
-		if (expr == null) {
-			return "";
-		}
-
-		if (expr.qualName() != null) {
-			return parseExpWithQuantifier(expr, quantifierMap).getText();
-		}
-		if (expr.unExpOp() != null && expr.expr().size() > 0) {
-			return parseExpWithQuantifier(expr.expr(0), quantifierMap).getText();
-		}
-
-		return expr.getText();
-
-	}
-
 	public static String textFromExpr(ParserRuleContext expr) {
 		if (expr.getChildCount() == 0) return "";
 		if (expr.getChildCount() == 1) return expr.getText();
@@ -243,6 +243,29 @@ public class AlloyExpressionParsingUtils {
 		}
 		if (expr.getChildCount() > 0 && expr.getChild(0).getText().equals("(")) {
 			return findQualifierName(expr.expr(0), quantifierMap);
+		}
+		if (expr.getChildCount() > 2 && expr.getChild(1).getText().equals("[")) {
+			String leftQualifier = findQualifierName(expr.expr(0), quantifierMap);
+			StringBuilder rightQualifier = new StringBuilder();
+			for (int i = 2; i < expr.getChildCount() - 1; i++) {
+				var child = expr.getChild(i);
+				if (child instanceof alloyParser.ExprContext) {
+					String childQualifier = findQualifierName((alloyParser.ExprContext) child, quantifierMap);
+					if (!childQualifier.isEmpty()) {
+						if (rightQualifier.length() > 0) {
+							rightQualifier.append(", ");
+						}
+						rightQualifier.append(childQualifier);
+					}
+				} else {
+					rightQualifier.append(child.getText());
+				}
+			}
+			if (rightQualifier.length() > 0) {
+				return leftQualifier + "[" + rightQualifier + "]";
+			} else {
+				return leftQualifier;
+			}
 		}
 		if (expr.qualName() != null) {
 			var quantExpr = parseExpWithQuantifier(expr, quantifierMap);
@@ -294,6 +317,84 @@ public class AlloyExpressionParsingUtils {
 		return "";
 	}
 
+	/**
+	 * @param expr Sibling expression of the completion operator
+	 * @return Completion term expression
+	 */
+	public static alloyParser.ExprContext findCompletionTermExpression(alloyParser.ExprContext expr) {
+		if (expr == null) {
+			return null;
+		}
+		if (expr.dotOp() != null) {
+			return expr;
+		}
+		if (expr.implicationOp() != null) {
+			return findCompletionTermExpression(expr.expr(1));
+		}
+
+		if (expr.expr().size() > 1 && expr.getChild(1).getText().equals("++")) {
+			return expr.expr(1);
+		}
+
+		if (expr.expr().size() > 1 && expr.getChild(1) instanceof TerminalNodeImpl && expr.getChild(1).getText().equals("else")) {
+			return findCompletionTermExpression(expr.expr(1));
+		}
+
+		if (expr.getChildCount() > 0 && expr.getChild(0).getText().equals("(") &&
+				expr.getChild(expr.getChildCount() - 1).getText().equals(")")) {
+			return expr;
+		}
+		if (expr.getChildCount() > 0 && expr.getChild(0).getText().equals("(")) {
+			return findCompletionTermExpression(expr.expr(0));
+		}
+		if (expr.qualName() != null) {
+			return expr;
+		}
+		if (expr.const_() != null) {
+			return expr;
+		}
+		if (expr.unOp() != null) {
+			return findCompletionTermExpression(expr.expr(0));
+		}
+		if (expr.unExpOp() != null) {
+			return expr;
+		}
+
+		if (expr.getChild(0) instanceof TerminalNodeImpl && !expr.expr().isEmpty()) {
+			return findCompletionTermExpression(expr.expr(0));
+		}
+
+		if (expr.binOp() != null) {
+			return findCompletionTermExpression(expr.expr(1));
+		}
+		if (expr.arrowOp() != null) {
+			return expr;
+		}
+		if (expr.compareOp() != null && expr.expr().size() > 1 && !expr.expr(1).getText().isEmpty()) {
+			return findCompletionTermExpression(expr.expr(1));
+		}
+		if (expr.setOp() != null) {
+			if (expr.expr().size() > 1 && expr.expr(1).getText().isEmpty()) {
+				return findCompletionTermExpression(expr.expr(0));
+			} else {
+				return findCompletionTermExpression(expr.expr(1));
+			}
+		}
+		if (expr.quant() != null) {
+			var blockOrBar = expr.blockOrBar();
+
+			if (blockOrBar != null && blockOrBar.expr() != null) {
+				return findCompletionTermExpression(blockOrBar.expr());
+			} else if (expr.expr().size() > 0) {
+				return findCompletionTermExpression(expr.expr(0));
+			} else if (expr.decl() != null && expr.decl().size() > 0) {
+				var lastDecl = expr.decl(expr.decl().size() - 1);
+				return findCompletionTermExpression(lastDecl.expr());
+			}
+		}
+		return expr;
+	}
+
 	public static alloyParser.ExprContext findDeepestExpression(alloyParser.ExprContext expr) {
 		if (expr == null) {
 			return null;
@@ -315,8 +416,20 @@ public class AlloyExpressionParsingUtils {
 			declaredVariables.putAll(
 					findDeclaredVariables((alloyParser.ExprContext) expr.getParent(), existingDeclarations));
 		}
+		if (
+				(expr.getParent() instanceof alloyParser.BlockOrBarContext
+						|| expr.getParent() instanceof alloyParser.BlockContext
+						|| expr.getParent() instanceof alloyParser.DeclContext
+				)
+						&& expr.getParent().getParent() instanceof alloyParser.ExprContext) {
+			declaredVariables.putAll(
+					findDeclaredVariables((alloyParser.ExprContext) expr.getParent().getParent(), existingDeclarations));
+		}
+
 		if (expr.decl() != null && !expr.decl().isEmpty()) {
 			for (var decl : expr.decl()) {
+				if (decl.expr().exception != null) { continue;}
+				if (decl.expr().getChildCount() == 3 && decl.expr().getChild(2).getChildCount() == 0) continue;
 				var declExpr = parseExpWithQuantifier(decl.expr(), declaredVariables);
 				for (var name : decl.name()) {
 					declaredVariables.put(name.getText(), declExpr);
@@ -352,6 +465,39 @@ public class AlloyExpressionParsingUtils {
 		return extractedMap;
 	}
 
+	public static alloyParser.ExprContext findLeftHandSideExpr(alloyParser.ExprContext ctx) {
+//		if (ctx.expr().isEmpty()) {
+//			return null;
+//		}
+		if (!(ctx.getParent() instanceof alloyParser.ExprContext)) {
+			return null;
+		}
+		alloyParser.ExprContext parent = (alloyParser.ExprContext) ctx.getParent();
+		if (parent.compareOp() != null || parent.setOp() != null) {
+			int ctxAsChildIndex = parent.children.indexOf(ctx);
+			alloyParser.ExprContext rightMostSiblingBefore = null;
+			for (var childExpr : parent.expr()) {
+				if (parent.children.indexOf(childExpr) < ctxAsChildIndex) {
+					rightMostSiblingBefore = childExpr;
+				}
+			}
+			return rightMostSiblingBefore;
+		}
+//		if (ctx.unOp()!= null) {
+//			return ctx.expr(0);
+//		}
+//		if (ctx.setOp() != null) {
+//			return ctx.expr(0);
+//		}
+//		else if (ctx.binOp() != null && suitableOperators.contains(ctx.binOp().getText())) {
+//			return ctx.expr(0);
+//		}
+		else if (ctx.getParent() != null && ctx.getParent() instanceof alloyParser.ExprContext) {
+			return findLeftHandSideExpr((alloyParser.ExprContext) ctx.getParent());
+		}
+		return null;
+	}
+
 	public static String buildQuantifierPrefix(Map<String, alloyParser.ExprContext> quantifierMap) {
 		StringBuilder prefix = new StringBuilder();
 		if (quantifierMap.isEmpty()) {
@@ -361,9 +507,9 @@ public class AlloyExpressionParsingUtils {
 			if (prefix.length() > 0) {
 				prefix.append(", ");
 			}
-			prefix.append(entry.getKey()).append(" = ").append(textFromExpr(entry.getValue()));
+			prefix.append("some ").append(entry.getKey()).append(": ").append(textFromExpr(entry.getValue()));
 		}
-		prefix.append(" | some ");
+		prefix.append(" | ");
 		return prefix.toString();
 	}
 
@@ -451,5 +597,39 @@ public class AlloyExpressionParsingUtils {
 			logger.error("Error while parsing expression: " + expression, e);
 			return null;
 		}
+	}
+
+	public static alloyParser.ExprContext buildExprContextFromString(String expression) {
+		try {
+			String blockedExpression = "{ " + expression + " }";
+			var tree = CodeUtils.buildAlloyParser(blockedExpression);
+			return tree.block().expr(0);
+		} catch (Exception e) {
+			logger.error("Error while parsing expression: " + expression, e);
+			return null;
+		}
+	}
+
+	public static alloyParser.ExprContext findDeclarationExpression(alloyParser.ExprContext expr) {
+		if (expr == null) {
+			return null;
+		}
+		if (expr.exception != null) {
+			return null;
+		}
+		if (expr.unOp() != null && expr.expr().size() > 0) {
+			return findDeclarationExpression(expr.expr(0));
+		}
+		if (expr.getChildCount() > 0 && expr.getChild(0).getText().equals("(") &&
+				expr.getChild(expr.getChildCount() - 1).getText().equals(")")) {
+			return expr;
+		}
+		if (expr.block() != null) {
+			if (expr.block().exception != null) {
+				return null;
+			}
+			return expr.block().expr(0);
+		}
+		return expr;
 	}
 }

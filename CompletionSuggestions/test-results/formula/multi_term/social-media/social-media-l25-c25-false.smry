@@ -1,0 +1,19 @@
+Model name: social-media
+Filename: completion/socialMedia.als
+Offset: 325
+Term:  - 
+Vscode Position: line=24 character=25
+----------------------------------
+25 | 	all p : User | p.sees - 
+----------------------------------
+Expected Completion word: undefined
+Expected Completion line: Ad in p.follows.posts
+Suggestion exists: false
+Completion List:
+# Suggestion 	 Exact 	 Syntactic 	 Semantic
+
+
+Time taken: 10.736792
+Preprocessing time: N/A
+Parsing time: N/A
+Generation time: N/A

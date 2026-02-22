@@ -6,6 +6,9 @@ Vscode Position: line=6 character=24
 ----------------------------------
 7 |   all n : Node | lone n.
 ----------------------------------
+Expected Completion word: left
+Expected Completion line: left && lone n.right
+Suggestion exists: true
 Completion List:
 # Suggestion 	 Exact 	 Syntactic 	 Semantic
 $1. *left.n 	 false 	 undefined 	 undefined
@@ -66,26 +69,15 @@ $55. ^right 	 false 	 undefined 	 undefined
 $56. ^right.*left 	 false 	 undefined 	 undefined
 $57. ^right.^left 	 false 	 undefined 	 undefined
 $58. ^right.univ 	 false 	 undefined 	 undefined
-$59. *left 	 false 	 undefined 	 undefined
-$60. *left.*right 	 false 	 undefined 	 undefined
-$61. *left.univ 	 false 	 undefined 	 undefined
-$62. *right 	 false 	 undefined 	 undefined
-$63. *right.*left 	 false 	 undefined 	 undefined
-$64. *right.univ 	 false 	 undefined 	 undefined
-Expected Completion word: left
-Expected Completion line: left && lone n.right
-Suggestion exists: true
+$59.  	 false 	 undefined 	 undefined
+$60. *left 	 false 	 undefined 	 undefined
+$61. *left.*right 	 false 	 undefined 	 undefined
+$62. *left.univ 	 false 	 undefined 	 undefined
+$63. *right 	 false 	 undefined 	 undefined
+$64. *right.*left 	 false 	 undefined 	 undefined
+$65. *right.univ 	 false 	 undefined 	 undefined
 
-Suggestion in top 1 = false 
-Suggestion in top 5 = false 
-Suggestion in top 10 = false 
-
-Suggestion in top 1 (Alpha) = false
-Suggestion in top 5 (Alpha) = false
-Suggestion in top 10 (Alpha) = false
-
-Suggestion in top 1 (Len) = true
-Suggestion in top 5 (Len) = true
-Suggestion in top 10 (Len) = true
-
-Time taken: 39.091334
+Time taken: 22.819084
+Preprocessing time: 2
+Parsing time: 1
+Generation time: 6

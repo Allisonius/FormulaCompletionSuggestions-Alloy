@@ -1,0 +1,51 @@
+Model name: git-redacted
+Filename: completion/git-complete-redacted.als
+Offset: 1100
+Term: .
+Vscode Position: line=66 character=27
+----------------------------------
+67 | 	all n : Node | n not in n.
+----------------------------------
+Expected Completion word: parent
+Expected Completion line: ^parent
+Suggestion exists: false
+Completion List:
+# Suggestion 	 Exact 	 Syntactic 	 Semantic
+$1. n.belongsTo 	 false 	 false 	 false
+$2. n.name 	 false 	 false 	 false
+$3. n.parent 	 false 	 false 	 false
+$4. n.current 	 false 	 false 	 false
+$5. n.samepath 	 false 	 false 	 false
+$6. n.^samepath 	 false 	 false 	 false
+$7. n.*samepath 	 false 	 false 	 false
+$8. n.content 	 false 	 false 	 false
+$9. n.index 	 false 	 false 	 false
+$10. n.tbc 	 false 	 false 	 false
+$11. n.belongsTo.Object 	 false 	 false 	 false
+$12. n.belongsTo.Commit 	 false 	 false 	 false
+$13. n.name.refs 	 false 	 false 	 false
+$14. n.name.heads 	 false 	 false 	 false
+$15. n.name.HEAD 	 false 	 false 	 false
+$16. n.parent.tbc 	 false 	 false 	 false
+$17. n.current.^samepath 	 false 	 false 	 false
+$18. n.current.*samepath 	 false 	 false 	 false
+$19. n.samepath.^samepath 	 false 	 false 	 false
+$20. n.samepath.*samepath 	 false 	 false 	 false
+$21. n.content.merging 	 false 	 false 	 false
+$22. n.content.conflict 	 false 	 false 	 false
+$23. n.content.stored 	 false 	 false 	 false
+$24. n.tbc.Tree 	 false 	 false 	 false
+$25. n.tbc.State 	 false 	 false 	 false
+$26. n.belongsTo.~belongsTo 	 false 	 undefined 	 undefined
+$27. n.name.~name 	 false 	 false 	 false
+$28. n.parent.~parent 	 false 	 false 	 false
+$29. n.current.~current 	 false 	 false 	 false
+$30. n.samepath.~samepath 	 false 	 false 	 false
+$31. n.content.~content 	 false 	 false 	 false
+$32. n.index.~index 	 false 	 false 	 false
+$33. n.tbc.~tbc 	 false 	 undefined 	 undefined
+
+Time taken: 5538.463791
+Preprocessing time: N/A
+Parsing time: N/A
+Generation time: N/A

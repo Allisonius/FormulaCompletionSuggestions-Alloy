@@ -6,27 +6,21 @@ Vscode Position: line=21 character=10
 ----------------------------------
 22 | 	no adj & 
 ----------------------------------
+Expected Completion word: iden
+Expected Completion line: iden
+Suggestion exists: false
 Completion List:
 # Suggestion 	 Exact 	 Syntactic 	 Semantic
 $1. Node -> Node 	 false 	 false 	 false
 $2. adj 	 false 	 false 	 false
 $3. ~adj 	 false 	 false 	 false
-$4. ^adj 	 false 	 false 	 false
-$5. *adj 	 false 	 false 	 false
-Expected Completion word: iden
-Expected Completion line: iden
-Suggestion exists: false
+$4. ~adj 	 false 	 false 	 false
+$5. ^adj 	 false 	 false 	 false
+$6. ^adj 	 false 	 false 	 false
+$7. *adj 	 false 	 false 	 false
+$8. *adj 	 false 	 false 	 false
 
-Suggestion in top 1 = false 
-Suggestion in top 5 = false 
-Suggestion in top 10 = false 
-
-Suggestion in top 1 (Alpha) = false
-Suggestion in top 5 (Alpha) = false
-Suggestion in top 10 (Alpha) = false
-
-Suggestion in top 1 (Len) = false
-Suggestion in top 5 (Len) = false
-Suggestion in top 10 (Len) = false
-
-Time taken: 8.786291
+Time taken: 6.854833
+Preprocessing time: 2
+Parsing time: 0
+Generation time: 1

@@ -1,0 +1,18 @@
+modelname,filename,position-line,position-character,incompleteline,removedtext,baseline,suggestionedExpression,A_iff_B,A_and_B,not_A_and_B,A_and_not_B,not_A_and_not_B,suggestionImpactTime
+git,completion/git-complete.als,72,22,"some p : Tree | p ->","c in n.parent.belongsTo","{}","\tsome p : Tree | p -> c",,,,,,110.393917
+git,completion/git-complete.als,72,22,"some p : Tree | p ->","c in n.parent.belongsTo","{}","\tsome p : Tree | p -> n",,,,,,110.393917
+git,completion/git-complete.als,72,22,"some p : Tree | p ->","c in n.parent.belongsTo","{}","\tsome p : Tree | p -> p",,,,,,110.393917
+git,completion/git-complete.als,72,22,"some p : Tree | p ->","c in n.parent.belongsTo","{}","\tsome p : Tree | p -> Blob",,,,,,110.393917
+git,completion/git-complete.als,72,22,"some p : Tree | p ->","c in n.parent.belongsTo","{}","\tsome p : Tree | p -> Commit",,,,,,110.393917
+git,completion/git-complete.als,72,22,"some p : Tree | p ->","c in n.parent.belongsTo","{}","\tsome p : Tree | p -> Dir",,,,,,110.393917
+git,completion/git-complete.als,72,22,"some p : Tree | p ->","c in n.parent.belongsTo","{}","\tsome p : Tree | p -> File",,,,,,110.393917
+git,completion/git-complete.als,72,22,"some p : Tree | p ->","c in n.parent.belongsTo","{}","\tsome p : Tree | p -> Name",,,,,,110.393917
+git,completion/git-complete.als,72,22,"some p : Tree | p ->","c in n.parent.belongsTo","{}","\tsome p : Tree | p -> Node",,,,,,110.393917
+git,completion/git-complete.als,72,22,"some p : Tree | p ->","c in n.parent.belongsTo","{}","\tsome p : Tree | p -> Object",,,,,,110.393917
+git,completion/git-complete.als,72,22,"some p : Tree | p ->","c in n.parent.belongsTo","{}","\tsome p : Tree | p -> Root",,,,,,110.393917
+git,completion/git-complete.als,72,22,"some p : Tree | p ->","c in n.parent.belongsTo","{}","\tsome p : Tree | p -> State",,,,,,110.393917
+git,completion/git-complete.als,72,22,"some p : Tree | p ->","c in n.parent.belongsTo","{}","\tsome p : Tree | p -> Tree",,,,,,110.393917
+git,completion/git-complete.als,72,22,"some p : Tree | p ->","c in n.parent.belongsTo","{}","\tsome p : Tree | p -> Int",,,,,,110.393917
+git,completion/git-complete.als,72,22,"some p : Tree | p ->","c in n.parent.belongsTo","{}","\tsome p : Tree | p -> String",,,,,,110.393917
+git,completion/git-complete.als,72,22,"some p : Tree | p ->","c in n.parent.belongsTo","{}","\tsome p : Tree | p -> none",,,,,,110.393917
+git,completion/git-complete.als,72,22,"some p : Tree | p ->","c in n.parent.belongsTo","{}","\tsome p : Tree | p -> univ",,,,,,110.393917

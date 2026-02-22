@@ -6,6 +6,9 @@ Vscode Position: line=71 character=60
 ----------------------------------
 72 | 	all c : Component, p : c.parts | p.workstation in ^succ.(c.
 ----------------------------------
+Expected Completion word: workstation
+Expected Completion line: workstation)
+Suggestion exists: true
 Completion List:
 # Suggestion 	 Exact 	 Syntactic 	 Semantic
 $1. *parts.c 	 false 	 undefined 	 undefined
@@ -35,35 +38,28 @@ $24. ~parts.Component 	 false 	 undefined 	 undefined
 $25. ~parts.Dangerous 	 false 	 undefined 	 undefined
 $26. ~parts.Material 	 false 	 undefined 	 undefined
 $27. ~parts.Product 	 false 	 undefined 	 undefined
-$28. parts 	 false 	 undefined 	 undefined
-$29. parts.univ 	 false 	 undefined 	 undefined
-$30. workstation 	 true 	 undefined 	 undefined
-$31. workstation.*succ 	 false 	 undefined 	 undefined
-$32. workstation.^succ 	 false 	 undefined 	 undefined
-$33. workstation.succ 	 false 	 undefined 	 undefined
-$34. workstation.univ 	 false 	 undefined 	 undefined
-$35. workstation.workers 	 false 	 undefined 	 undefined
-$36. workstation.~succ 	 false 	 undefined 	 undefined
-$37. ~parts 	 false 	 undefined 	 undefined
-$38. ~parts.univ 	 false 	 undefined 	 undefined
-$39. ^parts 	 false 	 undefined 	 undefined
-$40. ^parts.univ 	 false 	 undefined 	 undefined
-$41. *parts 	 false 	 undefined 	 undefined
-$42. *parts.univ 	 false 	 undefined 	 undefined
-Expected Completion word: workstation
-Expected Completion line: workstation)
-Suggestion exists: true
+$28. *parts.workstation 	 false 	 undefined 	 undefined
+$29. ^parts.workstation 	 false 	 undefined 	 undefined
+$30. parts 	 false 	 undefined 	 undefined
+$31. parts.univ 	 false 	 undefined 	 undefined
+$32. parts.workstation 	 false 	 undefined 	 undefined
+$33. workstation 	 true 	 undefined 	 undefined
+$34. workstation.*succ 	 false 	 undefined 	 undefined
+$35. workstation.^succ 	 false 	 undefined 	 undefined
+$36. workstation.succ 	 false 	 undefined 	 undefined
+$37. workstation.univ 	 false 	 undefined 	 undefined
+$38. workstation.workers 	 false 	 undefined 	 undefined
+$39. workstation.~succ 	 false 	 undefined 	 undefined
+$40. ~parts.workstation 	 false 	 undefined 	 undefined
+$41. ~parts 	 false 	 undefined 	 undefined
+$42. ~parts.univ 	 false 	 undefined 	 undefined
+$43. ^parts 	 false 	 undefined 	 undefined
+$44. ^parts.univ 	 false 	 undefined 	 undefined
+$45.  	 false 	 undefined 	 undefined
+$46. *parts 	 false 	 undefined 	 undefined
+$47. *parts.univ 	 false 	 undefined 	 undefined
 
-Suggestion in top 1 = false 
-Suggestion in top 5 = false 
-Suggestion in top 10 = false 
-
-Suggestion in top 1 (Alpha) = false
-Suggestion in top 5 (Alpha) = false
-Suggestion in top 10 (Alpha) = false
-
-Suggestion in top 1 (Len) = false
-Suggestion in top 5 (Len) = false
-Suggestion in top 10 (Len) = false
-
-Time taken: 9.939334
+Time taken: 12.936542
+Preprocessing time: 3
+Parsing time: 1
+Generation time: 1

@@ -1,0 +1,8 @@
+		# Total Suggestions Generated	# Total Suggestions Generated	# Total Suggestions Generated	Avg Suggestions per loc	Avg Suggestions per loc	Avg Suggestions per loc	Avg Time Taken (ms)	Avg Time Taken (ms)	Avg Time Taken (ms)	# Exact Matches	# Exact Matches	# Syntactic Matches	# Syntactic Matches	# Loc with Semantic Matches	# Loc with Semantic Matches	# Total Semantic Matches	# Total Semantic Matches
+modelName	# loc	Generator	Formula	Reduction %	Generator	Formula	Reduction %	Generator	Formula	Reduction	Generator	Formula	Generator	Formula	Generator	Formula	Generator	Formula
+frankervrep	89	76621.0	26944	64.83	860.91	302.74	64.83	49.5	47.76	1.74	71	87	66	66	0	0	0.0	0
+git	349	393801.0	458731	-16.49	1128.37	1314.42	-16.49	74.49	169.17	-94.68	236	280	13	12	0	0	0.0	0
+icd	111	88094.0	10038	88.61	793.64	90.43	88.61	36.24	36.78	-0.55	99	109	10	10	0	0	0.0	0
+java_meta_model	237	240357.0	233275	2.95	1014.16	984.28	2.95	70.12	120.06	-49.95	190	191	32	27	0	0	0.0	0
+modelo-alloy	109	202014.0	197376	2.3	1853.34	1810.79	2.3	69.41	146.54	-77.13	70	80	18	10	0	0	0.0	0
+random_ski_jumping	294	323698.0	206249	36.28	1101.01	701.53	36.28	198.59	246.6	-48.01	186	262	21	16	0	0	0.0	0

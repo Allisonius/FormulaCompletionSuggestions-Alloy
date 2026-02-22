@@ -1,9 +1,11 @@
 package alloy.language.server.visitors.modeltests;
 
+import alloy.language.server.ConfigManager;
 import alloy.language.server.models.CompletionModelBuilder;
 import alloy.language.server.models.presets.LTSModel;
 import alloy.language.server.visitors.BaseVisitorTest;
 
+import org.junit.jupiter.api.BeforeAll;
 import org.junit.jupiter.api.Test;
 
 import static org.hamcrest.MatcherAssert.assertThat;
@@ -12,9 +14,15 @@ import static org.hamcrest.Matchers.*;
 public class LTSModelTest extends BaseVisitorTest {
 	private static CompletionModelBuilder modelBuilder = LTSModel.modelBuilder();
 
+	@BeforeAll
+	public static void setup() {
+		// Ensure that the new completion provider is enabled for testing
+		ConfigManager.getInstance().setUseNewCompletionProvider(true);
+	}
+
 	// let ts = { s1,s2:State | some e:Event | s1->e->s2 in
 	@Test
-	public void testDotOps() {
+	public void testInOps() {
 		modelBuilder.withContent("pred p1 {")
 		            .withCompletionLine("let ts = { s1,s2:State | some e:Event | s1->e->s2 in")
 		            .withContent("}");

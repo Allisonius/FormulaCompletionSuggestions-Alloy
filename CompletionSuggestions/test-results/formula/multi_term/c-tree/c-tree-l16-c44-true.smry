@@ -6,6 +6,9 @@ Vscode Position: line=15 character=44
 ----------------------------------
 16 |   all n1: Node | all n2: Node-n1 | n1 in n2.
 ----------------------------------
+Expected Completion word: neighbors
+Expected Completion line: ^neighbors 
+Suggestion exists: true
 Completion List:
 # Suggestion 	 Exact 	 Syntactic 	 Semantic
 $1. *neighbors.n1 	 false 	 undefined 	 undefined
@@ -28,29 +31,23 @@ $17. ^neighbors.color 	 false 	 undefined 	 undefined
 $18. color 	 false 	 undefined 	 undefined
 $19. color.univ 	 false 	 undefined 	 undefined
 $20. neighbors 	 true 	 undefined 	 undefined
-$21. neighbors.color 	 false 	 undefined 	 undefined
-$22. neighbors.univ 	 false 	 undefined 	 undefined
-$23. ~neighbors.color 	 false 	 undefined 	 undefined
-$24. ~neighbors 	 false 	 undefined 	 undefined
-$25. ~neighbors.univ 	 false 	 undefined 	 undefined
-$26. ^neighbors 	 false 	 undefined 	 undefined
-$27. ^neighbors.univ 	 false 	 undefined 	 undefined
-$28. *neighbors 	 false 	 undefined 	 undefined
-$29. *neighbors.univ 	 false 	 undefined 	 undefined
-Expected Completion word: ^neighbors
-Expected Completion line: ^neighbors 
-Suggestion exists: true
+$21. neighbors 	 true 	 undefined 	 undefined
+$22. neighbors.color 	 false 	 undefined 	 undefined
+$23. neighbors.univ 	 false 	 undefined 	 undefined
+$24. ~neighbors.color 	 false 	 undefined 	 undefined
+$25. ~neighbors 	 false 	 undefined 	 undefined
+$26. ~neighbors 	 false 	 undefined 	 undefined
+$27. ~neighbors.univ 	 false 	 undefined 	 undefined
+$28. ^neighbors 	 false 	 undefined 	 undefined
+$29. ^neighbors 	 false 	 undefined 	 undefined
+$30. ^neighbors.univ 	 false 	 undefined 	 undefined
+$31.  	 false 	 undefined 	 undefined
+$32.  	 false 	 undefined 	 undefined
+$33. *neighbors 	 false 	 undefined 	 undefined
+$34. *neighbors 	 false 	 undefined 	 undefined
+$35. *neighbors.univ 	 false 	 undefined 	 undefined
 
-Suggestion in top 1 = false 
-Suggestion in top 5 = false 
-Suggestion in top 10 = false 
-
-Suggestion in top 1 (Alpha) = false
-Suggestion in top 5 (Alpha) = false
-Suggestion in top 10 (Alpha) = true
-
-Suggestion in top 1 (Len) = false
-Suggestion in top 5 (Len) = false
-Suggestion in top 10 (Len) = true
-
-Time taken: 7.279833
+Time taken: 8.091708
+Preprocessing time: 1
+Parsing time: 1
+Generation time: 1

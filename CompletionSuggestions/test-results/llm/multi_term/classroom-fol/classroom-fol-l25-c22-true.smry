@@ -1,0 +1,29 @@
+Model name: classroom-fol
+Filename: completion/classroom-fol-complete.als
+Offset: 301
+Term:  in 
+Vscode Position: line=24 character=22
+----------------------------------
+25 | 	all p: Person | p in 
+----------------------------------
+Expected Completion word: Student
+Expected Completion line: Student implies p not in Teacher
+Suggestion exists: true
+Completion List:
+# Suggestion 	 Exact 	 Syntactic 	 Semantic
+$1. Person 	 false 	 undefined 	 undefined
+$2. Teacher 	 false 	 undefined 	 undefined
+$3. Student 	 true 	 undefined 	 undefined
+$4. univ 	 false 	 undefined 	 undefined
+$5. p.Tutors 	 false 	 undefined 	 undefined
+$6. p.~Tutors 	 false 	 undefined 	 undefined
+$7. p.^Tutors 	 false 	 undefined 	 undefined
+$8. p.*Tutors 	 false 	 undefined 	 undefined
+$9. p.Tutors.Tutors 	 false 	 undefined 	 undefined
+$10. p.Tutors.^Tutors 	 false 	 undefined 	 undefined
+$11. p.Tutors.*Tutors 	 false 	 undefined 	 undefined
+$12. p.Tutors.~Tutors 	 false 	 undefined 	 undefined
+$13. p.Tutors + univ 	 false 	 undefined 	 undefined
+$14. p.Tutors & Person 	 false 	 undefined 	 undefined
+
+Time taken: 8830.049542

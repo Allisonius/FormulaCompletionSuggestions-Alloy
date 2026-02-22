@@ -1,0 +1,44 @@
+Model name: courses-v2
+Filename: completion/courses-v2-complete.als
+Offset: 2254
+Term: .
+Vscode Position: line=87 character=82
+----------------------------------
+88 | 	all p : Person , disj x , y : p.projects | no ((Person <: projects).x & projects.
+----------------------------------
+Expected Completion word: y
+Expected Completion line: y) - p
+Suggestion exists: false
+Completion List:
+# Suggestion 	 Exact 	 Syntactic 	 Semantic
+$1. projects.y 	 false 	 undefined 	 undefined
+$2. projects.x 	 false 	 undefined 	 undefined
+$3. projects.y.projects 	 false 	 undefined 	 undefined
+$4. projects.x.projects 	 false 	 undefined 	 undefined
+$5. projects.y.~projects 	 false 	 undefined 	 undefined
+$6. projects.x.~projects 	 false 	 undefined 	 undefined
+$7. projects.y & projects.x 	 false 	 undefined 	 undefined
+$8. projects.x & projects.y 	 false 	 undefined 	 undefined
+$9. projects.y + projects.x 	 false 	 undefined 	 undefined
+$10. projects.x + projects.y 	 false 	 undefined 	 undefined
+$11. projects.y - projects.x 	 false 	 undefined 	 undefined
+$12. projects.x - projects.y 	 false 	 undefined 	 undefined
+$13. projects.y & univ 	 false 	 undefined 	 undefined
+$14. projects.x & univ 	 false 	 undefined 	 undefined
+$15. projects.y + univ 	 false 	 undefined 	 undefined
+$16. projects.x + univ 	 false 	 undefined 	 undefined
+$17. projects.y - univ 	 false 	 undefined 	 undefined
+$18. projects.x - univ 	 false 	 undefined 	 undefined
+$19. projects.y.projects 	 false 	 undefined 	 undefined
+$20. projects.x.projects 	 false 	 undefined 	 undefined
+$21. projects.y.^projects 	 false 	 undefined 	 undefined
+$22. projects.x.^projects 	 false 	 undefined 	 undefined
+$23. projects.y.*projects 	 false 	 undefined 	 undefined
+$24. projects.x.*projects 	 false 	 undefined 	 undefined
+$25. ~projects.y 	 false 	 undefined 	 undefined
+$26. ~projects.x 	 false 	 undefined 	 undefined
+
+Time taken: 6097.362792
+Preprocessing time: N/A
+Parsing time: N/A
+Generation time: N/A

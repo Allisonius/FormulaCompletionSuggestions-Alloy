@@ -6,6 +6,9 @@ Vscode Position: line=21 character=10
 ----------------------------------
 22 | 	enrolled.
 ----------------------------------
+Expected Completion word: Course
+Expected Completion line: Course in Student
+Suggestion exists: true
 Completion List:
 # Suggestion 	 Exact 	 Syntactic 	 Semantic
 $1. Course 	 true 	 true 	 true
@@ -25,29 +28,20 @@ $14. projects.univ 	 false 	 undefined 	 undefined
 $15. univ.enrolled 	 false 	 false 	 false
 $16. univ.grades 	 false 	 false 	 false
 $17. univ.projects 	 false 	 undefined 	 undefined
-$18. univ.teaches 	 false 	 false 	 false
-$19. ~teaches.enrolled 	 false 	 false 	 false
-$20. ~teaches.projects 	 false 	 false 	 false
-$21. univ.~enrolled 	 false 	 false 	 false
-$22. univ.~projects 	 false 	 undefined 	 undefined
-$23. univ.~teaches 	 false 	 false 	 false
-$24. ~teaches 	 false 	 false 	 false
-$25. ~teaches.univ 	 false 	 false 	 false
-$26. univ 	 false 	 false 	 false
-Expected Completion word: Course
-Expected Completion line: Course in Student
-Suggestion exists: true
+$18. univ.projects 	 false 	 undefined 	 undefined
+$19. univ.teaches 	 false 	 false 	 false
+$20. ~teaches.enrolled 	 false 	 false 	 false
+$21. ~teaches.projects 	 false 	 false 	 false
+$22. univ.~enrolled 	 false 	 false 	 false
+$23. univ.~projects 	 false 	 undefined 	 undefined
+$24. univ.~projects 	 false 	 undefined 	 undefined
+$25. univ.~teaches 	 false 	 false 	 false
+$26. ~teaches 	 false 	 false 	 false
+$27. ~teaches.univ 	 false 	 false 	 false
+$28.  	 false 	 false 	 false
+$29. univ 	 false 	 false 	 false
 
-Suggestion in top 1 = true 
-Suggestion in top 5 = true 
-Suggestion in top 10 = true 
-
-Suggestion in top 1 (Alpha) = false
-Suggestion in top 5 (Alpha) = false
-Suggestion in top 10 (Alpha) = true
-
-Suggestion in top 1 (Len) = false
-Suggestion in top 5 (Len) = true
-Suggestion in top 10 (Len) = true
-
-Time taken: 25.925083
+Time taken: 100.854417
+Preprocessing time: 26
+Parsing time: 11
+Generation time: 12

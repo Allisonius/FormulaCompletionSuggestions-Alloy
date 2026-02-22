@@ -1,0 +1,60 @@
+Model name: modelo-alloy
+Filename: completion/ModeloAlloy-complete.als
+Offset: 4330
+Term: .
+Vscode Position: line=186 character=7
+----------------------------------
+187 |     f1.
+----------------------------------
+Expected Completion word: DayValue.minus
+Expected Completion line: DayValue.minus[f2.DayValue]
+Suggestion exists: false
+Completion List:
+# Suggestion 	 Exact 	 Syntactic 	 Semantic
+$1. ~eventDate.AdoptionAd 	 false 	 undefined 	 undefined
+$2. ~eventDate.Event 	 false 	 undefined 	 undefined
+$3. ~eventDate.NormalPost 	 false 	 undefined 	 undefined
+$4. ~eventDate.ProductAd 	 false 	 undefined 	 undefined
+$5. ~eventDate.Publication 	 false 	 undefined 	 undefined
+$6. ~publishedDate.AdoptionAd 	 false 	 undefined 	 undefined
+$7. ~publishedDate.Event 	 false 	 undefined 	 undefined
+$8. ~publishedDate.NormalPost 	 false 	 undefined 	 undefined
+$9. ~publishedDate.ProductAd 	 false 	 undefined 	 undefined
+$10. ~publishedDate.Publication 	 false 	 undefined 	 undefined
+$11. DayValue 	 false 	 undefined 	 undefined
+$12. DayValue.Int 	 false 	 undefined 	 undefined
+$13. DayValue.univ 	 false 	 undefined 	 undefined
+$14. ~eventDate.adoptPet 	 false 	 undefined 	 undefined
+$15. ~eventDate.advertisedProduct 	 false 	 undefined 	 undefined
+$16. ~eventDate.creator 	 false 	 undefined 	 undefined
+$17. ~eventDate.eventStatus 	 false 	 undefined 	 undefined
+$18. ~eventDate.location 	 false 	 undefined 	 undefined
+$19. ~eventDate.participants 	 false 	 undefined 	 undefined
+$20. ~eventDate.publishedDate 	 false 	 undefined 	 undefined
+$21. ~eventDate.publisher 	 false 	 undefined 	 undefined
+$22. ~eventDate.recommendedPets 	 false 	 undefined 	 undefined
+$23. ~eventDate.tagged 	 false 	 undefined 	 undefined
+$24. ~publishedDate.adoptPet 	 false 	 undefined 	 undefined
+$25. ~publishedDate.advertisedProduct 	 false 	 undefined 	 undefined
+$26. ~publishedDate.creator 	 false 	 undefined 	 undefined
+$27. ~publishedDate.eventDate 	 false 	 undefined 	 undefined
+$28. ~publishedDate.eventStatus 	 false 	 undefined 	 undefined
+$29. ~publishedDate.location 	 false 	 undefined 	 undefined
+$30. ~publishedDate.participants 	 false 	 undefined 	 undefined
+$31. ~publishedDate.publisher 	 false 	 undefined 	 undefined
+$32. ~publishedDate.recommendedPets 	 false 	 undefined 	 undefined
+$33. ~publishedDate.tagged 	 false 	 undefined 	 undefined
+$34. ~eventDate 	 false 	 undefined 	 undefined
+$35. ~eventDate.univ 	 false 	 undefined 	 undefined
+$36. ~eventDate.~commentedPost 	 false 	 undefined 	 undefined
+$37. ~eventDate.~posts 	 false 	 undefined 	 undefined
+$38. ~publishedDate 	 false 	 undefined 	 undefined
+$39. ~publishedDate.univ 	 false 	 undefined 	 undefined
+$40. ~publishedDate.~commentedPost 	 false 	 undefined 	 undefined
+$41. ~publishedDate.~posts 	 false 	 undefined 	 undefined
+$42.  	 false 	 undefined 	 undefined
+
+Time taken: 32.421959
+Preprocessing time: 9
+Parsing time: 4
+Generation time: 2

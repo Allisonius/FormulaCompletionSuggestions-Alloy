@@ -1,6 +1,7 @@
 package alloy.language.server.visitors.extractors;
 
 import alloy.language.server.alloyParser;
+import alloy.language.server.utils.AlloyExpressionParsingUtils;
 import org.eclipse.lsp4j.CompletionParams;
 
 import java.util.Map;
@@ -32,8 +33,12 @@ public class PredicateParamExtractorVisitor extends AbstractExtractorVisitors {
 				Map<String, alloyParser.ExprContext> parameters = new ConcurrentHashMap<>();
 				var declarations = paraDecls.decl();
 				for (var decl : declarations) {
+					var declExpr = AlloyExpressionParsingUtils.findDeclarationExpression(decl.expr());
+					if (declExpr == null) {
+						continue;
+					}
 					for(var name : decl.name()) {
-						parameters.put(name.getText(), decl.expr());
+						parameters.put(name.getText(), declExpr);
 					}
 				}
 				return parameters;

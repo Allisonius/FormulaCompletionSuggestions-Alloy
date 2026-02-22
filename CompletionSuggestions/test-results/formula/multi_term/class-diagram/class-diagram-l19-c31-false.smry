@@ -6,6 +6,9 @@ Vscode Position: line=18 character=31
 ----------------------------------
 19 |   all c: Class - Object | c in 
 ----------------------------------
+Expected Completion word: Object.^~ext
+Expected Completion line: Object.^~ext
+Suggestion exists: false
 Completion List:
 # Suggestion 	 Exact 	 Syntactic 	 Semantic
 $1. *ext.c 	 false 	 undefined 	 undefined
@@ -19,112 +22,104 @@ $8. ^ext.c.^ext 	 false 	 undefined 	 undefined
 $9. ^ext.c.ext 	 false 	 undefined 	 undefined
 $10. ^ext.c.~ext 	 false 	 undefined 	 undefined
 $11. c 	 false 	 undefined 	 undefined
-$12. c.*ext 	 false 	 undefined 	 undefined
-$13. c.^ext 	 false 	 undefined 	 undefined
-$14. c.ext 	 false 	 undefined 	 undefined
-$15. c.~ext 	 false 	 undefined 	 undefined
-$16. ext.c 	 false 	 undefined 	 undefined
-$17. ext.c.*ext 	 false 	 undefined 	 undefined
-$18. ext.c.^ext 	 false 	 undefined 	 undefined
-$19. ext.c.ext 	 false 	 undefined 	 undefined
-$20. ext.c.~ext 	 false 	 undefined 	 undefined
-$21. ~ext.c 	 false 	 undefined 	 undefined
-$22. ~ext.c.*ext 	 false 	 undefined 	 undefined
-$23. ~ext.c.^ext 	 false 	 undefined 	 undefined
-$24. ~ext.c.ext 	 false 	 undefined 	 undefined
-$25. ~ext.c.~ext 	 false 	 undefined 	 undefined
-$26. *ext.Class 	 false 	 undefined 	 undefined
-$27. *ext.Class.*ext 	 false 	 undefined 	 undefined
-$28. *ext.Class.^ext 	 false 	 undefined 	 undefined
-$29. *ext.Class.ext 	 false 	 undefined 	 undefined
-$30. *ext.Class.~ext 	 false 	 undefined 	 undefined
-$31. *ext.Object 	 false 	 undefined 	 undefined
-$32. *ext.Object.*ext 	 false 	 undefined 	 undefined
-$33. *ext.Object.^ext 	 false 	 undefined 	 undefined
-$34. *ext.Object.ext 	 false 	 undefined 	 undefined
-$35. *ext.Object.~ext 	 false 	 undefined 	 undefined
-$36. Class 	 false 	 undefined 	 undefined
-$37. Class.*ext 	 false 	 undefined 	 undefined
-$38. Class.^ext 	 false 	 undefined 	 undefined
-$39. Class.ext 	 false 	 undefined 	 undefined
-$40. Class.~ext 	 false 	 undefined 	 undefined
-$41. Object 	 false 	 undefined 	 undefined
-$42. Object.*ext 	 false 	 undefined 	 undefined
-$43. Object.^ext 	 false 	 undefined 	 undefined
-$44. Object.ext 	 false 	 undefined 	 undefined
-$45. Object.~ext 	 false 	 undefined 	 undefined
-$46. ^ext.Class 	 false 	 undefined 	 undefined
-$47. ^ext.Class.*ext 	 false 	 undefined 	 undefined
-$48. ^ext.Class.^ext 	 false 	 undefined 	 undefined
-$49. ^ext.Class.ext 	 false 	 undefined 	 undefined
-$50. ^ext.Class.~ext 	 false 	 undefined 	 undefined
-$51. ^ext.Object 	 false 	 undefined 	 undefined
-$52. ^ext.Object.*ext 	 false 	 undefined 	 undefined
-$53. ^ext.Object.^ext 	 false 	 undefined 	 undefined
-$54. ^ext.Object.ext 	 false 	 undefined 	 undefined
-$55. ^ext.Object.~ext 	 false 	 undefined 	 undefined
-$56. ext.Class 	 false 	 undefined 	 undefined
-$57. ext.Class.*ext 	 false 	 undefined 	 undefined
-$58. ext.Class.^ext 	 false 	 undefined 	 undefined
-$59. ext.Class.ext 	 false 	 undefined 	 undefined
-$60. ext.Class.~ext 	 false 	 undefined 	 undefined
-$61. ext.Object 	 false 	 undefined 	 undefined
-$62. ext.Object.*ext 	 false 	 undefined 	 undefined
-$63. ext.Object.^ext 	 false 	 undefined 	 undefined
-$64. ext.Object.ext 	 false 	 undefined 	 undefined
-$65. ext.Object.~ext 	 false 	 undefined 	 undefined
-$66. ~ext.Class 	 false 	 undefined 	 undefined
-$67. ~ext.Class.*ext 	 false 	 undefined 	 undefined
-$68. ~ext.Class.^ext 	 false 	 undefined 	 undefined
-$69. ~ext.Class.ext 	 false 	 undefined 	 undefined
-$70. ~ext.Class.~ext 	 false 	 undefined 	 undefined
-$71. ~ext.Object 	 false 	 undefined 	 undefined
-$72. ~ext.Object.*ext 	 false 	 undefined 	 undefined
-$73. ~ext.Object.^ext 	 false 	 undefined 	 undefined
-$74. ~ext.Object.ext 	 false 	 undefined 	 undefined
-$75. ~ext.Object.~ext 	 false 	 undefined 	 undefined
-$76. *ext.univ.ext 	 false 	 undefined 	 undefined
-$77. ^ext.univ.ext 	 false 	 undefined 	 undefined
-$78. ext.univ 	 false 	 undefined 	 undefined
-$79. ext.univ.*ext 	 false 	 undefined 	 undefined
-$80. ext.univ.^ext 	 false 	 undefined 	 undefined
-$81. ext.univ.ext 	 false 	 undefined 	 undefined
-$82. ext.univ.~ext 	 false 	 undefined 	 undefined
-$83. univ.ext 	 false 	 undefined 	 undefined
-$84. ~ext.univ.ext 	 false 	 undefined 	 undefined
-$85. *ext.univ.~ext 	 false 	 undefined 	 undefined
-$86. ^ext.univ.~ext 	 false 	 undefined 	 undefined
-$87. univ.~ext 	 false 	 undefined 	 undefined
-$88. ~ext.univ 	 false 	 undefined 	 undefined
-$89. ~ext.univ.*ext 	 false 	 undefined 	 undefined
-$90. ~ext.univ.^ext 	 false 	 undefined 	 undefined
-$91. ~ext.univ.~ext 	 false 	 undefined 	 undefined
-$92. *ext.univ.^ext 	 false 	 undefined 	 undefined
-$93. ^ext.univ 	 false 	 undefined 	 undefined
-$94. ^ext.univ.*ext 	 false 	 undefined 	 undefined
-$95. ^ext.univ.^ext 	 false 	 undefined 	 undefined
-$96. univ.^ext 	 false 	 undefined 	 undefined
-$97. *ext.univ 	 false 	 undefined 	 undefined
-$98. *ext.univ.*ext 	 false 	 undefined 	 undefined
-$99. univ.*ext 	 false 	 undefined 	 undefined
-$100. Int 	 false 	 undefined 	 undefined
-$101. String 	 false 	 undefined 	 undefined
-$102. none 	 false 	 undefined 	 undefined
-$103. univ 	 false 	 undefined 	 undefined
-Expected Completion word: Object
-Expected Completion line: Object.^~ext
-Suggestion exists: false
+$12. c 	 false 	 undefined 	 undefined
+$13. c.*ext 	 false 	 undefined 	 undefined
+$14. c.^ext 	 false 	 undefined 	 undefined
+$15. c.ext 	 false 	 undefined 	 undefined
+$16. c.~ext 	 false 	 undefined 	 undefined
+$17. ext.c 	 false 	 undefined 	 undefined
+$18. ext.c.*ext 	 false 	 undefined 	 undefined
+$19. ext.c.^ext 	 false 	 undefined 	 undefined
+$20. ext.c.ext 	 false 	 undefined 	 undefined
+$21. ext.c.~ext 	 false 	 undefined 	 undefined
+$22. ~ext.c 	 false 	 undefined 	 undefined
+$23. ~ext.c.*ext 	 false 	 undefined 	 undefined
+$24. ~ext.c.^ext 	 false 	 undefined 	 undefined
+$25. ~ext.c.ext 	 false 	 undefined 	 undefined
+$26. ~ext.c.~ext 	 false 	 undefined 	 undefined
+$27. *ext.Class 	 false 	 undefined 	 undefined
+$28. *ext.Class.*ext 	 false 	 undefined 	 undefined
+$29. *ext.Class.^ext 	 false 	 undefined 	 undefined
+$30. *ext.Class.ext 	 false 	 undefined 	 undefined
+$31. *ext.Class.~ext 	 false 	 undefined 	 undefined
+$32. *ext.Object 	 false 	 undefined 	 undefined
+$33. *ext.Object.*ext 	 false 	 undefined 	 undefined
+$34. *ext.Object.^ext 	 false 	 undefined 	 undefined
+$35. *ext.Object.ext 	 false 	 undefined 	 undefined
+$36. *ext.Object.~ext 	 false 	 undefined 	 undefined
+$37. Class 	 false 	 undefined 	 undefined
+$38. Class 	 false 	 undefined 	 undefined
+$39. Class.*ext 	 false 	 undefined 	 undefined
+$40. Class.^ext 	 false 	 undefined 	 undefined
+$41. Class.ext 	 false 	 undefined 	 undefined
+$42. Class.~ext 	 false 	 undefined 	 undefined
+$43. Object 	 false 	 undefined 	 undefined
+$44. Object 	 false 	 undefined 	 undefined
+$45. Object.*ext 	 false 	 undefined 	 undefined
+$46. Object.^ext 	 false 	 undefined 	 undefined
+$47. Object.ext 	 false 	 undefined 	 undefined
+$48. Object.~ext 	 false 	 undefined 	 undefined
+$49. ^ext.Class 	 false 	 undefined 	 undefined
+$50. ^ext.Class.*ext 	 false 	 undefined 	 undefined
+$51. ^ext.Class.^ext 	 false 	 undefined 	 undefined
+$52. ^ext.Class.ext 	 false 	 undefined 	 undefined
+$53. ^ext.Class.~ext 	 false 	 undefined 	 undefined
+$54. ^ext.Object 	 false 	 undefined 	 undefined
+$55. ^ext.Object.*ext 	 false 	 undefined 	 undefined
+$56. ^ext.Object.^ext 	 false 	 undefined 	 undefined
+$57. ^ext.Object.ext 	 false 	 undefined 	 undefined
+$58. ^ext.Object.~ext 	 false 	 undefined 	 undefined
+$59. ext.Class 	 false 	 undefined 	 undefined
+$60. ext.Class.*ext 	 false 	 undefined 	 undefined
+$61. ext.Class.^ext 	 false 	 undefined 	 undefined
+$62. ext.Class.ext 	 false 	 undefined 	 undefined
+$63. ext.Class.~ext 	 false 	 undefined 	 undefined
+$64. ext.Object 	 false 	 undefined 	 undefined
+$65. ext.Object.*ext 	 false 	 undefined 	 undefined
+$66. ext.Object.^ext 	 false 	 undefined 	 undefined
+$67. ext.Object.ext 	 false 	 undefined 	 undefined
+$68. ext.Object.~ext 	 false 	 undefined 	 undefined
+$69. ~ext.Class 	 false 	 undefined 	 undefined
+$70. ~ext.Class.*ext 	 false 	 undefined 	 undefined
+$71. ~ext.Class.^ext 	 false 	 undefined 	 undefined
+$72. ~ext.Class.ext 	 false 	 undefined 	 undefined
+$73. ~ext.Class.~ext 	 false 	 undefined 	 undefined
+$74. ~ext.Object 	 false 	 undefined 	 undefined
+$75. ~ext.Object.*ext 	 false 	 undefined 	 undefined
+$76. ~ext.Object.^ext 	 false 	 undefined 	 undefined
+$77. ~ext.Object.ext 	 false 	 undefined 	 undefined
+$78. ~ext.Object.~ext 	 false 	 undefined 	 undefined
+$79. *ext.univ.ext 	 false 	 undefined 	 undefined
+$80. ^ext.univ.ext 	 false 	 undefined 	 undefined
+$81. ext.univ 	 false 	 undefined 	 undefined
+$82. ext.univ.*ext 	 false 	 undefined 	 undefined
+$83. ext.univ.^ext 	 false 	 undefined 	 undefined
+$84. ext.univ.ext 	 false 	 undefined 	 undefined
+$85. ext.univ.~ext 	 false 	 undefined 	 undefined
+$86. univ.ext 	 false 	 undefined 	 undefined
+$87. ~ext.univ.ext 	 false 	 undefined 	 undefined
+$88. *ext.univ.~ext 	 false 	 undefined 	 undefined
+$89. ^ext.univ.~ext 	 false 	 undefined 	 undefined
+$90. univ.~ext 	 false 	 undefined 	 undefined
+$91. ~ext.univ 	 false 	 undefined 	 undefined
+$92. ~ext.univ.*ext 	 false 	 undefined 	 undefined
+$93. ~ext.univ.^ext 	 false 	 undefined 	 undefined
+$94. ~ext.univ.~ext 	 false 	 undefined 	 undefined
+$95. *ext.univ.^ext 	 false 	 undefined 	 undefined
+$96. ^ext.univ 	 false 	 undefined 	 undefined
+$97. ^ext.univ.*ext 	 false 	 undefined 	 undefined
+$98. ^ext.univ.^ext 	 false 	 undefined 	 undefined
+$99. univ.^ext 	 false 	 undefined 	 undefined
+$100. *ext.univ 	 false 	 undefined 	 undefined
+$101. *ext.univ.*ext 	 false 	 undefined 	 undefined
+$102. univ 	 false 	 undefined 	 undefined
+$103. univ.*ext 	 false 	 undefined 	 undefined
+$104. Int 	 false 	 undefined 	 undefined
+$105. String 	 false 	 undefined 	 undefined
+$106. none 	 false 	 undefined 	 undefined
+$107. univ 	 false 	 undefined 	 undefined
 
-Suggestion in top 1 = false 
-Suggestion in top 5 = false 
-Suggestion in top 10 = false 
-
-Suggestion in top 1 (Alpha) = false
-Suggestion in top 5 (Alpha) = false
-Suggestion in top 10 (Alpha) = false
-
-Suggestion in top 1 (Len) = false
-Suggestion in top 5 (Len) = false
-Suggestion in top 10 (Len) = false
-
-Time taken: 20.394333
+Time taken: 13.611542
+Preprocessing time: 1
+Parsing time: 1
+Generation time: 7

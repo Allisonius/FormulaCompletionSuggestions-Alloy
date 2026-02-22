@@ -1,0 +1,45 @@
+Model name: classroom-fol
+Filename: completion/classroom-fol-complete.als
+Offset: 371
+Term:  in 
+Vscode Position: line=28 character=22
+----------------------------------
+29 | 	all p: Person | p in 
+----------------------------------
+Expected Completion word: Student
+Expected Completion line: Student or p in Teacher
+Suggestion exists: false
+Completion List:
+# Suggestion 	 Exact 	 Syntactic 	 Semantic
+$1. p.Tutors 	 false 	 false 	 false
+$2. p.Teaches 	 false 	 false 	 false
+$3. p.Tutors.Tutors 	 false 	 false 	 false
+$4. p.Tutors.Teaches 	 false 	 false 	 false
+$5. p.Teaches.Groups 	 false 	 false 	 false
+$6. p.Tutors.Tutors.Tutors 	 false 	 false 	 false
+$7. p.Tutors.Tutors.Teaches 	 false 	 false 	 false
+$8. p.Tutors.Teaches.Groups 	 false 	 false 	 false
+$9. p.Tutors + univ 	 false 	 false 	 false
+$10. p.Teaches + univ 	 false 	 false 	 false
+$11. p.Tutors & univ 	 false 	 false 	 false
+$12. p.Teaches & univ 	 false 	 false 	 false
+$13. p.Tutors.~Tutors 	 false 	 false 	 false
+$14. p.Tutors.~Tutors.Tutors 	 false 	 false 	 false
+$15. p.Tutors.~Tutors.Teaches 	 false 	 false 	 false
+$16. p.Tutors.~Tutors.Teaches.Groups 	 false 	 false 	 false
+$17. p.Teaches.~Groups 	 false 	 undefined 	 undefined
+$18. p.Teaches.Groups + univ 	 false 	 undefined 	 undefined
+$19. p.Teaches.Groups & univ 	 false 	 undefined 	 undefined
+$20. p.Teaches.Groups.~Groups 	 false 	 undefined 	 undefined
+$21. p.Tutors^ 	 false 	 undefined 	 undefined
+$22. p.Tutors* 	 false 	 undefined 	 undefined
+$23. ~p.Tutors 	 false 	 undefined 	 undefined
+$24. ~p.Teaches 	 false 	 undefined 	 undefined
+$25. ~p.Tutors.Tutors 	 false 	 undefined 	 undefined
+$26. ~p.Tutors.Teaches 	 false 	 undefined 	 undefined
+$27. ~p.Teaches.Groups 	 false 	 undefined 	 undefined
+
+Time taken: 6130.965125
+Preprocessing time: N/A
+Parsing time: N/A
+Generation time: N/A

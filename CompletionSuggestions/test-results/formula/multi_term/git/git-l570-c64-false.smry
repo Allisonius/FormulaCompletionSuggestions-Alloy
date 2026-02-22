@@ -1,0 +1,36 @@
+Model name: git
+Filename: completion/git-complete.als
+Offset: 12624
+Term:  -> 
+Vscode Position: line=569 character=64
+----------------------------------
+570 | 	no f1, f2 : File | commonFiles[f1, f2, s, c] and f1.content -> 
+----------------------------------
+Expected Completion word: f2.content
+Expected Completion line: f2.content in conflict
+Suggestion exists: false
+Completion List:
+# Suggestion 	 Exact 	 Syntactic 	 Semantic
+$1. c 	 false 	 undefined 	 undefined
+$2. f1 	 false 	 undefined 	 undefined
+$3. f2 	 false 	 undefined 	 undefined
+$4. s 	 false 	 undefined 	 undefined
+$5. Blob 	 false 	 undefined 	 undefined
+$6. Commit 	 false 	 undefined 	 undefined
+$7. Dir 	 false 	 undefined 	 undefined
+$8. File 	 false 	 undefined 	 undefined
+$9. Name 	 false 	 undefined 	 undefined
+$10. Node 	 false 	 undefined 	 undefined
+$11. Object 	 false 	 undefined 	 undefined
+$12. Root 	 false 	 undefined 	 undefined
+$13. State 	 false 	 undefined 	 undefined
+$14. Tree 	 false 	 undefined 	 undefined
+$15. Int 	 false 	 undefined 	 undefined
+$16. String 	 false 	 undefined 	 undefined
+$17. none 	 false 	 undefined 	 undefined
+$18. univ 	 false 	 undefined 	 undefined
+
+Time taken: 78.237042
+Preprocessing time: 25
+Parsing time: 13
+Generation time: 0

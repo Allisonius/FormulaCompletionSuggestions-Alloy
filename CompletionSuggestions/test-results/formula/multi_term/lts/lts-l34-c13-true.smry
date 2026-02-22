@@ -6,6 +6,9 @@ Vscode Position: line=33 character=13
 ----------------------------------
 34 | 	State.trans.
 ----------------------------------
+Expected Completion word: State
+Expected Completion line: State = Event
+Suggestion exists: true
 Completion List:
 # Suggestion 	 Exact 	 Syntactic 	 Semantic
 $1. Init 	 false 	 false 	 false
@@ -16,21 +19,10 @@ $5. trans.State 	 false 	 false 	 false
 $6. trans 	 false 	 false 	 false
 $7. trans.univ 	 false 	 false 	 false
 $8. univ.trans 	 false 	 false 	 false
-$9. univ 	 false 	 false 	 false
-Expected Completion word: State
-Expected Completion line: State = Event
-Suggestion exists: true
+$9.  	 false 	 false 	 false
+$10. univ 	 false 	 false 	 false
 
-Suggestion in top 1 = false 
-Suggestion in top 5 = true 
-Suggestion in top 10 = true 
-
-Suggestion in top 1 (Alpha) = false
-Suggestion in top 5 (Alpha) = true
-Suggestion in top 10 (Alpha) = true
-
-Suggestion in top 1 (Len) = false
-Suggestion in top 5 (Len) = true
-Suggestion in top 10 (Len) = true
-
-Time taken: 9.2685
+Time taken: 13.178125
+Preprocessing time: 2
+Parsing time: 1
+Generation time: 2

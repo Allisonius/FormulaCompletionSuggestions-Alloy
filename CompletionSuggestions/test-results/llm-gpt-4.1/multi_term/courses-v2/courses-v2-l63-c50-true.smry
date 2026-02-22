@@ -1,0 +1,48 @@
+Model name: courses-v2
+Filename: completion/courses-v2-complete.als
+Offset: 1441
+Term: .
+Vscode Position: line=62 character=50
+----------------------------------
+63 | 	all p : Person | no (p.teaches.~teaches - p) & p.
+----------------------------------
+Expected Completion word: teaches.~enrolled
+Expected Completion line: teaches.~enrolled
+Suggestion exists: true
+Completion List:
+# Suggestion 	 Exact 	 Syntactic 	 Semantic
+$1. teaches 	 true 	 false 	 false
+$2. enrolled 	 false 	 false 	 false
+$3. projects 	 false 	 undefined 	 undefined
+$4. teaches.~teaches 	 false 	 false 	 false
+$5. enrolled.~enrolled 	 false 	 false 	 false
+$6. projects.~projects 	 false 	 undefined 	 undefined
+$7. teaches + enrolled 	 false 	 false 	 false
+$8. teaches + projects 	 false 	 undefined 	 undefined
+$9. enrolled + projects 	 false 	 undefined 	 undefined
+$10. teaches & enrolled 	 false 	 false 	 false
+$11. teaches & projects 	 false 	 undefined 	 undefined
+$12. enrolled & projects 	 false 	 undefined 	 undefined
+$13. teaches - enrolled 	 false 	 false 	 false
+$14. teaches - projects 	 false 	 undefined 	 undefined
+$15. enrolled - teaches 	 false 	 false 	 false
+$16. enrolled - projects 	 false 	 undefined 	 undefined
+$17. projects - teaches 	 false 	 undefined 	 undefined
+$18. projects - enrolled 	 false 	 undefined 	 undefined
+$19. teaches + univ 	 false 	 undefined 	 undefined
+$20. enrolled + univ 	 false 	 undefined 	 undefined
+$21. projects + univ 	 false 	 undefined 	 undefined
+$22. teaches & univ 	 false 	 undefined 	 undefined
+$23. enrolled & univ 	 false 	 undefined 	 undefined
+$24. projects & univ 	 false 	 undefined 	 undefined
+$25. teaches - univ 	 false 	 undefined 	 undefined
+$26. enrolled - univ 	 false 	 undefined 	 undefined
+$27. projects - univ 	 false 	 undefined 	 undefined
+$28. teaches.~teaches + univ 	 false 	 undefined 	 undefined
+$29. teaches.~teaches & univ 	 false 	 undefined 	 undefined
+$30. teaches.~teaches - univ 	 false 	 undefined 	 undefined
+
+Time taken: 6772.427958
+Preprocessing time: N/A
+Parsing time: N/A
+Generation time: N/A

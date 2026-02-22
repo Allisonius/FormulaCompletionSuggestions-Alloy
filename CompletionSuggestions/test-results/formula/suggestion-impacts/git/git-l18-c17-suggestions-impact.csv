@@ -1,0 +1,15 @@
+modelname,filename,position-line,position-character,incompleteline,removedtext,baseline,suggestionedExpression,A_iff_B,A_and_B,not_A_and_B,A_and_not_B,not_A_and_not_B,suggestionImpactTime
+git,completion/git-sig.als,18,17,"sig File extends","Node {","{}","sig File extends Blob",,,,,,8.833292
+git,completion/git-sig.als,18,17,"sig File extends","Node {","{}","sig File extends Commit",,,,,,8.833292
+git,completion/git-sig.als,18,17,"sig File extends","Node {","{}","sig File extends Dir",,,,,,8.833292
+git,completion/git-sig.als,18,17,"sig File extends","Node {","{}","sig File extends File",,,,,,8.833292
+git,completion/git-sig.als,18,17,"sig File extends","Node {","{}","sig File extends Name",,,,,,8.833292
+git,completion/git-sig.als,18,17,"sig File extends","Node {","{}","sig File extends Node",,,,,,8.833292
+git,completion/git-sig.als,18,17,"sig File extends","Node {","{}","sig File extends Object",,,,,,8.833292
+git,completion/git-sig.als,18,17,"sig File extends","Node {","{}","sig File extends Root",,,,,,8.833292
+git,completion/git-sig.als,18,17,"sig File extends","Node {","{}","sig File extends State",,,,,,8.833292
+git,completion/git-sig.als,18,17,"sig File extends","Node {","{}","sig File extends Tree",,,,,,8.833292
+git,completion/git-sig.als,18,17,"sig File extends","Node {","{}","sig File extends Int",,,,,,8.833292
+git,completion/git-sig.als,18,17,"sig File extends","Node {","{}","sig File extends String",,,,,,8.833292
+git,completion/git-sig.als,18,17,"sig File extends","Node {","{}","sig File extends none",,,,,,8.833292
+git,completion/git-sig.als,18,17,"sig File extends","Node {","{}","sig File extends univ",,,,,,8.833292

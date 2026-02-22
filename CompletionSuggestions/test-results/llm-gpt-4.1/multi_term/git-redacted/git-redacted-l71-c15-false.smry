@@ -1,0 +1,43 @@
+Model name: git-redacted
+Filename: completion/git-complete-redacted.als
+Offset: 1171
+Term:  & 
+Vscode Position: line=70 character=15
+----------------------------------
+71 | 	(*parent).n & 
+----------------------------------
+Expected Completion word: File
+Expected Completion line: File & current.s
+Suggestion exists: false
+Completion List:
+# Suggestion 	 Exact 	 Syntactic 	 Semantic
+$1. n.parent 	 false 	 undefined 	 undefined
+$2. n.parent.current 	 false 	 undefined 	 undefined
+$3. n.parent.samepath 	 false 	 undefined 	 undefined
+$4. n.parent.name 	 false 	 undefined 	 undefined
+$5. n.parent.parent 	 false 	 undefined 	 undefined
+$6. n.parent.current & univ 	 false 	 undefined 	 undefined
+$7. n.parent.samepath & univ 	 false 	 undefined 	 undefined
+$8. n.parent.name & univ 	 false 	 undefined 	 undefined
+$9. n.parent.parent & univ 	 false 	 undefined 	 undefined
+$10. n.parent.current + univ 	 false 	 undefined 	 undefined
+$11. n.parent.samepath + univ 	 false 	 undefined 	 undefined
+$12. n.parent.name + univ 	 false 	 undefined 	 undefined
+$13. n.parent.parent + univ 	 false 	 undefined 	 undefined
+$14. n.parent.current.n 	 false 	 undefined 	 undefined
+$15. n.parent.samepath.n 	 false 	 undefined 	 undefined
+$16. n.parent.name.n 	 false 	 undefined 	 undefined
+$17. n.parent.parent.n 	 false 	 undefined 	 undefined
+$18. n.parent.current.n & univ 	 false 	 undefined 	 undefined
+$19. n.parent.samepath.n & univ 	 false 	 undefined 	 undefined
+$20. n.parent.name.n & univ 	 false 	 undefined 	 undefined
+$21. n.parent.parent.n & univ 	 false 	 undefined 	 undefined
+$22. n.parent.current.n + univ 	 false 	 undefined 	 undefined
+$23. n.parent.samepath.n + univ 	 false 	 undefined 	 undefined
+$24. n.parent.name.n + univ 	 false 	 undefined 	 undefined
+$25. n.parent.parent.n + univ 	 false 	 undefined 	 undefined
+
+Time taken: 6136.7775
+Preprocessing time: N/A
+Parsing time: N/A
+Generation time: N/A

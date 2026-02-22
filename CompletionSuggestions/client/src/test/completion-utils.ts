@@ -1,5 +1,6 @@
 import * as vscode from "vscode";
 import { EvaluateSuggestionParams, EvaluateSuggestionsResponse } from "../interfaces/commands";
+import { AlloyLLMCompletionProvider } from "./e2e/completion/LLMCompletion";
 
 export const COMPLETION_TERMS = [
   " in ",
@@ -18,8 +19,15 @@ export interface CompletionOffset {
 
 export async function testCompletion(
   docUri: vscode.Uri,
-  position: vscode.Position
+  position: vscode.Position,
+  alloyModelDeclaration: string | null = null
 ): Promise<vscode.CompletionList> {
+  if (process.env["LLM_COMPLETION"] === "true") {
+    const documentText = (await vscode.workspace.openTextDocument(docUri)).getText();
+    const provider = new AlloyLLMCompletionProvider(alloyModelDeclaration ?? "");
+    const completions = await provider.getCompletions(documentText, position, new vscode.CancellationTokenSource().token);
+    return new vscode.CompletionList(completions, false);
+  }
   // Executing the command `vscode.executeCompletionItemProvider` to simulate triggering completion
   const actualCompletionList = (await vscode.commands.executeCommand(
     "vscode.executeCompletionItemProvider",

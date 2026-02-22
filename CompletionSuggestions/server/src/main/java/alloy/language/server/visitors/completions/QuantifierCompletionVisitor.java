@@ -35,7 +35,7 @@ public class QuantifierCompletionVisitor extends AbstractCompletionVisitors {
 				if (decl.getStop().getText().equals(".")) {
 					// TODO: 8/23/24 Implement the logic for the dot operator
 					var expr = decl.expr();
-					var previousChild = (alloyParser.ExprContext) expr.getChild(0);
+					var previousChild = expr.expr(0);
 					String qualName = AlloyExpressionParsingUtils.findQualifierName(previousChild, currentQuantifiers);
 					var completions = alloyEvaluation.evalDot(qualName, currentQuantifiers);
 					evaluationResults.addAll(completions);

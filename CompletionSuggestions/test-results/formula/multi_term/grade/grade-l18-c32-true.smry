@@ -6,33 +6,40 @@ Vscode Position: line=17 character=32
 ----------------------------------
 18 | 	s in c.assistant_for || s in c.
 ----------------------------------
-Completion List:
-# Suggestion 	 Exact 	 Syntactic 	 Semantic
-$1. assistant_for.Student 	 false 	 undefined 	 undefined
-$2. instructor_of.Professor 	 false 	 undefined 	 undefined
-$3. ~associated_with.Assignment 	 false 	 undefined 	 undefined
-$4. assistant_for 	 false 	 undefined 	 undefined
-$5. assistant_for.univ 	 false 	 undefined 	 undefined
-$6. assistant_for.~assigned_to 	 false 	 undefined 	 undefined
-$7. instructor_of 	 true 	 undefined 	 undefined
-$8. instructor_of.univ 	 false 	 undefined 	 undefined
-$9. ~associated_with.assigned_to 	 false 	 undefined 	 undefined
-$10. ~associated_with 	 false 	 undefined 	 undefined
-$11. ~associated_with.univ 	 false 	 undefined 	 undefined
 Expected Completion word: instructor_of
 Expected Completion line: instructor_of
 Suggestion exists: true
+Completion List:
+# Suggestion 	 Exact 	 Syntactic 	 Semantic
+$1. assistant_for.s 	 false 	 undefined 	 undefined
+$2. instructor_of.s 	 false 	 undefined 	 undefined
+$3. assistant_for.Person 	 false 	 undefined 	 undefined
+$4. assistant_for.Professor 	 false 	 undefined 	 undefined
+$5. assistant_for.Student 	 false 	 undefined 	 undefined
+$6. instructor_of.Person 	 false 	 undefined 	 undefined
+$7. instructor_of.Professor 	 false 	 undefined 	 undefined
+$8. instructor_of.Student 	 false 	 undefined 	 undefined
+$9. ~associated_with.Assignment 	 false 	 undefined 	 undefined
+$10. assistant_for 	 false 	 undefined 	 undefined
+$11. assistant_for 	 false 	 undefined 	 undefined
+$12. assistant_for.univ 	 false 	 undefined 	 undefined
+$13. assistant_for.~assigned_to 	 false 	 undefined 	 undefined
+$14. assistant_for.~instructor_of 	 false 	 undefined 	 undefined
+$15. assistant_for.~instructor_of 	 false 	 undefined 	 undefined
+$16. instructor_of 	 true 	 undefined 	 undefined
+$17. instructor_of 	 true 	 undefined 	 undefined
+$18. instructor_of.univ 	 false 	 undefined 	 undefined
+$19. instructor_of.~assigned_to 	 false 	 undefined 	 undefined
+$20. instructor_of.~assigned_to 	 false 	 undefined 	 undefined
+$21. instructor_of.~assistant_for 	 false 	 undefined 	 undefined
+$22. instructor_of.~assistant_for 	 false 	 undefined 	 undefined
+$23. ~associated_with.assigned_to 	 false 	 undefined 	 undefined
+$24. ~associated_with.assigned_to 	 false 	 undefined 	 undefined
+$25. ~associated_with 	 false 	 undefined 	 undefined
+$26. ~associated_with.univ 	 false 	 undefined 	 undefined
+$27.  	 false 	 undefined 	 undefined
 
-Suggestion in top 1 = false 
-Suggestion in top 5 = false 
-Suggestion in top 10 = true 
-
-Suggestion in top 1 (Alpha) = false
-Suggestion in top 5 (Alpha) = false
-Suggestion in top 10 (Alpha) = true
-
-Suggestion in top 1 (Len) = false
-Suggestion in top 5 (Len) = true
-Suggestion in top 10 (Len) = true
-
-Time taken: 7.816542
+Time taken: 7.164708
+Preprocessing time: 1
+Parsing time: 1
+Generation time: 0

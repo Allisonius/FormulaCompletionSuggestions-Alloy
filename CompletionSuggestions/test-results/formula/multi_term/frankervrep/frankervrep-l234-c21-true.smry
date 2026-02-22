@@ -1,0 +1,24 @@
+Model name: frankervrep
+Filename: completion/frankenvrep-complete.als
+Offset: 5462
+Term: .
+Vscode Position: line=233 character=21
+----------------------------------
+234 | 	all a: RobotControl.
+----------------------------------
+Expected Completion word: output
+Expected Completion line: output | a not in ArmType.anglelimit implies ProduceFeedback[a]
+Suggestion exists: true
+Completion List:
+# Suggestion 	 Exact 	 Syntactic 	 Semantic
+$1. output.ArmAngle 	 false 	 undefined 	 undefined
+$2. output.armangle 	 false 	 undefined 	 undefined
+$3. output 	 true 	 undefined 	 undefined
+$4. output.univ 	 false 	 undefined 	 undefined
+$5. output.~anglelimit 	 false 	 undefined 	 undefined
+$6.  	 false 	 undefined 	 undefined
+
+Time taken: 46.764334
+Preprocessing time: 5
+Parsing time: 3
+Generation time: 0

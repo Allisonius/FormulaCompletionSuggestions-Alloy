@@ -1,0 +1,19 @@
+Model name: git
+Filename: completion/git-sig.als
+Offset: 140
+Term:  -> 
+Vscode Position: line=9 character=28
+----------------------------------
+10 | 	belongsTo : Object lone -> 
+----------------------------------
+Expected Completion word: undefined
+Expected Completion line: Commit,
+Suggestion exists: false
+Completion List:
+# Suggestion 	 Exact 	 Syntactic 	 Semantic
+
+
+Time taken: 4.87975
+Preprocessing time: 1
+Parsing time: 0
+Generation time: 0

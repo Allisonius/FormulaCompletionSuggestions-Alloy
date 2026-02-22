@@ -1,0 +1,104 @@
+{
+  "modelName": "git-redacted",
+  "filename": "completion/git-sig.als",
+  "offset": 140,
+  "term": " -> ",
+  "line": 10,
+  "character": 28,
+  "incompletionLine": "belongsTo : Object lone ->",
+  "completionList": "Node, File, Dir, Root, File+Dir",
+  "evaluationResult": [
+    {
+      "suggestion": "Node",
+      "rank": 1,
+      "doesMatchExactly": false,
+      "startsWithSuggestion": false,
+      "doesCompile": false,
+      "doesMatchSyntactically": false,
+      "expressionComponents": [
+        {
+          "label": "Node",
+          "type": "SIGNATURE"
+        }
+      ]
+    },
+    {
+      "suggestion": "File",
+      "rank": 2,
+      "doesMatchExactly": false,
+      "startsWithSuggestion": false,
+      "doesCompile": false,
+      "doesMatchSyntactically": false,
+      "expressionComponents": [
+        {
+          "label": "File",
+          "type": "SIGNATURE"
+        }
+      ]
+    },
+    {
+      "suggestion": "Dir",
+      "rank": 3,
+      "doesMatchExactly": false,
+      "startsWithSuggestion": false,
+      "doesCompile": false,
+      "doesMatchSyntactically": false,
+      "expressionComponents": [
+        {
+          "label": "Dir",
+          "type": "SIGNATURE"
+        }
+      ]
+    },
+    {
+      "suggestion": "Root",
+      "rank": 4,
+      "doesMatchExactly": false,
+      "startsWithSuggestion": false,
+      "doesCompile": false,
+      "doesMatchSyntactically": false,
+      "expressionComponents": [
+        {
+          "label": "Root",
+          "type": "SIGNATURE"
+        }
+      ]
+    },
+    {
+      "suggestion": "File+Dir",
+      "rank": 5,
+      "doesMatchExactly": false,
+      "startsWithSuggestion": false,
+      "doesCompile": false,
+      "doesMatchSyntactically": false,
+      "expressionComponents": [
+        {
+          "label": "File",
+          "type": "SIGNATURE"
+        },
+        {
+          "label": "+",
+          "type": "OPERATOR"
+        },
+        {
+          "label": "Dir",
+          "type": "SIGNATURE"
+        }
+      ]
+    }
+  ],
+  "completionGenerated": true,
+  "suggestionExists": false,
+  "suggestionInTop1": false,
+  "suggestionInTop5": false,
+  "suggestionInTop10": false,
+  "suggestionInTop1Alpha": false,
+  "suggestionInTop5Alpha": false,
+  "suggestionInTop10Alpha": false,
+  "suggestionInTop1Len": false,
+  "suggestionInTop5Len": false,
+  "suggestionInTop10Len": false,
+  "expectedCompletionWord": "Commit",
+  "expectedCompletionLine": "Commit,",
+  "elapsedTimeInMs": 7714.487583
+}

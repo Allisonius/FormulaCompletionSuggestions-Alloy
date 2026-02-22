@@ -6,6 +6,9 @@ Vscode Position: line=72 character=20
 ----------------------------------
 73 | 	all c : Course | c.
 ----------------------------------
+Expected Completion word: grades.Grade
+Expected Completion line: grades.Grade in enrolled.c
+Suggestion exists: true
 Completion List:
 # Suggestion 	 Exact 	 Syntactic 	 Semantic
 $1. grades.Grade 	 true 	 undefined 	 undefined
@@ -28,20 +31,9 @@ $17. ~enrolled 	 false 	 undefined 	 undefined
 $18. ~enrolled.univ 	 false 	 undefined 	 undefined
 $19. ~teaches 	 false 	 undefined 	 undefined
 $20. ~teaches.univ 	 false 	 undefined 	 undefined
-Expected Completion word: grades
-Expected Completion line: grades.Grade in enrolled.c
-Suggestion exists: true
+$21.  	 false 	 undefined 	 undefined
 
-Suggestion in top 1 = true 
-Suggestion in top 5 = true 
-Suggestion in top 10 = true 
-
-Suggestion in top 1 (Alpha) = false
-Suggestion in top 5 (Alpha) = false
-Suggestion in top 10 (Alpha) = false
-
-Suggestion in top 1 (Len) = true
-Suggestion in top 5 (Len) = true
-Suggestion in top 10 (Len) = true
-
-Time taken: 23.856459
+Time taken: 24.216417
+Preprocessing time: 5
+Parsing time: 3
+Generation time: 1

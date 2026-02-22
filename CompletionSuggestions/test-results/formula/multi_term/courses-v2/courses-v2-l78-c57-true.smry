@@ -6,6 +6,9 @@ Vscode Position: line=77 character=57
 ----------------------------------
 78 | 	all c : Course | all p : Person | lone g : Grade | p -> 
 ----------------------------------
+Expected Completion word: g
+Expected Completion line: g in c.grades
+Suggestion exists: true
 Completion List:
 # Suggestion 	 Exact 	 Syntactic 	 Semantic
 $1. c 	 false 	 undefined 	 undefined
@@ -22,20 +25,8 @@ $11. Int 	 false 	 undefined 	 undefined
 $12. String 	 false 	 undefined 	 undefined
 $13. none 	 false 	 undefined 	 undefined
 $14. univ 	 false 	 undefined 	 undefined
-Expected Completion word: g
-Expected Completion line: g in c.grades
-Suggestion exists: true
 
-Suggestion in top 1 = false 
-Suggestion in top 5 = true 
-Suggestion in top 10 = true 
-
-Suggestion in top 1 (Alpha) = false
-Suggestion in top 5 (Alpha) = true
-Suggestion in top 10 (Alpha) = true
-
-Suggestion in top 1 (Len) = false
-Suggestion in top 5 (Len) = true
-Suggestion in top 10 (Len) = true
-
-Time taken: 17.985834
+Time taken: 19.663625
+Preprocessing time: 5
+Parsing time: 3
+Generation time: 0

@@ -6,6 +6,9 @@ Vscode Position: line=14 character=47
 ----------------------------------
 15 |     all p, q: Person | p in q.shaken => q in p.
 ----------------------------------
+Expected Completion word: shaken
+Expected Completion line: shaken
+Suggestion exists: true
 Completion List:
 # Suggestion 	 Exact 	 Syntactic 	 Semantic
 $1. *shaken.p 	 false 	 undefined 	 undefined
@@ -49,67 +52,97 @@ $38. ~spouse.Hilary 	 false 	 undefined 	 undefined
 $39. ~spouse.Jocelyn 	 false 	 undefined 	 undefined
 $40. ~spouse.Person 	 false 	 undefined 	 undefined
 $41. *shaken.spouse 	 false 	 undefined 	 undefined
-$42. *spouse.shaken 	 false 	 undefined 	 undefined
-$43. ^shaken.spouse 	 false 	 undefined 	 undefined
-$44. ^spouse.shaken 	 false 	 undefined 	 undefined
-$45. shaken 	 true 	 undefined 	 undefined
-$46. shaken.*spouse 	 false 	 undefined 	 undefined
-$47. shaken.^spouse 	 false 	 undefined 	 undefined
-$48. shaken.spouse 	 false 	 undefined 	 undefined
-$49. shaken.univ 	 false 	 undefined 	 undefined
-$50. shaken.~spouse 	 false 	 undefined 	 undefined
-$51. spouse 	 false 	 undefined 	 undefined
-$52. spouse.*shaken 	 false 	 undefined 	 undefined
-$53. spouse.^shaken 	 false 	 undefined 	 undefined
-$54. spouse.shaken 	 false 	 undefined 	 undefined
-$55. spouse.univ 	 false 	 undefined 	 undefined
-$56. spouse.~shaken 	 false 	 undefined 	 undefined
-$57. ~shaken.spouse 	 false 	 undefined 	 undefined
-$58. ~spouse.shaken 	 false 	 undefined 	 undefined
-$59. *shaken.~spouse 	 false 	 undefined 	 undefined
-$60. *spouse.~shaken 	 false 	 undefined 	 undefined
-$61. ^shaken.~spouse 	 false 	 undefined 	 undefined
-$62. ^spouse.~shaken 	 false 	 undefined 	 undefined
-$63. ~shaken 	 false 	 undefined 	 undefined
-$64. ~shaken.*spouse 	 false 	 undefined 	 undefined
-$65. ~shaken.^spouse 	 false 	 undefined 	 undefined
-$66. ~shaken.univ 	 false 	 undefined 	 undefined
-$67. ~shaken.~spouse 	 false 	 undefined 	 undefined
-$68. ~spouse 	 false 	 undefined 	 undefined
-$69. ~spouse.*shaken 	 false 	 undefined 	 undefined
-$70. ~spouse.^shaken 	 false 	 undefined 	 undefined
-$71. ~spouse.univ 	 false 	 undefined 	 undefined
-$72. ~spouse.~shaken 	 false 	 undefined 	 undefined
-$73. *shaken.^spouse 	 false 	 undefined 	 undefined
-$74. *spouse.^shaken 	 false 	 undefined 	 undefined
-$75. ^shaken 	 false 	 undefined 	 undefined
-$76. ^shaken.*spouse 	 false 	 undefined 	 undefined
-$77. ^shaken.^spouse 	 false 	 undefined 	 undefined
-$78. ^shaken.univ 	 false 	 undefined 	 undefined
-$79. ^spouse 	 false 	 undefined 	 undefined
-$80. ^spouse.*shaken 	 false 	 undefined 	 undefined
-$81. ^spouse.^shaken 	 false 	 undefined 	 undefined
-$82. ^spouse.univ 	 false 	 undefined 	 undefined
-$83. *shaken 	 false 	 undefined 	 undefined
-$84. *shaken.*spouse 	 false 	 undefined 	 undefined
-$85. *shaken.univ 	 false 	 undefined 	 undefined
-$86. *spouse 	 false 	 undefined 	 undefined
-$87. *spouse.*shaken 	 false 	 undefined 	 undefined
-$88. *spouse.univ 	 false 	 undefined 	 undefined
-Expected Completion word: shaken
-Expected Completion line: shaken
-Suggestion exists: true
+$42. *shaken.spouse 	 false 	 undefined 	 undefined
+$43. *spouse.shaken 	 false 	 undefined 	 undefined
+$44. *spouse.shaken 	 false 	 undefined 	 undefined
+$45. ^shaken.spouse 	 false 	 undefined 	 undefined
+$46. ^shaken.spouse 	 false 	 undefined 	 undefined
+$47. ^spouse.shaken 	 false 	 undefined 	 undefined
+$48. ^spouse.shaken 	 false 	 undefined 	 undefined
+$49. shaken 	 true 	 undefined 	 undefined
+$50. shaken 	 true 	 undefined 	 undefined
+$51. shaken.*spouse 	 false 	 undefined 	 undefined
+$52. shaken.*spouse 	 false 	 undefined 	 undefined
+$53. shaken.^spouse 	 false 	 undefined 	 undefined
+$54. shaken.^spouse 	 false 	 undefined 	 undefined
+$55. shaken.spouse 	 false 	 undefined 	 undefined
+$56. shaken.spouse 	 false 	 undefined 	 undefined
+$57. shaken.univ 	 false 	 undefined 	 undefined
+$58. shaken.~spouse 	 false 	 undefined 	 undefined
+$59. shaken.~spouse 	 false 	 undefined 	 undefined
+$60. spouse 	 false 	 undefined 	 undefined
+$61. spouse 	 false 	 undefined 	 undefined
+$62. spouse.*shaken 	 false 	 undefined 	 undefined
+$63. spouse.*shaken 	 false 	 undefined 	 undefined
+$64. spouse.^shaken 	 false 	 undefined 	 undefined
+$65. spouse.^shaken 	 false 	 undefined 	 undefined
+$66. spouse.shaken 	 false 	 undefined 	 undefined
+$67. spouse.shaken 	 false 	 undefined 	 undefined
+$68. spouse.univ 	 false 	 undefined 	 undefined
+$69. spouse.~shaken 	 false 	 undefined 	 undefined
+$70. spouse.~shaken 	 false 	 undefined 	 undefined
+$71. ~shaken.spouse 	 false 	 undefined 	 undefined
+$72. ~shaken.spouse 	 false 	 undefined 	 undefined
+$73. ~spouse.shaken 	 false 	 undefined 	 undefined
+$74. ~spouse.shaken 	 false 	 undefined 	 undefined
+$75. *shaken.~spouse 	 false 	 undefined 	 undefined
+$76. *shaken.~spouse 	 false 	 undefined 	 undefined
+$77. *spouse.~shaken 	 false 	 undefined 	 undefined
+$78. *spouse.~shaken 	 false 	 undefined 	 undefined
+$79. ^shaken.~spouse 	 false 	 undefined 	 undefined
+$80. ^shaken.~spouse 	 false 	 undefined 	 undefined
+$81. ^spouse.~shaken 	 false 	 undefined 	 undefined
+$82. ^spouse.~shaken 	 false 	 undefined 	 undefined
+$83. ~shaken 	 false 	 undefined 	 undefined
+$84. ~shaken 	 false 	 undefined 	 undefined
+$85. ~shaken.*spouse 	 false 	 undefined 	 undefined
+$86. ~shaken.*spouse 	 false 	 undefined 	 undefined
+$87. ~shaken.^spouse 	 false 	 undefined 	 undefined
+$88. ~shaken.^spouse 	 false 	 undefined 	 undefined
+$89. ~shaken.univ 	 false 	 undefined 	 undefined
+$90. ~shaken.~spouse 	 false 	 undefined 	 undefined
+$91. ~shaken.~spouse 	 false 	 undefined 	 undefined
+$92. ~spouse 	 false 	 undefined 	 undefined
+$93. ~spouse 	 false 	 undefined 	 undefined
+$94. ~spouse.*shaken 	 false 	 undefined 	 undefined
+$95. ~spouse.*shaken 	 false 	 undefined 	 undefined
+$96. ~spouse.^shaken 	 false 	 undefined 	 undefined
+$97. ~spouse.^shaken 	 false 	 undefined 	 undefined
+$98. ~spouse.univ 	 false 	 undefined 	 undefined
+$99. ~spouse.~shaken 	 false 	 undefined 	 undefined
+$100. ~spouse.~shaken 	 false 	 undefined 	 undefined
+$101. *shaken.^spouse 	 false 	 undefined 	 undefined
+$102. *shaken.^spouse 	 false 	 undefined 	 undefined
+$103. *spouse.^shaken 	 false 	 undefined 	 undefined
+$104. *spouse.^shaken 	 false 	 undefined 	 undefined
+$105. ^shaken 	 false 	 undefined 	 undefined
+$106. ^shaken 	 false 	 undefined 	 undefined
+$107. ^shaken.*spouse 	 false 	 undefined 	 undefined
+$108. ^shaken.*spouse 	 false 	 undefined 	 undefined
+$109. ^shaken.^spouse 	 false 	 undefined 	 undefined
+$110. ^shaken.^spouse 	 false 	 undefined 	 undefined
+$111. ^shaken.univ 	 false 	 undefined 	 undefined
+$112. ^spouse 	 false 	 undefined 	 undefined
+$113. ^spouse 	 false 	 undefined 	 undefined
+$114. ^spouse.*shaken 	 false 	 undefined 	 undefined
+$115. ^spouse.*shaken 	 false 	 undefined 	 undefined
+$116. ^spouse.^shaken 	 false 	 undefined 	 undefined
+$117. ^spouse.^shaken 	 false 	 undefined 	 undefined
+$118. ^spouse.univ 	 false 	 undefined 	 undefined
+$119.  	 false 	 undefined 	 undefined
+$120.  	 false 	 undefined 	 undefined
+$121. *shaken 	 false 	 undefined 	 undefined
+$122. *shaken 	 false 	 undefined 	 undefined
+$123. *shaken.*spouse 	 false 	 undefined 	 undefined
+$124. *shaken.*spouse 	 false 	 undefined 	 undefined
+$125. *shaken.univ 	 false 	 undefined 	 undefined
+$126. *spouse 	 false 	 undefined 	 undefined
+$127. *spouse 	 false 	 undefined 	 undefined
+$128. *spouse.*shaken 	 false 	 undefined 	 undefined
+$129. *spouse.*shaken 	 false 	 undefined 	 undefined
+$130. *spouse.univ 	 false 	 undefined 	 undefined
 
-Suggestion in top 1 = false 
-Suggestion in top 5 = false 
-Suggestion in top 10 = false 
-
-Suggestion in top 1 (Alpha) = false
-Suggestion in top 5 (Alpha) = false
-Suggestion in top 10 (Alpha) = false
-
-Suggestion in top 1 (Len) = true
-Suggestion in top 5 (Len) = true
-Suggestion in top 10 (Len) = true
-
-Time taken: 9.447958
+Time taken: 11.582917
+Preprocessing time: 2
+Parsing time: 2
+Generation time: 2

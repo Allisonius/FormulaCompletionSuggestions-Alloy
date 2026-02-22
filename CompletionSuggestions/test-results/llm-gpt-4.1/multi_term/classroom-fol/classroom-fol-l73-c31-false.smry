@@ -1,0 +1,52 @@
+Model name: classroom-fol
+Filename: completion/classroom-fol-complete.als
+Offset: 1118
+Term:  & 
+Vscode Position: line=72 character=31
+----------------------------------
+73 | 	all p:Person | some Teacher & 
+----------------------------------
+Expected Completion word: (^Tutors).p
+Expected Completion line: (^Tutors).p
+Suggestion exists: false
+Completion List:
+# Suggestion 	 Exact 	 Syntactic 	 Semantic
+$1. Teacher 	 false 	 false 	 false
+$2. p 	 false 	 false 	 false
+$3. p.Tutors 	 false 	 false 	 false
+$4. p.Teaches 	 false 	 false 	 false
+$5. p.Tutors.Tutors 	 false 	 false 	 false
+$6. p.Tutors.Teaches 	 false 	 false 	 false
+$7. p.Teaches.Groups 	 false 	 false 	 false
+$8. p.Tutors.Teaches.Groups 	 false 	 false 	 false
+$9. ~Tutors 	 false 	 false 	 false
+$10. ~Teaches 	 false 	 false 	 false
+$11. ~Groups 	 false 	 undefined 	 undefined
+$12. Teacher & p.Tutors 	 false 	 false 	 false
+$13. Teacher & p.Teaches 	 false 	 false 	 false
+$14. Teacher & p.Tutors.Tutors 	 false 	 false 	 false
+$15. Teacher & p.Tutors.Teaches 	 false 	 false 	 false
+$16. Teacher & p.Teaches.Groups 	 false 	 undefined 	 undefined
+$17. Teacher & p.Tutors.Teaches.Groups 	 false 	 undefined 	 undefined
+$18. Teacher & ~Tutors 	 false 	 undefined 	 undefined
+$19. Teacher & ~Teaches 	 false 	 undefined 	 undefined
+$20. Teacher & ~Groups 	 false 	 undefined 	 undefined
+$21. Teacher & univ 	 false 	 false 	 false
+$22. p.Tutors & Teacher 	 false 	 false 	 false
+$23. p.Teaches & Teacher 	 false 	 false 	 false
+$24. p.Tutors.Tutors & Teacher 	 false 	 false 	 false
+$25. p.Tutors.Teaches & Teacher 	 false 	 false 	 false
+$26. p.Teaches.Groups & Teacher 	 false 	 undefined 	 undefined
+$27. p.Tutors.Teaches.Groups & Teacher 	 false 	 undefined 	 undefined
+$28. p.Tutors & univ 	 false 	 false 	 false
+$29. p.Teaches & univ 	 false 	 false 	 false
+$30. p.Tutors.Tutors & univ 	 false 	 false 	 false
+$31. p.Tutors.Teaches & univ 	 false 	 false 	 false
+$32. p.Teaches.Groups & univ 	 false 	 undefined 	 undefined
+$33. p.Tutors.Teaches.Groups & univ 	 false 	 undefined 	 undefined
+$34. univ 	 false 	 false 	 false
+
+Time taken: 7588.519958
+Preprocessing time: N/A
+Parsing time: N/A
+Generation time: N/A

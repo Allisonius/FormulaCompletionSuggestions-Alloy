@@ -6,6 +6,9 @@ Vscode Position: line=36 character=38
 ----------------------------------
 37 | 	all t: Teacher | some c:Class | t -> 
 ----------------------------------
+Expected Completion word: c
+Expected Completion line: c in Teaches
+Suggestion exists: true
 Completion List:
 # Suggestion 	 Exact 	 Syntactic 	 Semantic
 $1. c 	 true 	 undefined 	 undefined
@@ -19,20 +22,8 @@ $8. Int 	 false 	 undefined 	 undefined
 $9. String 	 false 	 undefined 	 undefined
 $10. none 	 false 	 undefined 	 undefined
 $11. univ 	 false 	 undefined 	 undefined
-Expected Completion word: c
-Expected Completion line: c in Teaches
-Suggestion exists: true
 
-Suggestion in top 1 = true 
-Suggestion in top 5 = true 
-Suggestion in top 10 = true 
-
-Suggestion in top 1 (Alpha) = true
-Suggestion in top 5 (Alpha) = true
-Suggestion in top 10 (Alpha) = true
-
-Suggestion in top 1 (Len) = true
-Suggestion in top 5 (Len) = true
-Suggestion in top 10 (Len) = true
-
-Time taken: 12.58075
+Time taken: 26.920458
+Preprocessing time: 4
+Parsing time: 2
+Generation time: 0

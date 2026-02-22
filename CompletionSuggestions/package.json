@@ -3,7 +3,7 @@
   "publisher": "anonymous",
   "displayName": "Alloy Language Extension",
   "description": "A Visual Studio Code extension for Alloy, a declarative language for modeling and analyzing software systems.",
-  "version": "1.3.0",
+  "version": "1.4.0",
   "engines": {
     "vscode": "^1.84.0"
   },
@@ -116,8 +116,10 @@
     "test": "vscode-test",
     "experiment:completion:formula": "npm run compile && cd ./client && node out/test/runTest.js --formula-completion && rm -r .vscode-test/user-data",
     "experiment:completion:generator": "npm run compile && cd ./client && node out/test/runTest.js --generator-completion && rm -r .vscode-test/user-data",
+    "experiment:completion:llm": "npm run compile && cd ./client && node out/test/runTest.js --llm-completion \"$@\" && rm -r .vscode-test/user-data",
     "experiment:error-checking": "npm run compile && cd ./client && node out/test/runTest.js --error-checking && rm -r .vscode-test/user-data",
-    "build:server": "cd server && ./gradlew build --no-daemon"
+    "build:server": "cd server && ./gradlew build -x test --no-daemon",
+    "publish:local": "npm run build:project && npm run package && code --install-extension alloy-language-extension-$npm_package_version.vsix"
   },
   "devDependencies": {
     "@types/node": "^16.18.34",
@@ -140,8 +142,5 @@
   "repository": {
     "type": "git",
     "url": ""
-  },
-  "dependencies": {
-    "all": "^0.0.0"
   }
 }

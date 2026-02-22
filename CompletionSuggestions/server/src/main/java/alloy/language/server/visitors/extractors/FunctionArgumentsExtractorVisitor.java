@@ -6,6 +6,8 @@ import org.eclipse.lsp4j.CompletionParams;
 import java.util.Map;
 import java.util.concurrent.ConcurrentHashMap;
 
+import static alloy.language.server.utils.AlloyExpressionParsingUtils.findDeclarationExpression;
+
 public class FunctionArgumentsExtractorVisitor extends AbstractExtractorVisitors {
 	public FunctionArgumentsExtractorVisitor(String alloyText, CompletionParams completionParams) {
 		super(alloyText, completionParams);
@@ -30,7 +32,9 @@ public class FunctionArgumentsExtractorVisitor extends AbstractExtractorVisitors
 				var declarations = paraDecls.decl();
 				for (var decl : declarations) {
 					for(var name : decl.name()) {
-						parameters.put(name.getText(), decl.expr());
+						var expr = findDeclarationExpression(decl.expr());
+						if (expr == null) continue;
+						parameters.put(name.getText(), expr);
 					}
 				}
 				return parameters;

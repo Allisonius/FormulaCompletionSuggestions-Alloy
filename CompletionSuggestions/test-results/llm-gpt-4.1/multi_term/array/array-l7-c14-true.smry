@@ -1,0 +1,24 @@
+Model name: array
+Filename: completion/array-sig.als
+Offset: 144
+Term:  -> 
+Vscode Position: line=6 character=14
+----------------------------------
+7 |   i2e: Int -> 
+----------------------------------
+Expected Completion word: Element
+Expected Completion line: Element
+Suggestion exists: true
+Completion List:
+# Suggestion 	 Exact 	 Syntactic 	 Semantic
+$1. Element 	 true 	 true 	 true
+$2. Element^ 	 false 	 undefined 	 undefined
+$3. Element* 	 false 	 undefined 	 undefined
+$4. ~Element 	 false 	 undefined 	 undefined
+$5. univ 	 false 	 false 	 false
+$6. ~univ 	 false 	 undefined 	 undefined
+
+Time taken: 7706.348917
+Preprocessing time: N/A
+Parsing time: N/A
+Generation time: N/A

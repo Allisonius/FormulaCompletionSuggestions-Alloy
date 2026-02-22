@@ -3,8 +3,6 @@ package alloy.language.server.visitors.helpers;
 import alloy.language.server.alloyParser;
 import alloy.language.server.utils.data.ParsingErrorCursor;
 import org.antlr.v4.runtime.*;
-import org.antlr.v4.runtime.tree.TerminalNode;
-import org.antlr.v4.runtime.tree.TerminalNodeImpl;
 import org.eclipse.lsp4j.Position;
 
 import java.util.ArrayList;
@@ -16,7 +14,7 @@ public class AlloySyntaxErrorListener extends BaseErrorListener {
 	private final List<ParsingErrorCursor> parsingErrors = new ArrayList<>();
 
 	private ParserRuleContext findRemovableContext(ParserRuleContext ctx) {
-		if (ctx instanceof alloyParser.ExprContext && ctx.getParent() instanceof alloyParser.BlockContext) {
+		if (ctx instanceof alloyParser.ExprContext && (ctx.getParent() instanceof alloyParser.BlockContext || ctx.getParent() instanceof alloyParser.FunDeclContext)) {
 			return ctx;
 		}
 		if (ctx instanceof alloyParser.DeclContext || ctx instanceof alloyParser.SigDeclContext) {

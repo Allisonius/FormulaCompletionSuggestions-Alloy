@@ -1,0 +1,166 @@
+{
+  "modelName": "git-redacted",
+  "filename": "completion/git-sig.als",
+  "offset": 430,
+  "term": " -> ",
+  "line": 23,
+  "character": 15,
+  "incompletionLine": "tbc : Tree ->",
+  "completionList": "Tree, Blob, Dir, Node, Object, State, Commit, Name, File, Root",
+  "evaluationResult": [
+    {
+      "suggestion": "Tree",
+      "rank": 1,
+      "doesMatchExactly": false,
+      "startsWithSuggestion": false,
+      "doesCompile": false,
+      "doesMatchSyntactically": false,
+      "expressionComponents": [
+        {
+          "label": "Tree",
+          "type": "SIGNATURE"
+        }
+      ]
+    },
+    {
+      "suggestion": "Blob",
+      "rank": 2,
+      "doesMatchExactly": false,
+      "startsWithSuggestion": false,
+      "doesCompile": false,
+      "doesMatchSyntactically": false,
+      "expressionComponents": [
+        {
+          "label": "Blob",
+          "type": "SIGNATURE"
+        }
+      ]
+    },
+    {
+      "suggestion": "Dir",
+      "rank": 3,
+      "doesMatchExactly": false,
+      "startsWithSuggestion": false,
+      "doesCompile": false,
+      "doesMatchSyntactically": false,
+      "expressionComponents": [
+        {
+          "label": "Dir",
+          "type": "SIGNATURE"
+        }
+      ]
+    },
+    {
+      "suggestion": "Node",
+      "rank": 4,
+      "doesMatchExactly": false,
+      "startsWithSuggestion": false,
+      "doesCompile": false,
+      "doesMatchSyntactically": false,
+      "expressionComponents": [
+        {
+          "label": "Node",
+          "type": "SIGNATURE"
+        }
+      ]
+    },
+    {
+      "suggestion": "Object",
+      "rank": 5,
+      "doesMatchExactly": false,
+      "startsWithSuggestion": false,
+      "doesCompile": false,
+      "doesMatchSyntactically": false,
+      "expressionComponents": [
+        {
+          "label": "Object",
+          "type": "SIGNATURE"
+        }
+      ]
+    },
+    {
+      "suggestion": "State",
+      "rank": 6,
+      "doesMatchExactly": true,
+      "startsWithSuggestion": true,
+      "doesCompile": false,
+      "doesMatchSyntactically": true,
+      "expressionComponents": [
+        {
+          "label": "State",
+          "type": "SIGNATURE"
+        }
+      ]
+    },
+    {
+      "suggestion": "Commit",
+      "rank": 7,
+      "doesMatchExactly": false,
+      "startsWithSuggestion": false,
+      "doesCompile": false,
+      "doesMatchSyntactically": false,
+      "expressionComponents": [
+        {
+          "label": "Commit",
+          "type": "SIGNATURE"
+        }
+      ]
+    },
+    {
+      "suggestion": "Name",
+      "rank": 8,
+      "doesMatchExactly": false,
+      "startsWithSuggestion": false,
+      "doesCompile": false,
+      "doesMatchSyntactically": false,
+      "expressionComponents": [
+        {
+          "label": "Name",
+          "type": "SIGNATURE"
+        }
+      ]
+    },
+    {
+      "suggestion": "File",
+      "rank": 9,
+      "doesMatchExactly": false,
+      "startsWithSuggestion": false,
+      "doesCompile": false,
+      "doesMatchSyntactically": false,
+      "expressionComponents": [
+        {
+          "label": "File",
+          "type": "SIGNATURE"
+        }
+      ]
+    },
+    {
+      "suggestion": "Root",
+      "rank": 10,
+      "doesMatchExactly": false,
+      "startsWithSuggestion": false,
+      "doesCompile": false,
+      "doesMatchSyntactically": false,
+      "expressionComponents": [
+        {
+          "label": "Root",
+          "type": "SIGNATURE"
+        }
+      ]
+    }
+  ],
+  "completionGenerated": true,
+  "suggestionExists": true,
+  "suggestionInTop1": false,
+  "suggestionInTop5": false,
+  "suggestionInTop10": true,
+  "suggestionInTop1Alpha": false,
+  "suggestionInTop5Alpha": false,
+  "suggestionInTop10Alpha": true,
+  "suggestionInTop1Len": false,
+  "suggestionInTop5Len": false,
+  "suggestionInTop10Len": true,
+  "expectedCompletionWord": "State",
+  "expectedCompletionLine": "State // auxiliary relation",
+  "elapsedTimeInMs": 11035.040917
+}

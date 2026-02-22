@@ -6,6 +6,9 @@ Vscode Position: line=71 character=20
 ----------------------------------
 72 | 	always pos.~pos in 
 ----------------------------------
+Expected Completion word: iden
+Expected Completion line: iden
+Suggestion exists: false
 Completion List:
 # Suggestion 	 Exact 	 Syntactic 	 Semantic
 $1. Train -> Train 	 false 	 false 	 false
@@ -18,20 +21,8 @@ $7. pos.*prox.~pos 	 false 	 false 	 false
 $8. pos.^prox.~pos 	 false 	 false 	 false
 $9. pos.prox.~pos 	 false 	 false 	 false
 $10. pos.~prox.~pos 	 false 	 false 	 false
-Expected Completion word: iden
-Expected Completion line: iden
-Suggestion exists: false
 
-Suggestion in top 1 = false 
-Suggestion in top 5 = false 
-Suggestion in top 10 = false 
-
-Suggestion in top 1 (Alpha) = false
-Suggestion in top 5 (Alpha) = false
-Suggestion in top 10 (Alpha) = false
-
-Suggestion in top 1 (Len) = false
-Suggestion in top 5 (Len) = false
-Suggestion in top 10 (Len) = false
-
-Time taken: 30.771667
+Time taken: 65.993125
+Preprocessing time: 5
+Parsing time: 3
+Generation time: 33

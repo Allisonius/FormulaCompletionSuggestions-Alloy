@@ -1,0 +1,46 @@
+Model name: courses-v2
+Filename: completion/courses-v2-complete.als
+Offset: 2465
+Term: .
+Vscode Position: line=92 character=69
+----------------------------------
+93 | 	all c : Course , p : c.projects , disj x , y : (Person <: projects).
+----------------------------------
+Expected Completion word: p
+Expected Completion line: p | some c.grades[x] and some c.grades[y] implies c.grades[x] in c.grades[y].(prev + iden + next)
+Suggestion exists: false
+Completion List:
+# Suggestion 	 Exact 	 Syntactic 	 Semantic
+$1. x.projects 	 false 	 undefined 	 undefined
+$2. x.teaches 	 false 	 undefined 	 undefined
+$3. x.enrolled 	 false 	 undefined 	 undefined
+$4. x.teaches.projects 	 false 	 undefined 	 undefined
+$5. x.enrolled.projects 	 false 	 undefined 	 undefined
+$6. x.teaches.grades 	 false 	 undefined 	 undefined
+$7. x.enrolled.grades 	 false 	 undefined 	 undefined
+$8. x.projects.grades 	 false 	 undefined 	 undefined
+$9. x.projects 	 false 	 undefined 	 undefined
+$10. x.projects + y.projects 	 false 	 undefined 	 undefined
+$11. x.projects & y.projects 	 false 	 undefined 	 undefined
+$12. x.projects - y.projects 	 false 	 undefined 	 undefined
+$13. x.projects + univ 	 false 	 undefined 	 undefined
+$14. x.projects & univ 	 false 	 undefined 	 undefined
+$15. x.projects - univ 	 false 	 undefined 	 undefined
+$16. ~projects 	 false 	 undefined 	 undefined
+$17. ~projects.x 	 false 	 undefined 	 undefined
+$18. ~projects.y 	 false 	 undefined 	 undefined
+$19. x.projects.~projects 	 false 	 undefined 	 undefined
+$20. x.projects.^projects 	 false 	 undefined 	 undefined
+$21. x.projects.*projects 	 false 	 undefined 	 undefined
+$22. x.projects.~grades 	 false 	 undefined 	 undefined
+$23. x.projects.grades 	 false 	 undefined 	 undefined
+$24. x.projects.grades.Grade 	 false 	 undefined 	 undefined
+$25. x.projects.grades.Person 	 false 	 undefined 	 undefined
+$26. x.projects.grades + univ 	 false 	 undefined 	 undefined
+$27. x.projects.grades & univ 	 false 	 undefined 	 undefined
+$28. x.projects.grades - univ 	 false 	 undefined 	 undefined
+
+Time taken: 7218.770375
+Preprocessing time: N/A
+Parsing time: N/A
+Generation time: N/A

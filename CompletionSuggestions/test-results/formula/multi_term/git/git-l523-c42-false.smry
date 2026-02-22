@@ -1,0 +1,19 @@
+Model name: git
+Filename: completion/git-complete.als
+Offset: 11551
+Term:  + 
+Vscode Position: line=522 character=42
+----------------------------------
+523 | 	current.sp = current.s - (leaves[s, n] + 
+----------------------------------
+Expected Completion word: undefined
+Expected Completion line: n)
+Suggestion exists: false
+Completion List:
+# Suggestion 	 Exact 	 Syntactic 	 Semantic
+
+
+Time taken: 501.541833
+Preprocessing time: 26
+Parsing time: 13
+Generation time: 420

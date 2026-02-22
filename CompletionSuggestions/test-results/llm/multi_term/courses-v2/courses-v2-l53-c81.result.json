@@ -1,0 +1,345 @@
+{
+  "modelName": "courses-v2",
+  "filename": "completion/courses-v2-complete.als",
+  "offset": 1125,
+  "term": " in ",
+  "line": 53,
+  "character": 81,
+  "incompletionLine": "all p : Person , c : Course , ps1 , ps2 : Project | ps1 in p.projects && ps2 in",
+  "completionList": "p.projects, c.projects, Person.projects, Course.projects, p.projects + c.projects, p.projects & c.projects, p.projects - c.projects, Person.projects + Course.projects, p.projects + Person.projects, c.projects + Course.projects, univ",
+  "evaluationResult": [
+    {
+      "suggestion": "p.projects",
+      "rank": 1,
+      "doesMatchExactly": true,
+      "startsWithSuggestion": true,
+      "doesCompile": false,
+      "expressionComponents": [
+        {
+          "label": "p",
+          "type": "VARIABLE"
+        },
+        {
+          "label": ".",
+          "type": "OPERATOR"
+        },
+        {
+          "label": "projects",
+          "type": "RELATION"
+        }
+      ]
+    },
+    {
+      "suggestion": "c.projects",
+      "rank": 2,
+      "doesMatchExactly": false,
+      "startsWithSuggestion": false,
+      "doesCompile": false,
+      "expressionComponents": [
+        {
+          "label": "c",
+          "type": "VARIABLE"
+        },
+        {
+          "label": ".",
+          "type": "OPERATOR"
+        },
+        {
+          "label": "projects",
+          "type": "RELATION"
+        }
+      ]
+    },
+    {
+      "suggestion": "Person.projects",
+      "rank": 3,
+      "doesMatchExactly": false,
+      "startsWithSuggestion": false,
+      "doesCompile": false,
+      "expressionComponents": [
+        {
+          "label": "Person",
+          "type": "SIGNATURE"
+        },
+        {
+          "label": ".",
+          "type": "OPERATOR"
+        },
+        {
+          "label": "projects",
+          "type": "RELATION"
+        }
+      ]
+    },
+    {
+      "suggestion": "Course.projects",
+      "rank": 4,
+      "doesMatchExactly": false,
+      "startsWithSuggestion": false,
+      "doesCompile": false,
+      "expressionComponents": [
+        {
+          "label": "Course",
+          "type": "SIGNATURE"
+        },
+        {
+          "label": ".",
+          "type": "OPERATOR"
+        },
+        {
+          "label": "projects",
+          "type": "RELATION"
+        }
+      ]
+    },
+    {
+      "suggestion": "p.projects + c.projects",
+      "rank": 5,
+      "doesMatchExactly": false,
+      "startsWithSuggestion": false,
+      "doesCompile": false,
+      "expressionComponents": [
+        {
+          "label": "p",
+          "type": "VARIABLE"
+        },
+        {
+          "label": ".",
+          "type": "OPERATOR"
+        },
+        {
+          "label": "projects",
+          "type": "RELATION"
+        },
+        {
+          "label": "+",
+          "type": "OPERATOR"
+        },
+        {
+          "label": "c",
+          "type": "VARIABLE"
+        },
+        {
+          "label": ".",
+          "type": "OPERATOR"
+        },
+        {
+          "label": "projects",
+          "type": "RELATION"
+        }
+      ]
+    },
+    {
+      "suggestion": "p.projects & c.projects",
+      "rank": 6,
+      "doesMatchExactly": false,
+      "startsWithSuggestion": false,
+      "doesCompile": false,
+      "expressionComponents": [
+        {
+          "label": "p",
+          "type": "VARIABLE"
+        },
+        {
+          "label": ".",
+          "type": "OPERATOR"
+        },
+        {
+          "label": "projects",
+          "type": "RELATION"
+        },
+        {
+          "label": "&",
+          "type": "OPERATOR"
+        },
+        {
+          "label": "c",
+          "type": "VARIABLE"
+        },
+        {
+          "label": ".",
+          "type": "OPERATOR"
+        },
+        {
+          "label": "projects",
+          "type": "RELATION"
+        }
+      ]
+    },
+    {
+      "suggestion": "p.projects - c.projects",
+      "rank": 7,
+      "doesMatchExactly": false,
+      "startsWithSuggestion": false,
+      "doesCompile": false,
+      "expressionComponents": [
+        {
+          "label": "p",
+          "type": "VARIABLE"
+        },
+        {
+          "label": ".",
+          "type": "OPERATOR"
+        },
+        {
+          "label": "projects",
+          "type": "RELATION"
+        },
+        {
+          "label": "-",
+          "type": "OPERATOR"
+        },
+        {
+          "label": "c",
+          "type": "VARIABLE"
+        },
+        {
+          "label": ".",
+          "type": "OPERATOR"
+        },
+        {
+          "label": "projects",
+          "type": "RELATION"
+        }
+      ]
+    },
+    {
+      "suggestion": "Person.projects + Course.projects",
+      "rank": 8,
+      "doesMatchExactly": false,
+      "startsWithSuggestion": false,
+      "doesCompile": false,
+      "expressionComponents": [
+        {
+          "label": "Person",
+          "type": "SIGNATURE"
+        },
+        {
+          "label": ".",
+          "type": "OPERATOR"
+        },
+        {
+          "label": "projects",
+          "type": "RELATION"
+        },
+        {
+          "label": "+",
+          "type": "OPERATOR"
+        },
+        {
+          "label": "Course",
+          "type": "SIGNATURE"
+        },
+        {
+          "label": ".",
+          "type": "OPERATOR"
+        },
+        {
+          "label": "projects",
+          "type": "RELATION"
+        }
+      ]
+    },
+    {
+      "suggestion": "p.projects + Person.projects",
+      "rank": 9,
+      "doesMatchExactly": false,
+      "startsWithSuggestion": false,
+      "doesCompile": false,
+      "expressionComponents": [
+        {
+          "label": "p",
+          "type": "VARIABLE"
+        },
+        {
+          "label": ".",
+          "type": "OPERATOR"
+        },
+        {
+          "label": "projects",
+          "type": "RELATION"
+        },
+        {
+          "label": "+",
+          "type": "OPERATOR"
+        },
+        {
+          "label": "Person",
+          "type": "SIGNATURE"
+        },
+        {
+          "label": ".",
+          "type": "OPERATOR"
+        },
+        {
+          "label": "projects",
+          "type": "RELATION"
+        }
+      ]
+    },
+    {
+      "suggestion": "c.projects + Course.projects",
+      "rank": 10,
+      "doesMatchExactly": false,
+      "startsWithSuggestion": false,
+      "doesCompile": false,
+      "expressionComponents": [
+        {
+          "label": "c",
+          "type": "VARIABLE"
+        },
+        {
+          "label": ".",
+          "type": "OPERATOR"
+        },
+        {
+          "label": "projects",
+          "type": "RELATION"
+        },
+        {
+          "label": "+",
+          "type": "OPERATOR"
+        },
+        {
+          "label": "Course",
+          "type": "SIGNATURE"
+        },
+        {
+          "label": ".",
+          "type": "OPERATOR"
+        },
+        {
+          "label": "projects",
+          "type": "RELATION"
+        }
+      ]
+    },
+    {
+      "suggestion": "univ",
+      "rank": 11,
+      "doesMatchExactly": false,
+      "startsWithSuggestion": false,
+      "doesCompile": false,
+      "expressionComponents": [
+        {
+          "label": "univ",
+          "type": "CONSTANT"
+        }
+      ]
+    }
+  ],
+  "completionGenerated": true,
+  "suggestionExists": true,
+  "suggestionInTop1": true,
+  "suggestionInTop5": true,
+  "suggestionInTop10": true,
+  "suggestionInTop1Alpha": false,
+  "suggestionInTop5Alpha": true,
+  "suggestionInTop10Alpha": true,
+  "suggestionInTop1Len": false,
+  "suggestionInTop5Len": true,
+  "suggestionInTop10Len": true,
+  "expectedCompletionWord": "p.projects",
+  "expectedCompletionLine": "p.projects && ps1 in c.projects && ps2 in c.projects implies ps1 = ps2",
+  "elapsedTimeInMs": 23292.489125
+}

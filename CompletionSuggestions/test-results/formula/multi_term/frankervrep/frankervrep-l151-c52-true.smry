@@ -1,0 +1,30 @@
+Model name: frankervrep
+Filename: completion/frankenvrep-complete.als
+Offset: 3528
+Term: .
+Vscode Position: line=150 character=52
+----------------------------------
+151 | 	all c: Coordinate | all g : GeomagicTouch | c in g.
+----------------------------------
+Expected Completion word: input
+Expected Completion line: input
+Suggestion exists: true
+Completion List:
+# Suggestion 	 Exact 	 Syntactic 	 Semantic
+$1. input.c 	 false 	 undefined 	 undefined
+$2. force.HapticFeedback 	 false 	 undefined 	 undefined
+$3. force.HapticsDisabled 	 false 	 undefined 	 undefined
+$4. force.HapticsEnabled 	 false 	 undefined 	 undefined
+$5. input.Coordinate 	 false 	 undefined 	 undefined
+$6. input.xyz_input 	 false 	 undefined 	 undefined
+$7. force 	 false 	 undefined 	 undefined
+$8. force.univ 	 false 	 undefined 	 undefined
+$9. input 	 true 	 undefined 	 undefined
+$10. input 	 true 	 undefined 	 undefined
+$11. input.univ 	 false 	 undefined 	 undefined
+$12.  	 false 	 undefined 	 undefined
+
+Time taken: 59.668916
+Preprocessing time: 6
+Parsing time: 3
+Generation time: 0

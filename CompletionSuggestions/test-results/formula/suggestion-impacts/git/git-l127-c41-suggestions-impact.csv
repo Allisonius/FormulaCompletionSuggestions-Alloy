@@ -1,0 +1,23 @@
+modelname,filename,position-line,position-character,incompleteline,removedtext,baseline,suggestionedExpression,A_iff_B,A_and_B,not_A_and_B,A_and_not_B,not_A_and_not_B,suggestionImpactTime
+git,completion/git-complete.als,127,41,"no disj t1, t2 : Tree | t1.content = t2.","content","{}","\tno disj t1, t2 : Tree | t1.content = t2.content.Blob",true,true,false,true,false,185.925958
+git,completion/git-complete.als,127,41,"no disj t1, t2 : Tree | t1.content = t2.","content","{}","\tno disj t1, t2 : Tree | t1.content = t2.stored.State",,,,,,185.925958
+git,completion/git-complete.als,127,41,"no disj t1, t2 : Tree | t1.content = t2.","content","{}","\tno disj t1, t2 : Tree | t1.content = t2.~tree.Commit",,,,,,185.925958
+git,completion/git-complete.als,127,41,"no disj t1, t2 : Tree | t1.content = t2.","content","{}","\tno disj t1, t2 : Tree | t1.content = t2.content",true,true,false,true,false,185.925958
+git,completion/git-complete.als,127,41,"no disj t1, t2 : Tree | t1.content = t2.","content","{}","\tno disj t1, t2 : Tree | t1.content = t2.content.*conflict",true,true,false,true,false,185.925958
+git,completion/git-complete.als,127,41,"no disj t1, t2 : Tree | t1.content = t2.","content","{}","\tno disj t1, t2 : Tree | t1.content = t2.content.^conflict",true,true,false,true,false,185.925958
+git,completion/git-complete.als,127,41,"no disj t1, t2 : Tree | t1.content = t2.","content","{}","\tno disj t1, t2 : Tree | t1.content = t2.content.conflict",true,true,false,true,false,185.925958
+git,completion/git-complete.als,127,41,"no disj t1, t2 : Tree | t1.content = t2.","content","{}","\tno disj t1, t2 : Tree | t1.content = t2.content.merging",true,true,false,true,false,185.925958
+git,completion/git-complete.als,127,41,"no disj t1, t2 : Tree | t1.content = t2.","content","{}","\tno disj t1, t2 : Tree | t1.content = t2.content.univ",true,true,false,true,false,185.925958
+git,completion/git-complete.als,127,41,"no disj t1, t2 : Tree | t1.content = t2.","content","{}","\tno disj t1, t2 : Tree | t1.content = t2.content.~conflict",true,true,false,true,false,185.925958
+git,completion/git-complete.als,127,41,"no disj t1, t2 : Tree | t1.content = t2.","content","{}","\tno disj t1, t2 : Tree | t1.content = t2.stored",true,true,false,true,false,185.925958
+git,completion/git-complete.als,127,41,"no disj t1, t2 : Tree | t1.content = t2.","content","{}","\tno disj t1, t2 : Tree | t1.content = t2.stored.univ",,,,,,185.925958
+git,completion/git-complete.als,127,41,"no disj t1, t2 : Tree | t1.content = t2.","content","{}","\tno disj t1, t2 : Tree | t1.content = t2.stored.~HEAD",true,true,false,true,false,185.925958
+git,completion/git-complete.als,127,41,"no disj t1, t2 : Tree | t1.content = t2.","content","{}","\tno disj t1, t2 : Tree | t1.content = t2.stored.~current",true,true,false,true,false,185.925958
+git,completion/git-complete.als,127,41,"no disj t1, t2 : Tree | t1.content = t2.","content","{}","\tno disj t1, t2 : Tree | t1.content = t2.stored.~heads",true,true,false,true,false,185.925958
+git,completion/git-complete.als,127,41,"no disj t1, t2 : Tree | t1.content = t2.","content","{}","\tno disj t1, t2 : Tree | t1.content = t2.stored.~index",true,true,false,true,false,185.925958
+git,completion/git-complete.als,127,41,"no disj t1, t2 : Tree | t1.content = t2.","content","{}","\tno disj t1, t2 : Tree | t1.content = t2.~tree.previous",true,true,false,true,false,185.925958
+git,completion/git-complete.als,127,41,"no disj t1, t2 : Tree | t1.content = t2.","content","{}","\tno disj t1, t2 : Tree | t1.content = t2.~tree",true,true,false,true,false,185.925958
+git,completion/git-complete.als,127,41,"no disj t1, t2 : Tree | t1.content = t2.","content","{}","\tno disj t1, t2 : Tree | t1.content = t2.~tree.*previous",true,true,false,true,false,185.925958
+git,completion/git-complete.als,127,41,"no disj t1, t2 : Tree | t1.content = t2.","content","{}","\tno disj t1, t2 : Tree | t1.content = t2.~tree.^previous",true,true,false,true,false,185.925958
+git,completion/git-complete.als,127,41,"no disj t1, t2 : Tree | t1.content = t2.","content","{}","\tno disj t1, t2 : Tree | t1.content = t2.~tree.univ",,,,,,185.925958
+git,completion/git-complete.als,127,41,"no disj t1, t2 : Tree | t1.content = t2.","content","{}","\tno disj t1, t2 : Tree | t1.content = t2.~tree.~previous",true,true,false,true,false,185.925958

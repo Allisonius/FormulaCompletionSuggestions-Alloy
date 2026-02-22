@@ -1,0 +1,43 @@
+Model name: cv
+Filename: completion/cv-complete.als
+Offset: 923
+Term: .
+Vscode Position: line=35 character=74
+----------------------------------
+36 | 	all u : User, disj x,y : u.visible | x not in y.^((u.profile <: ids).~(u.
+----------------------------------
+Expected Completion word: profile
+Expected Completion line: profile <: ids))
+Suggestion exists: true
+Completion List:
+# Suggestion 	 Exact 	 Syntactic 	 Semantic
+$1. profile.x 	 false 	 undefined 	 undefined
+$2. profile.y 	 false 	 undefined 	 undefined
+$3. visible.x 	 false 	 undefined 	 undefined
+$4. visible.y 	 false 	 undefined 	 undefined
+$5. ~source.x 	 false 	 undefined 	 undefined
+$6. ~source.y 	 false 	 undefined 	 undefined
+$7. profile.Work 	 false 	 undefined 	 undefined
+$8. visible.Work 	 false 	 undefined 	 undefined
+$9. ~source.Work 	 false 	 undefined 	 undefined
+$10. profile 	 true 	 undefined 	 undefined
+$11. profile.ids 	 false 	 undefined 	 undefined
+$12. profile.source 	 false 	 undefined 	 undefined
+$13. profile.univ 	 false 	 undefined 	 undefined
+$14. profile.~visible 	 false 	 undefined 	 undefined
+$15. visible 	 false 	 undefined 	 undefined
+$16. visible.ids 	 false 	 undefined 	 undefined
+$17. visible.source 	 false 	 undefined 	 undefined
+$18. visible.univ 	 false 	 undefined 	 undefined
+$19. visible.~profile 	 false 	 undefined 	 undefined
+$20. ~source.ids 	 false 	 undefined 	 undefined
+$21. ~source 	 false 	 undefined 	 undefined
+$22. ~source.univ 	 false 	 undefined 	 undefined
+$23. ~source.~profile 	 false 	 undefined 	 undefined
+$24. ~source.~visible 	 false 	 undefined 	 undefined
+$25.  	 false 	 undefined 	 undefined
+
+Time taken: 10.908
+Preprocessing time: 3
+Parsing time: 1
+Generation time: 1

@@ -1,0 +1,29 @@
+Model name: modelo-alloy-fixables
+Filename: completion/ModeloAlloy-complete-fixables.als
+Offset: 4344
+Term: .
+Vscode Position: line=186 character=14
+----------------------------------
+187 |   f1.DayValue.
+----------------------------------
+Expected Completion word: minus
+Expected Completion line: minus[f2.DayValue]
+Suggestion exists: false
+Completion List:
+# Suggestion 	 Exact 	 Syntactic 	 Semantic
+$1. ~DayValue.f1 	 false 	 undefined 	 undefined
+$2. ~DayValue.f2 	 false 	 undefined 	 undefined
+$3. ~DayValue.Date 	 false 	 undefined 	 undefined
+$4. ~DayValue.currentDate 	 false 	 undefined 	 undefined
+$5. ~DayValue 	 false 	 undefined 	 undefined
+$6. ~DayValue 	 false 	 undefined 	 undefined
+$7. ~DayValue.univ 	 false 	 undefined 	 undefined
+$8. ~DayValue.univ 	 false 	 undefined 	 undefined
+$9. ~DayValue.~eventDate 	 false 	 undefined 	 undefined
+$10. ~DayValue.~publishedDate 	 false 	 undefined 	 undefined
+$11.  	 false 	 undefined 	 undefined
+
+Time taken: 39.939333
+Preprocessing time: 4
+Parsing time: 2
+Generation time: 1

@@ -1,0 +1,29 @@
+Model name: courses-v2
+Filename: completion/courses-v2-complete.als
+Offset: 1721
+Term: .
+Vscode Position: line=72 character=45
+----------------------------------
+73 | 	all c : Course | c.grades.Grade in enrolled.
+----------------------------------
+Expected Completion word: c
+Expected Completion line: c
+Suggestion exists: false
+Completion List:
+# Suggestion 	 Exact 	 Syntactic 	 Semantic
+$1. enrolled 	 false 	 false 	 false
+$2. enrolled.projects 	 false 	 false 	 false
+$3. enrolled.projects.^projects 	 false 	 undefined 	 undefined
+$4. enrolled.projects.*projects 	 false 	 undefined 	 undefined
+$5. enrolled.projects + univ 	 false 	 undefined 	 undefined
+$6. enrolled.projects & univ 	 false 	 undefined 	 undefined
+$7. enrolled.projects - univ 	 false 	 undefined 	 undefined
+$8. enrolled.projects.~projects 	 false 	 undefined 	 undefined
+$9. enrolled.projects.projects 	 false 	 false 	 false
+$10. enrolled.projects.projects.^projects 	 false 	 undefined 	 undefined
+$11. enrolled.projects.projects.*projects 	 false 	 undefined 	 undefined
+
+Time taken: 4753.35025
+Preprocessing time: N/A
+Parsing time: N/A
+Generation time: N/A

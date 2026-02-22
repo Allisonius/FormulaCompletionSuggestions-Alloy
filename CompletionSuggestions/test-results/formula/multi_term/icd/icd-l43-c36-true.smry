@@ -1,0 +1,51 @@
+Model name: icd
+Filename: completion/icd-complete.als
+Offset: 1046
+Term: .
+Vscode Position: line=42 character=36
+----------------------------------
+43 |   Cardiologist in s.authorised_card.
+----------------------------------
+Expected Completion word: roles
+Expected Completion line: roles and
+Suggestion exists: true
+Completion List:
+# Suggestion 	 Exact 	 Syntactic 	 Semantic
+$1. ~authorised_card.s 	 false 	 undefined 	 undefined
+$2. roles.Cardiologist 	 false 	 undefined 	 undefined
+$3. roles.Patient 	 false 	 undefined 	 undefined
+$4. roles.Role 	 false 	 undefined 	 undefined
+$5. ~authorised_card.State 	 false 	 undefined 	 undefined
+$6. ~source.ChangeSettingsMessage 	 false 	 undefined 	 undefined
+$7. ~source.Message 	 false 	 undefined 	 undefined
+$8. ~source.ModeOnMessage 	 false 	 undefined 	 undefined
+$9. ~who.Action 	 false 	 undefined 	 undefined
+$10. ~who.AttackerAction 	 false 	 undefined 	 undefined
+$11. ~who.DummyInitialAction 	 false 	 undefined 	 undefined
+$12. ~who.RecvChangeSettings 	 false 	 undefined 	 undefined
+$13. ~who.RecvModeOn 	 false 	 undefined 	 undefined
+$14. ~who.SendChangeSettings 	 false 	 undefined 	 undefined
+$15. ~who.SendModeOn 	 false 	 undefined 	 undefined
+$16. roles 	 true 	 undefined 	 undefined
+$17. roles 	 true 	 undefined 	 undefined
+$18. roles.univ 	 false 	 undefined 	 undefined
+$19. ~authorised_card.icd_mode 	 false 	 undefined 	 undefined
+$20. ~authorised_card.impulse_mode 	 false 	 undefined 	 undefined
+$21. ~authorised_card.joules_to_deliver 	 false 	 undefined 	 undefined
+$22. ~authorised_card.last_action 	 false 	 undefined 	 undefined
+$23. ~authorised_card.network 	 false 	 undefined 	 undefined
+$24. ~source.joules_to_deliver 	 false 	 undefined 	 undefined
+$25. ~authorised_card 	 false 	 undefined 	 undefined
+$26. ~authorised_card.univ 	 false 	 undefined 	 undefined
+$27. ~source 	 false 	 undefined 	 undefined
+$28. ~source.univ 	 false 	 undefined 	 undefined
+$29. ~source.~network 	 false 	 undefined 	 undefined
+$30. ~who 	 false 	 undefined 	 undefined
+$31. ~who.univ 	 false 	 undefined 	 undefined
+$32. ~who.~last_action 	 false 	 undefined 	 undefined
+$33.  	 false 	 undefined 	 undefined
+
+Time taken: 34.102125
+Preprocessing time: 10
+Parsing time: 5
+Generation time: 1

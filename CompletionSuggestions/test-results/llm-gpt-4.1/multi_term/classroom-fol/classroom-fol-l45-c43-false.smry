@@ -1,0 +1,55 @@
+Model name: classroom-fol
+Filename: completion/classroom-fol-complete.als
+Offset: 612
+Term:  in 
+Vscode Position: line=44 character=43
+----------------------------------
+45 | 	all t: Teacher, c1,c2: Class | t -> c1 in 
+----------------------------------
+Expected Completion word: Teaches
+Expected Completion line: Teaches and t -> c2 in Teaches => c1 = c2
+Suggestion exists: false
+Completion List:
+# Suggestion 	 Exact 	 Syntactic 	 Semantic
+$1. t.Teaches 	 false 	 undefined 	 undefined
+$2. t.Teaches.Groups 	 false 	 undefined 	 undefined
+$3. t.Teaches.Groups.t 	 false 	 undefined 	 undefined
+$4. t.Teaches.Groups.c1 	 false 	 undefined 	 undefined
+$5. t.Teaches.Groups.c2 	 false 	 undefined 	 undefined
+$6. t.Teaches.Groups.Person 	 false 	 undefined 	 undefined
+$7. t.Teaches.Groups.Group 	 false 	 undefined 	 undefined
+$8. t.Teaches.Groups.univ 	 false 	 undefined 	 undefined
+$9. t.Teaches.Groups.~Groups 	 false 	 undefined 	 undefined
+$10. t.Teaches.Groups.~Groups.t 	 false 	 undefined 	 undefined
+$11. t.Teaches.Groups.~Groups.c1 	 false 	 undefined 	 undefined
+$12. t.Teaches.Groups.~Groups.c2 	 false 	 undefined 	 undefined
+$13. t.Teaches.Groups.~Groups.Person 	 false 	 undefined 	 undefined
+$14. t.Teaches.Groups.~Groups.Group 	 false 	 undefined 	 undefined
+$15. t.Teaches.Groups.~Groups.univ 	 false 	 undefined 	 undefined
+$16. t.Teaches.Groups^ 	 false 	 undefined 	 undefined
+$17. t.Teaches* 	 false 	 undefined 	 undefined
+$18. ~t.Teaches 	 false 	 undefined 	 undefined
+$19. ~t.Teaches.Groups 	 false 	 undefined 	 undefined
+$20. ~t.Teaches.Groups.t 	 false 	 undefined 	 undefined
+$21. ~t.Teaches.Groups.c1 	 false 	 undefined 	 undefined
+$22. ~t.Teaches.Groups.c2 	 false 	 undefined 	 undefined
+$23. ~t.Teaches.Groups.Person 	 false 	 undefined 	 undefined
+$24. ~t.Teaches.Groups.Group 	 false 	 undefined 	 undefined
+$25. ~t.Teaches.Groups.univ 	 false 	 undefined 	 undefined
+$26. ~t.Teaches.Groups.~Groups 	 false 	 undefined 	 undefined
+$27. ~t.Teaches.Groups.~Groups.t 	 false 	 undefined 	 undefined
+$28. ~t.Teaches.Groups.~Groups.c1 	 false 	 undefined 	 undefined
+$29. ~t.Teaches.Groups.~Groups.c2 	 false 	 undefined 	 undefined
+$30. ~t.Teaches.Groups.~Groups.Person 	 false 	 undefined 	 undefined
+$31. ~t.Teaches.Groups.~Groups.Group 	 false 	 undefined 	 undefined
+$32. ~t.Teaches.Groups.~Groups.univ 	 false 	 undefined 	 undefined
+$33. ~t.Teaches.Groups^ 	 false 	 undefined 	 undefined
+$34. ~t.Teaches* 	 false 	 undefined 	 undefined
+$35. c1 	 false 	 undefined 	 undefined
+$36. c2 	 false 	 undefined 	 undefined
+$37. univ 	 false 	 undefined 	 undefined
+
+Time taken: 8764.755333
+Preprocessing time: N/A
+Parsing time: N/A
+Generation time: N/A

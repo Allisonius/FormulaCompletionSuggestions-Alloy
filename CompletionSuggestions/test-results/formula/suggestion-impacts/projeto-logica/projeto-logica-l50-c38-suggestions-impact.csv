@@ -1,0 +1,27 @@
+modelname,filename,position-line,position-character,incompleteline,removedtext,baseline,suggestionedExpression,A_iff_B,A_and_B,not_A_and_B,A_and_not_B,not_A_and_not_B,suggestionImpactTime
+projeto-logica,completion/ProjetoLogica-sig.als,50,38,"sig Cadastrado, NaoCadastrado extends","StatusCadastro{}","{}","sig Cadastrado, NaoCadastrado extends ComInternet",,,,,,10.738542
+projeto-logica,completion/ProjetoLogica-sig.als,50,38,"sig Cadastrado, NaoCadastrado extends","StatusCadastro{}","{}","sig Cadastrado, NaoCadastrado extends DataDeNascimento",,,,,,10.738542
+projeto-logica,completion/ProjetoLogica-sig.als,50,38,"sig Cadastrado, NaoCadastrado extends","StatusCadastro{}","{}","sig Cadastrado, NaoCadastrado extends Email",,,,,,10.738542
+projeto-logica,completion/ProjetoLogica-sig.als,50,38,"sig Cadastrado, NaoCadastrado extends","StatusCadastro{}","{}","sig Cadastrado, NaoCadastrado extends Linux",,,,,,10.738542
+projeto-logica,completion/ProjetoLogica-sig.als,50,38,"sig Cadastrado, NaoCadastrado extends","StatusCadastro{}","{}","sig Cadastrado, NaoCadastrado extends Login",,,,,,10.738542
+projeto-logica,completion/ProjetoLogica-sig.als,50,38,"sig Cadastrado, NaoCadastrado extends","StatusCadastro{}","{}","sig Cadastrado, NaoCadastrado extends Medico",,,,,,10.738542
+projeto-logica,completion/ProjetoLogica-sig.als,50,38,"sig Cadastrado, NaoCadastrado extends","StatusCadastro{}","{}","sig Cadastrado, NaoCadastrado extends Nome",,,,,,10.738542
+projeto-logica,completion/ProjetoLogica-sig.als,50,38,"sig Cadastrado, NaoCadastrado extends","StatusCadastro{}","{}","sig Cadastrado, NaoCadastrado extends Paciente",,,,,,10.738542
+projeto-logica,completion/ProjetoLogica-sig.als,50,38,"sig Cadastrado, NaoCadastrado extends","StatusCadastro{}","{}","sig Cadastrado, NaoCadastrado extends SemInternet",,,,,,10.738542
+projeto-logica,completion/ProjetoLogica-sig.als,50,38,"sig Cadastrado, NaoCadastrado extends","StatusCadastro{}","{}","sig Cadastrado, NaoCadastrado extends Senha",,,,,,10.738542
+projeto-logica,completion/ProjetoLogica-sig.als,50,38,"sig Cadastrado, NaoCadastrado extends","StatusCadastro{}","{}","sig Cadastrado, NaoCadastrado extends Servidor",,,,,,10.738542
+projeto-logica,completion/ProjetoLogica-sig.als,50,38,"sig Cadastrado, NaoCadastrado extends","StatusCadastro{}","{}","sig Cadastrado, NaoCadastrado extends Sintoma",,,,,,10.738542
+projeto-logica,completion/ProjetoLogica-sig.als,50,38,"sig Cadastrado, NaoCadastrado extends","StatusCadastro{}","{}","sig Cadastrado, NaoCadastrado extends SistemaCliente",,,,,,10.738542
+projeto-logica,completion/ProjetoLogica-sig.als,50,38,"sig Cadastrado, NaoCadastrado extends","StatusCadastro{}","{}","sig Cadastrado, NaoCadastrado extends SistemaOperacional",,,,,,10.738542
+projeto-logica,completion/ProjetoLogica-sig.als,50,38,"sig Cadastrado, NaoCadastrado extends","StatusCadastro{}","{}","sig Cadastrado, NaoCadastrado extends StatusAcionado",,,,,,10.738542
+projeto-logica,completion/ProjetoLogica-sig.als,50,38,"sig Cadastrado, NaoCadastrado extends","StatusCadastro{}","{}","sig Cadastrado, NaoCadastrado extends StatusCadastro",,,,,,10.738542
+projeto-logica,completion/ProjetoLogica-sig.als,50,38,"sig Cadastrado, NaoCadastrado extends","StatusCadastro{}","{}","sig Cadastrado, NaoCadastrado extends StatusInternet",,,,,,10.738542
+projeto-logica,completion/ProjetoLogica-sig.als,50,38,"sig Cadastrado, NaoCadastrado extends","StatusCadastro{}","{}","sig Cadastrado, NaoCadastrado extends Suporte",,,,,,10.738542
+projeto-logica,completion/ProjetoLogica-sig.als,50,38,"sig Cadastrado, NaoCadastrado extends","StatusCadastro{}","{}","sig Cadastrado, NaoCadastrado extends SuporteAcionado",,,,,,10.738542
+projeto-logica,completion/ProjetoLogica-sig.als,50,38,"sig Cadastrado, NaoCadastrado extends","StatusCadastro{}","{}","sig Cadastrado, NaoCadastrado extends SuporteNaoAcionado",,,,,,10.738542
+projeto-logica,completion/ProjetoLogica-sig.als,50,38,"sig Cadastrado, NaoCadastrado extends","StatusCadastro{}","{}","sig Cadastrado, NaoCadastrado extends Time",,,,,,10.738542
+projeto-logica,completion/ProjetoLogica-sig.als,50,38,"sig Cadastrado, NaoCadastrado extends","StatusCadastro{}","{}","sig Cadastrado, NaoCadastrado extends ordering/Ord",,,,,,10.738542
+projeto-logica,completion/ProjetoLogica-sig.als,50,38,"sig Cadastrado, NaoCadastrado extends","StatusCadastro{}","{}","sig Cadastrado, NaoCadastrado extends Int",,,,,,10.738542
+projeto-logica,completion/ProjetoLogica-sig.als,50,38,"sig Cadastrado, NaoCadastrado extends","StatusCadastro{}","{}","sig Cadastrado, NaoCadastrado extends String",,,,,,10.738542
+projeto-logica,completion/ProjetoLogica-sig.als,50,38,"sig Cadastrado, NaoCadastrado extends","StatusCadastro{}","{}","sig Cadastrado, NaoCadastrado extends none",,,,,,10.738542
+projeto-logica,completion/ProjetoLogica-sig.als,50,38,"sig Cadastrado, NaoCadastrado extends","StatusCadastro{}","{}","sig Cadastrado, NaoCadastrado extends univ",,,,,,10.738542

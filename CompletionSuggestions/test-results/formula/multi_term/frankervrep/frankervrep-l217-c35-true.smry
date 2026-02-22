@@ -1,0 +1,28 @@
+Model name: frankervrep
+Filename: completion/frankenvrep-complete.als
+Offset: 5060
+Term: .
+Vscode Position: line=216 character=35
+----------------------------------
+217 | 	some notification : GeomagicTouch.
+----------------------------------
+Expected Completion word: force
+Expected Completion line: force | notification = HapticsEnabled
+Suggestion exists: true
+Completion List:
+# Suggestion 	 Exact 	 Syntactic 	 Semantic
+$1. force.HapticFeedback 	 false 	 undefined 	 undefined
+$2. force.HapticsDisabled 	 false 	 undefined 	 undefined
+$3. force.HapticsEnabled 	 false 	 undefined 	 undefined
+$4. input.Coordinate 	 false 	 undefined 	 undefined
+$5. input.xyz_input 	 false 	 undefined 	 undefined
+$6. force 	 true 	 undefined 	 undefined
+$7. force.univ 	 false 	 undefined 	 undefined
+$8. input 	 false 	 undefined 	 undefined
+$9. input.univ 	 false 	 undefined 	 undefined
+$10.  	 false 	 undefined 	 undefined
+
+Time taken: 42.431709
+Preprocessing time: 5
+Parsing time: 3
+Generation time: 0

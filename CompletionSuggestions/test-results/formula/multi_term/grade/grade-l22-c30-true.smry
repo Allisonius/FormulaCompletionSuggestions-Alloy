@@ -6,31 +6,27 @@ Vscode Position: line=21 character=30
 ----------------------------------
 22 | 	IsAssistantOrInstructor(s, a.
 ----------------------------------
-Completion List:
-# Suggestion 	 Exact 	 Syntactic 	 Semantic
-$1. assigned_to.Student 	 false 	 undefined 	 undefined
-$2. associated_with.Class 	 false 	 undefined 	 undefined
-$3. assigned_to 	 false 	 undefined 	 undefined
-$4. assigned_to.univ 	 false 	 undefined 	 undefined
-$5. assigned_to.~assistant_for 	 false 	 undefined 	 undefined
-$6. associated_with 	 true 	 undefined 	 undefined
-$7. associated_with.assistant_for 	 false 	 undefined 	 undefined
-$8. associated_with.instructor_of 	 false 	 undefined 	 undefined
-$9. associated_with.univ 	 false 	 undefined 	 undefined
 Expected Completion word: associated_with
 Expected Completion line: associated_with) && s !in a.assigned_to
 Suggestion exists: true
+Completion List:
+# Suggestion 	 Exact 	 Syntactic 	 Semantic
+$1. assigned_to.s 	 false 	 undefined 	 undefined
+$2. assigned_to.Person 	 false 	 undefined 	 undefined
+$3. assigned_to.Professor 	 false 	 undefined 	 undefined
+$4. assigned_to.Student 	 false 	 undefined 	 undefined
+$5. associated_with.Class 	 false 	 undefined 	 undefined
+$6. assigned_to 	 false 	 undefined 	 undefined
+$7. assigned_to.univ 	 false 	 undefined 	 undefined
+$8. assigned_to.~assistant_for 	 false 	 undefined 	 undefined
+$9. assigned_to.~instructor_of 	 false 	 undefined 	 undefined
+$10. associated_with 	 true 	 undefined 	 undefined
+$11. associated_with.assistant_for 	 false 	 undefined 	 undefined
+$12. associated_with.instructor_of 	 false 	 undefined 	 undefined
+$13. associated_with.univ 	 false 	 undefined 	 undefined
+$14.  	 false 	 undefined 	 undefined
 
-Suggestion in top 1 = false 
-Suggestion in top 5 = false 
-Suggestion in top 10 = true 
-
-Suggestion in top 1 (Alpha) = false
-Suggestion in top 5 (Alpha) = true
-Suggestion in top 10 (Alpha) = true
-
-Suggestion in top 1 (Len) = false
-Suggestion in top 5 (Len) = true
-Suggestion in top 10 (Len) = true
-
-Time taken: 6.133334
+Time taken: 8.5455
+Preprocessing time: 1
+Parsing time: 1
+Generation time: 1

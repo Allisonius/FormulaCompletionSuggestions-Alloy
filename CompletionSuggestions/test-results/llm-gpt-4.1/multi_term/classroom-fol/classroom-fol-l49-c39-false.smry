@@ -1,0 +1,51 @@
+Model name: classroom-fol
+Filename: completion/classroom-fol-complete.als
+Offset: 708
+Term: .
+Vscode Position: line=48 character=39
+----------------------------------
+49 | 	all c: Class | lone Teacher & Teaches.
+----------------------------------
+Expected Completion word: c
+Expected Completion line: c
+Suggestion exists: false
+Completion List:
+# Suggestion 	 Exact 	 Syntactic 	 Semantic
+$1. Teaches 	 false 	 false 	 false
+$2. Teaches.Groups 	 false 	 false 	 false
+$3. Teaches.Groups.Person 	 false 	 false 	 false
+$4. Teaches.Groups.Group 	 false 	 false 	 false
+$5. Teaches.Groups.Person.Tutors 	 false 	 false 	 false
+$6. Teaches.Groups.Person.Teaches 	 false 	 false 	 false
+$7. Teaches.Groups.Person.Tutors.Teaches 	 false 	 false 	 false
+$8. Teaches.Groups.Person.Tutors.Tutors 	 false 	 false 	 false
+$9. Teaches.Groups.Person.Tutors.Tutors.Teaches 	 false 	 false 	 false
+$10. Teaches.Groups.Person.Tutors.Tutors.Tutors 	 false 	 false 	 false
+$11. Teaches.Groups.Person.Tutors.Tutors.Tutors.Teaches 	 false 	 false 	 false
+$12. Teaches.Groups.Person.Tutors.Tutors.Tutors.Tutors 	 false 	 false 	 false
+$13. Teaches.Groups.Person.Tutors.Tutors.Tutors.Tutors.Teaches 	 false 	 false 	 false
+$14. Teaches.Groups.Person.Tutors.Tutors.Tutors.Tutors.Tutors 	 false 	 false 	 false
+$15. Teaches.Groups.Person.Tutors.Tutors.Tutors.Tutors.Tutors.Teaches 	 false 	 false 	 false
+$16. Teaches.Groups.Person.Tutors.Tutors.Tutors.Tutors.Tutors.Tutors 	 false 	 false 	 false
+$17. Teaches.Groups.Person.Tutors.Tutors.Tutors.Tutors.Tutors.Tutors.Teaches 	 false 	 false 	 false
+$18. Teaches.Groups.Person.Tutors.Tutors.Tutors.Tutors.Tutors.Tutors.Tutors 	 false 	 false 	 false
+$19. Teaches.Groups.Person.Tutors.Tutors.Tutors.Tutors.Tutors.Tutors.Tutors.Teaches 	 false 	 false 	 false
+$20. Teaches.Groups.Person.Tutors.Tutors.Tutors.Tutors.Tutors.Tutors.Tutors.Tutors 	 false 	 false 	 false
+$21. Teaches.Groups.Person.Tutors.Tutors.Tutors.Tutors.Tutors.Tutors.Tutors.Tutors.Teaches 	 false 	 false 	 false
+$22. ~Teaches 	 false 	 false 	 false
+$23. Teaches + univ 	 false 	 undefined 	 undefined
+$24. Teaches & univ 	 false 	 undefined 	 undefined
+$25. Teaches.Groups + univ 	 false 	 undefined 	 undefined
+$26. Teaches.Groups & univ 	 false 	 undefined 	 undefined
+$27. ~Teaches.Groups 	 false 	 false 	 false
+$28. Teaches.Groups.Person + univ 	 false 	 undefined 	 undefined
+$29. Teaches.Groups.Person & univ 	 false 	 undefined 	 undefined
+$30. ~Teaches.Groups.Person 	 false 	 false 	 false
+$31. Teaches.Groups.Group + univ 	 false 	 undefined 	 undefined
+$32. Teaches.Groups.Group & univ 	 false 	 undefined 	 undefined
+$33. ~Teaches.Groups.Group 	 false 	 false 	 false
+
+Time taken: 9146.771708
+Preprocessing time: N/A
+Parsing time: N/A
+Generation time: N/A

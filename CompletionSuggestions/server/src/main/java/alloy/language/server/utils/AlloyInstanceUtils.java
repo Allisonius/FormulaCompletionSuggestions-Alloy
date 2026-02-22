@@ -1,10 +1,13 @@
 package alloy.language.server.utils;
 
 import alloy.language.server.alloyParser;
+import alloy.language.server.document.AlloyDocumentModel;
 import alloy.language.server.params.EvaluateSuggestions;
+import alloy.language.server.params.ModelStats;
 import alloy.language.server.params.SuggestionImpact;
 import alloy.language.server.params.responses.AlloyInstanceGraph;
 import alloy.language.server.utils.data.ParsingErrorCursor;
+import alloy.language.server.visitors.FormulaCountVisitor;
 import alloy.language.server.visitors.helpers.AlloySyntaxErrorListener;
 import edu.mit.csail.sdg.alloy4.A4Reporter;
 import edu.mit.csail.sdg.alloy4.Err;
@@ -12,6 +15,7 @@ import edu.mit.csail.sdg.alloy4.ErrorWarning;
 import edu.mit.csail.sdg.alloy4.Pair;
 import edu.mit.csail.sdg.alloy4viz.VizGUI;
 import edu.mit.csail.sdg.ast.Command;
+import edu.mit.csail.sdg.ast.Expr;
 import edu.mit.csail.sdg.ast.Sig;
 import edu.mit.csail.sdg.parser.CompModule;
 import edu.mit.csail.sdg.parser.CompUtil;
@@ -304,6 +308,19 @@ public class AlloyInstanceUtils {
 		}
 	}
 
+	private static Boolean evalExpressionAsCommand(CompModule world, String expression, Expr factsConjunction) {
+		try {
+			var checkExpr = world.parseOneExpressionFromString(expression);
+			checkExpr = checkExpr.and(factsConjunction);
+			var command = new Command(false, -1, -1, -1, checkExpr);
+			var instance = AlloyInstanceUtils.buildInstanceFromCommand(world, command);
+			return instance.satisfiable();
+		} catch (Exception e) {
+			logger.error("Error parsing baseline expression {}", e.getMessage());
+			return null;
+		}
+	}
+
 	public static Boolean matchesSyntactically(CompModule world,
 	                                           String originalExpression,
 	                                           String suggestedExpression) {
@@ -317,43 +334,54 @@ public class AlloyInstanceUtils {
 		}
 	}
 
-	public static Boolean matchesFormula(CompModule model, String originalExpression, String suggestedExpression) {
+	public static Boolean matchesFormula(CompModule model, String originalExpression, String suggestedExpression, Expr factsConjunction) {
 		var comparisonCommand =
 				makeFormulaComparingCommandExpression(originalExpression, false, suggestedExpression, true, "<=>");
-		return evalExpressionAsCommand(model, comparisonCommand);
+		return evalExpressionAsCommand(model, comparisonCommand, factsConjunction);
 	}
 
 	public static EvaluateSuggestions.EvaluateSuggestionsResponse evaluateSuggestions(CompModule world,
 	                                                                                  String incompleteExpression,
 	                                                                                  List<String> suggestions,
 	                                                                                  String expectedTerm,
-																					  String remainingText,
-																					  String extractedExpectedTerm,
+	                                                                                  String remainingText,
+	                                                                                  String extractedExpectedTerm,
 	                                                                                  Map<String, alloyParser.ExprContext> quantifiers) {
-		List<EvaluateSuggestions.SuggestionEvaluation> evaluations = new ArrayList<>();
+		var signatures = extractSignatures(world);
+		var relations = extractRelations(world);
+		var variables = new HashSet<>(quantifiers.keySet());
 		String quantifierPrefix = AlloyExpressionParsingUtils.buildQuantifierPrefix(quantifiers);
-		for (int i = 0; i < suggestions.size(); i++) {
-			String suggestion = suggestions.get(i);
+		List<EvaluateSuggestions.SuggestionEvaluation> evaluations = java.util.stream.IntStream.range(0, suggestions.size())
+				.parallel()
+				.mapToObj(i -> {
+					String suggestion = suggestions.get(i);
 
-			// Matching metrics
-			boolean matchesExactly = extractedExpectedTerm.trim().equals(suggestion.trim());
-			var matchesSyntactically =
-					AlloyInstanceUtils.matchesSyntactically(world, quantifierPrefix + extractedExpectedTerm, quantifierPrefix + suggestion);
+					// Matching metrics
+					boolean matchesExactly = extractedExpectedTerm.trim().equals(suggestion.trim()) || expectedTerm.trim().equals(suggestion.trim());
 
-			var originalExpression = incompleteExpression + " " + extractedExpectedTerm;
-			var suggestedExpression = incompleteExpression + " " + suggestion;
-			var matchesSemantically = AlloyInstanceUtils.matchesFormula(world, originalExpression, suggestedExpression);
+					// Does the suggestion compile when added to the incomplete expression?
+					String expressionWithSuggestion = quantifierPrefix + incompleteExpression + " " + suggestion;
+					boolean doesSuggestionCompile = CodeUtils.buildAlloyExpression(world, expressionWithSuggestion) != null;
 
-			// Expression Components
-			var signatures = extractSignatures(world);
-			var relations = extractRelations(world);
-			var variables = quantifiers.keySet();
-			List<EvaluateSuggestions.ExpressionComponent> expressionComponents = AlloyExpressionParsingUtils.extractExpressionComponents(suggestion, signatures, relations, variables);
+					boolean startsWith = expectedTerm.startsWith(suggestion)
+							|| extractedExpectedTerm.startsWith(suggestion)
+							|| remainingText.startsWith(suggestion);
 
-			evaluations.add(new EvaluateSuggestions.SuggestionEvaluation(suggestion, i + 1, matchesExactly,
-					matchesSyntactically, matchesSemantically, expressionComponents));
-		}
-		return new EvaluateSuggestions.EvaluateSuggestionsResponse(evaluations);
+					var matchesSyntactically =
+							AlloyInstanceUtils.matchesSyntactically(world, quantifierPrefix + " some " + extractedExpectedTerm, quantifierPrefix + " some " + suggestion);
+
+//					var factsConjunction = world.getAllReachableFacts();
+//					var originalExpression = quantifierPrefix + incompleteExpression + " " + extractedExpectedTerm;
+//					var suggestedExpression = quantifierPrefix + incompleteExpression + " " + suggestion;
+//					var matchesSemantically = AlloyInstanceUtils.matchesFormula(world, originalExpression, suggestedExpression, factsConjunction);
+
+					List<EvaluateSuggestions.ExpressionComponent> expressionComponents = AlloyExpressionParsingUtils.extractExpressionComponents(suggestion, signatures, relations, variables);
+
+					return new EvaluateSuggestions.SuggestionEvaluation(suggestion, i + 1, matchesExactly, startsWith, doesSuggestionCompile,
+							matchesSyntactically, null, expressionComponents);
+				})
+				.collect(Collectors.toList());
+		return new EvaluateSuggestions.EvaluateSuggestionsResponse(evaluations, null, extractedExpectedTerm);
 	}
 
 	public static Set<String> extractSignatures(CompModule world) {
@@ -380,5 +408,33 @@ public class AlloyInstanceUtils {
 		} else {
 			return EvaluateSuggestions.ExpressionComponent.ComponentType.CONSTANT;
 		}
+	}
+
+	public static String modelSize(CompModule model) {
+		int sigCount = model.getAllSigs().size();
+		int relationCount = model.getAllSigs().makeConstList().stream().mapToInt(s -> s.getFields().size()).sum();
+		int factCount = model.getAllFacts().size();
+		int functionCount = model.getAllFunc().size();
+		int commandCount = model.getAllCommands().size();
+
+		return String.format("Model Size - Signatures: %d, Relations: %d, Facts: %d, Functions: %d, Commands: %d",
+				sigCount, relationCount, factCount, functionCount, commandCount);
+	}
+
+	public static ModelStats.ModelStatsResponse modelStats(AlloyDocumentModel documentModel) {
+		var model = documentModel.getModel();
+		int sigCount = model.getAllSigs().size();
+		int relationCount = model.getAllSigs().makeConstList().stream().mapToInt(s -> s.getFields().size()).sum();
+		int factCount = model.getAllFacts().size();
+		int functionCount = model.getAllFunc().makeConstList().stream().filter(func -> !func.isPred).toList().size();
+		int predicateCount = model.getAllFunc().makeConstList().stream().filter(func -> func.isPrivate == null && func.isPred).toList().size();
+		int assertionCount = model.getAllAssertions().size();
+		int commandCount = model.getAllCommands().size();
+
+		FormulaCountVisitor formulaCountVisitor = new FormulaCountVisitor(documentModel.getDocumentText());
+		var parseTree = CodeUtils.buildAlloyParser(documentModel.getDocumentText());
+		int formulaCount = formulaCountVisitor.visit(parseTree.alloyModule());
+
+		return new ModelStats.ModelStatsResponse(sigCount, relationCount, functionCount, factCount, predicateCount, assertionCount, commandCount, formulaCount);
 	}
 }

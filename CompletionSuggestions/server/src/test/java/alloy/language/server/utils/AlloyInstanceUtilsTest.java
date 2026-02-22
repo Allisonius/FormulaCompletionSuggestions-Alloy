@@ -2,6 +2,7 @@ package alloy.language.server.utils;
 
 import alloy.language.server.models.CompletionModelBuilder;
 import alloy.language.server.models.presets.*;
+import edu.mit.csail.sdg.ast.Expr;
 import org.junit.jupiter.api.Test;
 
 import java.io.IOException;
@@ -82,9 +83,11 @@ class AlloyInstanceUtilsTest {
 		CompletionModelBuilder modelBuilder = ArrayModel.modelBuilder();
 		String model = modelBuilder.build();
 		var world = AlloyInstanceUtils.buildAlloyModel(model);
+		Expr fact = world.getAllFacts().makeConstList().stream().map(f -> f.b).reduce(Expr::and).orElse(null);
 		var matches = AlloyInstanceUtils.matchesFormula(world,
 				"all idx: Array.i2e.Element | idx >= 0 && idx < Array.length",
-				"all idx: Array.i2e.Element | idx >= 0 && idx < Array.i2e.Element");
+				"all idx: Array.i2e.Element | idx >= 0 && idx < Array.i2e.Element",
+				fact);
 		System.out.println("Matches: " + matches);
 	}
 }

@@ -1,0 +1,26 @@
+Model name: array
+Filename: completion/array-complete.als
+Offset: 620
+Term: .
+Vscode Position: line=30 character=21
+----------------------------------
+31 |   all idx: Array.i2e.
+----------------------------------
+Expected Completion word: Element
+Expected Completion line: Element | lone Array.i2e[idx]
+Suggestion exists: false
+Completion List:
+# Suggestion 	 Exact 	 Syntactic 	 Semantic
+$1. idx 	 false 	 undefined 	 undefined
+$2. idx.Element 	 false 	 undefined 	 undefined
+$3. idx.~Array.i2e 	 false 	 undefined 	 undefined
+$4. idx.^Array.i2e 	 false 	 undefined 	 undefined
+$5. idx.*Array.i2e 	 false 	 undefined 	 undefined
+$6. ~idx 	 false 	 undefined 	 undefined
+$7. idx & univ 	 false 	 undefined 	 undefined
+$8. idx + univ 	 false 	 undefined 	 undefined
+
+Time taken: 9648.507833
+Preprocessing time: N/A
+Parsing time: N/A
+Generation time: N/A

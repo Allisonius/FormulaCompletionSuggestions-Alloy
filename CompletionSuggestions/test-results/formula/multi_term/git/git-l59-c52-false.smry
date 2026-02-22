@@ -1,0 +1,19 @@
+Model name: git
+Filename: completion/git-complete.als
+Offset: 1035
+Term:  in 
+Vscode Position: line=58 character=52
+----------------------------------
+59 | 	{t : Tree, o : Object | some n : Name | t->n->o in 
+----------------------------------
+Expected Completion word: undefined
+Expected Completion line: content}
+Suggestion exists: false
+Completion List:
+# Suggestion 	 Exact 	 Syntactic 	 Semantic
+
+
+Time taken: 79.122125
+Preprocessing time: N/A
+Parsing time: N/A
+Generation time: N/A

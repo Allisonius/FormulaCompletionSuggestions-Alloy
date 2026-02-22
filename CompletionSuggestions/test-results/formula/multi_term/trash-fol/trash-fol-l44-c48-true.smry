@@ -6,6 +6,9 @@ Vscode Position: line=43 character=48
 ----------------------------------
 44 | 	all f1, f2 : File | f1 -> f2 in link and f1 in 
 ----------------------------------
+Expected Completion word: Trash
+Expected Completion line: Trash => f2 in Trash
+Suggestion exists: true
 Completion List:
 # Suggestion 	 Exact 	 Syntactic 	 Semantic
 $1. *link.f1 	 false 	 undefined 	 undefined
@@ -29,152 +32,145 @@ $18. ^link.f2.^link 	 false 	 undefined 	 undefined
 $19. ^link.f2.link 	 false 	 undefined 	 undefined
 $20. ^link.f2.~link 	 false 	 undefined 	 undefined
 $21. f1 	 false 	 undefined 	 undefined
-$22. f1.*link 	 false 	 undefined 	 undefined
-$23. f1.^link 	 false 	 undefined 	 undefined
-$24. f1.link 	 false 	 undefined 	 undefined
-$25. f1.~link 	 false 	 undefined 	 undefined
-$26. f2 	 false 	 undefined 	 undefined
-$27. f2.*link 	 false 	 undefined 	 undefined
-$28. f2.^link 	 false 	 undefined 	 undefined
-$29. f2.link 	 false 	 undefined 	 undefined
-$30. f2.~link 	 false 	 undefined 	 undefined
-$31. link.f1 	 false 	 undefined 	 undefined
-$32. link.f1.*link 	 false 	 undefined 	 undefined
-$33. link.f1.^link 	 false 	 undefined 	 undefined
-$34. link.f1.link 	 false 	 undefined 	 undefined
-$35. link.f1.~link 	 false 	 undefined 	 undefined
-$36. link.f2 	 false 	 undefined 	 undefined
-$37. link.f2.*link 	 false 	 undefined 	 undefined
-$38. link.f2.^link 	 false 	 undefined 	 undefined
-$39. link.f2.link 	 false 	 undefined 	 undefined
-$40. link.f2.~link 	 false 	 undefined 	 undefined
-$41. ~link.f1 	 false 	 undefined 	 undefined
-$42. ~link.f1.*link 	 false 	 undefined 	 undefined
-$43. ~link.f1.^link 	 false 	 undefined 	 undefined
-$44. ~link.f1.link 	 false 	 undefined 	 undefined
-$45. ~link.f1.~link 	 false 	 undefined 	 undefined
-$46. ~link.f2 	 false 	 undefined 	 undefined
-$47. ~link.f2.*link 	 false 	 undefined 	 undefined
-$48. ~link.f2.^link 	 false 	 undefined 	 undefined
-$49. ~link.f2.link 	 false 	 undefined 	 undefined
-$50. ~link.f2.~link 	 false 	 undefined 	 undefined
-$51. *link.File 	 false 	 undefined 	 undefined
-$52. *link.File.*link 	 false 	 undefined 	 undefined
-$53. *link.File.^link 	 false 	 undefined 	 undefined
-$54. *link.File.link 	 false 	 undefined 	 undefined
-$55. *link.File.~link 	 false 	 undefined 	 undefined
-$56. *link.Protected 	 false 	 undefined 	 undefined
-$57. *link.Protected.*link 	 false 	 undefined 	 undefined
-$58. *link.Protected.^link 	 false 	 undefined 	 undefined
-$59. *link.Protected.link 	 false 	 undefined 	 undefined
-$60. *link.Protected.~link 	 false 	 undefined 	 undefined
-$61. *link.Trash 	 false 	 undefined 	 undefined
-$62. *link.Trash.*link 	 false 	 undefined 	 undefined
-$63. *link.Trash.^link 	 false 	 undefined 	 undefined
-$64. *link.Trash.link 	 false 	 undefined 	 undefined
-$65. *link.Trash.~link 	 false 	 undefined 	 undefined
-$66. File 	 false 	 undefined 	 undefined
-$67. File.*link 	 false 	 undefined 	 undefined
-$68. File.^link 	 false 	 undefined 	 undefined
-$69. File.link 	 false 	 undefined 	 undefined
-$70. File.~link 	 false 	 undefined 	 undefined
-$71. Protected 	 false 	 undefined 	 undefined
-$72. Protected.*link 	 false 	 undefined 	 undefined
-$73. Protected.^link 	 false 	 undefined 	 undefined
-$74. Protected.link 	 false 	 undefined 	 undefined
-$75. Protected.~link 	 false 	 undefined 	 undefined
-$76. Trash 	 true 	 undefined 	 undefined
-$77. Trash.*link 	 false 	 undefined 	 undefined
-$78. Trash.^link 	 false 	 undefined 	 undefined
-$79. Trash.link 	 false 	 undefined 	 undefined
-$80. Trash.~link 	 false 	 undefined 	 undefined
-$81. ^link.File 	 false 	 undefined 	 undefined
-$82. ^link.File.*link 	 false 	 undefined 	 undefined
-$83. ^link.File.^link 	 false 	 undefined 	 undefined
-$84. ^link.File.link 	 false 	 undefined 	 undefined
-$85. ^link.File.~link 	 false 	 undefined 	 undefined
-$86. ^link.Protected 	 false 	 undefined 	 undefined
-$87. ^link.Protected.*link 	 false 	 undefined 	 undefined
-$88. ^link.Protected.^link 	 false 	 undefined 	 undefined
-$89. ^link.Protected.link 	 false 	 undefined 	 undefined
-$90. ^link.Protected.~link 	 false 	 undefined 	 undefined
-$91. ^link.Trash 	 false 	 undefined 	 undefined
-$92. ^link.Trash.*link 	 false 	 undefined 	 undefined
-$93. ^link.Trash.^link 	 false 	 undefined 	 undefined
-$94. ^link.Trash.link 	 false 	 undefined 	 undefined
-$95. ^link.Trash.~link 	 false 	 undefined 	 undefined
-$96. link.File 	 false 	 undefined 	 undefined
-$97. link.File.*link 	 false 	 undefined 	 undefined
-$98. link.File.^link 	 false 	 undefined 	 undefined
-$99. link.File.link 	 false 	 undefined 	 undefined
-$100. link.File.~link 	 false 	 undefined 	 undefined
-$101. link.Protected 	 false 	 undefined 	 undefined
-$102. link.Protected.*link 	 false 	 undefined 	 undefined
-$103. link.Protected.^link 	 false 	 undefined 	 undefined
-$104. link.Protected.link 	 false 	 undefined 	 undefined
-$105. link.Protected.~link 	 false 	 undefined 	 undefined
-$106. link.Trash 	 false 	 undefined 	 undefined
-$107. link.Trash.*link 	 false 	 undefined 	 undefined
-$108. link.Trash.^link 	 false 	 undefined 	 undefined
-$109. link.Trash.link 	 false 	 undefined 	 undefined
-$110. link.Trash.~link 	 false 	 undefined 	 undefined
-$111. ~link.File 	 false 	 undefined 	 undefined
-$112. ~link.File.*link 	 false 	 undefined 	 undefined
-$113. ~link.File.^link 	 false 	 undefined 	 undefined
-$114. ~link.File.link 	 false 	 undefined 	 undefined
-$115. ~link.File.~link 	 false 	 undefined 	 undefined
-$116. ~link.Protected 	 false 	 undefined 	 undefined
-$117. ~link.Protected.*link 	 false 	 undefined 	 undefined
-$118. ~link.Protected.^link 	 false 	 undefined 	 undefined
-$119. ~link.Protected.link 	 false 	 undefined 	 undefined
-$120. ~link.Protected.~link 	 false 	 undefined 	 undefined
-$121. ~link.Trash 	 false 	 undefined 	 undefined
-$122. ~link.Trash.*link 	 false 	 undefined 	 undefined
-$123. ~link.Trash.^link 	 false 	 undefined 	 undefined
-$124. ~link.Trash.link 	 false 	 undefined 	 undefined
-$125. ~link.Trash.~link 	 false 	 undefined 	 undefined
-$126. *link.univ.link 	 false 	 undefined 	 undefined
-$127. ^link.univ.link 	 false 	 undefined 	 undefined
-$128. link.univ 	 false 	 undefined 	 undefined
-$129. link.univ.*link 	 false 	 undefined 	 undefined
-$130. link.univ.^link 	 false 	 undefined 	 undefined
-$131. link.univ.link 	 false 	 undefined 	 undefined
-$132. link.univ.~link 	 false 	 undefined 	 undefined
-$133. univ.link 	 false 	 undefined 	 undefined
-$134. ~link.univ.link 	 false 	 undefined 	 undefined
-$135. *link.univ.~link 	 false 	 undefined 	 undefined
-$136. ^link.univ.~link 	 false 	 undefined 	 undefined
-$137. univ.~link 	 false 	 undefined 	 undefined
-$138. ~link.univ 	 false 	 undefined 	 undefined
-$139. ~link.univ.*link 	 false 	 undefined 	 undefined
-$140. ~link.univ.^link 	 false 	 undefined 	 undefined
-$141. ~link.univ.~link 	 false 	 undefined 	 undefined
-$142. *link.univ.^link 	 false 	 undefined 	 undefined
-$143. ^link.univ 	 false 	 undefined 	 undefined
-$144. ^link.univ.*link 	 false 	 undefined 	 undefined
-$145. ^link.univ.^link 	 false 	 undefined 	 undefined
-$146. univ.^link 	 false 	 undefined 	 undefined
-$147. *link.univ 	 false 	 undefined 	 undefined
-$148. *link.univ.*link 	 false 	 undefined 	 undefined
-$149. univ.*link 	 false 	 undefined 	 undefined
-$150. Int 	 false 	 undefined 	 undefined
-$151. String 	 false 	 undefined 	 undefined
-$152. none 	 false 	 undefined 	 undefined
+$22. f1 	 false 	 undefined 	 undefined
+$23. f1.*link 	 false 	 undefined 	 undefined
+$24. f1.^link 	 false 	 undefined 	 undefined
+$25. f1.link 	 false 	 undefined 	 undefined
+$26. f1.~link 	 false 	 undefined 	 undefined
+$27. f2 	 false 	 undefined 	 undefined
+$28. f2 	 false 	 undefined 	 undefined
+$29. f2.*link 	 false 	 undefined 	 undefined
+$30. f2.^link 	 false 	 undefined 	 undefined
+$31. f2.link 	 false 	 undefined 	 undefined
+$32. f2.~link 	 false 	 undefined 	 undefined
+$33. link.f1 	 false 	 undefined 	 undefined
+$34. link.f1.*link 	 false 	 undefined 	 undefined
+$35. link.f1.^link 	 false 	 undefined 	 undefined
+$36. link.f1.link 	 false 	 undefined 	 undefined
+$37. link.f1.~link 	 false 	 undefined 	 undefined
+$38. link.f2 	 false 	 undefined 	 undefined
+$39. link.f2.*link 	 false 	 undefined 	 undefined
+$40. link.f2.^link 	 false 	 undefined 	 undefined
+$41. link.f2.link 	 false 	 undefined 	 undefined
+$42. link.f2.~link 	 false 	 undefined 	 undefined
+$43. ~link.f1 	 false 	 undefined 	 undefined
+$44. ~link.f1.*link 	 false 	 undefined 	 undefined
+$45. ~link.f1.^link 	 false 	 undefined 	 undefined
+$46. ~link.f1.link 	 false 	 undefined 	 undefined
+$47. ~link.f1.~link 	 false 	 undefined 	 undefined
+$48. ~link.f2 	 false 	 undefined 	 undefined
+$49. ~link.f2.*link 	 false 	 undefined 	 undefined
+$50. ~link.f2.^link 	 false 	 undefined 	 undefined
+$51. ~link.f2.link 	 false 	 undefined 	 undefined
+$52. ~link.f2.~link 	 false 	 undefined 	 undefined
+$53. *link.File 	 false 	 undefined 	 undefined
+$54. *link.File.*link 	 false 	 undefined 	 undefined
+$55. *link.File.^link 	 false 	 undefined 	 undefined
+$56. *link.File.link 	 false 	 undefined 	 undefined
+$57. *link.File.~link 	 false 	 undefined 	 undefined
+$58. *link.Protected 	 false 	 undefined 	 undefined
+$59. *link.Protected.*link 	 false 	 undefined 	 undefined
+$60. *link.Protected.^link 	 false 	 undefined 	 undefined
+$61. *link.Protected.link 	 false 	 undefined 	 undefined
+$62. *link.Protected.~link 	 false 	 undefined 	 undefined
+$63. *link.Trash 	 false 	 undefined 	 undefined
+$64. *link.Trash.*link 	 false 	 undefined 	 undefined
+$65. *link.Trash.^link 	 false 	 undefined 	 undefined
+$66. *link.Trash.link 	 false 	 undefined 	 undefined
+$67. *link.Trash.~link 	 false 	 undefined 	 undefined
+$68. File 	 false 	 undefined 	 undefined
+$69. File.*link 	 false 	 undefined 	 undefined
+$70. File.^link 	 false 	 undefined 	 undefined
+$71. File.link 	 false 	 undefined 	 undefined
+$72. File.~link 	 false 	 undefined 	 undefined
+$73. Protected 	 false 	 undefined 	 undefined
+$74. Protected 	 false 	 undefined 	 undefined
+$75. Protected.*link 	 false 	 undefined 	 undefined
+$76. Protected.^link 	 false 	 undefined 	 undefined
+$77. Protected.link 	 false 	 undefined 	 undefined
+$78. Protected.~link 	 false 	 undefined 	 undefined
+$79. Trash 	 true 	 undefined 	 undefined
+$80. Trash 	 true 	 undefined 	 undefined
+$81. Trash.*link 	 false 	 undefined 	 undefined
+$82. Trash.^link 	 false 	 undefined 	 undefined
+$83. Trash.link 	 false 	 undefined 	 undefined
+$84. Trash.~link 	 false 	 undefined 	 undefined
+$85. ^link.File 	 false 	 undefined 	 undefined
+$86. ^link.File.*link 	 false 	 undefined 	 undefined
+$87. ^link.File.^link 	 false 	 undefined 	 undefined
+$88. ^link.File.link 	 false 	 undefined 	 undefined
+$89. ^link.File.~link 	 false 	 undefined 	 undefined
+$90. ^link.Protected 	 false 	 undefined 	 undefined
+$91. ^link.Protected.*link 	 false 	 undefined 	 undefined
+$92. ^link.Protected.^link 	 false 	 undefined 	 undefined
+$93. ^link.Protected.link 	 false 	 undefined 	 undefined
+$94. ^link.Protected.~link 	 false 	 undefined 	 undefined
+$95. ^link.Trash 	 false 	 undefined 	 undefined
+$96. ^link.Trash.*link 	 false 	 undefined 	 undefined
+$97. ^link.Trash.^link 	 false 	 undefined 	 undefined
+$98. ^link.Trash.link 	 false 	 undefined 	 undefined
+$99. ^link.Trash.~link 	 false 	 undefined 	 undefined
+$100. link.File 	 false 	 undefined 	 undefined
+$101. link.File.*link 	 false 	 undefined 	 undefined
+$102. link.File.^link 	 false 	 undefined 	 undefined
+$103. link.File.link 	 false 	 undefined 	 undefined
+$104. link.File.~link 	 false 	 undefined 	 undefined
+$105. link.Protected 	 false 	 undefined 	 undefined
+$106. link.Protected.*link 	 false 	 undefined 	 undefined
+$107. link.Protected.^link 	 false 	 undefined 	 undefined
+$108. link.Protected.link 	 false 	 undefined 	 undefined
+$109. link.Protected.~link 	 false 	 undefined 	 undefined
+$110. link.Trash 	 false 	 undefined 	 undefined
+$111. link.Trash.*link 	 false 	 undefined 	 undefined
+$112. link.Trash.^link 	 false 	 undefined 	 undefined
+$113. link.Trash.link 	 false 	 undefined 	 undefined
+$114. link.Trash.~link 	 false 	 undefined 	 undefined
+$115. ~link.File 	 false 	 undefined 	 undefined
+$116. ~link.File.*link 	 false 	 undefined 	 undefined
+$117. ~link.File.^link 	 false 	 undefined 	 undefined
+$118. ~link.File.link 	 false 	 undefined 	 undefined
+$119. ~link.File.~link 	 false 	 undefined 	 undefined
+$120. ~link.Protected 	 false 	 undefined 	 undefined
+$121. ~link.Protected.*link 	 false 	 undefined 	 undefined
+$122. ~link.Protected.^link 	 false 	 undefined 	 undefined
+$123. ~link.Protected.link 	 false 	 undefined 	 undefined
+$124. ~link.Protected.~link 	 false 	 undefined 	 undefined
+$125. ~link.Trash 	 false 	 undefined 	 undefined
+$126. ~link.Trash.*link 	 false 	 undefined 	 undefined
+$127. ~link.Trash.^link 	 false 	 undefined 	 undefined
+$128. ~link.Trash.link 	 false 	 undefined 	 undefined
+$129. ~link.Trash.~link 	 false 	 undefined 	 undefined
+$130. *link.univ.link 	 false 	 undefined 	 undefined
+$131. ^link.univ.link 	 false 	 undefined 	 undefined
+$132. link.univ 	 false 	 undefined 	 undefined
+$133. link.univ.*link 	 false 	 undefined 	 undefined
+$134. link.univ.^link 	 false 	 undefined 	 undefined
+$135. link.univ.link 	 false 	 undefined 	 undefined
+$136. link.univ.~link 	 false 	 undefined 	 undefined
+$137. univ.link 	 false 	 undefined 	 undefined
+$138. ~link.univ.link 	 false 	 undefined 	 undefined
+$139. *link.univ.~link 	 false 	 undefined 	 undefined
+$140. ^link.univ.~link 	 false 	 undefined 	 undefined
+$141. univ.~link 	 false 	 undefined 	 undefined
+$142. ~link.univ 	 false 	 undefined 	 undefined
+$143. ~link.univ.*link 	 false 	 undefined 	 undefined
+$144. ~link.univ.^link 	 false 	 undefined 	 undefined
+$145. ~link.univ.~link 	 false 	 undefined 	 undefined
+$146. *link.univ.^link 	 false 	 undefined 	 undefined
+$147. ^link.univ 	 false 	 undefined 	 undefined
+$148. ^link.univ.*link 	 false 	 undefined 	 undefined
+$149. ^link.univ.^link 	 false 	 undefined 	 undefined
+$150. univ.^link 	 false 	 undefined 	 undefined
+$151. *link.univ 	 false 	 undefined 	 undefined
+$152. *link.univ.*link 	 false 	 undefined 	 undefined
 $153. univ 	 false 	 undefined 	 undefined
-Expected Completion word: Trash
-Expected Completion line: Trash => f2 in Trash
-Suggestion exists: true
+$154. univ.*link 	 false 	 undefined 	 undefined
+$155. Int 	 false 	 undefined 	 undefined
+$156. String 	 false 	 undefined 	 undefined
+$157. none 	 false 	 undefined 	 undefined
+$158. univ 	 false 	 undefined 	 undefined
 
-Suggestion in top 1 = false 
-Suggestion in top 5 = false 
-Suggestion in top 10 = false 
-
-Suggestion in top 1 (Alpha) = false
-Suggestion in top 5 (Alpha) = false
-Suggestion in top 10 (Alpha) = false
-
-Suggestion in top 1 (Len) = false
-Suggestion in top 5 (Len) = false
-Suggestion in top 10 (Len) = true
-
-Time taken: 14.377959
+Time taken: 14.386833
+Preprocessing time: 2
+Parsing time: 1
+Generation time: 6

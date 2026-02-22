@@ -1,18 +1,17 @@
 sig State {}
 
 sig Name {
+	refs : Commit -> State,
 	heads : set State,
-	HEAD : set State,
-	refs : Commit -> State
+	HEAD : set State
 }
 
 abstract sig Node {
+	belongsTo : Object lone -> Commit,
 	name : one Name,
 	parent : lone Dir,
 	current : set State,		// set of nodes currently in file system
-	samepath : set Node, 		// auxiliary relation
-	// n -> o -> c in belongsTo iff  o is an object in c.tree that corresponds to n
-	belongsTo : Object lone -> Commit
+	samepath : set Node 		// auxiliary relation
 }
 
 sig File extends Node {
@@ -31,8 +30,8 @@ abstract sig Object {
 }
 
 sig Blob extends Object {
-	conflict : set Blob,
-	merging : Blob -> lone Blob
+	merging : Blob -> lone Blob,
+	conflict : set Blob
 }
 
 sig Tree extends Object {
@@ -103,7 +102,7 @@ fact TreeFacts {
 }
 
 check {
-	all s : State, f : File, f' : f.samepath & File | invariant[s] implies f.content = f'.content
+	all s : State, f : File, ff : f.samepath & File | invariant[s] implies f.content = ff.content
 } for 7 but 1 State
 
 check {

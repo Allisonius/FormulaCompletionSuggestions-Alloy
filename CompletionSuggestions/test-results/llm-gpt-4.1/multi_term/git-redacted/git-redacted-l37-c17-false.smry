@@ -1,0 +1,33 @@
+Model name: git-redacted
+Filename: completion/git-sig.als
+Offset: 632
+Term:  extends 
+Vscode Position: line=36 character=17
+----------------------------------
+37 | sig Tree extends 
+----------------------------------
+Expected Completion word: Object
+Expected Completion line: Object {
+Suggestion exists: false
+Completion List:
+# Suggestion 	 Exact 	 Syntactic 	 Semantic
+$1. content 	 false 	 undefined 	 undefined
+$2. content.Name 	 false 	 undefined 	 undefined
+$3. content.Blob 	 false 	 undefined 	 undefined
+$4. content.Tree 	 false 	 false 	 false
+$5. ~content 	 false 	 false 	 false
+$6. content^ 	 false 	 undefined 	 undefined
+$7. content* 	 false 	 undefined 	 undefined
+$8. content & univ 	 false 	 undefined 	 undefined
+$9. content + univ 	 false 	 undefined 	 undefined
+$10. content - univ 	 false 	 undefined 	 undefined
+$11. content.Name.Blob 	 false 	 false 	 false
+$12. content.Name.Tree 	 false 	 false 	 false
+$13. content.Name + univ 	 false 	 false 	 false
+$14. content.Name & univ 	 false 	 false 	 false
+$15. content.Name - univ 	 false 	 false 	 false
+
+Time taken: 5063.533666
+Preprocessing time: N/A
+Parsing time: N/A
+Generation time: N/A

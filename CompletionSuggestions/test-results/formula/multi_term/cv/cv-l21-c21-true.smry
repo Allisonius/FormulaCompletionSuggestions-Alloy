@@ -6,6 +6,9 @@ Vscode Position: line=20 character=21
 ----------------------------------
 21 |     all u : User | u.
 ----------------------------------
+Expected Completion word: profile.source
+Expected Completion line: profile.source in Institution+u
+Suggestion exists: true
 Completion List:
 # Suggestion 	 Exact 	 Syntactic 	 Semantic
 $1. profile.Work 	 false 	 undefined 	 undefined
@@ -26,20 +29,9 @@ $15. ~source 	 false 	 undefined 	 undefined
 $16. ~source.univ 	 false 	 undefined 	 undefined
 $17. ~source.~profile 	 false 	 undefined 	 undefined
 $18. ~source.~visible 	 false 	 undefined 	 undefined
-Expected Completion word: profile
-Expected Completion line: profile.source in Institution+u
-Suggestion exists: true
+$19.  	 false 	 undefined 	 undefined
 
-Suggestion in top 1 = false 
-Suggestion in top 5 = true 
-Suggestion in top 10 = true 
-
-Suggestion in top 1 (Alpha) = false
-Suggestion in top 5 (Alpha) = false
-Suggestion in top 10 (Alpha) = true
-
-Suggestion in top 1 (Len) = true
-Suggestion in top 5 (Len) = true
-Suggestion in top 10 (Len) = true
-
-Time taken: 10.365666
+Time taken: 8.464792
+Preprocessing time: 3
+Parsing time: 0
+Generation time: 1

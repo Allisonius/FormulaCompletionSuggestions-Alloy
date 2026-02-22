@@ -1,0 +1,23 @@
+modelname,filename,position-line,position-character,incompleteline,removedtext,baseline,suggestionedExpression,A_iff_B,A_and_B,not_A_and_B,A_and_not_B,not_A_and_not_B,suggestionImpactTime
+git,completion/git-complete.als,68,23,"some p : Tree | o = p.","content[n.name]","{}","\tsome p : Tree | o = p.content.Blob",,,,,,152.903834
+git,completion/git-complete.als,68,23,"some p : Tree | o = p.","content[n.name]","{}","\tsome p : Tree | o = p.stored.State",,,,,,152.903834
+git,completion/git-complete.als,68,23,"some p : Tree | o = p.","content[n.name]","{}","\tsome p : Tree | o = p.~tree.Commit",,,,,,152.903834
+git,completion/git-complete.als,68,23,"some p : Tree | o = p.","content[n.name]","{}","\tsome p : Tree | o = p.content",,,,,,152.903834
+git,completion/git-complete.als,68,23,"some p : Tree | o = p.","content[n.name]","{}","\tsome p : Tree | o = p.content.*conflict",,,,,,152.903834
+git,completion/git-complete.als,68,23,"some p : Tree | o = p.","content[n.name]","{}","\tsome p : Tree | o = p.content.^conflict",,,,,,152.903834
+git,completion/git-complete.als,68,23,"some p : Tree | o = p.","content[n.name]","{}","\tsome p : Tree | o = p.content.conflict",,,,,,152.903834
+git,completion/git-complete.als,68,23,"some p : Tree | o = p.","content[n.name]","{}","\tsome p : Tree | o = p.content.merging",,,,,,152.903834
+git,completion/git-complete.als,68,23,"some p : Tree | o = p.","content[n.name]","{}","\tsome p : Tree | o = p.content.univ",,,,,,152.903834
+git,completion/git-complete.als,68,23,"some p : Tree | o = p.","content[n.name]","{}","\tsome p : Tree | o = p.content.~conflict",,,,,,152.903834
+git,completion/git-complete.als,68,23,"some p : Tree | o = p.","content[n.name]","{}","\tsome p : Tree | o = p.stored",,,,,,152.903834
+git,completion/git-complete.als,68,23,"some p : Tree | o = p.","content[n.name]","{}","\tsome p : Tree | o = p.stored.univ",,,,,,152.903834
+git,completion/git-complete.als,68,23,"some p : Tree | o = p.","content[n.name]","{}","\tsome p : Tree | o = p.stored.~HEAD",,,,,,152.903834
+git,completion/git-complete.als,68,23,"some p : Tree | o = p.","content[n.name]","{}","\tsome p : Tree | o = p.stored.~current",,,,,,152.903834
+git,completion/git-complete.als,68,23,"some p : Tree | o = p.","content[n.name]","{}","\tsome p : Tree | o = p.stored.~heads",,,,,,152.903834
+git,completion/git-complete.als,68,23,"some p : Tree | o = p.","content[n.name]","{}","\tsome p : Tree | o = p.stored.~index",,,,,,152.903834
+git,completion/git-complete.als,68,23,"some p : Tree | o = p.","content[n.name]","{}","\tsome p : Tree | o = p.~tree.previous",,,,,,152.903834
+git,completion/git-complete.als,68,23,"some p : Tree | o = p.","content[n.name]","{}","\tsome p : Tree | o = p.~tree",,,,,,152.903834
+git,completion/git-complete.als,68,23,"some p : Tree | o = p.","content[n.name]","{}","\tsome p : Tree | o = p.~tree.*previous",,,,,,152.903834
+git,completion/git-complete.als,68,23,"some p : Tree | o = p.","content[n.name]","{}","\tsome p : Tree | o = p.~tree.^previous",,,,,,152.903834
+git,completion/git-complete.als,68,23,"some p : Tree | o = p.","content[n.name]","{}","\tsome p : Tree | o = p.~tree.univ",,,,,,152.903834
+git,completion/git-complete.als,68,23,"some p : Tree | o = p.","content[n.name]","{}","\tsome p : Tree | o = p.~tree.~previous",,,,,,152.903834

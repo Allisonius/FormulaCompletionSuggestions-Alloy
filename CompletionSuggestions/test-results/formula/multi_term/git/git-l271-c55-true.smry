@@ -1,0 +1,34 @@
+Model name: git
+Filename: completion/git-complete.als
+Offset: 5622
+Term:  -> 
+Vscode Position: line=270 character=55
+----------------------------------
+271 | 	{f : File | f not in index.s and no f2 : File |	 f -> 
+----------------------------------
+Expected Completion word: f2
+Expected Completion line: f2 in samepath and some f2.belongsTo.(HEAD[s])}
+Suggestion exists: true
+Completion List:
+# Suggestion 	 Exact 	 Syntactic 	 Semantic
+$1. f2 	 true 	 undefined 	 undefined
+$2. s 	 false 	 undefined 	 undefined
+$3. Blob 	 false 	 undefined 	 undefined
+$4. Commit 	 false 	 undefined 	 undefined
+$5. Dir 	 false 	 undefined 	 undefined
+$6. File 	 false 	 undefined 	 undefined
+$7. Name 	 false 	 undefined 	 undefined
+$8. Node 	 false 	 undefined 	 undefined
+$9. Object 	 false 	 undefined 	 undefined
+$10. Root 	 false 	 undefined 	 undefined
+$11. State 	 false 	 undefined 	 undefined
+$12. Tree 	 false 	 undefined 	 undefined
+$13. Int 	 false 	 undefined 	 undefined
+$14. String 	 false 	 undefined 	 undefined
+$15. none 	 false 	 undefined 	 undefined
+$16. univ 	 false 	 undefined 	 undefined
+
+Time taken: 73.909542
+Preprocessing time: 25
+Parsing time: 12
+Generation time: 0

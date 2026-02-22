@@ -1,0 +1,26 @@
+Model name: classroom-fol
+Filename: completion/classroom-fol-sig.als
+Offset: 162
+Term:  in 
+Vscode Position: line=13 character=15
+----------------------------------
+14 | sig Student in 
+----------------------------------
+Expected Completion word: Person
+Expected Completion line: Person {}
+Suggestion exists: true
+Completion List:
+# Suggestion 	 Exact 	 Syntactic 	 Semantic
+$1. Person 	 true 	 true 	 true
+$2. Person.Tutors 	 false 	 false 	 false
+$3. Person.Teaches 	 false 	 false 	 false
+$4. Person.Tutors.Tutors 	 false 	 false 	 false
+$5. Person.Tutors.Teaches 	 false 	 false 	 false
+$6. Person.Teaches.Groups 	 false 	 false 	 false
+$7. Person.Tutors.Teaches.Groups 	 false 	 false 	 false
+$8. univ 	 false 	 false 	 false
+
+Time taken: 5838.378459
+Preprocessing time: N/A
+Parsing time: N/A
+Generation time: N/A

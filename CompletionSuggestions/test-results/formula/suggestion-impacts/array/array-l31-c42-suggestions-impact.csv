@@ -1,1 +1,4 @@
 modelname,filename,position-line,position-character,incompleteline,removedtext,baseline,suggestionedExpression,A_iff_B,A_and_B,not_A_and_B,A_and_not_B,not_A_and_not_B,suggestionImpactTime
+array,completion/array-complete.als,31,42,"all idx: Array.i2e.Element | lone Array.","i2e[idx]","{}","  all idx: Array.i2e.Element | lone Array.Array.i2e[idx]",,,,,,5.886125
+array,completion/array-complete.als,31,42,"all idx: Array.i2e.Element | lone Array.","i2e[idx]","{}","  all idx: Array.i2e.Element | lone Array.Array.i2e[idx].~i2e",,,,,,5.886125
+array,completion/array-complete.als,31,42,"all idx: Array.i2e.Element | lone Array.","i2e[idx]","{}","  all idx: Array.i2e.Element | lone Array.Array.i2e[idx].~Array.i2e",,,,,,5.886125

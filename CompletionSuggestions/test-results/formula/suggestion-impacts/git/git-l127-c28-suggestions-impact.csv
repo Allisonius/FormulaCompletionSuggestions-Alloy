@@ -1,0 +1,23 @@
+modelname,filename,position-line,position-character,incompleteline,removedtext,baseline,suggestionedExpression,A_iff_B,A_and_B,not_A_and_B,A_and_not_B,not_A_and_not_B,suggestionImpactTime
+git,completion/git-complete.als,127,28,"no disj t1, t2 : Tree | t1.","content = t2.content","{}","\tno disj t1, t2 : Tree | t1.content.Blob",,,,,,157.267375
+git,completion/git-complete.als,127,28,"no disj t1, t2 : Tree | t1.","content = t2.content","{}","\tno disj t1, t2 : Tree | t1.stored.State",,,,,,157.267375
+git,completion/git-complete.als,127,28,"no disj t1, t2 : Tree | t1.","content = t2.content","{}","\tno disj t1, t2 : Tree | t1.~tree.Commit",,,,,,157.267375
+git,completion/git-complete.als,127,28,"no disj t1, t2 : Tree | t1.","content = t2.content","{}","\tno disj t1, t2 : Tree | t1.content",,,,,,157.267375
+git,completion/git-complete.als,127,28,"no disj t1, t2 : Tree | t1.","content = t2.content","{}","\tno disj t1, t2 : Tree | t1.content.*conflict",,,,,,157.267375
+git,completion/git-complete.als,127,28,"no disj t1, t2 : Tree | t1.","content = t2.content","{}","\tno disj t1, t2 : Tree | t1.content.^conflict",,,,,,157.267375
+git,completion/git-complete.als,127,28,"no disj t1, t2 : Tree | t1.","content = t2.content","{}","\tno disj t1, t2 : Tree | t1.content.conflict",,,,,,157.267375
+git,completion/git-complete.als,127,28,"no disj t1, t2 : Tree | t1.","content = t2.content","{}","\tno disj t1, t2 : Tree | t1.content.merging",,,,,,157.267375
+git,completion/git-complete.als,127,28,"no disj t1, t2 : Tree | t1.","content = t2.content","{}","\tno disj t1, t2 : Tree | t1.content.univ",,,,,,157.267375
+git,completion/git-complete.als,127,28,"no disj t1, t2 : Tree | t1.","content = t2.content","{}","\tno disj t1, t2 : Tree | t1.content.~conflict",,,,,,157.267375
+git,completion/git-complete.als,127,28,"no disj t1, t2 : Tree | t1.","content = t2.content","{}","\tno disj t1, t2 : Tree | t1.stored",,,,,,157.267375
+git,completion/git-complete.als,127,28,"no disj t1, t2 : Tree | t1.","content = t2.content","{}","\tno disj t1, t2 : Tree | t1.stored.univ",,,,,,157.267375
+git,completion/git-complete.als,127,28,"no disj t1, t2 : Tree | t1.","content = t2.content","{}","\tno disj t1, t2 : Tree | t1.stored.~HEAD",,,,,,157.267375
+git,completion/git-complete.als,127,28,"no disj t1, t2 : Tree | t1.","content = t2.content","{}","\tno disj t1, t2 : Tree | t1.stored.~current",,,,,,157.267375
+git,completion/git-complete.als,127,28,"no disj t1, t2 : Tree | t1.","content = t2.content","{}","\tno disj t1, t2 : Tree | t1.stored.~heads",,,,,,157.267375
+git,completion/git-complete.als,127,28,"no disj t1, t2 : Tree | t1.","content = t2.content","{}","\tno disj t1, t2 : Tree | t1.stored.~index",,,,,,157.267375
+git,completion/git-complete.als,127,28,"no disj t1, t2 : Tree | t1.","content = t2.content","{}","\tno disj t1, t2 : Tree | t1.~tree.previous",,,,,,157.267375
+git,completion/git-complete.als,127,28,"no disj t1, t2 : Tree | t1.","content = t2.content","{}","\tno disj t1, t2 : Tree | t1.~tree",,,,,,157.267375
+git,completion/git-complete.als,127,28,"no disj t1, t2 : Tree | t1.","content = t2.content","{}","\tno disj t1, t2 : Tree | t1.~tree.*previous",,,,,,157.267375
+git,completion/git-complete.als,127,28,"no disj t1, t2 : Tree | t1.","content = t2.content","{}","\tno disj t1, t2 : Tree | t1.~tree.^previous",,,,,,157.267375
+git,completion/git-complete.als,127,28,"no disj t1, t2 : Tree | t1.","content = t2.content","{}","\tno disj t1, t2 : Tree | t1.~tree.univ",,,,,,157.267375
+git,completion/git-complete.als,127,28,"no disj t1, t2 : Tree | t1.","content = t2.content","{}","\tno disj t1, t2 : Tree | t1.~tree.~previous",,,,,,157.267375

@@ -1,0 +1,28 @@
+Model name: modelo-alloy
+Filename: completion/ModeloAlloy-complete.als
+Offset: 4094
+Term: .
+Vscode Position: line=177 character=16
+----------------------------------
+178 |     f1.DayValue.
+----------------------------------
+Expected Completion word: minus
+Expected Completion line: minus[currentDate.DayValue]
+Suggestion exists: false
+Completion List:
+# Suggestion 	 Exact 	 Syntactic 	 Semantic
+$1. ~DayValue.f1 	 false 	 undefined 	 undefined
+$2. ~DayValue.Date 	 false 	 undefined 	 undefined
+$3. ~DayValue.currentDate 	 false 	 undefined 	 undefined
+$4. ~DayValue 	 false 	 undefined 	 undefined
+$5. ~DayValue 	 false 	 undefined 	 undefined
+$6. ~DayValue.univ 	 false 	 undefined 	 undefined
+$7. ~DayValue.univ 	 false 	 undefined 	 undefined
+$8. ~DayValue.~eventDate 	 false 	 undefined 	 undefined
+$9. ~DayValue.~publishedDate 	 false 	 undefined 	 undefined
+$10.  	 false 	 undefined 	 undefined
+
+Time taken: 26.553167
+Preprocessing time: 9
+Parsing time: 3
+Generation time: 1

@@ -1,0 +1,29 @@
+Model name: array
+Filename: completion/array-complete.als
+Offset: 335
+Term: .
+Vscode Position: line=17 character=8
+----------------------------------
+18 |   Array.
+----------------------------------
+Expected Completion word: length
+Expected Completion line: length >= 0
+Suggestion exists: true
+Completion List:
+# Suggestion 	 Exact 	 Syntactic 	 Semantic
+$1. length 	 true 	 true 	 true
+$2. i2e 	 false 	 false 	 false
+$3. length + univ 	 false 	 undefined 	 undefined
+$4. length & univ 	 false 	 undefined 	 undefined
+$5. i2e + univ 	 false 	 undefined 	 undefined
+$6. i2e & univ 	 false 	 undefined 	 undefined
+$7. ~length 	 false 	 false 	 false
+$8. ~i2e 	 false 	 undefined 	 undefined
+$9. i2e.Element 	 false 	 false 	 false
+$10. i2e^ 	 false 	 undefined 	 undefined
+$11. i2e* 	 false 	 undefined 	 undefined
+
+Time taken: 4687.158292
+Preprocessing time: N/A
+Parsing time: N/A
+Generation time: N/A

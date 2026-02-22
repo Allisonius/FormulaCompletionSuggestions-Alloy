@@ -1,0 +1,19 @@
+Model name: trash-rl
+Filename: completion/trash-rl-complete.als
+Offset: 216
+Term:  - 
+Vscode Position: line=23 character=8
+----------------------------------
+24 | 	File - 
+----------------------------------
+Expected Completion word: undefined
+Expected Completion line: Protected in Trash
+Suggestion exists: false
+Completion List:
+# Suggestion 	 Exact 	 Syntactic 	 Semantic
+
+
+Time taken: 15.18775
+Preprocessing time: N/A
+Parsing time: N/A
+Generation time: N/A

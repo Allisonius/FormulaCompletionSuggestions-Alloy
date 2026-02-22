@@ -40,10 +40,11 @@ Clone the repository and run the following commands inside the root directory of
 
 The experiment installs a sandbox vscode instance. Then it runs the experiment from the Alloy model files localed in the [client/testFixture](./client/testFixture) folder.
 
-We have the completion experiments with 2 modes to run:
+We have the completion experiments with 3 modes to run:
 
 1. Formula Completion
 2. Static Generator completion
+3. LLM-based completion
 
 ## Run the Formula Completion Experiment
 
@@ -55,16 +56,39 @@ This will launch a sandbox vscode instance and run the test suite. The results w
 
 ## Run the Static Generator Completion Experiment
 
-To run the experiment for formula completions, run the following command:
+To run the experiment for static generator completions, run the following command:
 
     npm run experiment:completion:generator
 
 This will launch a sandbox vscode instance and run the test suite. The results will be stored in the [test-results/generator](./test-results/generator/) directory.
 
+## Run the LLM-based Completion Experiment
+
+### Prequisites
+
+The LLM models are provided by the github copilot. The copilot cli tool is used to run the experiment with different models. To install the copilot cli tool, follow the instructions in the [copilot cli repository](https://github.com/github/copilot-cli).
+
+### Running the experiment
+
+To run the experiment for LLM-based completions, run the following command:
+
+    npm run experiment:completion:llm -- --model <model-name>
+
+This will launch a sandbox vscode instance and run the test suite. The results will be stored in the [test-results/llm](./test-results/llm-<model_name>/) directory. If no model name is provided, the experiment will run with the default model, which is `gpt-4.1`.
+
+The list of available models can be found in the help text with `model` param from this command:
+
+    copilot help config
+
 ## Experiment Result Analysis
 
-To analyze experiment results, refer to the Jupyter notebooks in the [analysis](./analysis) directory. For a summary of completion performance on benchmark models, see [Completion Performance Summary](./analysis/completion_performance_summary.ipynb)
+To analyze experiment results, refer to the Jupyter notebooks in the [analysis](./analysis) directory. The following jupyter notebooks are available:
 
+- [Completion Performance Summary](./analysis/completion_performance_summary.ipynb)
+- [LLM Completion Performance](./analysis/llm_completion_performance.ipynb)
+- [Completion runtime analysis](./analysis/completion_runtime_breakdown.ipynb.ipynb)
+
+These notebooks provide detailed analysis of the completion experiments and their performance across different models and scenarios.
 
 # Packaging the extension
 

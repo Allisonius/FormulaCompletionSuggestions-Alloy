@@ -1,0 +1,15 @@
+modelname,filename,position-line,position-character,incompleteline,removedtext,baseline,suggestionedExpression,A_iff_B,A_and_B,not_A_and_B,A_and_not_B,not_A_and_not_B,suggestionImpactTime
+git,completion/git-complete.als,88,16,"all n : Node -","Root | one n.parent","{}","\tall n : Node - Blob",,,,,,102.820833
+git,completion/git-complete.als,88,16,"all n : Node -","Root | one n.parent","{}","\tall n : Node - Commit",,,,,,102.820833
+git,completion/git-complete.als,88,16,"all n : Node -","Root | one n.parent","{}","\tall n : Node - Dir",,,,,,102.820833
+git,completion/git-complete.als,88,16,"all n : Node -","Root | one n.parent","{}","\tall n : Node - File",,,,,,102.820833
+git,completion/git-complete.als,88,16,"all n : Node -","Root | one n.parent","{}","\tall n : Node - Name",,,,,,102.820833
+git,completion/git-complete.als,88,16,"all n : Node -","Root | one n.parent","{}","\tall n : Node - Node",,,,,,102.820833
+git,completion/git-complete.als,88,16,"all n : Node -","Root | one n.parent","{}","\tall n : Node - Object",,,,,,102.820833
+git,completion/git-complete.als,88,16,"all n : Node -","Root | one n.parent","{}","\tall n : Node - Root",,,,,,102.820833
+git,completion/git-complete.als,88,16,"all n : Node -","Root | one n.parent","{}","\tall n : Node - State",,,,,,102.820833
+git,completion/git-complete.als,88,16,"all n : Node -","Root | one n.parent","{}","\tall n : Node - Tree",,,,,,102.820833
+git,completion/git-complete.als,88,16,"all n : Node -","Root | one n.parent","{}","\tall n : Node - Int",,,,,,102.820833
+git,completion/git-complete.als,88,16,"all n : Node -","Root | one n.parent","{}","\tall n : Node - String",,,,,,102.820833
+git,completion/git-complete.als,88,16,"all n : Node -","Root | one n.parent","{}","\tall n : Node - none",,,,,,102.820833
+git,completion/git-complete.als,88,16,"all n : Node -","Root | one n.parent","{}","\tall n : Node - univ",,,,,,102.820833

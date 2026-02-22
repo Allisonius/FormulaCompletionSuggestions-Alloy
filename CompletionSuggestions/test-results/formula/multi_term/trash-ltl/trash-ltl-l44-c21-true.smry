@@ -6,6 +6,9 @@ Vscode Position: line=43 character=21
 ----------------------------------
 44 | 	always ( all f:link.
 ----------------------------------
+Expected Completion word: File
+Expected Completion line: File | eventually f in Trash )
+Suggestion exists: true
 Completion List:
 # Suggestion 	 Exact 	 Syntactic 	 Semantic
 $1. File 	 true 	 true 	 true
@@ -58,24 +61,13 @@ $47. File'.~link 	 false 	 false 	 false
 $48. univ.~link 	 false 	 false 	 false
 $49. File'.^link 	 false 	 false 	 false
 $50. univ.^link 	 false 	 false 	 false
-$51. File' 	 false 	 false 	 false
-$52. File'.*link 	 false 	 false 	 false
-$53. univ 	 false 	 false 	 false
-$54. univ.*link 	 false 	 false 	 false
-Expected Completion word: File
-Expected Completion line: File | eventually f in Trash )
-Suggestion exists: true
+$51.  	 false 	 false 	 false
+$52. File' 	 false 	 false 	 false
+$53. File'.*link 	 false 	 false 	 false
+$54. univ 	 false 	 false 	 false
+$55. univ.*link 	 false 	 false 	 false
 
-Suggestion in top 1 = true 
-Suggestion in top 5 = true 
-Suggestion in top 10 = true 
-
-Suggestion in top 1 (Alpha) = true
-Suggestion in top 5 (Alpha) = true
-Suggestion in top 10 (Alpha) = true
-
-Suggestion in top 1 (Len) = true
-Suggestion in top 5 (Len) = true
-Suggestion in top 10 (Len) = true
-
-Time taken: 12.557208
+Time taken: 12.166125
+Preprocessing time: 3
+Parsing time: 1
+Generation time: 2

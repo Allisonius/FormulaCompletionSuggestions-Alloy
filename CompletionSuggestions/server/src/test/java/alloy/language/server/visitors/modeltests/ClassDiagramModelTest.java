@@ -1,9 +1,11 @@
 package alloy.language.server.visitors.modeltests;
 
+import alloy.language.server.ConfigManager;
 import alloy.language.server.models.CompletionModelBuilder;
 import alloy.language.server.models.presets.ClassDiagramModel;
 import alloy.language.server.visitors.BaseVisitorTest;
 import org.eclipse.lsp4j.CompletionItem;
+import org.junit.jupiter.api.BeforeAll;
 import org.junit.jupiter.api.Test;
 
 import java.util.Comparator;
@@ -13,6 +15,12 @@ import static org.hamcrest.Matchers.*;
 
 public class ClassDiagramModelTest extends BaseVisitorTest {
 	private final CompletionModelBuilder modelBuilder = ClassDiagramModel.modelBuilder();
+
+	@BeforeAll
+	public static void setup() {
+		// Ensure that the new completion provider is enabled for testing
+		ConfigManager.getInstance().setUseNewCompletionProvider(true);
+	}
 
 	@Test
 	public void testDiffInQuantifier() {
@@ -29,7 +37,7 @@ public class ClassDiagramModelTest extends BaseVisitorTest {
 
 	@Test
 	public void testSigExtension() {
-		modelBuilder.withCompletionLine("one sig extends ");
+		modelBuilder.withCompletionLine("one sig Person extends ");
 		var completionItems = generateCompletions(modelBuilder);
 		System.out.println("Completion Items: ");
 		completionItems.stream()

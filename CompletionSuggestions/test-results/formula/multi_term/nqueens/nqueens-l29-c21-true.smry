@@ -6,6 +6,9 @@ Vscode Position: line=28 character=21
 ----------------------------------
 29 |     minus[q1.row, q2.
 ----------------------------------
+Expected Completion word: row
+Expected Completion line: row] != minus[q2.col, q1.col]
+Suggestion exists: true
 Completion List:
 # Suggestion 	 Exact 	 Syntactic 	 Semantic
 $1. col 	 false 	 undefined 	 undefined
@@ -16,20 +19,9 @@ $5. row 	 true 	 undefined 	 undefined
 $6. row.Int 	 false 	 undefined 	 undefined
 $7. row.univ 	 false 	 undefined 	 undefined
 $8. row.~col 	 false 	 undefined 	 undefined
-Expected Completion word: row
-Expected Completion line: row] != minus[q2.col, q1.col]
-Suggestion exists: true
+$9.  	 false 	 undefined 	 undefined
 
-Suggestion in top 1 = false 
-Suggestion in top 5 = true 
-Suggestion in top 10 = true 
-
-Suggestion in top 1 (Alpha) = false
-Suggestion in top 5 (Alpha) = true
-Suggestion in top 10 (Alpha) = true
-
-Suggestion in top 1 (Len) = false
-Suggestion in top 5 (Len) = true
-Suggestion in top 10 (Len) = true
-
-Time taken: 8.937708
+Time taken: 10.047333
+Preprocessing time: 1
+Parsing time: 1
+Generation time: 1

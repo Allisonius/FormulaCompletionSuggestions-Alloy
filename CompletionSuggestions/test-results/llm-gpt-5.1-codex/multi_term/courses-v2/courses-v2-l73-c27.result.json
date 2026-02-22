@@ -1,0 +1,88 @@
+{
+  "modelName": "courses-v2",
+  "filename": "completion/courses-v2-complete.als",
+  "offset": 1703,
+  "term": ".",
+  "line": 73,
+  "character": 27,
+  "incompletionLine": "all c : Course | c.grades.",
+  "completionList": "Grade, ~Grade, univ, ~grades",
+  "evaluationResult": [
+    {
+      "suggestion": "Grade",
+      "rank": 1,
+      "doesMatchExactly": true,
+      "startsWithSuggestion": true,
+      "doesCompile": false,
+      "doesMatchSyntactically": true,
+      "expressionComponents": [
+        {
+          "label": "Grade",
+          "type": "SIGNATURE"
+        }
+      ]
+    },
+    {
+      "suggestion": "~Grade",
+      "rank": 2,
+      "doesMatchExactly": false,
+      "startsWithSuggestion": false,
+      "doesCompile": false,
+      "expressionComponents": [
+        {
+          "label": "~",
+          "type": "OPERATOR"
+        },
+        {
+          "label": "Grade",
+          "type": "SIGNATURE"
+        }
+      ]
+    },
+    {
+      "suggestion": "univ",
+      "rank": 3,
+      "doesMatchExactly": false,
+      "startsWithSuggestion": false,
+      "doesCompile": false,
+      "doesMatchSyntactically": false,
+      "expressionComponents": [
+        {
+          "label": "univ",
+          "type": "CONSTANT"
+        }
+      ]
+    },
+    {
+      "suggestion": "~grades",
+      "rank": 4,
+      "doesMatchExactly": false,
+      "startsWithSuggestion": false,
+      "doesCompile": false,
+      "expressionComponents": [
+        {
+          "label": "~",
+          "type": "OPERATOR"
+        },
+        {
+          "label": "grades",
+          "type": "RELATION"
+        }
+      ]
+    }
+  ],
+  "completionGenerated": true,
+  "suggestionExists": true,
+  "suggestionInTop1": true,
+  "suggestionInTop5": true,
+  "suggestionInTop10": true,
+  "suggestionInTop1Alpha": false,
+  "suggestionInTop5Alpha": true,
+  "suggestionInTop10Alpha": true,
+  "suggestionInTop1Len": false,
+  "suggestionInTop5Len": true,
+  "suggestionInTop10Len": true,
+  "expectedCompletionWord": "Grade",
+  "expectedCompletionLine": "Grade in enrolled.c",
+  "elapsedTimeInMs": 23141.334542
+}

@@ -235,7 +235,7 @@ public class AlloyEvaluation {
 		try {
 			var type = world.parseOneExpressionFromString(expression).type();
 			var degree = type.arity() == 1 ? SuggestionTerm.Degree.SIG : SuggestionTerm.Degree.RELATION;
-			var startingSuggestion = new SuggestionTerm(expression, type, degree);
+			var startingSuggestion = new SuggestionTerm(expression, type, degree, CompatUtils.createExpression(expression, type));
 			var leftHandSideType = world.parseOneExpressionFromString(leftHandSideExpr).type();
 			var suggestions = relationalGraphSuggestions.buildForwardSuggestionWithDestinationType(startingSuggestion,
 					leftHandSideType,

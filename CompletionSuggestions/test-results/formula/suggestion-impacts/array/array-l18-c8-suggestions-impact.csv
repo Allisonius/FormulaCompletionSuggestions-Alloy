@@ -1,1 +1,6 @@
 modelname,filename,position-line,position-character,incompleteline,removedtext,baseline,suggestionedExpression,A_iff_B,A_and_B,not_A_and_B,A_and_not_B,not_A_and_not_B,suggestionImpactTime
+array,completion/array-complete.als,18,8,"Array.","length >= 0","{}","  Array.length",,,,,,10.503792
+array,completion/array-complete.als,18,8,"Array.","length >= 0","{}","  Array.i2e",,,,,,10.503792
+array,completion/array-complete.als,18,8,"Array.","length >= 0","{}","  Array.i2e.Element",,,,,,10.503792
+array,completion/array-complete.als,18,8,"Array.","length >= 0","{}","  Array.~i2e",,,,,,10.503792
+array,completion/array-complete.als,18,8,"Array.","length >= 0","{}","  Array.i2e.~i2e",,,,,,10.503792

@@ -1,0 +1,23 @@
+Model name: git-redacted
+Filename: completion/git-complete-redacted.als
+Offset: 1100
+Term: .
+Vscode Position: line=66 character=27
+----------------------------------
+67 | 	all n : Node | n not in n.
+----------------------------------
+Expected Completion word: parent
+Expected Completion line: ^parent
+Suggestion exists: true
+Completion List:
+# Suggestion 	 Exact 	 Syntactic 	 Semantic
+$1. parent 	 true 	 true 	 true
+$2. samepath 	 false 	 false 	 false
+$3. ~samepath 	 false 	 false 	 false
+$4. parent.^parent 	 false 	 false 	 false
+$5. samepath.*samepath 	 false 	 false 	 false
+
+Time taken: 73293.009417
+Preprocessing time: N/A
+Parsing time: N/A
+Generation time: N/A

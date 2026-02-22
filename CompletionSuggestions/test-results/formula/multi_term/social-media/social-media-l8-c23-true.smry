@@ -6,6 +6,9 @@ Vscode Position: line=7 character=23
 ----------------------------------
 8 | sig Influencer extends 
 ----------------------------------
+Expected Completion word: User
+Expected Completion line: User {}
+Suggestion exists: true
 Completion List:
 # Suggestion 	 Exact 	 Syntactic 	 Semantic
 $1. Ad 	 false 	 false 	 false
@@ -17,20 +20,8 @@ $6. Int 	 false 	 false 	 false
 $7. String 	 false 	 false 	 false
 $8. none 	 false 	 false 	 false
 $9. univ 	 false 	 false 	 false
-Expected Completion word: User
-Expected Completion line: User {}
-Suggestion exists: true
 
-Suggestion in top 1 = false 
-Suggestion in top 5 = true 
-Suggestion in top 10 = true 
-
-Suggestion in top 1 (Alpha) = false
-Suggestion in top 5 (Alpha) = false
-Suggestion in top 10 (Alpha) = true
-
-Suggestion in top 1 (Len) = false
-Suggestion in top 5 (Len) = true
-Suggestion in top 10 (Len) = true
-
-Time taken: 26.9325
+Time taken: 14.447791
+Preprocessing time: 4
+Parsing time: 2
+Generation time: 0

@@ -1,0 +1,50 @@
+Model name: courses-v2
+Filename: completion/courses-v2-complete.als
+Offset: 1434
+Term:  - 
+Vscode Position: line=62 character=43
+----------------------------------
+63 | 	all p : Person | no (p.teaches.~teaches - 
+----------------------------------
+Expected Completion word: p
+Expected Completion line: p) & p.teaches.~enrolled
+Suggestion exists: false
+Completion List:
+# Suggestion 	 Exact 	 Syntactic 	 Semantic
+$1. p.enrolled 	 false 	 false 	 false
+$2. p.projects 	 false 	 false 	 false
+$3. p.teaches 	 false 	 false 	 false
+$4. p.teaches.projects 	 false 	 false 	 false
+$5. p.teaches.grades 	 false 	 false 	 false
+$6. p.teaches.projects + univ 	 false 	 false 	 false
+$7. p.teaches.projects & univ 	 false 	 false 	 false
+$8. p.teaches.projects - univ 	 false 	 false 	 false
+$9. p.teaches.projects.~projects 	 false 	 undefined 	 undefined
+$10. p.teaches.projects.^projects 	 false 	 undefined 	 undefined
+$11. p.teaches.projects.*projects 	 false 	 undefined 	 undefined
+$12. p.teaches.grades 	 false 	 false 	 false
+$13. p.teaches.grades.Grade 	 false 	 false 	 false
+$14. p.teaches.grades.Person 	 false 	 false 	 false
+$15. p.teaches.grades + univ 	 false 	 undefined 	 undefined
+$16. p.teaches.grades & univ 	 false 	 undefined 	 undefined
+$17. p.teaches.grades - univ 	 false 	 undefined 	 undefined
+$18. p.teaches.grades.~grades 	 false 	 undefined 	 undefined
+$19. p.teaches.grades.^grades 	 false 	 undefined 	 undefined
+$20. p.teaches.grades.*grades 	 false 	 undefined 	 undefined
+$21. p.teaches + univ 	 false 	 false 	 false
+$22. p.teaches & univ 	 false 	 false 	 false
+$23. p.teaches - univ 	 false 	 false 	 false
+$24. p.teaches.~teaches 	 false 	 false 	 false
+$25. p.teaches.~teaches.projects 	 false 	 false 	 false
+$26. p.teaches.~teaches.grades 	 false 	 false 	 false
+$27. p.teaches.~teaches + univ 	 false 	 false 	 false
+$28. p.teaches.~teaches & univ 	 false 	 false 	 false
+$29. p.teaches.~teaches - univ 	 false 	 false 	 false
+$30. p.teaches.~teaches.^teaches 	 false 	 false 	 false
+$31. p.teaches.~teaches.*teaches 	 false 	 false 	 false
+$32. univ 	 false 	 false 	 false
+
+Time taken: 7811.783792
+Preprocessing time: N/A
+Parsing time: N/A
+Generation time: N/A

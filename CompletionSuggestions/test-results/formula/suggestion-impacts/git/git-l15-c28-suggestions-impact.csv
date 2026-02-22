@@ -1,0 +1,15 @@
+modelname,filename,position-line,position-character,incompleteline,removedtext,baseline,suggestionedExpression,A_iff_B,A_and_B,not_A_and_B,A_and_not_B,not_A_and_not_B,suggestionImpactTime
+git,completion/git-sig.als,15,28,"belongsTo : Object lone ->","Commit","{}","\tbelongsTo : Object lone -> Blob",,,,,,16.73525
+git,completion/git-sig.als,15,28,"belongsTo : Object lone ->","Commit","{}","\tbelongsTo : Object lone -> Commit",,,,,,16.73525
+git,completion/git-sig.als,15,28,"belongsTo : Object lone ->","Commit","{}","\tbelongsTo : Object lone -> Dir",,,,,,16.73525
+git,completion/git-sig.als,15,28,"belongsTo : Object lone ->","Commit","{}","\tbelongsTo : Object lone -> File",,,,,,16.73525
+git,completion/git-sig.als,15,28,"belongsTo : Object lone ->","Commit","{}","\tbelongsTo : Object lone -> Name",,,,,,16.73525
+git,completion/git-sig.als,15,28,"belongsTo : Object lone ->","Commit","{}","\tbelongsTo : Object lone -> Node",,,,,,16.73525
+git,completion/git-sig.als,15,28,"belongsTo : Object lone ->","Commit","{}","\tbelongsTo : Object lone -> Object",,,,,,16.73525
+git,completion/git-sig.als,15,28,"belongsTo : Object lone ->","Commit","{}","\tbelongsTo : Object lone -> Root",,,,,,16.73525
+git,completion/git-sig.als,15,28,"belongsTo : Object lone ->","Commit","{}","\tbelongsTo : Object lone -> State",,,,,,16.73525
+git,completion/git-sig.als,15,28,"belongsTo : Object lone ->","Commit","{}","\tbelongsTo : Object lone -> Tree",,,,,,16.73525
+git,completion/git-sig.als,15,28,"belongsTo : Object lone ->","Commit","{}","\tbelongsTo : Object lone -> Int",,,,,,16.73525
+git,completion/git-sig.als,15,28,"belongsTo : Object lone ->","Commit","{}","\tbelongsTo : Object lone -> String",,,,,,16.73525
+git,completion/git-sig.als,15,28,"belongsTo : Object lone ->","Commit","{}","\tbelongsTo : Object lone -> none",,,,,,16.73525
+git,completion/git-sig.als,15,28,"belongsTo : Object lone ->","Commit","{}","\tbelongsTo : Object lone -> univ",,,,,,16.73525

@@ -6,6 +6,9 @@ Vscode Position: line=8 character=22
 ----------------------------------
 9 | 	all s:State | some s.
 ----------------------------------
+Expected Completion word: trans
+Expected Completion line: trans
+Suggestion exists: true
 Completion List:
 # Suggestion 	 Exact 	 Syntactic 	 Semantic
 $1. trans.s 	 false 	 undefined 	 undefined
@@ -13,20 +16,9 @@ $2. trans.Init 	 false 	 undefined 	 undefined
 $3. trans.State 	 false 	 undefined 	 undefined
 $4. trans 	 true 	 undefined 	 undefined
 $5. trans.univ 	 false 	 undefined 	 undefined
-Expected Completion word: trans
-Expected Completion line: trans
-Suggestion exists: true
+$6.  	 false 	 undefined 	 undefined
 
-Suggestion in top 1 = false 
-Suggestion in top 5 = true 
-Suggestion in top 10 = true 
-
-Suggestion in top 1 (Alpha) = true
-Suggestion in top 5 (Alpha) = true
-Suggestion in top 10 (Alpha) = true
-
-Suggestion in top 1 (Len) = true
-Suggestion in top 5 (Len) = true
-Suggestion in top 10 (Len) = true
-
-Time taken: 27.84925
+Time taken: 55.741542
+Preprocessing time: 13
+Parsing time: 5
+Generation time: 7

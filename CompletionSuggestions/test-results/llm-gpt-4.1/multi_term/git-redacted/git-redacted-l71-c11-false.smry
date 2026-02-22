@@ -1,0 +1,32 @@
+Model name: git-redacted
+Filename: completion/git-complete-redacted.als
+Offset: 1167
+Term: .
+Vscode Position: line=70 character=11
+----------------------------------
+71 | 	(*parent).
+----------------------------------
+Expected Completion word: n
+Expected Completion line: n & File & current.s
+Suggestion exists: false
+Completion List:
+# Suggestion 	 Exact 	 Syntactic 	 Semantic
+$1. parent 	 false 	 undefined 	 undefined
+$2. parent^ 	 false 	 undefined 	 undefined
+$3. parent* 	 false 	 undefined 	 undefined
+$4. parent.~parent 	 false 	 undefined 	 undefined
+$5. parent & univ 	 false 	 undefined 	 undefined
+$6. parent + univ 	 false 	 undefined 	 undefined
+$7. parent.name 	 false 	 undefined 	 undefined
+$8. parent.current 	 false 	 undefined 	 undefined
+$9. parent.samepath 	 false 	 undefined 	 undefined
+$10. parent.belongsTo 	 false 	 undefined 	 undefined
+$11. parent.parent 	 false 	 undefined 	 undefined
+$12. parent.content 	 false 	 undefined 	 undefined
+$13. parent.index 	 false 	 undefined 	 undefined
+$14. parent.tbc 	 false 	 undefined 	 undefined
+
+Time taken: 4607.786083
+Preprocessing time: N/A
+Parsing time: N/A
+Generation time: N/A

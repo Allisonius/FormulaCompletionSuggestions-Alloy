@@ -1,0 +1,42 @@
+Model name: git-redacted
+Filename: completion/git-sig.als
+Offset: 44
+Term:  -> 
+Vscode Position: line=3 character=19
+----------------------------------
+4 |  	refs : Commit -> 
+----------------------------------
+Expected Completion word: State
+Expected Completion line: State,
+Suggestion exists: false
+Completion List:
+# Suggestion 	 Exact 	 Syntactic 	 Semantic
+$1. Commit 	 false 	 false 	 false
+$2. Commit.~previous 	 false 	 false 	 false
+$3. Commit.tree 	 false 	 false 	 false
+$4. Commit.tree.content 	 false 	 false 	 false
+$5. Commit.tree.content.Blob 	 false 	 false 	 false
+$6. Commit.tree.content.Tree 	 false 	 false 	 false
+$7. Commit.tree.content.~content 	 false 	 false 	 false
+$8. Commit.tree.content^ 	 false 	 undefined 	 undefined
+$9. Commit.tree.content* 	 false 	 undefined 	 undefined
+$10. Commit.tree.content + univ 	 false 	 false 	 false
+$11. Commit.tree.content & univ 	 false 	 false 	 false
+$12. Commit.tree.content - univ 	 false 	 false 	 false
+$13. Commit.tree.content <: Blob 	 false 	 false 	 false
+$14. Commit.tree.content <: Tree 	 false 	 false 	 false
+$15. Commit.tree.content.~content^ 	 false 	 undefined 	 undefined
+$16. Commit.tree.content.~content* 	 false 	 undefined 	 undefined
+$17. Commit.tree.content.~content + univ 	 false 	 false 	 false
+$18. Commit.tree.content.~content & univ 	 false 	 false 	 false
+$19. Commit.tree.content.~content - univ 	 false 	 false 	 false
+$20. Commit.tree.content.~content <: Name 	 false 	 false 	 false
+$21. Commit.tree.content.~content <: Blob 	 false 	 false 	 false
+$22. Commit.tree.content.~content <: Tree 	 false 	 false 	 false
+$23. Commit.tree.content.~content <: univ 	 false 	 false 	 false
+$24. Commit.tree.content.~content.~content 	 false 	 false 	 false
+
+Time taken: 6875.785791
+Preprocessing time: N/A
+Parsing time: N/A
+Generation time: N/A

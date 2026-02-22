@@ -1,0 +1,238 @@
+{
+  "modelName": "array",
+  "filename": "completion/array-complete.als",
+  "offset": 616,
+  "term": ".",
+  "line": 31,
+  "character": 17,
+  "incompletionLine": "all idx: Array.",
+  "completionList": "idx.length, idx.i2e, ~idx.i2e, idx.i2e & Element, idx.i2e + Element, idx.i2e.Element, idx.i2e & univ, idx.i2e + univ",
+  "completionGenerated": true,
+  "suggestionExists": false,
+  "suggestionInTop1": false,
+  "suggestionInTop5": false,
+  "suggestionInTop10": false,
+  "suggestionInTop1Alpha": false,
+  "suggestionInTop5Alpha": false,
+  "suggestionInTop10Alpha": false,
+  "suggestionInTop1Len": false,
+  "suggestionInTop5Len": false,
+  "suggestionInTop10Len": false,
+  "expectedCompletionWord": "i2e.",
+  "expectedCompletionLine": "i2e.",
+  "elapsedTimeInMs": 15088.316667,
+  "evaluationResult": [
+    {
+      "suggestion": "idx.length",
+      "rank": 1,
+      "doesMatchExactly": false,
+      "startsWithSuggestion": false,
+      "doesCompile": false,
+      "expressionComponents": [
+        {
+          "label": "idx",
+          "type": "VARIABLE"
+        },
+        {
+          "label": ".",
+          "type": "OPERATOR"
+        },
+        {
+          "label": "length",
+          "type": "RELATION"
+        }
+      ]
+    },
+    {
+      "suggestion": "idx.i2e",
+      "rank": 2,
+      "doesMatchExactly": false,
+      "startsWithSuggestion": false,
+      "doesCompile": false,
+      "expressionComponents": [
+        {
+          "label": "idx",
+          "type": "VARIABLE"
+        },
+        {
+          "label": ".",
+          "type": "OPERATOR"
+        },
+        {
+          "label": "i2e",
+          "type": "RELATION"
+        }
+      ]
+    },
+    {
+      "suggestion": "~idx.i2e",
+      "rank": 3,
+      "doesMatchExactly": false,
+      "startsWithSuggestion": false,
+      "doesCompile": false,
+      "expressionComponents": [
+        {
+          "label": "~",
+          "type": "OPERATOR"
+        },
+        {
+          "label": "idx",
+          "type": "VARIABLE"
+        },
+        {
+          "label": ".",
+          "type": "OPERATOR"
+        },
+        {
+          "label": "i2e",
+          "type": "RELATION"
+        }
+      ]
+    },
+    {
+      "suggestion": "idx.i2e & Element",
+      "rank": 4,
+      "doesMatchExactly": false,
+      "startsWithSuggestion": false,
+      "doesCompile": false,
+      "expressionComponents": [
+        {
+          "label": "idx",
+          "type": "VARIABLE"
+        },
+        {
+          "label": ".",
+          "type": "OPERATOR"
+        },
+        {
+          "label": "i2e",
+          "type": "RELATION"
+        },
+        {
+          "label": "&",
+          "type": "OPERATOR"
+        },
+        {
+          "label": "Element",
+          "type": "SIGNATURE"
+        }
+      ]
+    },
+    {
+      "suggestion": "idx.i2e + Element",
+      "rank": 5,
+      "doesMatchExactly": false,
+      "startsWithSuggestion": false,
+      "doesCompile": false,
+      "expressionComponents": [
+        {
+          "label": "idx",
+          "type": "VARIABLE"
+        },
+        {
+          "label": ".",
+          "type": "OPERATOR"
+        },
+        {
+          "label": "i2e",
+          "type": "RELATION"
+        },
+        {
+          "label": "+",
+          "type": "OPERATOR"
+        },
+        {
+          "label": "Element",
+          "type": "SIGNATURE"
+        }
+      ]
+    },
+    {
+      "suggestion": "idx.i2e.Element",
+      "rank": 6,
+      "doesMatchExactly": false,
+      "startsWithSuggestion": false,
+      "doesCompile": false,
+      "expressionComponents": [
+        {
+          "label": "idx",
+          "type": "VARIABLE"
+        },
+        {
+          "label": ".",
+          "type": "OPERATOR"
+        },
+        {
+          "label": "i2e",
+          "type": "RELATION"
+        },
+        {
+          "label": ".",
+          "type": "OPERATOR"
+        },
+        {
+          "label": "Element",
+          "type": "SIGNATURE"
+        }
+      ]
+    },
+    {
+      "suggestion": "idx.i2e & univ",
+      "rank": 7,
+      "doesMatchExactly": false,
+      "startsWithSuggestion": false,
+      "doesCompile": false,
+      "expressionComponents": [
+        {
+          "label": "idx",
+          "type": "VARIABLE"
+        },
+        {
+          "label": ".",
+          "type": "OPERATOR"
+        },
+        {
+          "label": "i2e",
+          "type": "RELATION"
+        },
+        {
+          "label": "&",
+          "type": "OPERATOR"
+        },
+        {
+          "label": "univ",
+          "type": "CONSTANT"
+        }
+      ]
+    },
+    {
+      "suggestion": "idx.i2e + univ",
+      "rank": 8,
+      "doesMatchExactly": false,
+      "startsWithSuggestion": false,
+      "doesCompile": false,
+      "expressionComponents": [
+        {
+          "label": "idx",
+          "type": "VARIABLE"
+        },
+        {
+          "label": ".",
+          "type": "OPERATOR"
+        },
+        {
+          "label": "i2e",
+          "type": "RELATION"
+        },
+        {
+          "label": "+",
+          "type": "OPERATOR"
+        },
+        {
+          "label": "univ",
+          "type": "CONSTANT"
+        }
+      ]
+    }
+  ]
+}

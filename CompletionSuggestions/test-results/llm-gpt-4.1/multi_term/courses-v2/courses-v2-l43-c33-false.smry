@@ -1,0 +1,43 @@
+Model name: courses-v2
+Filename: completion/courses-v2-complete.als
+Offset: 762
+Term: .
+Vscode Position: line=42 character=33
+----------------------------------
+43 | 	all p : Person - Student | no p.
+----------------------------------
+Expected Completion word: projects
+Expected Completion line: projects and all p : Project | some s : Student | p in s.projects
+Suggestion exists: false
+Completion List:
+# Suggestion 	 Exact 	 Syntactic 	 Semantic
+$1. p.teaches 	 false 	 undefined 	 undefined
+$2. p.enrolled 	 false 	 undefined 	 undefined
+$3. p.projects 	 false 	 undefined 	 undefined
+$4. p.teaches.projects 	 false 	 undefined 	 undefined
+$5. p.teaches.grades 	 false 	 undefined 	 undefined
+$6. p.teaches.projects + univ 	 false 	 undefined 	 undefined
+$7. p.teaches.projects & univ 	 false 	 undefined 	 undefined
+$8. p.teaches.projects^ 	 false 	 undefined 	 undefined
+$9. p.teaches.projects* 	 false 	 undefined 	 undefined
+$10. p.teaches.grades 	 false 	 undefined 	 undefined
+$11. p.teaches.grades^ 	 false 	 undefined 	 undefined
+$12. p.teaches.grades* 	 false 	 undefined 	 undefined
+$13. p.enrolled.projects 	 false 	 undefined 	 undefined
+$14. p.enrolled.grades 	 false 	 undefined 	 undefined
+$15. p.enrolled.projects + univ 	 false 	 undefined 	 undefined
+$16. p.enrolled.projects & univ 	 false 	 undefined 	 undefined
+$17. p.enrolled.projects^ 	 false 	 undefined 	 undefined
+$18. p.enrolled.projects* 	 false 	 undefined 	 undefined
+$19. p.enrolled.grades 	 false 	 undefined 	 undefined
+$20. p.enrolled.grades^ 	 false 	 undefined 	 undefined
+$21. p.enrolled.grades* 	 false 	 undefined 	 undefined
+$22. p.projects + univ 	 false 	 undefined 	 undefined
+$23. p.projects & univ 	 false 	 undefined 	 undefined
+$24. p.projects^ 	 false 	 undefined 	 undefined
+$25. p.projects* 	 false 	 undefined 	 undefined
+
+Time taken: 5422.707542
+Preprocessing time: N/A
+Parsing time: N/A
+Generation time: N/A

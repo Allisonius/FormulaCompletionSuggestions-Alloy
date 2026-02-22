@@ -6,6 +6,9 @@ Vscode Position: line=72 character=31
 ----------------------------------
 73 | 	all p : Person | some ^Tutors.
 ----------------------------------
+Expected Completion word: p
+Expected Completion line: p & Teacher
+Suggestion exists: true
 Completion List:
 # Suggestion 	 Exact 	 Syntactic 	 Semantic
 $1. p 	 true 	 undefined 	 undefined
@@ -42,22 +45,11 @@ $31. univ.Tutors 	 false 	 undefined 	 undefined
 $32. univ.~Teaches 	 false 	 undefined 	 undefined
 $33. univ.~Tutors 	 false 	 undefined 	 undefined
 $34. univ.^Tutors 	 false 	 undefined 	 undefined
-$35. univ 	 false 	 undefined 	 undefined
-$36. univ.*Tutors 	 false 	 undefined 	 undefined
-Expected Completion word: p
-Expected Completion line: p & Teacher
-Suggestion exists: true
+$35.  	 false 	 undefined 	 undefined
+$36. univ 	 false 	 undefined 	 undefined
+$37. univ.*Tutors 	 false 	 undefined 	 undefined
 
-Suggestion in top 1 = true 
-Suggestion in top 5 = true 
-Suggestion in top 10 = true 
-
-Suggestion in top 1 (Alpha) = true
-Suggestion in top 5 (Alpha) = true
-Suggestion in top 10 (Alpha) = true
-
-Suggestion in top 1 (Len) = true
-Suggestion in top 5 (Len) = true
-Suggestion in top 10 (Len) = true
-
-Time taken: 10.372084
+Time taken: 23.058792
+Preprocessing time: 3
+Parsing time: 1
+Generation time: 2

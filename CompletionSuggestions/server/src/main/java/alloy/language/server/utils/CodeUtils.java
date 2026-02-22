@@ -28,7 +28,7 @@ import java.util.stream.Collectors;
 import java.util.stream.IntStream;
 
 public class CodeUtils {
-    private static final Logger logger = org.slf4j.LoggerFactory.getLogger(CodeUtils.class);
+	private static final Logger logger = org.slf4j.LoggerFactory.getLogger(CodeUtils.class);
 
 	public static final Set<String> LOGICAL_OPERATORS = Set.of("and", "or", "implies", "iff", "not", "&&", "||", "=>", "<=>");
 	public static final Set<String> SET_OPERATORS = Set.of("in", "+", "&", "-", ".", "=");
@@ -122,25 +122,29 @@ public class CodeUtils {
 	                                                                 CompModule world) {
 		List<SuggestionTerm> suggestions = new ArrayList<>();
 		for (var quantifier : quantifiers.entrySet()) {
-			var type = getTypeOfExpression(quantifier.getValue(), world);
-			if (type != null) {
-				var expression = CompatUtils.createExpression(quantifier.getKey(), type);
-				suggestions.add(new SuggestionTerm(quantifier.getKey(), type, SuggestionTerm.Degree.QUANTIFIER,
-				                                   expression));
-				if (type.arity() == 2) {
-					suggestions.add(new SuggestionTerm("~" + quantifier.getKey(), CodeUtils.getType(world, "~" + type),
-					                                   SuggestionTerm.Degree.EXTENDED_RELATION_1,
-					                                   CompatUtils.buildExpression("~", expression)));
-					var relationTypes = type.fold().get(0);
-					if (CodeUtils.doesTypesMatch(relationTypes.get(0),relationTypes.get(1))) {
-						suggestions.add(
-								new SuggestionTerm("^" + quantifier.getKey(), type,
-								                   SuggestionTerm.Degree.EXTENDED_RELATION_2, CompatUtils.buildExpression("^", expression)));
-						suggestions.add(
-								new SuggestionTerm("*" + quantifier.getKey(), type,
-								                   SuggestionTerm.Degree.EXTENDED_RELATION_3, CompatUtils.buildExpression("*", expression)));
+			try {
+				var type = getTypeOfExpression(quantifier.getValue(), world);
+				if (type != null) {
+					var expression = CompatUtils.createExpression(quantifier.getKey(), type);
+					suggestions.add(new SuggestionTerm(quantifier.getKey(), type, SuggestionTerm.Degree.QUANTIFIER,
+							expression));
+					if (type.arity() == 2) {
+						suggestions.add(new SuggestionTerm("~" + quantifier.getKey(), CodeUtils.getType(world, "~" + type),
+								SuggestionTerm.Degree.EXTENDED_RELATION_1,
+								CompatUtils.buildExpression("~", expression)));
+						var relationTypes = type.fold().get(0);
+						if (CodeUtils.doesTypesMatch(relationTypes.get(0), relationTypes.get(1))) {
+							suggestions.add(
+									new SuggestionTerm("^" + quantifier.getKey(), type,
+											SuggestionTerm.Degree.EXTENDED_RELATION_2, CompatUtils.buildExpression("^", expression)));
+							suggestions.add(
+									new SuggestionTerm("*" + quantifier.getKey(), type,
+											SuggestionTerm.Degree.EXTENDED_RELATION_3, CompatUtils.buildExpression("*", expression)));
+						}
 					}
 				}
+			} catch (Exception e) {
+				logger.error("Error while processing quantifier {}: {}", quantifier.getKey(), e.getMessage(), e);
 			}
 		}
 		return suggestions;
@@ -190,7 +194,30 @@ public class CodeUtils {
 			}
 		}
 
+		if (doesTypesHaveCommonAncestor(left, right)) {
+			return true;
+		}
+
 		return left.equals(right);
+	}
+
+	public static boolean doesTypesHaveCommonAncestor(Sig.PrimSig left, Sig.PrimSig right) {
+		var leftAncestors = new ArrayList<Sig.PrimSig>();
+		var parent = left;
+		while (parent != null && !parent.toString().equals("univ")) {
+			leftAncestors.add(parent);
+			parent = parent.parent;
+		}
+
+		parent = right;
+		while (parent != null && !parent.toString().equals("univ")) {
+			if (leftAncestors.contains(parent)) {
+				return true;
+			}
+			parent = parent.parent;
+		}
+
+		return false;
 	}
 
 	public static String findParent(Type type) {

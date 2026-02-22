@@ -6,6 +6,9 @@ Vscode Position: line=44 character=21
 ----------------------------------
 45 |   all n: State | FSM.
 ----------------------------------
+Expected Completion word: stop
+Expected Completion line: stop in n.*transition 
+Suggestion exists: true
 Completion List:
 # Suggestion 	 Exact 	 Syntactic 	 Semantic
 $1. start.n 	 false 	 undefined 	 undefined
@@ -26,20 +29,9 @@ $15. stop.transition 	 false 	 undefined 	 undefined
 $16. stop.univ 	 false 	 undefined 	 undefined
 $17. stop.~start 	 false 	 undefined 	 undefined
 $18. stop.~transition 	 false 	 undefined 	 undefined
-Expected Completion word: stop
-Expected Completion line: stop in n.*transition 
-Suggestion exists: true
+$19.  	 false 	 undefined 	 undefined
 
-Suggestion in top 1 = false 
-Suggestion in top 5 = false 
-Suggestion in top 10 = false 
-
-Suggestion in top 1 (Alpha) = false
-Suggestion in top 5 (Alpha) = false
-Suggestion in top 10 (Alpha) = true
-
-Suggestion in top 1 (Len) = true
-Suggestion in top 5 (Len) = true
-Suggestion in top 10 (Len) = true
-
-Time taken: 15.462583
+Time taken: 6.413791
+Preprocessing time: 1
+Parsing time: 0
+Generation time: 1

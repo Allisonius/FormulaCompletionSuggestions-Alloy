@@ -1,0 +1,27 @@
+modelname,filename,position-line,position-character,incompleteline,removedtext,baseline,suggestionedExpression,A_iff_B,A_and_B,not_A_and_B,A_and_not_B,not_A_and_not_B,suggestionImpactTime
+projeto-logica,completion/ProjetoLogica-sig.als,54,37,"sig ComInternet, SemInternet extends","StatusInternet{}","{}","sig ComInternet, SemInternet extends Cadastrado",,,,,,9.754541
+projeto-logica,completion/ProjetoLogica-sig.als,54,37,"sig ComInternet, SemInternet extends","StatusInternet{}","{}","sig ComInternet, SemInternet extends DataDeNascimento",,,,,,9.754541
+projeto-logica,completion/ProjetoLogica-sig.als,54,37,"sig ComInternet, SemInternet extends","StatusInternet{}","{}","sig ComInternet, SemInternet extends Email",,,,,,9.754541
+projeto-logica,completion/ProjetoLogica-sig.als,54,37,"sig ComInternet, SemInternet extends","StatusInternet{}","{}","sig ComInternet, SemInternet extends Linux",,,,,,9.754541
+projeto-logica,completion/ProjetoLogica-sig.als,54,37,"sig ComInternet, SemInternet extends","StatusInternet{}","{}","sig ComInternet, SemInternet extends Login",,,,,,9.754541
+projeto-logica,completion/ProjetoLogica-sig.als,54,37,"sig ComInternet, SemInternet extends","StatusInternet{}","{}","sig ComInternet, SemInternet extends Medico",,,,,,9.754541
+projeto-logica,completion/ProjetoLogica-sig.als,54,37,"sig ComInternet, SemInternet extends","StatusInternet{}","{}","sig ComInternet, SemInternet extends NaoCadastrado",,,,,,9.754541
+projeto-logica,completion/ProjetoLogica-sig.als,54,37,"sig ComInternet, SemInternet extends","StatusInternet{}","{}","sig ComInternet, SemInternet extends Nome",,,,,,9.754541
+projeto-logica,completion/ProjetoLogica-sig.als,54,37,"sig ComInternet, SemInternet extends","StatusInternet{}","{}","sig ComInternet, SemInternet extends Paciente",,,,,,9.754541
+projeto-logica,completion/ProjetoLogica-sig.als,54,37,"sig ComInternet, SemInternet extends","StatusInternet{}","{}","sig ComInternet, SemInternet extends Senha",,,,,,9.754541
+projeto-logica,completion/ProjetoLogica-sig.als,54,37,"sig ComInternet, SemInternet extends","StatusInternet{}","{}","sig ComInternet, SemInternet extends Servidor",,,,,,9.754541
+projeto-logica,completion/ProjetoLogica-sig.als,54,37,"sig ComInternet, SemInternet extends","StatusInternet{}","{}","sig ComInternet, SemInternet extends Sintoma",,,,,,9.754541
+projeto-logica,completion/ProjetoLogica-sig.als,54,37,"sig ComInternet, SemInternet extends","StatusInternet{}","{}","sig ComInternet, SemInternet extends SistemaCliente",,,,,,9.754541
+projeto-logica,completion/ProjetoLogica-sig.als,54,37,"sig ComInternet, SemInternet extends","StatusInternet{}","{}","sig ComInternet, SemInternet extends SistemaOperacional",,,,,,9.754541
+projeto-logica,completion/ProjetoLogica-sig.als,54,37,"sig ComInternet, SemInternet extends","StatusInternet{}","{}","sig ComInternet, SemInternet extends StatusAcionado",,,,,,9.754541
+projeto-logica,completion/ProjetoLogica-sig.als,54,37,"sig ComInternet, SemInternet extends","StatusInternet{}","{}","sig ComInternet, SemInternet extends StatusCadastro",,,,,,9.754541
+projeto-logica,completion/ProjetoLogica-sig.als,54,37,"sig ComInternet, SemInternet extends","StatusInternet{}","{}","sig ComInternet, SemInternet extends StatusInternet",,,,,,9.754541
+projeto-logica,completion/ProjetoLogica-sig.als,54,37,"sig ComInternet, SemInternet extends","StatusInternet{}","{}","sig ComInternet, SemInternet extends Suporte",,,,,,9.754541
+projeto-logica,completion/ProjetoLogica-sig.als,54,37,"sig ComInternet, SemInternet extends","StatusInternet{}","{}","sig ComInternet, SemInternet extends SuporteAcionado",,,,,,9.754541
+projeto-logica,completion/ProjetoLogica-sig.als,54,37,"sig ComInternet, SemInternet extends","StatusInternet{}","{}","sig ComInternet, SemInternet extends SuporteNaoAcionado",,,,,,9.754541
+projeto-logica,completion/ProjetoLogica-sig.als,54,37,"sig ComInternet, SemInternet extends","StatusInternet{}","{}","sig ComInternet, SemInternet extends Time",,,,,,9.754541
+projeto-logica,completion/ProjetoLogica-sig.als,54,37,"sig ComInternet, SemInternet extends","StatusInternet{}","{}","sig ComInternet, SemInternet extends ordering/Ord",,,,,,9.754541
+projeto-logica,completion/ProjetoLogica-sig.als,54,37,"sig ComInternet, SemInternet extends","StatusInternet{}","{}","sig ComInternet, SemInternet extends Int",,,,,,9.754541
+projeto-logica,completion/ProjetoLogica-sig.als,54,37,"sig ComInternet, SemInternet extends","StatusInternet{}","{}","sig ComInternet, SemInternet extends String",,,,,,9.754541
+projeto-logica,completion/ProjetoLogica-sig.als,54,37,"sig ComInternet, SemInternet extends","StatusInternet{}","{}","sig ComInternet, SemInternet extends none",,,,,,9.754541
+projeto-logica,completion/ProjetoLogica-sig.als,54,37,"sig ComInternet, SemInternet extends","StatusInternet{}","{}","sig ComInternet, SemInternet extends univ",,,,,,9.754541

@@ -6,6 +6,9 @@ Vscode Position: line=11 character=34
 ----------------------------------
 12 |   no l.header or some n: l.header.
 ----------------------------------
+Expected Completion word: link
+Expected Completion line: *link | no n.link
+Suggestion exists: true
 Completion List:
 # Suggestion 	 Exact 	 Syntactic 	 Semantic
 $1. ~header.l 	 false 	 undefined 	 undefined
@@ -26,22 +29,11 @@ $15. ~link.univ 	 false 	 undefined 	 undefined
 $16. ~link.~header 	 false 	 undefined 	 undefined
 $17. ^link 	 false 	 undefined 	 undefined
 $18. ^link.univ 	 false 	 undefined 	 undefined
-$19. *link 	 false 	 undefined 	 undefined
-$20. *link.univ 	 false 	 undefined 	 undefined
-Expected Completion word: *link
-Expected Completion line: *link | no n.link
-Suggestion exists: true
+$19.  	 false 	 undefined 	 undefined
+$20. *link 	 false 	 undefined 	 undefined
+$21. *link.univ 	 false 	 undefined 	 undefined
 
-Suggestion in top 1 = false 
-Suggestion in top 5 = false 
-Suggestion in top 10 = false 
-
-Suggestion in top 1 (Alpha) = true
-Suggestion in top 5 (Alpha) = true
-Suggestion in top 10 (Alpha) = true
-
-Suggestion in top 1 (Len) = false
-Suggestion in top 5 (Len) = true
-Suggestion in top 10 (Len) = true
-
-Time taken: 10.434458
+Time taken: 4.589375
+Preprocessing time: 1
+Parsing time: 0
+Generation time: 1

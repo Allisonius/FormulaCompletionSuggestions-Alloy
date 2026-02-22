@@ -6,6 +6,9 @@ Vscode Position: line=15 character=21
 ----------------------------------
 16 | sig Resource extends 
 ----------------------------------
+Expected Completion word: Product
+Expected Completion line: Product {}
+Suggestion exists: true
 Completion List:
 # Suggestion 	 Exact 	 Syntactic 	 Semantic
 $1. Component 	 false 	 false 	 false
@@ -17,20 +20,8 @@ $6. Int 	 false 	 false 	 false
 $7. String 	 false 	 false 	 false
 $8. none 	 false 	 false 	 false
 $9. univ 	 false 	 false 	 false
-Expected Completion word: Product
-Expected Completion line: Product {}
-Suggestion exists: true
 
-Suggestion in top 1 = false 
-Suggestion in top 5 = true 
-Suggestion in top 10 = true 
-
-Suggestion in top 1 (Alpha) = false
-Suggestion in top 5 (Alpha) = false
-Suggestion in top 10 (Alpha) = true
-
-Suggestion in top 1 (Len) = false
-Suggestion in top 5 (Len) = false
-Suggestion in top 10 (Len) = true
-
-Time taken: 27.22575
+Time taken: 8.405625
+Preprocessing time: 0
+Parsing time: 0
+Generation time: 0

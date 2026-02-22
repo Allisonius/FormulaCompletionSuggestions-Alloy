@@ -1,0 +1,195 @@
+{
+  "modelName": "classroom-fol",
+  "filename": "completion/classroom-fol-complete.als",
+  "offset": 1054,
+  "term": ".",
+  "line": 69,
+  "character": 65,
+  "incompletionLine": "all c: Class, p: Person | p in (c.Groups).Group implies Teaches.",
+  "completionList": "Groups, Groups.Group, Groups.Person, Groups.Group^, Groups.Group*, Groups.Person^, Groups.Person*, ~Teaches, univ",
+  "evaluationResult": [
+    {
+      "suggestion": "Groups",
+      "rank": 1,
+      "doesMatchExactly": false,
+      "startsWithSuggestion": false,
+      "doesCompile": false,
+      "expressionComponents": [
+        {
+          "label": "Groups",
+          "type": "RELATION"
+        }
+      ]
+    },
+    {
+      "suggestion": "Groups.Group",
+      "rank": 2,
+      "doesMatchExactly": false,
+      "startsWithSuggestion": false,
+      "doesCompile": false,
+      "expressionComponents": [
+        {
+          "label": "Groups",
+          "type": "RELATION"
+        },
+        {
+          "label": ".",
+          "type": "OPERATOR"
+        },
+        {
+          "label": "Group",
+          "type": "SIGNATURE"
+        }
+      ]
+    },
+    {
+      "suggestion": "Groups.Person",
+      "rank": 3,
+      "doesMatchExactly": false,
+      "startsWithSuggestion": false,
+      "doesCompile": false,
+      "expressionComponents": [
+        {
+          "label": "Groups",
+          "type": "RELATION"
+        },
+        {
+          "label": ".",
+          "type": "OPERATOR"
+        },
+        {
+          "label": "Person",
+          "type": "SIGNATURE"
+        }
+      ]
+    },
+    {
+      "suggestion": "Groups.Group^",
+      "rank": 4,
+      "doesMatchExactly": false,
+      "startsWithSuggestion": false,
+      "doesCompile": false,
+      "expressionComponents": [
+        {
+          "label": "Groups",
+          "type": "RELATION"
+        },
+        {
+          "label": ".",
+          "type": "OPERATOR"
+        },
+        {
+          "label": "Group",
+          "type": "SIGNATURE"
+        }
+      ]
+    },
+    {
+      "suggestion": "Groups.Group*",
+      "rank": 5,
+      "doesMatchExactly": false,
+      "startsWithSuggestion": false,
+      "doesCompile": false,
+      "expressionComponents": [
+        {
+          "label": "Groups",
+          "type": "RELATION"
+        },
+        {
+          "label": ".",
+          "type": "OPERATOR"
+        },
+        {
+          "label": "Group",
+          "type": "SIGNATURE"
+        }
+      ]
+    },
+    {
+      "suggestion": "Groups.Person^",
+      "rank": 6,
+      "doesMatchExactly": false,
+      "startsWithSuggestion": false,
+      "doesCompile": false,
+      "expressionComponents": [
+        {
+          "label": "Groups",
+          "type": "RELATION"
+        },
+        {
+          "label": ".",
+          "type": "OPERATOR"
+        },
+        {
+          "label": "Person",
+          "type": "SIGNATURE"
+        }
+      ]
+    },
+    {
+      "suggestion": "Groups.Person*",
+      "rank": 7,
+      "doesMatchExactly": false,
+      "startsWithSuggestion": false,
+      "doesCompile": false,
+      "expressionComponents": [
+        {
+          "label": "Groups",
+          "type": "RELATION"
+        },
+        {
+          "label": ".",
+          "type": "OPERATOR"
+        },
+        {
+          "label": "Person",
+          "type": "SIGNATURE"
+        }
+      ]
+    },
+    {
+      "suggestion": "~Teaches",
+      "rank": 8,
+      "doesMatchExactly": false,
+      "startsWithSuggestion": false,
+      "doesCompile": false,
+      "expressionComponents": [
+        {
+          "label": "~",
+          "type": "OPERATOR"
+        },
+        {
+          "label": "Teaches",
+          "type": "RELATION"
+        }
+      ]
+    },
+    {
+      "suggestion": "univ",
+      "rank": 9,
+      "doesMatchExactly": false,
+      "startsWithSuggestion": false,
+      "doesCompile": false,
+      "expressionComponents": [
+        {
+          "label": "univ",
+          "type": "CONSTANT"
+        }
+      ]
+    }
+  ],
+  "completionGenerated": true,
+  "suggestionExists": false,
+  "suggestionInTop1": false,
+  "suggestionInTop5": false,
+  "suggestionInTop10": false,
+  "suggestionInTop1Alpha": false,
+  "suggestionInTop5Alpha": false,
+  "suggestionInTop10Alpha": false,
+  "suggestionInTop1Len": false,
+  "suggestionInTop5Len": false,
+  "suggestionInTop10Len": false,
+  "expectedCompletionWord": "c",
+  "expectedCompletionLine": "c -> p in Tutors",
+  "elapsedTimeInMs": 26776.173875
+}

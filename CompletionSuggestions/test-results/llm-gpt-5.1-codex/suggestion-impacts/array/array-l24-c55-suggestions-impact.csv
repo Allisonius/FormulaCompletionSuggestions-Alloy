@@ -1,0 +1,2 @@
+modelname,filename,position-line,position-character,incompleteline,removedtext,baseline,suggestionedExpression,A_iff_B,A_and_B,not_A_and_B,A_and_not_B,not_A_and_not_B,suggestionImpactTime
+array,completion/array-complete.als,24,55,"all idx: Array.i2e.Element | idx >= 0 && idx < Array.","length","all idx: Array.i2e.Element | idx >= 0","  all idx: Array.i2e.Element | idx >= 0 && idx < Array.length",true,true,false,true,true,30.820209

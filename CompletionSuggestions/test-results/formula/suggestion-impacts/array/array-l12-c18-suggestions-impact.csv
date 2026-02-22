@@ -1,1 +1,3 @@
 modelname,filename,position-line,position-character,incompleteline,removedtext,baseline,suggestionedExpression,A_iff_B,A_and_B,not_A_and_B,A_and_not_B,not_A_and_not_B,suggestionImpactTime
+array,completion/array-complete.als,12,18,"Element = Array.","i2e[Int]","{}","  Element = Array.i2e.Int",true,true,false,true,false,48.654667
+array,completion/array-complete.als,12,18,"Element = Array.","i2e[Int]","{}","  Element = Array.i2e.univ",true,true,false,true,false,48.654667

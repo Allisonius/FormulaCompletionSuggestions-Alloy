@@ -4,6 +4,7 @@ import * as path from "path";
 import { TEST_VARIANT, EXPORT_MODE } from "./AlloyFileSetup";
 import { CompletionOffset, SuggestionImpact } from "../../completion-utils";
 import { EvaluateSuggestionsResponse } from "../../../interfaces/commands";
+import { time } from "console";
 
 // const RESULT_MODE: EXPORT_MODE[] = [EXPORT_MODE.file];
 const CLEAR_RESULTS = true;
@@ -14,6 +15,17 @@ var OUTPUT_TEST_DIR = path.join(rootOfProject, "test-results/formula");
 if (process.env["GENERATOR_COMPLETION"] === "true") {
   OUTPUT_TEST_DIR = path.join(rootOfProject, "test-results/generator");
 }
+if (process.env["LLM_COMPLETION"] === "true") {
+  if (process.env["LLM_MODEL"]) {
+    OUTPUT_TEST_DIR = path.join(
+      rootOfProject,
+      `test-results/llm-${process.env["LLM_MODEL"]}`,
+    );
+  } else {
+    // use the model selected by copilot cli
+    OUTPUT_TEST_DIR = path.join(rootOfProject, "test-results/llm");
+  }
+}
 
 export class CompletionResultExportUtils {
   private exportModes: EXPORT_MODE[] = [EXPORT_MODE.file];
@@ -21,7 +33,7 @@ export class CompletionResultExportUtils {
 
   constructor(
     exportModes: EXPORT_MODE[] = [EXPORT_MODE.file],
-    ignoreTrueCases: boolean = false
+    ignoreTrueCases: boolean = false,
   ) {
     this.exportModes = exportModes;
     this.ignoreTrueCases = ignoreTrueCases;
@@ -33,7 +45,7 @@ export class CompletionResultExportUtils {
     summary: string,
     incompleteText: string,
     result: any,
-    variant: TEST_VARIANT
+    variant: TEST_VARIANT,
   ) => {
     // const modelDir = `${TEST_DIR}/${modelName}`;
     const suffix = `l${position.line + 1}-c${position.character}`;
@@ -44,17 +56,17 @@ export class CompletionResultExportUtils {
     if (!result.suggestionExists || !this.ignoreTrueCases) {
       fs.writeFileSync(
         `${modelDir}/${modelName}-${suffix}-${result.suggestionExists}.smry`,
-        summary
+        summary,
       );
       fs.writeFileSync(
-        `${modelDir}/${modelName}-${suffix}.inc`,
-        incompleteText
+        `${modelDir}/${modelName}-${suffix}.als`,
+        incompleteText,
       );
     }
 
     fs.writeFileSync(
       `${modelDir}/${modelName}-${suffix}.result.json`,
-      JSON.stringify(result)
+      JSON.stringify(result),
     );
   };
 
@@ -75,24 +87,27 @@ export class CompletionResultExportUtils {
     evaluationResult: EvaluateSuggestionsResponse | null,
     expectedCompletion: string,
     elapsedTimeInMs: number,
-    variant: TEST_VARIANT
+    variant: TEST_VARIANT,
+    timeMeasuringItem: vscode.CompletionItem | null,
   ) => {
     filename = filename.split("/testFixture/").pop();
     const findSuggestions = (completionList: vscode.CompletionItem[]) => {
       return completionList.some(
         (item) =>
-          item.label.toString().trim() === expectedCompletion.trim() ||
+          item.label.toString().trim() ===
+            evaluationResult.expectedTerm.trim() ||
           (variant === TEST_VARIANT.multi_term &&
-            removedText.trim().startsWith(item.label.toString().trim()))
+            removedText.trim().startsWith(item.label.toString().trim())),
       );
     };
 
-    const findSuggestions2 = (evaluationResult: EvaluateSuggestionsResponse) => {
+    const findSuggestions2 = (
+      evaluationResult: EvaluateSuggestionsResponse,
+    ) => {
       return evaluationResult.evaluations.some(
-        (item) =>
-          item.doesMatchExactly || item.doesMatchSyntactically
+        (item) => item.doesMatchExactly || item.doesMatchSyntactically,
       );
-    }
+    };
 
     // Structural(default) sorting
     // const suggestionExists = findSuggestions(completionList.items);
@@ -100,12 +115,12 @@ export class CompletionResultExportUtils {
     const suggestionInTop1 = findSuggestions(completionList.items.slice(0, 1));
     const suggestionInTop5 = findSuggestions(completionList.items.slice(0, 5));
     const suggestionInTop10 = findSuggestions(
-      completionList.items.slice(0, 10)
+      completionList.items.slice(0, 10),
     );
 
     // Alphabetical sorting
     var alphaSorted = [...completionList.items].sort((a, b) =>
-      a.label.toString().localeCompare(b.label.toString())
+      a.label.toString().localeCompare(b.label.toString()),
     );
     const suggestionInTop1Alpha = findSuggestions(alphaSorted.slice(0, 1));
     const suggestionInTop5Alpha = findSuggestions(alphaSorted.slice(0, 5));
@@ -113,7 +128,7 @@ export class CompletionResultExportUtils {
 
     // Sorted by length
     var lengthSorted = [...completionList.items].sort(
-      (a, b) => a.label.toString().length - b.label.toString().length
+      (a, b) => a.label.toString().length - b.label.toString().length,
     );
     const suggestionInTop1Len = findSuggestions(lengthSorted.slice(0, 1));
     const suggestionInTop5Len = findSuggestions(lengthSorted.slice(0, 5));
@@ -123,7 +138,7 @@ export class CompletionResultExportUtils {
       ? evaluationResult.evaluations
           .map(
             (item) =>
-              `$${item.rank}. ${item.suggestion} \t ${item.doesMatchExactly} \t ${item.doesMatchSyntactically} \t ${item.doesMatchSyntactically}`
+              `$${item.rank}. ${item.suggestion} \t ${item.doesMatchExactly} \t ${item.doesMatchSyntactically} \t ${item.doesMatchSyntactically}`,
           )
           .join("\n")
       : "No Suggestions";
@@ -138,26 +153,17 @@ Vscode Position: line=${position.line} character=${position.character}
 ----------------------------------
 ${position.line + 1} | ${incompleteLine}
 ----------------------------------
+Expected Completion word: ${evaluationResult.expectedTerm}
+Expected Completion line: ${removedText}
+Suggestion exists: ${suggestionExists}
 Completion List:
 # Suggestion \t Exact \t Syntactic \t Semantic
 ${evaluationSummary}
-Expected Completion word: ${expectedCompletion}
-Expected Completion line: ${removedText}
-Suggestion exists: ${suggestionExists}
 
-Suggestion in top 1 = ${suggestionInTop1} 
-Suggestion in top 5 = ${suggestionInTop5} 
-Suggestion in top 10 = ${suggestionInTop10} 
-
-Suggestion in top 1 (Alpha) = ${suggestionInTop1Alpha}
-Suggestion in top 5 (Alpha) = ${suggestionInTop5Alpha}
-Suggestion in top 10 (Alpha) = ${suggestionInTop10Alpha}
-
-Suggestion in top 1 (Len) = ${suggestionInTop1Len}
-Suggestion in top 5 (Len) = ${suggestionInTop5Len}
-Suggestion in top 10 (Len) = ${suggestionInTop10Len}
-
-Time taken: ${elapsedTimeInMs}`;
+Time taken: ${elapsedTimeInMs}
+Preprocessing time: ${timeMeasuringItem ? timeMeasuringItem.insertText : "N/A"}
+Parsing time: ${timeMeasuringItem ? timeMeasuringItem.detail : "N/A"}
+Generation time: ${timeMeasuringItem ? timeMeasuringItem.documentation : "N/A"}`;
 
     const result = {
       modelName: modelName,
@@ -180,10 +186,16 @@ Time taken: ${elapsedTimeInMs}`;
       suggestionInTop1Len: suggestionInTop1Len,
       suggestionInTop5Len: suggestionInTop5Len,
       suggestionInTop10Len: suggestionInTop10Len,
-      expectedCompletionWord: expectedCompletion.trim(),
+      expectedCompletionWord: evaluationResult.expectedTerm,
       expectedCompletionLine: removedText.trim(),
       elapsedTimeInMs: elapsedTimeInMs,
     };
+
+    if (timeMeasuringItem) {
+      result["preprocessingTime"] = timeMeasuringItem.insertText;
+      result["parsingTime"] = timeMeasuringItem.detail;
+      result["generationTime"] = timeMeasuringItem.documentation;
+    }
 
     for (const mode of this.exportModes) {
       switch (mode) {
@@ -194,7 +206,7 @@ Time taken: ${elapsedTimeInMs}`;
             summary,
             incompleteText,
             result,
-            variant
+            variant,
           );
           break;
         case EXPORT_MODE.console:
@@ -221,7 +233,7 @@ export class SuggestionImpactExportUtils {
     removedText: string,
     // suggestion: string,
     suggestionImpactTime: number,
-    suggestionImpactList: SuggestionImpact[]
+    suggestionImpactList: SuggestionImpact[],
   ) => {
     filename = filename.split("/testFixture/").pop();
     const line = position.line + 1;
@@ -263,7 +275,7 @@ export class SuggestionImpactExportUtils {
         impact.A_and_not_B,
         impact.not_A_and_not_B,
         suggestionImpactTime,
-      ].join(",")
+      ].join(","),
     );
     const csvContent = [csvHeader, ...csvRows].join("\n");
     fs.writeFileSync(`${modelDir}/${modelName}-${suffix}`, csvContent);

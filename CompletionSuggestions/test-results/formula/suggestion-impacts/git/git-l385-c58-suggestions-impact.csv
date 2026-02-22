@@ -1,0 +1,18 @@
+modelname,filename,position-line,position-character,incompleteline,removedtext,baseline,suggestionedExpression,A_iff_B,A_and_B,not_A_and_B,A_and_not_B,not_A_and_not_B,suggestionImpactTime
+git,completion/git-complete.als,385,58,"some c : Commit-stored.s | refs.sp = refs.s ++ HEAD.s ->","c","{}","\tsome c : Commit-stored.s | refs.sp = refs.s ++ HEAD.s -> c",,,,,,111.630167
+git,completion/git-complete.als,385,58,"some c : Commit-stored.s | refs.sp = refs.s ++ HEAD.s ->","c","{}","\tsome c : Commit-stored.s | refs.sp = refs.s ++ HEAD.s -> s",,,,,,111.630167
+git,completion/git-complete.als,385,58,"some c : Commit-stored.s | refs.sp = refs.s ++ HEAD.s ->","c","{}","\tsome c : Commit-stored.s | refs.sp = refs.s ++ HEAD.s -> sp",,,,,,111.630167
+git,completion/git-complete.als,385,58,"some c : Commit-stored.s | refs.sp = refs.s ++ HEAD.s ->","c","{}","\tsome c : Commit-stored.s | refs.sp = refs.s ++ HEAD.s -> Blob",,,,,,111.630167
+git,completion/git-complete.als,385,58,"some c : Commit-stored.s | refs.sp = refs.s ++ HEAD.s ->","c","{}","\tsome c : Commit-stored.s | refs.sp = refs.s ++ HEAD.s -> Commit",,,,,,111.630167
+git,completion/git-complete.als,385,58,"some c : Commit-stored.s | refs.sp = refs.s ++ HEAD.s ->","c","{}","\tsome c : Commit-stored.s | refs.sp = refs.s ++ HEAD.s -> Dir",,,,,,111.630167
+git,completion/git-complete.als,385,58,"some c : Commit-stored.s | refs.sp = refs.s ++ HEAD.s ->","c","{}","\tsome c : Commit-stored.s | refs.sp = refs.s ++ HEAD.s -> File",,,,,,111.630167
+git,completion/git-complete.als,385,58,"some c : Commit-stored.s | refs.sp = refs.s ++ HEAD.s ->","c","{}","\tsome c : Commit-stored.s | refs.sp = refs.s ++ HEAD.s -> Name",,,,,,111.630167
+git,completion/git-complete.als,385,58,"some c : Commit-stored.s | refs.sp = refs.s ++ HEAD.s ->","c","{}","\tsome c : Commit-stored.s | refs.sp = refs.s ++ HEAD.s -> Node",,,,,,111.630167
+git,completion/git-complete.als,385,58,"some c : Commit-stored.s | refs.sp = refs.s ++ HEAD.s ->","c","{}","\tsome c : Commit-stored.s | refs.sp = refs.s ++ HEAD.s -> Object",,,,,,111.630167
+git,completion/git-complete.als,385,58,"some c : Commit-stored.s | refs.sp = refs.s ++ HEAD.s ->","c","{}","\tsome c : Commit-stored.s | refs.sp = refs.s ++ HEAD.s -> Root",,,,,,111.630167
+git,completion/git-complete.als,385,58,"some c : Commit-stored.s | refs.sp = refs.s ++ HEAD.s ->","c","{}","\tsome c : Commit-stored.s | refs.sp = refs.s ++ HEAD.s -> State",,,,,,111.630167
+git,completion/git-complete.als,385,58,"some c : Commit-stored.s | refs.sp = refs.s ++ HEAD.s ->","c","{}","\tsome c : Commit-stored.s | refs.sp = refs.s ++ HEAD.s -> Tree",,,,,,111.630167
+git,completion/git-complete.als,385,58,"some c : Commit-stored.s | refs.sp = refs.s ++ HEAD.s ->","c","{}","\tsome c : Commit-stored.s | refs.sp = refs.s ++ HEAD.s -> Int",,,,,,111.630167
+git,completion/git-complete.als,385,58,"some c : Commit-stored.s | refs.sp = refs.s ++ HEAD.s ->","c","{}","\tsome c : Commit-stored.s | refs.sp = refs.s ++ HEAD.s -> String",,,,,,111.630167
+git,completion/git-complete.als,385,58,"some c : Commit-stored.s | refs.sp = refs.s ++ HEAD.s ->","c","{}","\tsome c : Commit-stored.s | refs.sp = refs.s ++ HEAD.s -> none",,,,,,111.630167
+git,completion/git-complete.als,385,58,"some c : Commit-stored.s | refs.sp = refs.s ++ HEAD.s ->","c","{}","\tsome c : Commit-stored.s | refs.sp = refs.s ++ HEAD.s -> univ",,,,,,111.630167

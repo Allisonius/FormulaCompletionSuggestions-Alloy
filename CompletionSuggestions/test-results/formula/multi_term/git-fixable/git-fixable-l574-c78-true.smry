@@ -1,0 +1,38 @@
+Model name: git-fixable
+Filename: completion/git-complete-fixable.als
+Offset: 13755
+Term:  -> 
+Vscode Position: line=573 character=78
+----------------------------------
+574 | 	all f1, f2 : File | commonFiles[f1, f2, s, c] implies some f3 : File | f1 -> 
+----------------------------------
+Expected Completion word: f3
+Expected Completion line: f3 in samepath and f3 in current.sp and f3 in merge[f1, f2]
+Suggestion exists: true
+Completion List:
+# Suggestion 	 Exact 	 Syntactic 	 Semantic
+$1. c 	 false 	 undefined 	 undefined
+$2. f1 	 false 	 undefined 	 undefined
+$3. f2 	 false 	 undefined 	 undefined
+$4. f3 	 true 	 undefined 	 undefined
+$5. s 	 false 	 undefined 	 undefined
+$6. sp 	 false 	 undefined 	 undefined
+$7. Blob 	 false 	 undefined 	 undefined
+$8. Commit 	 false 	 undefined 	 undefined
+$9. Dir 	 false 	 undefined 	 undefined
+$10. File 	 false 	 undefined 	 undefined
+$11. Name 	 false 	 undefined 	 undefined
+$12. Node 	 false 	 undefined 	 undefined
+$13. Object 	 false 	 undefined 	 undefined
+$14. Root 	 false 	 undefined 	 undefined
+$15. State 	 false 	 undefined 	 undefined
+$16. Tree 	 false 	 undefined 	 undefined
+$17. Int 	 false 	 undefined 	 undefined
+$18. String 	 false 	 undefined 	 undefined
+$19. none 	 false 	 undefined 	 undefined
+$20. univ 	 false 	 undefined 	 undefined
+
+Time taken: 67.51175
+Preprocessing time: 12
+Parsing time: 6
+Generation time: 0

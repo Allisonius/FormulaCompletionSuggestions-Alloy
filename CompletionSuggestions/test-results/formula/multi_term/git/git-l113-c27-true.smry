@@ -1,0 +1,34 @@
+Model name: git
+Filename: completion/git-complete.als
+Offset: 2285
+Term:  -> 
+Vscode Position: line=112 character=27
+----------------------------------
+113 | 	all b1, b2 : Blob | b1 -> 
+----------------------------------
+Expected Completion word: b2
+Expected Completion line: b2 in conflict implies b2 -> b1 in conflict
+Suggestion exists: true
+Completion List:
+# Suggestion 	 Exact 	 Syntactic 	 Semantic
+$1. b1 	 false 	 undefined 	 undefined
+$2. b2 	 true 	 undefined 	 undefined
+$3. Blob 	 false 	 undefined 	 undefined
+$4. Commit 	 false 	 undefined 	 undefined
+$5. Dir 	 false 	 undefined 	 undefined
+$6. File 	 false 	 undefined 	 undefined
+$7. Name 	 false 	 undefined 	 undefined
+$8. Node 	 false 	 undefined 	 undefined
+$9. Object 	 false 	 undefined 	 undefined
+$10. Root 	 false 	 undefined 	 undefined
+$11. State 	 false 	 undefined 	 undefined
+$12. Tree 	 false 	 undefined 	 undefined
+$13. Int 	 false 	 undefined 	 undefined
+$14. String 	 false 	 undefined 	 undefined
+$15. none 	 false 	 undefined 	 undefined
+$16. univ 	 false 	 undefined 	 undefined
+
+Time taken: 76.530375
+Preprocessing time: 24
+Parsing time: 12
+Generation time: 0

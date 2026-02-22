@@ -1,0 +1,63 @@
+Model name: courses-v2
+Filename: completion/courses-v2-complete.als
+Offset: 1287
+Term:  in 
+Vscode Position: line=57 character=40
+----------------------------------
+58 | 	all p : Person | all c : Course | c in 
+----------------------------------
+Expected Completion word: p.teaches
+Expected Completion line: p.teaches => c not in p.enrolled
+Suggestion exists: true
+Completion List:
+# Suggestion 	 Exact 	 Syntactic 	 Semantic
+$1. p.teaches 	 true 	 true 	 true
+$2. p.enrolled 	 false 	 false 	 false
+$3. p.projects 	 false 	 false 	 false
+$4. c.projects 	 false 	 undefined 	 undefined
+$5. c.grades 	 false 	 undefined 	 undefined
+$6. p.teaches.projects 	 false 	 false 	 false
+$7. p.enrolled.projects 	 false 	 false 	 false
+$8. p.teaches.grades 	 false 	 false 	 false
+$9. p.enrolled.grades 	 false 	 false 	 false
+$10. c.grades.Grade 	 false 	 undefined 	 undefined
+$11. ~c.grades 	 false 	 undefined 	 undefined
+$12. ~c.grades.Person 	 false 	 undefined 	 undefined
+$13. ~c.grades.Grade 	 false 	 undefined 	 undefined
+$14. c.projects.Project 	 false 	 undefined 	 undefined
+$15. p.projects.Project 	 false 	 undefined 	 undefined
+$16. p.teaches.Course 	 false 	 undefined 	 undefined
+$17. p.enrolled.Course 	 false 	 undefined 	 undefined
+$18. c.projects + univ 	 false 	 undefined 	 undefined
+$19. c.grades + univ 	 false 	 undefined 	 undefined
+$20. p.teaches + univ 	 false 	 false 	 false
+$21. p.enrolled + univ 	 false 	 false 	 false
+$22. p.projects + univ 	 false 	 false 	 false
+$23. c.projects & univ 	 false 	 undefined 	 undefined
+$24. c.grades & univ 	 false 	 undefined 	 undefined
+$25. p.teaches & univ 	 false 	 false 	 false
+$26. p.enrolled & univ 	 false 	 false 	 false
+$27. p.projects & univ 	 false 	 false 	 false
+$28. c.projects^ 	 false 	 undefined 	 undefined
+$29. c.projects* 	 false 	 undefined 	 undefined
+$30. c.grades^ 	 false 	 undefined 	 undefined
+$31. c.grades* 	 false 	 undefined 	 undefined
+$32. p.teaches^ 	 false 	 undefined 	 undefined
+$33. p.teaches* 	 false 	 undefined 	 undefined
+$34. p.enrolled^ 	 false 	 undefined 	 undefined
+$35. p.enrolled* 	 false 	 undefined 	 undefined
+$36. p.projects^ 	 false 	 undefined 	 undefined
+$37. p.projects* 	 false 	 undefined 	 undefined
+$38. ~p.teaches 	 false 	 undefined 	 undefined
+$39. ~p.enrolled 	 false 	 undefined 	 undefined
+$40. ~p.projects 	 false 	 undefined 	 undefined
+$41. ~c.projects 	 false 	 undefined 	 undefined
+$42. ~p.teaches.Course 	 false 	 undefined 	 undefined
+$43. ~p.enrolled.Course 	 false 	 undefined 	 undefined
+$44. ~p.projects.Project 	 false 	 undefined 	 undefined
+$45. ~c.projects.Project 	 false 	 undefined 	 undefined
+
+Time taken: 7160.097625
+Preprocessing time: N/A
+Parsing time: N/A
+Generation time: N/A

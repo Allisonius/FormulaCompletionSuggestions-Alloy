@@ -1,0 +1,46 @@
+Model name: courses-v2
+Filename: completion/courses-v2-complete.als
+Offset: 747
+Term:  - 
+Vscode Position: line=42 character=18
+----------------------------------
+43 | 	all p : Person - 
+----------------------------------
+Expected Completion word: Student
+Expected Completion line: Student | no p.projects and all p : Project | some s : Student | p in s.projects
+Suggestion exists: false
+Completion List:
+# Suggestion 	 Exact 	 Syntactic 	 Semantic
+$1. p.teaches 	 false 	 undefined 	 undefined
+$2. p.enrolled 	 false 	 undefined 	 undefined
+$3. p.projects 	 false 	 undefined 	 undefined
+$4. p.teaches.projects 	 false 	 undefined 	 undefined
+$5. p.teaches.grades 	 false 	 undefined 	 undefined
+$6. p.teaches.projects + univ 	 false 	 undefined 	 undefined
+$7. p.teaches.projects & univ 	 false 	 undefined 	 undefined
+$8. p.teaches.grades + univ 	 false 	 undefined 	 undefined
+$9. p.teaches.grades & univ 	 false 	 undefined 	 undefined
+$10. p.enrolled.projects 	 false 	 undefined 	 undefined
+$11. p.enrolled.grades 	 false 	 undefined 	 undefined
+$12. p.enrolled.projects + univ 	 false 	 undefined 	 undefined
+$13. p.enrolled.projects & univ 	 false 	 undefined 	 undefined
+$14. p.enrolled.grades + univ 	 false 	 undefined 	 undefined
+$15. p.enrolled.grades & univ 	 false 	 undefined 	 undefined
+$16. p.projects + univ 	 false 	 undefined 	 undefined
+$17. p.projects & univ 	 false 	 undefined 	 undefined
+$18. ~teaches.p 	 false 	 undefined 	 undefined
+$19. ~enrolled.p 	 false 	 undefined 	 undefined
+$20. ~projects.p 	 false 	 undefined 	 undefined
+$21. p.teaches.projects^ 	 false 	 undefined 	 undefined
+$22. p.teaches.projects* 	 false 	 undefined 	 undefined
+$23. p.enrolled.projects^ 	 false 	 undefined 	 undefined
+$24. p.enrolled.projects* 	 false 	 undefined 	 undefined
+$25. p.teaches.grades^ 	 false 	 undefined 	 undefined
+$26. p.teaches.grades* 	 false 	 undefined 	 undefined
+$27. p.enrolled.grades^ 	 false 	 undefined 	 undefined
+$28. p.enrolled.grades* 	 false 	 undefined 	 undefined
+
+Time taken: 6181.975584
+Preprocessing time: N/A
+Parsing time: N/A
+Generation time: N/A

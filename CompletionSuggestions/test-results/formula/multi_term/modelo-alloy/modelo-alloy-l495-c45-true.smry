@@ -1,0 +1,55 @@
+Model name: modelo-alloy
+Filename: completion/ModeloAlloy-complete.als
+Offset: 12616
+Term: .
+Vscode Position: line=494 character=45
+----------------------------------
+495 |   some aa: ProductAd | #aa.advertisedProduct.
+----------------------------------
+Expected Completion word: TargetSpecies
+Expected Completion line: TargetSpecies = 1
+Suggestion exists: true
+Completion List:
+# Suggestion 	 Exact 	 Syntactic 	 Semantic
+$1. ~advertisedProduct.aa 	 false 	 undefined 	 undefined
+$2. TargetSpecies.CAT 	 false 	 undefined 	 undefined
+$3. TargetSpecies.DOG 	 false 	 undefined 	 undefined
+$4. TargetSpecies.FERRET 	 false 	 undefined 	 undefined
+$5. TargetSpecies.FISH 	 false 	 undefined 	 undefined
+$6. TargetSpecies.IGUANA 	 false 	 undefined 	 undefined
+$7. TargetSpecies.PARROT 	 false 	 undefined 	 undefined
+$8. TargetSpecies.RABBIT 	 false 	 undefined 	 undefined
+$9. TargetSpecies.SNAKE 	 false 	 undefined 	 undefined
+$10. TargetSpecies.Species 	 false 	 undefined 	 undefined
+$11. TargetSpecies.TURTLE 	 false 	 undefined 	 undefined
+$12. ~advertisedProduct.AdoptionAd 	 false 	 undefined 	 undefined
+$13. ~advertisedProduct.Event 	 false 	 undefined 	 undefined
+$14. ~advertisedProduct.NormalPost 	 false 	 undefined 	 undefined
+$15. ~advertisedProduct.ProductAd 	 false 	 undefined 	 undefined
+$16. ~advertisedProduct.Publication 	 false 	 undefined 	 undefined
+$17. ~verifies.Veterinarian 	 false 	 undefined 	 undefined
+$18. TargetSpecies 	 true 	 undefined 	 undefined
+$19. TargetSpecies.univ 	 false 	 undefined 	 undefined
+$20. TargetSpecies.~petSpecies 	 false 	 undefined 	 undefined
+$21. ~advertisedProduct.adoptPet 	 false 	 undefined 	 undefined
+$22. ~advertisedProduct.creator 	 false 	 undefined 	 undefined
+$23. ~advertisedProduct.eventDate 	 false 	 undefined 	 undefined
+$24. ~advertisedProduct.eventStatus 	 false 	 undefined 	 undefined
+$25. ~advertisedProduct.location 	 false 	 undefined 	 undefined
+$26. ~advertisedProduct.participants 	 false 	 undefined 	 undefined
+$27. ~advertisedProduct.publishedDate 	 false 	 undefined 	 undefined
+$28. ~advertisedProduct.publisher 	 false 	 undefined 	 undefined
+$29. ~advertisedProduct.recommendedPets 	 false 	 undefined 	 undefined
+$30. ~advertisedProduct.tagged 	 false 	 undefined 	 undefined
+$31. ~advertisedProduct 	 false 	 undefined 	 undefined
+$32. ~advertisedProduct.univ 	 false 	 undefined 	 undefined
+$33. ~advertisedProduct.~commentedPost 	 false 	 undefined 	 undefined
+$34. ~advertisedProduct.~posts 	 false 	 undefined 	 undefined
+$35. ~verifies 	 false 	 undefined 	 undefined
+$36. ~verifies.univ 	 false 	 undefined 	 undefined
+$37.  	 false 	 undefined 	 undefined
+
+Time taken: 33.777167
+Preprocessing time: 8
+Parsing time: 4
+Generation time: 1

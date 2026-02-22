@@ -1,0 +1,283 @@
+{
+  "modelName": "courses-v2",
+  "filename": "completion/courses-v2-complete.als",
+  "offset": 420,
+  "term": " - ",
+  "line": 27,
+  "character": 18,
+  "incompletionLine": "all p : Person -",
+  "completionList": "p, Person, Professor, Student, univ, ~Person, Person & univ, p + Person, p + Professor, p + Student, Person - p, Person & (Professor + Student), (~(Course.grades.Grade)).Course",
+  "evaluationResult": [
+    {
+      "suggestion": "p",
+      "rank": 1,
+      "doesMatchExactly": false,
+      "startsWithSuggestion": false,
+      "doesCompile": false,
+      "expressionComponents": [
+        {
+          "label": "p",
+          "type": "VARIABLE"
+        }
+      ]
+    },
+    {
+      "suggestion": "Person",
+      "rank": 2,
+      "doesMatchExactly": false,
+      "startsWithSuggestion": false,
+      "doesCompile": false,
+      "expressionComponents": [
+        {
+          "label": "Person",
+          "type": "SIGNATURE"
+        }
+      ]
+    },
+    {
+      "suggestion": "Professor",
+      "rank": 3,
+      "doesMatchExactly": true,
+      "startsWithSuggestion": true,
+      "doesCompile": false,
+      "expressionComponents": [
+        {
+          "label": "Professor",
+          "type": "SIGNATURE"
+        }
+      ]
+    },
+    {
+      "suggestion": "Student",
+      "rank": 4,
+      "doesMatchExactly": false,
+      "startsWithSuggestion": false,
+      "doesCompile": false,
+      "expressionComponents": [
+        {
+          "label": "Student",
+          "type": "SIGNATURE"
+        }
+      ]
+    },
+    {
+      "suggestion": "univ",
+      "rank": 5,
+      "doesMatchExactly": false,
+      "startsWithSuggestion": false,
+      "doesCompile": false,
+      "expressionComponents": [
+        {
+          "label": "univ",
+          "type": "CONSTANT"
+        }
+      ]
+    },
+    {
+      "suggestion": "~Person",
+      "rank": 6,
+      "doesMatchExactly": false,
+      "startsWithSuggestion": false,
+      "doesCompile": false,
+      "expressionComponents": [
+        {
+          "label": "~",
+          "type": "OPERATOR"
+        },
+        {
+          "label": "Person",
+          "type": "SIGNATURE"
+        }
+      ]
+    },
+    {
+      "suggestion": "Person & univ",
+      "rank": 7,
+      "doesMatchExactly": false,
+      "startsWithSuggestion": false,
+      "doesCompile": false,
+      "expressionComponents": [
+        {
+          "label": "Person",
+          "type": "SIGNATURE"
+        },
+        {
+          "label": "&",
+          "type": "OPERATOR"
+        },
+        {
+          "label": "univ",
+          "type": "CONSTANT"
+        }
+      ]
+    },
+    {
+      "suggestion": "p + Person",
+      "rank": 8,
+      "doesMatchExactly": false,
+      "startsWithSuggestion": false,
+      "doesCompile": false,
+      "expressionComponents": [
+        {
+          "label": "p",
+          "type": "VARIABLE"
+        },
+        {
+          "label": "+",
+          "type": "OPERATOR"
+        },
+        {
+          "label": "Person",
+          "type": "SIGNATURE"
+        }
+      ]
+    },
+    {
+      "suggestion": "p + Professor",
+      "rank": 9,
+      "doesMatchExactly": false,
+      "startsWithSuggestion": false,
+      "doesCompile": false,
+      "expressionComponents": [
+        {
+          "label": "p",
+          "type": "VARIABLE"
+        },
+        {
+          "label": "+",
+          "type": "OPERATOR"
+        },
+        {
+          "label": "Professor",
+          "type": "SIGNATURE"
+        }
+      ]
+    },
+    {
+      "suggestion": "p + Student",
+      "rank": 10,
+      "doesMatchExactly": false,
+      "startsWithSuggestion": false,
+      "doesCompile": false,
+      "expressionComponents": [
+        {
+          "label": "p",
+          "type": "VARIABLE"
+        },
+        {
+          "label": "+",
+          "type": "OPERATOR"
+        },
+        {
+          "label": "Student",
+          "type": "SIGNATURE"
+        }
+      ]
+    },
+    {
+      "suggestion": "Person - p",
+      "rank": 11,
+      "doesMatchExactly": false,
+      "startsWithSuggestion": false,
+      "doesCompile": false,
+      "expressionComponents": [
+        {
+          "label": "Person",
+          "type": "SIGNATURE"
+        },
+        {
+          "label": "-",
+          "type": "OPERATOR"
+        },
+        {
+          "label": "p",
+          "type": "VARIABLE"
+        }
+      ]
+    },
+    {
+      "suggestion": "Person & (Professor + Student)",
+      "rank": 12,
+      "doesMatchExactly": false,
+      "startsWithSuggestion": false,
+      "doesCompile": false,
+      "expressionComponents": [
+        {
+          "label": "Person",
+          "type": "SIGNATURE"
+        },
+        {
+          "label": "&",
+          "type": "OPERATOR"
+        },
+        {
+          "label": "Professor",
+          "type": "SIGNATURE"
+        },
+        {
+          "label": "+",
+          "type": "OPERATOR"
+        },
+        {
+          "label": "Student",
+          "type": "SIGNATURE"
+        }
+      ]
+    },
+    {
+      "suggestion": "(~(Course.grades.Grade)).Course",
+      "rank": 13,
+      "doesMatchExactly": false,
+      "startsWithSuggestion": false,
+      "doesCompile": false,
+      "expressionComponents": [
+        {
+          "label": "~",
+          "type": "OPERATOR"
+        },
+        {
+          "label": "Course",
+          "type": "SIGNATURE"
+        },
+        {
+          "label": ".",
+          "type": "OPERATOR"
+        },
+        {
+          "label": "grades",
+          "type": "RELATION"
+        },
+        {
+          "label": ".",
+          "type": "OPERATOR"
+        },
+        {
+          "label": "Grade",
+          "type": "SIGNATURE"
+        },
+        {
+          "label": ".",
+          "type": "OPERATOR"
+        },
+        {
+          "label": "Course",
+          "type": "SIGNATURE"
+        }
+      ]
+    }
+  ],
+  "completionGenerated": true,
+  "suggestionExists": true,
+  "suggestionInTop1": false,
+  "suggestionInTop5": true,
+  "suggestionInTop10": true,
+  "suggestionInTop1Alpha": false,
+  "suggestionInTop5Alpha": false,
+  "suggestionInTop10Alpha": false,
+  "suggestionInTop1Len": false,
+  "suggestionInTop5Len": false,
+  "suggestionInTop10Len": true,
+  "expectedCompletionWord": "Professor",
+  "expectedCompletionLine": "Professor | no p.teaches",
+  "elapsedTimeInMs": 20528.9855
+}

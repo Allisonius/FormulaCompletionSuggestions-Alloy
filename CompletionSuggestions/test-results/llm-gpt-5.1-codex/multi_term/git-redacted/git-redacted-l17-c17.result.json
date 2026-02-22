@@ -1,0 +1,40 @@
+{
+  "modelName": "git-redacted",
+  "filename": "completion/git-sig.als",
+  "offset": 315,
+  "term": " extends ",
+  "line": 17,
+  "character": 17,
+  "incompletionLine": "sig File extends",
+  "completionList": "Node",
+  "evaluationResult": [
+    {
+      "suggestion": "Node",
+      "rank": 1,
+      "doesMatchExactly": true,
+      "startsWithSuggestion": true,
+      "doesCompile": false,
+      "doesMatchSyntactically": true,
+      "expressionComponents": [
+        {
+          "label": "Node",
+          "type": "SIGNATURE"
+        }
+      ]
+    }
+  ],
+  "completionGenerated": true,
+  "suggestionExists": true,
+  "suggestionInTop1": true,
+  "suggestionInTop5": true,
+  "suggestionInTop10": true,
+  "suggestionInTop1Alpha": true,
+  "suggestionInTop5Alpha": true,
+  "suggestionInTop10Alpha": true,
+  "suggestionInTop1Len": true,
+  "suggestionInTop5Len": true,
+  "suggestionInTop10Len": true,
+  "expectedCompletionWord": "Node",
+  "expectedCompletionLine": "Node {",
+  "elapsedTimeInMs": 8028.96125
+}

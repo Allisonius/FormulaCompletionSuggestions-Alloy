@@ -6,6 +6,9 @@ Vscode Position: line=64 character=11
 ----------------------------------
 65 | 	Tutors in 
 ----------------------------------
+Expected Completion word: Teacher
+Expected Completion line: Teacher -> Student
+Suggestion exists: false
 Completion List:
 # Suggestion 	 Exact 	 Syntactic 	 Semantic
 $1. Teaches.Class.Groups 	 false 	 false 	 false
@@ -23,22 +26,13 @@ $12. Tutors.univ.Groups 	 false 	 false 	 false
 $13. ^Tutors.univ.Groups 	 false 	 false 	 false
 $14. ~Tutors.univ.Groups 	 false 	 false 	 false
 $15. ~Tutors 	 false 	 false 	 false
-$16. ^Tutors 	 false 	 false 	 false
-$17. *Tutors 	 false 	 false 	 false
-Expected Completion word: Teacher
-Expected Completion line: Teacher -> Student
-Suggestion exists: false
+$16. ~Tutors 	 false 	 false 	 false
+$17. ^Tutors 	 false 	 false 	 false
+$18. ^Tutors 	 false 	 false 	 false
+$19. *Tutors 	 false 	 false 	 false
+$20. *Tutors 	 false 	 false 	 false
 
-Suggestion in top 1 = false 
-Suggestion in top 5 = false 
-Suggestion in top 10 = false 
-
-Suggestion in top 1 (Alpha) = false
-Suggestion in top 5 (Alpha) = false
-Suggestion in top 10 (Alpha) = false
-
-Suggestion in top 1 (Len) = false
-Suggestion in top 5 (Len) = false
-Suggestion in top 10 (Len) = false
-
-Time taken: 18.523834
+Time taken: 28.0935
+Preprocessing time: 3
+Parsing time: 2
+Generation time: 15

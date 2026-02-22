@@ -1,0 +1,13 @@
+modelname,filename,position-line,position-character,incompleteline,removedtext,baseline,suggestionedExpression,A_iff_B,A_and_B,not_A_and_B,A_and_not_B,not_A_and_not_B,suggestionImpactTime
+projeto-logica,completion/ProjetoLogica-complete.als,135,4,"su.","statusDoSuporte.t in SuporteNaoAcionado","{}","\tsu.statusDoSuporte.t",,,,,,53.767625
+projeto-logica,completion/ProjetoLogica-complete.als,135,4,"su.","statusDoSuporte.t in SuporteNaoAcionado","{}","\tsu.statusDoSuporte.tt",,,,,,53.767625
+projeto-logica,completion/ProjetoLogica-complete.als,135,4,"su.","statusDoSuporte.t in SuporteNaoAcionado","{}","\tsu.statusDoSuporte.Time",,,,,,53.767625
+projeto-logica,completion/ProjetoLogica-complete.als,135,4,"su.","statusDoSuporte.t in SuporteNaoAcionado","{}","\tsu.~suporte.Servidor",,,,,,53.767625
+projeto-logica,completion/ProjetoLogica-complete.als,135,4,"su.","statusDoSuporte.t in SuporteNaoAcionado","{}","\tsu.statusDoSuporte",,,,,,53.767625
+projeto-logica,completion/ProjetoLogica-complete.als,135,4,"su.","statusDoSuporte.t in SuporteNaoAcionado","{}","\tsu.statusDoSuporte.univ",,,,,,53.767625
+projeto-logica,completion/ProjetoLogica-complete.als,135,4,"su.","statusDoSuporte.t in SuporteNaoAcionado","{}","\tsu.~suporte.gerentes",,,,,,53.767625
+projeto-logica,completion/ProjetoLogica-complete.als,135,4,"su.","statusDoSuporte.t in SuporteNaoAcionado","{}","\tsu.~suporte.medicos",,,,,,53.767625
+projeto-logica,completion/ProjetoLogica-complete.als,135,4,"su.","statusDoSuporte.t in SuporteNaoAcionado","{}","\tsu.~suporte.pacientesCadastrados",,,,,,53.767625
+projeto-logica,completion/ProjetoLogica-complete.als,135,4,"su.","statusDoSuporte.t in SuporteNaoAcionado","{}","\tsu.~suporte.plataformaServidor",,,,,,53.767625
+projeto-logica,completion/ProjetoLogica-complete.als,135,4,"su.","statusDoSuporte.t in SuporteNaoAcionado","{}","\tsu.~suporte",,,,,,53.767625
+projeto-logica,completion/ProjetoLogica-complete.als,135,4,"su.","statusDoSuporte.t in SuporteNaoAcionado","{}","\tsu.~suporte.univ",,,,,,53.767625

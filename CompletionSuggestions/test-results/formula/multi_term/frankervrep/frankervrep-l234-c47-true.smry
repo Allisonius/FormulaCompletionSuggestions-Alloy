@@ -1,0 +1,39 @@
+Model name: frankervrep
+Filename: completion/frankenvrep-complete.als
+Offset: 5488
+Term: .
+Vscode Position: line=233 character=47
+----------------------------------
+234 | 	all a: RobotControl.output | a not in ArmType.
+----------------------------------
+Expected Completion word: anglelimit
+Expected Completion line: anglelimit implies ProduceFeedback[a]
+Suggestion exists: true
+Completion List:
+# Suggestion 	 Exact 	 Syntactic 	 Semantic
+$1. anglelimit.a 	 false 	 undefined 	 undefined
+$2. anglelimit.ArmAngle 	 false 	 undefined 	 undefined
+$3. anglelimit.armangle 	 false 	 undefined 	 undefined
+$4. inverseKSolver.FrankenBot 	 false 	 undefined 	 undefined
+$5. inverseKSolver.KinematicModel 	 false 	 undefined 	 undefined
+$6. ~armModel.FrankenVREPArm 	 false 	 undefined 	 undefined
+$7. ~armModel.RobotArm 	 false 	 undefined 	 undefined
+$8. anglelimit 	 true 	 undefined 	 undefined
+$9. anglelimit 	 true 	 undefined 	 undefined
+$10. anglelimit.univ 	 false 	 undefined 	 undefined
+$11. anglelimit.~output 	 false 	 undefined 	 undefined
+$12. inverseKSolver 	 false 	 undefined 	 undefined
+$13. inverseKSolver.solverResult 	 false 	 undefined 	 undefined
+$14. inverseKSolver.univ 	 false 	 undefined 	 undefined
+$15. inverseKSolver.~calls 	 false 	 undefined 	 undefined
+$16. ~armModel.armside 	 false 	 undefined 	 undefined
+$17. ~armModel.effectorType 	 false 	 undefined 	 undefined
+$18. ~armModel 	 false 	 undefined 	 undefined
+$19. ~armModel.univ 	 false 	 undefined 	 undefined
+$20. ~armModel.~arms 	 false 	 undefined 	 undefined
+$21.  	 false 	 undefined 	 undefined
+
+Time taken: 46.692542
+Preprocessing time: 5
+Parsing time: 3
+Generation time: 0

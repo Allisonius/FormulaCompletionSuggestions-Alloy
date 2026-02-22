@@ -1,0 +1,31 @@
+Model name: git-redacted
+Filename: completion/git-sig.als
+Offset: 552
+Term:  extends 
+Vscode Position: line=31 character=17
+----------------------------------
+32 | sig Blob extends 
+----------------------------------
+Expected Completion word: Object
+Expected Completion line: Object {
+Suggestion exists: false
+Completion List:
+# Suggestion 	 Exact 	 Syntactic 	 Semantic
+$1. merging 	 false 	 false 	 false
+$2. merging.merging 	 false 	 false 	 false
+$3. merging^ 	 false 	 undefined 	 undefined
+$4. merging* 	 false 	 undefined 	 undefined
+$5. ~merging 	 false 	 undefined 	 undefined
+$6. conflict 	 false 	 false 	 false
+$7. conflict.conflict 	 false 	 false 	 false
+$8. conflict + univ 	 false 	 undefined 	 undefined
+$9. conflict & univ 	 false 	 undefined 	 undefined
+$10. stored 	 false 	 false 	 false
+$11. stored.stored 	 false 	 false 	 false
+$12. stored + univ 	 false 	 undefined 	 undefined
+$13. stored & univ 	 false 	 undefined 	 undefined
+
+Time taken: 5170.616958
+Preprocessing time: N/A
+Parsing time: N/A
+Generation time: N/A

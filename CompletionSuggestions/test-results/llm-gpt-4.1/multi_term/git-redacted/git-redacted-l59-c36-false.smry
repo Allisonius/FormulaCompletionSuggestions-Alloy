@@ -1,0 +1,28 @@
+Model name: git-redacted
+Filename: completion/git-complete-redacted.als
+Offset: 983
+Term: .
+Vscode Position: line=58 character=36
+----------------------------------
+59 | 	some p : Tree | p -> c in n.parent.
+----------------------------------
+Expected Completion word: belongsTo
+Expected Completion line: belongsTo
+Suggestion exists: false
+Completion List:
+# Suggestion 	 Exact 	 Syntactic 	 Semantic
+$1. tbc 	 false 	 undefined 	 undefined
+$2. tbc.State 	 false 	 undefined 	 undefined
+$3. tbc.c 	 false 	 undefined 	 undefined
+$4. tbc.~tbc 	 false 	 undefined 	 undefined
+$5. tbc + univ 	 false 	 undefined 	 undefined
+$6. tbc & univ 	 false 	 undefined 	 undefined
+$7. ~tbc 	 false 	 undefined 	 undefined
+$8. ~tbc.State 	 false 	 undefined 	 undefined
+$9. ~tbc.c 	 false 	 undefined 	 undefined
+$10. ~tbc.~tbc 	 false 	 undefined 	 undefined
+
+Time taken: 7388.751958
+Preprocessing time: N/A
+Parsing time: N/A
+Generation time: N/A

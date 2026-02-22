@@ -1,0 +1,235 @@
+{
+  "modelName": "courses-v2",
+  "filename": "completion/courses-v2-complete.als",
+  "offset": 1562,
+  "term": ".",
+  "line": 68,
+  "character": 58,
+  "incompletionLine": "all c : Course | all p : Person, g : Grade | p -> g in c.",
+  "completionList": "projects, grades, ~grades, grades.~grades, grades.univ, grades.~grades.univ, projects + univ, projects & univ, projects - univ, projects.univ",
+  "evaluationResult": [
+    {
+      "suggestion": "projects",
+      "rank": 1,
+      "doesMatchExactly": false,
+      "startsWithSuggestion": false,
+      "doesCompile": false,
+      "expressionComponents": [
+        {
+          "label": "projects",
+          "type": "RELATION"
+        }
+      ]
+    },
+    {
+      "suggestion": "grades",
+      "rank": 2,
+      "doesMatchExactly": true,
+      "startsWithSuggestion": true,
+      "doesCompile": true,
+      "doesMatchSyntactically": true,
+      "doesMatchSemantically": false,
+      "expressionComponents": [
+        {
+          "label": "grades",
+          "type": "RELATION"
+        }
+      ]
+    },
+    {
+      "suggestion": "~grades",
+      "rank": 3,
+      "doesMatchExactly": false,
+      "startsWithSuggestion": false,
+      "doesCompile": false,
+      "expressionComponents": [
+        {
+          "label": "~",
+          "type": "OPERATOR"
+        },
+        {
+          "label": "grades",
+          "type": "RELATION"
+        }
+      ]
+    },
+    {
+      "suggestion": "grades.~grades",
+      "rank": 4,
+      "doesMatchExactly": false,
+      "startsWithSuggestion": false,
+      "doesCompile": false,
+      "expressionComponents": [
+        {
+          "label": "grades",
+          "type": "RELATION"
+        },
+        {
+          "label": ".",
+          "type": "OPERATOR"
+        },
+        {
+          "label": "~",
+          "type": "OPERATOR"
+        },
+        {
+          "label": "grades",
+          "type": "RELATION"
+        }
+      ]
+    },
+    {
+      "suggestion": "grades.univ",
+      "rank": 5,
+      "doesMatchExactly": false,
+      "startsWithSuggestion": false,
+      "doesCompile": false,
+      "doesMatchSyntactically": false,
+      "expressionComponents": [
+        {
+          "label": "grades",
+          "type": "RELATION"
+        },
+        {
+          "label": ".",
+          "type": "OPERATOR"
+        },
+        {
+          "label": "univ",
+          "type": "CONSTANT"
+        }
+      ]
+    },
+    {
+      "suggestion": "grades.~grades.univ",
+      "rank": 6,
+      "doesMatchExactly": false,
+      "startsWithSuggestion": false,
+      "doesCompile": false,
+      "expressionComponents": [
+        {
+          "label": "grades",
+          "type": "RELATION"
+        },
+        {
+          "label": ".",
+          "type": "OPERATOR"
+        },
+        {
+          "label": "~",
+          "type": "OPERATOR"
+        },
+        {
+          "label": "grades",
+          "type": "RELATION"
+        },
+        {
+          "label": ".",
+          "type": "OPERATOR"
+        },
+        {
+          "label": "univ",
+          "type": "CONSTANT"
+        }
+      ]
+    },
+    {
+      "suggestion": "projects + univ",
+      "rank": 7,
+      "doesMatchExactly": false,
+      "startsWithSuggestion": false,
+      "doesCompile": false,
+      "expressionComponents": [
+        {
+          "label": "projects",
+          "type": "RELATION"
+        },
+        {
+          "label": "+",
+          "type": "OPERATOR"
+        },
+        {
+          "label": "univ",
+          "type": "CONSTANT"
+        }
+      ]
+    },
+    {
+      "suggestion": "projects & univ",
+      "rank": 8,
+      "doesMatchExactly": false,
+      "startsWithSuggestion": false,
+      "doesCompile": false,
+      "expressionComponents": [
+        {
+          "label": "projects",
+          "type": "RELATION"
+        },
+        {
+          "label": "&",
+          "type": "OPERATOR"
+        },
+        {
+          "label": "univ",
+          "type": "CONSTANT"
+        }
+      ]
+    },
+    {
+      "suggestion": "projects - univ",
+      "rank": 9,
+      "doesMatchExactly": false,
+      "startsWithSuggestion": false,
+      "doesCompile": false,
+      "expressionComponents": [
+        {
+          "label": "projects",
+          "type": "RELATION"
+        },
+        {
+          "label": "-",
+          "type": "OPERATOR"
+        },
+        {
+          "label": "univ",
+          "type": "CONSTANT"
+        }
+      ]
+    },
+    {
+      "suggestion": "projects.univ",
+      "rank": 10,
+      "doesMatchExactly": false,
+      "startsWithSuggestion": false,
+      "doesCompile": false,
+      "expressionComponents": [
+        {
+          "label": "projects",
+          "type": "RELATION"
+        },
+        {
+          "label": ".",
+          "type": "OPERATOR"
+        },
+        {
+          "label": "univ",
+          "type": "CONSTANT"
+        }
+      ]
+    }
+  ],
+  "completionGenerated": true,
+  "suggestionExists": true,
+  "suggestionInTop1": false,
+  "suggestionInTop5": true,
+  "suggestionInTop10": true,
+  "suggestionInTop1Alpha": false,
+  "suggestionInTop5Alpha": true,
+  "suggestionInTop10Alpha": true,
+  "suggestionInTop1Len": true,
+  "suggestionInTop5Len": true,
+  "suggestionInTop10Len": true,
+  "expectedCompletionWord": "grades",
+  "expectedCompletionLine": "grades => p in Student",
+  "elapsedTimeInMs": 33243.441083
+}

@@ -6,6 +6,9 @@ Vscode Position: line=26 character=22
 ----------------------------------
 27 |     all p: Person | p.
 ----------------------------------
+Expected Completion word: spouse.spouse
+Expected Completion line: spouse.spouse = p
+Suggestion exists: false
 Completion List:
 # Suggestion 	 Exact 	 Syntactic 	 Semantic
 $1. *shaken.p 	 false 	 undefined 	 undefined
@@ -82,26 +85,15 @@ $71. ^spouse 	 false 	 undefined 	 undefined
 $72. ^spouse.*shaken 	 false 	 undefined 	 undefined
 $73. ^spouse.^shaken 	 false 	 undefined 	 undefined
 $74. ^spouse.univ 	 false 	 undefined 	 undefined
-$75. *shaken 	 false 	 undefined 	 undefined
-$76. *shaken.*spouse 	 false 	 undefined 	 undefined
-$77. *shaken.univ 	 false 	 undefined 	 undefined
-$78. *spouse 	 false 	 undefined 	 undefined
-$79. *spouse.*shaken 	 false 	 undefined 	 undefined
-$80. *spouse.univ 	 false 	 undefined 	 undefined
-Expected Completion word: spouse
-Expected Completion line: spouse.spouse = p
-Suggestion exists: false
+$75.  	 false 	 undefined 	 undefined
+$76. *shaken 	 false 	 undefined 	 undefined
+$77. *shaken.*spouse 	 false 	 undefined 	 undefined
+$78. *shaken.univ 	 false 	 undefined 	 undefined
+$79. *spouse 	 false 	 undefined 	 undefined
+$80. *spouse.*shaken 	 false 	 undefined 	 undefined
+$81. *spouse.univ 	 false 	 undefined 	 undefined
 
-Suggestion in top 1 = false 
-Suggestion in top 5 = false 
-Suggestion in top 10 = false 
-
-Suggestion in top 1 (Alpha) = false
-Suggestion in top 5 (Alpha) = false
-Suggestion in top 10 (Alpha) = false
-
-Suggestion in top 1 (Len) = false
-Suggestion in top 5 (Len) = true
-Suggestion in top 10 (Len) = true
-
-Time taken: 11.181625
+Time taken: 13.508375
+Preprocessing time: 4
+Parsing time: 1
+Generation time: 3

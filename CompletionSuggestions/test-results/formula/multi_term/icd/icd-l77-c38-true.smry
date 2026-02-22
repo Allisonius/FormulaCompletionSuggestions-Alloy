@@ -1,0 +1,39 @@
+Model name: icd
+Filename: completion/icd-complete.als
+Offset: 2282
+Term: .
+Vscode Position: line=76 character=38
+----------------------------------
+77 |   some m :  ChangeSettingsMessage | m.
+----------------------------------
+Expected Completion word: source
+Expected Completion line: source = s.authorised_card and 
+Suggestion exists: true
+Completion List:
+# Suggestion 	 Exact 	 Syntactic 	 Semantic
+$1. ~network.s 	 false 	 undefined 	 undefined
+$2. ~network.ss 	 false 	 undefined 	 undefined
+$3. joules_to_deliver.InitialJoulesToDeliver 	 false 	 undefined 	 undefined
+$4. joules_to_deliver.Joules 	 false 	 undefined 	 undefined
+$5. source.Principal 	 false 	 undefined 	 undefined
+$6. ~network.State 	 false 	 undefined 	 undefined
+$7. joules_to_deliver 	 false 	 undefined 	 undefined
+$8. joules_to_deliver.univ 	 false 	 undefined 	 undefined
+$9. source 	 true 	 undefined 	 undefined
+$10. source.roles 	 false 	 undefined 	 undefined
+$11. source.univ 	 false 	 undefined 	 undefined
+$12. source.~authorised_card 	 false 	 undefined 	 undefined
+$13. source.~who 	 false 	 undefined 	 undefined
+$14. ~network.authorised_card 	 false 	 undefined 	 undefined
+$15. ~network.icd_mode 	 false 	 undefined 	 undefined
+$16. ~network.impulse_mode 	 false 	 undefined 	 undefined
+$17. ~network.joules_to_deliver 	 false 	 undefined 	 undefined
+$18. ~network.last_action 	 false 	 undefined 	 undefined
+$19. ~network 	 false 	 undefined 	 undefined
+$20. ~network.univ 	 false 	 undefined 	 undefined
+$21.  	 false 	 undefined 	 undefined
+
+Time taken: 31.727167
+Preprocessing time: 10
+Parsing time: 5
+Generation time: 0

@@ -1,0 +1,37 @@
+Model name: courses-v2
+Filename: completion/courses-v2-complete.als
+Offset: 1125
+Term:  in 
+Vscode Position: line=52 character=81
+----------------------------------
+53 | 	all p : Person , c : Course , ps1 , ps2 : Project | ps1 in p.projects && ps2 in 
+----------------------------------
+Expected Completion word: p.projects
+Expected Completion line: p.projects && ps1 in c.projects && ps2 in c.projects implies ps1 = ps2
+Suggestion exists: true
+Completion List:
+# Suggestion 	 Exact 	 Syntactic 	 Semantic
+$1. p.projects 	 true 	 undefined 	 undefined
+$2. p.projects & ps2 	 false 	 undefined 	 undefined
+$3. p.projects + ps2 	 false 	 undefined 	 undefined
+$4. p.projects - ps2 	 false 	 undefined 	 undefined
+$5. p.projects + univ 	 false 	 undefined 	 undefined
+$6. p.projects & univ 	 false 	 undefined 	 undefined
+$7. p.projects - univ 	 false 	 undefined 	 undefined
+$8. p.projects.projects 	 false 	 undefined 	 undefined
+$9. p.projects.^projects 	 false 	 undefined 	 undefined
+$10. p.projects.*projects 	 false 	 undefined 	 undefined
+$11. p.projects.~projects 	 false 	 undefined 	 undefined
+$12. ps2.projects 	 false 	 undefined 	 undefined
+$13. ps2.^projects 	 false 	 undefined 	 undefined
+$14. ps2.*projects 	 false 	 undefined 	 undefined
+$15. ps2.~projects 	 false 	 undefined 	 undefined
+$16. ps2 + univ 	 false 	 undefined 	 undefined
+$17. ps2 & univ 	 false 	 undefined 	 undefined
+$18. ps2 - univ 	 false 	 undefined 	 undefined
+$19. univ 	 false 	 undefined 	 undefined
+
+Time taken: 9497.622625
+Preprocessing time: N/A
+Parsing time: N/A
+Generation time: N/A

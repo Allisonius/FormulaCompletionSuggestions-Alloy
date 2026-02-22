@@ -96,7 +96,7 @@ export const completionSuggestionImpactHandler = (
       });
     }
   };
-}
+};
 
 export const evaluateSuggestionCommandHandler = (
     client: LanguageClient,
@@ -112,4 +112,19 @@ export const evaluateSuggestionCommandHandler = (
         });
       }
     };
-};    
+};
+
+export const getModelStatsCommandHandler = (
+    client: LanguageClient,
+    context: vscode.ExtensionContext
+  ) => {
+    return async () => {
+      const editor = vscode.window.activeTextEditor;
+      if (editor) {
+        const documentUri = editor.document.uri.toString();
+        return await client.sendRequest("alloy/getModelStats", {
+          documentUri: documentUri,
+        });
+      }
+    };
+};

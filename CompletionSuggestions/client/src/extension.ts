@@ -20,6 +20,7 @@ import {
   showNextInstanceCommandHandler,
   completionSuggestionImpactHandler,
   evaluateSuggestionCommandHandler,
+  getModelStatsCommandHandler,
 } from "./commands-handlers";
 import { EvaluateSuggestionParams } from "./interfaces/commands";
 
@@ -93,6 +94,11 @@ export async function activate(context: vscode.ExtensionContext) {
     evaluateSuggestionCommandHandler(client, context)
   );
 
+  const getModelStatsCommandDisposable = vscode.commands.registerCommand(
+    "alloy.getModelStats",
+    getModelStatsCommandHandler(client, context)
+  );
+
   const inlineCompletionItemDisposable =
     vscode.languages.registerInlineCompletionItemProvider("alloy", {
       provideInlineCompletionItems(document, position, context, token) {
@@ -135,6 +141,8 @@ export async function activate(context: vscode.ExtensionContext) {
     runCommandCommandDisposable,
     inlineCompletionItemDisposable,
     suggestionImpactCommandDisposable,
+    evaluateSuggestionCommandDisposable,
+    getModelStatsCommandDisposable
   );
 }
 

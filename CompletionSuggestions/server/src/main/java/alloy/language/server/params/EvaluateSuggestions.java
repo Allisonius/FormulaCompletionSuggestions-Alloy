@@ -24,7 +24,9 @@ public interface EvaluateSuggestions {
 
 	record EvaluateSuggestionsResponse(
 			// TODO: Move all results in the backend, like suggestionExists, suggestionInTopN
-			List<SuggestionEvaluation> evaluations
+			List<SuggestionEvaluation> evaluations,
+			String completionTerm,
+			String expectedTerm
 	) {
 	}
 
@@ -32,6 +34,8 @@ public interface EvaluateSuggestions {
 			String suggestion,
 			Integer rank,
 			Boolean doesMatchExactly,
+			Boolean startsWithSuggestion,
+			Boolean doesCompile,
 			Boolean doesMatchSyntactically,
 			Boolean doesMatchSemantically,
 			List<ExpressionComponent> expressionComponents

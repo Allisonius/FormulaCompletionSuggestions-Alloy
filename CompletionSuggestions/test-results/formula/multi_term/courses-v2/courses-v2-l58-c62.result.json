@@ -1,1 +1,5212 @@
-{"modelName":"courses-v2","filename":"completion/courses-v2-complete.als","offset":1309,"term":" in ","line":58,"character":62,"incompletionLine":"all p : Person | all c : Course | c in p.teaches => c not in","completionList":"c, p, Course, Grade, Person, Professor, Project, Student, Int, String, none, univ","evaluationResult":[{"suggestion":"c","rank":1,"doesMatchExactly":false,"doesMatchSemantically":true,"expressionComponents":[{"label":"c","type":"OTHER"}]},{"suggestion":"p","rank":2,"doesMatchExactly":false,"doesMatchSemantically":true,"expressionComponents":[{"label":"p","type":"VARIABLE"}]},{"suggestion":"Course","rank":3,"doesMatchExactly":false,"doesMatchSemantically":true,"expressionComponents":[{"label":"Course","type":"SIGNATURE"}]},{"suggestion":"Grade","rank":4,"doesMatchExactly":false,"doesMatchSemantically":true,"expressionComponents":[{"label":"Grade","type":"SIGNATURE"}]},{"suggestion":"Person","rank":5,"doesMatchExactly":false,"doesMatchSemantically":true,"expressionComponents":[{"label":"Person","type":"SIGNATURE"}]},{"suggestion":"Professor","rank":6,"doesMatchExactly":false,"doesMatchSemantically":true,"expressionComponents":[{"label":"Professor","type":"SIGNATURE"}]},{"suggestion":"Project","rank":7,"doesMatchExactly":false,"doesMatchSemantically":true,"expressionComponents":[{"label":"Project","type":"SIGNATURE"}]},{"suggestion":"Student","rank":8,"doesMatchExactly":false,"doesMatchSemantically":true,"expressionComponents":[{"label":"Student","type":"SIGNATURE"}]},{"suggestion":"Int","rank":9,"doesMatchExactly":false,"doesMatchSemantically":true,"expressionComponents":[{"label":"Int","type":"OTHER"}]},{"suggestion":"String","rank":10,"doesMatchExactly":false,"doesMatchSemantically":true,"expressionComponents":[{"label":"String","type":"OTHER"}]},{"suggestion":"none","rank":11,"doesMatchExactly":false,"doesMatchSemantically":true,"expressionComponents":[{"label":"none","type":"CONSTANT"}]},{"suggestion":"univ","rank":12,"doesMatchExactly":false,"doesMatchSemantically":true,"expressionComponents":[{"label":"univ","type":"CONSTANT"}]}],"completionGenerated":true,"suggestionExists":false,"suggestionInTop1":false,"suggestionInTop5":true,"suggestionInTop10":true,"suggestionInTop1Alpha":false,"suggestionInTop5Alpha":false,"suggestionInTop10Alpha":true,"suggestionInTop1Len":false,"suggestionInTop5Len":true,"suggestionInTop10Len":true,"expectedCompletionWord":"p","expectedCompletionLine":"p.enrolled","elapsedTimeInMs":37.26075}
+{
+  "modelName": "courses-v2",
+  "filename": "completion/courses-v2-complete.als",
+  "offset": 1309,
+  "term": " in ",
+  "line": 58,
+  "character": 62,
+  "incompletionLine": "all p : Person | all c : Course | c in p.teaches => c not in",
+  "completionList": "c, c, c.~enrolled.teaches, c.~teaches.enrolled, enrolled.c.projects, enrolled.c.~enrolled, enrolled.c.~teaches, p, p.enrolled, p.teaches, teaches.c.projects, teaches.c.~enrolled, teaches.c.~teaches, ~enrolled.p, ~enrolled.p.enrolled, ~enrolled.p.projects, ~enrolled.p.teaches, ~enrolled.teaches.c, ~projects.c.projects, ~projects.c.~enrolled, ~projects.c.~teaches, ~projects.p.enrolled, ~projects.p.projects, ~projects.p.teaches, ~teaches.enrolled.c, ~teaches.p, ~teaches.p.enrolled, ~teaches.p.projects, ~teaches.p.teaches, Course, Course.~enrolled.teaches, Course.~teaches.enrolled, Grade, Person, Person.enrolled, Person.teaches, Professor, Professor.enrolled, Professor.teaches, Project, Project.~projects, Project.~projects.enrolled, Project.~projects.teaches, Student, Student.enrolled, Student.teaches, enrolled.Course.projects, enrolled.Course.~enrolled, enrolled.Course.~teaches, projects.Project, projects.Project.~projects, projects.Project.~projects, projects.Project.~projects, projects.Project.~projects, teaches.Course.projects, teaches.Course.~enrolled, teaches.Course.~teaches, ~enrolled.Person, ~enrolled.Person.enrolled, ~enrolled.Person.projects, ~enrolled.Person.teaches, ~enrolled.Professor, ~enrolled.Professor.enrolled, ~enrolled.Professor.projects, ~enrolled.Professor.teaches, ~enrolled.Student, ~enrolled.Student.enrolled, ~enrolled.Student.projects, ~enrolled.Student.teaches, ~enrolled.projects.Project, ~enrolled.teaches.Course, ~projects.Course.projects, ~projects.Course.~enrolled, ~projects.Course.~teaches, ~projects.Person.enrolled, ~projects.Person.projects, ~projects.Person.teaches, ~projects.Professor.enrolled, ~projects.Professor.projects, ~projects.Professor.teaches, ~projects.Student.enrolled, ~projects.Student.projects, ~projects.Student.teaches, ~teaches.Person, ~teaches.Person.enrolled, ~teaches.Person.projects, ~teaches.Person.teaches, ~teaches.Professor, ~teaches.Professor.enrolled, ~teaches.Professor.projects, ~teaches.Professor.teaches, ~teaches.Student, ~teaches.Student.enrolled, ~teaches.Student.projects, ~teaches.Student.teaches, ~teaches.enrolled.Course, ~teaches.projects.Project, enrolled.univ.enrolled, enrolled.univ.projects, enrolled.univ.teaches, enrolled.univ.~enrolled, enrolled.univ.~projects, enrolled.univ.~projects, enrolled.univ.~teaches, projects.univ, projects.univ.enrolled, projects.univ.enrolled, projects.univ.projects, projects.univ.projects, projects.univ.teaches, projects.univ.teaches, projects.univ.~enrolled, projects.univ.~projects, projects.univ.~projects, projects.univ.~projects, projects.univ.~projects, projects.univ.~teaches, teaches.univ.enrolled, teaches.univ.projects, teaches.univ.teaches, teaches.univ.~enrolled, teaches.univ.~projects, teaches.univ.~projects, teaches.univ.~teaches, univ.enrolled, univ.teaches, univ.~enrolled.teaches, univ.~projects.enrolled, univ.~projects.teaches, univ.~teaches.enrolled, ~enrolled.projects.univ, ~enrolled.teaches.univ, ~enrolled.univ.enrolled, ~enrolled.univ.projects, ~enrolled.univ.teaches, ~projects.univ.enrolled, ~projects.univ.enrolled, ~projects.univ.projects, ~projects.univ.projects, ~projects.univ.projects, ~projects.univ.projects, ~projects.univ.teaches, ~projects.univ.teaches, ~teaches.enrolled.univ, ~teaches.projects.univ, ~teaches.univ.enrolled, ~teaches.univ.projects, ~teaches.univ.teaches, univ.~projects, ~enrolled.univ, ~enrolled.univ.~projects, ~enrolled.univ.~projects, ~projects.univ.~enrolled, ~projects.univ.~enrolled, ~projects.univ.~projects, ~projects.univ.~projects, ~projects.univ.~teaches, ~projects.univ.~teaches, ~teaches.univ, ~teaches.univ.~projects, ~teaches.univ.~projects, univ, Int, String, none, univ",
+  "evaluationResult": [
+    {
+      "suggestion": "c",
+      "rank": 1,
+      "doesMatchExactly": false,
+      "startsWithSuggestion": false,
+      "doesCompile": true,
+      "doesMatchSemantically": true,
+      "expressionComponents": [
+        {
+          "label": "c",
+          "type": "OTHER"
+        }
+      ]
+    },
+    {
+      "suggestion": "c",
+      "rank": 2,
+      "doesMatchExactly": false,
+      "startsWithSuggestion": false,
+      "doesCompile": true,
+      "doesMatchSemantically": true,
+      "expressionComponents": [
+        {
+          "label": "c",
+          "type": "OTHER"
+        }
+      ]
+    },
+    {
+      "suggestion": "c.~enrolled.teaches",
+      "rank": 3,
+      "doesMatchExactly": false,
+      "startsWithSuggestion": false,
+      "doesCompile": true,
+      "doesMatchSemantically": false,
+      "expressionComponents": [
+        {
+          "label": "c",
+          "type": "OTHER"
+        },
+        {
+          "label": ".",
+          "type": "OPERATOR"
+        },
+        {
+          "label": "~",
+          "type": "OPERATOR"
+        },
+        {
+          "label": "enrolled",
+          "type": "RELATION"
+        },
+        {
+          "label": ".",
+          "type": "OPERATOR"
+        },
+        {
+          "label": "teaches",
+          "type": "RELATION"
+        }
+      ]
+    },
+    {
+      "suggestion": "c.~teaches.enrolled",
+      "rank": 4,
+      "doesMatchExactly": false,
+      "startsWithSuggestion": false,
+      "doesCompile": true,
+      "doesMatchSemantically": false,
+      "expressionComponents": [
+        {
+          "label": "c",
+          "type": "OTHER"
+        },
+        {
+          "label": ".",
+          "type": "OPERATOR"
+        },
+        {
+          "label": "~",
+          "type": "OPERATOR"
+        },
+        {
+          "label": "teaches",
+          "type": "RELATION"
+        },
+        {
+          "label": ".",
+          "type": "OPERATOR"
+        },
+        {
+          "label": "enrolled",
+          "type": "RELATION"
+        }
+      ]
+    },
+    {
+      "suggestion": "enrolled.c.projects",
+      "rank": 5,
+      "doesMatchExactly": false,
+      "startsWithSuggestion": false,
+      "doesCompile": false,
+      "expressionComponents": [
+        {
+          "label": "enrolled",
+          "type": "RELATION"
+        },
+        {
+          "label": ".",
+          "type": "OPERATOR"
+        },
+        {
+          "label": "c",
+          "type": "OTHER"
+        },
+        {
+          "label": ".",
+          "type": "OPERATOR"
+        },
+        {
+          "label": "projects",
+          "type": "RELATION"
+        }
+      ]
+    },
+    {
+      "suggestion": "enrolled.c.~enrolled",
+      "rank": 6,
+      "doesMatchExactly": false,
+      "startsWithSuggestion": false,
+      "doesCompile": true,
+      "doesMatchSemantically": true,
+      "expressionComponents": [
+        {
+          "label": "enrolled",
+          "type": "RELATION"
+        },
+        {
+          "label": ".",
+          "type": "OPERATOR"
+        },
+        {
+          "label": "c",
+          "type": "OTHER"
+        },
+        {
+          "label": ".",
+          "type": "OPERATOR"
+        },
+        {
+          "label": "~",
+          "type": "OPERATOR"
+        },
+        {
+          "label": "enrolled",
+          "type": "RELATION"
+        }
+      ]
+    },
+    {
+      "suggestion": "enrolled.c.~teaches",
+      "rank": 7,
+      "doesMatchExactly": false,
+      "startsWithSuggestion": false,
+      "doesCompile": true,
+      "doesMatchSemantically": true,
+      "expressionComponents": [
+        {
+          "label": "enrolled",
+          "type": "RELATION"
+        },
+        {
+          "label": ".",
+          "type": "OPERATOR"
+        },
+        {
+          "label": "c",
+          "type": "OTHER"
+        },
+        {
+          "label": ".",
+          "type": "OPERATOR"
+        },
+        {
+          "label": "~",
+          "type": "OPERATOR"
+        },
+        {
+          "label": "teaches",
+          "type": "RELATION"
+        }
+      ]
+    },
+    {
+      "suggestion": "p",
+      "rank": 8,
+      "doesMatchExactly": false,
+      "startsWithSuggestion": true,
+      "doesCompile": true,
+      "doesMatchSyntactically": false,
+      "doesMatchSemantically": true,
+      "expressionComponents": [
+        {
+          "label": "p",
+          "type": "VARIABLE"
+        }
+      ]
+    },
+    {
+      "suggestion": "p.enrolled",
+      "rank": 9,
+      "doesMatchExactly": true,
+      "startsWithSuggestion": true,
+      "doesCompile": true,
+      "doesMatchSyntactically": true,
+      "doesMatchSemantically": false,
+      "expressionComponents": [
+        {
+          "label": "p",
+          "type": "VARIABLE"
+        },
+        {
+          "label": ".",
+          "type": "OPERATOR"
+        },
+        {
+          "label": "enrolled",
+          "type": "RELATION"
+        }
+      ]
+    },
+    {
+      "suggestion": "p.teaches",
+      "rank": 10,
+      "doesMatchExactly": false,
+      "startsWithSuggestion": false,
+      "doesCompile": true,
+      "doesMatchSyntactically": false,
+      "doesMatchSemantically": true,
+      "expressionComponents": [
+        {
+          "label": "p",
+          "type": "VARIABLE"
+        },
+        {
+          "label": ".",
+          "type": "OPERATOR"
+        },
+        {
+          "label": "teaches",
+          "type": "RELATION"
+        }
+      ]
+    },
+    {
+      "suggestion": "teaches.c.projects",
+      "rank": 11,
+      "doesMatchExactly": false,
+      "startsWithSuggestion": false,
+      "doesCompile": false,
+      "expressionComponents": [
+        {
+          "label": "teaches",
+          "type": "RELATION"
+        },
+        {
+          "label": ".",
+          "type": "OPERATOR"
+        },
+        {
+          "label": "c",
+          "type": "OTHER"
+        },
+        {
+          "label": ".",
+          "type": "OPERATOR"
+        },
+        {
+          "label": "projects",
+          "type": "RELATION"
+        }
+      ]
+    },
+    {
+      "suggestion": "teaches.c.~enrolled",
+      "rank": 12,
+      "doesMatchExactly": false,
+      "startsWithSuggestion": false,
+      "doesCompile": true,
+      "doesMatchSemantically": true,
+      "expressionComponents": [
+        {
+          "label": "teaches",
+          "type": "RELATION"
+        },
+        {
+          "label": ".",
+          "type": "OPERATOR"
+        },
+        {
+          "label": "c",
+          "type": "OTHER"
+        },
+        {
+          "label": ".",
+          "type": "OPERATOR"
+        },
+        {
+          "label": "~",
+          "type": "OPERATOR"
+        },
+        {
+          "label": "enrolled",
+          "type": "RELATION"
+        }
+      ]
+    },
+    {
+      "suggestion": "teaches.c.~teaches",
+      "rank": 13,
+      "doesMatchExactly": false,
+      "startsWithSuggestion": false,
+      "doesCompile": true,
+      "doesMatchSemantically": true,
+      "expressionComponents": [
+        {
+          "label": "teaches",
+          "type": "RELATION"
+        },
+        {
+          "label": ".",
+          "type": "OPERATOR"
+        },
+        {
+          "label": "c",
+          "type": "OTHER"
+        },
+        {
+          "label": ".",
+          "type": "OPERATOR"
+        },
+        {
+          "label": "~",
+          "type": "OPERATOR"
+        },
+        {
+          "label": "teaches",
+          "type": "RELATION"
+        }
+      ]
+    },
+    {
+      "suggestion": "~enrolled.p",
+      "rank": 14,
+      "doesMatchExactly": false,
+      "startsWithSuggestion": false,
+      "doesCompile": true,
+      "doesMatchSyntactically": false,
+      "doesMatchSemantically": false,
+      "expressionComponents": [
+        {
+          "label": "~",
+          "type": "OPERATOR"
+        },
+        {
+          "label": "enrolled",
+          "type": "RELATION"
+        },
+        {
+          "label": ".",
+          "type": "OPERATOR"
+        },
+        {
+          "label": "p",
+          "type": "VARIABLE"
+        }
+      ]
+    },
+    {
+      "suggestion": "~enrolled.p.enrolled",
+      "rank": 15,
+      "doesMatchExactly": false,
+      "startsWithSuggestion": false,
+      "doesCompile": true,
+      "doesMatchSyntactically": false,
+      "doesMatchSemantically": true,
+      "expressionComponents": [
+        {
+          "label": "~",
+          "type": "OPERATOR"
+        },
+        {
+          "label": "enrolled",
+          "type": "RELATION"
+        },
+        {
+          "label": ".",
+          "type": "OPERATOR"
+        },
+        {
+          "label": "p",
+          "type": "VARIABLE"
+        },
+        {
+          "label": ".",
+          "type": "OPERATOR"
+        },
+        {
+          "label": "enrolled",
+          "type": "RELATION"
+        }
+      ]
+    },
+    {
+      "suggestion": "~enrolled.p.projects",
+      "rank": 16,
+      "doesMatchExactly": false,
+      "startsWithSuggestion": false,
+      "doesCompile": false,
+      "doesMatchSyntactically": false,
+      "expressionComponents": [
+        {
+          "label": "~",
+          "type": "OPERATOR"
+        },
+        {
+          "label": "enrolled",
+          "type": "RELATION"
+        },
+        {
+          "label": ".",
+          "type": "OPERATOR"
+        },
+        {
+          "label": "p",
+          "type": "VARIABLE"
+        },
+        {
+          "label": ".",
+          "type": "OPERATOR"
+        },
+        {
+          "label": "projects",
+          "type": "RELATION"
+        }
+      ]
+    },
+    {
+      "suggestion": "~enrolled.p.teaches",
+      "rank": 17,
+      "doesMatchExactly": false,
+      "startsWithSuggestion": false,
+      "doesCompile": true,
+      "doesMatchSyntactically": false,
+      "doesMatchSemantically": true,
+      "expressionComponents": [
+        {
+          "label": "~",
+          "type": "OPERATOR"
+        },
+        {
+          "label": "enrolled",
+          "type": "RELATION"
+        },
+        {
+          "label": ".",
+          "type": "OPERATOR"
+        },
+        {
+          "label": "p",
+          "type": "VARIABLE"
+        },
+        {
+          "label": ".",
+          "type": "OPERATOR"
+        },
+        {
+          "label": "teaches",
+          "type": "RELATION"
+        }
+      ]
+    },
+    {
+      "suggestion": "~enrolled.teaches.c",
+      "rank": 18,
+      "doesMatchExactly": false,
+      "startsWithSuggestion": false,
+      "doesCompile": true,
+      "doesMatchSemantically": false,
+      "expressionComponents": [
+        {
+          "label": "~",
+          "type": "OPERATOR"
+        },
+        {
+          "label": "enrolled",
+          "type": "RELATION"
+        },
+        {
+          "label": ".",
+          "type": "OPERATOR"
+        },
+        {
+          "label": "teaches",
+          "type": "RELATION"
+        },
+        {
+          "label": ".",
+          "type": "OPERATOR"
+        },
+        {
+          "label": "c",
+          "type": "OTHER"
+        }
+      ]
+    },
+    {
+      "suggestion": "~projects.c.projects",
+      "rank": 19,
+      "doesMatchExactly": false,
+      "startsWithSuggestion": false,
+      "doesCompile": true,
+      "doesMatchSemantically": true,
+      "expressionComponents": [
+        {
+          "label": "~",
+          "type": "OPERATOR"
+        },
+        {
+          "label": "projects",
+          "type": "RELATION"
+        },
+        {
+          "label": ".",
+          "type": "OPERATOR"
+        },
+        {
+          "label": "c",
+          "type": "OTHER"
+        },
+        {
+          "label": ".",
+          "type": "OPERATOR"
+        },
+        {
+          "label": "projects",
+          "type": "RELATION"
+        }
+      ]
+    },
+    {
+      "suggestion": "~projects.c.~enrolled",
+      "rank": 20,
+      "doesMatchExactly": false,
+      "startsWithSuggestion": false,
+      "doesCompile": true,
+      "doesMatchSemantically": true,
+      "expressionComponents": [
+        {
+          "label": "~",
+          "type": "OPERATOR"
+        },
+        {
+          "label": "projects",
+          "type": "RELATION"
+        },
+        {
+          "label": ".",
+          "type": "OPERATOR"
+        },
+        {
+          "label": "c",
+          "type": "OTHER"
+        },
+        {
+          "label": ".",
+          "type": "OPERATOR"
+        },
+        {
+          "label": "~",
+          "type": "OPERATOR"
+        },
+        {
+          "label": "enrolled",
+          "type": "RELATION"
+        }
+      ]
+    },
+    {
+      "suggestion": "~projects.c.~teaches",
+      "rank": 21,
+      "doesMatchExactly": false,
+      "startsWithSuggestion": false,
+      "doesCompile": true,
+      "doesMatchSemantically": true,
+      "expressionComponents": [
+        {
+          "label": "~",
+          "type": "OPERATOR"
+        },
+        {
+          "label": "projects",
+          "type": "RELATION"
+        },
+        {
+          "label": ".",
+          "type": "OPERATOR"
+        },
+        {
+          "label": "c",
+          "type": "OTHER"
+        },
+        {
+          "label": ".",
+          "type": "OPERATOR"
+        },
+        {
+          "label": "~",
+          "type": "OPERATOR"
+        },
+        {
+          "label": "teaches",
+          "type": "RELATION"
+        }
+      ]
+    },
+    {
+      "suggestion": "~projects.p.enrolled",
+      "rank": 22,
+      "doesMatchExactly": false,
+      "startsWithSuggestion": false,
+      "doesCompile": true,
+      "doesMatchSyntactically": false,
+      "doesMatchSemantically": true,
+      "expressionComponents": [
+        {
+          "label": "~",
+          "type": "OPERATOR"
+        },
+        {
+          "label": "projects",
+          "type": "RELATION"
+        },
+        {
+          "label": ".",
+          "type": "OPERATOR"
+        },
+        {
+          "label": "p",
+          "type": "VARIABLE"
+        },
+        {
+          "label": ".",
+          "type": "OPERATOR"
+        },
+        {
+          "label": "enrolled",
+          "type": "RELATION"
+        }
+      ]
+    },
+    {
+      "suggestion": "~projects.p.projects",
+      "rank": 23,
+      "doesMatchExactly": false,
+      "startsWithSuggestion": false,
+      "doesCompile": true,
+      "doesMatchSyntactically": false,
+      "doesMatchSemantically": true,
+      "expressionComponents": [
+        {
+          "label": "~",
+          "type": "OPERATOR"
+        },
+        {
+          "label": "projects",
+          "type": "RELATION"
+        },
+        {
+          "label": ".",
+          "type": "OPERATOR"
+        },
+        {
+          "label": "p",
+          "type": "VARIABLE"
+        },
+        {
+          "label": ".",
+          "type": "OPERATOR"
+        },
+        {
+          "label": "projects",
+          "type": "RELATION"
+        }
+      ]
+    },
+    {
+      "suggestion": "~projects.p.teaches",
+      "rank": 24,
+      "doesMatchExactly": false,
+      "startsWithSuggestion": false,
+      "doesCompile": true,
+      "doesMatchSyntactically": false,
+      "doesMatchSemantically": true,
+      "expressionComponents": [
+        {
+          "label": "~",
+          "type": "OPERATOR"
+        },
+        {
+          "label": "projects",
+          "type": "RELATION"
+        },
+        {
+          "label": ".",
+          "type": "OPERATOR"
+        },
+        {
+          "label": "p",
+          "type": "VARIABLE"
+        },
+        {
+          "label": ".",
+          "type": "OPERATOR"
+        },
+        {
+          "label": "teaches",
+          "type": "RELATION"
+        }
+      ]
+    },
+    {
+      "suggestion": "~teaches.enrolled.c",
+      "rank": 25,
+      "doesMatchExactly": false,
+      "startsWithSuggestion": false,
+      "doesCompile": true,
+      "doesMatchSemantically": false,
+      "expressionComponents": [
+        {
+          "label": "~",
+          "type": "OPERATOR"
+        },
+        {
+          "label": "teaches",
+          "type": "RELATION"
+        },
+        {
+          "label": ".",
+          "type": "OPERATOR"
+        },
+        {
+          "label": "enrolled",
+          "type": "RELATION"
+        },
+        {
+          "label": ".",
+          "type": "OPERATOR"
+        },
+        {
+          "label": "c",
+          "type": "OTHER"
+        }
+      ]
+    },
+    {
+      "suggestion": "~teaches.p",
+      "rank": 26,
+      "doesMatchExactly": false,
+      "startsWithSuggestion": false,
+      "doesCompile": true,
+      "doesMatchSyntactically": false,
+      "doesMatchSemantically": true,
+      "expressionComponents": [
+        {
+          "label": "~",
+          "type": "OPERATOR"
+        },
+        {
+          "label": "teaches",
+          "type": "RELATION"
+        },
+        {
+          "label": ".",
+          "type": "OPERATOR"
+        },
+        {
+          "label": "p",
+          "type": "VARIABLE"
+        }
+      ]
+    },
+    {
+      "suggestion": "~teaches.p.enrolled",
+      "rank": 27,
+      "doesMatchExactly": false,
+      "startsWithSuggestion": false,
+      "doesCompile": true,
+      "doesMatchSyntactically": false,
+      "doesMatchSemantically": true,
+      "expressionComponents": [
+        {
+          "label": "~",
+          "type": "OPERATOR"
+        },
+        {
+          "label": "teaches",
+          "type": "RELATION"
+        },
+        {
+          "label": ".",
+          "type": "OPERATOR"
+        },
+        {
+          "label": "p",
+          "type": "VARIABLE"
+        },
+        {
+          "label": ".",
+          "type": "OPERATOR"
+        },
+        {
+          "label": "enrolled",
+          "type": "RELATION"
+        }
+      ]
+    },
+    {
+      "suggestion": "~teaches.p.projects",
+      "rank": 28,
+      "doesMatchExactly": false,
+      "startsWithSuggestion": false,
+      "doesCompile": false,
+      "doesMatchSyntactically": false,
+      "expressionComponents": [
+        {
+          "label": "~",
+          "type": "OPERATOR"
+        },
+        {
+          "label": "teaches",
+          "type": "RELATION"
+        },
+        {
+          "label": ".",
+          "type": "OPERATOR"
+        },
+        {
+          "label": "p",
+          "type": "VARIABLE"
+        },
+        {
+          "label": ".",
+          "type": "OPERATOR"
+        },
+        {
+          "label": "projects",
+          "type": "RELATION"
+        }
+      ]
+    },
+    {
+      "suggestion": "~teaches.p.teaches",
+      "rank": 29,
+      "doesMatchExactly": false,
+      "startsWithSuggestion": false,
+      "doesCompile": true,
+      "doesMatchSyntactically": false,
+      "doesMatchSemantically": true,
+      "expressionComponents": [
+        {
+          "label": "~",
+          "type": "OPERATOR"
+        },
+        {
+          "label": "teaches",
+          "type": "RELATION"
+        },
+        {
+          "label": ".",
+          "type": "OPERATOR"
+        },
+        {
+          "label": "p",
+          "type": "VARIABLE"
+        },
+        {
+          "label": ".",
+          "type": "OPERATOR"
+        },
+        {
+          "label": "teaches",
+          "type": "RELATION"
+        }
+      ]
+    },
+    {
+      "suggestion": "Course",
+      "rank": 30,
+      "doesMatchExactly": false,
+      "startsWithSuggestion": false,
+      "doesCompile": true,
+      "doesMatchSyntactically": false,
+      "doesMatchSemantically": true,
+      "expressionComponents": [
+        {
+          "label": "Course",
+          "type": "SIGNATURE"
+        }
+      ]
+    },
+    {
+      "suggestion": "Course.~enrolled.teaches",
+      "rank": 31,
+      "doesMatchExactly": false,
+      "startsWithSuggestion": false,
+      "doesCompile": true,
+      "doesMatchSyntactically": false,
+      "doesMatchSemantically": true,
+      "expressionComponents": [
+        {
+          "label": "Course",
+          "type": "SIGNATURE"
+        },
+        {
+          "label": ".",
+          "type": "OPERATOR"
+        },
+        {
+          "label": "~",
+          "type": "OPERATOR"
+        },
+        {
+          "label": "enrolled",
+          "type": "RELATION"
+        },
+        {
+          "label": ".",
+          "type": "OPERATOR"
+        },
+        {
+          "label": "teaches",
+          "type": "RELATION"
+        }
+      ]
+    },
+    {
+      "suggestion": "Course.~teaches.enrolled",
+      "rank": 32,
+      "doesMatchExactly": false,
+      "startsWithSuggestion": false,
+      "doesCompile": true,
+      "doesMatchSyntactically": false,
+      "doesMatchSemantically": true,
+      "expressionComponents": [
+        {
+          "label": "Course",
+          "type": "SIGNATURE"
+        },
+        {
+          "label": ".",
+          "type": "OPERATOR"
+        },
+        {
+          "label": "~",
+          "type": "OPERATOR"
+        },
+        {
+          "label": "teaches",
+          "type": "RELATION"
+        },
+        {
+          "label": ".",
+          "type": "OPERATOR"
+        },
+        {
+          "label": "enrolled",
+          "type": "RELATION"
+        }
+      ]
+    },
+    {
+      "suggestion": "Grade",
+      "rank": 33,
+      "doesMatchExactly": false,
+      "startsWithSuggestion": false,
+      "doesCompile": true,
+      "doesMatchSyntactically": false,
+      "doesMatchSemantically": true,
+      "expressionComponents": [
+        {
+          "label": "Grade",
+          "type": "SIGNATURE"
+        }
+      ]
+    },
+    {
+      "suggestion": "Person",
+      "rank": 34,
+      "doesMatchExactly": false,
+      "startsWithSuggestion": false,
+      "doesCompile": true,
+      "doesMatchSyntactically": false,
+      "doesMatchSemantically": true,
+      "expressionComponents": [
+        {
+          "label": "Person",
+          "type": "SIGNATURE"
+        }
+      ]
+    },
+    {
+      "suggestion": "Person.enrolled",
+      "rank": 35,
+      "doesMatchExactly": false,
+      "startsWithSuggestion": false,
+      "doesCompile": true,
+      "doesMatchSyntactically": false,
+      "doesMatchSemantically": true,
+      "expressionComponents": [
+        {
+          "label": "Person",
+          "type": "SIGNATURE"
+        },
+        {
+          "label": ".",
+          "type": "OPERATOR"
+        },
+        {
+          "label": "enrolled",
+          "type": "RELATION"
+        }
+      ]
+    },
+    {
+      "suggestion": "Person.teaches",
+      "rank": 36,
+      "doesMatchExactly": false,
+      "startsWithSuggestion": false,
+      "doesCompile": true,
+      "doesMatchSyntactically": false,
+      "doesMatchSemantically": true,
+      "expressionComponents": [
+        {
+          "label": "Person",
+          "type": "SIGNATURE"
+        },
+        {
+          "label": ".",
+          "type": "OPERATOR"
+        },
+        {
+          "label": "teaches",
+          "type": "RELATION"
+        }
+      ]
+    },
+    {
+      "suggestion": "Professor",
+      "rank": 37,
+      "doesMatchExactly": false,
+      "startsWithSuggestion": false,
+      "doesCompile": true,
+      "doesMatchSyntactically": false,
+      "doesMatchSemantically": true,
+      "expressionComponents": [
+        {
+          "label": "Professor",
+          "type": "SIGNATURE"
+        }
+      ]
+    },
+    {
+      "suggestion": "Professor.enrolled",
+      "rank": 38,
+      "doesMatchExactly": false,
+      "startsWithSuggestion": false,
+      "doesCompile": true,
+      "doesMatchSyntactically": false,
+      "doesMatchSemantically": true,
+      "expressionComponents": [
+        {
+          "label": "Professor",
+          "type": "SIGNATURE"
+        },
+        {
+          "label": ".",
+          "type": "OPERATOR"
+        },
+        {
+          "label": "enrolled",
+          "type": "RELATION"
+        }
+      ]
+    },
+    {
+      "suggestion": "Professor.teaches",
+      "rank": 39,
+      "doesMatchExactly": false,
+      "startsWithSuggestion": false,
+      "doesCompile": true,
+      "doesMatchSyntactically": false,
+      "doesMatchSemantically": true,
+      "expressionComponents": [
+        {
+          "label": "Professor",
+          "type": "SIGNATURE"
+        },
+        {
+          "label": ".",
+          "type": "OPERATOR"
+        },
+        {
+          "label": "teaches",
+          "type": "RELATION"
+        }
+      ]
+    },
+    {
+      "suggestion": "Project",
+      "rank": 40,
+      "doesMatchExactly": false,
+      "startsWithSuggestion": false,
+      "doesCompile": true,
+      "doesMatchSyntactically": false,
+      "doesMatchSemantically": true,
+      "expressionComponents": [
+        {
+          "label": "Project",
+          "type": "SIGNATURE"
+        }
+      ]
+    },
+    {
+      "suggestion": "Project.~projects",
+      "rank": 41,
+      "doesMatchExactly": false,
+      "startsWithSuggestion": false,
+      "doesCompile": true,
+      "doesMatchSemantically": true,
+      "expressionComponents": [
+        {
+          "label": "Project",
+          "type": "SIGNATURE"
+        },
+        {
+          "label": ".",
+          "type": "OPERATOR"
+        },
+        {
+          "label": "~",
+          "type": "OPERATOR"
+        },
+        {
+          "label": "projects",
+          "type": "RELATION"
+        }
+      ]
+    },
+    {
+      "suggestion": "Project.~projects.enrolled",
+      "rank": 42,
+      "doesMatchExactly": false,
+      "startsWithSuggestion": false,
+      "doesCompile": true,
+      "doesMatchSyntactically": false,
+      "doesMatchSemantically": true,
+      "expressionComponents": [
+        {
+          "label": "Project",
+          "type": "SIGNATURE"
+        },
+        {
+          "label": ".",
+          "type": "OPERATOR"
+        },
+        {
+          "label": "~",
+          "type": "OPERATOR"
+        },
+        {
+          "label": "projects",
+          "type": "RELATION"
+        },
+        {
+          "label": ".",
+          "type": "OPERATOR"
+        },
+        {
+          "label": "enrolled",
+          "type": "RELATION"
+        }
+      ]
+    },
+    {
+      "suggestion": "Project.~projects.teaches",
+      "rank": 43,
+      "doesMatchExactly": false,
+      "startsWithSuggestion": false,
+      "doesCompile": true,
+      "doesMatchSyntactically": false,
+      "doesMatchSemantically": true,
+      "expressionComponents": [
+        {
+          "label": "Project",
+          "type": "SIGNATURE"
+        },
+        {
+          "label": ".",
+          "type": "OPERATOR"
+        },
+        {
+          "label": "~",
+          "type": "OPERATOR"
+        },
+        {
+          "label": "projects",
+          "type": "RELATION"
+        },
+        {
+          "label": ".",
+          "type": "OPERATOR"
+        },
+        {
+          "label": "teaches",
+          "type": "RELATION"
+        }
+      ]
+    },
+    {
+      "suggestion": "Student",
+      "rank": 44,
+      "doesMatchExactly": false,
+      "startsWithSuggestion": false,
+      "doesCompile": true,
+      "doesMatchSyntactically": false,
+      "doesMatchSemantically": true,
+      "expressionComponents": [
+        {
+          "label": "Student",
+          "type": "SIGNATURE"
+        }
+      ]
+    },
+    {
+      "suggestion": "Student.enrolled",
+      "rank": 45,
+      "doesMatchExactly": false,
+      "startsWithSuggestion": false,
+      "doesCompile": true,
+      "doesMatchSyntactically": false,
+      "doesMatchSemantically": true,
+      "expressionComponents": [
+        {
+          "label": "Student",
+          "type": "SIGNATURE"
+        },
+        {
+          "label": ".",
+          "type": "OPERATOR"
+        },
+        {
+          "label": "enrolled",
+          "type": "RELATION"
+        }
+      ]
+    },
+    {
+      "suggestion": "Student.teaches",
+      "rank": 46,
+      "doesMatchExactly": false,
+      "startsWithSuggestion": false,
+      "doesCompile": true,
+      "doesMatchSyntactically": false,
+      "doesMatchSemantically": true,
+      "expressionComponents": [
+        {
+          "label": "Student",
+          "type": "SIGNATURE"
+        },
+        {
+          "label": ".",
+          "type": "OPERATOR"
+        },
+        {
+          "label": "teaches",
+          "type": "RELATION"
+        }
+      ]
+    },
+    {
+      "suggestion": "enrolled.Course.projects",
+      "rank": 47,
+      "doesMatchExactly": false,
+      "startsWithSuggestion": false,
+      "doesCompile": false,
+      "doesMatchSyntactically": false,
+      "expressionComponents": [
+        {
+          "label": "enrolled",
+          "type": "RELATION"
+        },
+        {
+          "label": ".",
+          "type": "OPERATOR"
+        },
+        {
+          "label": "Course",
+          "type": "SIGNATURE"
+        },
+        {
+          "label": ".",
+          "type": "OPERATOR"
+        },
+        {
+          "label": "projects",
+          "type": "RELATION"
+        }
+      ]
+    },
+    {
+      "suggestion": "enrolled.Course.~enrolled",
+      "rank": 48,
+      "doesMatchExactly": false,
+      "startsWithSuggestion": false,
+      "doesCompile": true,
+      "doesMatchSyntactically": false,
+      "doesMatchSemantically": true,
+      "expressionComponents": [
+        {
+          "label": "enrolled",
+          "type": "RELATION"
+        },
+        {
+          "label": ".",
+          "type": "OPERATOR"
+        },
+        {
+          "label": "Course",
+          "type": "SIGNATURE"
+        },
+        {
+          "label": ".",
+          "type": "OPERATOR"
+        },
+        {
+          "label": "~",
+          "type": "OPERATOR"
+        },
+        {
+          "label": "enrolled",
+          "type": "RELATION"
+        }
+      ]
+    },
+    {
+      "suggestion": "enrolled.Course.~teaches",
+      "rank": 49,
+      "doesMatchExactly": false,
+      "startsWithSuggestion": false,
+      "doesCompile": true,
+      "doesMatchSyntactically": false,
+      "doesMatchSemantically": true,
+      "expressionComponents": [
+        {
+          "label": "enrolled",
+          "type": "RELATION"
+        },
+        {
+          "label": ".",
+          "type": "OPERATOR"
+        },
+        {
+          "label": "Course",
+          "type": "SIGNATURE"
+        },
+        {
+          "label": ".",
+          "type": "OPERATOR"
+        },
+        {
+          "label": "~",
+          "type": "OPERATOR"
+        },
+        {
+          "label": "teaches",
+          "type": "RELATION"
+        }
+      ]
+    },
+    {
+      "suggestion": "projects.Project",
+      "rank": 50,
+      "doesMatchExactly": false,
+      "startsWithSuggestion": false,
+      "doesCompile": true,
+      "doesMatchSemantically": true,
+      "expressionComponents": [
+        {
+          "label": "projects",
+          "type": "RELATION"
+        },
+        {
+          "label": ".",
+          "type": "OPERATOR"
+        },
+        {
+          "label": "Project",
+          "type": "SIGNATURE"
+        }
+      ]
+    },
+    {
+      "suggestion": "projects.Project.~projects",
+      "rank": 51,
+      "doesMatchExactly": false,
+      "startsWithSuggestion": false,
+      "doesCompile": false,
+      "expressionComponents": [
+        {
+          "label": "projects",
+          "type": "RELATION"
+        },
+        {
+          "label": ".",
+          "type": "OPERATOR"
+        },
+        {
+          "label": "Project",
+          "type": "SIGNATURE"
+        },
+        {
+          "label": ".",
+          "type": "OPERATOR"
+        },
+        {
+          "label": "~",
+          "type": "OPERATOR"
+        },
+        {
+          "label": "projects",
+          "type": "RELATION"
+        }
+      ]
+    },
+    {
+      "suggestion": "projects.Project.~projects",
+      "rank": 52,
+      "doesMatchExactly": false,
+      "startsWithSuggestion": false,
+      "doesCompile": false,
+      "expressionComponents": [
+        {
+          "label": "projects",
+          "type": "RELATION"
+        },
+        {
+          "label": ".",
+          "type": "OPERATOR"
+        },
+        {
+          "label": "Project",
+          "type": "SIGNATURE"
+        },
+        {
+          "label": ".",
+          "type": "OPERATOR"
+        },
+        {
+          "label": "~",
+          "type": "OPERATOR"
+        },
+        {
+          "label": "projects",
+          "type": "RELATION"
+        }
+      ]
+    },
+    {
+      "suggestion": "projects.Project.~projects",
+      "rank": 53,
+      "doesMatchExactly": false,
+      "startsWithSuggestion": false,
+      "doesCompile": false,
+      "expressionComponents": [
+        {
+          "label": "projects",
+          "type": "RELATION"
+        },
+        {
+          "label": ".",
+          "type": "OPERATOR"
+        },
+        {
+          "label": "Project",
+          "type": "SIGNATURE"
+        },
+        {
+          "label": ".",
+          "type": "OPERATOR"
+        },
+        {
+          "label": "~",
+          "type": "OPERATOR"
+        },
+        {
+          "label": "projects",
+          "type": "RELATION"
+        }
+      ]
+    },
+    {
+      "suggestion": "projects.Project.~projects",
+      "rank": 54,
+      "doesMatchExactly": false,
+      "startsWithSuggestion": false,
+      "doesCompile": false,
+      "expressionComponents": [
+        {
+          "label": "projects",
+          "type": "RELATION"
+        },
+        {
+          "label": ".",
+          "type": "OPERATOR"
+        },
+        {
+          "label": "Project",
+          "type": "SIGNATURE"
+        },
+        {
+          "label": ".",
+          "type": "OPERATOR"
+        },
+        {
+          "label": "~",
+          "type": "OPERATOR"
+        },
+        {
+          "label": "projects",
+          "type": "RELATION"
+        }
+      ]
+    },
+    {
+      "suggestion": "teaches.Course.projects",
+      "rank": 55,
+      "doesMatchExactly": false,
+      "startsWithSuggestion": false,
+      "doesCompile": false,
+      "doesMatchSyntactically": false,
+      "expressionComponents": [
+        {
+          "label": "teaches",
+          "type": "RELATION"
+        },
+        {
+          "label": ".",
+          "type": "OPERATOR"
+        },
+        {
+          "label": "Course",
+          "type": "SIGNATURE"
+        },
+        {
+          "label": ".",
+          "type": "OPERATOR"
+        },
+        {
+          "label": "projects",
+          "type": "RELATION"
+        }
+      ]
+    },
+    {
+      "suggestion": "teaches.Course.~enrolled",
+      "rank": 56,
+      "doesMatchExactly": false,
+      "startsWithSuggestion": false,
+      "doesCompile": true,
+      "doesMatchSyntactically": false,
+      "doesMatchSemantically": true,
+      "expressionComponents": [
+        {
+          "label": "teaches",
+          "type": "RELATION"
+        },
+        {
+          "label": ".",
+          "type": "OPERATOR"
+        },
+        {
+          "label": "Course",
+          "type": "SIGNATURE"
+        },
+        {
+          "label": ".",
+          "type": "OPERATOR"
+        },
+        {
+          "label": "~",
+          "type": "OPERATOR"
+        },
+        {
+          "label": "enrolled",
+          "type": "RELATION"
+        }
+      ]
+    },
+    {
+      "suggestion": "teaches.Course.~teaches",
+      "rank": 57,
+      "doesMatchExactly": false,
+      "startsWithSuggestion": false,
+      "doesCompile": true,
+      "doesMatchSyntactically": false,
+      "doesMatchSemantically": true,
+      "expressionComponents": [
+        {
+          "label": "teaches",
+          "type": "RELATION"
+        },
+        {
+          "label": ".",
+          "type": "OPERATOR"
+        },
+        {
+          "label": "Course",
+          "type": "SIGNATURE"
+        },
+        {
+          "label": ".",
+          "type": "OPERATOR"
+        },
+        {
+          "label": "~",
+          "type": "OPERATOR"
+        },
+        {
+          "label": "teaches",
+          "type": "RELATION"
+        }
+      ]
+    },
+    {
+      "suggestion": "~enrolled.Person",
+      "rank": 58,
+      "doesMatchExactly": false,
+      "startsWithSuggestion": false,
+      "doesCompile": true,
+      "doesMatchSyntactically": false,
+      "doesMatchSemantically": true,
+      "expressionComponents": [
+        {
+          "label": "~",
+          "type": "OPERATOR"
+        },
+        {
+          "label": "enrolled",
+          "type": "RELATION"
+        },
+        {
+          "label": ".",
+          "type": "OPERATOR"
+        },
+        {
+          "label": "Person",
+          "type": "SIGNATURE"
+        }
+      ]
+    },
+    {
+      "suggestion": "~enrolled.Person.enrolled",
+      "rank": 59,
+      "doesMatchExactly": false,
+      "startsWithSuggestion": false,
+      "doesCompile": true,
+      "doesMatchSyntactically": false,
+      "doesMatchSemantically": true,
+      "expressionComponents": [
+        {
+          "label": "~",
+          "type": "OPERATOR"
+        },
+        {
+          "label": "enrolled",
+          "type": "RELATION"
+        },
+        {
+          "label": ".",
+          "type": "OPERATOR"
+        },
+        {
+          "label": "Person",
+          "type": "SIGNATURE"
+        },
+        {
+          "label": ".",
+          "type": "OPERATOR"
+        },
+        {
+          "label": "enrolled",
+          "type": "RELATION"
+        }
+      ]
+    },
+    {
+      "suggestion": "~enrolled.Person.projects",
+      "rank": 60,
+      "doesMatchExactly": false,
+      "startsWithSuggestion": false,
+      "doesCompile": false,
+      "doesMatchSyntactically": false,
+      "expressionComponents": [
+        {
+          "label": "~",
+          "type": "OPERATOR"
+        },
+        {
+          "label": "enrolled",
+          "type": "RELATION"
+        },
+        {
+          "label": ".",
+          "type": "OPERATOR"
+        },
+        {
+          "label": "Person",
+          "type": "SIGNATURE"
+        },
+        {
+          "label": ".",
+          "type": "OPERATOR"
+        },
+        {
+          "label": "projects",
+          "type": "RELATION"
+        }
+      ]
+    },
+    {
+      "suggestion": "~enrolled.Person.teaches",
+      "rank": 61,
+      "doesMatchExactly": false,
+      "startsWithSuggestion": false,
+      "doesCompile": true,
+      "doesMatchSyntactically": false,
+      "doesMatchSemantically": true,
+      "expressionComponents": [
+        {
+          "label": "~",
+          "type": "OPERATOR"
+        },
+        {
+          "label": "enrolled",
+          "type": "RELATION"
+        },
+        {
+          "label": ".",
+          "type": "OPERATOR"
+        },
+        {
+          "label": "Person",
+          "type": "SIGNATURE"
+        },
+        {
+          "label": ".",
+          "type": "OPERATOR"
+        },
+        {
+          "label": "teaches",
+          "type": "RELATION"
+        }
+      ]
+    },
+    {
+      "suggestion": "~enrolled.Professor",
+      "rank": 62,
+      "doesMatchExactly": false,
+      "startsWithSuggestion": false,
+      "doesCompile": true,
+      "doesMatchSyntactically": false,
+      "doesMatchSemantically": true,
+      "expressionComponents": [
+        {
+          "label": "~",
+          "type": "OPERATOR"
+        },
+        {
+          "label": "enrolled",
+          "type": "RELATION"
+        },
+        {
+          "label": ".",
+          "type": "OPERATOR"
+        },
+        {
+          "label": "Professor",
+          "type": "SIGNATURE"
+        }
+      ]
+    },
+    {
+      "suggestion": "~enrolled.Professor.enrolled",
+      "rank": 63,
+      "doesMatchExactly": false,
+      "startsWithSuggestion": false,
+      "doesCompile": true,
+      "doesMatchSyntactically": false,
+      "doesMatchSemantically": true,
+      "expressionComponents": [
+        {
+          "label": "~",
+          "type": "OPERATOR"
+        },
+        {
+          "label": "enrolled",
+          "type": "RELATION"
+        },
+        {
+          "label": ".",
+          "type": "OPERATOR"
+        },
+        {
+          "label": "Professor",
+          "type": "SIGNATURE"
+        },
+        {
+          "label": ".",
+          "type": "OPERATOR"
+        },
+        {
+          "label": "enrolled",
+          "type": "RELATION"
+        }
+      ]
+    },
+    {
+      "suggestion": "~enrolled.Professor.projects",
+      "rank": 64,
+      "doesMatchExactly": false,
+      "startsWithSuggestion": false,
+      "doesCompile": false,
+      "doesMatchSyntactically": false,
+      "expressionComponents": [
+        {
+          "label": "~",
+          "type": "OPERATOR"
+        },
+        {
+          "label": "enrolled",
+          "type": "RELATION"
+        },
+        {
+          "label": ".",
+          "type": "OPERATOR"
+        },
+        {
+          "label": "Professor",
+          "type": "SIGNATURE"
+        },
+        {
+          "label": ".",
+          "type": "OPERATOR"
+        },
+        {
+          "label": "projects",
+          "type": "RELATION"
+        }
+      ]
+    },
+    {
+      "suggestion": "~enrolled.Professor.teaches",
+      "rank": 65,
+      "doesMatchExactly": false,
+      "startsWithSuggestion": false,
+      "doesCompile": true,
+      "doesMatchSyntactically": false,
+      "doesMatchSemantically": true,
+      "expressionComponents": [
+        {
+          "label": "~",
+          "type": "OPERATOR"
+        },
+        {
+          "label": "enrolled",
+          "type": "RELATION"
+        },
+        {
+          "label": ".",
+          "type": "OPERATOR"
+        },
+        {
+          "label": "Professor",
+          "type": "SIGNATURE"
+        },
+        {
+          "label": ".",
+          "type": "OPERATOR"
+        },
+        {
+          "label": "teaches",
+          "type": "RELATION"
+        }
+      ]
+    },
+    {
+      "suggestion": "~enrolled.Student",
+      "rank": 66,
+      "doesMatchExactly": false,
+      "startsWithSuggestion": false,
+      "doesCompile": true,
+      "doesMatchSyntactically": false,
+      "doesMatchSemantically": true,
+      "expressionComponents": [
+        {
+          "label": "~",
+          "type": "OPERATOR"
+        },
+        {
+          "label": "enrolled",
+          "type": "RELATION"
+        },
+        {
+          "label": ".",
+          "type": "OPERATOR"
+        },
+        {
+          "label": "Student",
+          "type": "SIGNATURE"
+        }
+      ]
+    },
+    {
+      "suggestion": "~enrolled.Student.enrolled",
+      "rank": 67,
+      "doesMatchExactly": false,
+      "startsWithSuggestion": false,
+      "doesCompile": true,
+      "doesMatchSyntactically": false,
+      "doesMatchSemantically": true,
+      "expressionComponents": [
+        {
+          "label": "~",
+          "type": "OPERATOR"
+        },
+        {
+          "label": "enrolled",
+          "type": "RELATION"
+        },
+        {
+          "label": ".",
+          "type": "OPERATOR"
+        },
+        {
+          "label": "Student",
+          "type": "SIGNATURE"
+        },
+        {
+          "label": ".",
+          "type": "OPERATOR"
+        },
+        {
+          "label": "enrolled",
+          "type": "RELATION"
+        }
+      ]
+    },
+    {
+      "suggestion": "~enrolled.Student.projects",
+      "rank": 68,
+      "doesMatchExactly": false,
+      "startsWithSuggestion": false,
+      "doesCompile": false,
+      "doesMatchSyntactically": false,
+      "expressionComponents": [
+        {
+          "label": "~",
+          "type": "OPERATOR"
+        },
+        {
+          "label": "enrolled",
+          "type": "RELATION"
+        },
+        {
+          "label": ".",
+          "type": "OPERATOR"
+        },
+        {
+          "label": "Student",
+          "type": "SIGNATURE"
+        },
+        {
+          "label": ".",
+          "type": "OPERATOR"
+        },
+        {
+          "label": "projects",
+          "type": "RELATION"
+        }
+      ]
+    },
+    {
+      "suggestion": "~enrolled.Student.teaches",
+      "rank": 69,
+      "doesMatchExactly": false,
+      "startsWithSuggestion": false,
+      "doesCompile": true,
+      "doesMatchSyntactically": false,
+      "doesMatchSemantically": true,
+      "expressionComponents": [
+        {
+          "label": "~",
+          "type": "OPERATOR"
+        },
+        {
+          "label": "enrolled",
+          "type": "RELATION"
+        },
+        {
+          "label": ".",
+          "type": "OPERATOR"
+        },
+        {
+          "label": "Student",
+          "type": "SIGNATURE"
+        },
+        {
+          "label": ".",
+          "type": "OPERATOR"
+        },
+        {
+          "label": "teaches",
+          "type": "RELATION"
+        }
+      ]
+    },
+    {
+      "suggestion": "~enrolled.projects.Project",
+      "rank": 70,
+      "doesMatchExactly": false,
+      "startsWithSuggestion": false,
+      "doesCompile": true,
+      "doesMatchSyntactically": false,
+      "doesMatchSemantically": true,
+      "expressionComponents": [
+        {
+          "label": "~",
+          "type": "OPERATOR"
+        },
+        {
+          "label": "enrolled",
+          "type": "RELATION"
+        },
+        {
+          "label": ".",
+          "type": "OPERATOR"
+        },
+        {
+          "label": "projects",
+          "type": "RELATION"
+        },
+        {
+          "label": ".",
+          "type": "OPERATOR"
+        },
+        {
+          "label": "Project",
+          "type": "SIGNATURE"
+        }
+      ]
+    },
+    {
+      "suggestion": "~enrolled.teaches.Course",
+      "rank": 71,
+      "doesMatchExactly": false,
+      "startsWithSuggestion": false,
+      "doesCompile": true,
+      "doesMatchSyntactically": false,
+      "doesMatchSemantically": true,
+      "expressionComponents": [
+        {
+          "label": "~",
+          "type": "OPERATOR"
+        },
+        {
+          "label": "enrolled",
+          "type": "RELATION"
+        },
+        {
+          "label": ".",
+          "type": "OPERATOR"
+        },
+        {
+          "label": "teaches",
+          "type": "RELATION"
+        },
+        {
+          "label": ".",
+          "type": "OPERATOR"
+        },
+        {
+          "label": "Course",
+          "type": "SIGNATURE"
+        }
+      ]
+    },
+    {
+      "suggestion": "~projects.Course.projects",
+      "rank": 72,
+      "doesMatchExactly": false,
+      "startsWithSuggestion": false,
+      "doesCompile": true,
+      "doesMatchSyntactically": false,
+      "doesMatchSemantically": true,
+      "expressionComponents": [
+        {
+          "label": "~",
+          "type": "OPERATOR"
+        },
+        {
+          "label": "projects",
+          "type": "RELATION"
+        },
+        {
+          "label": ".",
+          "type": "OPERATOR"
+        },
+        {
+          "label": "Course",
+          "type": "SIGNATURE"
+        },
+        {
+          "label": ".",
+          "type": "OPERATOR"
+        },
+        {
+          "label": "projects",
+          "type": "RELATION"
+        }
+      ]
+    },
+    {
+      "suggestion": "~projects.Course.~enrolled",
+      "rank": 73,
+      "doesMatchExactly": false,
+      "startsWithSuggestion": false,
+      "doesCompile": true,
+      "doesMatchSyntactically": false,
+      "doesMatchSemantically": true,
+      "expressionComponents": [
+        {
+          "label": "~",
+          "type": "OPERATOR"
+        },
+        {
+          "label": "projects",
+          "type": "RELATION"
+        },
+        {
+          "label": ".",
+          "type": "OPERATOR"
+        },
+        {
+          "label": "Course",
+          "type": "SIGNATURE"
+        },
+        {
+          "label": ".",
+          "type": "OPERATOR"
+        },
+        {
+          "label": "~",
+          "type": "OPERATOR"
+        },
+        {
+          "label": "enrolled",
+          "type": "RELATION"
+        }
+      ]
+    },
+    {
+      "suggestion": "~projects.Course.~teaches",
+      "rank": 74,
+      "doesMatchExactly": false,
+      "startsWithSuggestion": false,
+      "doesCompile": true,
+      "doesMatchSyntactically": false,
+      "doesMatchSemantically": true,
+      "expressionComponents": [
+        {
+          "label": "~",
+          "type": "OPERATOR"
+        },
+        {
+          "label": "projects",
+          "type": "RELATION"
+        },
+        {
+          "label": ".",
+          "type": "OPERATOR"
+        },
+        {
+          "label": "Course",
+          "type": "SIGNATURE"
+        },
+        {
+          "label": ".",
+          "type": "OPERATOR"
+        },
+        {
+          "label": "~",
+          "type": "OPERATOR"
+        },
+        {
+          "label": "teaches",
+          "type": "RELATION"
+        }
+      ]
+    },
+    {
+      "suggestion": "~projects.Person.enrolled",
+      "rank": 75,
+      "doesMatchExactly": false,
+      "startsWithSuggestion": false,
+      "doesCompile": true,
+      "doesMatchSyntactically": false,
+      "doesMatchSemantically": true,
+      "expressionComponents": [
+        {
+          "label": "~",
+          "type": "OPERATOR"
+        },
+        {
+          "label": "projects",
+          "type": "RELATION"
+        },
+        {
+          "label": ".",
+          "type": "OPERATOR"
+        },
+        {
+          "label": "Person",
+          "type": "SIGNATURE"
+        },
+        {
+          "label": ".",
+          "type": "OPERATOR"
+        },
+        {
+          "label": "enrolled",
+          "type": "RELATION"
+        }
+      ]
+    },
+    {
+      "suggestion": "~projects.Person.projects",
+      "rank": 76,
+      "doesMatchExactly": false,
+      "startsWithSuggestion": false,
+      "doesCompile": true,
+      "doesMatchSyntactically": false,
+      "doesMatchSemantically": true,
+      "expressionComponents": [
+        {
+          "label": "~",
+          "type": "OPERATOR"
+        },
+        {
+          "label": "projects",
+          "type": "RELATION"
+        },
+        {
+          "label": ".",
+          "type": "OPERATOR"
+        },
+        {
+          "label": "Person",
+          "type": "SIGNATURE"
+        },
+        {
+          "label": ".",
+          "type": "OPERATOR"
+        },
+        {
+          "label": "projects",
+          "type": "RELATION"
+        }
+      ]
+    },
+    {
+      "suggestion": "~projects.Person.teaches",
+      "rank": 77,
+      "doesMatchExactly": false,
+      "startsWithSuggestion": false,
+      "doesCompile": true,
+      "doesMatchSyntactically": false,
+      "doesMatchSemantically": true,
+      "expressionComponents": [
+        {
+          "label": "~",
+          "type": "OPERATOR"
+        },
+        {
+          "label": "projects",
+          "type": "RELATION"
+        },
+        {
+          "label": ".",
+          "type": "OPERATOR"
+        },
+        {
+          "label": "Person",
+          "type": "SIGNATURE"
+        },
+        {
+          "label": ".",
+          "type": "OPERATOR"
+        },
+        {
+          "label": "teaches",
+          "type": "RELATION"
+        }
+      ]
+    },
+    {
+      "suggestion": "~projects.Professor.enrolled",
+      "rank": 78,
+      "doesMatchExactly": false,
+      "startsWithSuggestion": false,
+      "doesCompile": true,
+      "doesMatchSyntactically": false,
+      "doesMatchSemantically": true,
+      "expressionComponents": [
+        {
+          "label": "~",
+          "type": "OPERATOR"
+        },
+        {
+          "label": "projects",
+          "type": "RELATION"
+        },
+        {
+          "label": ".",
+          "type": "OPERATOR"
+        },
+        {
+          "label": "Professor",
+          "type": "SIGNATURE"
+        },
+        {
+          "label": ".",
+          "type": "OPERATOR"
+        },
+        {
+          "label": "enrolled",
+          "type": "RELATION"
+        }
+      ]
+    },
+    {
+      "suggestion": "~projects.Professor.projects",
+      "rank": 79,
+      "doesMatchExactly": false,
+      "startsWithSuggestion": false,
+      "doesCompile": true,
+      "doesMatchSyntactically": false,
+      "doesMatchSemantically": true,
+      "expressionComponents": [
+        {
+          "label": "~",
+          "type": "OPERATOR"
+        },
+        {
+          "label": "projects",
+          "type": "RELATION"
+        },
+        {
+          "label": ".",
+          "type": "OPERATOR"
+        },
+        {
+          "label": "Professor",
+          "type": "SIGNATURE"
+        },
+        {
+          "label": ".",
+          "type": "OPERATOR"
+        },
+        {
+          "label": "projects",
+          "type": "RELATION"
+        }
+      ]
+    },
+    {
+      "suggestion": "~projects.Professor.teaches",
+      "rank": 80,
+      "doesMatchExactly": false,
+      "startsWithSuggestion": false,
+      "doesCompile": true,
+      "doesMatchSyntactically": false,
+      "doesMatchSemantically": true,
+      "expressionComponents": [
+        {
+          "label": "~",
+          "type": "OPERATOR"
+        },
+        {
+          "label": "projects",
+          "type": "RELATION"
+        },
+        {
+          "label": ".",
+          "type": "OPERATOR"
+        },
+        {
+          "label": "Professor",
+          "type": "SIGNATURE"
+        },
+        {
+          "label": ".",
+          "type": "OPERATOR"
+        },
+        {
+          "label": "teaches",
+          "type": "RELATION"
+        }
+      ]
+    },
+    {
+      "suggestion": "~projects.Student.enrolled",
+      "rank": 81,
+      "doesMatchExactly": false,
+      "startsWithSuggestion": false,
+      "doesCompile": true,
+      "doesMatchSyntactically": false,
+      "doesMatchSemantically": true,
+      "expressionComponents": [
+        {
+          "label": "~",
+          "type": "OPERATOR"
+        },
+        {
+          "label": "projects",
+          "type": "RELATION"
+        },
+        {
+          "label": ".",
+          "type": "OPERATOR"
+        },
+        {
+          "label": "Student",
+          "type": "SIGNATURE"
+        },
+        {
+          "label": ".",
+          "type": "OPERATOR"
+        },
+        {
+          "label": "enrolled",
+          "type": "RELATION"
+        }
+      ]
+    },
+    {
+      "suggestion": "~projects.Student.projects",
+      "rank": 82,
+      "doesMatchExactly": false,
+      "startsWithSuggestion": false,
+      "doesCompile": true,
+      "doesMatchSyntactically": false,
+      "doesMatchSemantically": true,
+      "expressionComponents": [
+        {
+          "label": "~",
+          "type": "OPERATOR"
+        },
+        {
+          "label": "projects",
+          "type": "RELATION"
+        },
+        {
+          "label": ".",
+          "type": "OPERATOR"
+        },
+        {
+          "label": "Student",
+          "type": "SIGNATURE"
+        },
+        {
+          "label": ".",
+          "type": "OPERATOR"
+        },
+        {
+          "label": "projects",
+          "type": "RELATION"
+        }
+      ]
+    },
+    {
+      "suggestion": "~projects.Student.teaches",
+      "rank": 83,
+      "doesMatchExactly": false,
+      "startsWithSuggestion": false,
+      "doesCompile": true,
+      "doesMatchSyntactically": false,
+      "doesMatchSemantically": true,
+      "expressionComponents": [
+        {
+          "label": "~",
+          "type": "OPERATOR"
+        },
+        {
+          "label": "projects",
+          "type": "RELATION"
+        },
+        {
+          "label": ".",
+          "type": "OPERATOR"
+        },
+        {
+          "label": "Student",
+          "type": "SIGNATURE"
+        },
+        {
+          "label": ".",
+          "type": "OPERATOR"
+        },
+        {
+          "label": "teaches",
+          "type": "RELATION"
+        }
+      ]
+    },
+    {
+      "suggestion": "~teaches.Person",
+      "rank": 84,
+      "doesMatchExactly": false,
+      "startsWithSuggestion": false,
+      "doesCompile": true,
+      "doesMatchSyntactically": false,
+      "doesMatchSemantically": true,
+      "expressionComponents": [
+        {
+          "label": "~",
+          "type": "OPERATOR"
+        },
+        {
+          "label": "teaches",
+          "type": "RELATION"
+        },
+        {
+          "label": ".",
+          "type": "OPERATOR"
+        },
+        {
+          "label": "Person",
+          "type": "SIGNATURE"
+        }
+      ]
+    },
+    {
+      "suggestion": "~teaches.Person.enrolled",
+      "rank": 85,
+      "doesMatchExactly": false,
+      "startsWithSuggestion": false,
+      "doesCompile": true,
+      "doesMatchSyntactically": false,
+      "doesMatchSemantically": true,
+      "expressionComponents": [
+        {
+          "label": "~",
+          "type": "OPERATOR"
+        },
+        {
+          "label": "teaches",
+          "type": "RELATION"
+        },
+        {
+          "label": ".",
+          "type": "OPERATOR"
+        },
+        {
+          "label": "Person",
+          "type": "SIGNATURE"
+        },
+        {
+          "label": ".",
+          "type": "OPERATOR"
+        },
+        {
+          "label": "enrolled",
+          "type": "RELATION"
+        }
+      ]
+    },
+    {
+      "suggestion": "~teaches.Person.projects",
+      "rank": 86,
+      "doesMatchExactly": false,
+      "startsWithSuggestion": false,
+      "doesCompile": false,
+      "doesMatchSyntactically": false,
+      "expressionComponents": [
+        {
+          "label": "~",
+          "type": "OPERATOR"
+        },
+        {
+          "label": "teaches",
+          "type": "RELATION"
+        },
+        {
+          "label": ".",
+          "type": "OPERATOR"
+        },
+        {
+          "label": "Person",
+          "type": "SIGNATURE"
+        },
+        {
+          "label": ".",
+          "type": "OPERATOR"
+        },
+        {
+          "label": "projects",
+          "type": "RELATION"
+        }
+      ]
+    },
+    {
+      "suggestion": "~teaches.Person.teaches",
+      "rank": 87,
+      "doesMatchExactly": false,
+      "startsWithSuggestion": false,
+      "doesCompile": true,
+      "doesMatchSyntactically": false,
+      "doesMatchSemantically": true,
+      "expressionComponents": [
+        {
+          "label": "~",
+          "type": "OPERATOR"
+        },
+        {
+          "label": "teaches",
+          "type": "RELATION"
+        },
+        {
+          "label": ".",
+          "type": "OPERATOR"
+        },
+        {
+          "label": "Person",
+          "type": "SIGNATURE"
+        },
+        {
+          "label": ".",
+          "type": "OPERATOR"
+        },
+        {
+          "label": "teaches",
+          "type": "RELATION"
+        }
+      ]
+    },
+    {
+      "suggestion": "~teaches.Professor",
+      "rank": 88,
+      "doesMatchExactly": false,
+      "startsWithSuggestion": false,
+      "doesCompile": true,
+      "doesMatchSyntactically": false,
+      "doesMatchSemantically": true,
+      "expressionComponents": [
+        {
+          "label": "~",
+          "type": "OPERATOR"
+        },
+        {
+          "label": "teaches",
+          "type": "RELATION"
+        },
+        {
+          "label": ".",
+          "type": "OPERATOR"
+        },
+        {
+          "label": "Professor",
+          "type": "SIGNATURE"
+        }
+      ]
+    },
+    {
+      "suggestion": "~teaches.Professor.enrolled",
+      "rank": 89,
+      "doesMatchExactly": false,
+      "startsWithSuggestion": false,
+      "doesCompile": true,
+      "doesMatchSyntactically": false,
+      "doesMatchSemantically": true,
+      "expressionComponents": [
+        {
+          "label": "~",
+          "type": "OPERATOR"
+        },
+        {
+          "label": "teaches",
+          "type": "RELATION"
+        },
+        {
+          "label": ".",
+          "type": "OPERATOR"
+        },
+        {
+          "label": "Professor",
+          "type": "SIGNATURE"
+        },
+        {
+          "label": ".",
+          "type": "OPERATOR"
+        },
+        {
+          "label": "enrolled",
+          "type": "RELATION"
+        }
+      ]
+    },
+    {
+      "suggestion": "~teaches.Professor.projects",
+      "rank": 90,
+      "doesMatchExactly": false,
+      "startsWithSuggestion": false,
+      "doesCompile": false,
+      "doesMatchSyntactically": false,
+      "expressionComponents": [
+        {
+          "label": "~",
+          "type": "OPERATOR"
+        },
+        {
+          "label": "teaches",
+          "type": "RELATION"
+        },
+        {
+          "label": ".",
+          "type": "OPERATOR"
+        },
+        {
+          "label": "Professor",
+          "type": "SIGNATURE"
+        },
+        {
+          "label": ".",
+          "type": "OPERATOR"
+        },
+        {
+          "label": "projects",
+          "type": "RELATION"
+        }
+      ]
+    },
+    {
+      "suggestion": "~teaches.Professor.teaches",
+      "rank": 91,
+      "doesMatchExactly": false,
+      "startsWithSuggestion": false,
+      "doesCompile": true,
+      "doesMatchSyntactically": false,
+      "doesMatchSemantically": true,
+      "expressionComponents": [
+        {
+          "label": "~",
+          "type": "OPERATOR"
+        },
+        {
+          "label": "teaches",
+          "type": "RELATION"
+        },
+        {
+          "label": ".",
+          "type": "OPERATOR"
+        },
+        {
+          "label": "Professor",
+          "type": "SIGNATURE"
+        },
+        {
+          "label": ".",
+          "type": "OPERATOR"
+        },
+        {
+          "label": "teaches",
+          "type": "RELATION"
+        }
+      ]
+    },
+    {
+      "suggestion": "~teaches.Student",
+      "rank": 92,
+      "doesMatchExactly": false,
+      "startsWithSuggestion": false,
+      "doesCompile": true,
+      "doesMatchSyntactically": false,
+      "doesMatchSemantically": true,
+      "expressionComponents": [
+        {
+          "label": "~",
+          "type": "OPERATOR"
+        },
+        {
+          "label": "teaches",
+          "type": "RELATION"
+        },
+        {
+          "label": ".",
+          "type": "OPERATOR"
+        },
+        {
+          "label": "Student",
+          "type": "SIGNATURE"
+        }
+      ]
+    },
+    {
+      "suggestion": "~teaches.Student.enrolled",
+      "rank": 93,
+      "doesMatchExactly": false,
+      "startsWithSuggestion": false,
+      "doesCompile": true,
+      "doesMatchSyntactically": false,
+      "doesMatchSemantically": true,
+      "expressionComponents": [
+        {
+          "label": "~",
+          "type": "OPERATOR"
+        },
+        {
+          "label": "teaches",
+          "type": "RELATION"
+        },
+        {
+          "label": ".",
+          "type": "OPERATOR"
+        },
+        {
+          "label": "Student",
+          "type": "SIGNATURE"
+        },
+        {
+          "label": ".",
+          "type": "OPERATOR"
+        },
+        {
+          "label": "enrolled",
+          "type": "RELATION"
+        }
+      ]
+    },
+    {
+      "suggestion": "~teaches.Student.projects",
+      "rank": 94,
+      "doesMatchExactly": false,
+      "startsWithSuggestion": false,
+      "doesCompile": false,
+      "doesMatchSyntactically": false,
+      "expressionComponents": [
+        {
+          "label": "~",
+          "type": "OPERATOR"
+        },
+        {
+          "label": "teaches",
+          "type": "RELATION"
+        },
+        {
+          "label": ".",
+          "type": "OPERATOR"
+        },
+        {
+          "label": "Student",
+          "type": "SIGNATURE"
+        },
+        {
+          "label": ".",
+          "type": "OPERATOR"
+        },
+        {
+          "label": "projects",
+          "type": "RELATION"
+        }
+      ]
+    },
+    {
+      "suggestion": "~teaches.Student.teaches",
+      "rank": 95,
+      "doesMatchExactly": false,
+      "startsWithSuggestion": false,
+      "doesCompile": true,
+      "doesMatchSyntactically": false,
+      "doesMatchSemantically": true,
+      "expressionComponents": [
+        {
+          "label": "~",
+          "type": "OPERATOR"
+        },
+        {
+          "label": "teaches",
+          "type": "RELATION"
+        },
+        {
+          "label": ".",
+          "type": "OPERATOR"
+        },
+        {
+          "label": "Student",
+          "type": "SIGNATURE"
+        },
+        {
+          "label": ".",
+          "type": "OPERATOR"
+        },
+        {
+          "label": "teaches",
+          "type": "RELATION"
+        }
+      ]
+    },
+    {
+      "suggestion": "~teaches.enrolled.Course",
+      "rank": 96,
+      "doesMatchExactly": false,
+      "startsWithSuggestion": false,
+      "doesCompile": true,
+      "doesMatchSyntactically": false,
+      "doesMatchSemantically": true,
+      "expressionComponents": [
+        {
+          "label": "~",
+          "type": "OPERATOR"
+        },
+        {
+          "label": "teaches",
+          "type": "RELATION"
+        },
+        {
+          "label": ".",
+          "type": "OPERATOR"
+        },
+        {
+          "label": "enrolled",
+          "type": "RELATION"
+        },
+        {
+          "label": ".",
+          "type": "OPERATOR"
+        },
+        {
+          "label": "Course",
+          "type": "SIGNATURE"
+        }
+      ]
+    },
+    {
+      "suggestion": "~teaches.projects.Project",
+      "rank": 97,
+      "doesMatchExactly": false,
+      "startsWithSuggestion": false,
+      "doesCompile": true,
+      "doesMatchSyntactically": false,
+      "doesMatchSemantically": true,
+      "expressionComponents": [
+        {
+          "label": "~",
+          "type": "OPERATOR"
+        },
+        {
+          "label": "teaches",
+          "type": "RELATION"
+        },
+        {
+          "label": ".",
+          "type": "OPERATOR"
+        },
+        {
+          "label": "projects",
+          "type": "RELATION"
+        },
+        {
+          "label": ".",
+          "type": "OPERATOR"
+        },
+        {
+          "label": "Project",
+          "type": "SIGNATURE"
+        }
+      ]
+    },
+    {
+      "suggestion": "enrolled.univ.enrolled",
+      "rank": 98,
+      "doesMatchExactly": false,
+      "startsWithSuggestion": false,
+      "doesCompile": true,
+      "doesMatchSyntactically": false,
+      "doesMatchSemantically": true,
+      "expressionComponents": [
+        {
+          "label": "enrolled",
+          "type": "RELATION"
+        },
+        {
+          "label": ".",
+          "type": "OPERATOR"
+        },
+        {
+          "label": "univ",
+          "type": "CONSTANT"
+        },
+        {
+          "label": ".",
+          "type": "OPERATOR"
+        },
+        {
+          "label": "enrolled",
+          "type": "RELATION"
+        }
+      ]
+    },
+    {
+      "suggestion": "enrolled.univ.projects",
+      "rank": 99,
+      "doesMatchExactly": false,
+      "startsWithSuggestion": false,
+      "doesCompile": false,
+      "doesMatchSyntactically": false,
+      "expressionComponents": [
+        {
+          "label": "enrolled",
+          "type": "RELATION"
+        },
+        {
+          "label": ".",
+          "type": "OPERATOR"
+        },
+        {
+          "label": "univ",
+          "type": "CONSTANT"
+        },
+        {
+          "label": ".",
+          "type": "OPERATOR"
+        },
+        {
+          "label": "projects",
+          "type": "RELATION"
+        }
+      ]
+    },
+    {
+      "suggestion": "enrolled.univ.teaches",
+      "rank": 100,
+      "doesMatchExactly": false,
+      "startsWithSuggestion": false,
+      "doesCompile": true,
+      "doesMatchSyntactically": false,
+      "doesMatchSemantically": true,
+      "expressionComponents": [
+        {
+          "label": "enrolled",
+          "type": "RELATION"
+        },
+        {
+          "label": ".",
+          "type": "OPERATOR"
+        },
+        {
+          "label": "univ",
+          "type": "CONSTANT"
+        },
+        {
+          "label": ".",
+          "type": "OPERATOR"
+        },
+        {
+          "label": "teaches",
+          "type": "RELATION"
+        }
+      ]
+    },
+    {
+      "suggestion": "enrolled.univ.~enrolled",
+      "rank": 101,
+      "doesMatchExactly": false,
+      "startsWithSuggestion": false,
+      "doesCompile": true,
+      "doesMatchSyntactically": false,
+      "doesMatchSemantically": true,
+      "expressionComponents": [
+        {
+          "label": "enrolled",
+          "type": "RELATION"
+        },
+        {
+          "label": ".",
+          "type": "OPERATOR"
+        },
+        {
+          "label": "univ",
+          "type": "CONSTANT"
+        },
+        {
+          "label": ".",
+          "type": "OPERATOR"
+        },
+        {
+          "label": "~",
+          "type": "OPERATOR"
+        },
+        {
+          "label": "enrolled",
+          "type": "RELATION"
+        }
+      ]
+    },
+    {
+      "suggestion": "enrolled.univ.~projects",
+      "rank": 102,
+      "doesMatchExactly": false,
+      "startsWithSuggestion": false,
+      "doesCompile": false,
+      "expressionComponents": [
+        {
+          "label": "enrolled",
+          "type": "RELATION"
+        },
+        {
+          "label": ".",
+          "type": "OPERATOR"
+        },
+        {
+          "label": "univ",
+          "type": "CONSTANT"
+        },
+        {
+          "label": ".",
+          "type": "OPERATOR"
+        },
+        {
+          "label": "~",
+          "type": "OPERATOR"
+        },
+        {
+          "label": "projects",
+          "type": "RELATION"
+        }
+      ]
+    },
+    {
+      "suggestion": "enrolled.univ.~projects",
+      "rank": 103,
+      "doesMatchExactly": false,
+      "startsWithSuggestion": false,
+      "doesCompile": false,
+      "expressionComponents": [
+        {
+          "label": "enrolled",
+          "type": "RELATION"
+        },
+        {
+          "label": ".",
+          "type": "OPERATOR"
+        },
+        {
+          "label": "univ",
+          "type": "CONSTANT"
+        },
+        {
+          "label": ".",
+          "type": "OPERATOR"
+        },
+        {
+          "label": "~",
+          "type": "OPERATOR"
+        },
+        {
+          "label": "projects",
+          "type": "RELATION"
+        }
+      ]
+    },
+    {
+      "suggestion": "enrolled.univ.~teaches",
+      "rank": 104,
+      "doesMatchExactly": false,
+      "startsWithSuggestion": false,
+      "doesCompile": true,
+      "doesMatchSyntactically": false,
+      "doesMatchSemantically": true,
+      "expressionComponents": [
+        {
+          "label": "enrolled",
+          "type": "RELATION"
+        },
+        {
+          "label": ".",
+          "type": "OPERATOR"
+        },
+        {
+          "label": "univ",
+          "type": "CONSTANT"
+        },
+        {
+          "label": ".",
+          "type": "OPERATOR"
+        },
+        {
+          "label": "~",
+          "type": "OPERATOR"
+        },
+        {
+          "label": "teaches",
+          "type": "RELATION"
+        }
+      ]
+    },
+    {
+      "suggestion": "projects.univ",
+      "rank": 105,
+      "doesMatchExactly": false,
+      "startsWithSuggestion": false,
+      "doesCompile": true,
+      "doesMatchSemantically": true,
+      "expressionComponents": [
+        {
+          "label": "projects",
+          "type": "RELATION"
+        },
+        {
+          "label": ".",
+          "type": "OPERATOR"
+        },
+        {
+          "label": "univ",
+          "type": "CONSTANT"
+        }
+      ]
+    },
+    {
+      "suggestion": "projects.univ.enrolled",
+      "rank": 106,
+      "doesMatchExactly": false,
+      "startsWithSuggestion": false,
+      "doesCompile": true,
+      "doesMatchSyntactically": false,
+      "doesMatchSemantically": true,
+      "expressionComponents": [
+        {
+          "label": "projects",
+          "type": "RELATION"
+        },
+        {
+          "label": ".",
+          "type": "OPERATOR"
+        },
+        {
+          "label": "univ",
+          "type": "CONSTANT"
+        },
+        {
+          "label": ".",
+          "type": "OPERATOR"
+        },
+        {
+          "label": "enrolled",
+          "type": "RELATION"
+        }
+      ]
+    },
+    {
+      "suggestion": "projects.univ.enrolled",
+      "rank": 107,
+      "doesMatchExactly": false,
+      "startsWithSuggestion": false,
+      "doesCompile": true,
+      "doesMatchSyntactically": false,
+      "doesMatchSemantically": true,
+      "expressionComponents": [
+        {
+          "label": "projects",
+          "type": "RELATION"
+        },
+        {
+          "label": ".",
+          "type": "OPERATOR"
+        },
+        {
+          "label": "univ",
+          "type": "CONSTANT"
+        },
+        {
+          "label": ".",
+          "type": "OPERATOR"
+        },
+        {
+          "label": "enrolled",
+          "type": "RELATION"
+        }
+      ]
+    },
+    {
+      "suggestion": "projects.univ.projects",
+      "rank": 108,
+      "doesMatchExactly": false,
+      "startsWithSuggestion": false,
+      "doesCompile": false,
+      "expressionComponents": [
+        {
+          "label": "projects",
+          "type": "RELATION"
+        },
+        {
+          "label": ".",
+          "type": "OPERATOR"
+        },
+        {
+          "label": "univ",
+          "type": "CONSTANT"
+        },
+        {
+          "label": ".",
+          "type": "OPERATOR"
+        },
+        {
+          "label": "projects",
+          "type": "RELATION"
+        }
+      ]
+    },
+    {
+      "suggestion": "projects.univ.projects",
+      "rank": 109,
+      "doesMatchExactly": false,
+      "startsWithSuggestion": false,
+      "doesCompile": false,
+      "expressionComponents": [
+        {
+          "label": "projects",
+          "type": "RELATION"
+        },
+        {
+          "label": ".",
+          "type": "OPERATOR"
+        },
+        {
+          "label": "univ",
+          "type": "CONSTANT"
+        },
+        {
+          "label": ".",
+          "type": "OPERATOR"
+        },
+        {
+          "label": "projects",
+          "type": "RELATION"
+        }
+      ]
+    },
+    {
+      "suggestion": "projects.univ.teaches",
+      "rank": 110,
+      "doesMatchExactly": false,
+      "startsWithSuggestion": false,
+      "doesCompile": true,
+      "doesMatchSyntactically": false,
+      "doesMatchSemantically": true,
+      "expressionComponents": [
+        {
+          "label": "projects",
+          "type": "RELATION"
+        },
+        {
+          "label": ".",
+          "type": "OPERATOR"
+        },
+        {
+          "label": "univ",
+          "type": "CONSTANT"
+        },
+        {
+          "label": ".",
+          "type": "OPERATOR"
+        },
+        {
+          "label": "teaches",
+          "type": "RELATION"
+        }
+      ]
+    },
+    {
+      "suggestion": "projects.univ.teaches",
+      "rank": 111,
+      "doesMatchExactly": false,
+      "startsWithSuggestion": false,
+      "doesCompile": true,
+      "doesMatchSyntactically": false,
+      "doesMatchSemantically": true,
+      "expressionComponents": [
+        {
+          "label": "projects",
+          "type": "RELATION"
+        },
+        {
+          "label": ".",
+          "type": "OPERATOR"
+        },
+        {
+          "label": "univ",
+          "type": "CONSTANT"
+        },
+        {
+          "label": ".",
+          "type": "OPERATOR"
+        },
+        {
+          "label": "teaches",
+          "type": "RELATION"
+        }
+      ]
+    },
+    {
+      "suggestion": "projects.univ.~enrolled",
+      "rank": 112,
+      "doesMatchExactly": false,
+      "startsWithSuggestion": false,
+      "doesCompile": true,
+      "doesMatchSyntactically": false,
+      "doesMatchSemantically": true,
+      "expressionComponents": [
+        {
+          "label": "projects",
+          "type": "RELATION"
+        },
+        {
+          "label": ".",
+          "type": "OPERATOR"
+        },
+        {
+          "label": "univ",
+          "type": "CONSTANT"
+        },
+        {
+          "label": ".",
+          "type": "OPERATOR"
+        },
+        {
+          "label": "~",
+          "type": "OPERATOR"
+        },
+        {
+          "label": "enrolled",
+          "type": "RELATION"
+        }
+      ]
+    },
+    {
+      "suggestion": "projects.univ.~projects",
+      "rank": 113,
+      "doesMatchExactly": false,
+      "startsWithSuggestion": false,
+      "doesCompile": false,
+      "expressionComponents": [
+        {
+          "label": "projects",
+          "type": "RELATION"
+        },
+        {
+          "label": ".",
+          "type": "OPERATOR"
+        },
+        {
+          "label": "univ",
+          "type": "CONSTANT"
+        },
+        {
+          "label": ".",
+          "type": "OPERATOR"
+        },
+        {
+          "label": "~",
+          "type": "OPERATOR"
+        },
+        {
+          "label": "projects",
+          "type": "RELATION"
+        }
+      ]
+    },
+    {
+      "suggestion": "projects.univ.~projects",
+      "rank": 114,
+      "doesMatchExactly": false,
+      "startsWithSuggestion": false,
+      "doesCompile": false,
+      "expressionComponents": [
+        {
+          "label": "projects",
+          "type": "RELATION"
+        },
+        {
+          "label": ".",
+          "type": "OPERATOR"
+        },
+        {
+          "label": "univ",
+          "type": "CONSTANT"
+        },
+        {
+          "label": ".",
+          "type": "OPERATOR"
+        },
+        {
+          "label": "~",
+          "type": "OPERATOR"
+        },
+        {
+          "label": "projects",
+          "type": "RELATION"
+        }
+      ]
+    },
+    {
+      "suggestion": "projects.univ.~projects",
+      "rank": 115,
+      "doesMatchExactly": false,
+      "startsWithSuggestion": false,
+      "doesCompile": false,
+      "expressionComponents": [
+        {
+          "label": "projects",
+          "type": "RELATION"
+        },
+        {
+          "label": ".",
+          "type": "OPERATOR"
+        },
+        {
+          "label": "univ",
+          "type": "CONSTANT"
+        },
+        {
+          "label": ".",
+          "type": "OPERATOR"
+        },
+        {
+          "label": "~",
+          "type": "OPERATOR"
+        },
+        {
+          "label": "projects",
+          "type": "RELATION"
+        }
+      ]
+    },
+    {
+      "suggestion": "projects.univ.~projects",
+      "rank": 116,
+      "doesMatchExactly": false,
+      "startsWithSuggestion": false,
+      "doesCompile": false,
+      "expressionComponents": [
+        {
+          "label": "projects",
+          "type": "RELATION"
+        },
+        {
+          "label": ".",
+          "type": "OPERATOR"
+        },
+        {
+          "label": "univ",
+          "type": "CONSTANT"
+        },
+        {
+          "label": ".",
+          "type": "OPERATOR"
+        },
+        {
+          "label": "~",
+          "type": "OPERATOR"
+        },
+        {
+          "label": "projects",
+          "type": "RELATION"
+        }
+      ]
+    },
+    {
+      "suggestion": "projects.univ.~teaches",
+      "rank": 117,
+      "doesMatchExactly": false,
+      "startsWithSuggestion": false,
+      "doesCompile": true,
+      "doesMatchSyntactically": false,
+      "doesMatchSemantically": true,
+      "expressionComponents": [
+        {
+          "label": "projects",
+          "type": "RELATION"
+        },
+        {
+          "label": ".",
+          "type": "OPERATOR"
+        },
+        {
+          "label": "univ",
+          "type": "CONSTANT"
+        },
+        {
+          "label": ".",
+          "type": "OPERATOR"
+        },
+        {
+          "label": "~",
+          "type": "OPERATOR"
+        },
+        {
+          "label": "teaches",
+          "type": "RELATION"
+        }
+      ]
+    },
+    {
+      "suggestion": "teaches.univ.enrolled",
+      "rank": 118,
+      "doesMatchExactly": false,
+      "startsWithSuggestion": false,
+      "doesCompile": true,
+      "doesMatchSyntactically": false,
+      "doesMatchSemantically": true,
+      "expressionComponents": [
+        {
+          "label": "teaches",
+          "type": "RELATION"
+        },
+        {
+          "label": ".",
+          "type": "OPERATOR"
+        },
+        {
+          "label": "univ",
+          "type": "CONSTANT"
+        },
+        {
+          "label": ".",
+          "type": "OPERATOR"
+        },
+        {
+          "label": "enrolled",
+          "type": "RELATION"
+        }
+      ]
+    },
+    {
+      "suggestion": "teaches.univ.projects",
+      "rank": 119,
+      "doesMatchExactly": false,
+      "startsWithSuggestion": false,
+      "doesCompile": false,
+      "doesMatchSyntactically": false,
+      "expressionComponents": [
+        {
+          "label": "teaches",
+          "type": "RELATION"
+        },
+        {
+          "label": ".",
+          "type": "OPERATOR"
+        },
+        {
+          "label": "univ",
+          "type": "CONSTANT"
+        },
+        {
+          "label": ".",
+          "type": "OPERATOR"
+        },
+        {
+          "label": "projects",
+          "type": "RELATION"
+        }
+      ]
+    },
+    {
+      "suggestion": "teaches.univ.teaches",
+      "rank": 120,
+      "doesMatchExactly": false,
+      "startsWithSuggestion": false,
+      "doesCompile": true,
+      "doesMatchSyntactically": false,
+      "doesMatchSemantically": true,
+      "expressionComponents": [
+        {
+          "label": "teaches",
+          "type": "RELATION"
+        },
+        {
+          "label": ".",
+          "type": "OPERATOR"
+        },
+        {
+          "label": "univ",
+          "type": "CONSTANT"
+        },
+        {
+          "label": ".",
+          "type": "OPERATOR"
+        },
+        {
+          "label": "teaches",
+          "type": "RELATION"
+        }
+      ]
+    },
+    {
+      "suggestion": "teaches.univ.~enrolled",
+      "rank": 121,
+      "doesMatchExactly": false,
+      "startsWithSuggestion": false,
+      "doesCompile": true,
+      "doesMatchSyntactically": false,
+      "doesMatchSemantically": true,
+      "expressionComponents": [
+        {
+          "label": "teaches",
+          "type": "RELATION"
+        },
+        {
+          "label": ".",
+          "type": "OPERATOR"
+        },
+        {
+          "label": "univ",
+          "type": "CONSTANT"
+        },
+        {
+          "label": ".",
+          "type": "OPERATOR"
+        },
+        {
+          "label": "~",
+          "type": "OPERATOR"
+        },
+        {
+          "label": "enrolled",
+          "type": "RELATION"
+        }
+      ]
+    },
+    {
+      "suggestion": "teaches.univ.~projects",
+      "rank": 122,
+      "doesMatchExactly": false,
+      "startsWithSuggestion": false,
+      "doesCompile": false,
+      "expressionComponents": [
+        {
+          "label": "teaches",
+          "type": "RELATION"
+        },
+        {
+          "label": ".",
+          "type": "OPERATOR"
+        },
+        {
+          "label": "univ",
+          "type": "CONSTANT"
+        },
+        {
+          "label": ".",
+          "type": "OPERATOR"
+        },
+        {
+          "label": "~",
+          "type": "OPERATOR"
+        },
+        {
+          "label": "projects",
+          "type": "RELATION"
+        }
+      ]
+    },
+    {
+      "suggestion": "teaches.univ.~projects",
+      "rank": 123,
+      "doesMatchExactly": false,
+      "startsWithSuggestion": false,
+      "doesCompile": false,
+      "expressionComponents": [
+        {
+          "label": "teaches",
+          "type": "RELATION"
+        },
+        {
+          "label": ".",
+          "type": "OPERATOR"
+        },
+        {
+          "label": "univ",
+          "type": "CONSTANT"
+        },
+        {
+          "label": ".",
+          "type": "OPERATOR"
+        },
+        {
+          "label": "~",
+          "type": "OPERATOR"
+        },
+        {
+          "label": "projects",
+          "type": "RELATION"
+        }
+      ]
+    },
+    {
+      "suggestion": "teaches.univ.~teaches",
+      "rank": 124,
+      "doesMatchExactly": false,
+      "startsWithSuggestion": false,
+      "doesCompile": true,
+      "doesMatchSyntactically": false,
+      "doesMatchSemantically": true,
+      "expressionComponents": [
+        {
+          "label": "teaches",
+          "type": "RELATION"
+        },
+        {
+          "label": ".",
+          "type": "OPERATOR"
+        },
+        {
+          "label": "univ",
+          "type": "CONSTANT"
+        },
+        {
+          "label": ".",
+          "type": "OPERATOR"
+        },
+        {
+          "label": "~",
+          "type": "OPERATOR"
+        },
+        {
+          "label": "teaches",
+          "type": "RELATION"
+        }
+      ]
+    },
+    {
+      "suggestion": "univ.enrolled",
+      "rank": 125,
+      "doesMatchExactly": false,
+      "startsWithSuggestion": false,
+      "doesCompile": true,
+      "doesMatchSyntactically": false,
+      "doesMatchSemantically": true,
+      "expressionComponents": [
+        {
+          "label": "univ",
+          "type": "CONSTANT"
+        },
+        {
+          "label": ".",
+          "type": "OPERATOR"
+        },
+        {
+          "label": "enrolled",
+          "type": "RELATION"
+        }
+      ]
+    },
+    {
+      "suggestion": "univ.teaches",
+      "rank": 126,
+      "doesMatchExactly": false,
+      "startsWithSuggestion": false,
+      "doesCompile": true,
+      "doesMatchSyntactically": false,
+      "doesMatchSemantically": true,
+      "expressionComponents": [
+        {
+          "label": "univ",
+          "type": "CONSTANT"
+        },
+        {
+          "label": ".",
+          "type": "OPERATOR"
+        },
+        {
+          "label": "teaches",
+          "type": "RELATION"
+        }
+      ]
+    },
+    {
+      "suggestion": "univ.~enrolled.teaches",
+      "rank": 127,
+      "doesMatchExactly": false,
+      "startsWithSuggestion": false,
+      "doesCompile": true,
+      "doesMatchSyntactically": false,
+      "doesMatchSemantically": true,
+      "expressionComponents": [
+        {
+          "label": "univ",
+          "type": "CONSTANT"
+        },
+        {
+          "label": ".",
+          "type": "OPERATOR"
+        },
+        {
+          "label": "~",
+          "type": "OPERATOR"
+        },
+        {
+          "label": "enrolled",
+          "type": "RELATION"
+        },
+        {
+          "label": ".",
+          "type": "OPERATOR"
+        },
+        {
+          "label": "teaches",
+          "type": "RELATION"
+        }
+      ]
+    },
+    {
+      "suggestion": "univ.~projects.enrolled",
+      "rank": 128,
+      "doesMatchExactly": false,
+      "startsWithSuggestion": false,
+      "doesCompile": true,
+      "doesMatchSyntactically": false,
+      "doesMatchSemantically": true,
+      "expressionComponents": [
+        {
+          "label": "univ",
+          "type": "CONSTANT"
+        },
+        {
+          "label": ".",
+          "type": "OPERATOR"
+        },
+        {
+          "label": "~",
+          "type": "OPERATOR"
+        },
+        {
+          "label": "projects",
+          "type": "RELATION"
+        },
+        {
+          "label": ".",
+          "type": "OPERATOR"
+        },
+        {
+          "label": "enrolled",
+          "type": "RELATION"
+        }
+      ]
+    },
+    {
+      "suggestion": "univ.~projects.teaches",
+      "rank": 129,
+      "doesMatchExactly": false,
+      "startsWithSuggestion": false,
+      "doesCompile": true,
+      "doesMatchSyntactically": false,
+      "doesMatchSemantically": true,
+      "expressionComponents": [
+        {
+          "label": "univ",
+          "type": "CONSTANT"
+        },
+        {
+          "label": ".",
+          "type": "OPERATOR"
+        },
+        {
+          "label": "~",
+          "type": "OPERATOR"
+        },
+        {
+          "label": "projects",
+          "type": "RELATION"
+        },
+        {
+          "label": ".",
+          "type": "OPERATOR"
+        },
+        {
+          "label": "teaches",
+          "type": "RELATION"
+        }
+      ]
+    },
+    {
+      "suggestion": "univ.~teaches.enrolled",
+      "rank": 130,
+      "doesMatchExactly": false,
+      "startsWithSuggestion": false,
+      "doesCompile": true,
+      "doesMatchSyntactically": false,
+      "doesMatchSemantically": true,
+      "expressionComponents": [
+        {
+          "label": "univ",
+          "type": "CONSTANT"
+        },
+        {
+          "label": ".",
+          "type": "OPERATOR"
+        },
+        {
+          "label": "~",
+          "type": "OPERATOR"
+        },
+        {
+          "label": "teaches",
+          "type": "RELATION"
+        },
+        {
+          "label": ".",
+          "type": "OPERATOR"
+        },
+        {
+          "label": "enrolled",
+          "type": "RELATION"
+        }
+      ]
+    },
+    {
+      "suggestion": "~enrolled.projects.univ",
+      "rank": 131,
+      "doesMatchExactly": false,
+      "startsWithSuggestion": false,
+      "doesCompile": true,
+      "doesMatchSyntactically": false,
+      "doesMatchSemantically": true,
+      "expressionComponents": [
+        {
+          "label": "~",
+          "type": "OPERATOR"
+        },
+        {
+          "label": "enrolled",
+          "type": "RELATION"
+        },
+        {
+          "label": ".",
+          "type": "OPERATOR"
+        },
+        {
+          "label": "projects",
+          "type": "RELATION"
+        },
+        {
+          "label": ".",
+          "type": "OPERATOR"
+        },
+        {
+          "label": "univ",
+          "type": "CONSTANT"
+        }
+      ]
+    },
+    {
+      "suggestion": "~enrolled.teaches.univ",
+      "rank": 132,
+      "doesMatchExactly": false,
+      "startsWithSuggestion": false,
+      "doesCompile": true,
+      "doesMatchSyntactically": false,
+      "doesMatchSemantically": true,
+      "expressionComponents": [
+        {
+          "label": "~",
+          "type": "OPERATOR"
+        },
+        {
+          "label": "enrolled",
+          "type": "RELATION"
+        },
+        {
+          "label": ".",
+          "type": "OPERATOR"
+        },
+        {
+          "label": "teaches",
+          "type": "RELATION"
+        },
+        {
+          "label": ".",
+          "type": "OPERATOR"
+        },
+        {
+          "label": "univ",
+          "type": "CONSTANT"
+        }
+      ]
+    },
+    {
+      "suggestion": "~enrolled.univ.enrolled",
+      "rank": 133,
+      "doesMatchExactly": false,
+      "startsWithSuggestion": false,
+      "doesCompile": true,
+      "doesMatchSyntactically": false,
+      "doesMatchSemantically": true,
+      "expressionComponents": [
+        {
+          "label": "~",
+          "type": "OPERATOR"
+        },
+        {
+          "label": "enrolled",
+          "type": "RELATION"
+        },
+        {
+          "label": ".",
+          "type": "OPERATOR"
+        },
+        {
+          "label": "univ",
+          "type": "CONSTANT"
+        },
+        {
+          "label": ".",
+          "type": "OPERATOR"
+        },
+        {
+          "label": "enrolled",
+          "type": "RELATION"
+        }
+      ]
+    },
+    {
+      "suggestion": "~enrolled.univ.projects",
+      "rank": 134,
+      "doesMatchExactly": false,
+      "startsWithSuggestion": false,
+      "doesCompile": false,
+      "doesMatchSyntactically": false,
+      "expressionComponents": [
+        {
+          "label": "~",
+          "type": "OPERATOR"
+        },
+        {
+          "label": "enrolled",
+          "type": "RELATION"
+        },
+        {
+          "label": ".",
+          "type": "OPERATOR"
+        },
+        {
+          "label": "univ",
+          "type": "CONSTANT"
+        },
+        {
+          "label": ".",
+          "type": "OPERATOR"
+        },
+        {
+          "label": "projects",
+          "type": "RELATION"
+        }
+      ]
+    },
+    {
+      "suggestion": "~enrolled.univ.teaches",
+      "rank": 135,
+      "doesMatchExactly": false,
+      "startsWithSuggestion": false,
+      "doesCompile": true,
+      "doesMatchSyntactically": false,
+      "doesMatchSemantically": true,
+      "expressionComponents": [
+        {
+          "label": "~",
+          "type": "OPERATOR"
+        },
+        {
+          "label": "enrolled",
+          "type": "RELATION"
+        },
+        {
+          "label": ".",
+          "type": "OPERATOR"
+        },
+        {
+          "label": "univ",
+          "type": "CONSTANT"
+        },
+        {
+          "label": ".",
+          "type": "OPERATOR"
+        },
+        {
+          "label": "teaches",
+          "type": "RELATION"
+        }
+      ]
+    },
+    {
+      "suggestion": "~projects.univ.enrolled",
+      "rank": 136,
+      "doesMatchExactly": false,
+      "startsWithSuggestion": false,
+      "doesCompile": false,
+      "expressionComponents": [
+        {
+          "label": "~",
+          "type": "OPERATOR"
+        },
+        {
+          "label": "projects",
+          "type": "RELATION"
+        },
+        {
+          "label": ".",
+          "type": "OPERATOR"
+        },
+        {
+          "label": "univ",
+          "type": "CONSTANT"
+        },
+        {
+          "label": ".",
+          "type": "OPERATOR"
+        },
+        {
+          "label": "enrolled",
+          "type": "RELATION"
+        }
+      ]
+    },
+    {
+      "suggestion": "~projects.univ.enrolled",
+      "rank": 137,
+      "doesMatchExactly": false,
+      "startsWithSuggestion": false,
+      "doesCompile": false,
+      "expressionComponents": [
+        {
+          "label": "~",
+          "type": "OPERATOR"
+        },
+        {
+          "label": "projects",
+          "type": "RELATION"
+        },
+        {
+          "label": ".",
+          "type": "OPERATOR"
+        },
+        {
+          "label": "univ",
+          "type": "CONSTANT"
+        },
+        {
+          "label": ".",
+          "type": "OPERATOR"
+        },
+        {
+          "label": "enrolled",
+          "type": "RELATION"
+        }
+      ]
+    },
+    {
+      "suggestion": "~projects.univ.projects",
+      "rank": 138,
+      "doesMatchExactly": false,
+      "startsWithSuggestion": false,
+      "doesCompile": false,
+      "expressionComponents": [
+        {
+          "label": "~",
+          "type": "OPERATOR"
+        },
+        {
+          "label": "projects",
+          "type": "RELATION"
+        },
+        {
+          "label": ".",
+          "type": "OPERATOR"
+        },
+        {
+          "label": "univ",
+          "type": "CONSTANT"
+        },
+        {
+          "label": ".",
+          "type": "OPERATOR"
+        },
+        {
+          "label": "projects",
+          "type": "RELATION"
+        }
+      ]
+    },
+    {
+      "suggestion": "~projects.univ.projects",
+      "rank": 139,
+      "doesMatchExactly": false,
+      "startsWithSuggestion": false,
+      "doesCompile": false,
+      "expressionComponents": [
+        {
+          "label": "~",
+          "type": "OPERATOR"
+        },
+        {
+          "label": "projects",
+          "type": "RELATION"
+        },
+        {
+          "label": ".",
+          "type": "OPERATOR"
+        },
+        {
+          "label": "univ",
+          "type": "CONSTANT"
+        },
+        {
+          "label": ".",
+          "type": "OPERATOR"
+        },
+        {
+          "label": "projects",
+          "type": "RELATION"
+        }
+      ]
+    },
+    {
+      "suggestion": "~projects.univ.projects",
+      "rank": 140,
+      "doesMatchExactly": false,
+      "startsWithSuggestion": false,
+      "doesCompile": false,
+      "expressionComponents": [
+        {
+          "label": "~",
+          "type": "OPERATOR"
+        },
+        {
+          "label": "projects",
+          "type": "RELATION"
+        },
+        {
+          "label": ".",
+          "type": "OPERATOR"
+        },
+        {
+          "label": "univ",
+          "type": "CONSTANT"
+        },
+        {
+          "label": ".",
+          "type": "OPERATOR"
+        },
+        {
+          "label": "projects",
+          "type": "RELATION"
+        }
+      ]
+    },
+    {
+      "suggestion": "~projects.univ.projects",
+      "rank": 141,
+      "doesMatchExactly": false,
+      "startsWithSuggestion": false,
+      "doesCompile": false,
+      "expressionComponents": [
+        {
+          "label": "~",
+          "type": "OPERATOR"
+        },
+        {
+          "label": "projects",
+          "type": "RELATION"
+        },
+        {
+          "label": ".",
+          "type": "OPERATOR"
+        },
+        {
+          "label": "univ",
+          "type": "CONSTANT"
+        },
+        {
+          "label": ".",
+          "type": "OPERATOR"
+        },
+        {
+          "label": "projects",
+          "type": "RELATION"
+        }
+      ]
+    },
+    {
+      "suggestion": "~projects.univ.teaches",
+      "rank": 142,
+      "doesMatchExactly": false,
+      "startsWithSuggestion": false,
+      "doesCompile": false,
+      "expressionComponents": [
+        {
+          "label": "~",
+          "type": "OPERATOR"
+        },
+        {
+          "label": "projects",
+          "type": "RELATION"
+        },
+        {
+          "label": ".",
+          "type": "OPERATOR"
+        },
+        {
+          "label": "univ",
+          "type": "CONSTANT"
+        },
+        {
+          "label": ".",
+          "type": "OPERATOR"
+        },
+        {
+          "label": "teaches",
+          "type": "RELATION"
+        }
+      ]
+    },
+    {
+      "suggestion": "~projects.univ.teaches",
+      "rank": 143,
+      "doesMatchExactly": false,
+      "startsWithSuggestion": false,
+      "doesCompile": false,
+      "expressionComponents": [
+        {
+          "label": "~",
+          "type": "OPERATOR"
+        },
+        {
+          "label": "projects",
+          "type": "RELATION"
+        },
+        {
+          "label": ".",
+          "type": "OPERATOR"
+        },
+        {
+          "label": "univ",
+          "type": "CONSTANT"
+        },
+        {
+          "label": ".",
+          "type": "OPERATOR"
+        },
+        {
+          "label": "teaches",
+          "type": "RELATION"
+        }
+      ]
+    },
+    {
+      "suggestion": "~teaches.enrolled.univ",
+      "rank": 144,
+      "doesMatchExactly": false,
+      "startsWithSuggestion": false,
+      "doesCompile": true,
+      "doesMatchSyntactically": false,
+      "doesMatchSemantically": true,
+      "expressionComponents": [
+        {
+          "label": "~",
+          "type": "OPERATOR"
+        },
+        {
+          "label": "teaches",
+          "type": "RELATION"
+        },
+        {
+          "label": ".",
+          "type": "OPERATOR"
+        },
+        {
+          "label": "enrolled",
+          "type": "RELATION"
+        },
+        {
+          "label": ".",
+          "type": "OPERATOR"
+        },
+        {
+          "label": "univ",
+          "type": "CONSTANT"
+        }
+      ]
+    },
+    {
+      "suggestion": "~teaches.projects.univ",
+      "rank": 145,
+      "doesMatchExactly": false,
+      "startsWithSuggestion": false,
+      "doesCompile": true,
+      "doesMatchSyntactically": false,
+      "doesMatchSemantically": true,
+      "expressionComponents": [
+        {
+          "label": "~",
+          "type": "OPERATOR"
+        },
+        {
+          "label": "teaches",
+          "type": "RELATION"
+        },
+        {
+          "label": ".",
+          "type": "OPERATOR"
+        },
+        {
+          "label": "projects",
+          "type": "RELATION"
+        },
+        {
+          "label": ".",
+          "type": "OPERATOR"
+        },
+        {
+          "label": "univ",
+          "type": "CONSTANT"
+        }
+      ]
+    },
+    {
+      "suggestion": "~teaches.univ.enrolled",
+      "rank": 146,
+      "doesMatchExactly": false,
+      "startsWithSuggestion": false,
+      "doesCompile": true,
+      "doesMatchSyntactically": false,
+      "doesMatchSemantically": true,
+      "expressionComponents": [
+        {
+          "label": "~",
+          "type": "OPERATOR"
+        },
+        {
+          "label": "teaches",
+          "type": "RELATION"
+        },
+        {
+          "label": ".",
+          "type": "OPERATOR"
+        },
+        {
+          "label": "univ",
+          "type": "CONSTANT"
+        },
+        {
+          "label": ".",
+          "type": "OPERATOR"
+        },
+        {
+          "label": "enrolled",
+          "type": "RELATION"
+        }
+      ]
+    },
+    {
+      "suggestion": "~teaches.univ.projects",
+      "rank": 147,
+      "doesMatchExactly": false,
+      "startsWithSuggestion": false,
+      "doesCompile": false,
+      "doesMatchSyntactically": false,
+      "expressionComponents": [
+        {
+          "label": "~",
+          "type": "OPERATOR"
+        },
+        {
+          "label": "teaches",
+          "type": "RELATION"
+        },
+        {
+          "label": ".",
+          "type": "OPERATOR"
+        },
+        {
+          "label": "univ",
+          "type": "CONSTANT"
+        },
+        {
+          "label": ".",
+          "type": "OPERATOR"
+        },
+        {
+          "label": "projects",
+          "type": "RELATION"
+        }
+      ]
+    },
+    {
+      "suggestion": "~teaches.univ.teaches",
+      "rank": 148,
+      "doesMatchExactly": false,
+      "startsWithSuggestion": false,
+      "doesCompile": true,
+      "doesMatchSyntactically": false,
+      "doesMatchSemantically": true,
+      "expressionComponents": [
+        {
+          "label": "~",
+          "type": "OPERATOR"
+        },
+        {
+          "label": "teaches",
+          "type": "RELATION"
+        },
+        {
+          "label": ".",
+          "type": "OPERATOR"
+        },
+        {
+          "label": "univ",
+          "type": "CONSTANT"
+        },
+        {
+          "label": ".",
+          "type": "OPERATOR"
+        },
+        {
+          "label": "teaches",
+          "type": "RELATION"
+        }
+      ]
+    },
+    {
+      "suggestion": "univ.~projects",
+      "rank": 149,
+      "doesMatchExactly": false,
+      "startsWithSuggestion": false,
+      "doesCompile": true,
+      "doesMatchSemantically": true,
+      "expressionComponents": [
+        {
+          "label": "univ",
+          "type": "CONSTANT"
+        },
+        {
+          "label": ".",
+          "type": "OPERATOR"
+        },
+        {
+          "label": "~",
+          "type": "OPERATOR"
+        },
+        {
+          "label": "projects",
+          "type": "RELATION"
+        }
+      ]
+    },
+    {
+      "suggestion": "~enrolled.univ",
+      "rank": 150,
+      "doesMatchExactly": false,
+      "startsWithSuggestion": false,
+      "doesCompile": true,
+      "doesMatchSyntactically": false,
+      "doesMatchSemantically": true,
+      "expressionComponents": [
+        {
+          "label": "~",
+          "type": "OPERATOR"
+        },
+        {
+          "label": "enrolled",
+          "type": "RELATION"
+        },
+        {
+          "label": ".",
+          "type": "OPERATOR"
+        },
+        {
+          "label": "univ",
+          "type": "CONSTANT"
+        }
+      ]
+    },
+    {
+      "suggestion": "~enrolled.univ.~projects",
+      "rank": 151,
+      "doesMatchExactly": false,
+      "startsWithSuggestion": false,
+      "doesCompile": false,
+      "expressionComponents": [
+        {
+          "label": "~",
+          "type": "OPERATOR"
+        },
+        {
+          "label": "enrolled",
+          "type": "RELATION"
+        },
+        {
+          "label": ".",
+          "type": "OPERATOR"
+        },
+        {
+          "label": "univ",
+          "type": "CONSTANT"
+        },
+        {
+          "label": ".",
+          "type": "OPERATOR"
+        },
+        {
+          "label": "~",
+          "type": "OPERATOR"
+        },
+        {
+          "label": "projects",
+          "type": "RELATION"
+        }
+      ]
+    },
+    {
+      "suggestion": "~enrolled.univ.~projects",
+      "rank": 152,
+      "doesMatchExactly": false,
+      "startsWithSuggestion": false,
+      "doesCompile": false,
+      "expressionComponents": [
+        {
+          "label": "~",
+          "type": "OPERATOR"
+        },
+        {
+          "label": "enrolled",
+          "type": "RELATION"
+        },
+        {
+          "label": ".",
+          "type": "OPERATOR"
+        },
+        {
+          "label": "univ",
+          "type": "CONSTANT"
+        },
+        {
+          "label": ".",
+          "type": "OPERATOR"
+        },
+        {
+          "label": "~",
+          "type": "OPERATOR"
+        },
+        {
+          "label": "projects",
+          "type": "RELATION"
+        }
+      ]
+    },
+    {
+      "suggestion": "~projects.univ.~enrolled",
+      "rank": 153,
+      "doesMatchExactly": false,
+      "startsWithSuggestion": false,
+      "doesCompile": false,
+      "expressionComponents": [
+        {
+          "label": "~",
+          "type": "OPERATOR"
+        },
+        {
+          "label": "projects",
+          "type": "RELATION"
+        },
+        {
+          "label": ".",
+          "type": "OPERATOR"
+        },
+        {
+          "label": "univ",
+          "type": "CONSTANT"
+        },
+        {
+          "label": ".",
+          "type": "OPERATOR"
+        },
+        {
+          "label": "~",
+          "type": "OPERATOR"
+        },
+        {
+          "label": "enrolled",
+          "type": "RELATION"
+        }
+      ]
+    },
+    {
+      "suggestion": "~projects.univ.~enrolled",
+      "rank": 154,
+      "doesMatchExactly": false,
+      "startsWithSuggestion": false,
+      "doesCompile": false,
+      "expressionComponents": [
+        {
+          "label": "~",
+          "type": "OPERATOR"
+        },
+        {
+          "label": "projects",
+          "type": "RELATION"
+        },
+        {
+          "label": ".",
+          "type": "OPERATOR"
+        },
+        {
+          "label": "univ",
+          "type": "CONSTANT"
+        },
+        {
+          "label": ".",
+          "type": "OPERATOR"
+        },
+        {
+          "label": "~",
+          "type": "OPERATOR"
+        },
+        {
+          "label": "enrolled",
+          "type": "RELATION"
+        }
+      ]
+    },
+    {
+      "suggestion": "~projects.univ.~projects",
+      "rank": 155,
+      "doesMatchExactly": false,
+      "startsWithSuggestion": false,
+      "doesCompile": false,
+      "expressionComponents": [
+        {
+          "label": "~",
+          "type": "OPERATOR"
+        },
+        {
+          "label": "projects",
+          "type": "RELATION"
+        },
+        {
+          "label": ".",
+          "type": "OPERATOR"
+        },
+        {
+          "label": "univ",
+          "type": "CONSTANT"
+        },
+        {
+          "label": ".",
+          "type": "OPERATOR"
+        },
+        {
+          "label": "~",
+          "type": "OPERATOR"
+        },
+        {
+          "label": "projects",
+          "type": "RELATION"
+        }
+      ]
+    },
+    {
+      "suggestion": "~projects.univ.~projects",
+      "rank": 156,
+      "doesMatchExactly": false,
+      "startsWithSuggestion": false,
+      "doesCompile": false,
+      "expressionComponents": [
+        {
+          "label": "~",
+          "type": "OPERATOR"
+        },
+        {
+          "label": "projects",
+          "type": "RELATION"
+        },
+        {
+          "label": ".",
+          "type": "OPERATOR"
+        },
+        {
+          "label": "univ",
+          "type": "CONSTANT"
+        },
+        {
+          "label": ".",
+          "type": "OPERATOR"
+        },
+        {
+          "label": "~",
+          "type": "OPERATOR"
+        },
+        {
+          "label": "projects",
+          "type": "RELATION"
+        }
+      ]
+    },
+    {
+      "suggestion": "~projects.univ.~teaches",
+      "rank": 157,
+      "doesMatchExactly": false,
+      "startsWithSuggestion": false,
+      "doesCompile": false,
+      "expressionComponents": [
+        {
+          "label": "~",
+          "type": "OPERATOR"
+        },
+        {
+          "label": "projects",
+          "type": "RELATION"
+        },
+        {
+          "label": ".",
+          "type": "OPERATOR"
+        },
+        {
+          "label": "univ",
+          "type": "CONSTANT"
+        },
+        {
+          "label": ".",
+          "type": "OPERATOR"
+        },
+        {
+          "label": "~",
+          "type": "OPERATOR"
+        },
+        {
+          "label": "teaches",
+          "type": "RELATION"
+        }
+      ]
+    },
+    {
+      "suggestion": "~projects.univ.~teaches",
+      "rank": 158,
+      "doesMatchExactly": false,
+      "startsWithSuggestion": false,
+      "doesCompile": false,
+      "expressionComponents": [
+        {
+          "label": "~",
+          "type": "OPERATOR"
+        },
+        {
+          "label": "projects",
+          "type": "RELATION"
+        },
+        {
+          "label": ".",
+          "type": "OPERATOR"
+        },
+        {
+          "label": "univ",
+          "type": "CONSTANT"
+        },
+        {
+          "label": ".",
+          "type": "OPERATOR"
+        },
+        {
+          "label": "~",
+          "type": "OPERATOR"
+        },
+        {
+          "label": "teaches",
+          "type": "RELATION"
+        }
+      ]
+    },
+    {
+      "suggestion": "~teaches.univ",
+      "rank": 159,
+      "doesMatchExactly": false,
+      "startsWithSuggestion": false,
+      "doesCompile": true,
+      "doesMatchSyntactically": false,
+      "doesMatchSemantically": true,
+      "expressionComponents": [
+        {
+          "label": "~",
+          "type": "OPERATOR"
+        },
+        {
+          "label": "teaches",
+          "type": "RELATION"
+        },
+        {
+          "label": ".",
+          "type": "OPERATOR"
+        },
+        {
+          "label": "univ",
+          "type": "CONSTANT"
+        }
+      ]
+    },
+    {
+      "suggestion": "~teaches.univ.~projects",
+      "rank": 160,
+      "doesMatchExactly": false,
+      "startsWithSuggestion": false,
+      "doesCompile": false,
+      "expressionComponents": [
+        {
+          "label": "~",
+          "type": "OPERATOR"
+        },
+        {
+          "label": "teaches",
+          "type": "RELATION"
+        },
+        {
+          "label": ".",
+          "type": "OPERATOR"
+        },
+        {
+          "label": "univ",
+          "type": "CONSTANT"
+        },
+        {
+          "label": ".",
+          "type": "OPERATOR"
+        },
+        {
+          "label": "~",
+          "type": "OPERATOR"
+        },
+        {
+          "label": "projects",
+          "type": "RELATION"
+        }
+      ]
+    },
+    {
+      "suggestion": "~teaches.univ.~projects",
+      "rank": 161,
+      "doesMatchExactly": false,
+      "startsWithSuggestion": false,
+      "doesCompile": false,
+      "expressionComponents": [
+        {
+          "label": "~",
+          "type": "OPERATOR"
+        },
+        {
+          "label": "teaches",
+          "type": "RELATION"
+        },
+        {
+          "label": ".",
+          "type": "OPERATOR"
+        },
+        {
+          "label": "univ",
+          "type": "CONSTANT"
+        },
+        {
+          "label": ".",
+          "type": "OPERATOR"
+        },
+        {
+          "label": "~",
+          "type": "OPERATOR"
+        },
+        {
+          "label": "projects",
+          "type": "RELATION"
+        }
+      ]
+    },
+    {
+      "suggestion": "univ",
+      "rank": 162,
+      "doesMatchExactly": false,
+      "startsWithSuggestion": false,
+      "doesCompile": true,
+      "doesMatchSyntactically": false,
+      "doesMatchSemantically": true,
+      "expressionComponents": [
+        {
+          "label": "univ",
+          "type": "CONSTANT"
+        }
+      ]
+    },
+    {
+      "suggestion": "Int",
+      "rank": 163,
+      "doesMatchExactly": false,
+      "startsWithSuggestion": false,
+      "doesCompile": true,
+      "doesMatchSyntactically": false,
+      "doesMatchSemantically": true,
+      "expressionComponents": [
+        {
+          "label": "Int",
+          "type": "OTHER"
+        }
+      ]
+    },
+    {
+      "suggestion": "String",
+      "rank": 164,
+      "doesMatchExactly": false,
+      "startsWithSuggestion": false,
+      "doesCompile": true,
+      "doesMatchSyntactically": false,
+      "doesMatchSemantically": true,
+      "expressionComponents": [
+        {
+          "label": "String",
+          "type": "OTHER"
+        }
+      ]
+    },
+    {
+      "suggestion": "none",
+      "rank": 165,
+      "doesMatchExactly": false,
+      "startsWithSuggestion": false,
+      "doesCompile": true,
+      "doesMatchSyntactically": false,
+      "doesMatchSemantically": true,
+      "expressionComponents": [
+        {
+          "label": "none",
+          "type": "CONSTANT"
+        }
+      ]
+    },
+    {
+      "suggestion": "univ",
+      "rank": 166,
+      "doesMatchExactly": false,
+      "startsWithSuggestion": false,
+      "doesCompile": true,
+      "doesMatchSyntactically": false,
+      "doesMatchSemantically": true,
+      "expressionComponents": [
+        {
+          "label": "univ",
+          "type": "CONSTANT"
+        }
+      ]
+    }
+  ],
+  "completionGenerated": true,
+  "suggestionExists": true,
+  "suggestionInTop1": false,
+  "suggestionInTop5": false,
+  "suggestionInTop10": true,
+  "suggestionInTop1Alpha": false,
+  "suggestionInTop5Alpha": false,
+  "suggestionInTop10Alpha": false,
+  "suggestionInTop1Len": false,
+  "suggestionInTop5Len": true,
+  "suggestionInTop10Len": true,
+  "expectedCompletionWord": "p.enrolled",
+  "expectedCompletionLine": "p.enrolled",
+  "elapsedTimeInMs": 34.863542,
+  "preprocessingTime": "6",
+  "parsingTime": "2",
+  "generationTime": "11"
+}

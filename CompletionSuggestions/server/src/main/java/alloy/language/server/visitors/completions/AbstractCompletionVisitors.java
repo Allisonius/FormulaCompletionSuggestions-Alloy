@@ -3,11 +3,14 @@ package alloy.language.server.visitors.completions;
 import alloy.language.server.alloyBaseVisitor;
 import alloy.language.server.alloyParser;
 import alloy.language.server.utils.AlloyEvaluation;
+import alloy.language.server.utils.AlloyExpressionParsingUtils;
 import org.antlr.v4.runtime.ParserRuleContext;
 import org.antlr.v4.runtime.tree.ErrorNodeImpl;
 import org.antlr.v4.runtime.tree.TerminalNode;
+import org.antlr.v4.runtime.tree.TerminalNodeImpl;
 import org.eclipse.lsp4j.CompletionItem;
 import org.eclipse.lsp4j.CompletionParams;
+import org.eclipse.lsp4j.Position;
 
 import java.util.ArrayList;
 import java.util.Comparator;
@@ -45,6 +48,56 @@ public abstract class AbstractCompletionVisitors extends alloyBaseVisitor<List<C
 
 	protected boolean isCompletionTriggeringLine(ParserRuleContext ctx) {
 		return completionParams.getPosition().getLine() == ctx.getStop().getLine() - 1;
+	}
+
+	protected boolean isCompletionTriggeringPosition(Position position, ParserRuleContext node) {
+		// TODO: Check position matching logic more thoroughly
+		boolean doesLineNumberMatches = position.getLine() + 1 == node.getStop().getLine(); // ANTLR lines are 1-based, LSP lines are 0-based
+		int nodeEndCharPosition = node.getStop().getCharPositionInLine() + node.getText().length(); // 1 for dot . string length
+		boolean isNodeClosestToCompletionTriggerColumnPosition =
+				nodeEndCharPosition == position.getCharacter() // trigger at the exact position after the character
+						|| nodeEndCharPosition + 1 == position.getCharacter() // trigger at the position after a space
+				;
+		// TODO: Trim the completion line
+
+		return doesLineNumberMatches && isNodeClosestToCompletionTriggerColumnPosition;
+	}
+
+	protected boolean isCompletionTriggeringPosition(Position position, TerminalNodeImpl node) {
+		// TODO: Check position matching logic more thoroughly
+		boolean doesLineNumberMatches = position.getLine() + 1 == node.getSymbol().getLine(); // ANTLR lines are 1-based, LSP lines are 0-based
+		int nodeEndCharPosition = node.getSymbol().getCharPositionInLine() + node.getText().length(); // 1 for dot . string length
+		boolean isNodeClosestToCompletionTriggerColumnPosition =
+				nodeEndCharPosition == position.getCharacter() // trigger at the exact position after the character
+						|| nodeEndCharPosition + 1 == position.getCharacter() // trigger at the position after a space
+				;
+		// TODO: Trim the completion line
+
+		return doesLineNumberMatches && isNodeClosestToCompletionTriggerColumnPosition;
+	}
+
+	protected alloyParser.ExprContext findCompletionTermExpression(ParserRuleContext ctx) {
+		alloyParser.ExprContext parent = (alloyParser.ExprContext) ctx.getParent();
+		int ctxAsChildIndex = parent.children.indexOf(ctx);
+		alloyParser.ExprContext rightMostSiblingBefore = null;
+		for (var childExpr : parent.expr()) {
+			if (parent.children.indexOf(childExpr) < ctxAsChildIndex) {
+				rightMostSiblingBefore = childExpr;
+			}
+		}
+		return AlloyExpressionParsingUtils.findCompletionTermExpression(rightMostSiblingBefore);
+	}
+
+	protected alloyParser.ExprContext findCompletionTermExpression(TerminalNodeImpl ctx) {
+		alloyParser.ExprContext parent = (alloyParser.ExprContext) ctx.getParent();
+		int ctxAsChildIndex = parent.children.indexOf(ctx);
+		alloyParser.ExprContext rightMostSiblingBefore = null;
+		for (var childExpr : parent.expr()) {
+			if (parent.children.indexOf(childExpr) < ctxAsChildIndex) {
+				rightMostSiblingBefore = childExpr;
+			}
+		}
+		return AlloyExpressionParsingUtils.findCompletionTermExpression(rightMostSiblingBefore);
 	}
 
 	protected boolean shouldVisitDeeper(alloyParser.ExprContext ctx) {

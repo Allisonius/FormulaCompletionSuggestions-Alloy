@@ -6,6 +6,9 @@ Vscode Position: line=40 character=10
 ----------------------------------
 41 | 	Class in 
 ----------------------------------
+Expected Completion word: Teacher.Teaches
+Expected Completion line: Teacher.Teaches
+Suggestion exists: true
 Completion List:
 # Suggestion 	 Exact 	 Syntactic 	 Semantic
 $1. *Tutors.Person.Teaches 	 false 	 false 	 false
@@ -96,24 +99,13 @@ $85. ~Teaches.univ.^Tutors 	 false 	 false 	 false
 $86. ~Teaches.univ.~Tutors 	 false 	 false 	 false
 $87. ~Teaches.~Tutors.univ 	 false 	 false 	 false
 $88. ~Tutors.univ.~Teaches 	 false 	 false 	 false
-$89. Int 	 false 	 false 	 false
-$90. String 	 false 	 false 	 false
-$91. none 	 false 	 false 	 false
-$92. univ 	 false 	 false 	 false
-Expected Completion word: Teacher
-Expected Completion line: Teacher.Teaches
-Suggestion exists: true
+$89. univ 	 false 	 false 	 false
+$90. Int 	 false 	 false 	 false
+$91. String 	 false 	 false 	 false
+$92. none 	 false 	 false 	 false
+$93. univ 	 false 	 false 	 false
 
-Suggestion in top 1 = false 
-Suggestion in top 5 = false 
-Suggestion in top 10 = false 
-
-Suggestion in top 1 (Alpha) = false
-Suggestion in top 5 (Alpha) = false
-Suggestion in top 10 (Alpha) = false
-
-Suggestion in top 1 (Len) = false
-Suggestion in top 5 (Len) = false
-Suggestion in top 10 (Len) = true
-
-Time taken: 25.050792
+Time taken: 21.1015
+Preprocessing time: 3
+Parsing time: 1
+Generation time: 9

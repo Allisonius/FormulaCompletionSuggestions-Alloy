@@ -6,6 +6,9 @@ Vscode Position: line=43 character=33
 ----------------------------------
 44 | 	all f1, f2 : File | f1 -> f2 in 
 ----------------------------------
+Expected Completion word: link
+Expected Completion line: link and f1 in Trash => f2 in Trash
+Suggestion exists: true
 Completion List:
 # Suggestion 	 Exact 	 Syntactic 	 Semantic
 $1. File -> File 	 false 	 undefined 	 undefined
@@ -18,23 +21,15 @@ $7. Trash -> File 	 false 	 undefined 	 undefined
 $8. Trash -> Protected 	 false 	 undefined 	 undefined
 $9. Trash -> Trash 	 false 	 undefined 	 undefined
 $10. link 	 true 	 undefined 	 undefined
-$11. ~link 	 false 	 undefined 	 undefined
-$12. ^link 	 false 	 undefined 	 undefined
-$13. *link 	 false 	 undefined 	 undefined
-Expected Completion word: link
-Expected Completion line: link and f1 in Trash => f2 in Trash
-Suggestion exists: true
+$11. link 	 true 	 undefined 	 undefined
+$12. ~link 	 false 	 undefined 	 undefined
+$13. ~link 	 false 	 undefined 	 undefined
+$14. ^link 	 false 	 undefined 	 undefined
+$15. ^link 	 false 	 undefined 	 undefined
+$16. *link 	 false 	 undefined 	 undefined
+$17. *link 	 false 	 undefined 	 undefined
 
-Suggestion in top 1 = false 
-Suggestion in top 5 = false 
-Suggestion in top 10 = true 
-
-Suggestion in top 1 (Alpha) = false
-Suggestion in top 5 (Alpha) = false
-Suggestion in top 10 (Alpha) = true
-
-Suggestion in top 1 (Len) = true
-Suggestion in top 5 (Len) = true
-Suggestion in top 10 (Len) = true
-
-Time taken: 20.982
+Time taken: 14.619958
+Preprocessing time: 1
+Parsing time: 0
+Generation time: 8

@@ -6,6 +6,9 @@ Vscode Position: line=33 character=16
 ----------------------------------
 34 |   no (FSM.stop).
 ----------------------------------
+Expected Completion word: transition
+Expected Completion line: transition
+Suggestion exists: true
 Completion List:
 # Suggestion 	 Exact 	 Syntactic 	 Semantic
 $1. *transition.State 	 false 	 false 	 false
@@ -34,22 +37,11 @@ $23. ~transition.~start 	 false 	 false 	 false
 $24. ~transition.~stop 	 false 	 false 	 false
 $25. ^transition 	 false 	 false 	 false
 $26. ^transition.univ 	 false 	 false 	 false
-$27. *transition 	 false 	 false 	 false
-$28. *transition.univ 	 false 	 false 	 false
-Expected Completion word: transition
-Expected Completion line: transition
-Suggestion exists: true
+$27.  	 false 	 false 	 false
+$28. *transition 	 false 	 false 	 false
+$29. *transition.univ 	 false 	 false 	 false
 
-Suggestion in top 1 = false 
-Suggestion in top 5 = false 
-Suggestion in top 10 = true 
-
-Suggestion in top 1 (Alpha) = false
-Suggestion in top 5 (Alpha) = false
-Suggestion in top 10 (Alpha) = false
-
-Suggestion in top 1 (Len) = false
-Suggestion in top 5 (Len) = true
-Suggestion in top 10 (Len) = true
-
-Time taken: 9.361875
+Time taken: 7.836792
+Preprocessing time: 1
+Parsing time: 1
+Generation time: 1

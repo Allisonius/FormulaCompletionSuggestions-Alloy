@@ -6,6 +6,9 @@ Vscode Position: line=4 character=29
 ----------------------------------
 5 | sig Junction, Entry, Exit in 
 ----------------------------------
+Expected Completion word: Track
+Expected Completion line: Track {}
+Suggestion exists: true
 Completion List:
 # Suggestion 	 Exact 	 Syntactic 	 Semantic
 $1. Semaphore 	 false 	 false 	 false
@@ -16,20 +19,8 @@ $5. Int 	 false 	 false 	 false
 $6. String 	 false 	 false 	 false
 $7. none 	 false 	 false 	 false
 $8. univ 	 false 	 false 	 false
-Expected Completion word: Track
-Expected Completion line: Track {}
-Suggestion exists: true
 
-Suggestion in top 1 = false 
-Suggestion in top 5 = true 
-Suggestion in top 10 = true 
-
-Suggestion in top 1 (Alpha) = false
-Suggestion in top 5 (Alpha) = false
-Suggestion in top 10 (Alpha) = true
-
-Suggestion in top 1 (Len) = false
-Suggestion in top 5 (Len) = true
-Suggestion in top 10 (Len) = true
-
-Time taken: 11.688958
+Time taken: 40.680708
+Preprocessing time: 13
+Parsing time: 1
+Generation time: 0

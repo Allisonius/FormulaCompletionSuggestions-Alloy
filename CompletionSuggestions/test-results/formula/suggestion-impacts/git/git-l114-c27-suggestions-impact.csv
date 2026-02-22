@@ -1,0 +1,17 @@
+modelname,filename,position-line,position-character,incompleteline,removedtext,baseline,suggestionedExpression,A_iff_B,A_and_B,not_A_and_B,A_and_not_B,not_A_and_not_B,suggestionImpactTime
+git,completion/git-complete.als,114,27,"all b1, b2 : Blob | b1 ->","b2 in conflict implies b2 -> b1 in conflict","{}","\tall b1, b2 : Blob | b1 -> b1",,,,,,107.907208
+git,completion/git-complete.als,114,27,"all b1, b2 : Blob | b1 ->","b2 in conflict implies b2 -> b1 in conflict","{}","\tall b1, b2 : Blob | b1 -> b2",,,,,,107.907208
+git,completion/git-complete.als,114,27,"all b1, b2 : Blob | b1 ->","b2 in conflict implies b2 -> b1 in conflict","{}","\tall b1, b2 : Blob | b1 -> Blob",,,,,,107.907208
+git,completion/git-complete.als,114,27,"all b1, b2 : Blob | b1 ->","b2 in conflict implies b2 -> b1 in conflict","{}","\tall b1, b2 : Blob | b1 -> Commit",,,,,,107.907208
+git,completion/git-complete.als,114,27,"all b1, b2 : Blob | b1 ->","b2 in conflict implies b2 -> b1 in conflict","{}","\tall b1, b2 : Blob | b1 -> Dir",,,,,,107.907208
+git,completion/git-complete.als,114,27,"all b1, b2 : Blob | b1 ->","b2 in conflict implies b2 -> b1 in conflict","{}","\tall b1, b2 : Blob | b1 -> File",,,,,,107.907208
+git,completion/git-complete.als,114,27,"all b1, b2 : Blob | b1 ->","b2 in conflict implies b2 -> b1 in conflict","{}","\tall b1, b2 : Blob | b1 -> Name",,,,,,107.907208
+git,completion/git-complete.als,114,27,"all b1, b2 : Blob | b1 ->","b2 in conflict implies b2 -> b1 in conflict","{}","\tall b1, b2 : Blob | b1 -> Node",,,,,,107.907208
+git,completion/git-complete.als,114,27,"all b1, b2 : Blob | b1 ->","b2 in conflict implies b2 -> b1 in conflict","{}","\tall b1, b2 : Blob | b1 -> Object",,,,,,107.907208
+git,completion/git-complete.als,114,27,"all b1, b2 : Blob | b1 ->","b2 in conflict implies b2 -> b1 in conflict","{}","\tall b1, b2 : Blob | b1 -> Root",,,,,,107.907208
+git,completion/git-complete.als,114,27,"all b1, b2 : Blob | b1 ->","b2 in conflict implies b2 -> b1 in conflict","{}","\tall b1, b2 : Blob | b1 -> State",,,,,,107.907208
+git,completion/git-complete.als,114,27,"all b1, b2 : Blob | b1 ->","b2 in conflict implies b2 -> b1 in conflict","{}","\tall b1, b2 : Blob | b1 -> Tree",,,,,,107.907208
+git,completion/git-complete.als,114,27,"all b1, b2 : Blob | b1 ->","b2 in conflict implies b2 -> b1 in conflict","{}","\tall b1, b2 : Blob | b1 -> Int",,,,,,107.907208
+git,completion/git-complete.als,114,27,"all b1, b2 : Blob | b1 ->","b2 in conflict implies b2 -> b1 in conflict","{}","\tall b1, b2 : Blob | b1 -> String",,,,,,107.907208
+git,completion/git-complete.als,114,27,"all b1, b2 : Blob | b1 ->","b2 in conflict implies b2 -> b1 in conflict","{}","\tall b1, b2 : Blob | b1 -> none",,,,,,107.907208
+git,completion/git-complete.als,114,27,"all b1, b2 : Blob | b1 ->","b2 in conflict implies b2 -> b1 in conflict","{}","\tall b1, b2 : Blob | b1 -> univ",,,,,,107.907208

@@ -6,6 +6,9 @@ Vscode Position: line=32 character=15
 ----------------------------------
 33 |   some Teacher.
 ----------------------------------
+Expected Completion word: Teaches
+Expected Completion line: Teaches
+Suggestion exists: true
 Completion List:
 # Suggestion 	 Exact 	 Syntactic 	 Semantic
 $1. *Tutors.Person 	 false 	 false 	 false
@@ -34,22 +37,11 @@ $23. ~Tutors 	 false 	 false 	 false
 $24. ~Tutors.univ 	 false 	 false 	 false
 $25. ^Tutors 	 false 	 false 	 false
 $26. ^Tutors.univ 	 false 	 false 	 false
-$27. *Tutors 	 false 	 false 	 false
-$28. *Tutors.univ 	 false 	 false 	 false
-Expected Completion word: Teaches
-Expected Completion line: Teaches
-Suggestion exists: true
+$27.  	 false 	 false 	 false
+$28. *Tutors 	 false 	 false 	 false
+$29. *Tutors.univ 	 false 	 false 	 false
 
-Suggestion in top 1 = false 
-Suggestion in top 5 = false 
-Suggestion in top 10 = false 
-
-Suggestion in top 1 (Alpha) = false
-Suggestion in top 5 (Alpha) = false
-Suggestion in top 10 (Alpha) = false
-
-Suggestion in top 1 (Len) = false
-Suggestion in top 5 (Len) = true
-Suggestion in top 10 (Len) = true
-
-Time taken: 12.295667
+Time taken: 30.926458
+Preprocessing time: 5
+Parsing time: 2
+Generation time: 3

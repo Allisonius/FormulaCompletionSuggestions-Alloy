@@ -6,6 +6,9 @@ Vscode Position: line=25 character=75
 ----------------------------------
 26 |     all u : User, disj x,y : u.profile | x.source = y.source implies no (x.
 ----------------------------------
+Expected Completion word: ids&y.ids
+Expected Completion line: ids & y.ids)
+Suggestion exists: false
 Completion List:
 # Suggestion 	 Exact 	 Syntactic 	 Semantic
 $1. source.u 	 false 	 undefined 	 undefined
@@ -15,32 +18,29 @@ $4. ids.Id 	 false 	 undefined 	 undefined
 $5. source.Institution 	 false 	 undefined 	 undefined
 $6. source.Source 	 false 	 undefined 	 undefined
 $7. source.User 	 false 	 undefined 	 undefined
-$8. ~profile.User 	 false 	 undefined 	 undefined
-$9. ~visible.User 	 false 	 undefined 	 undefined
-$10. ids 	 false 	 undefined 	 undefined
-$11. ids.univ 	 false 	 undefined 	 undefined
-$12. source 	 false 	 undefined 	 undefined
-$13. source.univ 	 false 	 undefined 	 undefined
-$14. ~profile.visible 	 false 	 undefined 	 undefined
-$15. ~visible.profile 	 false 	 undefined 	 undefined
-$16. ~profile 	 false 	 undefined 	 undefined
-$17. ~profile.univ 	 false 	 undefined 	 undefined
-$18. ~visible 	 false 	 undefined 	 undefined
-$19. ~visible.univ 	 false 	 undefined 	 undefined
-Expected Completion word: ids
-Expected Completion line: ids & y.ids)
-Suggestion exists: false
+$8. ~profile.Institution 	 false 	 undefined 	 undefined
+$9. ~profile.Source 	 false 	 undefined 	 undefined
+$10. ~profile.User 	 false 	 undefined 	 undefined
+$11. ~visible.Institution 	 false 	 undefined 	 undefined
+$12. ~visible.Source 	 false 	 undefined 	 undefined
+$13. ~visible.User 	 false 	 undefined 	 undefined
+$14. ids 	 false 	 undefined 	 undefined
+$15. ids.univ 	 false 	 undefined 	 undefined
+$16. source 	 false 	 undefined 	 undefined
+$17. source.profile 	 false 	 undefined 	 undefined
+$18. source.univ 	 false 	 undefined 	 undefined
+$19. source.visible 	 false 	 undefined 	 undefined
+$20. ~profile.visible 	 false 	 undefined 	 undefined
+$21. ~visible.profile 	 false 	 undefined 	 undefined
+$22. ~profile 	 false 	 undefined 	 undefined
+$23. ~profile.univ 	 false 	 undefined 	 undefined
+$24. ~profile.~source 	 false 	 undefined 	 undefined
+$25. ~visible 	 false 	 undefined 	 undefined
+$26. ~visible.univ 	 false 	 undefined 	 undefined
+$27. ~visible.~source 	 false 	 undefined 	 undefined
+$28.  	 false 	 undefined 	 undefined
 
-Suggestion in top 1 = false 
-Suggestion in top 5 = false 
-Suggestion in top 10 = true 
-
-Suggestion in top 1 (Alpha) = false
-Suggestion in top 5 (Alpha) = false
-Suggestion in top 10 (Alpha) = false
-
-Suggestion in top 1 (Len) = true
-Suggestion in top 5 (Len) = true
-Suggestion in top 10 (Len) = true
-
-Time taken: 9.665334
+Time taken: 9.384708
+Preprocessing time: 2
+Parsing time: 1
+Generation time: 1

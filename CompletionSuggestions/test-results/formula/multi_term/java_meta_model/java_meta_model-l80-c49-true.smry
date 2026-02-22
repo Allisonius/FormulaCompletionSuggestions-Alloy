@@ -1,0 +1,121 @@
+Model name: java_meta_model
+Filename: completion/java_meta_model-complete.als
+Offset: 1523
+Term: .
+Vscode Position: line=79 character=49
+----------------------------------
+80 |     all mi:MethodInvocation | some m:Method | mi.
+----------------------------------
+Expected Completion word: id
+Expected Completion line: id = m.id
+Suggestion exists: true
+Completion List:
+# Suggestion 	 Exact 	 Syntactic 	 Semantic
+$1. ~b.m 	 false 	 undefined 	 undefined
+$2. id.ClassId 	 false 	 undefined 	 undefined
+$3. id.FieldId 	 false 	 undefined 	 undefined
+$4. id.Id 	 false 	 undefined 	 undefined
+$5. id.MethodId 	 false 	 undefined 	 undefined
+$6. idClass.ClassId 	 false 	 undefined 	 undefined
+$7. idClass.FieldId 	 false 	 undefined 	 undefined
+$8. idClass.Id 	 false 	 undefined 	 undefined
+$9. idClass.MethodId 	 false 	 undefined 	 undefined
+$10. idClass2.ClassId 	 false 	 undefined 	 undefined
+$11. idClass2.FieldId 	 false 	 undefined 	 undefined
+$12. idClass2.Id 	 false 	 undefined 	 undefined
+$13. idClass2.MethodId 	 false 	 undefined 	 undefined
+$14. idField.ClassId 	 false 	 undefined 	 undefined
+$15. idField.ClassId 	 false 	 undefined 	 undefined
+$16. idField.FieldId 	 false 	 undefined 	 undefined
+$17. idField.FieldId 	 false 	 undefined 	 undefined
+$18. idField.Id 	 false 	 undefined 	 undefined
+$19. idField.Id 	 false 	 undefined 	 undefined
+$20. idField.MethodId 	 false 	 undefined 	 undefined
+$21. idField.MethodId 	 false 	 undefined 	 undefined
+$22. idMethod.ClassId 	 false 	 undefined 	 undefined
+$23. idMethod.FieldId 	 false 	 undefined 	 undefined
+$24. idMethod.Id 	 false 	 undefined 	 undefined
+$25. idMethod.MethodId 	 false 	 undefined 	 undefined
+$26. q.Qualifier 	 false 	 undefined 	 undefined
+$27. q.qthis_ 	 false 	 undefined 	 undefined
+$28. q.super_ 	 false 	 undefined 	 undefined
+$29. q.this_ 	 false 	 undefined 	 undefined
+$30. qField.Qualifier 	 false 	 undefined 	 undefined
+$31. qField.qthis_ 	 false 	 undefined 	 undefined
+$32. qField.super_ 	 false 	 undefined 	 undefined
+$33. qField.this_ 	 false 	 undefined 	 undefined
+$34. ~b.Method 	 false 	 undefined 	 undefined
+$35. id 	 true 	 undefined 	 undefined
+$36. id.univ 	 false 	 undefined 	 undefined
+$37. id.~idClass 	 false 	 undefined 	 undefined
+$38. id.~idClass2 	 false 	 undefined 	 undefined
+$39. id.~idField 	 false 	 undefined 	 undefined
+$40. id.~idField 	 false 	 undefined 	 undefined
+$41. id.~idMethod 	 false 	 undefined 	 undefined
+$42. idClass 	 false 	 undefined 	 undefined
+$43. idClass.univ 	 false 	 undefined 	 undefined
+$44. idClass.~id 	 false 	 undefined 	 undefined
+$45. idClass.~id 	 false 	 undefined 	 undefined
+$46. idClass.~id 	 false 	 undefined 	 undefined
+$47. idClass.~id 	 false 	 undefined 	 undefined
+$48. idClass.~idClass2 	 false 	 undefined 	 undefined
+$49. idClass.~idField 	 false 	 undefined 	 undefined
+$50. idClass.~idField 	 false 	 undefined 	 undefined
+$51. idClass.~idMethod 	 false 	 undefined 	 undefined
+$52. idClass2 	 false 	 undefined 	 undefined
+$53. idClass2.univ 	 false 	 undefined 	 undefined
+$54. idClass2.~id 	 false 	 undefined 	 undefined
+$55. idClass2.~id 	 false 	 undefined 	 undefined
+$56. idClass2.~id 	 false 	 undefined 	 undefined
+$57. idClass2.~id 	 false 	 undefined 	 undefined
+$58. idClass2.~idClass 	 false 	 undefined 	 undefined
+$59. idClass2.~idField 	 false 	 undefined 	 undefined
+$60. idClass2.~idField 	 false 	 undefined 	 undefined
+$61. idClass2.~idMethod 	 false 	 undefined 	 undefined
+$62. idField 	 false 	 undefined 	 undefined
+$63. idField 	 false 	 undefined 	 undefined
+$64. idField.univ 	 false 	 undefined 	 undefined
+$65. idField.univ 	 false 	 undefined 	 undefined
+$66. idField.~id 	 false 	 undefined 	 undefined
+$67. idField.~id 	 false 	 undefined 	 undefined
+$68. idField.~id 	 false 	 undefined 	 undefined
+$69. idField.~id 	 false 	 undefined 	 undefined
+$70. idField.~id 	 false 	 undefined 	 undefined
+$71. idField.~id 	 false 	 undefined 	 undefined
+$72. idField.~id 	 false 	 undefined 	 undefined
+$73. idField.~id 	 false 	 undefined 	 undefined
+$74. idField.~idClass 	 false 	 undefined 	 undefined
+$75. idField.~idClass 	 false 	 undefined 	 undefined
+$76. idField.~idClass2 	 false 	 undefined 	 undefined
+$77. idField.~idClass2 	 false 	 undefined 	 undefined
+$78. idField.~idMethod 	 false 	 undefined 	 undefined
+$79. idField.~idMethod 	 false 	 undefined 	 undefined
+$80. idMethod 	 false 	 undefined 	 undefined
+$81. idMethod.univ 	 false 	 undefined 	 undefined
+$82. idMethod.~id 	 false 	 undefined 	 undefined
+$83. idMethod.~id 	 false 	 undefined 	 undefined
+$84. idMethod.~id 	 false 	 undefined 	 undefined
+$85. idMethod.~id 	 false 	 undefined 	 undefined
+$86. idMethod.~idClass 	 false 	 undefined 	 undefined
+$87. idMethod.~idClass2 	 false 	 undefined 	 undefined
+$88. idMethod.~idField 	 false 	 undefined 	 undefined
+$89. idMethod.~idField 	 false 	 undefined 	 undefined
+$90. q 	 false 	 undefined 	 undefined
+$91. q.univ 	 false 	 undefined 	 undefined
+$92. q.~qField 	 false 	 undefined 	 undefined
+$93. qField 	 false 	 undefined 	 undefined
+$94. qField.univ 	 false 	 undefined 	 undefined
+$95. qField.~q 	 false 	 undefined 	 undefined
+$96. ~b.acc 	 false 	 undefined 	 undefined
+$97. ~b.id 	 false 	 undefined 	 undefined
+$98. ~b.param 	 false 	 undefined 	 undefined
+$99. ~b.return 	 false 	 undefined 	 undefined
+$100. ~b 	 false 	 undefined 	 undefined
+$101. ~b.univ 	 false 	 undefined 	 undefined
+$102. ~b.~methods 	 false 	 undefined 	 undefined
+$103.  	 false 	 undefined 	 undefined
+
+Time taken: 70.369625
+Preprocessing time: 29
+Parsing time: 12
+Generation time: 2

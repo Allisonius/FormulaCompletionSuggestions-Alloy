@@ -6,6 +6,9 @@ Vscode Position: line=92 character=101
 ----------------------------------
 93 | 	all c : Course , p : c.projects , disj x , y : (Person <: projects).p | some c.grades[x] and some c.
 ----------------------------------
+Expected Completion word: grades
+Expected Completion line: grades[y] implies c.grades[x] in c.grades[y].(prev + iden + next)
+Suggestion exists: true
 Completion List:
 # Suggestion 	 Exact 	 Syntactic 	 Semantic
 $1. projects.p 	 false 	 undefined 	 undefined
@@ -33,20 +36,9 @@ $22. ~enrolled 	 false 	 undefined 	 undefined
 $23. ~enrolled.univ 	 false 	 undefined 	 undefined
 $24. ~teaches 	 false 	 undefined 	 undefined
 $25. ~teaches.univ 	 false 	 undefined 	 undefined
-Expected Completion word: grades
-Expected Completion line: grades[y] implies c.grades[x] in c.grades[y].(prev + iden + next)
-Suggestion exists: true
+$26.  	 false 	 undefined 	 undefined
 
-Suggestion in top 1 = false 
-Suggestion in top 5 = false 
-Suggestion in top 10 = false 
-
-Suggestion in top 1 (Alpha) = false
-Suggestion in top 5 (Alpha) = false
-Suggestion in top 10 (Alpha) = false
-
-Suggestion in top 1 (Len) = true
-Suggestion in top 5 (Len) = true
-Suggestion in top 10 (Len) = true
-
-Time taken: 17.035667
+Time taken: 24.446541
+Preprocessing time: 4
+Parsing time: 4
+Generation time: 1

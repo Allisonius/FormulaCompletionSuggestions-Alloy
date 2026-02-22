@@ -1,0 +1,24 @@
+modelname,filename,position-line,position-character,incompleteline,removedtext,baseline,suggestionedExpression,A_iff_B,A_and_B,not_A_and_B,A_and_not_B,not_A_and_not_B,suggestionImpactTime
+git,completion/git-complete.als,64,29,"some p : Tree | p in c.tree.","^children + c.tree","{}","\tsome p : Tree | p in c.tree.~tree.c",,,,,,167.377875
+git,completion/git-complete.als,64,29,"some p : Tree | p in c.tree.","^children + c.tree","{}","\tsome p : Tree | p in c.tree.content.Blob",,,,,,167.377875
+git,completion/git-complete.als,64,29,"some p : Tree | p in c.tree.","^children + c.tree","{}","\tsome p : Tree | p in c.tree.stored.State",,,,,,167.377875
+git,completion/git-complete.als,64,29,"some p : Tree | p in c.tree.","^children + c.tree","{}","\tsome p : Tree | p in c.tree.~tree.Commit",,,,,,167.377875
+git,completion/git-complete.als,64,29,"some p : Tree | p in c.tree.","^children + c.tree","{}","\tsome p : Tree | p in c.tree.content",,,,,,167.377875
+git,completion/git-complete.als,64,29,"some p : Tree | p in c.tree.","^children + c.tree","{}","\tsome p : Tree | p in c.tree.content.*conflict",,,,,,167.377875
+git,completion/git-complete.als,64,29,"some p : Tree | p in c.tree.","^children + c.tree","{}","\tsome p : Tree | p in c.tree.content.^conflict",,,,,,167.377875
+git,completion/git-complete.als,64,29,"some p : Tree | p in c.tree.","^children + c.tree","{}","\tsome p : Tree | p in c.tree.content.conflict",,,,,,167.377875
+git,completion/git-complete.als,64,29,"some p : Tree | p in c.tree.","^children + c.tree","{}","\tsome p : Tree | p in c.tree.content.merging",,,,,,167.377875
+git,completion/git-complete.als,64,29,"some p : Tree | p in c.tree.","^children + c.tree","{}","\tsome p : Tree | p in c.tree.content.univ",,,,,,167.377875
+git,completion/git-complete.als,64,29,"some p : Tree | p in c.tree.","^children + c.tree","{}","\tsome p : Tree | p in c.tree.content.~conflict",,,,,,167.377875
+git,completion/git-complete.als,64,29,"some p : Tree | p in c.tree.","^children + c.tree","{}","\tsome p : Tree | p in c.tree.stored",,,,,,167.377875
+git,completion/git-complete.als,64,29,"some p : Tree | p in c.tree.","^children + c.tree","{}","\tsome p : Tree | p in c.tree.stored.univ",,,,,,167.377875
+git,completion/git-complete.als,64,29,"some p : Tree | p in c.tree.","^children + c.tree","{}","\tsome p : Tree | p in c.tree.stored.~HEAD",,,,,,167.377875
+git,completion/git-complete.als,64,29,"some p : Tree | p in c.tree.","^children + c.tree","{}","\tsome p : Tree | p in c.tree.stored.~current",,,,,,167.377875
+git,completion/git-complete.als,64,29,"some p : Tree | p in c.tree.","^children + c.tree","{}","\tsome p : Tree | p in c.tree.stored.~heads",,,,,,167.377875
+git,completion/git-complete.als,64,29,"some p : Tree | p in c.tree.","^children + c.tree","{}","\tsome p : Tree | p in c.tree.stored.~index",,,,,,167.377875
+git,completion/git-complete.als,64,29,"some p : Tree | p in c.tree.","^children + c.tree","{}","\tsome p : Tree | p in c.tree.~tree.previous",,,,,,167.377875
+git,completion/git-complete.als,64,29,"some p : Tree | p in c.tree.","^children + c.tree","{}","\tsome p : Tree | p in c.tree.~tree",,,,,,167.377875
+git,completion/git-complete.als,64,29,"some p : Tree | p in c.tree.","^children + c.tree","{}","\tsome p : Tree | p in c.tree.~tree.*previous",,,,,,167.377875
+git,completion/git-complete.als,64,29,"some p : Tree | p in c.tree.","^children + c.tree","{}","\tsome p : Tree | p in c.tree.~tree.^previous",,,,,,167.377875
+git,completion/git-complete.als,64,29,"some p : Tree | p in c.tree.","^children + c.tree","{}","\tsome p : Tree | p in c.tree.~tree.univ",,,,,,167.377875
+git,completion/git-complete.als,64,29,"some p : Tree | p in c.tree.","^children + c.tree","{}","\tsome p : Tree | p in c.tree.~tree.~previous",,,,,,167.377875

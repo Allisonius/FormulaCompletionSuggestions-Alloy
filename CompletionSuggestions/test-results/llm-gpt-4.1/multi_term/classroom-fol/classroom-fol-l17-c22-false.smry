@@ -1,0 +1,36 @@
+Model name: classroom-fol
+Filename: completion/classroom-fol-complete.als
+Offset: 207
+Term:  in 
+Vscode Position: line=16 character=22
+----------------------------------
+17 | 	all p: Person | p in 
+----------------------------------
+Expected Completion word: Student
+Expected Completion line: Student
+Suggestion exists: false
+Completion List:
+# Suggestion 	 Exact 	 Syntactic 	 Semantic
+$1. p.Tutors 	 false 	 false 	 false
+$2. p.Teaches 	 false 	 false 	 false
+$3. p.Tutors.Tutors 	 false 	 false 	 false
+$4. p.Tutors.Teaches 	 false 	 false 	 false
+$5. p.Teaches.Groups 	 false 	 false 	 false
+$6. p.Tutors.Tutors.Tutors 	 false 	 false 	 false
+$7. p.Tutors.Tutors.Teaches 	 false 	 false 	 false
+$8. p.Tutors.Teaches.Groups 	 false 	 false 	 false
+$9. p.Tutors + univ 	 false 	 false 	 false
+$10. p.Teaches + univ 	 false 	 false 	 false
+$11. p.Tutors & univ 	 false 	 false 	 false
+$12. p.Teaches & univ 	 false 	 false 	 false
+$13. p.Tutors^ 	 false 	 undefined 	 undefined
+$14. p.Tutors* 	 false 	 undefined 	 undefined
+$15. ~p.Tutors 	 false 	 undefined 	 undefined
+$16. ~p.Teaches 	 false 	 undefined 	 undefined
+$17. p 	 false 	 false 	 false
+$18. univ 	 false 	 false 	 false
+
+Time taken: 6417.417042
+Preprocessing time: N/A
+Parsing time: N/A
+Generation time: N/A

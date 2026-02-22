@@ -1,0 +1,29 @@
+Model name: courses-v1
+Filename: completion/courses-v1-complete.als
+Offset: 578
+Term:  in 
+Vscode Position: line=36 character=37
+----------------------------------
+37 | 	all p:Project | one c:Course | p in 
+----------------------------------
+Expected Completion word: c.projects
+Expected Completion line: c.projects
+Suggestion exists: false
+Completion List:
+# Suggestion 	 Exact 	 Syntactic 	 Semantic
+$1. Course 	 false 	 undefined 	 undefined
+$2. Grade 	 false 	 undefined 	 undefined
+$3. Person 	 false 	 undefined 	 undefined
+$4. Professor 	 false 	 undefined 	 undefined
+$5. Project 	 false 	 undefined 	 undefined
+$6. Student 	 false 	 undefined 	 undefined
+$7. ordering/Ord 	 false 	 undefined 	 undefined
+$8. Int 	 false 	 undefined 	 undefined
+$9. String 	 false 	 undefined 	 undefined
+$10. none 	 false 	 undefined 	 undefined
+$11. univ 	 false 	 undefined 	 undefined
+
+Time taken: 43.8205
+Preprocessing time: 6
+Parsing time: 3
+Generation time: 0

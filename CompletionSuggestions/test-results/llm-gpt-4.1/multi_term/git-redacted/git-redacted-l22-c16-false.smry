@@ -1,0 +1,32 @@
+Model name: git-redacted
+Filename: completion/git-sig.als
+Offset: 408
+Term:  extends 
+Vscode Position: line=21 character=16
+----------------------------------
+22 | sig Dir extends 
+----------------------------------
+Expected Completion word: Node
+Expected Completion line: Node {
+Suggestion exists: false
+Completion List:
+# Suggestion 	 Exact 	 Syntactic 	 Semantic
+$1. tbc 	 false 	 false 	 false
+$2. tbc.State 	 false 	 false 	 false
+$3. tbc.Tree 	 false 	 false 	 false
+$4. tbc.State^ 	 false 	 undefined 	 undefined
+$5. tbc.State* 	 false 	 undefined 	 undefined
+$6. tbc.Tree^ 	 false 	 undefined 	 undefined
+$7. tbc.Tree* 	 false 	 undefined 	 undefined
+$8. ~tbc 	 false 	 undefined 	 undefined
+$9. tbc & univ 	 false 	 undefined 	 undefined
+$10. tbc + univ 	 false 	 undefined 	 undefined
+$11. tbc.State & univ 	 false 	 undefined 	 undefined
+$12. tbc.State + univ 	 false 	 undefined 	 undefined
+$13. tbc.Tree & univ 	 false 	 undefined 	 undefined
+$14. tbc.Tree + univ 	 false 	 undefined 	 undefined
+
+Time taken: 4849.195375
+Preprocessing time: N/A
+Parsing time: N/A
+Generation time: N/A

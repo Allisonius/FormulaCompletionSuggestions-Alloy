@@ -6,6 +6,9 @@ Vscode Position: line=52 character=33
 ----------------------------------
 53 | 	all t:Track, s:Semaphore | no t.
 ----------------------------------
+Expected Completion word: succs
+Expected Completion line: succs & Junction => s not in t.signals
+Suggestion exists: true
 Completion List:
 # Suggestion 	 Exact 	 Syntactic 	 Semantic
 $1. *succs.t 	 false 	 undefined 	 undefined
@@ -44,22 +47,11 @@ $33. ~succs 	 false 	 undefined 	 undefined
 $34. ~succs.univ 	 false 	 undefined 	 undefined
 $35. ^succs 	 false 	 undefined 	 undefined
 $36. ^succs.univ 	 false 	 undefined 	 undefined
-$37. *succs 	 false 	 undefined 	 undefined
-$38. *succs.univ 	 false 	 undefined 	 undefined
-Expected Completion word: succs
-Expected Completion line: succs & Junction => s not in t.signals
-Suggestion exists: true
+$37.  	 false 	 undefined 	 undefined
+$38. *succs 	 false 	 undefined 	 undefined
+$39. *succs.univ 	 false 	 undefined 	 undefined
 
-Suggestion in top 1 = false 
-Suggestion in top 5 = false 
-Suggestion in top 10 = false 
-
-Suggestion in top 1 (Alpha) = false
-Suggestion in top 5 (Alpha) = false
-Suggestion in top 10 (Alpha) = false
-
-Suggestion in top 1 (Len) = true
-Suggestion in top 5 (Len) = true
-Suggestion in top 10 (Len) = true
-
-Time taken: 8.700709
+Time taken: 16.14225
+Preprocessing time: 3
+Parsing time: 1
+Generation time: 2

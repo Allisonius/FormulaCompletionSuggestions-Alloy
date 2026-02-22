@@ -1,0 +1,36 @@
+Model name: classroom-fol
+Filename: completion/classroom-fol-complete.als
+Offset: 965
+Term:  -> 
+Vscode Position: line=64 character=22
+----------------------------------
+65 | 	Tutors in Teacher -> 
+----------------------------------
+Expected Completion word: Student
+Expected Completion line: Student
+Suggestion exists: false
+Completion List:
+# Suggestion 	 Exact 	 Syntactic 	 Semantic
+$1. Teacher 	 false 	 false 	 false
+$2. Person 	 false 	 false 	 false
+$3. univ 	 false 	 false 	 false
+$4. Teacher->Person 	 false 	 false 	 false
+$5. Teacher->univ 	 false 	 false 	 false
+$6. Teacher->Teacher 	 false 	 false 	 false
+$7. Teacher->Student 	 false 	 false 	 false
+$8. Teacher->Person.Tutors 	 false 	 false 	 false
+$9. Teacher->Person.Teaches 	 false 	 false 	 false
+$10. Teacher->Person.Tutors.Teaches 	 false 	 false 	 false
+$11. Teacher->Person.Tutors.Tutors 	 false 	 false 	 false
+$12. Teacher->Person.Tutors.Teaches.Groups 	 false 	 false 	 false
+$13. Teacher->Person.Tutors.Teaches.Groups.Person 	 false 	 false 	 false
+$14. Teacher->Person.Tutors.Teaches.Groups.Group 	 false 	 false 	 false
+$15. Teacher->Person.Tutors.Teaches.Groups.univ 	 false 	 false 	 false
+$16. Teacher->Person.Tutors.Teaches.Groups.Person.Tutors 	 false 	 false 	 false
+$17. Teacher->Person.Tutors.Teaches.Groups.Person.Teaches 	 false 	 false 	 false
+$18. Teacher->Person.Tutors.Teaches.Groups.Person.Teaches.Groups 	 false 	 false 	 false
+
+Time taken: 6312.441375
+Preprocessing time: N/A
+Parsing time: N/A
+Generation time: N/A

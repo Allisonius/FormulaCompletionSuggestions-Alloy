@@ -6,6 +6,9 @@ Vscode Position: line=18 character=38
 ----------------------------------
 19 |   all c: Class - Object | c in Object.
 ----------------------------------
+Expected Completion word: ext
+Expected Completion line: ^~ext
+Suggestion exists: true
 Completion List:
 # Suggestion 	 Exact 	 Syntactic 	 Semantic
 $1. *ext.c 	 false 	 undefined 	 undefined
@@ -21,27 +24,21 @@ $10. ext.Object 	 false 	 undefined 	 undefined
 $11. ~ext.Class 	 false 	 undefined 	 undefined
 $12. ~ext.Object 	 false 	 undefined 	 undefined
 $13. ext 	 true 	 undefined 	 undefined
-$14. ext.univ 	 false 	 undefined 	 undefined
-$15. ~ext 	 false 	 undefined 	 undefined
-$16. ~ext.univ 	 false 	 undefined 	 undefined
-$17. ^ext 	 false 	 undefined 	 undefined
-$18. ^ext.univ 	 false 	 undefined 	 undefined
-$19. *ext 	 false 	 undefined 	 undefined
-$20. *ext.univ 	 false 	 undefined 	 undefined
-Expected Completion word: ^~ext
-Expected Completion line: ^~ext
-Suggestion exists: true
+$14. ext 	 true 	 undefined 	 undefined
+$15. ext.univ 	 false 	 undefined 	 undefined
+$16. ~ext 	 false 	 undefined 	 undefined
+$17. ~ext 	 false 	 undefined 	 undefined
+$18. ~ext.univ 	 false 	 undefined 	 undefined
+$19. ^ext 	 false 	 undefined 	 undefined
+$20. ^ext 	 false 	 undefined 	 undefined
+$21. ^ext.univ 	 false 	 undefined 	 undefined
+$22.  	 false 	 undefined 	 undefined
+$23.  	 false 	 undefined 	 undefined
+$24. *ext 	 false 	 undefined 	 undefined
+$25. *ext 	 false 	 undefined 	 undefined
+$26. *ext.univ 	 false 	 undefined 	 undefined
 
-Suggestion in top 1 = false 
-Suggestion in top 5 = false 
-Suggestion in top 10 = false 
-
-Suggestion in top 1 (Alpha) = false
-Suggestion in top 5 (Alpha) = false
-Suggestion in top 10 (Alpha) = false
-
-Suggestion in top 1 (Len) = false
-Suggestion in top 5 (Len) = false
-Suggestion in top 10 (Len) = false
-
-Time taken: 12.47925
+Time taken: 7.555584
+Preprocessing time: 1
+Parsing time: 0
+Generation time: 1

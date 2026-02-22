@@ -1,11 +1,14 @@
 Model name: courses-v1
 Filename: completion/courses-v1-complete.als
-Offset: 1907
+Offset: 1905
 Term: .
 Vscode Position: line=82 character=43
 ----------------------------------
 83 | 	all c : Course, p : Person | last in p.(c.
 ----------------------------------
+Expected Completion word: grades
+Expected Completion line: grades) implies some p.projects & c.projects
+Suggestion exists: true
 Completion List:
 # Suggestion 	 Exact 	 Syntactic 	 Semantic
 $1. ~enrolled.p 	 false 	 undefined 	 undefined
@@ -30,20 +33,9 @@ $19. ~enrolled 	 false 	 undefined 	 undefined
 $20. ~enrolled.univ 	 false 	 undefined 	 undefined
 $21. ~teaches 	 false 	 undefined 	 undefined
 $22. ~teaches.univ 	 false 	 undefined 	 undefined
-Expected Completion word: grades
-Expected Completion line: grades) implies some p.projects & c.projects
-Suggestion exists: true
+$23.  	 false 	 undefined 	 undefined
 
-Suggestion in top 1 = false 
-Suggestion in top 5 = false 
-Suggestion in top 10 = false 
-
-Suggestion in top 1 (Alpha) = false
-Suggestion in top 5 (Alpha) = false
-Suggestion in top 10 (Alpha) = false
-
-Suggestion in top 1 (Len) = true
-Suggestion in top 5 (Len) = true
-Suggestion in top 10 (Len) = true
-
-Time taken: 18.086917
+Time taken: 30.87725
+Preprocessing time: 7
+Parsing time: 2
+Generation time: 1

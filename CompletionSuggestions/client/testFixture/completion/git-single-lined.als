@@ -22,7 +22,7 @@ abstract sig Node {
 	current : set State,		// set of nodes currently in file system
 	samepath : set Node, 		// auxiliary relation
 	// n -> o -> c in belongsTo iff  o is an object in c.tree that corresponds to n
-	belongsTo : Object lone -> Commit, 
+	belongsTo : Object lone -> Commit
 }
 
 pred isRootedAtCommit[n : Node, o : Object, c : Commit] {

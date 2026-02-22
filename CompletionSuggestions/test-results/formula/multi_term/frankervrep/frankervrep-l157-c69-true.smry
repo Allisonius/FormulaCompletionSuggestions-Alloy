@@ -1,0 +1,38 @@
+Model name: frankervrep
+Filename: completion/frankenvrep-complete.als
+Offset: 3710
+Term: .
+Vscode Position: line=156 character=69
+----------------------------------
+157 | 	all c: Coordinate | some a: ArmAngle, s : KinematicModel| c->a in s.
+----------------------------------
+Expected Completion word: solverResult
+Expected Completion line: solverResult
+Suggestion exists: true
+Completion List:
+# Suggestion 	 Exact 	 Syntactic 	 Semantic
+$1. solverResult.a 	 false 	 undefined 	 undefined
+$2. solverResult.ArmAngle 	 false 	 undefined 	 undefined
+$3. solverResult.armangle 	 false 	 undefined 	 undefined
+$4. ~calls.IKSolver_family 	 false 	 undefined 	 undefined
+$5. ~calls.SolverFamily 	 false 	 undefined 	 undefined
+$6. ~inverseKSolver.ArmType 	 false 	 undefined 	 undefined
+$7. ~inverseKSolver.FrankenVREP 	 false 	 undefined 	 undefined
+$8. solverResult 	 true 	 undefined 	 undefined
+$9. solverResult 	 true 	 undefined 	 undefined
+$10. solverResult.univ 	 false 	 undefined 	 undefined
+$11. solverResult.~anglelimit 	 false 	 undefined 	 undefined
+$12. solverResult.~output 	 false 	 undefined 	 undefined
+$13. ~inverseKSolver.anglelimit 	 false 	 undefined 	 undefined
+$14. ~calls 	 false 	 undefined 	 undefined
+$15. ~calls.univ 	 false 	 undefined 	 undefined
+$16. ~calls.~solverfamily 	 false 	 undefined 	 undefined
+$17. ~inverseKSolver 	 false 	 undefined 	 undefined
+$18. ~inverseKSolver.univ 	 false 	 undefined 	 undefined
+$19. ~inverseKSolver.~armModel 	 false 	 undefined 	 undefined
+$20.  	 false 	 undefined 	 undefined
+
+Time taken: 45.591917
+Preprocessing time: 6
+Parsing time: 3
+Generation time: 0

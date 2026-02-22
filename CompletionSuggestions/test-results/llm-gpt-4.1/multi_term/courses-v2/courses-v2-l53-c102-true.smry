@@ -1,0 +1,40 @@
+Model name: courses-v2
+Filename: completion/courses-v2-complete.als
+Offset: 1146
+Term:  in 
+Vscode Position: line=52 character=102
+----------------------------------
+53 | 	all p : Person , c : Course , ps1 , ps2 : Project | ps1 in p.projects && ps2 in p.projects && ps1 in 
+----------------------------------
+Expected Completion word: c.projects
+Expected Completion line: c.projects && ps2 in c.projects implies ps1 = ps2
+Suggestion exists: true
+Completion List:
+# Suggestion 	 Exact 	 Syntactic 	 Semantic
+$1. c.projects 	 true 	 undefined 	 undefined
+$2. p.projects 	 false 	 undefined 	 undefined
+$3. ps2 	 false 	 undefined 	 undefined
+$4. univ 	 false 	 undefined 	 undefined
+$5. c.projects & p.projects 	 false 	 undefined 	 undefined
+$6. c.projects + p.projects 	 false 	 undefined 	 undefined
+$7. c.projects - p.projects 	 false 	 undefined 	 undefined
+$8. p.projects & c.projects 	 false 	 undefined 	 undefined
+$9. p.projects + c.projects 	 false 	 undefined 	 undefined
+$10. p.projects - c.projects 	 false 	 undefined 	 undefined
+$11. c.projects & ps2 	 false 	 undefined 	 undefined
+$12. p.projects & ps2 	 false 	 undefined 	 undefined
+$13. c.projects + ps2 	 false 	 undefined 	 undefined
+$14. p.projects + ps2 	 false 	 undefined 	 undefined
+$15. c.projects - ps2 	 false 	 undefined 	 undefined
+$16. p.projects - ps2 	 false 	 undefined 	 undefined
+$17. ps2 & c.projects 	 false 	 undefined 	 undefined
+$18. ps2 & p.projects 	 false 	 undefined 	 undefined
+$19. ps2 + c.projects 	 false 	 undefined 	 undefined
+$20. ps2 + p.projects 	 false 	 undefined 	 undefined
+$21. ps2 - c.projects 	 false 	 undefined 	 undefined
+$22. ps2 - p.projects 	 false 	 undefined 	 undefined
+
+Time taken: 5542.371083
+Preprocessing time: N/A
+Parsing time: N/A
+Generation time: N/A

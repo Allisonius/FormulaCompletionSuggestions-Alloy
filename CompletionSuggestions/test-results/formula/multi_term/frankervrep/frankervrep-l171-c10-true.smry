@@ -1,0 +1,42 @@
+Model name: frankervrep
+Filename: completion/frankenvrep-complete.als
+Offset: 4068
+Term: .
+Vscode Position: line=170 character=10
+----------------------------------
+171 | 	RobotArm.
+----------------------------------
+Expected Completion word: effectorType
+Expected Completion line: effectorType = Cautery_Shears or
+Suggestion exists: true
+Completion List:
+# Suggestion 	 Exact 	 Syntactic 	 Semantic
+$1. armModel.ArmType 	 false 	 false 	 false
+$2. armModel.FrankenVREP 	 false 	 false 	 false
+$3. armside.Left 	 false 	 false 	 false
+$4. armside.Right 	 false 	 false 	 false
+$5. armside.Side 	 false 	 false 	 false
+$6. effectorType.Cautery_Hook 	 false 	 false 	 false
+$7. effectorType.Cautery_Shears 	 false 	 false 	 false
+$8. effectorType.Cautery_Tissue_Grasper 	 false 	 false 	 false
+$9. effectorType.EffectorType 	 false 	 false 	 false
+$10. effectorType.Shears 	 false 	 false 	 false
+$11. effectorType.Tissue_Grasper 	 false 	 false 	 false
+$12. ~arms.Current_Robot 	 false 	 false 	 false
+$13. ~arms.Robot 	 false 	 false 	 false
+$14. armModel 	 false 	 false 	 false
+$15. armModel.anglelimit 	 false 	 false 	 false
+$16. armModel.inverseKSolver 	 false 	 false 	 false
+$17. armModel.univ 	 false 	 false 	 false
+$18. armside 	 false 	 false 	 false
+$19. armside.univ 	 false 	 false 	 false
+$20. effectorType 	 true 	 true 	 true
+$21. effectorType.univ 	 false 	 false 	 false
+$22. ~arms 	 false 	 false 	 false
+$23. ~arms.univ 	 false 	 false 	 false
+$24.  	 false 	 false 	 false
+
+Time taken: 28.877083
+Preprocessing time: 4
+Parsing time: 2
+Generation time: 1

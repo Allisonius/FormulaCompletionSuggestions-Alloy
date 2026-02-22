@@ -1,0 +1,26 @@
+Model name: classroom-fol
+Filename: completion/classroom-fol-sig.als
+Offset: 107
+Term:  -> 
+Vscode Position: line=8 character=20
+----------------------------------
+9 | 	Groups : Person -> 
+----------------------------------
+Expected Completion word: Group
+Expected Completion line: Group
+Suggestion exists: true
+Completion List:
+# Suggestion 	 Exact 	 Syntactic 	 Semantic
+$1. Group 	 true 	 true 	 true
+$2. univ 	 false 	 false 	 false
+$3. ~Groups 	 false 	 undefined 	 undefined
+$4. Groups 	 false 	 undefined 	 undefined
+$5. Groups.Groups 	 false 	 undefined 	 undefined
+$6. Groups.~Groups 	 false 	 undefined 	 undefined
+$7. Groups^ 	 false 	 undefined 	 undefined
+$8. Groups* 	 false 	 undefined 	 undefined
+
+Time taken: 4660.806667
+Preprocessing time: N/A
+Parsing time: N/A
+Generation time: N/A

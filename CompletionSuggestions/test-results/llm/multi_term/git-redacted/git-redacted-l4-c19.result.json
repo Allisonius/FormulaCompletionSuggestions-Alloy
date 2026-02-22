@@ -1,0 +1,180 @@
+{
+  "modelName": "git-redacted",
+  "filename": "completion/git-sig.als",
+  "offset": 44,
+  "term": " -> ",
+  "line": 4,
+  "character": 19,
+  "incompletionLine": "refs : Commit ->",
+  "completionList": "State, Object, Node, Dir, File, Blob, Tree, Name, Commit, Root, univ",
+  "evaluationResult": [
+    {
+      "suggestion": "State",
+      "rank": 1,
+      "doesMatchExactly": true,
+      "startsWithSuggestion": true,
+      "doesCompile": false,
+      "doesMatchSyntactically": true,
+      "expressionComponents": [
+        {
+          "label": "State",
+          "type": "SIGNATURE"
+        }
+      ]
+    },
+    {
+      "suggestion": "Object",
+      "rank": 2,
+      "doesMatchExactly": false,
+      "startsWithSuggestion": false,
+      "doesCompile": false,
+      "doesMatchSyntactically": false,
+      "expressionComponents": [
+        {
+          "label": "Object",
+          "type": "SIGNATURE"
+        }
+      ]
+    },
+    {
+      "suggestion": "Node",
+      "rank": 3,
+      "doesMatchExactly": false,
+      "startsWithSuggestion": false,
+      "doesCompile": false,
+      "doesMatchSyntactically": false,
+      "expressionComponents": [
+        {
+          "label": "Node",
+          "type": "SIGNATURE"
+        }
+      ]
+    },
+    {
+      "suggestion": "Dir",
+      "rank": 4,
+      "doesMatchExactly": false,
+      "startsWithSuggestion": false,
+      "doesCompile": false,
+      "doesMatchSyntactically": false,
+      "expressionComponents": [
+        {
+          "label": "Dir",
+          "type": "SIGNATURE"
+        }
+      ]
+    },
+    {
+      "suggestion": "File",
+      "rank": 5,
+      "doesMatchExactly": false,
+      "startsWithSuggestion": false,
+      "doesCompile": false,
+      "doesMatchSyntactically": false,
+      "expressionComponents": [
+        {
+          "label": "File",
+          "type": "SIGNATURE"
+        }
+      ]
+    },
+    {
+      "suggestion": "Blob",
+      "rank": 6,
+      "doesMatchExactly": false,
+      "startsWithSuggestion": false,
+      "doesCompile": false,
+      "doesMatchSyntactically": false,
+      "expressionComponents": [
+        {
+          "label": "Blob",
+          "type": "SIGNATURE"
+        }
+      ]
+    },
+    {
+      "suggestion": "Tree",
+      "rank": 7,
+      "doesMatchExactly": false,
+      "startsWithSuggestion": false,
+      "doesCompile": false,
+      "doesMatchSyntactically": false,
+      "expressionComponents": [
+        {
+          "label": "Tree",
+          "type": "SIGNATURE"
+        }
+      ]
+    },
+    {
+      "suggestion": "Name",
+      "rank": 8,
+      "doesMatchExactly": false,
+      "startsWithSuggestion": false,
+      "doesCompile": false,
+      "doesMatchSyntactically": false,
+      "expressionComponents": [
+        {
+          "label": "Name",
+          "type": "SIGNATURE"
+        }
+      ]
+    },
+    {
+      "suggestion": "Commit",
+      "rank": 9,
+      "doesMatchExactly": false,
+      "startsWithSuggestion": false,
+      "doesCompile": false,
+      "doesMatchSyntactically": false,
+      "expressionComponents": [
+        {
+          "label": "Commit",
+          "type": "SIGNATURE"
+        }
+      ]
+    },
+    {
+      "suggestion": "Root",
+      "rank": 10,
+      "doesMatchExactly": false,
+      "startsWithSuggestion": false,
+      "doesCompile": false,
+      "doesMatchSyntactically": false,
+      "expressionComponents": [
+        {
+          "label": "Root",
+          "type": "SIGNATURE"
+        }
+      ]
+    },
+    {
+      "suggestion": "univ",
+      "rank": 11,
+      "doesMatchExactly": false,
+      "startsWithSuggestion": false,
+      "doesCompile": false,
+      "doesMatchSyntactically": false,
+      "expressionComponents": [
+        {
+          "label": "univ",
+          "type": "CONSTANT"
+        }
+      ]
+    }
+  ],
+  "completionGenerated": true,
+  "suggestionExists": true,
+  "suggestionInTop1": true,
+  "suggestionInTop5": true,
+  "suggestionInTop10": true,
+  "suggestionInTop1Alpha": false,
+  "suggestionInTop5Alpha": false,
+  "suggestionInTop10Alpha": true,
+  "suggestionInTop1Len": false,
+  "suggestionInTop5Len": false,
+  "suggestionInTop10Len": true,
+  "expectedCompletionWord": "State",
+  "expectedCompletionLine": "State,",
+  "elapsedTimeInMs": 11787.037709
+}

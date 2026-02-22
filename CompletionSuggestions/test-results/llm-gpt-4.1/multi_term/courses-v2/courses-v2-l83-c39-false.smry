@@ -1,0 +1,39 @@
+Model name: courses-v2
+Filename: completion/courses-v2-complete.als
+Offset: 2020
+Term:  in 
+Vscode Position: line=82 character=39
+----------------------------------
+83 | 	all c : Course , p : Person | last in 
+----------------------------------
+Expected Completion word: p.(c.grades)
+Expected Completion line: p.(c.grades) implies some p.projects & c.projects
+Suggestion exists: false
+Completion List:
+# Suggestion 	 Exact 	 Syntactic 	 Semantic
+$1. c.grades[p] 	 false 	 undefined 	 undefined
+$2. c.grades 	 false 	 undefined 	 undefined
+$3. c.projects 	 false 	 undefined 	 undefined
+$4. c.projects.^projects 	 false 	 undefined 	 undefined
+$5. c.projects.*projects 	 false 	 undefined 	 undefined
+$6. c.projects + univ 	 false 	 undefined 	 undefined
+$7. c.projects & univ 	 false 	 undefined 	 undefined
+$8. c.projects - univ 	 false 	 undefined 	 undefined
+$9. c.projects.univ 	 false 	 undefined 	 undefined
+$10. c.projects.~projects 	 false 	 undefined 	 undefined
+$11. p.teaches 	 false 	 undefined 	 undefined
+$12. p.enrolled 	 false 	 undefined 	 undefined
+$13. p.projects 	 false 	 undefined 	 undefined
+$14. p.projects.^projects 	 false 	 undefined 	 undefined
+$15. p.projects.*projects 	 false 	 undefined 	 undefined
+$16. p.projects + univ 	 false 	 undefined 	 undefined
+$17. p.projects & univ 	 false 	 undefined 	 undefined
+$18. p.projects - univ 	 false 	 undefined 	 undefined
+$19. p.projects.univ 	 false 	 undefined 	 undefined
+$20. p.projects.~projects 	 false 	 undefined 	 undefined
+$21. univ 	 false 	 undefined 	 undefined
+
+Time taken: 5238.788625
+Preprocessing time: N/A
+Parsing time: N/A
+Generation time: N/A

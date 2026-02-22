@@ -1,0 +1,53 @@
+Model name: modelo-alloy
+Filename: completion/ModeloAlloy-sig.als
+Offset: 225
+Term:  extends 
+Vscode Position: line=4 character=74
+----------------------------------
+5 | sig DOG, CAT, FERRET, RABBIT, IGUANA, SNAKE, TURTLE, PARROT, FISH extends 
+----------------------------------
+Expected Completion word: Species
+Expected Completion line: Species {}
+Suggestion exists: true
+Completion List:
+# Suggestion 	 Exact 	 Syntactic 	 Semantic
+$1. AdoptionAd 	 false 	 false 	 false
+$2. AggressiveBehavior 	 false 	 false 	 false
+$3. BATHS 	 false 	 false 	 false
+$4. CARE 	 false 	 false 	 false
+$5. COMPETITIONS 	 false 	 false 	 false
+$6. Comment 	 false 	 false 	 false
+$7. Date 	 false 	 false 	 false
+$8. Event 	 false 	 false 	 false
+$9. EventConfirmed 	 false 	 false 	 false
+$10. FOOD 	 false 	 false 	 false
+$11. GAMES 	 false 	 false 	 false
+$12. Location 	 false 	 false 	 false
+$13. Name 	 false 	 false 	 false
+$14. NormalPost 	 false 	 false 	 false
+$15. Owner 	 false 	 false 	 false
+$16. PETTING 	 false 	 false 	 false
+$17. Pet 	 false 	 false 	 false
+$18. Product 	 false 	 false 	 false
+$19. ProductAd 	 false 	 false 	 false
+$20. Publication 	 false 	 false 	 false
+$21. SLEEP 	 false 	 false 	 false
+$22. Species 	 true 	 true 	 true
+$23. TOYS 	 false 	 false 	 false
+$24. TasteType 	 false 	 false 	 false
+$25. User 	 false 	 false 	 false
+$26. Vaccine 	 false 	 false 	 false
+$27. VaccinesUpToDate 	 false 	 false 	 false
+$28. Veterinarian 	 false 	 false 	 false
+$29. WALKS 	 false 	 false 	 false
+$30. WATER 	 false 	 false 	 false
+$31. currentDate 	 false 	 false 	 false
+$32. Int 	 false 	 false 	 false
+$33. String 	 false 	 false 	 false
+$34. none 	 false 	 false 	 false
+$35. univ 	 false 	 false 	 false
+
+Time taken: 11.046792
+Preprocessing time: 1
+Parsing time: 0
+Generation time: 0

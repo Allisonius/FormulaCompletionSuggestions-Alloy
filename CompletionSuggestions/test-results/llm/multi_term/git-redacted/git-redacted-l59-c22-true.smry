@@ -1,0 +1,27 @@
+Model name: git-redacted
+Filename: completion/git-complete-redacted.als
+Offset: 969
+Term:  -> 
+Vscode Position: line=58 character=22
+----------------------------------
+59 | 	some p : Tree | p -> 
+----------------------------------
+Expected Completion word: c
+Expected Completion line: c in n.parent.belongsTo
+Suggestion exists: true
+Completion List:
+# Suggestion 	 Exact 	 Syntactic 	 Semantic
+$1. c 	 true 	 undefined 	 undefined
+$2. c.tree 	 false 	 undefined 	 undefined
+$3. c.previous 	 false 	 undefined 	 undefined
+$4. c.stored 	 false 	 undefined 	 undefined
+$5. n 	 false 	 undefined 	 undefined
+$6. n.current 	 false 	 undefined 	 undefined
+$7. n.belongsTo 	 false 	 undefined 	 undefined
+$8. n.name 	 false 	 undefined 	 undefined
+$9. univ 	 false 	 undefined 	 undefined
+
+Time taken: 21248.8475
+Preprocessing time: N/A
+Parsing time: N/A
+Generation time: N/A

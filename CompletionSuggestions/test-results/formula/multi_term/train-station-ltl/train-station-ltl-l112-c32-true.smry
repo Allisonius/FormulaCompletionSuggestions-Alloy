@@ -6,6 +6,9 @@ Vscode Position: line=111 character=32
 ----------------------------------
 112 | 	all t : Train | always (some t.
 ----------------------------------
+Expected Completion word: pos
+Expected Completion line: pos & Exit implies (some t.pos since some t.pos & Entry))
+Suggestion exists: true
 Completion List:
 # Suggestion 	 Exact 	 Syntactic 	 Semantic
 $1. pos'.Entry 	 false 	 undefined 	 undefined
@@ -31,20 +34,9 @@ $20. pos.prox 	 false 	 undefined 	 undefined
 $21. pos.signal 	 false 	 undefined 	 undefined
 $22. pos.univ 	 false 	 undefined 	 undefined
 $23. pos.~prox 	 false 	 undefined 	 undefined
-Expected Completion word: pos
-Expected Completion line: pos & Exit implies (some t.pos since some t.pos & Entry))
-Suggestion exists: true
+$24.  	 false 	 undefined 	 undefined
 
-Suggestion in top 1 = false 
-Suggestion in top 5 = false 
-Suggestion in top 10 = true 
-
-Suggestion in top 1 (Alpha) = true
-Suggestion in top 5 (Alpha) = true
-Suggestion in top 10 (Alpha) = true
-
-Suggestion in top 1 (Len) = true
-Suggestion in top 5 (Len) = true
-Suggestion in top 10 (Len) = true
-
-Time taken: 13.215709
+Time taken: 16.060875
+Preprocessing time: 3
+Parsing time: 1
+Generation time: 1

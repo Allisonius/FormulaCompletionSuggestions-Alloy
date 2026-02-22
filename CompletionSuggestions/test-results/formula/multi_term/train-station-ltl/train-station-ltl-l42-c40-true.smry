@@ -6,6 +6,9 @@ Vscode Position: line=41 character=40
 ----------------------------------
 42 | 	all t : Track | t in Entry iff no prox.
 ----------------------------------
+Expected Completion word: t
+Expected Completion line: t
+Suggestion exists: true
 Completion List:
 # Suggestion 	 Exact 	 Syntactic 	 Semantic
 $1. t 	 true 	 undefined 	 undefined
@@ -60,22 +63,11 @@ $49. univ.~signal 	 false 	 undefined 	 undefined
 $50. ~pos 	 false 	 undefined 	 undefined
 $51. ~pos.univ 	 false 	 undefined 	 undefined
 $52. univ.^prox 	 false 	 undefined 	 undefined
-$53. univ 	 false 	 undefined 	 undefined
-$54. univ.*prox 	 false 	 undefined 	 undefined
-Expected Completion word: t
-Expected Completion line: t
-Suggestion exists: true
+$53.  	 false 	 undefined 	 undefined
+$54. univ 	 false 	 undefined 	 undefined
+$55. univ.*prox 	 false 	 undefined 	 undefined
 
-Suggestion in top 1 = true 
-Suggestion in top 5 = true 
-Suggestion in top 10 = true 
-
-Suggestion in top 1 (Alpha) = false
-Suggestion in top 5 (Alpha) = false
-Suggestion in top 10 (Alpha) = false
-
-Suggestion in top 1 (Len) = true
-Suggestion in top 5 (Len) = true
-Suggestion in top 10 (Len) = true
-
-Time taken: 11.710709
+Time taken: 16.807417
+Preprocessing time: 3
+Parsing time: 2
+Generation time: 3

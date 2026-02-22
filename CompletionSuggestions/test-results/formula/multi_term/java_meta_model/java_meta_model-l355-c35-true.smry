@@ -1,0 +1,71 @@
+Model name: java_meta_model
+Filename: completion/java_meta_model-complete.als
+Offset: 8752
+Term: .
+Vscode Position: line=354 character=35
+----------------------------------
+355 | all id1:FieldId | some f:Field | f.
+----------------------------------
+Expected Completion word: id
+Expected Completion line: id = id1
+Suggestion exists: true
+Completion List:
+# Suggestion 	 Exact 	 Syntactic 	 Semantic
+$1. id.id1 	 false 	 undefined 	 undefined
+$2. acc.Accessibility 	 false 	 undefined 	 undefined
+$3. acc.private_ 	 false 	 undefined 	 undefined
+$4. acc.protected 	 false 	 undefined 	 undefined
+$5. acc.public 	 false 	 undefined 	 undefined
+$6. id.ClassId 	 false 	 undefined 	 undefined
+$7. id.FieldId 	 false 	 undefined 	 undefined
+$8. id.Id 	 false 	 undefined 	 undefined
+$9. id.MethodId 	 false 	 undefined 	 undefined
+$10. type.Class 	 false 	 undefined 	 undefined
+$11. type.Int_ 	 false 	 undefined 	 undefined
+$12. type.Long_ 	 false 	 undefined 	 undefined
+$13. type.PrimitiveType 	 false 	 undefined 	 undefined
+$14. type.Type 	 false 	 undefined 	 undefined
+$15. ~fields.Class 	 false 	 undefined 	 undefined
+$16. ~fields.Int_ 	 false 	 undefined 	 undefined
+$17. ~fields.Long_ 	 false 	 undefined 	 undefined
+$18. ~fields.PrimitiveType 	 false 	 undefined 	 undefined
+$19. ~fields.Type 	 false 	 undefined 	 undefined
+$20. acc 	 false 	 undefined 	 undefined
+$21. acc.univ 	 false 	 undefined 	 undefined
+$22. id 	 true 	 undefined 	 undefined
+$23. id.univ 	 false 	 undefined 	 undefined
+$24. id.~idClass 	 false 	 undefined 	 undefined
+$25. id.~idClass2 	 false 	 undefined 	 undefined
+$26. id.~idField 	 false 	 undefined 	 undefined
+$27. id.~idField 	 false 	 undefined 	 undefined
+$28. id.~idMethod 	 false 	 undefined 	 undefined
+$29. type 	 false 	 undefined 	 undefined
+$30. type.*extend 	 false 	 undefined 	 undefined
+$31. type.^extend 	 false 	 undefined 	 undefined
+$32. type.extend 	 false 	 undefined 	 undefined
+$33. type.fields 	 false 	 undefined 	 undefined
+$34. type.id 	 false 	 undefined 	 undefined
+$35. type.methods 	 false 	 undefined 	 undefined
+$36. type.package 	 false 	 undefined 	 undefined
+$37. type.univ 	 false 	 undefined 	 undefined
+$38. type.~extend 	 false 	 undefined 	 undefined
+$39. type.~param 	 false 	 undefined 	 undefined
+$40. type.~return 	 false 	 undefined 	 undefined
+$41. ~fields.extend 	 false 	 undefined 	 undefined
+$42. ~fields.id 	 false 	 undefined 	 undefined
+$43. ~fields.methods 	 false 	 undefined 	 undefined
+$44. ~fields.package 	 false 	 undefined 	 undefined
+$45. ~fields 	 false 	 undefined 	 undefined
+$46. ~fields.*extend 	 false 	 undefined 	 undefined
+$47. ~fields.^extend 	 false 	 undefined 	 undefined
+$48. ~fields.univ 	 false 	 undefined 	 undefined
+$49. ~fields.~extend 	 false 	 undefined 	 undefined
+$50. ~fields.~param 	 false 	 undefined 	 undefined
+$51. ~fields.~return 	 false 	 undefined 	 undefined
+$52. ~fields.~type 	 false 	 undefined 	 undefined
+$53.  	 false 	 undefined 	 undefined
+
+Time taken: 84.449209
+Preprocessing time: 28
+Parsing time: 12
+Generation time: 2

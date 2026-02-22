@@ -1,0 +1,15 @@
+modelname,filename,position-line,position-character,incompleteline,removedtext,baseline,suggestionedExpression,A_iff_B,A_and_B,not_A_and_B,A_and_not_B,not_A_and_not_B,suggestionImpactTime
+git,completion/git-sig.als,35,19,"merging : Blob ->","lone Blob","{}","\tmerging : Blob -> Blob",,,,,,8.159417
+git,completion/git-sig.als,35,19,"merging : Blob ->","lone Blob","{}","\tmerging : Blob -> Commit",,,,,,8.159417
+git,completion/git-sig.als,35,19,"merging : Blob ->","lone Blob","{}","\tmerging : Blob -> Dir",,,,,,8.159417
+git,completion/git-sig.als,35,19,"merging : Blob ->","lone Blob","{}","\tmerging : Blob -> File",,,,,,8.159417
+git,completion/git-sig.als,35,19,"merging : Blob ->","lone Blob","{}","\tmerging : Blob -> Name",,,,,,8.159417
+git,completion/git-sig.als,35,19,"merging : Blob ->","lone Blob","{}","\tmerging : Blob -> Node",,,,,,8.159417
+git,completion/git-sig.als,35,19,"merging : Blob ->","lone Blob","{}","\tmerging : Blob -> Object",,,,,,8.159417
+git,completion/git-sig.als,35,19,"merging : Blob ->","lone Blob","{}","\tmerging : Blob -> Root",,,,,,8.159417
+git,completion/git-sig.als,35,19,"merging : Blob ->","lone Blob","{}","\tmerging : Blob -> State",,,,,,8.159417
+git,completion/git-sig.als,35,19,"merging : Blob ->","lone Blob","{}","\tmerging : Blob -> Tree",,,,,,8.159417
+git,completion/git-sig.als,35,19,"merging : Blob ->","lone Blob","{}","\tmerging : Blob -> Int",,,,,,8.159417
+git,completion/git-sig.als,35,19,"merging : Blob ->","lone Blob","{}","\tmerging : Blob -> String",,,,,,8.159417
+git,completion/git-sig.als,35,19,"merging : Blob ->","lone Blob","{}","\tmerging : Blob -> none",,,,,,8.159417
+git,completion/git-sig.als,35,19,"merging : Blob ->","lone Blob","{}","\tmerging : Blob -> univ",,,,,,8.159417

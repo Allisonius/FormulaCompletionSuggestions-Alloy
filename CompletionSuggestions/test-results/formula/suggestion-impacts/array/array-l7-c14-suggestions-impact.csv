@@ -1,1 +1,7 @@
 modelname,filename,position-line,position-character,incompleteline,removedtext,baseline,suggestionedExpression,A_iff_B,A_and_B,not_A_and_B,A_and_not_B,not_A_and_not_B,suggestionImpactTime
+array,completion/array-sig.als,7,14,"i2e: Int ->","Element","{}","  i2e: Int -> Element",,,,,,9.123875
+array,completion/array-sig.als,7,14,"i2e: Int ->","Element","{}","  i2e: Int -> set Element",,,,,,9.123875
+array,completion/array-sig.als,7,14,"i2e: Int ->","Element","{}","  i2e: Int -> one Element",,,,,,9.123875
+array,completion/array-sig.als,7,14,"i2e: Int ->","Element","{}","  i2e: Int -> lone Element",,,,,,9.123875
+array,completion/array-sig.als,7,14,"i2e: Int ->","Element","{}","  i2e: Int -> some Element",,,,,,9.123875
+array,completion/array-sig.als,7,14,"i2e: Int ->","Element","{}","  i2e: Int -> univ",,,,,,9.123875

@@ -1,0 +1,695 @@
+{
+  "modelName": "classroom-fol",
+  "filename": "completion/classroom-fol-complete.als",
+  "offset": 1118,
+  "term": " & ",
+  "line": 73,
+  "character": 31,
+  "incompletionLine": "all p:Person | some Teacher &",
+  "completionList": "p, Person, univ, Teacher, Student, Teacher & Person, Teacher & univ, Teacher & p, Teacher & p.Tutors, Teacher & p.^Tutors, Teacher & p.*Tutors, Teacher & p.~Tutors, Teacher & p.Teaches, Teacher & p.^Teaches, Teacher & p.*Teaches, Teacher & p.~Teaches, Teacher & p.(Teaches.Groups), Teacher & p.(Teaches.Groups).~Groups, Teacher & p.(Teaches.Groups).^~Groups, Teacher & p.(Teaches.Groups).*~Groups, Teacher & p.(Teaches.Groups).~Groups.~Groups",
+  "evaluationResult": [
+    {
+      "suggestion": "p",
+      "rank": 1,
+      "doesMatchExactly": false,
+      "startsWithSuggestion": false,
+      "doesCompile": true,
+      "doesMatchSyntactically": false,
+      "doesMatchSemantically": true,
+      "expressionComponents": [
+        {
+          "label": "p",
+          "type": "VARIABLE"
+        }
+      ]
+    },
+    {
+      "suggestion": "Person",
+      "rank": 2,
+      "doesMatchExactly": false,
+      "startsWithSuggestion": false,
+      "doesCompile": true,
+      "doesMatchSyntactically": false,
+      "doesMatchSemantically": true,
+      "expressionComponents": [
+        {
+          "label": "Person",
+          "type": "SIGNATURE"
+        }
+      ]
+    },
+    {
+      "suggestion": "univ",
+      "rank": 3,
+      "doesMatchExactly": false,
+      "startsWithSuggestion": false,
+      "doesCompile": true,
+      "doesMatchSyntactically": false,
+      "doesMatchSemantically": true,
+      "expressionComponents": [
+        {
+          "label": "univ",
+          "type": "CONSTANT"
+        }
+      ]
+    },
+    {
+      "suggestion": "Teacher",
+      "rank": 4,
+      "doesMatchExactly": false,
+      "startsWithSuggestion": false,
+      "doesCompile": true,
+      "doesMatchSyntactically": false,
+      "doesMatchSemantically": true,
+      "expressionComponents": [
+        {
+          "label": "Teacher",
+          "type": "SIGNATURE"
+        }
+      ]
+    },
+    {
+      "suggestion": "Student",
+      "rank": 5,
+      "doesMatchExactly": false,
+      "startsWithSuggestion": false,
+      "doesCompile": true,
+      "doesMatchSyntactically": false,
+      "doesMatchSemantically": true,
+      "expressionComponents": [
+        {
+          "label": "Student",
+          "type": "SIGNATURE"
+        }
+      ]
+    },
+    {
+      "suggestion": "Teacher & Person",
+      "rank": 6,
+      "doesMatchExactly": false,
+      "startsWithSuggestion": false,
+      "doesCompile": true,
+      "doesMatchSyntactically": false,
+      "doesMatchSemantically": true,
+      "expressionComponents": [
+        {
+          "label": "Teacher",
+          "type": "SIGNATURE"
+        },
+        {
+          "label": "&",
+          "type": "OPERATOR"
+        },
+        {
+          "label": "Person",
+          "type": "SIGNATURE"
+        }
+      ]
+    },
+    {
+      "suggestion": "Teacher & univ",
+      "rank": 7,
+      "doesMatchExactly": false,
+      "startsWithSuggestion": false,
+      "doesCompile": true,
+      "doesMatchSyntactically": false,
+      "doesMatchSemantically": true,
+      "expressionComponents": [
+        {
+          "label": "Teacher",
+          "type": "SIGNATURE"
+        },
+        {
+          "label": "&",
+          "type": "OPERATOR"
+        },
+        {
+          "label": "univ",
+          "type": "CONSTANT"
+        }
+      ]
+    },
+    {
+      "suggestion": "Teacher & p",
+      "rank": 8,
+      "doesMatchExactly": false,
+      "startsWithSuggestion": false,
+      "doesCompile": true,
+      "doesMatchSyntactically": false,
+      "doesMatchSemantically": true,
+      "expressionComponents": [
+        {
+          "label": "Teacher",
+          "type": "SIGNATURE"
+        },
+        {
+          "label": "&",
+          "type": "OPERATOR"
+        },
+        {
+          "label": "p",
+          "type": "VARIABLE"
+        }
+      ]
+    },
+    {
+      "suggestion": "Teacher & p.Tutors",
+      "rank": 9,
+      "doesMatchExactly": false,
+      "startsWithSuggestion": false,
+      "doesCompile": true,
+      "doesMatchSyntactically": false,
+      "doesMatchSemantically": true,
+      "expressionComponents": [
+        {
+          "label": "Teacher",
+          "type": "SIGNATURE"
+        },
+        {
+          "label": "&",
+          "type": "OPERATOR"
+        },
+        {
+          "label": "p",
+          "type": "VARIABLE"
+        },
+        {
+          "label": ".",
+          "type": "OPERATOR"
+        },
+        {
+          "label": "Tutors",
+          "type": "RELATION"
+        }
+      ]
+    },
+    {
+      "suggestion": "Teacher & p.^Tutors",
+      "rank": 10,
+      "doesMatchExactly": false,
+      "startsWithSuggestion": false,
+      "doesCompile": true,
+      "doesMatchSyntactically": false,
+      "doesMatchSemantically": true,
+      "expressionComponents": [
+        {
+          "label": "Teacher",
+          "type": "SIGNATURE"
+        },
+        {
+          "label": "&",
+          "type": "OPERATOR"
+        },
+        {
+          "label": "p",
+          "type": "VARIABLE"
+        },
+        {
+          "label": ".",
+          "type": "OPERATOR"
+        },
+        {
+          "label": "^",
+          "type": "OPERATOR"
+        },
+        {
+          "label": "Tutors",
+          "type": "RELATION"
+        }
+      ]
+    },
+    {
+      "suggestion": "Teacher & p.*Tutors",
+      "rank": 11,
+      "doesMatchExactly": false,
+      "startsWithSuggestion": false,
+      "doesCompile": true,
+      "doesMatchSyntactically": false,
+      "doesMatchSemantically": true,
+      "expressionComponents": [
+        {
+          "label": "Teacher",
+          "type": "SIGNATURE"
+        },
+        {
+          "label": "&",
+          "type": "OPERATOR"
+        },
+        {
+          "label": "p",
+          "type": "VARIABLE"
+        },
+        {
+          "label": ".",
+          "type": "OPERATOR"
+        },
+        {
+          "label": "*",
+          "type": "OPERATOR"
+        },
+        {
+          "label": "Tutors",
+          "type": "RELATION"
+        }
+      ]
+    },
+    {
+      "suggestion": "Teacher & p.~Tutors",
+      "rank": 12,
+      "doesMatchExactly": false,
+      "startsWithSuggestion": false,
+      "doesCompile": true,
+      "doesMatchSyntactically": false,
+      "doesMatchSemantically": true,
+      "expressionComponents": [
+        {
+          "label": "Teacher",
+          "type": "SIGNATURE"
+        },
+        {
+          "label": "&",
+          "type": "OPERATOR"
+        },
+        {
+          "label": "p",
+          "type": "VARIABLE"
+        },
+        {
+          "label": ".",
+          "type": "OPERATOR"
+        },
+        {
+          "label": "~",
+          "type": "OPERATOR"
+        },
+        {
+          "label": "Tutors",
+          "type": "RELATION"
+        }
+      ]
+    },
+    {
+      "suggestion": "Teacher & p.Teaches",
+      "rank": 13,
+      "doesMatchExactly": false,
+      "startsWithSuggestion": false,
+      "doesCompile": true,
+      "doesMatchSyntactically": false,
+      "doesMatchSemantically": true,
+      "expressionComponents": [
+        {
+          "label": "Teacher",
+          "type": "SIGNATURE"
+        },
+        {
+          "label": "&",
+          "type": "OPERATOR"
+        },
+        {
+          "label": "p",
+          "type": "VARIABLE"
+        },
+        {
+          "label": ".",
+          "type": "OPERATOR"
+        },
+        {
+          "label": "Teaches",
+          "type": "RELATION"
+        }
+      ]
+    },
+    {
+      "suggestion": "Teacher & p.^Teaches",
+      "rank": 14,
+      "doesMatchExactly": false,
+      "startsWithSuggestion": false,
+      "doesCompile": true,
+      "doesMatchSyntactically": false,
+      "doesMatchSemantically": true,
+      "expressionComponents": [
+        {
+          "label": "Teacher",
+          "type": "SIGNATURE"
+        },
+        {
+          "label": "&",
+          "type": "OPERATOR"
+        },
+        {
+          "label": "p",
+          "type": "VARIABLE"
+        },
+        {
+          "label": ".",
+          "type": "OPERATOR"
+        },
+        {
+          "label": "^",
+          "type": "OPERATOR"
+        },
+        {
+          "label": "Teaches",
+          "type": "RELATION"
+        }
+      ]
+    },
+    {
+      "suggestion": "Teacher & p.*Teaches",
+      "rank": 15,
+      "doesMatchExactly": false,
+      "startsWithSuggestion": false,
+      "doesCompile": true,
+      "doesMatchSyntactically": false,
+      "doesMatchSemantically": true,
+      "expressionComponents": [
+        {
+          "label": "Teacher",
+          "type": "SIGNATURE"
+        },
+        {
+          "label": "&",
+          "type": "OPERATOR"
+        },
+        {
+          "label": "p",
+          "type": "VARIABLE"
+        },
+        {
+          "label": ".",
+          "type": "OPERATOR"
+        },
+        {
+          "label": "*",
+          "type": "OPERATOR"
+        },
+        {
+          "label": "Teaches",
+          "type": "RELATION"
+        }
+      ]
+    },
+    {
+      "suggestion": "Teacher & p.~Teaches",
+      "rank": 16,
+      "doesMatchExactly": false,
+      "startsWithSuggestion": false,
+      "doesCompile": true,
+      "doesMatchSyntactically": false,
+      "doesMatchSemantically": true,
+      "expressionComponents": [
+        {
+          "label": "Teacher",
+          "type": "SIGNATURE"
+        },
+        {
+          "label": "&",
+          "type": "OPERATOR"
+        },
+        {
+          "label": "p",
+          "type": "VARIABLE"
+        },
+        {
+          "label": ".",
+          "type": "OPERATOR"
+        },
+        {
+          "label": "~",
+          "type": "OPERATOR"
+        },
+        {
+          "label": "Teaches",
+          "type": "RELATION"
+        }
+      ]
+    },
+    {
+      "suggestion": "Teacher & p.(Teaches.Groups)",
+      "rank": 17,
+      "doesMatchExactly": false,
+      "startsWithSuggestion": false,
+      "doesCompile": false,
+      "expressionComponents": [
+        {
+          "label": "Teacher",
+          "type": "SIGNATURE"
+        },
+        {
+          "label": "&",
+          "type": "OPERATOR"
+        },
+        {
+          "label": "p",
+          "type": "VARIABLE"
+        },
+        {
+          "label": ".",
+          "type": "OPERATOR"
+        },
+        {
+          "label": "Teaches",
+          "type": "RELATION"
+        },
+        {
+          "label": ".",
+          "type": "OPERATOR"
+        },
+        {
+          "label": "Groups",
+          "type": "RELATION"
+        }
+      ]
+    },
+    {
+      "suggestion": "Teacher & p.(Teaches.Groups).~Groups",
+      "rank": 18,
+      "doesMatchExactly": false,
+      "startsWithSuggestion": false,
+      "doesCompile": false,
+      "expressionComponents": [
+        {
+          "label": "Teacher",
+          "type": "SIGNATURE"
+        },
+        {
+          "label": "&",
+          "type": "OPERATOR"
+        },
+        {
+          "label": "p",
+          "type": "VARIABLE"
+        },
+        {
+          "label": ".",
+          "type": "OPERATOR"
+        },
+        {
+          "label": "Teaches",
+          "type": "RELATION"
+        },
+        {
+          "label": ".",
+          "type": "OPERATOR"
+        },
+        {
+          "label": "Groups",
+          "type": "RELATION"
+        },
+        {
+          "label": ".",
+          "type": "OPERATOR"
+        },
+        {
+          "label": "~",
+          "type": "OPERATOR"
+        },
+        {
+          "label": "Groups",
+          "type": "RELATION"
+        }
+      ]
+    },
+    {
+      "suggestion": "Teacher & p.(Teaches.Groups).^~Groups",
+      "rank": 19,
+      "doesMatchExactly": false,
+      "startsWithSuggestion": false,
+      "doesCompile": false,
+      "expressionComponents": [
+        {
+          "label": "Teacher",
+          "type": "SIGNATURE"
+        },
+        {
+          "label": "&",
+          "type": "OPERATOR"
+        },
+        {
+          "label": "p",
+          "type": "VARIABLE"
+        },
+        {
+          "label": ".",
+          "type": "OPERATOR"
+        },
+        {
+          "label": "Teaches",
+          "type": "RELATION"
+        },
+        {
+          "label": ".",
+          "type": "OPERATOR"
+        },
+        {
+          "label": "Groups",
+          "type": "RELATION"
+        },
+        {
+          "label": ".",
+          "type": "OPERATOR"
+        },
+        {
+          "label": "^",
+          "type": "OPERATOR"
+        },
+        {
+          "label": "~",
+          "type": "OPERATOR"
+        },
+        {
+          "label": "Groups",
+          "type": "RELATION"
+        }
+      ]
+    },
+    {
+      "suggestion": "Teacher & p.(Teaches.Groups).*~Groups",
+      "rank": 20,
+      "doesMatchExactly": false,
+      "startsWithSuggestion": false,
+      "doesCompile": false,
+      "expressionComponents": [
+        {
+          "label": "Teacher",
+          "type": "SIGNATURE"
+        },
+        {
+          "label": "&",
+          "type": "OPERATOR"
+        },
+        {
+          "label": "p",
+          "type": "VARIABLE"
+        },
+        {
+          "label": ".",
+          "type": "OPERATOR"
+        },
+        {
+          "label": "Teaches",
+          "type": "RELATION"
+        },
+        {
+          "label": ".",
+          "type": "OPERATOR"
+        },
+        {
+          "label": "Groups",
+          "type": "RELATION"
+        },
+        {
+          "label": ".",
+          "type": "OPERATOR"
+        },
+        {
+          "label": "*",
+          "type": "OPERATOR"
+        },
+        {
+          "label": "~",
+          "type": "OPERATOR"
+        },
+        {
+          "label": "Groups",
+          "type": "RELATION"
+        }
+      ]
+    },
+    {
+      "suggestion": "Teacher & p.(Teaches.Groups).~Groups.~Groups",
+      "rank": 21,
+      "doesMatchExactly": false,
+      "startsWithSuggestion": false,
+      "doesCompile": false,
+      "expressionComponents": [
+        {
+          "label": "Teacher",
+          "type": "SIGNATURE"
+        },
+        {
+          "label": "&",
+          "type": "OPERATOR"
+        },
+        {
+          "label": "p",
+          "type": "VARIABLE"
+        },
+        {
+          "label": ".",
+          "type": "OPERATOR"
+        },
+        {
+          "label": "Teaches",
+          "type": "RELATION"
+        },
+        {
+          "label": ".",
+          "type": "OPERATOR"
+        },
+        {
+          "label": "Groups",
+          "type": "RELATION"
+        },
+        {
+          "label": ".",
+          "type": "OPERATOR"
+        },
+        {
+          "label": "~",
+          "type": "OPERATOR"
+        },
+        {
+          "label": "Groups",
+          "type": "RELATION"
+        },
+        {
+          "label": ".",
+          "type": "OPERATOR"
+        },
+        {
+          "label": "~",
+          "type": "OPERATOR"
+        },
+        {
+          "label": "Groups",
+          "type": "RELATION"
+        }
+      ]
+    }
+  ],
+  "completionGenerated": true,
+  "suggestionExists": false,
+  "suggestionInTop1": false,
+  "suggestionInTop5": false,
+  "suggestionInTop10": false,
+  "suggestionInTop1Alpha": false,
+  "suggestionInTop5Alpha": false,
+  "suggestionInTop10Alpha": false,
+  "suggestionInTop1Len": false,
+  "suggestionInTop5Len": false,
+  "suggestionInTop10Len": false,
+  "expectedCompletionWord": "(^Tutors).p",
+  "expectedCompletionLine": "(^Tutors).p",
+  "elapsedTimeInMs": 5650.879875
+}

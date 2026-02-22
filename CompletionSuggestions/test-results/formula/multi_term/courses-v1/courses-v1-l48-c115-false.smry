@@ -1,0 +1,29 @@
+Model name: courses-v1
+Filename: completion/courses-v1-complete.als
+Offset: 1022
+Term:  in 
+Vscode Position: line=47 character=115
+----------------------------------
+48 | 	all s1: Person | all p1: Project | s1->p1 in projects implies (some c1: Course | c1->p1 in projects and s1->c1 in 
+----------------------------------
+Expected Completion word: enrolled
+Expected Completion line: enrolled)
+Suggestion exists: false
+Completion List:
+# Suggestion 	 Exact 	 Syntactic 	 Semantic
+$1. Course 	 false 	 undefined 	 undefined
+$2. Grade 	 false 	 undefined 	 undefined
+$3. Person 	 false 	 undefined 	 undefined
+$4. Professor 	 false 	 undefined 	 undefined
+$5. Project 	 false 	 undefined 	 undefined
+$6. Student 	 false 	 undefined 	 undefined
+$7. ordering/Ord 	 false 	 undefined 	 undefined
+$8. Int 	 false 	 undefined 	 undefined
+$9. String 	 false 	 undefined 	 undefined
+$10. none 	 false 	 undefined 	 undefined
+$11. univ 	 false 	 undefined 	 undefined
+
+Time taken: 43.371667
+Preprocessing time: 5
+Parsing time: 3
+Generation time: 0

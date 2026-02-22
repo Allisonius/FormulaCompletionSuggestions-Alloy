@@ -6,6 +6,9 @@ Vscode Position: line=22 character=33
 ----------------------------------
 23 | 	all t:Track| t in Exit iff no t.
 ----------------------------------
+Expected Completion word: succs
+Expected Completion line: ^succs
+Suggestion exists: true
 Completion List:
 # Suggestion 	 Exact 	 Syntactic 	 Semantic
 $1. *succs.t 	 false 	 undefined 	 undefined
@@ -43,22 +46,11 @@ $32. ~succs 	 false 	 undefined 	 undefined
 $33. ~succs.univ 	 false 	 undefined 	 undefined
 $34. ^succs 	 false 	 undefined 	 undefined
 $35. ^succs.univ 	 false 	 undefined 	 undefined
-$36. *succs 	 false 	 undefined 	 undefined
-$37. *succs.univ 	 false 	 undefined 	 undefined
-Expected Completion word: ^succs
-Expected Completion line: ^succs
-Suggestion exists: true
+$36.  	 false 	 undefined 	 undefined
+$37. *succs 	 false 	 undefined 	 undefined
+$38. *succs.univ 	 false 	 undefined 	 undefined
 
-Suggestion in top 1 = false 
-Suggestion in top 5 = false 
-Suggestion in top 10 = false 
-
-Suggestion in top 1 (Alpha) = false
-Suggestion in top 5 (Alpha) = false
-Suggestion in top 10 (Alpha) = true
-
-Suggestion in top 1 (Len) = false
-Suggestion in top 5 (Len) = true
-Suggestion in top 10 (Len) = true
-
-Time taken: 9.103208
+Time taken: 26.247084
+Preprocessing time: 4
+Parsing time: 2
+Generation time: 4

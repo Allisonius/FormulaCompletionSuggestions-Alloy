@@ -1,0 +1,28 @@
+Model name: courses-v2
+Filename: completion/courses-v2-complete.als
+Offset: 1169
+Term: .
+Vscode Position: line=52 character=125
+----------------------------------
+53 | 	all p : Person , c : Course , ps1 , ps2 : Project | ps1 in p.projects && ps2 in p.projects && ps1 in c.projects && ps2 in c.
+----------------------------------
+Expected Completion word: projects
+Expected Completion line: projects implies ps1 = ps2
+Suggestion exists: true
+Completion List:
+# Suggestion 	 Exact 	 Syntactic 	 Semantic
+$1. projects 	 true 	 undefined 	 undefined
+$2. projects.~projects 	 false 	 undefined 	 undefined
+$3. projects.^projects 	 false 	 undefined 	 undefined
+$4. projects.*projects 	 false 	 undefined 	 undefined
+$5. projects + univ 	 false 	 undefined 	 undefined
+$6. projects & univ 	 false 	 undefined 	 undefined
+$7. projects - univ 	 false 	 undefined 	 undefined
+$8. projects -> univ 	 false 	 undefined 	 undefined
+$9. projects .~projects 	 false 	 undefined 	 undefined
+$10. projects .^projects 	 false 	 undefined 	 undefined
+$11. projects .*projects 	 false 	 undefined 	 undefined
+$12. projects .~Person 	 false 	 undefined 	 undefined
+$13. projects .~Course 	 false 	 undefined 	 undefined
+
+Time taken: 4512.6825

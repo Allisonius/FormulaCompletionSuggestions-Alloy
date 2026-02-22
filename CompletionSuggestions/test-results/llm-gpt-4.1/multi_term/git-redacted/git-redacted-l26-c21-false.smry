@@ -1,0 +1,49 @@
+Model name: git-redacted
+Filename: completion/git-sig.als
+Offset: 482
+Term:  extends 
+Vscode Position: line=25 character=21
+----------------------------------
+26 | one sig Root extends 
+----------------------------------
+Expected Completion word: Dir
+Expected Completion line: Dir {}
+Suggestion exists: false
+Completion List:
+# Suggestion 	 Exact 	 Syntactic 	 Semantic
+$1. Node 	 false 	 false 	 false
+$2. Object 	 false 	 false 	 false
+$3. Node+Object 	 false 	 false 	 false
+$4. Node&Object 	 false 	 false 	 false
+$5. Node-Object 	 false 	 false 	 false
+$6. Node->Object 	 false 	 false 	 false
+$7. Node<:Object 	 false 	 false 	 false
+$8. Node:>Object 	 false 	 false 	 false
+$9. Node^ 	 false 	 undefined 	 undefined
+$10. Node* 	 false 	 undefined 	 undefined
+$11. ~Node 	 false 	 undefined 	 undefined
+$12. ~Object 	 false 	 undefined 	 undefined
+$13. Node.name 	 false 	 false 	 false
+$14. Node.parent 	 false 	 false 	 false
+$15. Node.current 	 false 	 false 	 false
+$16. Node.samepath 	 false 	 false 	 false
+$17. Node.belongsTo 	 false 	 false 	 false
+$18. Node.name.refs 	 false 	 false 	 false
+$19. Node.name.heads 	 false 	 false 	 false
+$20. Node.name.HEAD 	 false 	 false 	 false
+$21. Node.parent.tbc 	 false 	 false 	 false
+$22. Node.current.stored 	 false 	 false 	 false
+$23. Node.samepath.name 	 false 	 false 	 false
+$24. Node.samepath.parent 	 false 	 false 	 false
+$25. Node.samepath.current 	 false 	 false 	 false
+$26. Node.samepath.samepath 	 false 	 false 	 false
+$27. Object.stored 	 false 	 false 	 false
+$28. Object.stored^ 	 false 	 undefined 	 undefined
+$29. Object.stored* 	 false 	 undefined 	 undefined
+$30. ~Object.stored 	 false 	 undefined 	 undefined
+$31. univ 	 false 	 false 	 false
+
+Time taken: 5976.135708
+Preprocessing time: N/A
+Parsing time: N/A
+Generation time: N/A

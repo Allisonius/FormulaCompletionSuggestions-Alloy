@@ -1,0 +1,8 @@
+modelname,filename,position-line,position-character,incompleteline,removedtext,baseline,suggestionedExpression,A_iff_B,A_and_B,not_A_and_B,A_and_not_B,not_A_and_not_B,suggestionImpactTime
+git,completion/git-complete.als,263,8,"o in p.","^children","{}","\to in p.stored.State",,,,,,42.177709
+git,completion/git-complete.als,263,8,"o in p.","^children","{}","\to in p.stored",,,,,,42.177709
+git,completion/git-complete.als,263,8,"o in p.","^children","{}","\to in p.stored.univ",,,,,,42.177709
+git,completion/git-complete.als,263,8,"o in p.","^children","{}","\to in p.stored.~HEAD",,,,,,42.177709
+git,completion/git-complete.als,263,8,"o in p.","^children","{}","\to in p.stored.~current",,,,,,42.177709
+git,completion/git-complete.als,263,8,"o in p.","^children","{}","\to in p.stored.~heads",,,,,,42.177709
+git,completion/git-complete.als,263,8,"o in p.","^children","{}","\to in p.stored.~index",,,,,,42.177709

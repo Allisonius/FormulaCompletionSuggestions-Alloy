@@ -1,10 +1,12 @@
 package alloy.language.server.visitors.modeltests;
 
+import alloy.language.server.ConfigManager;
 import alloy.language.server.document.AlloyDocumentModel;
 import alloy.language.server.models.CompletionModelBuilder;
 import alloy.language.server.models.presets.CourseModel;
 import alloy.language.server.visitors.BaseVisitorTest;
 import org.eclipse.lsp4j.CompletionItem;
+import org.junit.jupiter.api.BeforeAll;
 import org.junit.jupiter.api.Test;
 
 import java.io.IOException;
@@ -17,6 +19,12 @@ public class CourseModelTest extends BaseVisitorTest {
 
 	private final CompletionModelBuilder modelBuilder = CourseModel.modelBuilder();
 	private final AlloyDocumentModel documentModel = new AlloyDocumentModel("", modelBuilder.build());
+
+	@BeforeAll
+	public static void setup() {
+		// Ensure that the new completion provider is enabled for testing
+		ConfigManager.getInstance().setUseNewCompletionProvider(true);
+	}
 
 	@Test
 	public void testDotCompletion() {
@@ -232,6 +240,20 @@ public class CourseModelTest extends BaseVisitorTest {
 		assertThat(completionItems, hasItems(hasProperty("label", is("p"))));
 	}
 
+	// pred p1 {
+	// all p : Person, disj x,y : p.projects | no ((Person <: projects).
+	// }
+	@Test
+	public void testCompletionWithClosedParenthesisAndDiffOps2() {
+		modelBuilder.withContent("pred p1 {")
+		            .withCompletionLine(
+				            "all p : Person, disj x,y : p.projects | no ((Person <: projects).")
+		            .withContent("}");
+		var completionItems = generateCompletions(modelBuilder);
+		printCompletionItems(completionItems);
+		assertThat(completionItems, hasItems(hasProperty("label", is("x"))));
+	}
+
 	@Test
 	public void testIncompleteQuantifiers() {
 		modelBuilder.withContent("pred p1 {").withCompletionLine("all c : Course, p : teaches.").withContent("}");
@@ -291,4 +313,47 @@ public class CourseModelTest extends BaseVisitorTest {
 		assertThat(completionItems, hasItems(hasProperty("label", is("Student"))));
 	}
 
+
+//	pred p1 {
+//		all s1: Person | all p1: Project | s1->p1 in projects implies (some c1: Course | c1->p1 in
+//	}
+	@Test
+	public void testCompletionWithDisjoint4() {
+		modelBuilder.withContent("pred p1 {")
+		            .withCompletionLine("all s1: Person | all p1: Project | s1->p1 in projects implies (some c1: Course | c1->p1 in")
+		            .withContent("}");
+		var completionItems = generateCompletions(modelBuilder);
+		printCompletionItems(completionItems);
+		assertThat(completionItems, hasItems(hasProperty("label", is("projects"))));
+	}
+
+	// pred p1 {
+	// all p: Person | no ((p.
+	// }
+	@Test
+	public void testCompletionWithDisjoint5() {
+		modelBuilder.withContent("pred p1 {").withCompletionLine("all p: Person | no ((p.teaches.").withContent("}");
+		var completionItems = generateCompletions(modelBuilder);
+		printCompletionItems(completionItems);
+		assertThat(completionItems, hasItems(hasProperty("label", is("~teaches"))));
+	}
+
+	@Test
+	public void testCompletionWithConjunction() {
+		modelBuilder.withContent("pred p1 {").withCompletionLine("all p: Person | no ((p.teaches.~teaches)-p) &").withContent("}");
+		var completionItems = generateCompletions(modelBuilder);
+		printCompletionItems(completionItems);
+		assertThat(completionItems, hasItems(hasProperty("label", is("enrolled.(p.teaches)"))));
+	}
+
+	// pred p1 {
+	// all c : Course | c.grades.Grade in c.
+	// }
+	@Test
+	public void testCompletionWithSelfReference() {
+		modelBuilder.withContent("pred p1 {").withCompletionLine("all c : Course | c.grades.Grade in c.").withContent("}");
+		var completionItems = generateCompletions(modelBuilder);
+		printCompletionItems(completionItems);
+		assertThat(completionItems, hasItems(hasProperty("label", is("~enrolled"))));
+	}
 }

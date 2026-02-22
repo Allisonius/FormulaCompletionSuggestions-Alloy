@@ -1,0 +1,46 @@
+Model name: git-redacted
+Filename: completion/git-complete-redacted.als
+Offset: 1178
+Term:  & 
+Vscode Position: line=70 character=22
+----------------------------------
+71 | 	(*parent).n & File & 
+----------------------------------
+Expected Completion word: current.s
+Expected Completion line: current.s
+Suggestion exists: true
+Completion List:
+# Suggestion 	 Exact 	 Syntactic 	 Semantic
+$1. current 	 true 	 undefined 	 undefined
+$2. index 	 false 	 undefined 	 undefined
+$3. content 	 false 	 undefined 	 undefined
+$4. samepath 	 false 	 undefined 	 undefined
+$5. name 	 false 	 undefined 	 undefined
+$6. parent 	 false 	 undefined 	 undefined
+$7. belongsTo 	 false 	 undefined 	 undefined
+$8. current.s 	 true 	 undefined 	 undefined
+$9. index.s 	 false 	 undefined 	 undefined
+$10. content.s 	 false 	 undefined 	 undefined
+$11. samepath.s 	 false 	 undefined 	 undefined
+$12. name.s 	 false 	 undefined 	 undefined
+$13. parent.s 	 false 	 undefined 	 undefined
+$14. belongsTo.s 	 false 	 undefined 	 undefined
+$15. current & File 	 false 	 undefined 	 undefined
+$16. index & File 	 false 	 undefined 	 undefined
+$17. content & File 	 false 	 undefined 	 undefined
+$18. samepath & File 	 false 	 undefined 	 undefined
+$19. name & File 	 false 	 undefined 	 undefined
+$20. parent & File 	 false 	 undefined 	 undefined
+$21. belongsTo & File 	 false 	 undefined 	 undefined
+$22. current & univ 	 false 	 undefined 	 undefined
+$23. index & univ 	 false 	 undefined 	 undefined
+$24. content & univ 	 false 	 undefined 	 undefined
+$25. samepath & univ 	 false 	 undefined 	 undefined
+$26. name & univ 	 false 	 undefined 	 undefined
+$27. parent & univ 	 false 	 undefined 	 undefined
+$28. belongsTo & univ 	 false 	 undefined 	 undefined
+
+Time taken: 5604.632667
+Preprocessing time: N/A
+Parsing time: N/A
+Generation time: N/A

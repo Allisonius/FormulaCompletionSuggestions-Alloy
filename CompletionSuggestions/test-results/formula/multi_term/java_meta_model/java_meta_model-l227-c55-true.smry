@@ -1,0 +1,83 @@
+Model name: java_meta_model
+Filename: completion/java_meta_model-complete.als
+Offset: 5711
+Term: .
+Vscode Position: line=226 character=55
+----------------------------------
+227 | some disj f1,f2:Field | f1.id != f2.id && f1.type + f2.
+----------------------------------
+Expected Completion word: type
+Expected Completion line: type in Int_
+Suggestion exists: true
+Completion List:
+# Suggestion 	 Exact 	 Syntactic 	 Semantic
+$1. acc.Accessibility 	 false 	 undefined 	 undefined
+$2. acc.private_ 	 false 	 undefined 	 undefined
+$3. acc.protected 	 false 	 undefined 	 undefined
+$4. acc.public 	 false 	 undefined 	 undefined
+$5. id.ClassId 	 false 	 undefined 	 undefined
+$6. id.FieldId 	 false 	 undefined 	 undefined
+$7. id.Id 	 false 	 undefined 	 undefined
+$8. id.MethodId 	 false 	 undefined 	 undefined
+$9. type.Class 	 false 	 undefined 	 undefined
+$10. type.Int_ 	 false 	 undefined 	 undefined
+$11. type.Long_ 	 false 	 undefined 	 undefined
+$12. type.PrimitiveType 	 false 	 undefined 	 undefined
+$13. type.Type 	 false 	 undefined 	 undefined
+$14. ~fields.Class 	 false 	 undefined 	 undefined
+$15. ~fields.Int_ 	 false 	 undefined 	 undefined
+$16. ~fields.Long_ 	 false 	 undefined 	 undefined
+$17. ~fields.PrimitiveType 	 false 	 undefined 	 undefined
+$18. ~fields.Type 	 false 	 undefined 	 undefined
+$19. acc 	 false 	 undefined 	 undefined
+$20. acc.univ 	 false 	 undefined 	 undefined
+$21. id 	 false 	 undefined 	 undefined
+$22. id.univ 	 false 	 undefined 	 undefined
+$23. id.~idClass 	 false 	 undefined 	 undefined
+$24. id.~idClass 	 false 	 undefined 	 undefined
+$25. id.~idClass2 	 false 	 undefined 	 undefined
+$26. id.~idClass2 	 false 	 undefined 	 undefined
+$27. id.~idField 	 false 	 undefined 	 undefined
+$28. id.~idField 	 false 	 undefined 	 undefined
+$29. id.~idMethod 	 false 	 undefined 	 undefined
+$30. id.~idMethod 	 false 	 undefined 	 undefined
+$31. type 	 true 	 undefined 	 undefined
+$32. type 	 true 	 undefined 	 undefined
+$33. type.*extend 	 false 	 undefined 	 undefined
+$34. type.*extend 	 false 	 undefined 	 undefined
+$35. type.^extend 	 false 	 undefined 	 undefined
+$36. type.^extend 	 false 	 undefined 	 undefined
+$37. type.extend 	 false 	 undefined 	 undefined
+$38. type.extend 	 false 	 undefined 	 undefined
+$39. type.fields 	 false 	 undefined 	 undefined
+$40. type.id 	 false 	 undefined 	 undefined
+$41. type.methods 	 false 	 undefined 	 undefined
+$42. type.package 	 false 	 undefined 	 undefined
+$43. type.univ 	 false 	 undefined 	 undefined
+$44. type.~extend 	 false 	 undefined 	 undefined
+$45. type.~extend 	 false 	 undefined 	 undefined
+$46. type.~param 	 false 	 undefined 	 undefined
+$47. type.~return 	 false 	 undefined 	 undefined
+$48. ~fields.extend 	 false 	 undefined 	 undefined
+$49. ~fields.extend 	 false 	 undefined 	 undefined
+$50. ~fields.id 	 false 	 undefined 	 undefined
+$51. ~fields.methods 	 false 	 undefined 	 undefined
+$52. ~fields.package 	 false 	 undefined 	 undefined
+$53. ~fields 	 false 	 undefined 	 undefined
+$54. ~fields 	 false 	 undefined 	 undefined
+$55. ~fields.*extend 	 false 	 undefined 	 undefined
+$56. ~fields.*extend 	 false 	 undefined 	 undefined
+$57. ~fields.^extend 	 false 	 undefined 	 undefined
+$58. ~fields.^extend 	 false 	 undefined 	 undefined
+$59. ~fields.univ 	 false 	 undefined 	 undefined
+$60. ~fields.~extend 	 false 	 undefined 	 undefined
+$61. ~fields.~extend 	 false 	 undefined 	 undefined
+$62. ~fields.~param 	 false 	 undefined 	 undefined
+$63. ~fields.~return 	 false 	 undefined 	 undefined
+$64. ~fields.~type 	 false 	 undefined 	 undefined
+$65.  	 false 	 undefined 	 undefined
+
+Time taken: 81.254792
+Preprocessing time: 26
+Parsing time: 12
+Generation time: 2

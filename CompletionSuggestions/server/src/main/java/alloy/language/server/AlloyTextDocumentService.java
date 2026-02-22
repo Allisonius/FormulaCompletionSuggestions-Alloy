@@ -2,6 +2,7 @@ package alloy.language.server;
 
 import alloy.language.server.document.AlloyDocumentModel;
 import alloy.language.server.params.EvaluateSuggestions;
+import alloy.language.server.params.ModelStats;
 import alloy.language.server.params.SuggestionImpact.SuggestionImpactParams;
 import alloy.language.server.params.SuggestionImpact.SuggestionImpactResponse;
 import alloy.language.server.params.requests.AlloyCompletionItemSelectedParams;
@@ -133,6 +134,7 @@ public class AlloyTextDocumentService implements TextDocumentService {
 	public CompletableFuture<Either<List<CompletionItem>, CompletionList>> completion(CompletionParams completionParams) {
 		CompletableFuture<Either<List<CompletionItem>, CompletionList>> future =
 				CompletableFutures.computeAsync(cancelChecker -> {
+					long startTime = System.currentTimeMillis();
 					String uri = completionParams.getTextDocument().getUri();
 					AlloyDocumentModel documentModel = openedDocuments.get(uri);
 					String documentText = documentModel.getDocumentText();
@@ -159,9 +161,13 @@ public class AlloyTextDocumentService implements TextDocumentService {
 						parser = CodeUtils.buildAlloyParser(documentText);
 						tree = parser.alloyModule();
 						// TODO: visitors might not need the alloy text, only the parse tree is needed
+						long preprocessingTime = System.currentTimeMillis() - startTime;
 						List<CompletionItem> completionItems =
 								visitors.visitAndBuildCompletions(documentText, completionParams, tree);
-
+						if (ConfigManager.getInstance().useNewCompletionProvider()) {
+							var timingCompletionItem = completionItems.stream().filter(item -> item.getLabel().equals("<TIME>")).findFirst();
+							timingCompletionItem.ifPresent(completionItem -> completionItem.setInsertText(Long.toString(preprocessingTime)));
+						}
 						return Either.forLeft(completionItems);
 					} catch (Exception e) {
 						logger.error("Error for completion params:", e);
@@ -170,7 +176,7 @@ public class AlloyTextDocumentService implements TextDocumentService {
 					}
 				});
 
-		return future.completeOnTimeout(Either.forLeft(List.of()), 500, TimeUnit.MILLISECONDS);
+		return future.completeOnTimeout(Either.forLeft(List.of()), 10000, TimeUnit.MILLISECONDS);
 	}
 
 	@JsonRequest(value = "alloy/getInstance", useSegment = false)
@@ -358,7 +364,7 @@ public class AlloyTextDocumentService implements TextDocumentService {
 		EvaluateSuggestions.EvaluateSuggestionsParams params =
 				new Gson().fromJson(evaluateSuggestionsParams, EvaluateSuggestions.EvaluateSuggestionsParams.class);
 		return CompletableFutures.computeAsync(cancelChecker -> {
-			if (params.suggestions().isEmpty()) return new EvaluateSuggestions.EvaluateSuggestionsResponse(List.of());
+			if (params.suggestions().isEmpty()) return new EvaluateSuggestions.EvaluateSuggestionsResponse(List.of(), null, null);
 			AlloyDocumentModel documentModel = openedDocuments.get(params.documentUri());
 			String documentText = documentModel.getDocumentText();
 			var parser = CodeUtils.buildAlloyParser(documentText);
@@ -378,12 +384,27 @@ public class AlloyTextDocumentService implements TextDocumentService {
 					AlloyExpressionParsingUtils.extractDeclaredVariables(documentModel.getDocumentText(),
 					                                                     dummyCompletionParams, tree);
 			cancelChecker.checkCanceled();
+			alloyParser.ExprContext ctx = CodeUtils.buildAlloyParser(params.incompleteExpression()).expr();
+			var declaredVariables = AlloyExpressionParsingUtils.findDeclaredVariables(ctx, quantifiers);
+			var mergedQuantifiers = new ConcurrentHashMap<>(quantifiers);
+			mergedQuantifiers.putAll(declaredVariables);
+
 			String extractedExpectedTerm = AlloyExpressionParsingUtils.findLeadingExpression(params.remainingText());
 			if (extractedExpectedTerm == null) {
 				extractedExpectedTerm = params.expectedTerm();
 			}
 			return AlloyInstanceUtils.evaluateSuggestions(documentModel.getModel(), params.incompleteExpression(),
-			                                              params.suggestions(), params.expectedTerm(), params.remainingText(), extractedExpectedTerm, quantifiers);
+			                                              params.suggestions(), params.expectedTerm(), params.remainingText(), extractedExpectedTerm, mergedQuantifiers);
+		});
+	}
+
+	@JsonRequest(value = "alloy/getModelStats", useSegment = false)
+	public CompletableFuture<ModelStats.ModelStatsResponse> modelStates(JsonObject modelStatsParams) {
+		logger.info("MODEL STATS");
+		ModelStats.ModelStatsRequest params = new Gson().fromJson(modelStatsParams, ModelStats.ModelStatsRequest.class);
+		return CompletableFutures.computeAsync(cancelChecker -> {
+			AlloyDocumentModel documentModel = openedDocuments.get(params.documentUri());
+			return AlloyInstanceUtils.modelStats(documentModel);
 		});
 	}
 }

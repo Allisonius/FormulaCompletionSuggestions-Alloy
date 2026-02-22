@@ -1,0 +1,38 @@
+Model name: frankervrep
+Filename: completion/frankenvrep-complete.als
+Offset: 3407
+Term: .
+Vscode Position: line=145 character=29
+----------------------------------
+146 |    KinematicModel in ArmType.
+----------------------------------
+Expected Completion word: inverseKSolver
+Expected Completion line: *inverseKSolver
+Suggestion exists: true
+Completion List:
+# Suggestion 	 Exact 	 Syntactic 	 Semantic
+$1. anglelimit.ArmAngle 	 false 	 false 	 false
+$2. anglelimit.armangle 	 false 	 false 	 false
+$3. inverseKSolver.FrankenBot 	 false 	 false 	 false
+$4. inverseKSolver.KinematicModel 	 false 	 false 	 false
+$5. ~armModel.FrankenVREPArm 	 false 	 false 	 false
+$6. ~armModel.RobotArm 	 false 	 false 	 false
+$7. anglelimit 	 false 	 false 	 false
+$8. anglelimit.univ 	 false 	 false 	 false
+$9. anglelimit.~output 	 false 	 false 	 false
+$10. inverseKSolver 	 true 	 true 	 true
+$11. inverseKSolver 	 true 	 true 	 true
+$12. inverseKSolver.solverResult 	 false 	 false 	 false
+$13. inverseKSolver.univ 	 false 	 false 	 false
+$14. inverseKSolver.~calls 	 false 	 false 	 false
+$15. ~armModel.armside 	 false 	 false 	 false
+$16. ~armModel.effectorType 	 false 	 false 	 false
+$17. ~armModel 	 false 	 false 	 false
+$18. ~armModel.univ 	 false 	 false 	 false
+$19. ~armModel.~arms 	 false 	 false 	 false
+$20.  	 false 	 false 	 false
+
+Time taken: 47.028125
+Preprocessing time: 6
+Parsing time: 3
+Generation time: 0

@@ -6,6 +6,9 @@ Vscode Position: line=68 character=68
 ----------------------------------
 69 |   all c:Class,p:Person | p in (c.Groups).Group implies Teaches.c -> 
 ----------------------------------
+Expected Completion word: p
+Expected Completion line: p in Tutors
+Suggestion exists: true
 Completion List:
 # Suggestion 	 Exact 	 Syntactic 	 Semantic
 $1. c 	 false 	 undefined 	 undefined
@@ -19,20 +22,8 @@ $8. Int 	 false 	 undefined 	 undefined
 $9. String 	 false 	 undefined 	 undefined
 $10. none 	 false 	 undefined 	 undefined
 $11. univ 	 false 	 undefined 	 undefined
-Expected Completion word: p
-Expected Completion line: p in Tutors
-Suggestion exists: true
 
-Suggestion in top 1 = false 
-Suggestion in top 5 = true 
-Suggestion in top 10 = true 
-
-Suggestion in top 1 (Alpha) = false
-Suggestion in top 5 (Alpha) = false
-Suggestion in top 10 (Alpha) = true
-
-Suggestion in top 1 (Len) = false
-Suggestion in top 5 (Len) = true
-Suggestion in top 10 (Len) = true
-
-Time taken: 10.312875
+Time taken: 12.394583
+Preprocessing time: 2
+Parsing time: 1
+Generation time: 0

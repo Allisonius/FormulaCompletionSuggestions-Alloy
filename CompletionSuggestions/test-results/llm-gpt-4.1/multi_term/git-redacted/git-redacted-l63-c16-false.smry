@@ -1,0 +1,55 @@
+Model name: git-redacted
+Filename: completion/git-complete-redacted.als
+Offset: 1031
+Term:  - 
+Vscode Position: line=62 character=16
+----------------------------------
+63 | 	all n : Node - 
+----------------------------------
+Expected Completion word: Root
+Expected Completion line: Root | one n.parent
+Suggestion exists: false
+Completion List:
+# Suggestion 	 Exact 	 Syntactic 	 Semantic
+$1. n.belongsTo 	 false 	 undefined 	 undefined
+$2. n.name 	 false 	 undefined 	 undefined
+$3. n.parent 	 false 	 undefined 	 undefined
+$4. n.current 	 false 	 undefined 	 undefined
+$5. n.samepath 	 false 	 undefined 	 undefined
+$6. n.^parent 	 false 	 undefined 	 undefined
+$7. n.*parent 	 false 	 undefined 	 undefined
+$8. n.~samepath 	 false 	 undefined 	 undefined
+$9. n.name.refs 	 false 	 undefined 	 undefined
+$10. n.name.heads 	 false 	 undefined 	 undefined
+$11. n.name.HEAD 	 false 	 undefined 	 undefined
+$12. n.parent.name 	 false 	 undefined 	 undefined
+$13. n.parent.tbc 	 false 	 undefined 	 undefined
+$14. n.current.^parent 	 false 	 undefined 	 undefined
+$15. n.current.*parent 	 false 	 undefined 	 undefined
+$16. n.samepath.name 	 false 	 undefined 	 undefined
+$17. n.samepath.parent 	 false 	 undefined 	 undefined
+$18. n.samepath.current 	 false 	 undefined 	 undefined
+$19. n.samepath.samepath 	 false 	 undefined 	 undefined
+$20. n.belongsTo.stored 	 false 	 undefined 	 undefined
+$21. n.name.refs.State 	 false 	 undefined 	 undefined
+$22. n.name.heads & univ 	 false 	 undefined 	 undefined
+$23. n.name.HEAD & univ 	 false 	 undefined 	 undefined
+$24. n.current & univ 	 false 	 undefined 	 undefined
+$25. n.samepath & univ 	 false 	 undefined 	 undefined
+$26. n.parent & univ 	 false 	 undefined 	 undefined
+$27. n.name & univ 	 false 	 undefined 	 undefined
+$28. n.belongsTo & univ 	 false 	 undefined 	 undefined
+$29. n.name.refs & univ 	 false 	 undefined 	 undefined
+$30. n.name.heads + univ 	 false 	 undefined 	 undefined
+$31. n.name.HEAD + univ 	 false 	 undefined 	 undefined
+$32. n.current + univ 	 false 	 undefined 	 undefined
+$33. n.samepath + univ 	 false 	 undefined 	 undefined
+$34. n.parent + univ 	 false 	 undefined 	 undefined
+$35. n.name + univ 	 false 	 undefined 	 undefined
+$36. n.belongsTo + univ 	 false 	 undefined 	 undefined
+$37. n.name.refs + univ 	 false 	 undefined 	 undefined
+
+Time taken: 7764.189083
+Preprocessing time: N/A
+Parsing time: N/A
+Generation time: N/A

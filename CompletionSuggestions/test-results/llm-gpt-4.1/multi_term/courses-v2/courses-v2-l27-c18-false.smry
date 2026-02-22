@@ -1,0 +1,48 @@
+Model name: courses-v2
+Filename: completion/courses-v2-complete.als
+Offset: 420
+Term:  - 
+Vscode Position: line=26 character=18
+----------------------------------
+27 | 	all p : Person - 
+----------------------------------
+Expected Completion word: Professor
+Expected Completion line: Professor | no p.teaches
+Suggestion exists: false
+Completion List:
+# Suggestion 	 Exact 	 Syntactic 	 Semantic
+$1. p.teaches 	 false 	 undefined 	 undefined
+$2. p.enrolled 	 false 	 undefined 	 undefined
+$3. p.projects 	 false 	 undefined 	 undefined
+$4. p.teaches.projects 	 false 	 undefined 	 undefined
+$5. p.teaches.grades 	 false 	 undefined 	 undefined
+$6. p.teaches.projects 	 false 	 undefined 	 undefined
+$7. p.enrolled.projects 	 false 	 undefined 	 undefined
+$8. p.enrolled.grades 	 false 	 undefined 	 undefined
+$9. p.projects 	 false 	 undefined 	 undefined
+$10. p.teaches.projects 	 false 	 undefined 	 undefined
+$11. p.enrolled.projects 	 false 	 undefined 	 undefined
+$12. p.teaches.grades 	 false 	 undefined 	 undefined
+$13. p.enrolled.grades 	 false 	 undefined 	 undefined
+$14. p.teaches.projects 	 false 	 undefined 	 undefined
+$15. p.enrolled.projects 	 false 	 undefined 	 undefined
+$16. p.teaches.grades.Grade 	 false 	 undefined 	 undefined
+$17. p.enrolled.grades.Grade 	 false 	 undefined 	 undefined
+$18. p.teaches.projects.Project 	 false 	 undefined 	 undefined
+$19. p.enrolled.projects.Project 	 false 	 undefined 	 undefined
+$20. p.teaches + p.enrolled 	 false 	 undefined 	 undefined
+$21. p.teaches & p.enrolled 	 false 	 undefined 	 undefined
+$22. p.teaches + univ 	 false 	 undefined 	 undefined
+$23. p.enrolled + univ 	 false 	 undefined 	 undefined
+$24. p.projects + univ 	 false 	 undefined 	 undefined
+$25. p.teaches & univ 	 false 	 undefined 	 undefined
+$26. p.enrolled & univ 	 false 	 undefined 	 undefined
+$27. p.projects & univ 	 false 	 undefined 	 undefined
+$28. ~p.teaches 	 false 	 undefined 	 undefined
+$29. ~p.enrolled 	 false 	 undefined 	 undefined
+$30. ~p.projects 	 false 	 undefined 	 undefined
+
+Time taken: 6962.4385
+Preprocessing time: N/A
+Parsing time: N/A
+Generation time: N/A

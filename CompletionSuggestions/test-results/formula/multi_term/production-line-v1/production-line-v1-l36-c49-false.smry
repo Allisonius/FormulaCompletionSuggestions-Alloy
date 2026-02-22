@@ -6,39 +6,39 @@ Vscode Position: line=35 character=49
 ----------------------------------
 36 |     all c : Component | some (Robot <: position).
 ----------------------------------
+Expected Completion word: c.position
+Expected Completion line: (c.position) & Robot
+Suggestion exists: false
 Completion List:
 # Suggestion 	 Exact 	 Syntactic 	 Semantic
 $1. ~position.c 	 false 	 undefined 	 undefined
 $2. Position 	 false 	 undefined 	 undefined
 $3. Position.~position 	 false 	 undefined 	 undefined
-$4. ~position.Component 	 false 	 undefined 	 undefined
-$5. ~position.Robot 	 false 	 undefined 	 undefined
-$6. univ.parts 	 false 	 undefined 	 undefined
-$7. univ.position 	 false 	 undefined 	 undefined
-$8. ~position.parts 	 false 	 undefined 	 undefined
-$9. univ.~parts 	 false 	 undefined 	 undefined
-$10. univ.~position 	 false 	 undefined 	 undefined
-$11. ~position 	 false 	 undefined 	 undefined
-$12. ~position.*parts 	 false 	 undefined 	 undefined
-$13. ~position.^parts 	 false 	 undefined 	 undefined
-$14. ~position.univ 	 false 	 undefined 	 undefined
-$15. univ.^parts 	 false 	 undefined 	 undefined
-$16. univ 	 false 	 undefined 	 undefined
-$17. univ.*parts 	 false 	 undefined 	 undefined
-Expected Completion word: 
-Expected Completion line: (c.position) & Robot
-Suggestion exists: false
+$4. Position.~position 	 false 	 undefined 	 undefined
+$5. ~position.Component 	 false 	 undefined 	 undefined
+$6. ~position.Product 	 false 	 undefined 	 undefined
+$7. ~position.Resource 	 false 	 undefined 	 undefined
+$8. ~position.Robot 	 false 	 undefined 	 undefined
+$9. univ.parts 	 false 	 undefined 	 undefined
+$10. univ.position 	 false 	 undefined 	 undefined
+$11. univ.position 	 false 	 undefined 	 undefined
+$12. ~position.parts 	 false 	 undefined 	 undefined
+$13. univ.~parts 	 false 	 undefined 	 undefined
+$14. univ.~position 	 false 	 undefined 	 undefined
+$15. univ.~position 	 false 	 undefined 	 undefined
+$16. ~position 	 false 	 undefined 	 undefined
+$17. ~position 	 false 	 undefined 	 undefined
+$18. ~position.*parts 	 false 	 undefined 	 undefined
+$19. ~position.^parts 	 false 	 undefined 	 undefined
+$20. ~position.univ 	 false 	 undefined 	 undefined
+$21. ~position.univ 	 false 	 undefined 	 undefined
+$22. ~position.~parts 	 false 	 undefined 	 undefined
+$23. univ.^parts 	 false 	 undefined 	 undefined
+$24.  	 false 	 undefined 	 undefined
+$25. univ 	 false 	 undefined 	 undefined
+$26. univ.*parts 	 false 	 undefined 	 undefined
 
-Suggestion in top 1 = false 
-Suggestion in top 5 = false 
-Suggestion in top 10 = false 
-
-Suggestion in top 1 (Alpha) = false
-Suggestion in top 5 (Alpha) = false
-Suggestion in top 10 (Alpha) = false
-
-Suggestion in top 1 (Len) = false
-Suggestion in top 5 (Len) = false
-Suggestion in top 10 (Len) = false
-
-Time taken: 10.094
+Time taken: 9.455709
+Preprocessing time: 1
+Parsing time: 1
+Generation time: 0

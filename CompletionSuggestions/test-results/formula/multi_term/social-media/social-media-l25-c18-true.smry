@@ -6,6 +6,9 @@ Vscode Position: line=24 character=18
 ----------------------------------
 25 | 	all p : User | p.
 ----------------------------------
+Expected Completion word: sees
+Expected Completion line: sees - Ad in p.follows.posts
+Suggestion exists: true
 Completion List:
 # Suggestion 	 Exact 	 Syntactic 	 Semantic
 $1. *follows.p 	 false 	 undefined 	 undefined
@@ -102,26 +105,15 @@ $91. ^suggested 	 false 	 undefined 	 undefined
 $92. ^suggested.*follows 	 false 	 undefined 	 undefined
 $93. ^suggested.^follows 	 false 	 undefined 	 undefined
 $94. ^suggested.univ 	 false 	 undefined 	 undefined
-$95. *follows 	 false 	 undefined 	 undefined
-$96. *follows.*suggested 	 false 	 undefined 	 undefined
-$97. *follows.univ 	 false 	 undefined 	 undefined
-$98. *suggested 	 false 	 undefined 	 undefined
-$99. *suggested.*follows 	 false 	 undefined 	 undefined
-$100. *suggested.univ 	 false 	 undefined 	 undefined
-Expected Completion word: sees
-Expected Completion line: sees - Ad in p.follows.posts
-Suggestion exists: true
+$95.  	 false 	 undefined 	 undefined
+$96. *follows 	 false 	 undefined 	 undefined
+$97. *follows.*suggested 	 false 	 undefined 	 undefined
+$98. *follows.univ 	 false 	 undefined 	 undefined
+$99. *suggested 	 false 	 undefined 	 undefined
+$100. *suggested.*follows 	 false 	 undefined 	 undefined
+$101. *suggested.univ 	 false 	 undefined 	 undefined
 
-Suggestion in top 1 = false 
-Suggestion in top 5 = false 
-Suggestion in top 10 = false 
-
-Suggestion in top 1 (Alpha) = false
-Suggestion in top 5 (Alpha) = false
-Suggestion in top 10 (Alpha) = false
-
-Suggestion in top 1 (Len) = true
-Suggestion in top 5 (Len) = true
-Suggestion in top 10 (Len) = true
-
-Time taken: 16.623709
+Time taken: 12.037084
+Preprocessing time: 2
+Parsing time: 1
+Generation time: 4

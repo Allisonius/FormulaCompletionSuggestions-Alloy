@@ -1,8 +1,10 @@
 package alloy.language.server.visitors.modeltests;
 
+import alloy.language.server.ConfigManager;
 import alloy.language.server.models.CompletionModelBuilder;
 import alloy.language.server.models.presets.ArrayModel;
 import alloy.language.server.visitors.BaseVisitorTest;
+import org.junit.jupiter.api.BeforeAll;
 import org.junit.jupiter.api.Test;
 
 import static org.hamcrest.MatcherAssert.assertThat;
@@ -10,6 +12,11 @@ import static org.hamcrest.Matchers.*;
 
 public class ArrayModelTest extends BaseVisitorTest {
 	private final CompletionModelBuilder modelBuilder = ArrayModel.modelBuilder();
+
+	@BeforeAll
+	public static void setup() {
+		ConfigManager.getInstance().setUseNewCompletionProvider(true);
+	}
 
 	@Test
 	public void testSigArrowToScalaType() {

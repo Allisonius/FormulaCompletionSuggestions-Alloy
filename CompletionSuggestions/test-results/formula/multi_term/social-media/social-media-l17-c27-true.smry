@@ -6,6 +6,9 @@ Vscode Position: line=16 character=27
 ----------------------------------
 17 | 	all p : Photo | one posts.
 ----------------------------------
+Expected Completion word: p
+Expected Completion line: p
+Suggestion exists: true
 Completion List:
 # Suggestion 	 Exact 	 Syntactic 	 Semantic
 $1. p 	 true 	 undefined 	 undefined
@@ -48,23 +51,12 @@ $37. ~sees.~follows 	 false 	 undefined 	 undefined
 $38. ~sees.~suggested 	 false 	 undefined 	 undefined
 $39. univ.^follows 	 false 	 undefined 	 undefined
 $40. univ.^suggested 	 false 	 undefined 	 undefined
-$41. univ 	 false 	 undefined 	 undefined
-$42. univ.*follows 	 false 	 undefined 	 undefined
-$43. univ.*suggested 	 false 	 undefined 	 undefined
-Expected Completion word: p
-Expected Completion line: p
-Suggestion exists: true
+$41.  	 false 	 undefined 	 undefined
+$42. univ 	 false 	 undefined 	 undefined
+$43. univ.*follows 	 false 	 undefined 	 undefined
+$44. univ.*suggested 	 false 	 undefined 	 undefined
 
-Suggestion in top 1 = true 
-Suggestion in top 5 = true 
-Suggestion in top 10 = true 
-
-Suggestion in top 1 (Alpha) = false
-Suggestion in top 5 (Alpha) = false
-Suggestion in top 10 (Alpha) = false
-
-Suggestion in top 1 (Len) = true
-Suggestion in top 5 (Len) = true
-Suggestion in top 10 (Len) = true
-
-Time taken: 17.273125
+Time taken: 11.328541
+Preprocessing time: 3
+Parsing time: 2
+Generation time: 1

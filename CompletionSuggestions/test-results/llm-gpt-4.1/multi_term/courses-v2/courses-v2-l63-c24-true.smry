@@ -1,0 +1,53 @@
+Model name: courses-v2
+Filename: completion/courses-v2-complete.als
+Offset: 1415
+Term: .
+Vscode Position: line=62 character=24
+----------------------------------
+63 | 	all p : Person | no (p.
+----------------------------------
+Expected Completion word: teaches.~teaches
+Expected Completion line: teaches.~teaches - p) & p.teaches.~enrolled
+Suggestion exists: true
+Completion List:
+# Suggestion 	 Exact 	 Syntactic 	 Semantic
+$1. teaches 	 true 	 false 	 false
+$2. enrolled 	 false 	 false 	 false
+$3. projects 	 false 	 undefined 	 undefined
+$4. teaches.projects 	 false 	 false 	 false
+$5. teaches.grades 	 false 	 false 	 false
+$6. teaches.projects.^projects 	 false 	 undefined 	 undefined
+$7. teaches.projects.*projects 	 false 	 undefined 	 undefined
+$8. enrolled.projects 	 false 	 false 	 false
+$9. enrolled.grades 	 false 	 false 	 false
+$10. enrolled.projects.^projects 	 false 	 undefined 	 undefined
+$11. enrolled.projects.*projects 	 false 	 undefined 	 undefined
+$12. projects 	 false 	 undefined 	 undefined
+$13. projects.^projects 	 false 	 undefined 	 undefined
+$14. projects.*projects 	 false 	 undefined 	 undefined
+$15. teaches + enrolled 	 false 	 false 	 false
+$16. teaches & enrolled 	 false 	 false 	 false
+$17. teaches + projects 	 false 	 undefined 	 undefined
+$18. enrolled + projects 	 false 	 undefined 	 undefined
+$19. teaches & projects 	 false 	 undefined 	 undefined
+$20. enrolled & projects 	 false 	 undefined 	 undefined
+$21. teaches.projects + enrolled.projects 	 false 	 false 	 false
+$22. teaches.projects & enrolled.projects 	 false 	 false 	 false
+$23. teaches.projects + projects 	 false 	 undefined 	 undefined
+$24. enrolled.projects + projects 	 false 	 undefined 	 undefined
+$25. teaches.projects & projects 	 false 	 false 	 false
+$26. enrolled.projects & projects 	 false 	 false 	 false
+$27. teaches.projects + univ 	 false 	 undefined 	 undefined
+$28. enrolled.projects + univ 	 false 	 undefined 	 undefined
+$29. projects + univ 	 false 	 undefined 	 undefined
+$30. teaches.projects & univ 	 false 	 undefined 	 undefined
+$31. enrolled.projects & univ 	 false 	 undefined 	 undefined
+$32. projects & univ 	 false 	 undefined 	 undefined
+$33. ~teaches 	 false 	 false 	 false
+$34. ~enrolled 	 false 	 false 	 false
+$35. ~projects 	 false 	 undefined 	 undefined
+
+Time taken: 9218.087042
+Preprocessing time: N/A
+Parsing time: N/A
+Generation time: N/A

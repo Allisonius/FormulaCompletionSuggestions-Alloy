@@ -1,0 +1,44 @@
+Model name: classroom-fol
+Filename: completion/classroom-fol-complete.als
+Offset: 544
+Term:  & 
+Vscode Position: line=40 character=31
+----------------------------------
+41 | 	all c: Class | some Teacher & 
+----------------------------------
+Expected Completion word: Teaches.c
+Expected Completion line: Teaches.c
+Suggestion exists: false
+Completion List:
+# Suggestion 	 Exact 	 Syntactic 	 Semantic
+$1. Teacher 	 false 	 false 	 false
+$2. Teacher.Tutors 	 false 	 false 	 false
+$3. Teacher.Teaches 	 false 	 false 	 false
+$4. Teacher.Tutors.Tutors 	 false 	 false 	 false
+$5. Teacher.Tutors.Teaches 	 false 	 false 	 false
+$6. Teacher.Teaches.Groups 	 false 	 false 	 false
+$7. Teacher.Tutors.Tutors.Tutors 	 false 	 false 	 false
+$8. Teacher.Tutors.Tutors.Teaches 	 false 	 false 	 false
+$9. Teacher.Tutors.Teaches.Groups 	 false 	 false 	 false
+$10. Teacher.Teaches.Groups.Person 	 false 	 false 	 false
+$11. Teacher.Teaches.Groups.Group 	 false 	 false 	 false
+$12. ~Tutors 	 false 	 false 	 false
+$13. ~Teaches 	 false 	 false 	 false
+$14. ~Tutors.Tutors 	 false 	 false 	 false
+$15. ~Teaches.Groups 	 false 	 false 	 false
+$16. ~Teaches.Groups.Person 	 false 	 false 	 false
+$17. ~Teaches.Groups.Group 	 false 	 false 	 false
+$18. Teacher & univ 	 false 	 false 	 false
+$19. Teacher.Tutors & univ 	 false 	 false 	 false
+$20. Teacher.Teaches & univ 	 false 	 false 	 false
+$21. Teacher.Tutors.Tutors & univ 	 false 	 false 	 false
+$22. Teacher.Tutors.Teaches & univ 	 false 	 false 	 false
+$23. Teacher.Teaches.Groups & univ 	 false 	 undefined 	 undefined
+$24. ~Tutors & univ 	 false 	 undefined 	 undefined
+$25. ~Teaches & univ 	 false 	 undefined 	 undefined
+$26. ~Teaches.Groups & univ 	 false 	 undefined 	 undefined
+
+Time taken: 6769.254959
+Preprocessing time: N/A
+Parsing time: N/A
+Generation time: N/A

@@ -1,0 +1,3 @@
+modelname,filename,position-line,position-character,incompleteline,removedtext,baseline,suggestionedExpression,A_iff_B,A_and_B,not_A_and_B,A_and_not_B,not_A_and_not_B,suggestionImpactTime
+git,completion/git-complete.als,524,42,"current.sp = current.s - (leaves[s, n] +","n)","{}","\tcurrent.sp = current.s - (leaves[s, n] + Node -> State",,,,,,25.792833
+git,completion/git-complete.als,524,42,"current.sp = current.s - (leaves[s, n] +","n)","{}","\tcurrent.sp = current.s - (leaves[s, n] + current",,,,,,25.792833

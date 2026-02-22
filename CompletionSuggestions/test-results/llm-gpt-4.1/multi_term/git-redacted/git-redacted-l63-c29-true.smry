@@ -1,0 +1,61 @@
+Model name: git-redacted
+Filename: completion/git-complete-redacted.als
+Offset: 1044
+Term: .
+Vscode Position: line=62 character=29
+----------------------------------
+63 | 	all n : Node - Root | one n.
+----------------------------------
+Expected Completion word: parent
+Expected Completion line: parent
+Suggestion exists: true
+Completion List:
+# Suggestion 	 Exact 	 Syntactic 	 Semantic
+$1. name 	 false 	 false 	 false
+$2. parent 	 true 	 true 	 true
+$3. current 	 false 	 false 	 false
+$4. samepath 	 false 	 false 	 false
+$5. belongsTo 	 false 	 false 	 false
+$6. name.refs 	 false 	 false 	 false
+$7. name.heads 	 false 	 false 	 false
+$8. name.HEAD 	 false 	 false 	 false
+$9. parent.name 	 false 	 false 	 false
+$10. parent.current 	 false 	 false 	 false
+$11. parent.samepath 	 false 	 false 	 false
+$12. parent.belongsTo 	 false 	 false 	 false
+$13. current 	 false 	 false 	 false
+$14. samepath 	 false 	 false 	 false
+$15. belongsTo 	 false 	 false 	 false
+$16. name.refs.State 	 false 	 false 	 false
+$17. name.heads 	 false 	 false 	 false
+$18. name.HEAD 	 false 	 false 	 false
+$19. parent.name.refs 	 false 	 false 	 false
+$20. parent.name.heads 	 false 	 false 	 false
+$21. parent.name.HEAD 	 false 	 false 	 false
+$22. parent.parent 	 false 	 false 	 false
+$23. parent.current 	 false 	 false 	 false
+$24. parent.samepath 	 false 	 false 	 false
+$25. parent.belongsTo 	 false 	 false 	 false
+$26. current.State 	 false 	 false 	 false
+$27. samepath.name 	 false 	 false 	 false
+$28. samepath.parent 	 false 	 false 	 false
+$29. samepath.current 	 false 	 false 	 false
+$30. samepath.samepath 	 false 	 false 	 false
+$31. samepath.belongsTo 	 false 	 false 	 false
+$32. belongsTo.Object 	 false 	 false 	 false
+$33. belongsTo.Commit 	 false 	 false 	 false
+$34. name.refs.State 	 false 	 false 	 false
+$35. name.heads.State 	 false 	 false 	 false
+$36. name.HEAD.State 	 false 	 false 	 false
+$37. parent.name.refs.State 	 false 	 false 	 false
+$38. parent.name.heads.State 	 false 	 false 	 false
+$39. parent.name.HEAD.State 	 false 	 false 	 false
+$40. parent.parent.name 	 false 	 false 	 false
+$41. parent.parent.current 	 false 	 false 	 false
+$42. parent.parent.samepath 	 false 	 false 	 false
+$43. parent.parent.belongsTo 	 false 	 false 	 false
+
+Time taken: 11605.864
+Preprocessing time: N/A
+Parsing time: N/A
+Generation time: N/A

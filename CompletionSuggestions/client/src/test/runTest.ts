@@ -88,6 +88,41 @@ async function main() {
       process.exit(1);
     }
   }
+  if (process.argv[2] === "--llm-completion") {
+    try {
+      // The folder containing the Extension Manifest package.json
+      // Passed to `--extensionDevelopmentPath`
+      const extensionDevelopmentPath = path.resolve(__dirname, "../../../");
+
+      // The path to test runner
+      // Passed to --extensionTestsPath
+      const extensionTestsPath = path.resolve(__dirname, "./multi-term-tests");
+      const workspacePath = path.join(__dirname, "../../testFixture/");
+
+      // Use a persistent user-data directory to preserve LLM consent
+      // After first manual consent, subsequent runs will reuse it
+      const userDataDir = path.join(
+        __dirname,
+        "../../.vscode-test/llm-user-data",
+      );
+
+      const model = process.argv[3] || "gpt-4.1";
+
+      // Download VS Code, unzip it and run the integration test
+      await runTests({
+        extensionDevelopmentPath,
+        extensionTestsPath,
+        launchArgs: [workspacePath, "--user-data-dir", userDataDir],
+        extensionTestsEnv: {
+          LLM_COMPLETION: "true",
+          LLM_MODEL: model,
+        },
+      });
+    } catch (err) {
+      console.error("Failed to run LLM completion tests", err);
+      process.exit(1);
+    }
+  }
   if (process.argv[2] === "--error-checking") {
     try {
       // The folder containing the Extension Manifest package.json
@@ -100,7 +135,7 @@ async function main() {
 
       const extensionTestsPath = path.resolve(
         __dirname,
-        "./error-checking-runner"
+        "./error-checking-runner",
       );
       const workspacePath = path.join(__dirname, "../../testFixture/");
 
@@ -113,6 +148,22 @@ async function main() {
       });
     } catch (err) {
       console.error("Failed to run error checking tests", err);
+      process.exit(1);
+    }
+  }
+  if (process.argv[2] === "--model-stats") {
+    try {
+      const extensionDevelopmentPath = path.resolve(__dirname, "../../../");
+      const extensionTestsPath = path.resolve(__dirname, "./model-stats-tests");
+      const workspacePath = path.join(__dirname, "../../testFixture/");
+
+      await runTests({
+        extensionDevelopmentPath,
+        extensionTestsPath,
+        launchArgs: [workspacePath],
+      });
+    } catch (err) {
+      console.error("Failed to run model stats tests", err);
       process.exit(1);
     }
   }

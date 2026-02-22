@@ -1,0 +1,26 @@
+Model name: classroom-fol
+Filename: completion/classroom-fol-complete.als
+Offset: 387
+Term:  in 
+Vscode Position: line=28 character=38
+----------------------------------
+29 | 	all p: Person | p in Student or p in 
+----------------------------------
+Expected Completion word: Teacher
+Expected Completion line: Teacher
+Suggestion exists: true
+Completion List:
+# Suggestion 	 Exact 	 Syntactic 	 Semantic
+$1. Teacher 	 true 	 true 	 true
+$2. p.Tutors 	 false 	 false 	 false
+$3. p.Teaches 	 false 	 false 	 false
+$4. p.Tutors.Tutors 	 false 	 false 	 false
+$5. p.Tutors.Teaches 	 false 	 false 	 false
+$6. p.Teaches.Groups 	 false 	 false 	 false
+$7. p.Tutors.Teaches.Groups 	 false 	 false 	 false
+$8. univ 	 false 	 false 	 false
+
+Time taken: 5233.698875
+Preprocessing time: N/A
+Parsing time: N/A
+Generation time: N/A

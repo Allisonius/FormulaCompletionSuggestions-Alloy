@@ -1,0 +1,33 @@
+Model name: courses-v2
+Filename: completion/courses-v2-complete.als
+Offset: 2542
+Term: .
+Vscode Position: line=92 character=146
+----------------------------------
+93 | 	all c : Course , p : c.projects , disj x , y : (Person <: projects).p | some c.grades[x] and some c.grades[y] implies c.grades[x] in c.grades[y].
+----------------------------------
+Expected Completion word: prev
+Expected Completion line: (prev + iden + next)
+Suggestion exists: false
+Completion List:
+# Suggestion 	 Exact 	 Syntactic 	 Semantic
+$1. c.grades[x] 	 false 	 undefined 	 undefined
+$2. c.grades[y] 	 false 	 undefined 	 undefined
+$3. ~c.grades[x] 	 false 	 undefined 	 undefined
+$4. ~c.grades[y] 	 false 	 undefined 	 undefined
+$5. c.grades[x].^Grade 	 false 	 undefined 	 undefined
+$6. c.grades[y].^Grade 	 false 	 undefined 	 undefined
+$7. c.grades[x].*Grade 	 false 	 undefined 	 undefined
+$8. c.grades[y].*Grade 	 false 	 undefined 	 undefined
+$9. c.grades[x] + c.grades[y] 	 false 	 undefined 	 undefined
+$10. c.grades[x] & c.grades[y] 	 false 	 undefined 	 undefined
+$11. c.grades[x] - c.grades[y] 	 false 	 undefined 	 undefined
+$12. c.grades[x] + univ 	 false 	 undefined 	 undefined
+$13. c.grades[x] & univ 	 false 	 undefined 	 undefined
+$14. c.grades[y] + univ 	 false 	 undefined 	 undefined
+$15. c.grades[y] & univ 	 false 	 undefined 	 undefined
+
+Time taken: 6384.27325
+Preprocessing time: N/A
+Parsing time: N/A
+Generation time: N/A

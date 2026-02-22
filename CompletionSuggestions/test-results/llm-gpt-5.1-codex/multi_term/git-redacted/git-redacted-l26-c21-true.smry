@@ -1,0 +1,20 @@
+Model name: git-redacted
+Filename: completion/git-sig.als
+Offset: 482
+Term:  extends 
+Vscode Position: line=25 character=21
+----------------------------------
+26 | one sig Root extends 
+----------------------------------
+Expected Completion word: Dir
+Expected Completion line: Dir {}
+Suggestion exists: true
+Completion List:
+# Suggestion 	 Exact 	 Syntactic 	 Semantic
+$1. Dir 	 true 	 true 	 true
+$2. Node 	 false 	 false 	 false
+
+Time taken: 11098.886917
+Preprocessing time: N/A
+Parsing time: N/A
+Generation time: N/A

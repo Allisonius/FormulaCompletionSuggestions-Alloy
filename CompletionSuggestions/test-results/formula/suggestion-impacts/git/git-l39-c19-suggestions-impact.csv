@@ -1,0 +1,15 @@
+modelname,filename,position-line,position-character,incompleteline,removedtext,baseline,suggestionedExpression,A_iff_B,A_and_B,not_A_and_B,A_and_not_B,not_A_and_not_B,suggestionImpactTime
+git,completion/git-sig.als,39,19,"content : Name ->","lone (Blob+Tree)","{}","\tcontent : Name -> Blob",,,,,,8.296792
+git,completion/git-sig.als,39,19,"content : Name ->","lone (Blob+Tree)","{}","\tcontent : Name -> Commit",,,,,,8.296792
+git,completion/git-sig.als,39,19,"content : Name ->","lone (Blob+Tree)","{}","\tcontent : Name -> Dir",,,,,,8.296792
+git,completion/git-sig.als,39,19,"content : Name ->","lone (Blob+Tree)","{}","\tcontent : Name -> File",,,,,,8.296792
+git,completion/git-sig.als,39,19,"content : Name ->","lone (Blob+Tree)","{}","\tcontent : Name -> Name",,,,,,8.296792
+git,completion/git-sig.als,39,19,"content : Name ->","lone (Blob+Tree)","{}","\tcontent : Name -> Node",,,,,,8.296792
+git,completion/git-sig.als,39,19,"content : Name ->","lone (Blob+Tree)","{}","\tcontent : Name -> Object",,,,,,8.296792
+git,completion/git-sig.als,39,19,"content : Name ->","lone (Blob+Tree)","{}","\tcontent : Name -> Root",,,,,,8.296792
+git,completion/git-sig.als,39,19,"content : Name ->","lone (Blob+Tree)","{}","\tcontent : Name -> State",,,,,,8.296792
+git,completion/git-sig.als,39,19,"content : Name ->","lone (Blob+Tree)","{}","\tcontent : Name -> Tree",,,,,,8.296792
+git,completion/git-sig.als,39,19,"content : Name ->","lone (Blob+Tree)","{}","\tcontent : Name -> Int",,,,,,8.296792
+git,completion/git-sig.als,39,19,"content : Name ->","lone (Blob+Tree)","{}","\tcontent : Name -> String",,,,,,8.296792
+git,completion/git-sig.als,39,19,"content : Name ->","lone (Blob+Tree)","{}","\tcontent : Name -> none",,,,,,8.296792
+git,completion/git-sig.als,39,19,"content : Name ->","lone (Blob+Tree)","{}","\tcontent : Name -> univ",,,,,,8.296792

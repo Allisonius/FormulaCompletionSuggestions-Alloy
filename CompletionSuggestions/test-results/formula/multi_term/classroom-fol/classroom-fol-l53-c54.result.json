@@ -1,1 +1,185 @@
-{"modelName":"classroom-fol","filename":"completion/classroom-fol-complete.als","offset":780,"term":" -> ","line":53,"character":54,"incompletionLine":"all c: Class, s: Student | some g: Group | c -> s ->","completionList":"c, s, Class, Group, Person, Student, Teacher, Int, String, none, univ","evaluationResult":[{"suggestion":"c","rank":1,"doesMatchExactly":false,"expressionComponents":[{"label":"c","type":"VARIABLE"}]},{"suggestion":"s","rank":2,"doesMatchExactly":false,"expressionComponents":[{"label":"s","type":"VARIABLE"}]},{"suggestion":"Class","rank":3,"doesMatchExactly":false,"expressionComponents":[{"label":"Class","type":"SIGNATURE"}]},{"suggestion":"Group","rank":4,"doesMatchExactly":false,"expressionComponents":[{"label":"Group","type":"SIGNATURE"}]},{"suggestion":"Person","rank":5,"doesMatchExactly":false,"expressionComponents":[{"label":"Person","type":"SIGNATURE"}]},{"suggestion":"Student","rank":6,"doesMatchExactly":false,"expressionComponents":[{"label":"Student","type":"SIGNATURE"}]},{"suggestion":"Teacher","rank":7,"doesMatchExactly":false,"expressionComponents":[{"label":"Teacher","type":"SIGNATURE"}]},{"suggestion":"Int","rank":8,"doesMatchExactly":false,"expressionComponents":[{"label":"Int","type":"OTHER"}]},{"suggestion":"String","rank":9,"doesMatchExactly":false,"expressionComponents":[{"label":"String","type":"OTHER"}]},{"suggestion":"none","rank":10,"doesMatchExactly":false,"expressionComponents":[{"label":"none","type":"CONSTANT"}]},{"suggestion":"univ","rank":11,"doesMatchExactly":false,"expressionComponents":[{"label":"univ","type":"CONSTANT"}]}],"completionGenerated":true,"suggestionExists":false,"suggestionInTop1":false,"suggestionInTop5":false,"suggestionInTop10":false,"suggestionInTop1Alpha":false,"suggestionInTop5Alpha":false,"suggestionInTop10Alpha":false,"suggestionInTop1Len":false,"suggestionInTop5Len":false,"suggestionInTop10Len":false,"expectedCompletionWord":"g","expectedCompletionLine":"g in Groups","elapsedTimeInMs":15.083542}
+{
+  "modelName": "classroom-fol",
+  "filename": "completion/classroom-fol-complete.als",
+  "offset": 780,
+  "term": " -> ",
+  "line": 53,
+  "character": 54,
+  "incompletionLine": "all c: Class, s: Student | some g: Group | c -> s ->",
+  "completionList": "c, g, s, Class, Group, Person, Student, Teacher, Int, String, none, univ",
+  "evaluationResult": [
+    {
+      "suggestion": "c",
+      "rank": 1,
+      "doesMatchExactly": false,
+      "startsWithSuggestion": false,
+      "doesCompile": false,
+      "expressionComponents": [
+        {
+          "label": "c",
+          "type": "VARIABLE"
+        }
+      ]
+    },
+    {
+      "suggestion": "g",
+      "rank": 2,
+      "doesMatchExactly": true,
+      "startsWithSuggestion": true,
+      "doesCompile": false,
+      "expressionComponents": [
+        {
+          "label": "g",
+          "type": "OTHER"
+        }
+      ]
+    },
+    {
+      "suggestion": "s",
+      "rank": 3,
+      "doesMatchExactly": false,
+      "startsWithSuggestion": false,
+      "doesCompile": false,
+      "expressionComponents": [
+        {
+          "label": "s",
+          "type": "VARIABLE"
+        }
+      ]
+    },
+    {
+      "suggestion": "Class",
+      "rank": 4,
+      "doesMatchExactly": false,
+      "startsWithSuggestion": false,
+      "doesCompile": false,
+      "expressionComponents": [
+        {
+          "label": "Class",
+          "type": "SIGNATURE"
+        }
+      ]
+    },
+    {
+      "suggestion": "Group",
+      "rank": 5,
+      "doesMatchExactly": false,
+      "startsWithSuggestion": false,
+      "doesCompile": false,
+      "expressionComponents": [
+        {
+          "label": "Group",
+          "type": "SIGNATURE"
+        }
+      ]
+    },
+    {
+      "suggestion": "Person",
+      "rank": 6,
+      "doesMatchExactly": false,
+      "startsWithSuggestion": false,
+      "doesCompile": false,
+      "expressionComponents": [
+        {
+          "label": "Person",
+          "type": "SIGNATURE"
+        }
+      ]
+    },
+    {
+      "suggestion": "Student",
+      "rank": 7,
+      "doesMatchExactly": false,
+      "startsWithSuggestion": false,
+      "doesCompile": false,
+      "expressionComponents": [
+        {
+          "label": "Student",
+          "type": "SIGNATURE"
+        }
+      ]
+    },
+    {
+      "suggestion": "Teacher",
+      "rank": 8,
+      "doesMatchExactly": false,
+      "startsWithSuggestion": false,
+      "doesCompile": false,
+      "expressionComponents": [
+        {
+          "label": "Teacher",
+          "type": "SIGNATURE"
+        }
+      ]
+    },
+    {
+      "suggestion": "Int",
+      "rank": 9,
+      "doesMatchExactly": false,
+      "startsWithSuggestion": false,
+      "doesCompile": false,
+      "expressionComponents": [
+        {
+          "label": "Int",
+          "type": "OTHER"
+        }
+      ]
+    },
+    {
+      "suggestion": "String",
+      "rank": 10,
+      "doesMatchExactly": false,
+      "startsWithSuggestion": false,
+      "doesCompile": false,
+      "expressionComponents": [
+        {
+          "label": "String",
+          "type": "OTHER"
+        }
+      ]
+    },
+    {
+      "suggestion": "none",
+      "rank": 11,
+      "doesMatchExactly": false,
+      "startsWithSuggestion": false,
+      "doesCompile": false,
+      "expressionComponents": [
+        {
+          "label": "none",
+          "type": "CONSTANT"
+        }
+      ]
+    },
+    {
+      "suggestion": "univ",
+      "rank": 12,
+      "doesMatchExactly": false,
+      "startsWithSuggestion": false,
+      "doesCompile": false,
+      "expressionComponents": [
+        {
+          "label": "univ",
+          "type": "CONSTANT"
+        }
+      ]
+    }
+  ],
+  "completionGenerated": true,
+  "suggestionExists": true,
+  "suggestionInTop1": false,
+  "suggestionInTop5": true,
+  "suggestionInTop10": true,
+  "suggestionInTop1Alpha": false,
+  "suggestionInTop5Alpha": true,
+  "suggestionInTop10Alpha": true,
+  "suggestionInTop1Len": false,
+  "suggestionInTop5Len": true,
+  "suggestionInTop10Len": true,
+  "expectedCompletionWord": "g",
+  "expectedCompletionLine": "g in Groups",
+  "elapsedTimeInMs": 14.896542,
+  "preprocessingTime": "4",
+  "parsingTime": "1",
+  "generationTime": "0"
+}

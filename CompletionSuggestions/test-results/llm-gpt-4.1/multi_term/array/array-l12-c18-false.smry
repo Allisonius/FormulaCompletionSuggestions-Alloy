@@ -1,0 +1,29 @@
+Model name: array
+Filename: completion/array-complete.als
+Offset: 230
+Term: .
+Vscode Position: line=11 character=18
+----------------------------------
+12 |   Element = Array.
+----------------------------------
+Expected Completion word: i2e
+Expected Completion line: i2e[Int]
+Suggestion exists: false
+Completion List:
+# Suggestion 	 Exact 	 Syntactic 	 Semantic
+$1. Array.i2e 	 false 	 false 	 false
+$2. Array.i2e.Element 	 false 	 false 	 false
+$3. Array.i2e.~i2e 	 false 	 undefined 	 undefined
+$4. Array.i2e^ 	 false 	 undefined 	 undefined
+$5. Array.i2e* 	 false 	 undefined 	 undefined
+$6. ~Array.i2e 	 false 	 undefined 	 undefined
+$7. Array.length 	 false 	 false 	 false
+$8. Array.length + Array.length 	 false 	 false 	 false
+$9. Array.length & Array.length 	 false 	 false 	 false
+$10. univ 	 false 	 false 	 false
+$11. Element 	 false 	 false 	 false
+
+Time taken: 5083.417
+Preprocessing time: N/A
+Parsing time: N/A
+Generation time: N/A

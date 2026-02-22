@@ -48,4 +48,19 @@ public class ExpectedTermExtractionTest {
 		var expectedTerms = AlloyExpressionParsingUtils.findLeadingExpression(expr);
 		assertThat(expectedTerms, is("Person"));
 	}
+
+	@Test
+	public void testExtractionWithIncompleteParentheses() {
+		String expr = "Person).age";
+		var expectedTerms = AlloyExpressionParsingUtils.findLeadingExpression(expr);
+		assertThat(expectedTerms, is("Person"));
+	}
+
+	//p.(c.grades) implies some p.projects & c.projects
+	@Test
+	public void testExtractionWithComplexExpression() {
+		String expr = "p.(c.grades) implies some p.projects & c.projects";
+		var expectedTerms = AlloyExpressionParsingUtils.findLeadingExpression(expr);
+		assertThat(expectedTerms, is("p.(c.grades)"));
+	}
 }

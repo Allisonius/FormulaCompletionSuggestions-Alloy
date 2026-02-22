@@ -35,7 +35,9 @@
       "outFiles": ["${workspaceRoot}/client/out/test/**/*.js"],
       "preLaunchTask": "npm: compile",
       "env": {
-        "SERVER_DEBUG": "true"
+        "SERVER_DEBUG": "true",
+        "SKIP_SUGGESTION_IMPACT": "true"
+        // "ONLY_COMPLETION_POSITION": "{\"line\": 59, \"character\": 52}"
       }
     },
     {
@@ -49,7 +51,10 @@
         "${workspaceRoot}/client/testFixture"
       ],
       "outFiles": ["${workspaceRoot}/client/out/test/**/*.js"],
-      "preLaunchTask": "npm: compile"
+      "preLaunchTask": "npm: compile",
+      "env": {
+        "SKIP_SUGGESTION_IMPACT": "true"
+      }
     },
     {
       "name": "E2E Test: Generator Completion",
@@ -64,7 +69,28 @@
       "outFiles": ["${workspaceRoot}/client/out/test/**/*.js"],
       "preLaunchTask": "npm: compile",
       "env": {
-        "GENERATOR_COMPLETION": "true"
+        "GENERATOR_COMPLETION": "true",
+        "SKIP_SUGGESTION_IMPACT": "true"
+      }
+    },
+    {
+      "name": "E2E Test: LLM Completion",
+      "type": "extensionHost",
+      "request": "launch",
+      "runtimeExecutable": "${execPath}",
+      "timeout": 1000000,
+      "args": [
+        "--extensionDevelopmentPath=${workspaceRoot}",
+        "--extensionTestsPath=${workspaceRoot}/client/out/test/multi-term-tests.js",
+        "${workspaceRoot}/client/testFixture"
+      ],
+      "outFiles": ["${workspaceRoot}/client/out/test/**/*.js"],
+      "preLaunchTask": "npm: compile",
+      "env": {
+        "LLM_COMPLETION": "true",
+        "SKIP_SUGGESTION_IMPACT": "true",
+        "LLM_MODEL": "gpt-5 mini"
+        // "ONLY_COMPLETION_POSITION": "{\"line\": 67, \"character\": -1}"
       }
     },
     {
@@ -79,6 +105,36 @@
       ],
       "outFiles": ["${workspaceRoot}/client/out/test/**/*.js"],
       "preLaunchTask": "npm: compile"
+    },
+    {
+      "name": "E2E Test: Model Stats",
+      "type": "extensionHost",
+      "request": "launch",
+      "runtimeExecutable": "${execPath}",
+      "args": [
+        "--extensionDevelopmentPath=${workspaceRoot}",
+        "--extensionTestsPath=${workspaceRoot}/client/out/test/model-stats-tests.js",
+        "${workspaceRoot}/client/testFixture"
+      ],
+      "outFiles": ["${workspaceRoot}/client/out/test/**/*.js"],
+      "preLaunchTask": "npm: compile"
+    },
+    {
+      "name": "E2E Test: Evaluate Suggestions",
+      "type": "extensionHost",
+      "request": "launch",
+      "runtimeExecutable": "${execPath}",
+      "args": [
+        "--extensionDevelopmentPath=${workspaceRoot}",
+        "--extensionTestsPath=${workspaceRoot}/client/out/test/evaluate-suggestions-tests.js",
+        "${workspaceRoot}/client/testFixture"
+      ],
+      "outFiles": ["${workspaceRoot}/client/out/test/**/*.js"],
+      "preLaunchTask": "npm: compile",
+      "env": {
+        "LLM_COMPLETION": "false",
+        "LLM_MODEL": "gpt-4.1"
+      }
     },
     {
       "name": "Sample Test",

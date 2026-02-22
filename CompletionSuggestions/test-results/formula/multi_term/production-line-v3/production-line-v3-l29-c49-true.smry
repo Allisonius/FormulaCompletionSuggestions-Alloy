@@ -6,6 +6,9 @@ Vscode Position: line=28 character=49
 ----------------------------------
 29 | 	all w:Worker | one work:Workstation|  w in work.
 ----------------------------------
+Expected Completion word: workers
+Expected Completion line: workers
+Suggestion exists: true
 Completion List:
 # Suggestion 	 Exact 	 Syntactic 	 Semantic
 $1. *succ.work 	 false 	 undefined 	 undefined
@@ -29,40 +32,41 @@ $18. ~succ.Workstation 	 false 	 undefined 	 undefined
 $19. ~succ.begin 	 false 	 undefined 	 undefined
 $20. ~succ.end 	 false 	 undefined 	 undefined
 $21. ~workstation.Component 	 false 	 undefined 	 undefined
-$22. *succ.workers 	 false 	 undefined 	 undefined
-$23. ^succ.workers 	 false 	 undefined 	 undefined
-$24. succ 	 false 	 undefined 	 undefined
-$25. succ.univ 	 false 	 undefined 	 undefined
-$26. succ.workers 	 false 	 undefined 	 undefined
-$27. succ.~workstation 	 false 	 undefined 	 undefined
-$28. workers 	 true 	 undefined 	 undefined
-$29. workers.univ 	 false 	 undefined 	 undefined
-$30. ~succ.workers 	 false 	 undefined 	 undefined
-$31. *succ.~workstation 	 false 	 undefined 	 undefined
-$32. ^succ.~workstation 	 false 	 undefined 	 undefined
-$33. ~succ 	 false 	 undefined 	 undefined
-$34. ~succ.univ 	 false 	 undefined 	 undefined
-$35. ~succ.~workstation 	 false 	 undefined 	 undefined
-$36. ~workstation 	 false 	 undefined 	 undefined
-$37. ~workstation.univ 	 false 	 undefined 	 undefined
-$38. ^succ 	 false 	 undefined 	 undefined
-$39. ^succ.univ 	 false 	 undefined 	 undefined
-$40. *succ 	 false 	 undefined 	 undefined
-$41. *succ.univ 	 false 	 undefined 	 undefined
-Expected Completion word: workers
-Expected Completion line: workers
-Suggestion exists: true
+$22. ~workstation.Dangerous 	 false 	 undefined 	 undefined
+$23. ~workstation.Material 	 false 	 undefined 	 undefined
+$24. ~workstation.Product 	 false 	 undefined 	 undefined
+$25. *succ.workers 	 false 	 undefined 	 undefined
+$26. *succ.workers 	 false 	 undefined 	 undefined
+$27. ^succ.workers 	 false 	 undefined 	 undefined
+$28. ^succ.workers 	 false 	 undefined 	 undefined
+$29. succ 	 false 	 undefined 	 undefined
+$30. succ.univ 	 false 	 undefined 	 undefined
+$31. succ.workers 	 false 	 undefined 	 undefined
+$32. succ.workers 	 false 	 undefined 	 undefined
+$33. succ.~workstation 	 false 	 undefined 	 undefined
+$34. workers 	 true 	 undefined 	 undefined
+$35. workers 	 true 	 undefined 	 undefined
+$36. workers.univ 	 false 	 undefined 	 undefined
+$37. ~succ.workers 	 false 	 undefined 	 undefined
+$38. ~succ.workers 	 false 	 undefined 	 undefined
+$39. ~workstation.parts 	 false 	 undefined 	 undefined
+$40. *succ.~workstation 	 false 	 undefined 	 undefined
+$41. ^succ.~workstation 	 false 	 undefined 	 undefined
+$42. ~succ 	 false 	 undefined 	 undefined
+$43. ~succ.univ 	 false 	 undefined 	 undefined
+$44. ~succ.~workstation 	 false 	 undefined 	 undefined
+$45. ~workstation 	 false 	 undefined 	 undefined
+$46. ~workstation.*parts 	 false 	 undefined 	 undefined
+$47. ~workstation.^parts 	 false 	 undefined 	 undefined
+$48. ~workstation.univ 	 false 	 undefined 	 undefined
+$49. ~workstation.~parts 	 false 	 undefined 	 undefined
+$50. ^succ 	 false 	 undefined 	 undefined
+$51. ^succ.univ 	 false 	 undefined 	 undefined
+$52.  	 false 	 undefined 	 undefined
+$53. *succ 	 false 	 undefined 	 undefined
+$54. *succ.univ 	 false 	 undefined 	 undefined
 
-Suggestion in top 1 = false 
-Suggestion in top 5 = false 
-Suggestion in top 10 = false 
-
-Suggestion in top 1 (Alpha) = false
-Suggestion in top 5 (Alpha) = false
-Suggestion in top 10 (Alpha) = false
-
-Suggestion in top 1 (Len) = false
-Suggestion in top 5 (Len) = true
-Suggestion in top 10 (Len) = true
-
-Time taken: 47.600083
+Time taken: 13.433667
+Preprocessing time: 3
+Parsing time: 1
+Generation time: 2

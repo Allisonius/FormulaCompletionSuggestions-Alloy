@@ -1,0 +1,29 @@
+Model name: frankervrep
+Filename: completion/frankenvrep-sig.als
+Offset: 2831
+Term: .
+Vscode Position: line=121 character=41
+----------------------------------
+122 |     HapticsDisabled in	UsedGeomagicTouch.
+----------------------------------
+Expected Completion word: force
+Expected Completion line: force
+Suggestion exists: true
+Completion List:
+# Suggestion 	 Exact 	 Syntactic 	 Semantic
+$1. force.HapticFeedback 	 false 	 false 	 false
+$2. force.HapticsDisabled 	 false 	 false 	 false
+$3. force.HapticsEnabled 	 false 	 false 	 false
+$4. input.Coordinate 	 false 	 false 	 false
+$5. input.xyz_input 	 false 	 false 	 false
+$6. force 	 true 	 true 	 true
+$7. force 	 true 	 true 	 true
+$8. force.univ 	 false 	 false 	 false
+$9. input 	 false 	 false 	 false
+$10. input.univ 	 false 	 false 	 false
+$11.  	 false 	 false 	 false
+
+Time taken: 29.410625
+Preprocessing time: 3
+Parsing time: 1
+Generation time: 0

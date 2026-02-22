@@ -1,0 +1,44 @@
+Model name: classroom-fol
+Filename: completion/classroom-fol-complete.als
+Offset: 1032
+Term: .
+Vscode Position: line=68 character=43
+----------------------------------
+69 | 	all c: Class, p: Person | p in (c.Groups).
+----------------------------------
+Expected Completion word: Group
+Expected Completion line: Group implies Teaches.c -> p in Tutors
+Suggestion exists: false
+Completion List:
+# Suggestion 	 Exact 	 Syntactic 	 Semantic
+$1. Groups 	 false 	 undefined 	 undefined
+$2. Groups.p 	 false 	 undefined 	 undefined
+$3. Groups.p.Tutors 	 false 	 undefined 	 undefined
+$4. Groups.p.Teaches 	 false 	 undefined 	 undefined
+$5. Groups.p.Tutors 	 false 	 undefined 	 undefined
+$6. Groups.p.Tutors.Tutors 	 false 	 undefined 	 undefined
+$7. Groups.p.Tutors.Teaches 	 false 	 undefined 	 undefined
+$8. Groups.p.Teaches.Groups 	 false 	 undefined 	 undefined
+$9. Groups.p.Teaches 	 false 	 undefined 	 undefined
+$10. Groups.p.Teaches.Groups 	 false 	 undefined 	 undefined
+$11. Groups.p.Teaches.Groups.p 	 false 	 undefined 	 undefined
+$12. Groups.p.Teaches.Groups.p.Tutors 	 false 	 undefined 	 undefined
+$13. Groups.p.Teaches.Groups.p.Teaches 	 false 	 undefined 	 undefined
+$14. Groups.p.Teaches.Groups.p.Tutors.Tutors 	 false 	 undefined 	 undefined
+$15. Groups.p.Teaches.Groups.p.Tutors.Teaches 	 false 	 undefined 	 undefined
+$16. Groups.p.Teaches.Groups.p.Teaches.Groups 	 false 	 undefined 	 undefined
+$17. Groups.p.Teaches.Groups.p.Teaches 	 false 	 undefined 	 undefined
+$18. Groups.p.Teaches.Groups.p.Teaches.Groups 	 false 	 undefined 	 undefined
+$19. Groups.p.Teaches.Groups.p.Teaches.Groups.p 	 false 	 undefined 	 undefined
+$20. Groups.p.Teaches.Groups.p.Teaches.Groups.p.Tutors 	 false 	 undefined 	 undefined
+$21. Groups.p.Teaches.Groups.p.Teaches.Groups.p.Teaches 	 false 	 undefined 	 undefined
+$22. ~Groups 	 false 	 undefined 	 undefined
+$23. Groups + univ 	 false 	 undefined 	 undefined
+$24. Groups & univ 	 false 	 undefined 	 undefined
+$25. Groups^ 	 false 	 undefined 	 undefined
+$26. Groups* 	 false 	 undefined 	 undefined
+
+Time taken: 6779.639416
+Preprocessing time: N/A
+Parsing time: N/A
+Generation time: N/A

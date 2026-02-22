@@ -1,0 +1,19 @@
+Model name: git
+Filename: completion/git-complete.als
+Offset: 9530
+Term:  & 
+Vscode Position: line=438 character=66
+----------------------------------
+439 | 	{n : current.s - Root | n in f.*parent.samepath and (*parent.n & 
+----------------------------------
+Expected Completion word: undefined
+Expected Completion line: current.s) in f.*parent.samepath and (some d : *parent.n & current.s | f in parent.d)}
+Suggestion exists: false
+Completion List:
+# Suggestion 	 Exact 	 Syntactic 	 Semantic
+
+
+Time taken: 70.756542
+Preprocessing time: N/A
+Parsing time: N/A
+Generation time: N/A

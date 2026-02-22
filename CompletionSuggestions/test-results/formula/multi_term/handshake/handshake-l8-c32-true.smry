@@ -6,6 +6,9 @@ Vscode Position: line=7 character=32
 ----------------------------------
 8 | one sig Jocelyn, Hilary extends 
 ----------------------------------
+Expected Completion word: Person
+Expected Completion line: Person {}
+Suggestion exists: true
 Completion List:
 # Suggestion 	 Exact 	 Syntactic 	 Semantic
 $1. Hilary 	 false 	 false 	 false
@@ -15,20 +18,8 @@ $4. Int 	 false 	 false 	 false
 $5. String 	 false 	 false 	 false
 $6. none 	 false 	 false 	 false
 $7. univ 	 false 	 false 	 false
-Expected Completion word: Person
-Expected Completion line: Person {}
-Suggestion exists: true
 
-Suggestion in top 1 = false 
-Suggestion in top 5 = true 
-Suggestion in top 10 = true 
-
-Suggestion in top 1 (Alpha) = false
-Suggestion in top 5 (Alpha) = true
-Suggestion in top 10 (Alpha) = true
-
-Suggestion in top 1 (Len) = false
-Suggestion in top 5 (Len) = true
-Suggestion in top 10 (Len) = true
-
-Time taken: 14.177834
+Time taken: 15.785458
+Preprocessing time: 4
+Parsing time: 2
+Generation time: 0

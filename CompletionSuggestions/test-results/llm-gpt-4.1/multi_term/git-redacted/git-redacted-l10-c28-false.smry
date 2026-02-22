@@ -1,0 +1,38 @@
+Model name: git-redacted
+Filename: completion/git-sig.als
+Offset: 140
+Term:  -> 
+Vscode Position: line=9 character=28
+----------------------------------
+10 | 	belongsTo : Object lone -> 
+----------------------------------
+Expected Completion word: Commit
+Expected Completion line: Commit,
+Suggestion exists: false
+Completion List:
+# Suggestion 	 Exact 	 Syntactic 	 Semantic
+$1. Object 	 false 	 false 	 false
+$2. Object.stored 	 false 	 false 	 false
+$3. Object.stored^ 	 false 	 undefined 	 undefined
+$4. Object.stored* 	 false 	 undefined 	 undefined
+$5. Object.~stored 	 false 	 false 	 false
+$6. Object+univ 	 false 	 false 	 false
+$7. Object&univ 	 false 	 false 	 false
+$8. Object-Object 	 false 	 false 	 false
+$9. Object->Object 	 false 	 false 	 false
+$10. Object->univ 	 false 	 false 	 false
+$11. Object->State 	 false 	 false 	 false
+$12. Object->Commit 	 false 	 false 	 false
+$13. Object->Blob 	 false 	 false 	 false
+$14. Object->Tree 	 false 	 false 	 false
+$15. Object->Dir 	 false 	 false 	 false
+$16. Object->File 	 false 	 false 	 false
+$17. Object->Root 	 false 	 false 	 false
+$18. Object->Name 	 false 	 false 	 false
+$19. Object->Node 	 false 	 false 	 false
+$20. Object->Object 	 false 	 false 	 false
+
+Time taken: 6654.217583
+Preprocessing time: N/A
+Parsing time: N/A
+Generation time: N/A

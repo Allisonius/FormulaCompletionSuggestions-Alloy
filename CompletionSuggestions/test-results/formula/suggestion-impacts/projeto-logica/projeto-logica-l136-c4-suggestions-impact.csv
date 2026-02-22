@@ -1,0 +1,13 @@
+modelname,filename,position-line,position-character,incompleteline,removedtext,baseline,suggestionedExpression,A_iff_B,A_and_B,not_A_and_B,A_and_not_B,not_A_and_not_B,suggestionImpactTime
+projeto-logica,completion/ProjetoLogica-complete.als,136,4,"su.","statusDoSuporte.tt = SuporteAcionado","{}","\tsu.statusDoSuporte.t",,,,,,53.046375
+projeto-logica,completion/ProjetoLogica-complete.als,136,4,"su.","statusDoSuporte.tt = SuporteAcionado","{}","\tsu.statusDoSuporte.tt",,,,,,53.046375
+projeto-logica,completion/ProjetoLogica-complete.als,136,4,"su.","statusDoSuporte.tt = SuporteAcionado","{}","\tsu.statusDoSuporte.Time",,,,,,53.046375
+projeto-logica,completion/ProjetoLogica-complete.als,136,4,"su.","statusDoSuporte.tt = SuporteAcionado","{}","\tsu.~suporte.Servidor",,,,,,53.046375
+projeto-logica,completion/ProjetoLogica-complete.als,136,4,"su.","statusDoSuporte.tt = SuporteAcionado","{}","\tsu.statusDoSuporte",,,,,,53.046375
+projeto-logica,completion/ProjetoLogica-complete.als,136,4,"su.","statusDoSuporte.tt = SuporteAcionado","{}","\tsu.statusDoSuporte.univ",,,,,,53.046375
+projeto-logica,completion/ProjetoLogica-complete.als,136,4,"su.","statusDoSuporte.tt = SuporteAcionado","{}","\tsu.~suporte.gerentes",,,,,,53.046375
+projeto-logica,completion/ProjetoLogica-complete.als,136,4,"su.","statusDoSuporte.tt = SuporteAcionado","{}","\tsu.~suporte.medicos",,,,,,53.046375
+projeto-logica,completion/ProjetoLogica-complete.als,136,4,"su.","statusDoSuporte.tt = SuporteAcionado","{}","\tsu.~suporte.pacientesCadastrados",,,,,,53.046375
+projeto-logica,completion/ProjetoLogica-complete.als,136,4,"su.","statusDoSuporte.tt = SuporteAcionado","{}","\tsu.~suporte.plataformaServidor",,,,,,53.046375
+projeto-logica,completion/ProjetoLogica-complete.als,136,4,"su.","statusDoSuporte.tt = SuporteAcionado","{}","\tsu.~suporte",,,,,,53.046375
+projeto-logica,completion/ProjetoLogica-complete.als,136,4,"su.","statusDoSuporte.tt = SuporteAcionado","{}","\tsu.~suporte.univ",,,,,,53.046375

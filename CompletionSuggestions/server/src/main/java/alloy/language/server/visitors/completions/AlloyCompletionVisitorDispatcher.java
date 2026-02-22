@@ -7,6 +7,7 @@ import alloy.language.server.completion.GeneratorCompletionProvider;
 import alloy.language.server.completion.VisitorRuleProvider;
 import alloy.language.server.utils.AlloyEvaluation;
 import alloy.language.server.utils.AlloyExpressionParsingUtils;
+import alloy.language.server.v2.CompletionContextExtractorCompletionProvider;
 import alloy.language.server.visitors.extractors.FunctionArgumentsExtractorVisitor;
 import alloy.language.server.visitors.extractors.PredicateParamExtractorVisitor;
 import alloy.language.server.visitors.extractors.QuantifierExtractorVisitor;
@@ -42,6 +43,12 @@ public class AlloyCompletionVisitorDispatcher {
                                                          CompletionParams position,
                                                          alloyParser.AlloyModuleContext tree) {
         Map<String, alloyParser.ExprContext> extractedMap = AlloyExpressionParsingUtils.extractDeclaredVariables(documentText, position, tree);
+        if (ConfigManager.getInstance().useNewCompletionProvider()) {
+            CompletionProvider contextExtractorCompletionProvider =
+                    new CompletionContextExtractorCompletionProvider(alloyEvaluation, tree);
+            var completions = contextExtractorCompletionProvider.provideCompletions(documentText, position, extractedMap);
+            return completions;
+        }
         if (ConfigManager.getInstance().useGeneratorCompletion()) {
             CompletionProvider generatorCompletionProvider =
                     new GeneratorCompletionProvider(alloyEvaluation, tree);

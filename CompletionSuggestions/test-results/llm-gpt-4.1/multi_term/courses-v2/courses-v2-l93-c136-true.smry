@@ -1,0 +1,37 @@
+Model name: courses-v2
+Filename: completion/courses-v2-complete.als
+Offset: 2532
+Term: .
+Vscode Position: line=92 character=136
+----------------------------------
+93 | 	all c : Course , p : c.projects , disj x , y : (Person <: projects).p | some c.grades[x] and some c.grades[y] implies c.grades[x] in c.
+----------------------------------
+Expected Completion word: grades[y].(prev+iden+next)
+Expected Completion line: grades[y].(prev + iden + next)
+Suggestion exists: true
+Completion List:
+# Suggestion 	 Exact 	 Syntactic 	 Semantic
+$1. grades[y] 	 false 	 undefined 	 undefined
+$2. grades[x] 	 false 	 undefined 	 undefined
+$3. grades 	 true 	 undefined 	 undefined
+$4. grades[x] 	 false 	 undefined 	 undefined
+$5. grades[y] 	 false 	 undefined 	 undefined
+$6. grades[x].~grades 	 false 	 undefined 	 undefined
+$7. grades[y].~grades 	 false 	 undefined 	 undefined
+$8. grades[x] + grades[y] 	 false 	 undefined 	 undefined
+$9. grades[x] & grades[y] 	 false 	 undefined 	 undefined
+$10. grades[x] - grades[y] 	 false 	 undefined 	 undefined
+$11. grades[x] + univ 	 false 	 undefined 	 undefined
+$12. grades[x] & univ 	 false 	 undefined 	 undefined
+$13. grades[x] - univ 	 false 	 undefined 	 undefined
+$14. grades[x].^grades 	 false 	 undefined 	 undefined
+$15. grades[x].*grades 	 false 	 undefined 	 undefined
+$16. grades[x].~grades 	 false 	 undefined 	 undefined
+$17. grades[y].^grades 	 false 	 undefined 	 undefined
+$18. grades[y].*grades 	 false 	 undefined 	 undefined
+$19. grades[y].~grades 	 false 	 undefined 	 undefined
+
+Time taken: 5994.679292
+Preprocessing time: N/A
+Parsing time: N/A
+Generation time: N/A

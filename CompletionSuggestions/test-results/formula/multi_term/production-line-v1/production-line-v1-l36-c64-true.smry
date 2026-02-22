@@ -6,99 +6,168 @@ Vscode Position: line=35 character=64
 ----------------------------------
 36 |     all c : Component | some (Robot <: position).(c.position) & 
 ----------------------------------
+Expected Completion word: Robot
+Expected Completion line: Robot
+Suggestion exists: true
 Completion List:
 # Suggestion 	 Exact 	 Syntactic 	 Semantic
 $1. *parts.c.position 	 false 	 undefined 	 undefined
 $2. ^parts.c.position 	 false 	 undefined 	 undefined
 $3. c 	 false 	 undefined 	 undefined
-$4. c.position 	 false 	 undefined 	 undefined
-$5. c.~parts.position 	 false 	 undefined 	 undefined
-$6. parts.c.position 	 false 	 undefined 	 undefined
-$7. ~parts.c.position 	 false 	 undefined 	 undefined
-$8. ~position.*parts.c 	 false 	 undefined 	 undefined
-$9. ~position.^parts.c 	 false 	 undefined 	 undefined
-$10. ~position.c 	 false 	 undefined 	 undefined
-$11. ~position.c.*parts 	 false 	 undefined 	 undefined
-$12. ~position.c.^parts 	 false 	 undefined 	 undefined
-$13. ~position.c.parts 	 false 	 undefined 	 undefined
-$14. ~position.c.position 	 false 	 undefined 	 undefined
-$15. ~position.c.~parts 	 false 	 undefined 	 undefined
-$16. ~position.parts.c 	 false 	 undefined 	 undefined
-$17. *parts.Component.position 	 false 	 undefined 	 undefined
-$18. Component 	 false 	 undefined 	 undefined
-$19. Component.position 	 false 	 undefined 	 undefined
-$20. Component.~parts.position 	 false 	 undefined 	 undefined
-$21. Position 	 false 	 undefined 	 undefined
-$22. Product 	 false 	 undefined 	 undefined
-$23. Product.~parts.position 	 false 	 undefined 	 undefined
-$24. Resource 	 false 	 undefined 	 undefined
-$25. Resource.~parts.position 	 false 	 undefined 	 undefined
-$26. Robot 	 true 	 undefined 	 undefined
-$27. Robot.position 	 false 	 undefined 	 undefined
-$28. ^parts.Component.position 	 false 	 undefined 	 undefined
-$29. parts.Component.position 	 false 	 undefined 	 undefined
-$30. position.Position.~position 	 false 	 undefined 	 undefined
-$31. ~parts.Component.position 	 false 	 undefined 	 undefined
-$32. ~position.*parts.Component 	 false 	 undefined 	 undefined
-$33. ~position.*parts.Product 	 false 	 undefined 	 undefined
-$34. ~position.*parts.Resource 	 false 	 undefined 	 undefined
-$35. ~position.Component 	 false 	 undefined 	 undefined
-$36. ~position.Component.*parts 	 false 	 undefined 	 undefined
-$37. ~position.Component.^parts 	 false 	 undefined 	 undefined
-$38. ~position.Component.parts 	 false 	 undefined 	 undefined
-$39. ~position.Component.position 	 false 	 undefined 	 undefined
-$40. ~position.Component.~parts 	 false 	 undefined 	 undefined
-$41. ~position.Robot 	 false 	 undefined 	 undefined
-$42. ~position.Robot.position 	 false 	 undefined 	 undefined
-$43. ~position.^parts.Component 	 false 	 undefined 	 undefined
-$44. ~position.^parts.Product 	 false 	 undefined 	 undefined
-$45. ~position.^parts.Resource 	 false 	 undefined 	 undefined
-$46. ~position.parts.Component 	 false 	 undefined 	 undefined
-$47. ~position.parts.Product 	 false 	 undefined 	 undefined
-$48. ~position.parts.Resource 	 false 	 undefined 	 undefined
-$49. *parts.univ.position 	 false 	 undefined 	 undefined
-$50. ^parts.univ.position 	 false 	 undefined 	 undefined
-$51. parts.univ.position 	 false 	 undefined 	 undefined
-$52. parts.univ.~position 	 false 	 undefined 	 undefined
-$53. position.univ.*parts 	 false 	 undefined 	 undefined
-$54. position.univ.^parts 	 false 	 undefined 	 undefined
-$55. position.univ.parts 	 false 	 undefined 	 undefined
-$56. position.univ.position 	 false 	 undefined 	 undefined
-$57. position.univ.~parts 	 false 	 undefined 	 undefined
-$58. position.univ.~position 	 false 	 undefined 	 undefined
-$59. univ.position 	 false 	 undefined 	 undefined
-$60. univ.~parts.position 	 false 	 undefined 	 undefined
-$61. ~parts.univ.position 	 false 	 undefined 	 undefined
-$62. ~position.parts.univ 	 false 	 undefined 	 undefined
-$63. ~position.univ.parts 	 false 	 undefined 	 undefined
-$64. ~position.univ.position 	 false 	 undefined 	 undefined
-$65. *parts.univ.~position 	 false 	 undefined 	 undefined
-$66. ^parts.univ.~position 	 false 	 undefined 	 undefined
-$67. ~parts.univ.~position 	 false 	 undefined 	 undefined
-$68. ~position.*parts.univ 	 false 	 undefined 	 undefined
-$69. ~position.^parts.univ 	 false 	 undefined 	 undefined
-$70. ~position.univ 	 false 	 undefined 	 undefined
-$71. ~position.univ.*parts 	 false 	 undefined 	 undefined
-$72. ~position.univ.^parts 	 false 	 undefined 	 undefined
-$73. ~position.univ.~parts 	 false 	 undefined 	 undefined
-$74. Int 	 false 	 undefined 	 undefined
-$75. String 	 false 	 undefined 	 undefined
-$76. none 	 false 	 undefined 	 undefined
-$77. univ 	 false 	 undefined 	 undefined
-Expected Completion word: Robot
-Expected Completion line: Robot
-Suggestion exists: true
+$4. c.*parts.position 	 false 	 undefined 	 undefined
+$5. c.^parts.position 	 false 	 undefined 	 undefined
+$6. c.parts.position 	 false 	 undefined 	 undefined
+$7. c.position 	 false 	 undefined 	 undefined
+$8. c.~parts.position 	 false 	 undefined 	 undefined
+$9. parts.c.position 	 false 	 undefined 	 undefined
+$10. ~parts.c.position 	 false 	 undefined 	 undefined
+$11. ~position.*parts.c 	 false 	 undefined 	 undefined
+$12. ~position.^parts.c 	 false 	 undefined 	 undefined
+$13. ~position.c 	 false 	 undefined 	 undefined
+$14. ~position.c.*parts 	 false 	 undefined 	 undefined
+$15. ~position.c.^parts 	 false 	 undefined 	 undefined
+$16. ~position.c.parts 	 false 	 undefined 	 undefined
+$17. ~position.c.position 	 false 	 undefined 	 undefined
+$18. ~position.c.~parts 	 false 	 undefined 	 undefined
+$19. ~position.parts.c 	 false 	 undefined 	 undefined
+$20. ~position.~parts.c 	 false 	 undefined 	 undefined
+$21. *parts.Component.position 	 false 	 undefined 	 undefined
+$22. *parts.Product.position 	 false 	 undefined 	 undefined
+$23. *parts.Resource.position 	 false 	 undefined 	 undefined
+$24. Component 	 false 	 undefined 	 undefined
+$25. Component.*parts.position 	 false 	 undefined 	 undefined
+$26. Component.^parts.position 	 false 	 undefined 	 undefined
+$27. Component.parts.position 	 false 	 undefined 	 undefined
+$28. Component.position 	 false 	 undefined 	 undefined
+$29. Component.~parts.position 	 false 	 undefined 	 undefined
+$30. Position 	 false 	 undefined 	 undefined
+$31. Position 	 false 	 undefined 	 undefined
+$32. Product 	 false 	 undefined 	 undefined
+$33. Product.*parts.position 	 false 	 undefined 	 undefined
+$34. Product.^parts.position 	 false 	 undefined 	 undefined
+$35. Product.parts.position 	 false 	 undefined 	 undefined
+$36. Product.position 	 false 	 undefined 	 undefined
+$37. Product.~parts.position 	 false 	 undefined 	 undefined
+$38. Resource 	 false 	 undefined 	 undefined
+$39. Resource.*parts 	 false 	 undefined 	 undefined
+$40. Resource.*parts.position 	 false 	 undefined 	 undefined
+$41. Resource.^parts 	 false 	 undefined 	 undefined
+$42. Resource.^parts.position 	 false 	 undefined 	 undefined
+$43. Resource.parts 	 false 	 undefined 	 undefined
+$44. Resource.parts.position 	 false 	 undefined 	 undefined
+$45. Resource.position 	 false 	 undefined 	 undefined
+$46. Resource.~parts.position 	 false 	 undefined 	 undefined
+$47. Robot 	 true 	 undefined 	 undefined
+$48. Robot.position 	 false 	 undefined 	 undefined
+$49. ^parts.Component.position 	 false 	 undefined 	 undefined
+$50. ^parts.Product.position 	 false 	 undefined 	 undefined
+$51. ^parts.Resource.position 	 false 	 undefined 	 undefined
+$52. parts.Component.position 	 false 	 undefined 	 undefined
+$53. parts.Product.position 	 false 	 undefined 	 undefined
+$54. parts.Resource.position 	 false 	 undefined 	 undefined
+$55. position.Position.~position 	 false 	 undefined 	 undefined
+$56. position.Position.~position 	 false 	 undefined 	 undefined
+$57. position.Position.~position 	 false 	 undefined 	 undefined
+$58. position.Position.~position 	 false 	 undefined 	 undefined
+$59. ~parts.Component.position 	 false 	 undefined 	 undefined
+$60. ~parts.Product.position 	 false 	 undefined 	 undefined
+$61. ~parts.Resource 	 false 	 undefined 	 undefined
+$62. ~parts.Resource.*parts 	 false 	 undefined 	 undefined
+$63. ~parts.Resource.^parts 	 false 	 undefined 	 undefined
+$64. ~parts.Resource.parts 	 false 	 undefined 	 undefined
+$65. ~parts.Resource.position 	 false 	 undefined 	 undefined
+$66. ~parts.Resource.~parts 	 false 	 undefined 	 undefined
+$67. ~position.*parts.Component 	 false 	 undefined 	 undefined
+$68. ~position.*parts.Product 	 false 	 undefined 	 undefined
+$69. ~position.*parts.Resource 	 false 	 undefined 	 undefined
+$70. ~position.Component 	 false 	 undefined 	 undefined
+$71. ~position.Component.*parts 	 false 	 undefined 	 undefined
+$72. ~position.Component.^parts 	 false 	 undefined 	 undefined
+$73. ~position.Component.parts 	 false 	 undefined 	 undefined
+$74. ~position.Component.position 	 false 	 undefined 	 undefined
+$75. ~position.Component.~parts 	 false 	 undefined 	 undefined
+$76. ~position.Product 	 false 	 undefined 	 undefined
+$77. ~position.Product.*parts 	 false 	 undefined 	 undefined
+$78. ~position.Product.^parts 	 false 	 undefined 	 undefined
+$79. ~position.Product.parts 	 false 	 undefined 	 undefined
+$80. ~position.Product.position 	 false 	 undefined 	 undefined
+$81. ~position.Product.~parts 	 false 	 undefined 	 undefined
+$82. ~position.Resource 	 false 	 undefined 	 undefined
+$83. ~position.Resource.*parts 	 false 	 undefined 	 undefined
+$84. ~position.Resource.^parts 	 false 	 undefined 	 undefined
+$85. ~position.Resource.parts 	 false 	 undefined 	 undefined
+$86. ~position.Resource.position 	 false 	 undefined 	 undefined
+$87. ~position.Resource.~parts 	 false 	 undefined 	 undefined
+$88. ~position.Robot 	 false 	 undefined 	 undefined
+$89. ~position.Robot.position 	 false 	 undefined 	 undefined
+$90. ~position.^parts.Component 	 false 	 undefined 	 undefined
+$91. ~position.^parts.Product 	 false 	 undefined 	 undefined
+$92. ~position.^parts.Resource 	 false 	 undefined 	 undefined
+$93. ~position.parts.Component 	 false 	 undefined 	 undefined
+$94. ~position.parts.Product 	 false 	 undefined 	 undefined
+$95. ~position.parts.Resource 	 false 	 undefined 	 undefined
+$96. ~position.~parts.Component 	 false 	 undefined 	 undefined
+$97. ~position.~parts.Product 	 false 	 undefined 	 undefined
+$98. ~position.~parts.Resource 	 false 	 undefined 	 undefined
+$99. *parts.univ.position 	 false 	 undefined 	 undefined
+$100. *parts.univ.position 	 false 	 undefined 	 undefined
+$101. ^parts.univ.position 	 false 	 undefined 	 undefined
+$102. ^parts.univ.position 	 false 	 undefined 	 undefined
+$103. parts.univ.position 	 false 	 undefined 	 undefined
+$104. parts.univ.position 	 false 	 undefined 	 undefined
+$105. parts.univ.~position 	 false 	 undefined 	 undefined
+$106. parts.univ.~position 	 false 	 undefined 	 undefined
+$107. position.univ.*parts 	 false 	 undefined 	 undefined
+$108. position.univ.^parts 	 false 	 undefined 	 undefined
+$109. position.univ.parts 	 false 	 undefined 	 undefined
+$110. position.univ.position 	 false 	 undefined 	 undefined
+$111. position.univ.position 	 false 	 undefined 	 undefined
+$112. position.univ.position 	 false 	 undefined 	 undefined
+$113. position.univ.position 	 false 	 undefined 	 undefined
+$114. position.univ.~parts 	 false 	 undefined 	 undefined
+$115. position.univ.~position 	 false 	 undefined 	 undefined
+$116. position.univ.~position 	 false 	 undefined 	 undefined
+$117. position.univ.~position 	 false 	 undefined 	 undefined
+$118. position.univ.~position 	 false 	 undefined 	 undefined
+$119. univ.*parts.position 	 false 	 undefined 	 undefined
+$120. univ.^parts.position 	 false 	 undefined 	 undefined
+$121. univ.parts.position 	 false 	 undefined 	 undefined
+$122. univ.position 	 false 	 undefined 	 undefined
+$123. univ.position 	 false 	 undefined 	 undefined
+$124. univ.~parts.position 	 false 	 undefined 	 undefined
+$125. ~parts.univ.position 	 false 	 undefined 	 undefined
+$126. ~parts.univ.position 	 false 	 undefined 	 undefined
+$127. ~position.parts.univ 	 false 	 undefined 	 undefined
+$128. ~position.univ.parts 	 false 	 undefined 	 undefined
+$129. ~position.univ.parts 	 false 	 undefined 	 undefined
+$130. ~position.univ.position 	 false 	 undefined 	 undefined
+$131. ~position.univ.position 	 false 	 undefined 	 undefined
+$132. ~position.univ.position 	 false 	 undefined 	 undefined
+$133. ~position.univ.position 	 false 	 undefined 	 undefined
+$134. *parts.univ.~position 	 false 	 undefined 	 undefined
+$135. *parts.univ.~position 	 false 	 undefined 	 undefined
+$136. ^parts.univ.~position 	 false 	 undefined 	 undefined
+$137. ^parts.univ.~position 	 false 	 undefined 	 undefined
+$138. ~parts.univ.~position 	 false 	 undefined 	 undefined
+$139. ~parts.univ.~position 	 false 	 undefined 	 undefined
+$140. ~position.*parts.univ 	 false 	 undefined 	 undefined
+$141. ~position.^parts.univ 	 false 	 undefined 	 undefined
+$142. ~position.univ 	 false 	 undefined 	 undefined
+$143. ~position.univ 	 false 	 undefined 	 undefined
+$144. ~position.univ.*parts 	 false 	 undefined 	 undefined
+$145. ~position.univ.*parts 	 false 	 undefined 	 undefined
+$146. ~position.univ.^parts 	 false 	 undefined 	 undefined
+$147. ~position.univ.^parts 	 false 	 undefined 	 undefined
+$148. ~position.univ.~parts 	 false 	 undefined 	 undefined
+$149. ~position.univ.~parts 	 false 	 undefined 	 undefined
+$150. ~position.~parts.univ 	 false 	 undefined 	 undefined
+$151. univ 	 false 	 undefined 	 undefined
+$152. Int 	 false 	 undefined 	 undefined
+$153. String 	 false 	 undefined 	 undefined
+$154. none 	 false 	 undefined 	 undefined
+$155. univ 	 false 	 undefined 	 undefined
 
-Suggestion in top 1 = false 
-Suggestion in top 5 = false 
-Suggestion in top 10 = false 
-
-Suggestion in top 1 (Alpha) = false
-Suggestion in top 5 (Alpha) = false
-Suggestion in top 10 (Alpha) = false
-
-Suggestion in top 1 (Len) = false
-Suggestion in top 5 (Len) = true
-Suggestion in top 10 (Len) = true
-
-Time taken: 17.074041
+Time taken: 16.23975
+Preprocessing time: 1
+Parsing time: 1
+Generation time: 8

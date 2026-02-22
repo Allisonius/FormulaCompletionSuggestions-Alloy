@@ -1,0 +1,19 @@
+Model name: git
+Filename: completion/git-complete.als
+Offset: 6301
+Term: .
+Vscode Position: line=295 character=45
+----------------------------------
+296 | 	stored.sp = stored.s + leaves[s,n.samepath].
+----------------------------------
+Expected Completion word: undefined
+Expected Completion line: content
+Suggestion exists: false
+Completion List:
+# Suggestion 	 Exact 	 Syntactic 	 Semantic
+
+
+Time taken: 81.243334
+Preprocessing time: N/A
+Parsing time: N/A
+Generation time: N/A

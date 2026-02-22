@@ -1,0 +1,32 @@
+Model name: production-line-v3
+Filename: completion/production-line-v3-complete.als
+Offset: 589
+Term:  in 
+Vscode Position: line=28 character=44
+----------------------------------
+29 | 	all w:Worker | one work:Workstation|  w in 
+----------------------------------
+Expected Completion word: work.workers
+Expected Completion line: work.workers
+Suggestion exists: false
+Completion List:
+# Suggestion 	 Exact 	 Syntactic 	 Semantic
+$1. Component 	 false 	 undefined 	 undefined
+$2. Dangerous 	 false 	 undefined 	 undefined
+$3. Human 	 false 	 undefined 	 undefined
+$4. Material 	 false 	 undefined 	 undefined
+$5. Product 	 false 	 undefined 	 undefined
+$6. Robot 	 false 	 undefined 	 undefined
+$7. Worker 	 false 	 undefined 	 undefined
+$8. Workstation 	 false 	 undefined 	 undefined
+$9. begin 	 false 	 undefined 	 undefined
+$10. end 	 false 	 undefined 	 undefined
+$11. Int 	 false 	 undefined 	 undefined
+$12. String 	 false 	 undefined 	 undefined
+$13. none 	 false 	 undefined 	 undefined
+$14. univ 	 false 	 undefined 	 undefined
+
+Time taken: 12.628917
+Preprocessing time: 3
+Parsing time: 2
+Generation time: 0

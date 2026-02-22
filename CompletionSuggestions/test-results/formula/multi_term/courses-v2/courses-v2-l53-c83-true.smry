@@ -6,6 +6,9 @@ Vscode Position: line=52 character=83
 ----------------------------------
 53 | 	all p : Person , c : Course , ps1 , ps2 : Project | ps1 in p.projects && ps2 in p.
 ----------------------------------
+Expected Completion word: projects
+Expected Completion line: projects && ps1 in c.projects && ps2 in c.projects implies ps1 = ps2
+Suggestion exists: true
 Completion List:
 # Suggestion 	 Exact 	 Syntactic 	 Semantic
 $1. enrolled.c 	 false 	 undefined 	 undefined
@@ -18,29 +21,21 @@ $7. teaches.Course 	 false 	 undefined 	 undefined
 $8. enrolled 	 false 	 undefined 	 undefined
 $9. enrolled.grades 	 false 	 undefined 	 undefined
 $10. enrolled.projects 	 false 	 undefined 	 undefined
-$11. enrolled.univ 	 false 	 undefined 	 undefined
-$12. enrolled.~teaches 	 false 	 undefined 	 undefined
-$13. projects 	 true 	 undefined 	 undefined
-$14. projects.univ 	 false 	 undefined 	 undefined
-$15. teaches 	 false 	 undefined 	 undefined
-$16. teaches.grades 	 false 	 undefined 	 undefined
-$17. teaches.projects 	 false 	 undefined 	 undefined
-$18. teaches.univ 	 false 	 undefined 	 undefined
-$19. teaches.~enrolled 	 false 	 undefined 	 undefined
-Expected Completion word: projects
-Expected Completion line: projects && ps1 in c.projects && ps2 in c.projects implies ps1 = ps2
-Suggestion exists: true
+$11. enrolled.projects 	 false 	 undefined 	 undefined
+$12. enrolled.univ 	 false 	 undefined 	 undefined
+$13. enrolled.~teaches 	 false 	 undefined 	 undefined
+$14. projects 	 true 	 undefined 	 undefined
+$15. projects 	 true 	 undefined 	 undefined
+$16. projects.univ 	 false 	 undefined 	 undefined
+$17. teaches 	 false 	 undefined 	 undefined
+$18. teaches.grades 	 false 	 undefined 	 undefined
+$19. teaches.projects 	 false 	 undefined 	 undefined
+$20. teaches.projects 	 false 	 undefined 	 undefined
+$21. teaches.univ 	 false 	 undefined 	 undefined
+$22. teaches.~enrolled 	 false 	 undefined 	 undefined
+$23.  	 false 	 undefined 	 undefined
 
-Suggestion in top 1 = false 
-Suggestion in top 5 = false 
-Suggestion in top 10 = false 
-
-Suggestion in top 1 (Alpha) = false
-Suggestion in top 5 (Alpha) = false
-Suggestion in top 10 (Alpha) = true
-
-Suggestion in top 1 (Len) = false
-Suggestion in top 5 (Len) = true
-Suggestion in top 10 (Len) = true
-
-Time taken: 16.697083
+Time taken: 46.67775
+Preprocessing time: 12
+Parsing time: 3
+Generation time: 1

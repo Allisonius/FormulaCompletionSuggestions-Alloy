@@ -106,6 +106,28 @@ public class LinearModelGraph {
 		return sb.toString();
 	}
 
+	public boolean doesLeftTypeMatchesRightType(Type left, Type right) {
+		if (left == null || right == null) {
+			return false;
+		}
+		if (left.arity() == 1 && right.arity() == 1) return false;
+
+		var typeOfLastItemInLeft = left.fold().get(0);
+		var leftType = typeOfLastItemInLeft.get(typeOfLastItemInLeft.size() - 1);
+
+		var rightType = right.fold().get(0).get(0);
+
+		if (left.toString().equals("univ") || left.toString().equals("univ")) {
+			return true;
+		}
+
+		if (CodeUtils.doesTypesHaveCommonAncestor(leftType, rightType)) {
+			return true;
+		}
+
+		return leftType.equals(rightType);
+	}
+
 	public boolean doesLeftTypeMatchesRightType(SuggestionTerm left, SuggestionTerm right) {
 		if (left.getType().arity() == 1 && right.getType().arity() == 1) return false;
 
@@ -119,25 +141,29 @@ public class LinearModelGraph {
 			return true;
 		}
 
-		if (left.getType().arity() == 1) {
-			var parent = leftType;
-			while (parent != null && !parent.toString().equals("univ")) {
-				if (parent.equals(rightType)) {
-					return true;
-				}
-				parent = parent.parent;
-			}
+		if (CodeUtils.doesTypesHaveCommonAncestor(leftType, rightType)) {
+			return true;
 		}
 
-		if (right.getType().arity() == 1) {
-			var parent = rightType;
-			while (parent != null && !parent.toString().equals("univ")) {
-				if (parent.equals(leftType)) {
-					return true;
-				}
-				parent = parent.parent;
-			}
-		}
+//		if (left.getType().arity() == 1) {
+//			var parent = leftType;
+//			while (parent != null && !parent.toString().equals("univ")) {
+//				if (parent.equals(rightType)) {
+//					return true;
+//				}
+//				parent = parent.parent;
+//			}
+//		}
+//
+//		if (right.getType().arity() == 1) {
+//			var parent = rightType;
+//			while (parent != null && !parent.toString().equals("univ")) {
+//				if (parent.equals(leftType)) {
+//					return true;
+//				}
+//				parent = parent.parent;
+//			}
+//		}
 
 		return leftType.equals(rightType);
 	}

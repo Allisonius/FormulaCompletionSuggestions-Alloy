@@ -6,27 +6,26 @@ Vscode Position: line=15 character=8
 ----------------------------------
 16 | 	r in p.
 ----------------------------------
+Expected Completion word: owns.opened_by
+Expected Completion line: owns.opened_by
+Suggestion exists: true
 Completion List:
 # Suggestion 	 Exact 	 Syntactic 	 Semantic
 $1. owns.Key 	 false 	 undefined 	 undefined
-$2. owns 	 false 	 undefined 	 undefined
-$3. owns.authorized 	 false 	 undefined 	 undefined
-$4. owns.opened_by 	 true 	 undefined 	 undefined
-$5. owns.univ 	 false 	 undefined 	 undefined
-Expected Completion word: owns
-Expected Completion line: owns.opened_by
-Suggestion exists: true
+$2. ~authorized.Key 	 false 	 undefined 	 undefined
+$3. owns 	 false 	 undefined 	 undefined
+$4. owns.authorized 	 false 	 undefined 	 undefined
+$5. owns.opened_by 	 true 	 undefined 	 undefined
+$6. owns.opened_by 	 true 	 undefined 	 undefined
+$7. owns.univ 	 false 	 undefined 	 undefined
+$8. ~authorized.opened_by 	 false 	 undefined 	 undefined
+$9. ~authorized.opened_by 	 false 	 undefined 	 undefined
+$10. ~authorized 	 false 	 undefined 	 undefined
+$11. ~authorized.univ 	 false 	 undefined 	 undefined
+$12. ~authorized.~owns 	 false 	 undefined 	 undefined
+$13.  	 false 	 undefined 	 undefined
 
-Suggestion in top 1 = false 
-Suggestion in top 5 = true 
-Suggestion in top 10 = true 
-
-Suggestion in top 1 (Alpha) = true
-Suggestion in top 5 (Alpha) = true
-Suggestion in top 10 (Alpha) = true
-
-Suggestion in top 1 (Len) = true
-Suggestion in top 5 (Len) = true
-Suggestion in top 10 (Len) = true
-
-Time taken: 52.842209
+Time taken: 19.665375
+Preprocessing time: 2
+Parsing time: 0
+Generation time: 4

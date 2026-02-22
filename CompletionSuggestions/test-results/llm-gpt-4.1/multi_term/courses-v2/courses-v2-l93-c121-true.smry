@@ -1,0 +1,33 @@
+Model name: courses-v2
+Filename: completion/courses-v2-complete.als
+Offset: 2517
+Term: .
+Vscode Position: line=92 character=121
+----------------------------------
+93 | 	all c : Course , p : c.projects , disj x , y : (Person <: projects).p | some c.grades[x] and some c.grades[y] implies c.
+----------------------------------
+Expected Completion word: grades
+Expected Completion line: grades[x] in c.grades[y].(prev + iden + next)
+Suggestion exists: true
+Completion List:
+# Suggestion 	 Exact 	 Syntactic 	 Semantic
+$1. grades[x] 	 false 	 undefined 	 undefined
+$2. grades[y] 	 false 	 undefined 	 undefined
+$3. grades 	 true 	 undefined 	 undefined
+$4. grades[x] + grades[y] 	 false 	 undefined 	 undefined
+$5. grades[x] & grades[y] 	 false 	 undefined 	 undefined
+$6. grades[x] - grades[y] 	 false 	 undefined 	 undefined
+$7. grades[x] + univ 	 false 	 undefined 	 undefined
+$8. grades[x] & univ 	 false 	 undefined 	 undefined
+$9. grades[x] - univ 	 false 	 undefined 	 undefined
+$10. grades[y] + univ 	 false 	 undefined 	 undefined
+$11. grades[y] & univ 	 false 	 undefined 	 undefined
+$12. grades[y] - univ 	 false 	 undefined 	 undefined
+$13. ~grades 	 false 	 undefined 	 undefined
+$14. ~grades[x] 	 false 	 undefined 	 undefined
+$15. ~grades[y] 	 false 	 undefined 	 undefined
+
+Time taken: 7363.318792
+Preprocessing time: N/A
+Parsing time: N/A
+Generation time: N/A

@@ -1,0 +1,18 @@
+modelname,filename,position-line,position-character,incompleteline,removedtext,baseline,suggestionedExpression,A_iff_B,A_and_B,not_A_and_B,A_and_not_B,not_A_and_not_B,suggestionImpactTime
+git,completion/git-complete.als,448,39,"current.sp = current.s - f.samepath -","dirsContainingOnly[s,f.samepath]","{}","\tcurrent.sp = current.s - f.samepath - f",,,,,,111.786
+git,completion/git-complete.als,448,39,"current.sp = current.s - f.samepath -","dirsContainingOnly[s,f.samepath]","{}","\tcurrent.sp = current.s - f.samepath - s",,,,,,111.786
+git,completion/git-complete.als,448,39,"current.sp = current.s - f.samepath -","dirsContainingOnly[s,f.samepath]","{}","\tcurrent.sp = current.s - f.samepath - sp",,,,,,111.786
+git,completion/git-complete.als,448,39,"current.sp = current.s - f.samepath -","dirsContainingOnly[s,f.samepath]","{}","\tcurrent.sp = current.s - f.samepath - Blob",,,,,,111.786
+git,completion/git-complete.als,448,39,"current.sp = current.s - f.samepath -","dirsContainingOnly[s,f.samepath]","{}","\tcurrent.sp = current.s - f.samepath - Commit",,,,,,111.786
+git,completion/git-complete.als,448,39,"current.sp = current.s - f.samepath -","dirsContainingOnly[s,f.samepath]","{}","\tcurrent.sp = current.s - f.samepath - Dir",,,,,,111.786
+git,completion/git-complete.als,448,39,"current.sp = current.s - f.samepath -","dirsContainingOnly[s,f.samepath]","{}","\tcurrent.sp = current.s - f.samepath - File",,,,,,111.786
+git,completion/git-complete.als,448,39,"current.sp = current.s - f.samepath -","dirsContainingOnly[s,f.samepath]","{}","\tcurrent.sp = current.s - f.samepath - Name",,,,,,111.786
+git,completion/git-complete.als,448,39,"current.sp = current.s - f.samepath -","dirsContainingOnly[s,f.samepath]","{}","\tcurrent.sp = current.s - f.samepath - Node",,,,,,111.786
+git,completion/git-complete.als,448,39,"current.sp = current.s - f.samepath -","dirsContainingOnly[s,f.samepath]","{}","\tcurrent.sp = current.s - f.samepath - Object",,,,,,111.786
+git,completion/git-complete.als,448,39,"current.sp = current.s - f.samepath -","dirsContainingOnly[s,f.samepath]","{}","\tcurrent.sp = current.s - f.samepath - Root",,,,,,111.786
+git,completion/git-complete.als,448,39,"current.sp = current.s - f.samepath -","dirsContainingOnly[s,f.samepath]","{}","\tcurrent.sp = current.s - f.samepath - State",,,,,,111.786
+git,completion/git-complete.als,448,39,"current.sp = current.s - f.samepath -","dirsContainingOnly[s,f.samepath]","{}","\tcurrent.sp = current.s - f.samepath - Tree",,,,,,111.786
+git,completion/git-complete.als,448,39,"current.sp = current.s - f.samepath -","dirsContainingOnly[s,f.samepath]","{}","\tcurrent.sp = current.s - f.samepath - Int",,,,,,111.786
+git,completion/git-complete.als,448,39,"current.sp = current.s - f.samepath -","dirsContainingOnly[s,f.samepath]","{}","\tcurrent.sp = current.s - f.samepath - String",,,,,,111.786
+git,completion/git-complete.als,448,39,"current.sp = current.s - f.samepath -","dirsContainingOnly[s,f.samepath]","{}","\tcurrent.sp = current.s - f.samepath - none",,,,,,111.786
+git,completion/git-complete.als,448,39,"current.sp = current.s - f.samepath -","dirsContainingOnly[s,f.samepath]","{}","\tcurrent.sp = current.s - f.samepath - univ",,,,,,111.786

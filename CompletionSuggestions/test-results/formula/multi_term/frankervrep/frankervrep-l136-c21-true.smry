@@ -1,0 +1,24 @@
+Model name: frankervrep
+Filename: completion/frankenvrep-complete.als
+Offset: 3139
+Term: .
+Vscode Position: line=135 character=21
+----------------------------------
+136 | 	all o: RobotControl.
+----------------------------------
+Expected Completion word: output
+Expected Completion line: output | one a: getArmAngles[KinematicModel,Coordinate] | o = a
+Suggestion exists: true
+Completion List:
+# Suggestion 	 Exact 	 Syntactic 	 Semantic
+$1. output.ArmAngle 	 false 	 undefined 	 undefined
+$2. output.armangle 	 false 	 undefined 	 undefined
+$3. output 	 true 	 undefined 	 undefined
+$4. output.univ 	 false 	 undefined 	 undefined
+$5. output.~anglelimit 	 false 	 undefined 	 undefined
+$6.  	 false 	 undefined 	 undefined
+
+Time taken: 41.769292
+Preprocessing time: 6
+Parsing time: 3
+Generation time: 0

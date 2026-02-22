@@ -1,0 +1,28 @@
+Model name: git-redacted
+Filename: completion/git-sig.als
+Offset: 660
+Term:  -> 
+Vscode Position: line=37 character=19
+----------------------------------
+38 | 	content : Name -> 
+----------------------------------
+Expected Completion word: Blob
+Expected Completion line: lone (Blob+Tree)
+Suggestion exists: true
+Completion List:
+# Suggestion 	 Exact 	 Syntactic 	 Semantic
+$1. Node 	 false 	 false 	 false
+$2. File 	 false 	 false 	 false
+$3. Dir 	 false 	 false 	 false
+$4. File + Dir 	 false 	 false 	 false
+$5. Object 	 false 	 false 	 false
+$6. Tree 	 false 	 false 	 false
+$7. Blob 	 true 	 true 	 true
+$8. Commit 	 false 	 false 	 false
+$9. Root 	 false 	 false 	 false
+$10. State 	 false 	 false 	 false
+
+Time taken: 24984.229292
+Preprocessing time: N/A
+Parsing time: N/A
+Generation time: N/A

@@ -1,0 +1,23 @@
+modelname,filename,position-line,position-character,incompleteline,removedtext,baseline,suggestionedExpression,A_iff_B,A_and_B,not_A_and_B,A_and_not_B,not_A_and_not_B,suggestionImpactTime
+git,completion/git-complete.als,142,22,"no t : Tree | t in t.","^children","{}","\tno t : Tree | t in t.content.Blob",true,true,false,false,false,184.520209
+git,completion/git-complete.als,142,22,"no t : Tree | t in t.","^children","{}","\tno t : Tree | t in t.stored.State",,,,,,184.520209
+git,completion/git-complete.als,142,22,"no t : Tree | t in t.","^children","{}","\tno t : Tree | t in t.~tree.Commit",,,,,,184.520209
+git,completion/git-complete.als,142,22,"no t : Tree | t in t.","^children","{}","\tno t : Tree | t in t.content",true,true,false,false,false,184.520209
+git,completion/git-complete.als,142,22,"no t : Tree | t in t.","^children","{}","\tno t : Tree | t in t.content.*conflict",true,true,false,false,false,184.520209
+git,completion/git-complete.als,142,22,"no t : Tree | t in t.","^children","{}","\tno t : Tree | t in t.content.^conflict",true,true,false,false,false,184.520209
+git,completion/git-complete.als,142,22,"no t : Tree | t in t.","^children","{}","\tno t : Tree | t in t.content.conflict",true,true,false,false,false,184.520209
+git,completion/git-complete.als,142,22,"no t : Tree | t in t.","^children","{}","\tno t : Tree | t in t.content.merging",,,,,,184.520209
+git,completion/git-complete.als,142,22,"no t : Tree | t in t.","^children","{}","\tno t : Tree | t in t.content.univ",true,true,false,false,false,184.520209
+git,completion/git-complete.als,142,22,"no t : Tree | t in t.","^children","{}","\tno t : Tree | t in t.content.~conflict",true,true,false,false,false,184.520209
+git,completion/git-complete.als,142,22,"no t : Tree | t in t.","^children","{}","\tno t : Tree | t in t.stored",true,true,false,false,false,184.520209
+git,completion/git-complete.als,142,22,"no t : Tree | t in t.","^children","{}","\tno t : Tree | t in t.stored.univ",,,,,,184.520209
+git,completion/git-complete.als,142,22,"no t : Tree | t in t.","^children","{}","\tno t : Tree | t in t.stored.~HEAD",true,true,false,false,false,184.520209
+git,completion/git-complete.als,142,22,"no t : Tree | t in t.","^children","{}","\tno t : Tree | t in t.stored.~current",true,true,false,false,false,184.520209
+git,completion/git-complete.als,142,22,"no t : Tree | t in t.","^children","{}","\tno t : Tree | t in t.stored.~heads",true,true,false,false,false,184.520209
+git,completion/git-complete.als,142,22,"no t : Tree | t in t.","^children","{}","\tno t : Tree | t in t.stored.~index",true,true,false,false,false,184.520209
+git,completion/git-complete.als,142,22,"no t : Tree | t in t.","^children","{}","\tno t : Tree | t in t.~tree.previous",true,true,false,false,false,184.520209
+git,completion/git-complete.als,142,22,"no t : Tree | t in t.","^children","{}","\tno t : Tree | t in t.~tree",true,true,false,false,false,184.520209
+git,completion/git-complete.als,142,22,"no t : Tree | t in t.","^children","{}","\tno t : Tree | t in t.~tree.*previous",true,true,false,false,false,184.520209
+git,completion/git-complete.als,142,22,"no t : Tree | t in t.","^children","{}","\tno t : Tree | t in t.~tree.^previous",true,true,false,false,false,184.520209
+git,completion/git-complete.als,142,22,"no t : Tree | t in t.","^children","{}","\tno t : Tree | t in t.~tree.univ",,,,,,184.520209
+git,completion/git-complete.als,142,22,"no t : Tree | t in t.","^children","{}","\tno t : Tree | t in t.~tree.~previous",true,true,false,false,false,184.520209

@@ -13,3 +13,5 @@ client/testFixture/**
 client/webview-ui/**
 client/src/test/**
 README.md
+.github/**
+**.md

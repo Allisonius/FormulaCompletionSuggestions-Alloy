@@ -1,0 +1,15 @@
+modelname,filename,position-line,position-character,incompleteline,removedtext,baseline,suggestionedExpression,A_iff_B,A_and_B,not_A_and_B,A_and_not_B,not_A_and_not_B,suggestionImpactTime
+git,completion/git-sig.als,6,18,"refs : Commit ->","State","{}","\trefs : Commit -> Blob",,,,,,17.49125
+git,completion/git-sig.als,6,18,"refs : Commit ->","State","{}","\trefs : Commit -> Commit",,,,,,17.49125
+git,completion/git-sig.als,6,18,"refs : Commit ->","State","{}","\trefs : Commit -> Dir",,,,,,17.49125
+git,completion/git-sig.als,6,18,"refs : Commit ->","State","{}","\trefs : Commit -> File",,,,,,17.49125
+git,completion/git-sig.als,6,18,"refs : Commit ->","State","{}","\trefs : Commit -> Name",,,,,,17.49125
+git,completion/git-sig.als,6,18,"refs : Commit ->","State","{}","\trefs : Commit -> Node",,,,,,17.49125
+git,completion/git-sig.als,6,18,"refs : Commit ->","State","{}","\trefs : Commit -> Object",,,,,,17.49125
+git,completion/git-sig.als,6,18,"refs : Commit ->","State","{}","\trefs : Commit -> Root",,,,,,17.49125
+git,completion/git-sig.als,6,18,"refs : Commit ->","State","{}","\trefs : Commit -> State",,,,,,17.49125
+git,completion/git-sig.als,6,18,"refs : Commit ->","State","{}","\trefs : Commit -> Tree",,,,,,17.49125
+git,completion/git-sig.als,6,18,"refs : Commit ->","State","{}","\trefs : Commit -> Int",,,,,,17.49125
+git,completion/git-sig.als,6,18,"refs : Commit ->","State","{}","\trefs : Commit -> String",,,,,,17.49125
+git,completion/git-sig.als,6,18,"refs : Commit ->","State","{}","\trefs : Commit -> none",,,,,,17.49125
+git,completion/git-sig.als,6,18,"refs : Commit ->","State","{}","\trefs : Commit -> univ",,,,,,17.49125

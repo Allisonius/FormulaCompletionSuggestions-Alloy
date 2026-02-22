@@ -1,0 +1,28 @@
+Model name: git-redacted
+Filename: completion/git-sig.als
+Offset: 430
+Term:  -> 
+Vscode Position: line=22 character=15
+----------------------------------
+23 | 	tbc : Tree -> 
+----------------------------------
+Expected Completion word: State
+Expected Completion line: State // auxiliary relation
+Suggestion exists: true
+Completion List:
+# Suggestion 	 Exact 	 Syntactic 	 Semantic
+$1. Tree 	 false 	 false 	 false
+$2. Blob 	 false 	 false 	 false
+$3. Dir 	 false 	 false 	 false
+$4. Node 	 false 	 false 	 false
+$5. Object 	 false 	 false 	 false
+$6. State 	 true 	 true 	 true
+$7. Commit 	 false 	 false 	 false
+$8. Name 	 false 	 false 	 false
+$9. File 	 false 	 false 	 false
+$10. Root 	 false 	 false 	 false
+
+Time taken: 11035.040917
+Preprocessing time: N/A
+Parsing time: N/A
+Generation time: N/A

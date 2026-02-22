@@ -31,4 +31,6 @@ export interface SuggestionEvaluation {
 
 export interface EvaluateSuggestionsResponse {
     evaluations: SuggestionEvaluation[];
+    completionTerm: string | null;
+    expectedTerm: string | null;
 }

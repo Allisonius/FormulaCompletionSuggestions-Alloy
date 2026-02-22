@@ -1,0 +1,32 @@
+Model name: git-redacted
+Filename: completion/git-sig.als
+Offset: 315
+Term:  extends 
+Vscode Position: line=16 character=17
+----------------------------------
+17 | sig File extends 
+----------------------------------
+Expected Completion word: Node
+Expected Completion line: Node {
+Suggestion exists: false
+Completion List:
+# Suggestion 	 Exact 	 Syntactic 	 Semantic
+$1. content 	 false 	 undefined 	 undefined
+$2. index 	 false 	 false 	 false
+$3. content.merging 	 false 	 undefined 	 undefined
+$4. content.conflict 	 false 	 undefined 	 undefined
+$5. content.stored 	 false 	 undefined 	 undefined
+$6. content.merging.~merging 	 false 	 undefined 	 undefined
+$7. content.conflict.~conflict 	 false 	 undefined 	 undefined
+$8. content.stored.~stored 	 false 	 undefined 	 undefined
+$9. index + univ 	 false 	 undefined 	 undefined
+$10. index & univ 	 false 	 undefined 	 undefined
+$11. content + univ 	 false 	 undefined 	 undefined
+$12. content & univ 	 false 	 undefined 	 undefined
+$13. ~content 	 false 	 false 	 false
+$14. ~index 	 false 	 false 	 false
+
+Time taken: 5710.513458
+Preprocessing time: N/A
+Parsing time: N/A
+Generation time: N/A

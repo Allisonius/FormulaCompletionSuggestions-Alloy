@@ -6,6 +6,9 @@ Vscode Position: line=66 character=22
 ----------------------------------
 67 | 	Workstation in begin.
 ----------------------------------
+Expected Completion word: succ
+Expected Completion line: *succ
+Suggestion exists: true
 Completion List:
 # Suggestion 	 Exact 	 Syntactic 	 Semantic
 $1. *succ.Workstation 	 false 	 false 	 false
@@ -24,40 +27,41 @@ $13. ~succ.Workstation 	 false 	 false 	 false
 $14. ~succ.begin 	 false 	 false 	 false
 $15. ~succ.end 	 false 	 false 	 false
 $16. ~workstation.Component 	 false 	 false 	 false
-$17. *succ.workers 	 false 	 false 	 false
-$18. ^succ.workers 	 false 	 false 	 false
-$19. succ 	 true 	 true 	 true
-$20. succ.univ 	 false 	 false 	 false
-$21. succ.workers 	 false 	 false 	 false
-$22. succ.~workstation 	 false 	 false 	 false
-$23. workers 	 false 	 false 	 false
-$24. workers.univ 	 false 	 false 	 false
-$25. ~succ.workers 	 false 	 false 	 false
-$26. *succ.~workstation 	 false 	 false 	 false
-$27. ^succ.~workstation 	 false 	 false 	 false
-$28. ~succ 	 false 	 false 	 false
-$29. ~succ.univ 	 false 	 false 	 false
-$30. ~succ.~workstation 	 false 	 false 	 false
-$31. ~workstation 	 false 	 false 	 false
-$32. ~workstation.univ 	 false 	 false 	 false
-$33. ^succ 	 false 	 false 	 false
-$34. ^succ.univ 	 false 	 false 	 false
-$35. *succ 	 false 	 false 	 false
-$36. *succ.univ 	 false 	 false 	 false
-Expected Completion word: *succ
-Expected Completion line: *succ
-Suggestion exists: true
+$17. ~workstation.Dangerous 	 false 	 false 	 false
+$18. ~workstation.Material 	 false 	 false 	 false
+$19. ~workstation.Product 	 false 	 false 	 false
+$20. *succ.workers 	 false 	 false 	 false
+$21. ^succ.workers 	 false 	 false 	 false
+$22. succ 	 true 	 true 	 true
+$23. succ 	 true 	 true 	 true
+$24. succ.univ 	 false 	 false 	 false
+$25. succ.workers 	 false 	 false 	 false
+$26. succ.~workstation 	 false 	 false 	 false
+$27. workers 	 false 	 false 	 false
+$28. workers.univ 	 false 	 false 	 false
+$29. ~succ.workers 	 false 	 false 	 false
+$30. ~workstation.parts 	 false 	 false 	 false
+$31. *succ.~workstation 	 false 	 false 	 false
+$32. ^succ.~workstation 	 false 	 false 	 false
+$33. ~succ 	 false 	 false 	 false
+$34. ~succ 	 false 	 false 	 false
+$35. ~succ.univ 	 false 	 false 	 false
+$36. ~succ.~workstation 	 false 	 false 	 false
+$37. ~workstation 	 false 	 false 	 false
+$38. ~workstation.*parts 	 false 	 false 	 false
+$39. ~workstation.^parts 	 false 	 false 	 false
+$40. ~workstation.univ 	 false 	 false 	 false
+$41. ~workstation.~parts 	 false 	 false 	 false
+$42. ^succ 	 false 	 false 	 false
+$43. ^succ 	 false 	 false 	 false
+$44. ^succ.univ 	 false 	 false 	 false
+$45.  	 false 	 false 	 false
+$46.  	 false 	 false 	 false
+$47. *succ 	 false 	 false 	 false
+$48. *succ 	 false 	 false 	 false
+$49. *succ.univ 	 false 	 false 	 false
 
-Suggestion in top 1 = false 
-Suggestion in top 5 = false 
-Suggestion in top 10 = false 
-
-Suggestion in top 1 (Alpha) = true
-Suggestion in top 5 (Alpha) = true
-Suggestion in top 10 (Alpha) = true
-
-Suggestion in top 1 (Len) = false
-Suggestion in top 5 (Len) = true
-Suggestion in top 10 (Len) = true
-
-Time taken: 9.479708
+Time taken: 13.267334
+Preprocessing time: 3
+Parsing time: 1
+Generation time: 1

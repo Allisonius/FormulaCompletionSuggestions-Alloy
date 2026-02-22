@@ -6,6 +6,9 @@ Vscode Position: line=2 character=21
 ----------------------------------
 3 | one sig Blue extends 
 ----------------------------------
+Expected Completion word: Color
+Expected Completion line: Color {}
+Suggestion exists: true
 Completion List:
 # Suggestion 	 Exact 	 Syntactic 	 Semantic
 $1. Color 	 true 	 true 	 true
@@ -15,20 +18,8 @@ $4. Int 	 false 	 false 	 false
 $5. String 	 false 	 false 	 false
 $6. none 	 false 	 false 	 false
 $7. univ 	 false 	 false 	 false
-Expected Completion word: Color
-Expected Completion line: Color {}
-Suggestion exists: true
 
-Suggestion in top 1 = true 
-Suggestion in top 5 = true 
-Suggestion in top 10 = true 
-
-Suggestion in top 1 (Alpha) = true
-Suggestion in top 5 (Alpha) = true
-Suggestion in top 10 (Alpha) = true
-
-Suggestion in top 1 (Len) = false
-Suggestion in top 5 (Len) = false
-Suggestion in top 10 (Len) = true
-
-Time taken: 10.954541
+Time taken: 3.72075
+Preprocessing time: 0
+Parsing time: 0
+Generation time: 0

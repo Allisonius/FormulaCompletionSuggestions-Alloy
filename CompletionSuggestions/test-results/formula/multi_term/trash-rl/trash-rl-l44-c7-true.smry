@@ -6,6 +6,9 @@ Vscode Position: line=43 character=7
 ----------------------------------
 44 | 	Trash.
 ----------------------------------
+Expected Completion word: link
+Expected Completion line: link in Trash
+Suggestion exists: true
 Completion List:
 # Suggestion 	 Exact 	 Syntactic 	 Semantic
 $1. *link.File 	 false 	 false 	 false
@@ -26,22 +29,11 @@ $15. ~link 	 false 	 false 	 false
 $16. ~link.univ 	 false 	 false 	 false
 $17. ^link 	 false 	 false 	 false
 $18. ^link.univ 	 false 	 false 	 false
-$19. *link 	 false 	 false 	 false
-$20. *link.univ 	 false 	 false 	 false
-Expected Completion word: link
-Expected Completion line: link in Trash
-Suggestion exists: true
+$19.  	 false 	 false 	 false
+$20. *link 	 false 	 false 	 false
+$21. *link.univ 	 false 	 false 	 false
 
-Suggestion in top 1 = false 
-Suggestion in top 5 = false 
-Suggestion in top 10 = false 
-
-Suggestion in top 1 (Alpha) = false
-Suggestion in top 5 (Alpha) = false
-Suggestion in top 10 (Alpha) = false
-
-Suggestion in top 1 (Len) = true
-Suggestion in top 5 (Len) = true
-Suggestion in top 10 (Len) = true
-
-Time taken: 5.601959
+Time taken: 7.650125
+Preprocessing time: 1
+Parsing time: 0
+Generation time: 1

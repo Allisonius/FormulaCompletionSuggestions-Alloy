@@ -6,6 +6,9 @@ Vscode Position: line=9 character=21
 ----------------------------------
 10 |   Groups : Person -> 
 ----------------------------------
+Expected Completion word: Group
+Expected Completion line: Group
+Suggestion exists: true
 Completion List:
 # Suggestion 	 Exact 	 Syntactic 	 Semantic
 $1. Class 	 false 	 false 	 false
@@ -17,20 +20,8 @@ $6. Int 	 false 	 false 	 false
 $7. String 	 false 	 false 	 false
 $8. none 	 false 	 false 	 false
 $9. univ 	 false 	 false 	 false
-Expected Completion word: Group
-Expected Completion line: Group
-Suggestion exists: true
 
-Suggestion in top 1 = false 
-Suggestion in top 5 = true 
-Suggestion in top 10 = true 
-
-Suggestion in top 1 (Alpha) = false
-Suggestion in top 5 (Alpha) = true
-Suggestion in top 10 (Alpha) = true
-
-Suggestion in top 1 (Len) = false
-Suggestion in top 5 (Len) = true
-Suggestion in top 10 (Len) = true
-
-Time taken: 11.908792
+Time taken: 44.43675
+Preprocessing time: 12
+Parsing time: 2
+Generation time: 1

@@ -1,0 +1,43 @@
+Model name: classroom-fol
+Filename: completion/classroom-fol-complete.als
+Offset: 635
+Term:  in 
+Vscode Position: line=44 character=66
+----------------------------------
+45 | 	all t: Teacher, c1,c2: Class | t -> c1 in Teaches and t -> c2 in 
+----------------------------------
+Expected Completion word: Teaches
+Expected Completion line: Teaches => c1 = c2
+Suggestion exists: true
+Completion List:
+# Suggestion 	 Exact 	 Syntactic 	 Semantic
+$1. Teaches 	 true 	 undefined 	 undefined
+$2. t.Teaches 	 false 	 undefined 	 undefined
+$3. c2.Teaches 	 false 	 undefined 	 undefined
+$4. Teaches.c2 	 false 	 undefined 	 undefined
+$5. Teaches.t 	 false 	 undefined 	 undefined
+$6. t.Teaches.c2 	 false 	 undefined 	 undefined
+$7. t.Teaches + c2.Teaches 	 false 	 undefined 	 undefined
+$8. t.Teaches & c2.Teaches 	 false 	 undefined 	 undefined
+$9. ~Teaches 	 false 	 undefined 	 undefined
+$10. ~t.Teaches 	 false 	 undefined 	 undefined
+$11. ~c2.Teaches 	 false 	 undefined 	 undefined
+$12. Teaches.c2.Groups 	 false 	 undefined 	 undefined
+$13. t.Teaches.Groups 	 false 	 undefined 	 undefined
+$14. c2.Groups 	 false 	 undefined 	 undefined
+$15. c2.Groups.t 	 false 	 undefined 	 undefined
+$16. c2.Groups.univ 	 false 	 undefined 	 undefined
+$17. Teaches.univ 	 false 	 undefined 	 undefined
+$18. t.Teaches.univ 	 false 	 undefined 	 undefined
+$19. c2.Teaches.univ 	 false 	 undefined 	 undefined
+$20. Teaches.c2.Groups.univ 	 false 	 undefined 	 undefined
+$21. t.Teaches.Groups.univ 	 false 	 undefined 	 undefined
+$22. c2.Groups.univ 	 false 	 undefined 	 undefined
+$23. ~Teaches.univ 	 false 	 undefined 	 undefined
+$24. ~t.Teaches.univ 	 false 	 undefined 	 undefined
+$25. ~c2.Teaches.univ 	 false 	 undefined 	 undefined
+
+Time taken: 6587.509958
+Preprocessing time: N/A
+Parsing time: N/A
+Generation time: N/A

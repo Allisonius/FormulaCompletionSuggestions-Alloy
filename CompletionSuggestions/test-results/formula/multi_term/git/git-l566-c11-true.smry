@@ -1,0 +1,68 @@
+Model name: git
+Filename: completion/git-complete.als
+Offset: 12504
+Term: .
+Vscode Position: line=565 character=11
+----------------------------------
+566 | 	c in Name.
+----------------------------------
+Expected Completion word: refs.s
+Expected Completion line: refs.s
+Suggestion exists: true
+Completion List:
+# Suggestion 	 Exact 	 Syntactic 	 Semantic
+$1. HEAD.s 	 false 	 undefined 	 undefined
+$2. heads.s 	 false 	 undefined 	 undefined
+$3. refs.s 	 true 	 undefined 	 undefined
+$4. refs.s 	 true 	 undefined 	 undefined
+$5. HEAD.State 	 false 	 undefined 	 undefined
+$6. heads.State 	 false 	 undefined 	 undefined
+$7. refs.State 	 false 	 undefined 	 undefined
+$8. refs.State 	 false 	 undefined 	 undefined
+$9. ~name.Dir 	 false 	 undefined 	 undefined
+$10. ~name.File 	 false 	 undefined 	 undefined
+$11. ~name.Node 	 false 	 undefined 	 undefined
+$12. ~name.Root 	 false 	 undefined 	 undefined
+$13. HEAD 	 false 	 undefined 	 undefined
+$14. HEAD.univ 	 false 	 undefined 	 undefined
+$15. HEAD.~current 	 false 	 undefined 	 undefined
+$16. HEAD.~heads 	 false 	 undefined 	 undefined
+$17. HEAD.~index 	 false 	 undefined 	 undefined
+$18. HEAD.~stored 	 false 	 undefined 	 undefined
+$19. HEAD.~stored 	 false 	 undefined 	 undefined
+$20. heads 	 false 	 undefined 	 undefined
+$21. heads.univ 	 false 	 undefined 	 undefined
+$22. heads.~HEAD 	 false 	 undefined 	 undefined
+$23. heads.~current 	 false 	 undefined 	 undefined
+$24. heads.~index 	 false 	 undefined 	 undefined
+$25. heads.~stored 	 false 	 undefined 	 undefined
+$26. heads.~stored 	 false 	 undefined 	 undefined
+$27. refs 	 false 	 undefined 	 undefined
+$28. refs.univ 	 false 	 undefined 	 undefined
+$29. refs.univ 	 false 	 undefined 	 undefined
+$30. refs.~HEAD 	 false 	 undefined 	 undefined
+$31. refs.~current 	 false 	 undefined 	 undefined
+$32. refs.~heads 	 false 	 undefined 	 undefined
+$33. refs.~index 	 false 	 undefined 	 undefined
+$34. refs.~stored 	 false 	 undefined 	 undefined
+$35. ~name.belongsTo 	 false 	 undefined 	 undefined
+$36. ~name.content 	 false 	 undefined 	 undefined
+$37. ~name.current 	 false 	 undefined 	 undefined
+$38. ~name.index 	 false 	 undefined 	 undefined
+$39. ~name.parent 	 false 	 undefined 	 undefined
+$40. ~name.samepath 	 false 	 undefined 	 undefined
+$41. ~name.tbc 	 false 	 undefined 	 undefined
+$42. ~name 	 false 	 undefined 	 undefined
+$43. ~name.*parent 	 false 	 undefined 	 undefined
+$44. ~name.*samepath 	 false 	 undefined 	 undefined
+$45. ~name.^parent 	 false 	 undefined 	 undefined
+$46. ~name.^samepath 	 false 	 undefined 	 undefined
+$47. ~name.univ 	 false 	 undefined 	 undefined
+$48. ~name.~parent 	 false 	 undefined 	 undefined
+$49. ~name.~samepath 	 false 	 undefined 	 undefined
+$50.  	 false 	 undefined 	 undefined
+
+Time taken: 74.991916
+Preprocessing time: 24
+Parsing time: 14
+Generation time: 1

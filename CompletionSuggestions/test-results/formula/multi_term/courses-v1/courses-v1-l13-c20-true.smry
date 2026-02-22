@@ -6,6 +6,9 @@ Vscode Position: line=12 character=20
 ----------------------------------
 13 | 	grades : Person -> 
 ----------------------------------
+Expected Completion word: Grade
+Expected Completion line: Grade
+Suggestion exists: true
 Completion List:
 # Suggestion 	 Exact 	 Syntactic 	 Semantic
 $1. Course 	 false 	 false 	 false
@@ -19,20 +22,8 @@ $8. Int 	 false 	 false 	 false
 $9. String 	 false 	 false 	 false
 $10. none 	 false 	 false 	 false
 $11. univ 	 false 	 false 	 false
-Expected Completion word: Grade
-Expected Completion line: Grade
-Suggestion exists: true
 
-Suggestion in top 1 = false 
-Suggestion in top 5 = true 
-Suggestion in top 10 = true 
-
-Suggestion in top 1 (Alpha) = false
-Suggestion in top 5 (Alpha) = true
-Suggestion in top 10 (Alpha) = true
-
-Suggestion in top 1 (Len) = false
-Suggestion in top 5 (Len) = true
-Suggestion in top 10 (Len) = true
-
-Time taken: 15.390125
+Time taken: 41.970458
+Preprocessing time: 1
+Parsing time: 0
+Generation time: 0

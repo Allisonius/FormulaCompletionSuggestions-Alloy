@@ -76,7 +76,7 @@ fact TreeFacts {
 }
 
 check {
-	all s : State, f : File, f' : f.samepath & File | invariant[s] implies f.content = f'.content
+	all s : State, f : File, ff : f.samepath & File | invariant[s] implies f.content = ff.content
 } for 7 but 1 State
 
 check {
@@ -107,7 +107,7 @@ fact BlobFacts {
 	all b1, b2 : Blob | 
 		b1 -> b2 in conflict implies b2 -> b1 in conflict
 	
-	-- conflicting blobs can't be merged
+	// conflicting blobs can't be merged
 	all b1, b2 : Blob |
 		b1 -> b2 in conflict implies no b1.merging[b2] 	
 

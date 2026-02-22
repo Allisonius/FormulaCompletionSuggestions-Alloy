@@ -30,6 +30,7 @@ import {
 } from "./resultExportUtils";
 import { EvaluateSuggestionParams } from "../../../interfaces/commands";
 import { log } from "console";
+import { on } from "events";
 
 const RESULT_MODE: EXPORT_MODE[] = [EXPORT_MODE.file];
 const CLEAR_RESULTS = true;
@@ -39,6 +40,17 @@ const rootOfProject = path.resolve(__dirname, "../../../../../");
 var OUTPUT_TEST_DIR = path.join(rootOfProject, "test-results/formula");
 if (process.env["GENERATOR_COMPLETION"] === "true") {
   OUTPUT_TEST_DIR = path.join(rootOfProject, "test-results/generator");
+}
+if (process.env["LLM_COMPLETION"] === "true") {
+  if (process.env["LLM_MODEL"]) {
+    OUTPUT_TEST_DIR = path.join(
+      rootOfProject,
+      `test-results/llm-${process.env["LLM_MODEL"]}`,
+    );
+  } else {
+    // use the model selected by copilot cli
+    OUTPUT_TEST_DIR = path.join(rootOfProject, "test-results/llm");
+  }
 }
 
 export class AlloyFileSetup {
@@ -59,7 +71,7 @@ export class AlloyFileSetup {
   constructor(
     name: string,
     sigOnlyFileUri: vscode.Uri | undefined,
-    completeFileUri: vscode.Uri
+    completeFileUri: vscode.Uri,
   ) {
     this.name = name;
     this.sigOnlyFileUri = sigOnlyFileUri;
@@ -73,7 +85,7 @@ export class AlloyFileSetup {
       this._sigDocumentText = fs.readFileSync(sigOnlyFileUri.fsPath, "utf-8");
       this._sigDocumentOffsets = getCompletionOffsets(
         this._sigDocumentText,
-        COMPLETION_TERMS
+        COMPLETION_TERMS,
       );
 
       sigOffset = this._sigDocumentText.length;
@@ -81,15 +93,19 @@ export class AlloyFileSetup {
 
     this._completeDocumentText = fs.readFileSync(
       completeFileUri.fsPath,
-      "utf-8"
+      "utf-8",
     );
     this._completeDocumentOffsets = getCompletionOffsets(
       this._completeDocumentText,
       COMPLETION_TERMS,
-      sigOffset
+      sigOffset,
     );
 
     this._modelDir = `${this._testDir}/${name}`;
+  }
+
+  public getCompleteFileUri(): vscode.Uri {
+    return this.completeFileUri;
   }
 
   private _prepareDocument = async (doc: vscode.Uri) => {
@@ -102,22 +118,36 @@ export class AlloyFileSetup {
     offset: CompletionOffset,
     documentUri: vscode.Uri,
     documentText: string,
-    variant: TEST_VARIANT
+    variant: TEST_VARIANT,
   ) => {
     return async () => {
       const editor = vscode.window.activeTextEditor;
       const offsetPosition = editor.document.positionAt(offset.offset);
+      if (process.env["ONLY_COMPLETION_POSITION"] !== undefined) {
+        const only_completion_position = JSON.parse(
+          process.env["ONLY_COMPLETION_POSITION"],
+        ) as vscode.Position;
+        if (
+          only_completion_position.line !== offsetPosition.line + 1 ||
+          (only_completion_position.character !== -1 &&
+            only_completion_position.character !== offsetPosition.character)
+        ) {
+          console.log(
+            `Skipping completion at offset ${offset.offset} as it's not the only one specified.`,
+          );
+          return;
+        }
+      }
       const regex = /[~*^()]\w+/;
-      const nextWordRange = editor.document.getWordRangeAtPosition(
-        offsetPosition
-      );
+      const nextWordRange =
+        editor.document.getWordRangeAtPosition(offsetPosition);
       //TODO: add remaining line text
       const expectedCompletion = nextWordRange
         ? editor.document.getText(nextWordRange)
         : getExpectedCompletionTerm(
             documentText,
             offset.offset,
-            variant === TEST_VARIANT.single_term
+            variant === TEST_VARIANT.single_term,
           );
       const line = editor.document.lineAt(offsetPosition);
       const selection = new vscode.Selection(offsetPosition, line.range.end);
@@ -131,13 +161,36 @@ export class AlloyFileSetup {
 
       const incompleteText = editor.document.getText();
       const incompleteLine = editor.document.lineAt(offsetPosition).text;
+      let modelDeclaration = "";
+      if (process.env["LLM_COMPLETION"] === "true") {
+        modelDeclaration = this.sigOnlyFileUri
+          ? fs.readFileSync(this.sigOnlyFileUri.fsPath, "utf-8")
+          : "";
+        console.log(
+          `LLMCompletion: Using model declaration from ${
+            this.sigOnlyFileUri ? this.sigOnlyFileUri.fsPath : "none"
+          }`,
+        );
+      }
 
       const { result: completionList, elapsedTimeInMs } =
         await this.measureTime(() =>
-          testCompletion(documentUri, offsetPosition)
+          testCompletion(documentUri, offsetPosition, modelDeclaration),
         );
 
       assert.ok(completionList.items.length >= 0);
+
+      const timeMeasuringItem = completionList.items.find(
+        (item) => item.label === "<TIME>",
+      );
+
+      if (timeMeasuringItem) {
+        // Remove the time measuring item from the completion list for evaluation and export
+        const index = completionList.items.indexOf(timeMeasuringItem);
+        if (index !== -1) {
+          completionList.items.splice(index, 1);
+        }
+      }
 
       const suggestionEvaluationParams: EvaluateSuggestionParams = {
         position: offsetPosition,
@@ -148,12 +201,15 @@ export class AlloyFileSetup {
       };
 
       const evaluationResult = await evaluateSuggestions(
-        suggestionEvaluationParams
+        suggestionEvaluationParams,
       );
       // console.log("Evaluation Result: ", evaluationResult);
 
       const { result: suggestionImpactList, elapsedTimeInMs: impactTime } =
         await this.measureTime(async () => {
+          if (process.env["SKIP_SUGGESTION_IMPACT"] === "true") {
+            return [];
+          }
           return await Promise.all(
             completionList.items.map(async (item) => {
               try {
@@ -161,16 +217,16 @@ export class AlloyFileSetup {
                   documentUri,
                   incompleteLine,
                   item.label.toString(),
-                  offsetPosition
+                  offsetPosition,
                 );
               } catch (error) {
                 console.error(
                   `Error testing suggestion impact for item ${item.label}:`,
-                  error
+                  error,
                 );
                 return null;
               }
-            })
+            }),
           );
         });
 
@@ -192,22 +248,27 @@ export class AlloyFileSetup {
         evaluationResult,
         expectedCompletion,
         elapsedTimeInMs,
-        variant
+        variant,
+        timeMeasuringItem,
       );
       // 1 sec timeout
       // await new Promise((resolve) => setTimeout(resolve, 1000));
       // Export suggestion impacts as CSV
-      const suggestionImpactExporter = new SuggestionImpactExportUtils();
-      await suggestionImpactExporter.expResult(
-        this.name,
-        editor.document.fileName,
-        offset,
-        offsetPosition,
-        incompleteLine,
-        removableText,
-        impactTime,
-        suggestionImpactList.filter(Boolean) // filter out nulls
-      );
+      if (process.env["SKIP_SUGGESTION_IMPACT"] === "true") {
+        log("Skipping suggestion impact export as per environment variable.");
+      } else {
+        const suggestionImpactExporter = new SuggestionImpactExportUtils();
+        await suggestionImpactExporter.expResult(
+          this.name,
+          editor.document.fileName,
+          offset,
+          offsetPosition,
+          incompleteLine,
+          removableText,
+          impactTime,
+          suggestionImpactList.filter(Boolean), // filter out nulls
+        );
+      }
     };
   };
 
@@ -233,6 +294,10 @@ export class AlloyFileSetup {
       });
       if (this.sigOnlyFileUri) {
         describe("for sig only part", () => {
+          if (process.env["SKIP_SIG_COMPLETION"] === "true") {
+            log("Skipping sig completion tests as per environment variable.");
+            return;
+          }
           before(async () => {
             console.log("Opening sig only file...");
             await this._prepareDocument(this.sigOnlyFileUri);
@@ -244,15 +309,15 @@ export class AlloyFileSetup {
                 offset,
                 this.sigOnlyFileUri,
                 this._sigDocumentText,
-                variant
-              )
+                variant,
+              ),
             );
           }
 
           after(async () => {
             console.log("Closing sig only file...");
             await vscode.commands.executeCommand(
-              "workbench.action.closeActiveEditor"
+              "workbench.action.closeActiveEditor",
             );
           });
         });
@@ -270,22 +335,22 @@ export class AlloyFileSetup {
               offset,
               this.completeFileUri,
               this._completeDocumentText,
-              variant
-            )
+              variant,
+            ),
           );
         }
 
         after(async () => {
           console.log("Closing complete file...");
           await vscode.commands.executeCommand(
-            "workbench.action.closeActiveEditor"
+            "workbench.action.closeActiveEditor",
           );
         });
       });
     });
   }
   private async measureTime<T>(
-    asyncFn: () => Promise<T>
+    asyncFn: () => Promise<T>,
   ): Promise<{ result: T; elapsedTimeInMs: number }> {
     const start = process.hrtime.bigint();
     const result = await asyncFn();

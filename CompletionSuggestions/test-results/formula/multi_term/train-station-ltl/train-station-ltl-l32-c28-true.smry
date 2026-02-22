@@ -6,6 +6,9 @@ Vscode Position: line=31 character=28
 ----------------------------------
 32 | 	all j : Junction, t : prox.
 ----------------------------------
+Expected Completion word: j
+Expected Completion line: j | some t.signal
+Suggestion exists: true
 Completion List:
 # Suggestion 	 Exact 	 Syntactic 	 Semantic
 $1. j 	 true 	 undefined 	 undefined
@@ -60,22 +63,11 @@ $49. univ.~signal 	 false 	 undefined 	 undefined
 $50. ~pos 	 false 	 undefined 	 undefined
 $51. ~pos.univ 	 false 	 undefined 	 undefined
 $52. univ.^prox 	 false 	 undefined 	 undefined
-$53. univ 	 false 	 undefined 	 undefined
-$54. univ.*prox 	 false 	 undefined 	 undefined
-Expected Completion word: j
-Expected Completion line: j | some t.signal
-Suggestion exists: true
+$53.  	 false 	 undefined 	 undefined
+$54. univ 	 false 	 undefined 	 undefined
+$55. univ.*prox 	 false 	 undefined 	 undefined
 
-Suggestion in top 1 = true 
-Suggestion in top 5 = true 
-Suggestion in top 10 = true 
-
-Suggestion in top 1 (Alpha) = false
-Suggestion in top 5 (Alpha) = false
-Suggestion in top 10 (Alpha) = false
-
-Suggestion in top 1 (Len) = true
-Suggestion in top 5 (Len) = true
-Suggestion in top 10 (Len) = true
-
-Time taken: 17.510916
+Time taken: 24.703583
+Preprocessing time: 4
+Parsing time: 1
+Generation time: 4

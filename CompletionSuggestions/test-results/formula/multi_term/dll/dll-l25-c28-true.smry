@@ -6,6 +6,9 @@ Vscode Position: line=24 character=28
 ----------------------------------
 25 |   no disj n1, n2: Node | n1.
 ----------------------------------
+Expected Completion word: elem
+Expected Completion line: elem = n2.elem
+Suggestion exists: true
 Completion List:
 # Suggestion 	 Exact 	 Syntactic 	 Semantic
 $1. *nxt.n1 	 false 	 undefined 	 undefined
@@ -96,26 +99,15 @@ $85. ^pre 	 false 	 undefined 	 undefined
 $86. ^pre.*nxt 	 false 	 undefined 	 undefined
 $87. ^pre.^nxt 	 false 	 undefined 	 undefined
 $88. ^pre.univ 	 false 	 undefined 	 undefined
-$89. *nxt 	 false 	 undefined 	 undefined
-$90. *nxt.*pre 	 false 	 undefined 	 undefined
-$91. *nxt.univ 	 false 	 undefined 	 undefined
-$92. *pre 	 false 	 undefined 	 undefined
-$93. *pre.*nxt 	 false 	 undefined 	 undefined
-$94. *pre.univ 	 false 	 undefined 	 undefined
-Expected Completion word: elem
-Expected Completion line: elem = n2.elem
-Suggestion exists: true
+$89.  	 false 	 undefined 	 undefined
+$90. *nxt 	 false 	 undefined 	 undefined
+$91. *nxt.*pre 	 false 	 undefined 	 undefined
+$92. *nxt.univ 	 false 	 undefined 	 undefined
+$93. *pre 	 false 	 undefined 	 undefined
+$94. *pre.*nxt 	 false 	 undefined 	 undefined
+$95. *pre.univ 	 false 	 undefined 	 undefined
 
-Suggestion in top 1 = false 
-Suggestion in top 5 = false 
-Suggestion in top 10 = false 
-
-Suggestion in top 1 (Alpha) = false
-Suggestion in top 5 (Alpha) = false
-Suggestion in top 10 (Alpha) = false
-
-Suggestion in top 1 (Len) = false
-Suggestion in top 5 (Len) = true
-Suggestion in top 10 (Len) = true
-
-Time taken: 9.673375
+Time taken: 11.491833
+Preprocessing time: 2
+Parsing time: 1
+Generation time: 3

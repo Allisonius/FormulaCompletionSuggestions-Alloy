@@ -1,0 +1,29 @@
+Model name: train-station-fol
+Filename: completion/train-station-fol-complete.als
+Offset: 332
+Term:  in 
+Vscode Position: line=17 character=33
+----------------------------------
+18 | 	all s:Signal|one t:Track | s in 
+----------------------------------
+Expected Completion word: t.signals
+Expected Completion line: t.signals
+Suggestion exists: false
+Completion List:
+# Suggestion 	 Exact 	 Syntactic 	 Semantic
+$1. Entry 	 false 	 undefined 	 undefined
+$2. Exit 	 false 	 undefined 	 undefined
+$3. Junction 	 false 	 undefined 	 undefined
+$4. Semaphore 	 false 	 undefined 	 undefined
+$5. Signal 	 false 	 undefined 	 undefined
+$6. Speed 	 false 	 undefined 	 undefined
+$7. Track 	 false 	 undefined 	 undefined
+$8. Int 	 false 	 undefined 	 undefined
+$9. String 	 false 	 undefined 	 undefined
+$10. none 	 false 	 undefined 	 undefined
+$11. univ 	 false 	 undefined 	 undefined
+
+Time taken: 61.167375
+Preprocessing time: 17
+Parsing time: 6
+Generation time: 0

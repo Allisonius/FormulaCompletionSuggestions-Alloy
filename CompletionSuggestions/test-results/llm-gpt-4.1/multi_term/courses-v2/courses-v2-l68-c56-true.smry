@@ -1,0 +1,40 @@
+Model name: courses-v2
+Filename: completion/courses-v2-complete.als
+Offset: 1560
+Term:  in 
+Vscode Position: line=67 character=56
+----------------------------------
+68 | 	all c : Course | all p : Person, g : Grade | p -> g in 
+----------------------------------
+Expected Completion word: c.grades
+Expected Completion line: c.grades => p in Student
+Suggestion exists: true
+Completion List:
+# Suggestion 	 Exact 	 Syntactic 	 Semantic
+$1. c.grades 	 true 	 true 	 true
+$2. c.grades[p] 	 false 	 undefined 	 undefined
+$3. c.grades.p 	 false 	 undefined 	 undefined
+$4. c.grades.g 	 false 	 undefined 	 undefined
+$5. c.grades[p].g 	 false 	 undefined 	 undefined
+$6. c.grades.p.g 	 false 	 undefined 	 undefined
+$7. c.grades & (p -> g) 	 false 	 undefined 	 undefined
+$8. c.grades + (p -> g) 	 false 	 undefined 	 undefined
+$9. ~c.grades 	 false 	 undefined 	 undefined
+$10. ~c.grades[p] 	 false 	 undefined 	 undefined
+$11. ~c.grades.g 	 false 	 undefined 	 undefined
+$12. ~c.grades.p 	 false 	 undefined 	 undefined
+$13. ~c.grades[p].g 	 false 	 undefined 	 undefined
+$14. ~c.grades.p.g 	 false 	 undefined 	 undefined
+$15. c.grades & univ 	 false 	 undefined 	 undefined
+$16. c.grades + univ 	 false 	 undefined 	 undefined
+$17. c.grades.p & univ 	 false 	 undefined 	 undefined
+$18. c.grades.p + univ 	 false 	 undefined 	 undefined
+$19. c.grades.g & univ 	 false 	 undefined 	 undefined
+$20. c.grades.g + univ 	 false 	 undefined 	 undefined
+$21. ~c.grades & univ 	 false 	 undefined 	 undefined
+$22. ~c.grades + univ 	 false 	 undefined 	 undefined
+
+Time taken: 6796.437542
+Preprocessing time: N/A
+Parsing time: N/A
+Generation time: N/A

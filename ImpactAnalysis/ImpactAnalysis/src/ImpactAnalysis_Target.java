@@ -45,9 +45,10 @@ public class ImpactAnalysis_Target {
 		boolean benchmark = true;
 
 		//large models
-		//String [] models = {"git", "frankervrep", "icd", "java_meta_model","modelo-alloy"};
-		//boolean benchmark = false;
-		
+		/*String [] models = {"git", "frankervrep", "icd", "java_meta_model","modelo-alloy"};
+		boolean benchmark = false;
+		*/
+	
 		//Where to store the results and result string to print at the end
 		String result_dir = "results" + File.separator;
 		
@@ -74,25 +75,30 @@ public class ImpactAnalysis_Target {
 			options.solver = SAT4JRef.INSTANCE;
 		     
 		    //Parse model
-		    CompModule world = CompUtil.parseEverything_fromFile(rep, null, model_dir + model + ".als");
-		    //Grab the default command as a basis to build out own commands
-		    Command c = world.getAllCommands().get(0); 
-		    
-		    //Collect parameters and their scopes
-		    ArrayList<Parameter> parameters = new ArrayList<Parameter>();
-		    for(Func pred : world.getAllFunc()) {
-		    	for(ExprVar ev : pred.params()) {
-		    		if(benchmark)
-		    			parameters.add(new Parameter(ev.label, ev.type().toString(), pred.pos.y, pred.pos.y2));
-		    		else
-		    			parameters.add(new Parameter(ev.label, ev.type().toString(), pred.pos.y-2, pred.pos.y2-2));
-		    	}
-		    } 
+		    CompModule world;
 		    
 		    for(File file : listOfFiles) {
 				String f = file.getName();
 				if(f.contains("json")) { //The json files contains all the suggestions and all details about the completion location
 	
+					ArrayList<Parameter> parameters = new ArrayList<Parameter>();	
+					//Reset world to remove any parameters stored as global variables
+					if(f.contains("fixable")) { //If model had variables declared on a different line in the file, then parse the model with variable use inlined with variable declarations
+						world = CompUtil.parseEverything_fromFile(rep, null, model_dir + model + "-fixable" + ".als"); 
+						
+						//reset parameter locations;
+						parameters = getParameterLocs(world,benchmark);
+					}
+					else {
+						world = CompUtil.parseEverything_fromFile(rep, null, model_dir + model + ".als");
+						
+						//reset parameter locations;
+						parameters = getParameterLocs(world,benchmark);
+					}
+
+					//Grab the default command as a basis to build out own commands
+					Command c = world.getAllCommands().get(0); 
+					
 					File myObj = new File(directory + f);
 				    Scanner myReader;
 				    Object obj = null;
@@ -118,10 +124,10 @@ public class ImpactAnalysis_Target {
 								world.addGlobal(p.variable, CompUtil.parseOneExpression_fromString(world, p.type));
 							}
 						}
-							
+	
 						//Iterate over all suggestions for the completion location
 						for(int r = 0; r < evaluationResult.size(); r++) {
-						
+							
 							JSONObject result = (JSONObject) evaluationResult.get(r);
 							String suggestion = (String) result.get("suggestion"); //grab suggestion
 							String new_state_string = incompleteLine + " " + suggestion; //build "after" state
@@ -365,6 +371,19 @@ public class ImpactAnalysis_Target {
 	            System.out.println(fileEntry.getName());
 	        }
 	    }
+	}
+	
+	public static ArrayList<Parameter> getParameterLocs(CompModule world, boolean benchmark){
+		ArrayList<Parameter> parameters = new ArrayList<Parameter>();
+	    for(Func pred : world.getAllFunc()) {
+	    	for(ExprVar ev : pred.params()) {
+	    		if(benchmark)
+	    			parameters.add(new Parameter(ev.label, ev.type().toString(), pred.pos.y, pred.pos.y2));
+	    		else
+	    			parameters.add(new Parameter(ev.label, ev.type().toString(), pred.pos.y-2, pred.pos.y2-2));
+	    	}
+	    } 
+	    return parameters;
 	}
 	
 	  private static class MyRep extends A4Reporter {

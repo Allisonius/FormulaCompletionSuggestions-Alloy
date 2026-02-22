@@ -6,6 +6,9 @@ Vscode Position: line=10 character=25
 ----------------------------------
 11 |   all n : Node | n !in n.
 ----------------------------------
+Expected Completion word: left
+Expected Completion line: ^(left + right)
+Suggestion exists: true
 Completion List:
 # Suggestion 	 Exact 	 Syntactic 	 Semantic
 $1. *left.n 	 false 	 undefined 	 undefined
@@ -25,67 +28,97 @@ $14. right.Node 	 false 	 undefined 	 undefined
 $15. ~left.Node 	 false 	 undefined 	 undefined
 $16. ~right.Node 	 false 	 undefined 	 undefined
 $17. *left.right 	 false 	 undefined 	 undefined
-$18. *right.left 	 false 	 undefined 	 undefined
-$19. ^left.right 	 false 	 undefined 	 undefined
-$20. ^right.left 	 false 	 undefined 	 undefined
-$21. left 	 true 	 undefined 	 undefined
-$22. left.*right 	 false 	 undefined 	 undefined
-$23. left.^right 	 false 	 undefined 	 undefined
-$24. left.right 	 false 	 undefined 	 undefined
-$25. left.univ 	 false 	 undefined 	 undefined
-$26. left.~right 	 false 	 undefined 	 undefined
-$27. right 	 false 	 undefined 	 undefined
-$28. right.*left 	 false 	 undefined 	 undefined
-$29. right.^left 	 false 	 undefined 	 undefined
-$30. right.left 	 false 	 undefined 	 undefined
-$31. right.univ 	 false 	 undefined 	 undefined
-$32. right.~left 	 false 	 undefined 	 undefined
-$33. ~left.right 	 false 	 undefined 	 undefined
-$34. ~right.left 	 false 	 undefined 	 undefined
-$35. *left.~right 	 false 	 undefined 	 undefined
-$36. *right.~left 	 false 	 undefined 	 undefined
-$37. ^left.~right 	 false 	 undefined 	 undefined
-$38. ^right.~left 	 false 	 undefined 	 undefined
-$39. ~left 	 false 	 undefined 	 undefined
-$40. ~left.*right 	 false 	 undefined 	 undefined
-$41. ~left.^right 	 false 	 undefined 	 undefined
-$42. ~left.univ 	 false 	 undefined 	 undefined
-$43. ~left.~right 	 false 	 undefined 	 undefined
-$44. ~right 	 false 	 undefined 	 undefined
-$45. ~right.*left 	 false 	 undefined 	 undefined
-$46. ~right.^left 	 false 	 undefined 	 undefined
-$47. ~right.univ 	 false 	 undefined 	 undefined
-$48. ~right.~left 	 false 	 undefined 	 undefined
-$49. *left.^right 	 false 	 undefined 	 undefined
-$50. *right.^left 	 false 	 undefined 	 undefined
-$51. ^left 	 false 	 undefined 	 undefined
-$52. ^left.*right 	 false 	 undefined 	 undefined
-$53. ^left.^right 	 false 	 undefined 	 undefined
-$54. ^left.univ 	 false 	 undefined 	 undefined
-$55. ^right 	 false 	 undefined 	 undefined
-$56. ^right.*left 	 false 	 undefined 	 undefined
-$57. ^right.^left 	 false 	 undefined 	 undefined
-$58. ^right.univ 	 false 	 undefined 	 undefined
-$59. *left 	 false 	 undefined 	 undefined
-$60. *left.*right 	 false 	 undefined 	 undefined
-$61. *left.univ 	 false 	 undefined 	 undefined
-$62. *right 	 false 	 undefined 	 undefined
-$63. *right.*left 	 false 	 undefined 	 undefined
-$64. *right.univ 	 false 	 undefined 	 undefined
-Expected Completion word: ^
-Expected Completion line: ^(left + right)
-Suggestion exists: true
+$18. *left.right 	 false 	 undefined 	 undefined
+$19. *right.left 	 false 	 undefined 	 undefined
+$20. *right.left 	 false 	 undefined 	 undefined
+$21. ^left.right 	 false 	 undefined 	 undefined
+$22. ^left.right 	 false 	 undefined 	 undefined
+$23. ^right.left 	 false 	 undefined 	 undefined
+$24. ^right.left 	 false 	 undefined 	 undefined
+$25. left 	 true 	 undefined 	 undefined
+$26. left 	 true 	 undefined 	 undefined
+$27. left.*right 	 false 	 undefined 	 undefined
+$28. left.*right 	 false 	 undefined 	 undefined
+$29. left.^right 	 false 	 undefined 	 undefined
+$30. left.^right 	 false 	 undefined 	 undefined
+$31. left.right 	 false 	 undefined 	 undefined
+$32. left.right 	 false 	 undefined 	 undefined
+$33. left.univ 	 false 	 undefined 	 undefined
+$34. left.~right 	 false 	 undefined 	 undefined
+$35. left.~right 	 false 	 undefined 	 undefined
+$36. right 	 false 	 undefined 	 undefined
+$37. right 	 false 	 undefined 	 undefined
+$38. right.*left 	 false 	 undefined 	 undefined
+$39. right.*left 	 false 	 undefined 	 undefined
+$40. right.^left 	 false 	 undefined 	 undefined
+$41. right.^left 	 false 	 undefined 	 undefined
+$42. right.left 	 false 	 undefined 	 undefined
+$43. right.left 	 false 	 undefined 	 undefined
+$44. right.univ 	 false 	 undefined 	 undefined
+$45. right.~left 	 false 	 undefined 	 undefined
+$46. right.~left 	 false 	 undefined 	 undefined
+$47. ~left.right 	 false 	 undefined 	 undefined
+$48. ~left.right 	 false 	 undefined 	 undefined
+$49. ~right.left 	 false 	 undefined 	 undefined
+$50. ~right.left 	 false 	 undefined 	 undefined
+$51. *left.~right 	 false 	 undefined 	 undefined
+$52. *left.~right 	 false 	 undefined 	 undefined
+$53. *right.~left 	 false 	 undefined 	 undefined
+$54. *right.~left 	 false 	 undefined 	 undefined
+$55. ^left.~right 	 false 	 undefined 	 undefined
+$56. ^left.~right 	 false 	 undefined 	 undefined
+$57. ^right.~left 	 false 	 undefined 	 undefined
+$58. ^right.~left 	 false 	 undefined 	 undefined
+$59. ~left 	 false 	 undefined 	 undefined
+$60. ~left 	 false 	 undefined 	 undefined
+$61. ~left.*right 	 false 	 undefined 	 undefined
+$62. ~left.*right 	 false 	 undefined 	 undefined
+$63. ~left.^right 	 false 	 undefined 	 undefined
+$64. ~left.^right 	 false 	 undefined 	 undefined
+$65. ~left.univ 	 false 	 undefined 	 undefined
+$66. ~left.~right 	 false 	 undefined 	 undefined
+$67. ~left.~right 	 false 	 undefined 	 undefined
+$68. ~right 	 false 	 undefined 	 undefined
+$69. ~right 	 false 	 undefined 	 undefined
+$70. ~right.*left 	 false 	 undefined 	 undefined
+$71. ~right.*left 	 false 	 undefined 	 undefined
+$72. ~right.^left 	 false 	 undefined 	 undefined
+$73. ~right.^left 	 false 	 undefined 	 undefined
+$74. ~right.univ 	 false 	 undefined 	 undefined
+$75. ~right.~left 	 false 	 undefined 	 undefined
+$76. ~right.~left 	 false 	 undefined 	 undefined
+$77. *left.^right 	 false 	 undefined 	 undefined
+$78. *left.^right 	 false 	 undefined 	 undefined
+$79. *right.^left 	 false 	 undefined 	 undefined
+$80. *right.^left 	 false 	 undefined 	 undefined
+$81. ^left 	 false 	 undefined 	 undefined
+$82. ^left 	 false 	 undefined 	 undefined
+$83. ^left.*right 	 false 	 undefined 	 undefined
+$84. ^left.*right 	 false 	 undefined 	 undefined
+$85. ^left.^right 	 false 	 undefined 	 undefined
+$86. ^left.^right 	 false 	 undefined 	 undefined
+$87. ^left.univ 	 false 	 undefined 	 undefined
+$88. ^right 	 false 	 undefined 	 undefined
+$89. ^right 	 false 	 undefined 	 undefined
+$90. ^right.*left 	 false 	 undefined 	 undefined
+$91. ^right.*left 	 false 	 undefined 	 undefined
+$92. ^right.^left 	 false 	 undefined 	 undefined
+$93. ^right.^left 	 false 	 undefined 	 undefined
+$94. ^right.univ 	 false 	 undefined 	 undefined
+$95.  	 false 	 undefined 	 undefined
+$96.  	 false 	 undefined 	 undefined
+$97. *left 	 false 	 undefined 	 undefined
+$98. *left 	 false 	 undefined 	 undefined
+$99. *left.*right 	 false 	 undefined 	 undefined
+$100. *left.*right 	 false 	 undefined 	 undefined
+$101. *left.univ 	 false 	 undefined 	 undefined
+$102. *right 	 false 	 undefined 	 undefined
+$103. *right 	 false 	 undefined 	 undefined
+$104. *right.*left 	 false 	 undefined 	 undefined
+$105. *right.*left 	 false 	 undefined 	 undefined
+$106. *right.univ 	 false 	 undefined 	 undefined
 
-Suggestion in top 1 = false 
-Suggestion in top 5 = false 
-Suggestion in top 10 = false 
-
-Suggestion in top 1 (Alpha) = false
-Suggestion in top 5 (Alpha) = false
-Suggestion in top 10 (Alpha) = false
-
-Suggestion in top 1 (Len) = false
-Suggestion in top 5 (Len) = false
-Suggestion in top 10 (Len) = false
-
-Time taken: 12.057292
+Time taken: 15.399583
+Preprocessing time: 2
+Parsing time: 0
+Generation time: 5

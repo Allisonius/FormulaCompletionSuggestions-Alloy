@@ -1,0 +1,32 @@
+Model name: classroom-fol
+Filename: completion/classroom-fol-complete.als
+Offset: 490
+Term:  in 
+Vscode Position: line=36 character=43
+----------------------------------
+37 | 	all t: Teacher | some c:Class | t -> c in 
+----------------------------------
+Expected Completion word: Teaches
+Expected Completion line: Teaches
+Suggestion exists: false
+Completion List:
+# Suggestion 	 Exact 	 Syntactic 	 Semantic
+$1. t.Teaches 	 false 	 false 	 false
+$2. t.Teaches.Groups 	 false 	 false 	 false
+$3. t.Teaches.Groups.t 	 false 	 false 	 false
+$4. t.Teaches.Groups.Person 	 false 	 false 	 false
+$5. t.Teaches.Groups.Group 	 false 	 false 	 false
+$6. t.Teaches.Groups + univ 	 false 	 undefined 	 undefined
+$7. t.Teaches.Groups & univ 	 false 	 undefined 	 undefined
+$8. ~Teaches 	 false 	 false 	 false
+$9. ~Teaches.Groups 	 false 	 false 	 false
+$10. ~Teaches.Groups.t 	 false 	 false 	 false
+$11. ~Teaches.Groups.Person 	 false 	 false 	 false
+$12. ~Teaches.Groups.Group 	 false 	 false 	 false
+$13. ~Teaches.Groups + univ 	 false 	 undefined 	 undefined
+$14. ~Teaches.Groups & univ 	 false 	 undefined 	 undefined
+
+Time taken: 6313.463541
+Preprocessing time: N/A
+Parsing time: N/A
+Generation time: N/A

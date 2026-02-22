@@ -6,6 +6,9 @@ Vscode Position: line=42 character=33
 ----------------------------------
 43 | 	all p : Person - Student | no p.
 ----------------------------------
+Expected Completion word: projects
+Expected Completion line: projects and all p : Project | some s : Student | p in s.projects
+Suggestion exists: true
 Completion List:
 # Suggestion 	 Exact 	 Syntactic 	 Semantic
 $1. enrolled.Course 	 false 	 undefined 	 undefined
@@ -23,20 +26,9 @@ $12. teaches.grades 	 false 	 undefined 	 undefined
 $13. teaches.projects 	 false 	 undefined 	 undefined
 $14. teaches.univ 	 false 	 undefined 	 undefined
 $15. teaches.~enrolled 	 false 	 undefined 	 undefined
-Expected Completion word: projects
-Expected Completion line: projects and all p : Project | some s : Student | p in s.projects
-Suggestion exists: true
+$16.  	 false 	 undefined 	 undefined
 
-Suggestion in top 1 = false 
-Suggestion in top 5 = false 
-Suggestion in top 10 = true 
-
-Suggestion in top 1 (Alpha) = false
-Suggestion in top 5 (Alpha) = false
-Suggestion in top 10 (Alpha) = true
-
-Suggestion in top 1 (Len) = false
-Suggestion in top 5 (Len) = true
-Suggestion in top 10 (Len) = true
-
-Time taken: 18.283333
+Time taken: 30.102375
+Preprocessing time: 5
+Parsing time: 2
+Generation time: 2

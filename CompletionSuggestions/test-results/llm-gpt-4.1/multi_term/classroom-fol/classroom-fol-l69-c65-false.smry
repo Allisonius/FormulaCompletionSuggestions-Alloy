@@ -1,0 +1,35 @@
+Model name: classroom-fol
+Filename: completion/classroom-fol-complete.als
+Offset: 1054
+Term: .
+Vscode Position: line=68 character=65
+----------------------------------
+69 | 	all c: Class, p: Person | p in (c.Groups).Group implies Teaches.
+----------------------------------
+Expected Completion word: c
+Expected Completion line: c -> p in Tutors
+Suggestion exists: false
+Completion List:
+# Suggestion 	 Exact 	 Syntactic 	 Semantic
+$1. p.Teaches 	 false 	 undefined 	 undefined
+$2. p.Teaches.Groups 	 false 	 undefined 	 undefined
+$3. p.Teaches.Groups.Group 	 false 	 undefined 	 undefined
+$4. p.Teaches.Groups.Group.Tutors 	 false 	 undefined 	 undefined
+$5. p.Teaches.Groups.Group.Teaches 	 false 	 undefined 	 undefined
+$6. p.Teaches.Groups.Group.Tutors.Teaches 	 false 	 undefined 	 undefined
+$7. p.Teaches.Groups.Group.Tutors.Tutors 	 false 	 undefined 	 undefined
+$8. p.Teaches.Groups.Group.Tutors.Tutors.Teaches 	 false 	 undefined 	 undefined
+$9. p.Teaches + univ 	 false 	 undefined 	 undefined
+$10. p.Teaches & univ 	 false 	 undefined 	 undefined
+$11. p.Teaches.Groups + univ 	 false 	 undefined 	 undefined
+$12. p.Teaches.Groups & univ 	 false 	 undefined 	 undefined
+$13. p.Teaches.Groups.Group + univ 	 false 	 undefined 	 undefined
+$14. p.Teaches.Groups.Group & univ 	 false 	 undefined 	 undefined
+$15. ~Teaches 	 false 	 undefined 	 undefined
+$16. ~Teaches.Groups 	 false 	 undefined 	 undefined
+$17. ~Teaches.Groups.Group 	 false 	 undefined 	 undefined
+
+Time taken: 6627.043792
+Preprocessing time: N/A
+Parsing time: N/A
+Generation time: N/A

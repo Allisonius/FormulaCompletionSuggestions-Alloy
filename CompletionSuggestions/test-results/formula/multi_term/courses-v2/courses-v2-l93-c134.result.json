@@ -1,1 +1,172 @@
-{"modelName":"courses-v2","filename":"completion/courses-v2-complete.als","offset":2530,"term":" in ","line":93,"character":134,"incompletionLine":"all c : Course , p : c.projects , disj x , y : (Person <: projects).p | some c.grades[x] and some c.grades[y] implies c.grades[x] in","completionList":"","evaluationResult":[],"completionGenerated":false,"suggestionExists":false,"suggestionInTop1":false,"suggestionInTop5":false,"suggestionInTop10":false,"suggestionInTop1Alpha":false,"suggestionInTop5Alpha":false,"suggestionInTop10Alpha":false,"suggestionInTop1Len":false,"suggestionInTop5Len":false,"suggestionInTop10Len":false,"expectedCompletionWord":"c","expectedCompletionLine":"c.grades[y].(prev + iden + next)","elapsedTimeInMs":16.178167}
+{
+  "modelName": "courses-v2",
+  "filename": "completion/courses-v2-complete.als",
+  "offset": 2530,
+  "term": " in ",
+  "line": 93,
+  "character": 134,
+  "incompletionLine": "all c : Course , p : c.projects , disj x , y : (Person <: projects).p | some c.grades[x] and some c.grades[y] implies c.grades[x] in",
+  "completionList": "Course, Grade, Person, Professor, Project, Student, ordering/Ord, Int, String, none, univ",
+  "evaluationResult": [
+    {
+      "suggestion": "Course",
+      "rank": 1,
+      "doesMatchExactly": false,
+      "startsWithSuggestion": false,
+      "doesCompile": false,
+      "expressionComponents": [
+        {
+          "label": "Course",
+          "type": "SIGNATURE"
+        }
+      ]
+    },
+    {
+      "suggestion": "Grade",
+      "rank": 2,
+      "doesMatchExactly": false,
+      "startsWithSuggestion": false,
+      "doesCompile": false,
+      "expressionComponents": [
+        {
+          "label": "Grade",
+          "type": "SIGNATURE"
+        }
+      ]
+    },
+    {
+      "suggestion": "Person",
+      "rank": 3,
+      "doesMatchExactly": false,
+      "startsWithSuggestion": false,
+      "doesCompile": false,
+      "expressionComponents": [
+        {
+          "label": "Person",
+          "type": "SIGNATURE"
+        }
+      ]
+    },
+    {
+      "suggestion": "Professor",
+      "rank": 4,
+      "doesMatchExactly": false,
+      "startsWithSuggestion": false,
+      "doesCompile": false,
+      "expressionComponents": [
+        {
+          "label": "Professor",
+          "type": "SIGNATURE"
+        }
+      ]
+    },
+    {
+      "suggestion": "Project",
+      "rank": 5,
+      "doesMatchExactly": false,
+      "startsWithSuggestion": false,
+      "doesCompile": false,
+      "expressionComponents": [
+        {
+          "label": "Project",
+          "type": "SIGNATURE"
+        }
+      ]
+    },
+    {
+      "suggestion": "Student",
+      "rank": 6,
+      "doesMatchExactly": false,
+      "startsWithSuggestion": false,
+      "doesCompile": false,
+      "expressionComponents": [
+        {
+          "label": "Student",
+          "type": "SIGNATURE"
+        }
+      ]
+    },
+    {
+      "suggestion": "ordering/Ord",
+      "rank": 7,
+      "doesMatchExactly": false,
+      "startsWithSuggestion": false,
+      "doesCompile": false,
+      "expressionComponents": [
+        {
+          "label": "ordering/Ord",
+          "type": "OTHER"
+        }
+      ]
+    },
+    {
+      "suggestion": "Int",
+      "rank": 8,
+      "doesMatchExactly": false,
+      "startsWithSuggestion": false,
+      "doesCompile": false,
+      "expressionComponents": [
+        {
+          "label": "Int",
+          "type": "OTHER"
+        }
+      ]
+    },
+    {
+      "suggestion": "String",
+      "rank": 9,
+      "doesMatchExactly": false,
+      "startsWithSuggestion": false,
+      "doesCompile": false,
+      "expressionComponents": [
+        {
+          "label": "String",
+          "type": "OTHER"
+        }
+      ]
+    },
+    {
+      "suggestion": "none",
+      "rank": 10,
+      "doesMatchExactly": false,
+      "startsWithSuggestion": false,
+      "doesCompile": false,
+      "expressionComponents": [
+        {
+          "label": "none",
+          "type": "CONSTANT"
+        }
+      ]
+    },
+    {
+      "suggestion": "univ",
+      "rank": 11,
+      "doesMatchExactly": false,
+      "startsWithSuggestion": false,
+      "doesCompile": false,
+      "expressionComponents": [
+        {
+          "label": "univ",
+          "type": "CONSTANT"
+        }
+      ]
+    }
+  ],
+  "completionGenerated": true,
+  "suggestionExists": false,
+  "suggestionInTop1": false,
+  "suggestionInTop5": false,
+  "suggestionInTop10": false,
+  "suggestionInTop1Alpha": false,
+  "suggestionInTop5Alpha": false,
+  "suggestionInTop10Alpha": false,
+  "suggestionInTop1Len": false,
+  "suggestionInTop5Len": false,
+  "suggestionInTop10Len": false,
+  "expectedCompletionWord": "c.grades[y].(prev+iden+next)",
+  "expectedCompletionLine": "c.grades[y].(prev + iden + next)",
+  "elapsedTimeInMs": 19.429583,
+  "preprocessingTime": "5",
+  "parsingTime": "2",
+  "generationTime": "0"
+}

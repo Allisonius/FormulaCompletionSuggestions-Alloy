@@ -6,31 +6,31 @@ Vscode Position: line=26 character=78
 ----------------------------------
 27 | 	all s : Person, a: Assignment | PolicyAllowsGrading[s, a] implies not s in a.
 ----------------------------------
-Completion List:
-# Suggestion 	 Exact 	 Syntactic 	 Semantic
-$1. assigned_to.Student 	 false 	 undefined 	 undefined
-$2. associated_with.Class 	 false 	 undefined 	 undefined
-$3. assigned_to 	 true 	 undefined 	 undefined
-$4. assigned_to.univ 	 false 	 undefined 	 undefined
-$5. assigned_to.~assistant_for 	 false 	 undefined 	 undefined
-$6. associated_with 	 false 	 undefined 	 undefined
-$7. associated_with.assistant_for 	 false 	 undefined 	 undefined
-$8. associated_with.instructor_of 	 false 	 undefined 	 undefined
-$9. associated_with.univ 	 false 	 undefined 	 undefined
 Expected Completion word: assigned_to
 Expected Completion line: assigned_to 
 Suggestion exists: true
+Completion List:
+# Suggestion 	 Exact 	 Syntactic 	 Semantic
+$1. assigned_to.s 	 false 	 undefined 	 undefined
+$2. assigned_to.Person 	 false 	 undefined 	 undefined
+$3. assigned_to.Professor 	 false 	 undefined 	 undefined
+$4. assigned_to.Student 	 false 	 undefined 	 undefined
+$5. associated_with.Class 	 false 	 undefined 	 undefined
+$6. assigned_to 	 true 	 undefined 	 undefined
+$7. assigned_to 	 true 	 undefined 	 undefined
+$8. assigned_to.univ 	 false 	 undefined 	 undefined
+$9. assigned_to.~assistant_for 	 false 	 undefined 	 undefined
+$10. assigned_to.~instructor_of 	 false 	 undefined 	 undefined
+$11. assigned_to.~instructor_of 	 false 	 undefined 	 undefined
+$12. associated_with 	 false 	 undefined 	 undefined
+$13. associated_with.assistant_for 	 false 	 undefined 	 undefined
+$14. associated_with.assistant_for 	 false 	 undefined 	 undefined
+$15. associated_with.instructor_of 	 false 	 undefined 	 undefined
+$16. associated_with.instructor_of 	 false 	 undefined 	 undefined
+$17. associated_with.univ 	 false 	 undefined 	 undefined
+$18.  	 false 	 undefined 	 undefined
 
-Suggestion in top 1 = false 
-Suggestion in top 5 = true 
-Suggestion in top 10 = true 
-
-Suggestion in top 1 (Alpha) = true
-Suggestion in top 5 (Alpha) = true
-Suggestion in top 10 (Alpha) = true
-
-Suggestion in top 1 (Len) = true
-Suggestion in top 5 (Len) = true
-Suggestion in top 10 (Len) = true
-
-Time taken: 6.572916
+Time taken: 16.153459
+Preprocessing time: 2
+Parsing time: 0
+Generation time: 1

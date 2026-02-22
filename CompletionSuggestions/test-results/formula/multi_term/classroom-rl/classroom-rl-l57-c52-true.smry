@@ -6,6 +6,9 @@ Vscode Position: line=56 character=52
 ----------------------------------
 57 | 	all c : Class | some c.Groups implies some Teaches.
 ----------------------------------
+Expected Completion word: c
+Expected Completion line: c & Teacher
+Suggestion exists: true
 Completion List:
 # Suggestion 	 Exact 	 Syntactic 	 Semantic
 $1. c 	 true 	 undefined 	 undefined
@@ -23,22 +26,11 @@ $12. univ.Tutors 	 false 	 undefined 	 undefined
 $13. univ.~Teaches 	 false 	 undefined 	 undefined
 $14. univ.~Tutors 	 false 	 undefined 	 undefined
 $15. univ.^Tutors 	 false 	 undefined 	 undefined
-$16. univ 	 false 	 undefined 	 undefined
-$17. univ.*Tutors 	 false 	 undefined 	 undefined
-Expected Completion word: c
-Expected Completion line: c & Teacher
-Suggestion exists: true
+$16.  	 false 	 undefined 	 undefined
+$17. univ 	 false 	 undefined 	 undefined
+$18. univ.*Tutors 	 false 	 undefined 	 undefined
 
-Suggestion in top 1 = true 
-Suggestion in top 5 = true 
-Suggestion in top 10 = true 
-
-Suggestion in top 1 (Alpha) = true
-Suggestion in top 5 (Alpha) = true
-Suggestion in top 10 (Alpha) = true
-
-Suggestion in top 1 (Len) = true
-Suggestion in top 5 (Len) = true
-Suggestion in top 10 (Len) = true
-
-Time taken: 8.253125
+Time taken: 9.394333
+Preprocessing time: 2
+Parsing time: 1
+Generation time: 1

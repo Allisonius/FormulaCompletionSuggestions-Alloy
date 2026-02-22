@@ -12,7 +12,7 @@ export function run(): Promise<void> {
     ui: "bdd",
     color: true,
   });
-  mocha.timeout(100000);
+  mocha.timeout(10000000);
 
   const testsRoot = path.resolve(__dirname, "e2e/completion");
   console.log("Tests Root: ", testsRoot);

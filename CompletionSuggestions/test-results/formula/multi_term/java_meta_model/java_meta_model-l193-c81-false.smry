@@ -1,0 +1,19 @@
+Model name: java_meta_model
+Filename: completion/java_meta_model-complete.als
+Offset: 4979
+Term: .
+Vscode Position: line=192 character=81
+----------------------------------
+193 | 	all c: Class | all m1,m2:c.methods | m1!=m2 =>(m1.id != m2.id or m1.param != m2.
+----------------------------------
+Expected Completion word: undefined
+Expected Completion line: param)
+Suggestion exists: false
+Completion List:
+# Suggestion 	 Exact 	 Syntactic 	 Semantic
+
+
+Time taken: 83.67725
+Preprocessing time: N/A
+Parsing time: N/A
+Generation time: N/A

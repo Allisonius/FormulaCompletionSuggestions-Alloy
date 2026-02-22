@@ -55,7 +55,7 @@ pred inv7 { //same as oracle
 
 // A professor cannot teach herself
 pred inv8 { //same as oracle
-	(all p : Person | no p.teaches & p.enrolled)
+	all p : Person | no p.teaches & p.enrolled
 }
 
 // A professor cannot teach colleagues

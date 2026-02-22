@@ -1,0 +1,22 @@
+Model name: courses-v2
+Filename: completion/courses-v2-sig.als
+Offset: 208
+Term:  -> 
+Vscode Position: line=12 character=20
+----------------------------------
+13 | 	grades : Person -> 
+----------------------------------
+Expected Completion word: Grade
+Expected Completion line: Grade
+Suggestion exists: true
+Completion List:
+# Suggestion 	 Exact 	 Syntactic 	 Semantic
+$1. Grade 	 true 	 true 	 true
+$2. Project 	 false 	 false 	 false
+$3. Course 	 false 	 false 	 false
+$4. Person 	 false 	 false 	 false
+$5. Professor 	 false 	 false 	 false
+$6. Student 	 false 	 false 	 false
+$7. univ 	 false 	 false 	 false
+
+Time taken: 11800.499583

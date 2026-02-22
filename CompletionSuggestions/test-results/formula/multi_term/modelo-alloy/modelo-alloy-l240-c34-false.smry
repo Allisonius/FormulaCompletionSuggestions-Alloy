@@ -1,0 +1,19 @@
+Model name: modelo-alloy
+Filename: completion/ModeloAlloy-complete.als
+Offset: 5888
+Term: .
+Vscode Position: line=239 character=34
+----------------------------------
+240 |    #{ v: Veterinarian | prod in v.
+----------------------------------
+Expected Completion word: undefined
+Expected Completion line: verifies } > 3 
+Suggestion exists: false
+Completion List:
+# Suggestion 	 Exact 	 Syntactic 	 Semantic
+
+
+Time taken: 34.606833
+Preprocessing time: N/A
+Parsing time: N/A
+Generation time: N/A

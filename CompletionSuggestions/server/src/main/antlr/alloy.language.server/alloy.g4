@@ -112,8 +112,10 @@ expr
     | 'this'
     | unExpOp expr
     | expr '\''
-    | expr dotOp expr
     | expr '[' expr (',' expr)* ']'
+    | expr dotOp expr
+    | 'disj' '[' expr ',' expr (',' expr)* ']'
+    | 'sum' '[' expr ',' expr (',' expr)* ']'
     | expr restrictionOp expr
     | expr arrowOp expr
     | expr setOp expr
@@ -127,9 +129,15 @@ expr
     | 'let' letDecl (',' letDecl)* block
     | 'let' letDecl (',' letDecl)* BAR expr
     | quant decl (',' decl)* (BAR expr | block)
+//    | quantDecl
     | '{' decl (',' decl)* blockOrBar '}'
     | '(' expr ')'
     | block
+    ;
+
+quantDecl
+    : quant decl (',' decl)*
+    | quant decl (',' decl)* BAR expr | block
     ;
 
 const_
@@ -259,6 +267,10 @@ IDENTIFIER
 
 COMMENT
     : '//' ~ [\r\n]* -> skip
+    ;
+
+BLOCK_COMMENT
+    : '/*' .*? '*/' -> skip
     ;
 
 WS

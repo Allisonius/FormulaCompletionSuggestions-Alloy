@@ -1,0 +1,36 @@
+Model name: java_meta_model
+Filename: completion/java_meta_model-complete.als
+Offset: 7905
+Term: .
+Vscode Position: line=309 character=6
+----------------------------------
+310 | 	pack.
+----------------------------------
+Expected Completion word: package
+Expected Completion line: ~package
+Suggestion exists: false
+Completion List:
+# Suggestion 	 Exact 	 Syntactic 	 Semantic
+$1. ~package.Class 	 false 	 undefined 	 undefined
+$2. ~package.Int_ 	 false 	 undefined 	 undefined
+$3. ~package.Long_ 	 false 	 undefined 	 undefined
+$4. ~package.PrimitiveType 	 false 	 undefined 	 undefined
+$5. ~package.Type 	 false 	 undefined 	 undefined
+$6. ~package.extend 	 false 	 undefined 	 undefined
+$7. ~package.fields 	 false 	 undefined 	 undefined
+$8. ~package.id 	 false 	 undefined 	 undefined
+$9. ~package.methods 	 false 	 undefined 	 undefined
+$10. ~package 	 false 	 undefined 	 undefined
+$11. ~package.*extend 	 false 	 undefined 	 undefined
+$12. ~package.^extend 	 false 	 undefined 	 undefined
+$13. ~package.univ 	 false 	 undefined 	 undefined
+$14. ~package.~extend 	 false 	 undefined 	 undefined
+$15. ~package.~param 	 false 	 undefined 	 undefined
+$16. ~package.~return 	 false 	 undefined 	 undefined
+$17. ~package.~type 	 false 	 undefined 	 undefined
+$18.  	 false 	 undefined 	 undefined
+
+Time taken: 77.874
+Preprocessing time: 26
+Parsing time: 14
+Generation time: 0

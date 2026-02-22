@@ -6,30 +6,26 @@ Vscode Position: line=16 character=17
 ----------------------------------
 17 |     q1.row != q2.
 ----------------------------------
-Completion List:
-# Suggestion 	 Exact 	 Syntactic 	 Semantic
-$1. col 	 false 	 undefined 	 undefined
-$2. col.Int 	 false 	 undefined 	 undefined
-$3. col.univ 	 false 	 undefined 	 undefined
-$4. col.~row 	 false 	 undefined 	 undefined
-$5. row 	 true 	 undefined 	 undefined
-$6. row.Int 	 false 	 undefined 	 undefined
-$7. row.univ 	 false 	 undefined 	 undefined
-$8. row.~col 	 false 	 undefined 	 undefined
 Expected Completion word: row
 Expected Completion line: row
 Suggestion exists: true
+Completion List:
+# Suggestion 	 Exact 	 Syntactic 	 Semantic
+$1. col 	 false 	 undefined 	 undefined
+$2. col 	 false 	 undefined 	 undefined
+$3. col.Int 	 false 	 undefined 	 undefined
+$4. col.Int 	 false 	 undefined 	 undefined
+$5. col.univ 	 false 	 undefined 	 undefined
+$6. col.~row 	 false 	 undefined 	 undefined
+$7. row 	 true 	 undefined 	 undefined
+$8. row 	 true 	 undefined 	 undefined
+$9. row.Int 	 false 	 undefined 	 undefined
+$10. row.Int 	 false 	 undefined 	 undefined
+$11. row.univ 	 false 	 undefined 	 undefined
+$12. row.~col 	 false 	 undefined 	 undefined
+$13.  	 false 	 undefined 	 undefined
 
-Suggestion in top 1 = false 
-Suggestion in top 5 = true 
-Suggestion in top 10 = true 
-
-Suggestion in top 1 (Alpha) = false
-Suggestion in top 5 (Alpha) = true
-Suggestion in top 10 (Alpha) = true
-
-Suggestion in top 1 (Len) = false
-Suggestion in top 5 (Len) = true
-Suggestion in top 10 (Len) = true
-
-Time taken: 8.777
+Time taken: 8.5685
+Preprocessing time: 2
+Parsing time: 1
+Generation time: 0

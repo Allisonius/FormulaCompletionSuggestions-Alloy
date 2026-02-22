@@ -14,6 +14,12 @@ public class CTreeModelTest extends BaseVisitorTest {
 	private final CompletionModelBuilder modelBuilder = CTree.modelBuilder();
 
 	@BeforeAll
+	public static void setup() {
+		// Ensure that the new completion provider is enabled for testing
+		ConfigManager.getInstance().setUseNewCompletionProvider(true);
+	}
+
+	@BeforeAll
 	public static void setUp() {
 //		ConfigManager.getInstance().setUseGeneratorCompletion(true);
 	}

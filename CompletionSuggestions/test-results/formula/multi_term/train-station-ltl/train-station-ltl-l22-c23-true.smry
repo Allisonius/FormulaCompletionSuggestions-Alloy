@@ -6,6 +6,9 @@ Vscode Position: line=21 character=23
 ----------------------------------
 22 | 	no t : Track | t in t.
 ----------------------------------
+Expected Completion word: prox
+Expected Completion line: ^prox
+Suggestion exists: true
 Completion List:
 # Suggestion 	 Exact 	 Syntactic 	 Semantic
 $1. *prox.t 	 false 	 undefined 	 undefined
@@ -35,38 +38,33 @@ $24. ~prox.Track 	 false 	 undefined 	 undefined
 $25. *prox.signal 	 false 	 undefined 	 undefined
 $26. ^prox.signal 	 false 	 undefined 	 undefined
 $27. prox 	 true 	 undefined 	 undefined
-$28. prox.signal 	 false 	 undefined 	 undefined
-$29. prox.univ 	 false 	 undefined 	 undefined
-$30. prox.~pos 	 false 	 undefined 	 undefined
-$31. signal 	 false 	 undefined 	 undefined
-$32. signal.univ 	 false 	 undefined 	 undefined
-$33. ~pos.pos' 	 false 	 undefined 	 undefined
-$34. ~prox.signal 	 false 	 undefined 	 undefined
-$35. *prox.~pos 	 false 	 undefined 	 undefined
-$36. ^prox.~pos 	 false 	 undefined 	 undefined
-$37. ~pos 	 false 	 undefined 	 undefined
-$38. ~pos.univ 	 false 	 undefined 	 undefined
-$39. ~prox 	 false 	 undefined 	 undefined
-$40. ~prox.univ 	 false 	 undefined 	 undefined
-$41. ~prox.~pos 	 false 	 undefined 	 undefined
-$42. ^prox 	 false 	 undefined 	 undefined
-$43. ^prox.univ 	 false 	 undefined 	 undefined
-$44. *prox 	 false 	 undefined 	 undefined
-$45. *prox.univ 	 false 	 undefined 	 undefined
-Expected Completion word: ^prox
-Expected Completion line: ^prox
-Suggestion exists: true
+$28. prox 	 true 	 undefined 	 undefined
+$29. prox.signal 	 false 	 undefined 	 undefined
+$30. prox.univ 	 false 	 undefined 	 undefined
+$31. prox.~pos 	 false 	 undefined 	 undefined
+$32. signal 	 false 	 undefined 	 undefined
+$33. signal.univ 	 false 	 undefined 	 undefined
+$34. ~pos.pos' 	 false 	 undefined 	 undefined
+$35. ~pos.pos' 	 false 	 undefined 	 undefined
+$36. ~prox.signal 	 false 	 undefined 	 undefined
+$37. *prox.~pos 	 false 	 undefined 	 undefined
+$38. ^prox.~pos 	 false 	 undefined 	 undefined
+$39. ~pos 	 false 	 undefined 	 undefined
+$40. ~pos.univ 	 false 	 undefined 	 undefined
+$41. ~prox 	 false 	 undefined 	 undefined
+$42. ~prox 	 false 	 undefined 	 undefined
+$43. ~prox.univ 	 false 	 undefined 	 undefined
+$44. ~prox.~pos 	 false 	 undefined 	 undefined
+$45. ^prox 	 false 	 undefined 	 undefined
+$46. ^prox 	 false 	 undefined 	 undefined
+$47. ^prox.univ 	 false 	 undefined 	 undefined
+$48.  	 false 	 undefined 	 undefined
+$49.  	 false 	 undefined 	 undefined
+$50. *prox 	 false 	 undefined 	 undefined
+$51. *prox 	 false 	 undefined 	 undefined
+$52. *prox.univ 	 false 	 undefined 	 undefined
 
-Suggestion in top 1 = false 
-Suggestion in top 5 = false 
-Suggestion in top 10 = false 
-
-Suggestion in top 1 (Alpha) = false
-Suggestion in top 5 (Alpha) = false
-Suggestion in top 10 (Alpha) = true
-
-Suggestion in top 1 (Len) = false
-Suggestion in top 5 (Len) = true
-Suggestion in top 10 (Len) = true
-
-Time taken: 12.599125
+Time taken: 20.678083
+Preprocessing time: 3
+Parsing time: 2
+Generation time: 3

@@ -1,0 +1,50 @@
+Model name: classroom-fol
+Filename: completion/classroom-fol-complete.als
+Offset: 424
+Term: .
+Vscode Position: line=32 character=14
+----------------------------------
+33 | 	some Teacher.
+----------------------------------
+Expected Completion word: Teaches
+Expected Completion line: Teaches
+Suggestion exists: true
+Completion List:
+# Suggestion 	 Exact 	 Syntactic 	 Semantic
+$1. Tutors 	 false 	 false 	 false
+$2. Teaches 	 true 	 true 	 true
+$3. Tutors.Tutors 	 false 	 false 	 false
+$4. Tutors.Teaches 	 false 	 false 	 false
+$5. Teaches.Groups 	 false 	 false 	 false
+$6. ~Tutors 	 false 	 false 	 false
+$7. ~Teaches 	 false 	 false 	 false
+$8. Teaches.Groups.Person 	 false 	 false 	 false
+$9. Teaches.Groups.Group 	 false 	 false 	 false
+$10. Teaches.Groups.~Groups 	 false 	 undefined 	 undefined
+$11. Tutors.Tutors.Tutors 	 false 	 false 	 false
+$12. Tutors.Tutors.Teaches 	 false 	 false 	 false
+$13. Teaches.Groups.Person.Tutors 	 false 	 false 	 false
+$14. Teaches.Groups.Person.Teaches 	 false 	 false 	 false
+$15. Teaches.Groups.Person.Teaches.Groups 	 false 	 false 	 false
+$16. Teaches.Groups.Group 	 false 	 false 	 false
+$17. Teaches.Groups.Group.~Groups 	 false 	 undefined 	 undefined
+$18. ~Teaches.Groups 	 false 	 false 	 false
+$19. ~Teaches.Groups.Person 	 false 	 false 	 false
+$20. ~Teaches.Groups.Group 	 false 	 false 	 false
+$21. ~Teaches.Groups.~Groups 	 false 	 undefined 	 undefined
+$22. Teaches.Groups.~Groups.Person 	 false 	 undefined 	 undefined
+$23. Teaches.Groups.~Groups.Group 	 false 	 undefined 	 undefined
+$24. Teaches.Groups.~Groups.~Groups 	 false 	 undefined 	 undefined
+$25. ^Tutors 	 false 	 false 	 false
+$26. *Tutors 	 false 	 false 	 false
+$27. ^Teaches 	 false 	 false 	 false
+$28. *Teaches 	 false 	 false 	 false
+$29. Teaches + univ 	 false 	 undefined 	 undefined
+$30. Tutors + univ 	 false 	 undefined 	 undefined
+$31. Teaches & univ 	 false 	 undefined 	 undefined
+$32. Tutors & univ 	 false 	 undefined 	 undefined
+
+Time taken: 17956.240458
+Preprocessing time: N/A
+Parsing time: N/A
+Generation time: N/A

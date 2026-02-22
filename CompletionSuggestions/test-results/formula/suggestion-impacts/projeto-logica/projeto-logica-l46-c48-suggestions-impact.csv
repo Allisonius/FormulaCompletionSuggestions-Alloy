@@ -1,0 +1,27 @@
+modelname,filename,position-line,position-character,incompleteline,removedtext,baseline,suggestionedExpression,A_iff_B,A_and_B,not_A_and_B,A_and_not_B,not_A_and_not_B,suggestionImpactTime
+projeto-logica,completion/ProjetoLogica-sig.als,46,48,"sig SuporteAcionado, SuporteNaoAcionado extends","StatusAcionado{}","{}","sig SuporteAcionado, SuporteNaoAcionado extends Cadastrado",,,,,,9.789
+projeto-logica,completion/ProjetoLogica-sig.als,46,48,"sig SuporteAcionado, SuporteNaoAcionado extends","StatusAcionado{}","{}","sig SuporteAcionado, SuporteNaoAcionado extends ComInternet",,,,,,9.789
+projeto-logica,completion/ProjetoLogica-sig.als,46,48,"sig SuporteAcionado, SuporteNaoAcionado extends","StatusAcionado{}","{}","sig SuporteAcionado, SuporteNaoAcionado extends DataDeNascimento",,,,,,9.789
+projeto-logica,completion/ProjetoLogica-sig.als,46,48,"sig SuporteAcionado, SuporteNaoAcionado extends","StatusAcionado{}","{}","sig SuporteAcionado, SuporteNaoAcionado extends Email",,,,,,9.789
+projeto-logica,completion/ProjetoLogica-sig.als,46,48,"sig SuporteAcionado, SuporteNaoAcionado extends","StatusAcionado{}","{}","sig SuporteAcionado, SuporteNaoAcionado extends Linux",,,,,,9.789
+projeto-logica,completion/ProjetoLogica-sig.als,46,48,"sig SuporteAcionado, SuporteNaoAcionado extends","StatusAcionado{}","{}","sig SuporteAcionado, SuporteNaoAcionado extends Login",,,,,,9.789
+projeto-logica,completion/ProjetoLogica-sig.als,46,48,"sig SuporteAcionado, SuporteNaoAcionado extends","StatusAcionado{}","{}","sig SuporteAcionado, SuporteNaoAcionado extends Medico",,,,,,9.789
+projeto-logica,completion/ProjetoLogica-sig.als,46,48,"sig SuporteAcionado, SuporteNaoAcionado extends","StatusAcionado{}","{}","sig SuporteAcionado, SuporteNaoAcionado extends NaoCadastrado",,,,,,9.789
+projeto-logica,completion/ProjetoLogica-sig.als,46,48,"sig SuporteAcionado, SuporteNaoAcionado extends","StatusAcionado{}","{}","sig SuporteAcionado, SuporteNaoAcionado extends Nome",,,,,,9.789
+projeto-logica,completion/ProjetoLogica-sig.als,46,48,"sig SuporteAcionado, SuporteNaoAcionado extends","StatusAcionado{}","{}","sig SuporteAcionado, SuporteNaoAcionado extends Paciente",,,,,,9.789
+projeto-logica,completion/ProjetoLogica-sig.als,46,48,"sig SuporteAcionado, SuporteNaoAcionado extends","StatusAcionado{}","{}","sig SuporteAcionado, SuporteNaoAcionado extends SemInternet",,,,,,9.789
+projeto-logica,completion/ProjetoLogica-sig.als,46,48,"sig SuporteAcionado, SuporteNaoAcionado extends","StatusAcionado{}","{}","sig SuporteAcionado, SuporteNaoAcionado extends Senha",,,,,,9.789
+projeto-logica,completion/ProjetoLogica-sig.als,46,48,"sig SuporteAcionado, SuporteNaoAcionado extends","StatusAcionado{}","{}","sig SuporteAcionado, SuporteNaoAcionado extends Servidor",,,,,,9.789
+projeto-logica,completion/ProjetoLogica-sig.als,46,48,"sig SuporteAcionado, SuporteNaoAcionado extends","StatusAcionado{}","{}","sig SuporteAcionado, SuporteNaoAcionado extends Sintoma",,,,,,9.789
+projeto-logica,completion/ProjetoLogica-sig.als,46,48,"sig SuporteAcionado, SuporteNaoAcionado extends","StatusAcionado{}","{}","sig SuporteAcionado, SuporteNaoAcionado extends SistemaCliente",,,,,,9.789
+projeto-logica,completion/ProjetoLogica-sig.als,46,48,"sig SuporteAcionado, SuporteNaoAcionado extends","StatusAcionado{}","{}","sig SuporteAcionado, SuporteNaoAcionado extends SistemaOperacional",,,,,,9.789
+projeto-logica,completion/ProjetoLogica-sig.als,46,48,"sig SuporteAcionado, SuporteNaoAcionado extends","StatusAcionado{}","{}","sig SuporteAcionado, SuporteNaoAcionado extends StatusAcionado",,,,,,9.789
+projeto-logica,completion/ProjetoLogica-sig.als,46,48,"sig SuporteAcionado, SuporteNaoAcionado extends","StatusAcionado{}","{}","sig SuporteAcionado, SuporteNaoAcionado extends StatusCadastro",,,,,,9.789
+projeto-logica,completion/ProjetoLogica-sig.als,46,48,"sig SuporteAcionado, SuporteNaoAcionado extends","StatusAcionado{}","{}","sig SuporteAcionado, SuporteNaoAcionado extends StatusInternet",,,,,,9.789
+projeto-logica,completion/ProjetoLogica-sig.als,46,48,"sig SuporteAcionado, SuporteNaoAcionado extends","StatusAcionado{}","{}","sig SuporteAcionado, SuporteNaoAcionado extends Suporte",,,,,,9.789
+projeto-logica,completion/ProjetoLogica-sig.als,46,48,"sig SuporteAcionado, SuporteNaoAcionado extends","StatusAcionado{}","{}","sig SuporteAcionado, SuporteNaoAcionado extends Time",,,,,,9.789
+projeto-logica,completion/ProjetoLogica-sig.als,46,48,"sig SuporteAcionado, SuporteNaoAcionado extends","StatusAcionado{}","{}","sig SuporteAcionado, SuporteNaoAcionado extends ordering/Ord",,,,,,9.789
+projeto-logica,completion/ProjetoLogica-sig.als,46,48,"sig SuporteAcionado, SuporteNaoAcionado extends","StatusAcionado{}","{}","sig SuporteAcionado, SuporteNaoAcionado extends Int",,,,,,9.789
+projeto-logica,completion/ProjetoLogica-sig.als,46,48,"sig SuporteAcionado, SuporteNaoAcionado extends","StatusAcionado{}","{}","sig SuporteAcionado, SuporteNaoAcionado extends String",,,,,,9.789
+projeto-logica,completion/ProjetoLogica-sig.als,46,48,"sig SuporteAcionado, SuporteNaoAcionado extends","StatusAcionado{}","{}","sig SuporteAcionado, SuporteNaoAcionado extends none",,,,,,9.789
+projeto-logica,completion/ProjetoLogica-sig.als,46,48,"sig SuporteAcionado, SuporteNaoAcionado extends","StatusAcionado{}","{}","sig SuporteAcionado, SuporteNaoAcionado extends univ",,,,,,9.789

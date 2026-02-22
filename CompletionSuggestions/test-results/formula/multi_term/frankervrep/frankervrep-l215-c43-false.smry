@@ -1,0 +1,19 @@
+Model name: frankervrep
+Filename: completion/frankenvrep-complete.als
+Offset: 4981
+Term: .
+Vscode Position: line=214 character=43
+----------------------------------
+215 | pred ProduceFeedback[output : RobotControl.
+----------------------------------
+Expected Completion word: undefined
+Expected Completion line: output] {
+Suggestion exists: false
+Completion List:
+# Suggestion 	 Exact 	 Syntactic 	 Semantic
+
+
+Time taken: 26.2735
+Preprocessing time: N/A
+Parsing time: N/A
+Generation time: N/A

@@ -1,0 +1,38 @@
+Model name: git-redacted
+Filename: completion/git-complete-redacted.als
+Offset: 876
+Term: .
+Vscode Position: line=54 character=33
+----------------------------------
+55 | 	some p : Tree | o = p.content[n.
+----------------------------------
+Expected Completion word: name
+Expected Completion line: name]
+Suggestion exists: true
+Completion List:
+# Suggestion 	 Exact 	 Syntactic 	 Semantic
+$1. name 	 true 	 undefined 	 undefined
+$2. parent 	 false 	 undefined 	 undefined
+$3. current 	 false 	 undefined 	 undefined
+$4. samepath 	 false 	 undefined 	 undefined
+$5. content 	 false 	 undefined 	 undefined
+$6. content.name 	 false 	 undefined 	 undefined
+$7. content.parent 	 false 	 undefined 	 undefined
+$8. content.current 	 false 	 undefined 	 undefined
+$9. content.samepath 	 false 	 undefined 	 undefined
+$10. content.content 	 false 	 undefined 	 undefined
+$11. content.content.name 	 false 	 undefined 	 undefined
+$12. content.content.parent 	 false 	 undefined 	 undefined
+$13. content.content.current 	 false 	 undefined 	 undefined
+$14. content.content.samepath 	 false 	 undefined 	 undefined
+$15. content.content.content 	 false 	 undefined 	 undefined
+$16. content^ 	 false 	 undefined 	 undefined
+$17. content* 	 false 	 undefined 	 undefined
+$18. ~content 	 false 	 undefined 	 undefined
+$19. content & univ 	 false 	 undefined 	 undefined
+$20. content + univ 	 false 	 undefined 	 undefined
+
+Time taken: 5435.544625
+Preprocessing time: N/A
+Parsing time: N/A
+Generation time: N/A

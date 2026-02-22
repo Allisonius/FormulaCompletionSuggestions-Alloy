@@ -6,6 +6,9 @@ Vscode Position: line=35 character=28
 ----------------------------------
 36 | 	all u : User, disj x,y : u.
 ----------------------------------
+Expected Completion word: visible
+Expected Completion line: visible | x not in y.^((u.profile <: ids).~(u.profile <: ids))
+Suggestion exists: true
 Completion List:
 # Suggestion 	 Exact 	 Syntactic 	 Semantic
 $1. profile.Work 	 false 	 undefined 	 undefined
@@ -26,20 +29,9 @@ $15. ~source 	 false 	 undefined 	 undefined
 $16. ~source.univ 	 false 	 undefined 	 undefined
 $17. ~source.~profile 	 false 	 undefined 	 undefined
 $18. ~source.~visible 	 false 	 undefined 	 undefined
-Expected Completion word: visible
-Expected Completion line: visible | x not in y.^((u.profile <: ids).~(u.profile <: ids))
-Suggestion exists: true
+$19.  	 false 	 undefined 	 undefined
 
-Suggestion in top 1 = false 
-Suggestion in top 5 = false 
-Suggestion in top 10 = true 
-
-Suggestion in top 1 (Alpha) = false
-Suggestion in top 5 (Alpha) = false
-Suggestion in top 10 (Alpha) = false
-
-Suggestion in top 1 (Len) = false
-Suggestion in top 5 (Len) = true
-Suggestion in top 10 (Len) = true
-
-Time taken: 10.870417
+Time taken: 11.3545
+Preprocessing time: 2
+Parsing time: 2
+Generation time: 1
