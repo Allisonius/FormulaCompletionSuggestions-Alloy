@@ -64,13 +64,13 @@ public class ContrastingScenarios {
 		//int cap_suggestions = 10;
 
 		// benchmark models
-		String [] models = {"array", "bempl", "binary-tree", "class-diagram", "classroom","classroom-fol", "classroom-rl", "courses-v1",
+		/**/String [] models = {"array", "bempl", "binary-tree", "class-diagram", "classroom","classroom-fol", "classroom-rl", "courses-v1",
 				"courses-v2", "c-tree", "cv", "dll", "fsm", "grade", "graph", "handshake", "lts", "nqueens", 
 				"production-line-v1", "production-line-v2", "production-line-v3", "singly-linked-list", "social-media", "train-station-fol",
 				"train-station-ltl", "trash-fol", "trash-ltl", "trash-rl"
 		};
 		boolean benchmark = true;
-		
+
 		//large models
 		/*
 		String [] models = {"frankervrep", "git", "icd", "java_meta_model", "modelo-alloy"};
@@ -109,40 +109,32 @@ public class ContrastingScenarios {
 			
 			//Read in the base model, which is the base the compare and contrasting encodings will be appended
 			String base_model = "";
-		    try {
-		         File myObj = new File(model_dir + model + ".als");
-		         Scanner myReader = new Scanner(myObj);
-		         while (myReader.hasNextLine()) { //line for line mapping
-		           base_model += myReader.nextLine() + "\n";
-		         }
-		         myReader.close();
-		    } catch (FileNotFoundException e) {
-		         System.out.println("An error occurred.");
-		         e.printStackTrace();
-		    }
-		    base_model += "\n";
-			
-		     
-		    //Parse in the model into an Alloy object
-		    CompModule world = CompUtil.parseEverything_fromFile(rep, null, model_dir + model + ".als");
+		   
+		    //Stores the model as an Alloy object
+		    CompModule world;
 		    
 		    //Locate all parameters and then line range
 		    ArrayList<Parameter> parameters = new ArrayList<Parameter>();
-		    for(Func pred : world.getAllFunc()) {
-		    	for(ExprVar ev : pred.params()) {
-		    		if(benchmark)
-		    			parameters.add(new Parameter(ev.label, ev.type().toString(), pred.pos.y, pred.pos.y2));
-		    		else
-		    			parameters.add(new Parameter(ev.label, ev.type().toString(), pred.pos.y-2, pred.pos.y2-2));
-		    	}
-		    }
-		    
-			
+
 			for(File file : listOfFiles) {
 				String f = file.getName();
 				if(f.contains("json")) { //The json files contains all the suggestions and all details about the completion location
 				
-					world = CompUtil.parseEverything_fromFile(rep, null, model_dir + model + ".als");
+					//Reset world to remove any parameters stored as global variables
+					if(f.contains("fixable")) { //If model had variables declared on a different line in the file, then parse the model with variable use inlined with variable declarations
+						world = CompUtil.parseEverything_fromFile(rep, null, model_dir + model + "-fixable" + ".als"); 
+						
+						//reset parameter locations and base model helper data
+						parameters = getParameterLocs(world, benchmark);
+					    base_model = getBase(model_dir,model+ "-fixable");
+					}
+					else {
+						world = CompUtil.parseEverything_fromFile(rep, null, model_dir + model + ".als");
+						
+						//reset parameter locations
+						parameters = getParameterLocs(world, benchmark);
+					    base_model = getBase(model_dir,model);
+					}
 					long start_time = System.nanoTime(); //denote overall start time
 					
 					File myObj = new File(directory + f);
@@ -297,18 +289,18 @@ public class ContrastingScenarios {
 						//Loop over all suggestions under consideration
 						for(String suggestion : suggestions) { 
 							boolean equiv = false;
-							
+		
 							Expr sug_check ;
 							String arity ;
 								
+							if(!suggestion.equals("")) {
+							
 							//Get arity of suggestion
-							if(start_line.equals("")) { //No quantifies, can pass the suggestion directly to get its arity
+							if(start_line.equals("") ) { //No quantifies, can pass the suggestion directly to get its arity
 								sug_check = CompUtil.parseOneExpression_fromString(world, suggestion);
 								arity = sug_check.type().arity() + "";
 							}
 							else { //At least on quantified variable declared. Need to wrap suggestion then navigate down to suggestion to get arity
-								//System.out.println(f);
-								//System.out.println(start_line + "some " + suggestion + end_line);
 								sug_check = CompUtil.parseOneExpression_fromString(world, start_line + "some " + suggestion + end_line);
 								ExprQt e = (ExprQt) ((ExprUnary)sug_check).sub;
 								if(order.size() > 1) {
@@ -384,6 +376,7 @@ public class ContrastingScenarios {
 									equiv_classes.get(arity).put(suggestion, new ArrayList<String>());
 								}
 							}
+						}
 						}
 						
 						long end_equiv_formation_time = System.nanoTime(); //end equivalence class formation
@@ -707,6 +700,43 @@ public class ContrastingScenarios {
 				 suggestions.add(suggestion);
 			}
 		}
+		else if(model.equals("git-fixable")  ) {
+			String newLine = "";
+			if(suggestion.contains("content")) {
+				
+				try {
+					String sug2 = suggestion.replaceAll("content", "(this/File <: content)");
+					newLine = param_start + incompleteLine + sug2 + expectedCompletionLine.substring(expectedTerm.length()) + param_end;
+					CompUtil.parseOneExpression_fromString(world, newLine);
+					suggestions.add(sug2);
+				}
+				catch(Exception e) {
+				}
+				try {
+					String sug2 = suggestion.replaceAll("content", "(this/Tree <: content)");
+					newLine = param_start + incompleteLine + sug2 + expectedCompletionLine.substring(expectedTerm.length()) + param_end;
+					CompUtil.parseOneExpression_fromString(world, newLine);
+					suggestions.add(sug2);
+				}
+				catch(Exception e) {
+				}
+			}
+			else if(suggestion.contains("HEAD")) {
+				
+				
+				try {
+					String sug2 = suggestion.replaceAll("HEAD", "(this/Name <: HEAD)");
+					newLine = param_start + incompleteLine + sug2 + expectedCompletionLine.substring(expectedTerm.length()) + param_end;
+					CompUtil.parseOneExpression_fromString(world, newLine);
+					suggestions.add(sug2);
+				}
+				catch(Exception e) {
+				}
+			}
+			else {
+				suggestions.add(suggestion);
+			}
+		}
 		else if(model.equals("git")  ) {
 			String newLine = "";
 			if(suggestion.contains("content")) {
@@ -758,6 +788,66 @@ public class ContrastingScenarios {
 				}
 				try {
 					String sug2 = suggestion.replaceAll("joules_to_deliver", "(this/State <: joules_to_deliver)");
+					newLine = param_start + incompleteLine + sug2 + expectedCompletionLine.substring(expectedTerm.length()) + param_end;
+					CompUtil.parseOneExpression_fromString(world, newLine);
+					suggestions.add(sug2);
+				}
+				catch(Exception e) {
+				}
+			}
+			else {
+				suggestions.add(suggestion);
+			}
+		}
+		else if(model.equals("java_meta_model_fixable")  ) {
+			String newLine = "";
+			if(suggestion.contains("id")) {
+				
+				try {
+					String sug2 = suggestion.replaceAll("id", "(this/Class <: id)");
+					newLine = param_start + incompleteLine + sug2 + expectedCompletionLine.substring(expectedTerm.length()) + param_end;
+					CompUtil.parseOneExpression_fromString(world, newLine);
+					suggestions.add(sug2);
+				}
+				catch(Exception e) {
+				}
+				try {
+					String sug2 = suggestion.replaceAll("id", "(this/Field <: id)");
+					newLine = param_start + incompleteLine + sug2 + expectedCompletionLine.substring(expectedTerm.length()) + param_end;
+					CompUtil.parseOneExpression_fromString(world, newLine);
+					suggestions.add(sug2);
+				}
+				catch(Exception e) {
+				}
+				try {
+					String sug2 = suggestion.replaceAll("id", "(this/Method <: id)");
+					newLine = param_start + incompleteLine + sug2 + expectedCompletionLine.substring(expectedTerm.length()) + param_end;
+					CompUtil.parseOneExpression_fromString(world, newLine);
+					suggestions.add(sug2);
+				}
+				catch(Exception e) {
+				}
+				try {
+					String sug2 = suggestion.replaceAll("id", "(this/MethodInvocation <: id)");
+					newLine = param_start + incompleteLine + sug2 + expectedCompletionLine.substring(expectedTerm.length()) + param_end;
+					CompUtil.parseOneExpression_fromString(world, newLine);
+					suggestions.add(sug2);
+				}
+				catch(Exception e) {
+				}
+			}
+			else if(suggestion.contains("acc")) {
+				
+				try {
+					String sug2 = suggestion.replaceAll("acc", "(this/Field <: acc)");
+					newLine = param_start + incompleteLine + sug2 + expectedCompletionLine.substring(expectedTerm.length()) + param_end;
+					CompUtil.parseOneExpression_fromString(world, newLine);
+					suggestions.add(sug2);
+				}
+				catch(Exception e) {
+				}
+				try {
+					String sug2 = suggestion.replaceAll("acc", "(this/Method <: acc)");
 					newLine = param_start + incompleteLine + sug2 + expectedCompletionLine.substring(expectedTerm.length()) + param_end;
 					CompUtil.parseOneExpression_fromString(world, newLine);
 					suggestions.add(sug2);
@@ -830,6 +920,31 @@ public class ContrastingScenarios {
 			}
 		}
 		else if(model.equals("modelo-alloy")  ) {
+			String newLine = "";
+			if(suggestion.contains("DayValue")) {
+				
+				try {
+					String sug2 = suggestion.replaceAll("DayValue", "(this/Date <: DayValue)");
+					newLine = param_start + incompleteLine + sug2 + expectedCompletionLine.substring(expectedTerm.length()) + param_end;
+					CompUtil.parseOneExpression_fromString(world, newLine);
+					suggestions.add(sug2);
+				}
+				catch(Exception e) {
+				}
+				try {
+					String sug2 = suggestion.replaceAll("DayValue", "(this/currentDate <: DayValue)");
+					newLine = param_start + incompleteLine + sug2 + expectedCompletionLine.substring(expectedTerm.length()) + param_end;
+					CompUtil.parseOneExpression_fromString(world, newLine);
+					suggestions.add(sug2);
+				}
+				catch(Exception e) {
+				}
+			}
+			else {
+				suggestions.add(suggestion);
+			}
+		}
+		else if(model.equals("modelo-alloy-fixables")  ) {
 			String newLine = "";
 			if(suggestion.contains("DayValue")) {
 				
@@ -1064,6 +1179,36 @@ public class ContrastingScenarios {
 			incompleteLine = incompleteLine.substring(4);
 		}
 		return incompleteLine;
+	}
+	
+	public static String getBase(String model_dir, String model) {
+		String base_model = "";
+	    try {
+	         File myObj = new File(model_dir + model + ".als");
+	         Scanner myReader = new Scanner(myObj);
+	         while (myReader.hasNextLine()) { //line for line mapping
+	           base_model += myReader.nextLine() + "\n";
+	         }
+	         myReader.close();
+	    } catch (FileNotFoundException e) {
+	         System.out.println("An error occurred.");
+	         e.printStackTrace();
+	    }
+	    base_model += "\n";
+	    return base_model;
+	}
+	
+	public static ArrayList<Parameter> getParameterLocs(CompModule world, boolean benchmark){
+		ArrayList<Parameter> parameters = new ArrayList<Parameter>();
+	    for(Func pred : world.getAllFunc()) {
+	    	for(ExprVar ev : pred.params()) {
+	    		if(benchmark)
+	    			parameters.add(new Parameter(ev.label, ev.type().toString(), pred.pos.y, pred.pos.y2));
+	    		else
+	    			parameters.add(new Parameter(ev.label, ev.type().toString(), pred.pos.y-2, pred.pos.y2-2));
+	    	}
+	    } 
+	    return parameters;
 	}
 	
 	
