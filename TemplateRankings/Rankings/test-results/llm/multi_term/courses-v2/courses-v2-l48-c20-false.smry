@@ -1,0 +1,16 @@
+Model name: courses-v2
+Filename: completion/courses-v2-complete.als
+Offset: 946
+Term: .
+Vscode Position: line=47 character=20
+----------------------------------
+48 | 	all p : Person | p.
+----------------------------------
+Expected Completion word: undefined
+Expected Completion line: projects in p.enrolled.projects
+Suggestion exists: false
+Completion List:
+# Suggestion 	 Exact 	 Syntactic 	 Semantic
+
+
+Time taken: 10665.256292

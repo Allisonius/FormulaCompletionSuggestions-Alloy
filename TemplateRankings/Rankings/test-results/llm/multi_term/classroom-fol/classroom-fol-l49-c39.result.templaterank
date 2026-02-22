@@ -1,0 +1,10 @@
+c
+Class
+~Teaches.Person
+~Teaches.Student
+~Teaches.Teacher
+~Teaches.univ
+~Teaches.Tutors.Person
+~Teaches.Tutors.Student
+~Teaches.Tutors.Teacher
+univ

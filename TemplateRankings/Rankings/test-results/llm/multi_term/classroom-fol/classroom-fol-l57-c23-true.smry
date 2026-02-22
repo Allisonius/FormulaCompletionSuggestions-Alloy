@@ -1,0 +1,23 @@
+Model name: classroom-fol
+Filename: completion/classroom-fol-complete.als
+Offset: 831
+Term: .
+Vscode Position: line=56 character=23
+----------------------------------
+57 | 	all c: Class | some c.
+----------------------------------
+Expected Completion word: Groups
+Expected Completion line: Groups implies some Teacher & Teaches.c
+Suggestion exists: true
+Completion List:
+# Suggestion 	 Exact 	 Syntactic 	 Semantic
+$1. Groups 	 true 	 undefined 	 undefined
+$2. Groups.Group 	 false 	 undefined 	 undefined
+$3. Groups.~Groups 	 false 	 undefined 	 undefined
+$4. ~Teaches 	 false 	 undefined 	 undefined
+$5. ~Teaches.Tutors 	 false 	 undefined 	 undefined
+$6. ~Teaches.Teaches 	 false 	 undefined 	 undefined
+$7. ~Teaches.Tutors.Tutors 	 false 	 undefined 	 undefined
+$8. ~Teaches.Tutors.Teaches 	 false 	 undefined 	 undefined
+
+Time taken: 28009.115875

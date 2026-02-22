@@ -1,0 +1,12 @@
+p
+Person
+Professor
+Student
+Person.enrolled.~enrolled
+Person.projects.~projects
+Person.teaches.~teaches
+p.enrolled.~enrolled
+p.enrolled.~teaches
+p.projects.~projects
+p.teaches.~enrolled
+p.teaches.~teaches

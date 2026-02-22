@@ -1,0 +1,10 @@
+c1
+c2
+Class
+t.Teaches
+(t.Teaches & Class)
+t.Teaches & Class
+t.Teaches + c2
+t.Tutors.Teaches
+t.^Tutors.Teaches
+t.*Tutors.Teaches

@@ -1,0 +1,16 @@
+p.enrolled
+p.teaches
+Course
+c
+univ & Course
+p.enrolled + Course
+p.teaches + Course
+p.teaches & p.enrolled
+p.teaches + p.enrolled
+p.projects.~projects
+p.projects.~projects & Course
+p.enrolled.~enrolled.enrolled
+p.enrolled.~enrolled.teaches
+p.projects.~projects + p.teaches
+p.teaches.~teaches.enrolled
+p.teaches.~teaches.teaches

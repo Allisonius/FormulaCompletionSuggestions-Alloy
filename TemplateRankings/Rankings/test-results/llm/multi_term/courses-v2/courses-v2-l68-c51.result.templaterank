@@ -1,0 +1,13 @@
+c
+g
+p
+Grade
+c.grades
+c.projects
+p.enrolled
+p.projects
+p.teaches
+~c.grades
+p.enrolled.projects
+p.teaches.projects
+univ

@@ -1,0 +1,21 @@
+Person
+Student
+Teacher
+p
+Teacher & Person
+Teacher & p
+Teacher & univ
+Teacher & p.Teaches
+Teacher & p.Tutors
+Teacher & p.~Teaches
+Teacher & p.~Tutors
+Teacher & p.^Teaches
+Teacher & p.^Tutors
+Teacher & p.*Teaches
+Teacher & p.*Tutors
+Teacher & p.(Teaches.Groups)
+Teacher & p.(Teaches.Groups).~Groups
+Teacher & p.(Teaches.Groups).^~Groups
+Teacher & p.(Teaches.Groups).*~Groups
+Teacher & p.(Teaches.Groups).~Groups.~Groups
+univ

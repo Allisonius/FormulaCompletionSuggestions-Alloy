@@ -1,0 +1,25 @@
+Model name: array
+Filename: completion/array-sig.als
+Offset: 144
+Term:  -> 
+Vscode Position: line=6 character=14
+----------------------------------
+7 |   i2e: Int -> 
+----------------------------------
+Expected Completion word: Element
+Expected Completion line: Element
+Suggestion exists: true
+Completion List:
+# Suggestion 	 Exact 	 Syntactic 	 Semantic
+$1. Element 	 true 	 true 	 true
+$2. one Element 	 false 	 false 	 false
+$3. lone Element 	 false 	 false 	 false
+$4. some Element 	 false 	 false 	 false
+$5. set Element 	 false 	 false 	 false
+$6. univ 	 false 	 false 	 false
+$7. none 	 false 	 false 	 false
+$8. Element + univ 	 false 	 false 	 false
+$9. Element & univ 	 false 	 false 	 false
+$10. univ - Element 	 false 	 false 	 false
+
+Time taken: 12757.89225

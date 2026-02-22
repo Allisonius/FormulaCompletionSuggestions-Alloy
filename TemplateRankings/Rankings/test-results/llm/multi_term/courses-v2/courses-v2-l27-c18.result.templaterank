@@ -1,0 +1,13 @@
+p
+Person
+Professor
+Student
+Person & (Professor + Student)
+Person & univ
+Person - p
+p + Person
+p + Professor
+p + Student
+~Person
+(~(Course.grades.Grade)).Course
+univ

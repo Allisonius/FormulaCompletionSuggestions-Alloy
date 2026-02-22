@@ -1,0 +1,16 @@
+enrolled
+projects
+teaches
+~enrolled
+~teaches
+enrolled.grades
+enrolled.projects
+teaches.grades
+teaches.projects
+enrolled & univ
+enrolled + univ
+projects & univ
+projects + univ
+teaches & univ
+teaches + univ
+projects.~projects

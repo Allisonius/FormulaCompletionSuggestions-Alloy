@@ -1,0 +1,10 @@
+Class
+Group
+Person
+Student
+Teacher
+Group -> Class
+Group -> Person
+Person -> Class
+Person -> Group
+univ

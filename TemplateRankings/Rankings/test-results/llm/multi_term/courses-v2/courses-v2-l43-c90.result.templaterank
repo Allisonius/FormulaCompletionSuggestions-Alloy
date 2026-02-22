@@ -1,0 +1,14 @@
+projects
+projects & Project
+projects & univ
+projects + Project
+projects + univ
+projects - Project
+projects - univ
+projects & s.projects
+projects + s.projects
+projects.~projects*.projects
+projects.~projects^.projects
+projects.~projects.projects
+projects.~projects.projects & Project
+projects.~projects.projects + univ

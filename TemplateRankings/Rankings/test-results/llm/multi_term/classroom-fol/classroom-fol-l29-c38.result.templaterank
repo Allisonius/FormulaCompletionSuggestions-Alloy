@@ -1,0 +1,13 @@
+p.Tutors
+Person
+Teacher
+p.Tutors.Tutors
+p.^Tutors
+Tutors.p
+p.~Tutors
+~Tutors.p
+p.*Tutors
+p.^~Tutors
+p.*~Tutors
+p.~Tutors.~Tutors
+univ

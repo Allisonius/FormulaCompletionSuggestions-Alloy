@@ -1,0 +1,16 @@
+Tutors
+Person->Person
+Person->univ
+univ->Person
+univ->univ
+Tutors+~Tutors
+~Tutors
+^Tutors
+*Tutors
+Tutors.Tutors
+Tutors.~Tutors
+~Tutors.Tutors
+Tutors.^Tutors
+Tutors.*Tutors
+~Tutors.^Tutors
+~Tutors.*Tutors

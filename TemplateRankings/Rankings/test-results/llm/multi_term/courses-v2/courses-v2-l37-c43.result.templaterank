@@ -1,0 +1,13 @@
+grades
+projects
+^projects
+~grades
+~projects
+*projects
+grades & univ
+grades + univ
+projects & univ
+projects + univ
+~grades + univ
+~projects + univ
+projects.~projects

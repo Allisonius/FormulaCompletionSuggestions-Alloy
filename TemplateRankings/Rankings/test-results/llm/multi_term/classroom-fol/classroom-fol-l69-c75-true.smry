@@ -1,0 +1,30 @@
+Model name: classroom-fol
+Filename: completion/classroom-fol-complete.als
+Offset: 1064
+Term:  in 
+Vscode Position: line=68 character=75
+----------------------------------
+69 | 	all c: Class, p: Person | p in (c.Groups).Group implies Teaches.c -> p in 
+----------------------------------
+Expected Completion word: Tutors
+Expected Completion line: Tutors
+Suggestion exists: true
+Completion List:
+# Suggestion 	 Exact 	 Syntactic 	 Semantic
+$1. Tutors 	 true 	 undefined 	 undefined
+$2. ~Tutors 	 false 	 undefined 	 undefined
+$3. Tutors^ 	 false 	 undefined 	 undefined
+$4. Tutors* 	 false 	 undefined 	 undefined
+$5. Teaches.~Teaches 	 false 	 undefined 	 undefined
+$6. p->Person 	 false 	 undefined 	 undefined
+$7. Person->p 	 false 	 undefined 	 undefined
+$8. p->p 	 false 	 undefined 	 undefined
+$9. Person->Person 	 false 	 undefined 	 undefined
+$10. Teacher->Student 	 false 	 undefined 	 undefined
+$11. Student->Teacher 	 false 	 undefined 	 undefined
+$12. univ->univ 	 false 	 undefined 	 undefined
+$13. Person->univ 	 false 	 undefined 	 undefined
+$14. univ->Person 	 false 	 undefined 	 undefined
+$15. Tutors.~Tutors 	 false 	 undefined 	 undefined
+
+Time taken: 31661.255208

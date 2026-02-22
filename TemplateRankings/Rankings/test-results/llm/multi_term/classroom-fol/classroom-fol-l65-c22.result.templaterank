@@ -1,0 +1,16 @@
+Person
+Student
+Teacher
+Person.Tutors
+Student.Tutors
+Teacher.Tutors
+Tutors.Person
+Tutors.univ
+Person.~Tutors
+Teacher.~Tutors
+~Tutors.Person
+Person.^Tutors
+Teacher.^Tutors
+Person.*Tutors
+Teacher.*Tutors
+univ

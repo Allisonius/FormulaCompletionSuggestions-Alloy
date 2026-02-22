@@ -1,0 +1,12 @@
+enrolled
+projects
+teaches
+^teaches
+*teaches
+enrolled.grades
+enrolled.projects
+teaches.grades
+teaches.projects
+enrolled.~enrolled
+enrolled.~teaches
+teaches.~teaches

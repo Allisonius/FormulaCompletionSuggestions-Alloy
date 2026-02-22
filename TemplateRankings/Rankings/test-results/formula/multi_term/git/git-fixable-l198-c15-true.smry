@@ -1,0 +1,123 @@
+Model name: git-fixable
+Filename: completion/git-complete-fixable.als
+Offset: 4286
+Term: .
+Vscode Position: line=197 character=15
+----------------------------------
+198 | 	all f : index.
+----------------------------------
+Expected Completion word: s
+Expected Completion line: s | no (f.^parent.samepath & index.s)
+Suggestion exists: true
+Completion List:
+# Suggestion 	 Exact 	 Syntactic 	 Semantic
+$1. s 	 true 	 true 	 true
+$2. s.~HEAD 	 false 	 false 	 false
+$3. s.~current 	 false 	 false 	 false
+$4. s.~heads 	 false 	 false 	 false
+$5. s.~index 	 false 	 false 	 false
+$6. s.~stored 	 false 	 false 	 false
+$7. State 	 false 	 false 	 false
+$8. State.~HEAD 	 false 	 false 	 false
+$9. State.~current 	 false 	 false 	 false
+$10. State.~heads 	 false 	 false 	 false
+$11. State.~index 	 false 	 false 	 false
+$12. State.~stored 	 false 	 false 	 false
+$13. ~HEAD.Name 	 false 	 false 	 false
+$14. ~current.Dir 	 false 	 false 	 false
+$15. ~current.File 	 false 	 false 	 false
+$16. ~current.Node 	 false 	 false 	 false
+$17. ~current.Root 	 false 	 false 	 false
+$18. ~heads.Name 	 false 	 false 	 false
+$19. ~stored.Blob 	 false 	 false 	 false
+$20. ~stored.Commit 	 false 	 false 	 false
+$21. ~stored.Object 	 false 	 false 	 false
+$22. ~stored.Tree 	 false 	 false 	 false
+$23. univ.HEAD 	 false 	 undefined 	 undefined
+$24. univ.belongsTo 	 false 	 false 	 false
+$25. univ.conflict 	 false 	 false 	 false
+$26. univ.content 	 false 	 undefined 	 undefined
+$27. univ.content 	 false 	 undefined 	 undefined
+$28. univ.current 	 false 	 false 	 false
+$29. univ.heads 	 false 	 false 	 false
+$30. univ.index 	 false 	 false 	 false
+$31. univ.merging 	 false 	 false 	 false
+$32. univ.name 	 false 	 false 	 false
+$33. univ.parent 	 false 	 false 	 false
+$34. univ.previous 	 false 	 false 	 false
+$35. univ.refs 	 false 	 false 	 false
+$36. univ.samepath 	 false 	 false 	 false
+$37. univ.stored 	 false 	 false 	 false
+$38. univ.tbc 	 false 	 false 	 false
+$39. univ.tree 	 false 	 false 	 false
+$40. ~HEAD.heads 	 false 	 false 	 false
+$41. ~HEAD.refs 	 false 	 false 	 false
+$42. ~current.belongsTo 	 false 	 false 	 false
+$43. ~current.content 	 false 	 false 	 false
+$44. ~current.index 	 false 	 false 	 false
+$45. ~current.name 	 false 	 false 	 false
+$46. ~current.parent 	 false 	 false 	 false
+$47. ~current.samepath 	 false 	 false 	 false
+$48. ~current.tbc 	 false 	 false 	 false
+$49. ~heads.HEAD 	 false 	 false 	 false
+$50. ~heads.refs 	 false 	 false 	 false
+$51. ~stored.conflict 	 false 	 false 	 false
+$52. ~stored.content 	 false 	 false 	 false
+$53. ~stored.merging 	 false 	 false 	 false
+$54. ~stored.previous 	 false 	 false 	 false
+$55. ~stored.tree 	 false 	 false 	 false
+$56. univ.~HEAD 	 false 	 false 	 false
+$57. univ.~conflict 	 false 	 false 	 false
+$58. univ.~content 	 false 	 false 	 false
+$59. univ.~current 	 false 	 false 	 false
+$60. univ.~heads 	 false 	 false 	 false
+$61. univ.~index 	 false 	 false 	 false
+$62. univ.~name 	 false 	 false 	 false
+$63. univ.~parent 	 false 	 false 	 false
+$64. univ.~previous 	 false 	 false 	 false
+$65. univ.~samepath 	 false 	 false 	 false
+$66. univ.~stored 	 false 	 false 	 false
+$67. univ.~tree 	 false 	 false 	 false
+$68. ~HEAD 	 false 	 false 	 false
+$69. ~HEAD.univ 	 false 	 false 	 false
+$70. ~HEAD.~name 	 false 	 false 	 false
+$71. ~current 	 false 	 false 	 false
+$72. ~current.*parent 	 false 	 false 	 false
+$73. ~current.*samepath 	 false 	 false 	 false
+$74. ~current.^parent 	 false 	 false 	 false
+$75. ~current.^samepath 	 false 	 false 	 false
+$76. ~current.univ 	 false 	 false 	 false
+$77. ~current.~parent 	 false 	 false 	 false
+$78. ~current.~samepath 	 false 	 false 	 false
+$79. ~heads 	 false 	 false 	 false
+$80. ~heads.univ 	 false 	 false 	 false
+$81. ~heads.~name 	 false 	 false 	 false
+$82. ~stored 	 false 	 false 	 false
+$83. ~stored.*conflict 	 false 	 false 	 false
+$84. ~stored.*previous 	 false 	 false 	 false
+$85. ~stored.*tree 	 false 	 false 	 false
+$86. ~stored.^conflict 	 false 	 false 	 false
+$87. ~stored.^previous 	 false 	 false 	 false
+$88. ~stored.^tree 	 false 	 false 	 false
+$89. ~stored.univ 	 false 	 false 	 false
+$90. ~stored.~conflict 	 false 	 false 	 false
+$91. ~stored.~content 	 false 	 false 	 false
+$92. ~stored.~previous 	 false 	 false 	 false
+$93. ~stored.~tree 	 false 	 false 	 false
+$94. univ.^conflict 	 false 	 false 	 false
+$95. univ.^parent 	 false 	 false 	 false
+$96. univ.^previous 	 false 	 false 	 false
+$97. univ.^samepath 	 false 	 false 	 false
+$98. univ.^tree 	 false 	 false 	 false
+$99.  	 false 	 undefined 	 undefined
+$100. univ 	 false 	 false 	 false
+$101. univ.*conflict 	 false 	 false 	 false
+$102. univ.*parent 	 false 	 false 	 false
+$103. univ.*previous 	 false 	 false 	 false
+$104. univ.*samepath 	 false 	 false 	 false
+$105. univ.*tree 	 false 	 false 	 false
+
+Time taken: 83.818583
+Preprocessing time: 13
+Parsing time: 7
+Generation time: 8

@@ -1,0 +1,12 @@
+Teaches
+Person -> Class
+Person -> c
+Teaches & Person -> Class
+Teaches + t -> c
+t -> Class
+t -> c
+univ -> univ
+Person -> t.Teaches
+t -> t.Teaches
+t.Tutors -> Class
+t.Tutors -> c

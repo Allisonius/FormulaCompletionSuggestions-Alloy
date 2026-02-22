@@ -1,0 +1,11 @@
+c.grades
+grades.c
+Person->Grade
+Person->g
+Person->univ
+grades[c]
+p->Grade
+p->g
+univ->Grade
+univ->g
+univ->univ

@@ -1,0 +1,13 @@
+projects
+projects & univ
+projects + univ
+projects - univ
+projects -> univ
+projects .~Course
+projects .~Person
+projects .~projects
+projects.~projects
+projects .^projects
+projects.^projects
+projects .*projects
+projects.*projects

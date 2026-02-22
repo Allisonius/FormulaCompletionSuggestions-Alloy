@@ -1,0 +1,26 @@
+Model name: courses-v2
+Filename: completion/courses-v2-complete.als
+Offset: 618
+Term:  in 
+Vscode Position: line=36 character=41
+----------------------------------
+37 | 	all p : Project | one c : Course | p in 
+----------------------------------
+Expected Completion word: c.projects
+Expected Completion line: c.projects
+Suggestion exists: true
+Completion List:
+# Suggestion 	 Exact 	 Syntactic 	 Semantic
+$1. c.projects 	 true 	 undefined 	 undefined
+$2. c.(projects^) 	 false 	 undefined 	 undefined
+$3. c.(projects*) 	 false 	 undefined 	 undefined
+$4. ~projects.c 	 false 	 undefined 	 undefined
+$5. ~projects.Course 	 false 	 undefined 	 undefined
+$6. Project 	 false 	 undefined 	 undefined
+$7. univ 	 false 	 undefined 	 undefined
+$8. univ.projects 	 false 	 undefined 	 undefined
+$9. c.projects + Project 	 false 	 undefined 	 undefined
+$10. c.projects & Project 	 false 	 undefined 	 undefined
+$11. c.projects - Project 	 false 	 undefined 	 undefined
+
+Time taken: 27621.850958

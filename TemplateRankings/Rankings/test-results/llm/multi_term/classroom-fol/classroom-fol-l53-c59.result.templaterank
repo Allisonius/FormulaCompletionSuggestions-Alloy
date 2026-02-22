@@ -1,0 +1,13 @@
+Groups
+Class.Groups
+Class -> Person -> Group
+Class -> Person -> univ
+Class -> Student -> Group
+Class -> Student -> univ
+Class -> univ -> Group
+Class -> univ -> univ
+Groups & (Class -> Student -> Group)
+Groups + (Class -> Student -> Group)
+univ -> Person -> Group
+univ -> Student -> Group
+univ -> univ -> univ

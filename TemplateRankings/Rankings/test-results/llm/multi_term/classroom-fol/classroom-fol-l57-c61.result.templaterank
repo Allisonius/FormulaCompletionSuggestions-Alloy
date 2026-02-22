@@ -1,0 +1,10 @@
+c
+Class
+~Teaches
+Groups
+Groups.~Groups
+~Teaches.Tutors
+~Teaches.^Tutors
+~Teaches.*Tutors
+Groups.~Groups.~Teaches
+univ

@@ -1,0 +1,20 @@
+Groups.Group
+Groups.Group & Student
+Groups.Group & Teacher
+Groups.Group & univ
+Groups.Group + Student
+Groups.Group + Teacher
+Groups.Group + univ
+Groups.Group - Student
+Groups.Group - Teacher
+Groups.Group - univ
+Groups.univ
+Groups.Group.Tutors
+Groups.Group.Tutors*
+Groups.Group.Tutors^
+Groups.Group.~Tutors
+Groups.~Groups.p
+Groups.Group.~Tutors*
+Groups.Group.~Tutors^
+Groups.Group.Tutors.Tutors
+Groups.Group.Tutors.~Tutors

@@ -1,0 +1,8 @@
+p
+Person
+p.enrolled.~enrolled
+p.enrolled.~enrolled + p
+p.projects.~projects
+p.projects.~projects - p
+p.teaches.~teaches
+p.teaches.~teaches & Person

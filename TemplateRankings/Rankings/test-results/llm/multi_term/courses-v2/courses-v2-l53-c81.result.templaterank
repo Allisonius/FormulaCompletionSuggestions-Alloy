@@ -1,0 +1,11 @@
+c.projects
+p.projects
+Course.projects
+Person.projects
+Person.projects + Course.projects
+c.projects + Course.projects
+p.projects & c.projects
+p.projects + Person.projects
+p.projects + c.projects
+p.projects - c.projects
+univ

@@ -1,0 +1,9 @@
+p
+Person
+Professor
+Student
+p.(enrolled.~enrolled)
+p.(projects.~projects)
+p.(teaches.~teaches)
+p.^(teaches.~teaches)
+univ

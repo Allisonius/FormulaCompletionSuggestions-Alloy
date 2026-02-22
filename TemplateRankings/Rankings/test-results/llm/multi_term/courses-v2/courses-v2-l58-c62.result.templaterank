@@ -1,0 +1,13 @@
+p.enrolled
+p.teaches
+Course
+Person.enrolled
+Person.teaches
+univ
+p.teaches & p.enrolled
+p.teaches + p.enrolled
+p.teaches - p.enrolled
+c.~enrolled.enrolled
+c.~enrolled.teaches
+c.~teaches.enrolled
+c.~teaches.teaches

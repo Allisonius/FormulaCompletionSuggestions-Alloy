@@ -1,0 +1,8 @@
+Teaches
+Person -> Class
+Person -> univ
+Teacher -> Class
+Teaches & (Person -> Class)
+Teaches + (Person -> Class)
+univ -> Class
+univ -> univ

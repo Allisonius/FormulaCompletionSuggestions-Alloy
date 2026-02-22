@@ -1,0 +1,28 @@
+Model name: courses-v2
+Filename: completion/courses-v2-complete.als
+Offset: 762
+Term: .
+Vscode Position: line=42 character=33
+----------------------------------
+43 | 	all p : Person - Student | no p.
+----------------------------------
+Expected Completion word: projects
+Expected Completion line: projects and all p : Project | some s : Student | p in s.projects
+Suggestion exists: true
+Completion List:
+# Suggestion 	 Exact 	 Syntactic 	 Semantic
+$1. teaches 	 false 	 undefined 	 undefined
+$2. enrolled 	 false 	 undefined 	 undefined
+$3. projects 	 true 	 undefined 	 undefined
+$4. teaches.projects 	 false 	 undefined 	 undefined
+$5. teaches.grades 	 false 	 undefined 	 undefined
+$6. enrolled.projects 	 false 	 undefined 	 undefined
+$7. enrolled.grades 	 false 	 undefined 	 undefined
+$8. projects.~projects 	 false 	 undefined 	 undefined
+$9. projects.~projects.grades 	 false 	 undefined 	 undefined
+$10. teaches.projects.~projects 	 false 	 undefined 	 undefined
+$11. enrolled.projects.~projects 	 false 	 undefined 	 undefined
+$12. teaches.projects.~projects.grades 	 false 	 undefined 	 undefined
+$13. enrolled.projects.~projects.grades 	 false 	 undefined 	 undefined
+
+Time taken: 15933.876625

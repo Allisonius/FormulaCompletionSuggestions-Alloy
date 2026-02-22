@@ -1,0 +1,22 @@
+Model name: classroom-fol
+Filename: completion/classroom-fol-complete.als
+Offset: 552
+Term: .
+Vscode Position: line=40 character=39
+----------------------------------
+41 | 	all c: Class | some Teacher & Teaches.
+----------------------------------
+Expected Completion word: c
+Expected Completion line: c
+Suggestion exists: true
+Completion List:
+# Suggestion 	 Exact 	 Syntactic 	 Semantic
+$1. c 	 true 	 undefined 	 undefined
+$2. Class 	 false 	 undefined 	 undefined
+$3. univ 	 false 	 undefined 	 undefined
+$4. Class + univ 	 false 	 undefined 	 undefined
+$5. Class & univ 	 false 	 undefined 	 undefined
+$6. c + Class 	 false 	 undefined 	 undefined
+$7. c & Class 	 false 	 undefined 	 undefined
+
+Time taken: 52934.656417

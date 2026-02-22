@@ -1,0 +1,11 @@
+Person
+c.grades.g
+p
+c.grades.Grade
+Grade.~c.grades
+g.~c.grades
+p.enrolled.grades.Grade
+p.enrolled.grades.g
+p.teaches.grades.Grade
+p.teaches.grades.g
+univ

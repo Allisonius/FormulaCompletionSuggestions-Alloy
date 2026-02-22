@@ -1,0 +1,12 @@
+Project
+p.projects
+p.enrolled.projects
+p.teaches.projects
+Course.projects
+Person.projects
+Professor.projects
+Student.projects
+(p.teaches & p.enrolled).projects
+(p.teaches + p.enrolled).projects
+(p.teaches - p.enrolled).projects
+univ

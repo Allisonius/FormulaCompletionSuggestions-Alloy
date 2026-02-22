@@ -1,0 +1,15 @@
+c.projects
+p.projects
+Project
+ps2
+ps2 + univ
+c.projects & Project
+c.projects + ps2
+c.projects + univ
+p.projects & Project
+p.projects + ps2
+p.projects + univ
+c.~projects
+p.projects & c.projects
+p.projects + c.projects
+univ

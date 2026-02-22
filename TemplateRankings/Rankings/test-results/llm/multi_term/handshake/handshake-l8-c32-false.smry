@@ -1,0 +1,16 @@
+Model name: handshake
+Filename: completion/handshake.als
+Offset: 110
+Term:  extends 
+Vscode Position: line=7 character=32
+----------------------------------
+8 | one sig Jocelyn, Hilary extends 
+----------------------------------
+Expected Completion word: undefined
+Expected Completion line: Person {}
+Suggestion exists: false
+Completion List:
+# Suggestion 	 Exact 	 Syntactic 	 Semantic
+
+
+Time taken: 407.26975

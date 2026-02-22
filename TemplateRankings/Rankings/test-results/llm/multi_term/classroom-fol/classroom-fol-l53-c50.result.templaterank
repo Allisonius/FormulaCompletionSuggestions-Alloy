@@ -1,0 +1,14 @@
+.Teaches
+.Tutors
+.Teaches*
+.Teaches^
+.Tutors*
+.Tutors^
+.~Tutors
+^
+*
+.Teaches.Groups
+.Tutors.Teaches
+.Tutors.Tutors
+.Teaches.~Teaches
+.Tutors.~Tutors

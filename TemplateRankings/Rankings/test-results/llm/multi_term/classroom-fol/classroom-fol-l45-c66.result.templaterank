@@ -1,0 +1,12 @@
+Teaches
+Person->Class
+Person->c2
+Teacher->Class
+Teacher->c2
+t->Class
+t->c1
+t->c2
+Tutors.Teaches
+~Tutors.Teaches
+^Tutors.Teaches
+*Tutors.Teaches

@@ -1,0 +1,15 @@
+Tutors
+Tutors*
+Tutors^
+Person->Person
+Person->p
+Person->univ
+Student->Teacher
+Teacher->Student
+p->Person
+p->p
+univ->Person
+univ->univ
+~Tutors
+Teaches.~Teaches
+Tutors.~Tutors

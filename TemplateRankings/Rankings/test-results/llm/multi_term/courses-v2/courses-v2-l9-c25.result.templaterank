@@ -1,0 +1,7 @@
+Person
+Person & univ
+Person + univ
+Course.~enrolled
+Course.~teaches
+Course.(grades.Grade)
+univ

@@ -1,0 +1,16 @@
+Model name: handshake
+Filename: completion/handshake.als
+Offset: 174
+Term:  + 
+Vscode Position: line=10 character=28
+----------------------------------
+11 |     all p: Person | no (p + 
+----------------------------------
+Expected Completion word: undefined
+Expected Completion line: p.spouse) & p.shaken
+Suggestion exists: false
+Completion List:
+# Suggestion 	 Exact 	 Syntactic 	 Semantic
+
+
+Time taken: 390.458125

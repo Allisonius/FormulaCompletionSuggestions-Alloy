@@ -1,0 +1,19 @@
+Model name: java_meta_model_fixable
+Filename: completion/java_meta_model-complete-fixable.als
+Offset: 4567
+Term: .
+Vscode Position: line=182 character=52
+----------------------------------
+183 |   all mi:FieldInvocation | some c1,c2: Class, m1:c1.
+----------------------------------
+Expected Completion word: undefined
+Expected Completion line: methods, f:c2.fields |
+Suggestion exists: false
+Completion List:
+# Suggestion 	 Exact 	 Syntactic 	 Semantic
+
+
+Time taken: 38.678
+Preprocessing time: N/A
+Parsing time: N/A
+Generation time: N/A

@@ -1,0 +1,16 @@
+Model name: courses-v2
+Filename: completion/courses-v2-complete.als
+Offset: 2048
+Term: .
+Vscode Position: line=82 character=67
+----------------------------------
+83 | 	all c : Course , p : Person | last in p.(c.grades) implies some p.
+----------------------------------
+Expected Completion word: undefined
+Expected Completion line: projects & c.projects
+Suggestion exists: false
+Completion List:
+# Suggestion 	 Exact 	 Syntactic 	 Semantic
+
+
+Time taken: 373.241958

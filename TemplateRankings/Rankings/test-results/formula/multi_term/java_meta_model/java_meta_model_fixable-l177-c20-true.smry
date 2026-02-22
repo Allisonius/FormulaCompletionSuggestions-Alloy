@@ -1,0 +1,115 @@
+Model name: java_meta_model_fixable
+Filename: completion/java_meta_model-complete-fixable.als
+Offset: 4216
+Term: .
+Vscode Position: line=176 character=20
+----------------------------------
+177 |            mi in m1.
+----------------------------------
+Expected Completion word: b
+Expected Completion line: b && mi.idField = f.id && ((c1 = c2) || ((c2 in c1.^extend) && (f.acc != private_)))
+Suggestion exists: true
+Completion List:
+# Suggestion 	 Exact 	 Syntactic 	 Semantic
+$1. b.mi 	 false 	 undefined 	 undefined
+$2. param.c1 	 false 	 undefined 	 undefined
+$3. param.c2 	 false 	 undefined 	 undefined
+$4. return.c1 	 false 	 undefined 	 undefined
+$5. return.c2 	 false 	 undefined 	 undefined
+$6. ~methods.c1 	 false 	 undefined 	 undefined
+$7. ~methods.c2 	 false 	 undefined 	 undefined
+$8. acc.Accessibility 	 false 	 undefined 	 undefined
+$9. acc.private_ 	 false 	 undefined 	 undefined
+$10. acc.protected 	 false 	 undefined 	 undefined
+$11. acc.public 	 false 	 undefined 	 undefined
+$12. b.Body 	 false 	 false 	 false
+$13. b.ConstructorFieldInvocation 	 false 	 false 	 false
+$14. b.ConstructorMethodInvocation 	 false 	 false 	 false
+$15. b.FieldInvocation 	 false 	 false 	 false
+$16. b.LiteralValue 	 false 	 false 	 false
+$17. b.MethodInvocation 	 false 	 false 	 false
+$18. id.ClassId 	 false 	 false 	 false
+$19. id.FieldId 	 false 	 false 	 false
+$20. id.Id 	 false 	 undefined 	 undefined
+$21. id.MethodId 	 false 	 undefined 	 undefined
+$22. param.Class 	 false 	 false 	 false
+$23. param.Int_ 	 false 	 false 	 false
+$24. param.Long_ 	 false 	 false 	 false
+$25. param.PrimitiveType 	 false 	 false 	 false
+$26. param.Type 	 false 	 false 	 false
+$27. return.Class 	 false 	 false 	 false
+$28. return.Int_ 	 false 	 false 	 false
+$29. return.Long_ 	 false 	 false 	 false
+$30. return.PrimitiveType 	 false 	 false 	 false
+$31. return.Type 	 false 	 false 	 false
+$32. ~methods.Class 	 false 	 false 	 false
+$33. ~methods.Int_ 	 false 	 false 	 false
+$34. ~methods.Long_ 	 false 	 false 	 false
+$35. ~methods.PrimitiveType 	 false 	 false 	 false
+$36. ~methods.Type 	 false 	 false 	 false
+$37. acc 	 false 	 undefined 	 undefined
+$38. acc.univ 	 false 	 undefined 	 undefined
+$39. b 	 true 	 true 	 true
+$40. b 	 true 	 true 	 true
+$41. b.id 	 false 	 false 	 false
+$42. b.idClass 	 false 	 false 	 false
+$43. b.idClass2 	 false 	 false 	 false
+$44. b.idField 	 false 	 undefined 	 undefined
+$45. b.idField 	 false 	 undefined 	 undefined
+$46. b.idMethod 	 false 	 false 	 false
+$47. b.q 	 false 	 false 	 false
+$48. b.qField 	 false 	 false 	 false
+$49. b.univ 	 false 	 false 	 false
+$50. id 	 false 	 undefined 	 undefined
+$51. id.univ 	 false 	 undefined 	 undefined
+$52. id.~idClass 	 false 	 false 	 false
+$53. id.~idClass 	 false 	 false 	 false
+$54. id.~idClass2 	 false 	 false 	 false
+$55. id.~idClass2 	 false 	 false 	 false
+$56. id.~idField 	 false 	 undefined 	 undefined
+$57. id.~idField 	 false 	 undefined 	 undefined
+$58. id.~idField 	 false 	 undefined 	 undefined
+$59. id.~idField 	 false 	 undefined 	 undefined
+$60. id.~idMethod 	 false 	 undefined 	 undefined
+$61. param 	 false 	 false 	 false
+$62. param.*extend 	 false 	 false 	 false
+$63. param.^extend 	 false 	 false 	 false
+$64. param.extend 	 false 	 false 	 false
+$65. param.fields 	 false 	 false 	 false
+$66. param.id 	 false 	 false 	 false
+$67. param.methods 	 false 	 false 	 false
+$68. param.package 	 false 	 false 	 false
+$69. param.univ 	 false 	 false 	 false
+$70. param.~extend 	 false 	 false 	 false
+$71. param.~return 	 false 	 false 	 false
+$72. param.~type 	 false 	 false 	 false
+$73. return 	 false 	 false 	 false
+$74. return.*extend 	 false 	 false 	 false
+$75. return.^extend 	 false 	 false 	 false
+$76. return.extend 	 false 	 false 	 false
+$77. return.fields 	 false 	 false 	 false
+$78. return.id 	 false 	 false 	 false
+$79. return.methods 	 false 	 false 	 false
+$80. return.package 	 false 	 false 	 false
+$81. return.univ 	 false 	 false 	 false
+$82. return.~extend 	 false 	 false 	 false
+$83. return.~param 	 false 	 false 	 false
+$84. return.~type 	 false 	 false 	 false
+$85. ~methods.extend 	 false 	 false 	 false
+$86. ~methods.fields 	 false 	 false 	 false
+$87. ~methods.id 	 false 	 false 	 false
+$88. ~methods.package 	 false 	 false 	 false
+$89. ~methods 	 false 	 false 	 false
+$90. ~methods.*extend 	 false 	 false 	 false
+$91. ~methods.^extend 	 false 	 false 	 false
+$92. ~methods.univ 	 false 	 false 	 false
+$93. ~methods.~extend 	 false 	 false 	 false
+$94. ~methods.~param 	 false 	 false 	 false
+$95. ~methods.~return 	 false 	 false 	 false
+$96. ~methods.~type 	 false 	 false 	 false
+$97.  	 false 	 undefined 	 undefined
+
+Time taken: 40.989208
+Preprocessing time: 10
+Parsing time: 6
+Generation time: 2
