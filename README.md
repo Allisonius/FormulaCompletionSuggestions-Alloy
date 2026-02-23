@@ -9,3 +9,4 @@ The folders contain the following
 - **CorpusTemplates:** Includes the code, data and instructions to produce the templates over our corpus of models.
 - **ContrastingScenario:** Includes the code, data and instructions to take the suggestions produced by the framework in `CompletionSuggestions` and create a contrasting scenario for each unique completion location.
 - **ImpactAnalysis:** Includes the code, data and instructions to take the suggestions produced by the framework in `CompletionSuggestions` and create an impact analysis for each suggestion for each completion location.
+- **RuntimeAnalysis:** A correlation between large model properties and runtime of different stages of our completion suggestions can be found in `RuntimeCorrelations.xlsx`. Code to calculate runtimes for each stage is included in the respective folder of the stage, and not in this folder. Only results and analysis are in this folder.
