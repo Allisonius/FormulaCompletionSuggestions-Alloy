@@ -54,20 +54,18 @@ public class RankList {
 		
 		//What models and suggestions to read in to re-rank using templates
 		//String source = "llm";
-		String source = "formula";
-		//String source = "generator";
+		//String source = "formula";
+		String source = "generator";
 		
 		//Benchmark models
-		String [] models = {"array", "bempl", "binary-tree", "class-diagram", "classroom", "classroom-fol", "classroom-rl", "courses-v1",
+		/*String [] models = {"array", "bempl", "binary-tree", "class-diagram", "classroom", "classroom-fol", "classroom-rl", "courses-v1",
 				"courses-v2", "c-tree", "cv", "dll", "fsm", "grade", "graph", "handshake", "lts", "nqueens", 
 				"production-line-v1", "production-line-v2", "production-line-v3", "singly-linked-list", "social-media", "train-station-fol",
 				"train-station-ltl", "trash-fol", "trash-ltl", "trash-rl"
-		};
-		boolean benchmark = true;
-		
+		};*/
+
 		//Large models
-		//String [] models = {"frankervrep","git","icd","java_meta_model", "modelo-alloy"};
-		//boolean benchmark = false;
+		String [] models = {"frankervrep","git","icd","java_meta_model", "modelo-alloy"};/**/
 				
 		//Where to store the results and result string to print at the end
 		String result_dir = "results" + File.separator;
@@ -121,21 +119,25 @@ public class RankList {
 
 		     //Collect any parameters - each parameter is an in scope designed variable
 		    ArrayList<Parameter> parameters = new ArrayList<Parameter>();
-		    for(Func pred : world.getAllFunc()) {
-		    	for(ExprVar ev : pred.params()) {
-		    		if(benchmark)
-		    			parameters.add(new Parameter(ev.label, ev.type().toString(), pred.pos.y, pred.pos.y2));
-		    		else
-		    			parameters.add(new Parameter(ev.label, ev.type().toString(), pred.pos.y-2, pred.pos.y2-2));
-		    	}
-		    } 
 			    
 			 for(File file : listOfFiles) {
 				String f = file.getName(); //The json files contains all the suggestions and all details about the completion location
 				if(f.contains("json")  ) {
 					
 					//Reset world to remove any parameters stored as global variables
-					world = CompUtil.parseEverything_fromFile(rep, null, model_dir + model + ".als");
+					if(f.contains("fixable")) { //If model had variables declared on a different line in the file, then parse the model with variable use inlined with variable declarations
+						world = CompUtil.parseEverything_fromFile(rep, null, model_dir + model + "-fixable" + ".als"); 
+						
+						//reset parameter locations
+						parameters = getParameterLocs(world);
+					}
+					else {
+						world = CompUtil.parseEverything_fromFile(rep, null, model_dir + model + ".als");
+						
+						//reset parameter locations
+						parameters = getParameterLocs(world);
+					}
+					
 					
 					//Will store the order the template ranking produces, printed to result file and used by contrasting scenario
 					ArrayList<String> template_rank_ordered_sug = new ArrayList<String>();
@@ -753,6 +755,16 @@ public class RankList {
 				//return vars;
 			}
 			return vars;		
+		}
+		
+		public static ArrayList<Parameter> getParameterLocs(CompModule world){
+			ArrayList<Parameter> parameters = new ArrayList<Parameter>();
+		    for(Func pred : world.getAllFunc()) {
+		    	for(ExprVar ev : pred.params()) {
+		    		parameters.add(new Parameter(ev.label, ev.type().toString(), pred.pos.y, pred.pos.y2));
+		    	}
+		    } 
+		    return parameters;
 		}
 
 	public static void listFilesForFolder(final File folder) {

@@ -57,10 +57,12 @@ public class RankListRuntime {
 		//String source = "generator";
 
 		//All models
-		String [] models = {"array", "bempl", "binary-tree", "class-diagram", "classroom", "classroom-fol", "classroom-rl", "courses-v1",
+		/*String [] models = {"array", "bempl", "binary-tree", "class-diagram", "classroom", "classroom-fol", "classroom-rl", "courses-v1",
 				"courses-v2", "c-tree", "cv", "dll", "fsm", "grade", "graph", "handshake", "lts", "nqueens", 
 				"production-line-v1", "production-line-v2", "production-line-v3", "singly-linked-list", "social-media", "train-station-fol",
-				"train-station-ltl", "trash-fol", "trash-ltl", "trash-rl", "frankervrep","git","icd","java_meta_model", "modelo-alloy" };
+				"train-station-ltl", "trash-fol", "trash-ltl", "trash-rl", */
+		
+		String [] models = {"frankervrep","git","icd","java_meta_model", "modelo-alloy" };
 		
 		//Where to store the results and result string to print at the end
 		String result_dir = "results" + File.separator;
@@ -95,19 +97,12 @@ public class RankListRuntime {
 		     
 		     
 		     //Parse model
-		     CompModule world = CompUtil.parseEverything_fromFile(rep, null, model_dir + model + ".als");
+		     CompModule world;
 		     ArrayList<Parameter> parameters = new ArrayList<Parameter>();
-
-		     //Collect any parameters - each parameter is an in scope designed variable
-		     for(Func pred : world.getAllFunc()) {
-		    	for(ExprVar ev : pred.params()) {
-		    		parameters.add(new Parameter(ev.label, ev.type().toString(), pred.pos.y, pred.pos.y2));
-		    	}
-		     }
 			 
 		     long start_time = System.nanoTime();
 		     int num_loc = 0;
-		     
+		     int empty_sug = 0;
 			 for(File file : listOfFiles) {
 				String f = file.getName(); //The json files contains all the suggestions and all details about the completion location
 				if(f.contains("json")  ) {
@@ -115,7 +110,18 @@ public class RankListRuntime {
 						num_loc++;
 					
 					//Reset world to remove any parameters stored as global variables
-					world = CompUtil.parseEverything_fromFile(rep, null, model_dir + model + ".als");
+					if(f.contains("fixable")) { //If model had variables declared on a different line in the file, then parse the model with variable use inlined with variable declarations
+						world = CompUtil.parseEverything_fromFile(rep, null, model_dir + model + "-fixable" + ".als"); 
+						
+						//reset parameter locations
+						parameters = getParameterLocs(world);
+					}
+					else {
+						world = CompUtil.parseEverything_fromFile(rep, null, model_dir + model + ".als");
+						
+						//reset parameter locations
+						parameters = getParameterLocs(world);
+					}
 					
 					long alt_start_time = System.nanoTime();
 					//Will store the order the template ranking produces, printed to result file and used by contrasting scenario
@@ -265,6 +271,10 @@ public class RankListRuntime {
 							TreeSet<String> suggestions = new TreeSet<String>();
 				
 							//Iterate over all suggestions
+							
+							if( evaluationResult.size() == 0)
+								empty_sug++;
+							
 							for(int i = 0; i < evaluationResult.size(); i++) {
 							
 								
@@ -374,6 +384,7 @@ public class RankListRuntime {
 				}
 				
 			}
+			 System.out.println(empty_sug);
 			 long end_time = System.nanoTime();
 			 //store details on performance
 		    long runtime = (end_time- start_time) / 1000000;
@@ -520,6 +531,16 @@ public class RankListRuntime {
 				//return vars;
 			}
 			return vars;		
+		}
+		
+		public static ArrayList<Parameter> getParameterLocs(CompModule world){
+			ArrayList<Parameter> parameters = new ArrayList<Parameter>();
+		    for(Func pred : world.getAllFunc()) {
+		    	for(ExprVar ev : pred.params()) {
+		    		parameters.add(new Parameter(ev.label, ev.type().toString(), pred.pos.y, pred.pos.y2));
+		    	}
+		    } 
+		    return parameters;
 		}
 
 	public static void listFilesForFolder(final File folder) {
