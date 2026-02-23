@@ -43,22 +43,22 @@ public class AlloyCompletionVisitorDispatcher {
                                                          CompletionParams position,
                                                          alloyParser.AlloyModuleContext tree) {
         Map<String, alloyParser.ExprContext> extractedMap = AlloyExpressionParsingUtils.extractDeclaredVariables(documentText, position, tree);
-        if (ConfigManager.getInstance().useNewCompletionProvider()) {
-            CompletionProvider contextExtractorCompletionProvider =
-                    new CompletionContextExtractorCompletionProvider(alloyEvaluation, tree);
-            var completions = contextExtractorCompletionProvider.provideCompletions(documentText, position, extractedMap);
-            return completions;
+        if (ConfigManager.getInstance().useLegacyVisitorBasedCompletionProvider()) {
+	        CompletionProvider visitorRuleProvider =
+			        new VisitorRuleProvider(alloyEvaluation, tree);
+	        var completions = visitorRuleProvider.provideCompletions(documentText, position, extractedMap);
+	        return completions;
         }
-        if (ConfigManager.getInstance().useGeneratorCompletion()) {
+		else if (ConfigManager.getInstance().useGeneratorCompletion()) {
             CompletionProvider generatorCompletionProvider =
                     new GeneratorCompletionProvider(alloyEvaluation, tree);
             var generatorCompletions = generatorCompletionProvider.provideCompletions(documentText, position, extractedMap);
             return generatorCompletions;
         } else {
-            CompletionProvider visitorRuleProvider =
-                    new VisitorRuleProvider(alloyEvaluation, tree);
-            var completions = visitorRuleProvider.provideCompletions(documentText, position, extractedMap);
-            return completions;
+	        CompletionProvider contextExtractorCompletionProvider =
+			        new CompletionContextExtractorCompletionProvider(alloyEvaluation, tree);
+	        var completions = contextExtractorCompletionProvider.provideCompletions(documentText, position, extractedMap);
+	        return completions;
         }
     }
 }

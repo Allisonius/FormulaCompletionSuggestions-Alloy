@@ -48,6 +48,7 @@ public class ServerApplication {
 		options.addOption(new Option("c", "log-to-client", false, "Send logs to the client via LanguageClient.logMessage()"));
 		options.addOption(new Option("g", "use-generator", false, "Use the generator for completions"));
 		options.addOption(new Option("n", "new-extractor-evaluation-completion", false, "Use the new completion provider that extracts the completion context and evaluates it to provide completions"));
+		options.addOption(new Option("l", "legacy visitor-based completion provider", false, "Use the legacy visitor-based completion provider"));
 
 		CommandLineParser parser = new DefaultParser();
 		CommandLine cmd = parser.parse(options, args);
@@ -58,9 +59,8 @@ public class ServerApplication {
 		configManager.setEnableVerbose(cmd.hasOption("v"));
 		configManager.setLogToClient(cmd.hasOption("c"));
 		configManager.setUseGeneratorCompletion(cmd.hasOption("g"));
-//		configManager.setUseGeneratorCompletion(true);
-//		configManager.setUseNewCompletionProvider(cmd.hasOption("n"));
 		configManager.setUseNewCompletionProvider(true);
+		configManager.setUseLegacyVisitorBasedCompletionProvider(cmd.hasOption("l"));
 
         logger.info("Multi-term completion: {}", configManager.isEnableMultiTermCompletion());
 

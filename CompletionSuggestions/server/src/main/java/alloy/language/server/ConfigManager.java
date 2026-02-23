@@ -9,6 +9,7 @@ public class ConfigManager {
 	private boolean logToClient = false;
 	private boolean useGeneratorCompletion = false;
 	private boolean useNewCompletionProvider = false;
+	private boolean useLegacyCompletionProvider = false;
 
 	private ConfigManager() {
 		// Load config values from a file, database, or other source
@@ -62,5 +63,13 @@ public class ConfigManager {
 
 	public void setUseNewCompletionProvider(boolean useNewCompletionProvider) {
 		this.useNewCompletionProvider = useNewCompletionProvider;
+	}
+
+	public boolean useLegacyVisitorBasedCompletionProvider() {
+		return useLegacyCompletionProvider;
+	}
+
+	public void setUseLegacyVisitorBasedCompletionProvider(boolean useLegacyVisitorBasedCompletionProvider) {
+		this.useLegacyCompletionProvider = useLegacyVisitorBasedCompletionProvider;
 	}
 }

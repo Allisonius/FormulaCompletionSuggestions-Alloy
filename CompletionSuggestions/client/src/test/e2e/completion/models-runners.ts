@@ -50,22 +50,10 @@ const coursesV1 = new AlloyFileSetup(
   getDocUri("completion/courses-v1-complete.als"),
 );
 
-const coursesv1Fixable = new AlloyFileSetup(
-  "courses-v1-fixable",
-  getDocUri("completion/courses-v1-sig.als"),
-  getDocUri("completion/courses-v1-complete-fixable.als"),
-);
-
 const coursesV2 = new AlloyFileSetup(
   "courses-v2",
   getDocUri("completion/courses-v2-sig.als"),
   getDocUri("completion/courses-v2-complete.als"),
-);
-
-const coursesV2Fixable = new AlloyFileSetup(
-  "courses-v2-fixable",
-  getDocUri("completion/courses-v2-sig.als"),
-  getDocUri("completion/courses-v2-complete-fixable.als"),
 );
 
 const lts = new AlloyFileSetup(
@@ -218,12 +206,6 @@ const git = new AlloyFileSetup(
   getDocUri("completion/git-complete.als"),
 );
 
-const gitFixable = new AlloyFileSetup(
-  "git-fixable",
-  getDocUri("completion/git-sig.als"),
-  getDocUri("completion/git-complete-fixable.als"),
-);
-
 const frankervrep = new AlloyFileSetup(
   "frankervrep",
   getDocUri("completion/frankenvrep-sig.als"),
@@ -296,22 +278,10 @@ const javaMetaModel = new AlloyFileSetup(
   getDocUri("completion/java_meta_model-complete.als"),
 );
 
-const javaMetaModelFixable = new AlloyFileSetup(
-  "java_meta_model_fixable",
-  getDocUri("completion/java_meta_model-sig.als"),
-  getDocUri("completion/java_meta_model-complete-fixable.als"),
-);
-
 const randomSkiJumping = new AlloyFileSetup(
   "random_ski_jumping",
   getDocUri("completion/random_ski_jumping-sig.als"),
   getDocUri("completion/random_ski_jumping-complete.als"),
-);
-
-const randomSkiJumpingFixable = new AlloyFileSetup(
-  "random_ski_jumping_fixable",
-  getDocUri("completion/random_ski_jumping-sig.als"),
-  getDocUri("completion/random_ski_jumping-complete-fixable.als"),
 );
 
 const onlineShop = new AlloyFileSetup(
@@ -326,16 +296,46 @@ const modeloAlloy = new AlloyFileSetup(
   getDocUri("completion/ModeloAlloy-complete.als"),
 );
 
-const modeloAlloyFixables = new AlloyFileSetup(
-  "modelo-alloy-fixables",
-  getDocUri("completion/ModeloAlloy-sig.als"),
-  getDocUri("completion/ModeloAlloy-complete-fixables.als"),
-);
-
 const gitRedacted = new AlloyFileSetup(
   "git-redacted",
   getDocUri("completion/git-sig.als"),
   getDocUri("completion/git-complete-redacted.als"),
+);
+
+const modeloAlloyFixables = new AlloyFileSetup(
+  "modelo-alloy-fixable",
+  getDocUri("completion/ModeloAlloy-sig.als"),
+  getDocUri("completion/ModeloAlloy-complete-fixable.als"),
+);
+
+const javaMetaModelFixable = new AlloyFileSetup(
+  "java-meta-model-fixable",
+  getDocUri("completion/java_meta_model-sig.als"),
+  getDocUri("completion/java_meta_model-complete-fixable.als"),
+);
+
+const randomSkiJumpingFixable = new AlloyFileSetup(
+  "random-ski-jumping-fixable",
+  getDocUri("completion/random_ski_jumping-sig.als"),
+  getDocUri("completion/random_ski_jumping-complete-fixable.als"),
+);
+
+const gitFixable = new AlloyFileSetup(
+  "git-fixable",
+  getDocUri("completion/git-sig.als"),
+  getDocUri("completion/git-complete-fixable.als"),
+);
+
+const coursesv1Fixable = new AlloyFileSetup(
+  "courses-v1-fixable",
+  getDocUri("completion/courses-v1-sig.als"),
+  getDocUri("completion/courses-v1-complete-fixable.als"),
+);
+
+const coursesV2Fixable = new AlloyFileSetup(
+  "courses-v2-fixable",
+  getDocUri("completion/courses-v2-sig.als"),
+  getDocUri("completion/courses-v2-complete-fixable.als"),
 );
 
 export {
@@ -372,8 +372,6 @@ export {
   classroom,
   classroomRL,
   coursesV1,
-  coursesv1Fixable,
-  coursesV2Fixable,
   coursesV2,
   frankervrep,
   checkmate,
@@ -390,9 +388,11 @@ export {
   randomSkiJumping,
   onlineShop,
   modeloAlloy,
+  gitRedacted,
   modeloAlloyFixables,
   javaMetaModelFixable,
   randomSkiJumpingFixable,
-  gitRedacted,
   gitFixable,
+  coursesv1Fixable,
+  coursesV2Fixable,
 };

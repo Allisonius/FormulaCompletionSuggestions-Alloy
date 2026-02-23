@@ -100,17 +100,19 @@ import {
 // javaMetaModel.runMultiTermTests();
 // randomSkiJumping.runMultiTermTests();
 // modeloAlloy.runMultiTermTests();
-modeloAlloyFixables.runMultiTermTests();
-javaMetaModelFixable.runMultiTermTests();
-randomSkiJumpingFixable.runMultiTermTests();
-gitFixable.runMultiTermTests();
 // // onlineShop.runMultiTermTests();
 // frankervrep.runMultiTermTests();
 // // checkmate.runMultiTermTests();
 // // chord.runMultiTermTests();
 // diffAndCD2.runMultiTermTests();
 
+// // LLM Redacted Models
+// gitRedacted.runMultiTermTests();
+
+// Fixable Models
+modeloAlloyFixables.runMultiTermTests();
+javaMetaModelFixable.runMultiTermTests();
+randomSkiJumpingFixable.runMultiTermTests();
+gitFixable.runMultiTermTests();
 coursesv1Fixable.runMultiTermTests();
 coursesV2Fixable.runMultiTermTests();
-
-// gitRedacted.runMultiTermTests();
