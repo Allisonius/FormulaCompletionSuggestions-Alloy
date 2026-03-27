@@ -7,6 +7,9 @@ The basis of our template-based rankings is templates formed over models pulled 
 - Java 21 or higher
 - Alloy 5 or later jar file in the build path
 
+# Corpus
+- The folder  `model-set` contains the models pulled and filtered from Github.
+  
 ## How to Execute
 
 - In the `scr` folder `GatherTemplates_NoRecursive.java` will iterative over all models and log the templates without recursively navigating over relational join expressions beyond their first encounter. This is the version used in our paper, to avoid overcounting completions.
