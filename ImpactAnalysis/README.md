@@ -10,7 +10,6 @@ Our impact analysis takes the suggestions produced by our completion framework a
 ## How to Execute
 
 - In the `scr` folder `ImpactAnalysis.java` contains the executable code to run the impact analysis focusing on minimal, similar scenarios.
-- In the `scr` folder `ImpactAnalysis_Target.java` contains the executable code to run the impact analysis focusing on  similar scenarios.
 - In the `scr` folder `ImpactAnalysis_NoTarget.java` contains the executable code to run the impact analysis using Alloy's default commonad execution.
 - Both files take the following parameters:
   - Directory where the completion suggestions are stored 
