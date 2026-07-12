@@ -1,0 +1,1 @@
+{"modelName":"kafka_final","filename":"completion/kafka_final-complete.als","offset":8681,"term":".","line":276,"character":14,"incompletionLine":"let l = p.","completionList":"","evaluationResult":[],"completionGenerated":false,"suggestionExists":false,"expectedCompletionLine":"leader | all f : p.followers | f.events = l.events","elapsedTimeInMs":113.309}

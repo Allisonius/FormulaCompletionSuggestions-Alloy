@@ -65,6 +65,7 @@ mult
     : 'lone'
     | 'some'
     | 'one'
+    | 'seq'
     ;
 
 decl

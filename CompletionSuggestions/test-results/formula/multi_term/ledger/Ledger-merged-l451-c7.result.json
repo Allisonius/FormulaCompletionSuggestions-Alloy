@@ -1,0 +1,1 @@
+{"modelName":"Ledger-merged","filename":"completion/Ledger-merged-complete.als","offset":10485,"term":".","line":451,"character":7,"incompletionLine":"(t.","completionList":"","evaluationResult":[],"completionGenerated":false,"suggestionExists":false,"expectedCompletionLine":"tt != Transfer implies t.payload in ContractPayload)","elapsedTimeInMs":42.225958}

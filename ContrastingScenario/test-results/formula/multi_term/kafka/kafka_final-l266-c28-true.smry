@@ -1,0 +1,41 @@
+Model name: kafka_final
+Filename: completion/kafka_final-complete.als
+Offset: 8372
+Term: .
+Vscode Position: line=265 character=28
+----------------------------------
+266 |   all p: k.zookeeper.topics.
+----------------------------------
+Expected Completion word: partitions
+Expected Completion line: partitions |
+Suggestion exists: true
+Completion List:
+# Suggestion 	 Exact 	 Syntactic 	 Semantic
+$1. partitions.TopicPartition 	 false 	 false 	 false
+$2. ~subscribedTo.ConsumerGroup 	 false 	 false 	 false
+$3. ~topics.ZooKeeper 	 false 	 false 	 false
+$4. partitions 	 true 	 true 	 true
+$5. partitions.followers 	 false 	 false 	 false
+$6. partitions.followers' 	 false 	 false 	 false
+$7. partitions.leader 	 false 	 false 	 false
+$8. partitions.leader' 	 false 	 false 	 false
+$9. partitions.univ 	 false 	 false 	 false
+$10. partitions.~assignedTo 	 false 	 false 	 false
+$11. ~subscribedTo.assignments 	 false 	 false 	 false
+$12. ~subscribedTo.consumers 	 false 	 false 	 false
+$13. ~subscribedTo.offsets 	 false 	 false 	 false
+$14. ~subscribedTo.offsets' 	 false 	 false 	 false
+$15. ~topics.brokers 	 false 	 false 	 false
+$16. ~topics.brokers' 	 false 	 false 	 false
+$17. ~subscribedTo 	 false 	 false 	 false
+$18. ~subscribedTo.univ 	 false 	 false 	 false
+$19. ~subscribedTo.~consumer_groups 	 false 	 false 	 false
+$20. ~topics 	 false 	 false 	 false
+$21. ~topics.univ 	 false 	 false 	 false
+$22. ~topics.~zookeeper 	 false 	 false 	 false
+$23.  	 false 	 undefined 	 undefined
+
+Time taken: 76.103584
+Preprocessing time: 16
+Parsing time: 8
+Generation time: 1

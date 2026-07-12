@@ -1,0 +1,86 @@
+Model name: kafka_final
+Filename: completion/kafka_final-complete.als
+Offset: 14571
+Term: .
+Vscode Position: line=460 character=55
+----------------------------------
+461 |   e not in k.zookeeper.topics.partitions.leader.events.
+----------------------------------
+Expected Completion word: elems
+Expected Completion line: elems
+Suggestion exists: false
+Completion List:
+# Suggestion 	 Exact 	 Syntactic 	 Semantic
+$1. e 	 false 	 undefined 	 undefined
+$2. KafkaEvent 	 false 	 undefined 	 undefined
+$3. univ.assignedTo 	 false 	 undefined 	 undefined
+$4. univ.assignedTo 	 false 	 undefined 	 undefined
+$5. univ.assignments 	 false 	 undefined 	 undefined
+$6. univ.brokers 	 false 	 undefined 	 undefined
+$7. univ.brokers 	 false 	 undefined 	 undefined
+$8. univ.brokers' 	 false 	 undefined 	 undefined
+$9. univ.brokers' 	 false 	 undefined 	 undefined
+$10. univ.consumer_groups 	 false 	 undefined 	 undefined
+$11. univ.consumer_groups 	 false 	 undefined 	 undefined
+$12. univ.consumers 	 false 	 undefined 	 undefined
+$13. univ.consumers 	 false 	 undefined 	 undefined
+$14. univ.events 	 false 	 undefined 	 undefined
+$15. univ.events' 	 false 	 undefined 	 undefined
+$16. univ.followers 	 false 	 undefined 	 undefined
+$17. univ.followers 	 false 	 undefined 	 undefined
+$18. univ.followers' 	 false 	 undefined 	 undefined
+$19. univ.followers' 	 false 	 undefined 	 undefined
+$20. univ.leader 	 false 	 undefined 	 undefined
+$21. univ.leader 	 false 	 undefined 	 undefined
+$22. univ.leader' 	 false 	 undefined 	 undefined
+$23. univ.leader' 	 false 	 undefined 	 undefined
+$24. univ.offsets 	 false 	 undefined 	 undefined
+$25. univ.offsets' 	 false 	 undefined 	 undefined
+$26. univ.partitions 	 false 	 undefined 	 undefined
+$27. univ.partitions 	 false 	 undefined 	 undefined
+$28. univ.producers 	 false 	 undefined 	 undefined
+$29. univ.producers 	 false 	 undefined 	 undefined
+$30. univ.replicasInBroker 	 false 	 undefined 	 undefined
+$31. univ.replicasInBroker 	 false 	 undefined 	 undefined
+$32. univ.replicasInBroker' 	 false 	 undefined 	 undefined
+$33. univ.replicasInBroker' 	 false 	 undefined 	 undefined
+$34. univ.replicationFactor 	 false 	 undefined 	 undefined
+$35. univ.replicationFactor 	 false 	 undefined 	 undefined
+$36. univ.subscribedTo 	 false 	 undefined 	 undefined
+$37. univ.subscribedTo 	 false 	 undefined 	 undefined
+$38. univ.topics 	 false 	 undefined 	 undefined
+$39. univ.topics 	 false 	 undefined 	 undefined
+$40. univ.zookeeper 	 false 	 undefined 	 undefined
+$41. univ.zookeeper 	 false 	 undefined 	 undefined
+$42. univ.~assignedTo 	 false 	 undefined 	 undefined
+$43. univ.~assignedTo 	 false 	 undefined 	 undefined
+$44. univ.~brokers 	 false 	 undefined 	 undefined
+$45. univ.~brokers 	 false 	 undefined 	 undefined
+$46. univ.~consumer_groups 	 false 	 undefined 	 undefined
+$47. univ.~consumer_groups 	 false 	 undefined 	 undefined
+$48. univ.~consumers 	 false 	 undefined 	 undefined
+$49. univ.~consumers 	 false 	 undefined 	 undefined
+$50. univ.~followers 	 false 	 undefined 	 undefined
+$51. univ.~followers 	 false 	 undefined 	 undefined
+$52. univ.~leader 	 false 	 undefined 	 undefined
+$53. univ.~leader 	 false 	 undefined 	 undefined
+$54. univ.~partitions 	 false 	 undefined 	 undefined
+$55. univ.~partitions 	 false 	 undefined 	 undefined
+$56. univ.~producers 	 false 	 undefined 	 undefined
+$57. univ.~producers 	 false 	 undefined 	 undefined
+$58. univ.~replicasInBroker 	 false 	 undefined 	 undefined
+$59. univ.~replicasInBroker 	 false 	 undefined 	 undefined
+$60. univ.~replicationFactor 	 false 	 undefined 	 undefined
+$61. univ.~subscribedTo 	 false 	 undefined 	 undefined
+$62. univ.~subscribedTo 	 false 	 undefined 	 undefined
+$63. univ.~topics 	 false 	 undefined 	 undefined
+$64. univ.~topics 	 false 	 undefined 	 undefined
+$65. univ.~zookeeper 	 false 	 undefined 	 undefined
+$66. univ.~zookeeper 	 false 	 undefined 	 undefined
+$67.  	 false 	 undefined 	 undefined
+$68. univ 	 false 	 undefined 	 undefined
+
+Time taken: 66.130125
+Preprocessing time: 15
+Parsing time: 8
+Generation time: 1

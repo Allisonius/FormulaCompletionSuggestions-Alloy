@@ -1,0 +1,1 @@
+{"modelName":"kafka_final","filename":"completion/kafka_final-complete.als","offset":12571,"term":".","line":396,"character":73,"incompletionLine":"all other_cg : dom[offsets.Int] - cgs | other_cg.offsets' = other_cg.","completionList":"","evaluationResult":[],"completionGenerated":false,"suggestionExists":false,"expectedCompletionLine":"offsets","elapsedTimeInMs":74.590417}

@@ -1,0 +1,19 @@
+Model name: kafka_final
+Filename: completion/kafka_final-complete.als
+Offset: 16446
+Term:  - 
+Vscode Position: line=524 character=23
+----------------------------------
+525 |     events' = events - 
+----------------------------------
+Expected Completion word: undefined
+Expected Completion line: ((leader_replicas + follower_replicas) <: events) // domain restriction
+Suggestion exists: false
+Completion List:
+# Suggestion 	 Exact 	 Syntactic 	 Semantic
+
+
+Time taken: 92.158833
+Preprocessing time: N/A
+Parsing time: N/A
+Generation time: N/A

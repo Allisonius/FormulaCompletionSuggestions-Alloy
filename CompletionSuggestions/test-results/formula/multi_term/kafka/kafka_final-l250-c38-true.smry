@@ -1,0 +1,41 @@
+Model name: kafka_final
+Filename: completion/kafka_final-complete.als
+Offset: 7875
+Term: .
+Vscode Position: line=249 character=38
+----------------------------------
+250 |   k.consumer_groups.subscribedTo in k.
+----------------------------------
+Expected Completion word: zookeeper.topics
+Expected Completion line: zookeeper.topics
+Suggestion exists: true
+Completion List:
+# Suggestion 	 Exact 	 Syntactic 	 Semantic
+$1. consumer_groups.ConsumerGroup 	 false 	 false 	 false
+$2. producers.Producer 	 false 	 false 	 false
+$3. zookeeper.ZooKeeper 	 false 	 false 	 false
+$4. consumer_groups 	 false 	 false 	 false
+$5. consumer_groups.assignments 	 false 	 false 	 false
+$6. consumer_groups.consumers 	 false 	 false 	 false
+$7. consumer_groups.offsets 	 false 	 false 	 false
+$8. consumer_groups.offsets' 	 false 	 false 	 false
+$9. consumer_groups.subscribedTo 	 false 	 false 	 false
+$10. consumer_groups.subscribedTo 	 false 	 false 	 false
+$11. consumer_groups.univ 	 false 	 false 	 false
+$12. producers 	 false 	 false 	 false
+$13. producers.univ 	 false 	 false 	 false
+$14. replicationFactor 	 false 	 false 	 false
+$15. replicationFactor.Int 	 false 	 false 	 false
+$16. replicationFactor.univ 	 false 	 false 	 false
+$17. zookeeper 	 true 	 false 	 false
+$18. zookeeper.brokers 	 false 	 false 	 false
+$19. zookeeper.brokers' 	 false 	 false 	 false
+$20. zookeeper.topics 	 true 	 true 	 true
+$21. zookeeper.topics 	 true 	 true 	 true
+$22. zookeeper.univ 	 false 	 false 	 false
+$23.  	 false 	 undefined 	 undefined
+
+Time taken: 89.916958
+Preprocessing time: 15
+Parsing time: 8
+Generation time: 1

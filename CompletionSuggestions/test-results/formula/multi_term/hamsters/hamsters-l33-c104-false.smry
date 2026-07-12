@@ -1,0 +1,19 @@
+Model name: hamsters
+Filename: completion/hamsters-complete.als
+Offset: 789
+Term: .
+Vscode Position: line=32 character=104
+----------------------------------
+33 | 	{ x, y : Task | some p : Task | x+y in elems[p.subtasks] and idxOf[p.subtasks,y] = idxOf[p.subtasks,x].
+----------------------------------
+Expected Completion word: undefined
+Expected Completion line: next }
+Suggestion exists: false
+Completion List:
+# Suggestion 	 Exact 	 Syntactic 	 Semantic
+
+
+Time taken: 84.739583
+Preprocessing time: N/A
+Parsing time: N/A
+Generation time: N/A

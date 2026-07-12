@@ -1,0 +1,43 @@
+Model name: kafka_final
+Filename: completion/kafka_final-sig.als
+Offset: 4447
+Term: .
+Vscode Position: line=131 character=58
+----------------------------------
+132 |     all c : cg.consumers | c.assignedTo = cg.subscribedTo.
+----------------------------------
+Expected Completion word: partitions
+Expected Completion line: partitions
+Suggestion exists: true
+Completion List:
+# Suggestion 	 Exact 	 Syntactic 	 Semantic
+$1. ~subscribedTo.cg 	 false 	 undefined 	 undefined
+$2. partitions.TopicPartition 	 false 	 undefined 	 undefined
+$3. ~subscribedTo.ConsumerGroup 	 false 	 undefined 	 undefined
+$4. ~topics.ZooKeeper 	 false 	 undefined 	 undefined
+$5. partitions 	 true 	 undefined 	 undefined
+$6. partitions 	 true 	 undefined 	 undefined
+$7. partitions.followers 	 false 	 undefined 	 undefined
+$8. partitions.followers' 	 false 	 undefined 	 undefined
+$9. partitions.leader 	 false 	 undefined 	 undefined
+$10. partitions.leader' 	 false 	 undefined 	 undefined
+$11. partitions.univ 	 false 	 undefined 	 undefined
+$12. partitions.~assignedTo 	 false 	 undefined 	 undefined
+$13. ~subscribedTo.assignments 	 false 	 undefined 	 undefined
+$14. ~subscribedTo.consumers 	 false 	 undefined 	 undefined
+$15. ~subscribedTo.offsets 	 false 	 undefined 	 undefined
+$16. ~subscribedTo.offsets' 	 false 	 undefined 	 undefined
+$17. ~topics.brokers 	 false 	 undefined 	 undefined
+$18. ~topics.brokers' 	 false 	 undefined 	 undefined
+$19. ~subscribedTo 	 false 	 undefined 	 undefined
+$20. ~subscribedTo.univ 	 false 	 undefined 	 undefined
+$21. ~subscribedTo.~consumer_groups 	 false 	 undefined 	 undefined
+$22. ~topics 	 false 	 undefined 	 undefined
+$23. ~topics.univ 	 false 	 undefined 	 undefined
+$24. ~topics.~zookeeper 	 false 	 undefined 	 undefined
+$25.  	 false 	 undefined 	 undefined
+
+Time taken: 39.941584
+Preprocessing time: 2
+Parsing time: 1
+Generation time: 1

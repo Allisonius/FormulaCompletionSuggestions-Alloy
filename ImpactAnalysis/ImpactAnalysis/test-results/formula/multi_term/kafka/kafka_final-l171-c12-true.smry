@@ -1,0 +1,63 @@
+Model name: kafka_final
+Filename: completion/kafka_final-complete.als
+Offset: 5460
+Term: .
+Vscode Position: line=170 character=12
+----------------------------------
+171 |   (events.e.
+----------------------------------
+Expected Completion word: Int
+Expected Completion line: Int).~replicasInBroker
+Suggestion exists: true
+Completion List:
+# Suggestion 	 Exact 	 Syntactic 	 Semantic
+$1. ~replicationFactor.Kafka 	 false 	 false 	 false
+$2. univ.assignedTo 	 false 	 false 	 false
+$3. univ.assignments 	 false 	 false 	 false
+$4. univ.brokers 	 false 	 false 	 false
+$5. univ.brokers' 	 false 	 false 	 false
+$6. univ.consumer_groups 	 false 	 false 	 false
+$7. univ.consumers 	 false 	 false 	 false
+$8. univ.events 	 false 	 false 	 false
+$9. univ.events' 	 false 	 false 	 false
+$10. univ.followers 	 false 	 false 	 false
+$11. univ.followers' 	 false 	 false 	 false
+$12. univ.leader 	 false 	 false 	 false
+$13. univ.leader' 	 false 	 false 	 false
+$14. univ.offsets 	 false 	 false 	 false
+$15. univ.offsets' 	 false 	 false 	 false
+$16. univ.partitions 	 false 	 false 	 false
+$17. univ.producers 	 false 	 false 	 false
+$18. univ.replicasInBroker 	 false 	 false 	 false
+$19. univ.replicasInBroker' 	 false 	 false 	 false
+$20. univ.replicationFactor 	 false 	 false 	 false
+$21. univ.subscribedTo 	 false 	 false 	 false
+$22. univ.topics 	 false 	 false 	 false
+$23. univ.zookeeper 	 false 	 false 	 false
+$24. ~replicationFactor.consumer_groups 	 false 	 false 	 false
+$25. ~replicationFactor.producers 	 false 	 false 	 false
+$26. ~replicationFactor.zookeeper 	 false 	 false 	 false
+$27. Int.~replicationFactor 	 false 	 false 	 false
+$28. univ.~assignedTo 	 false 	 false 	 false
+$29. univ.~brokers 	 false 	 false 	 false
+$30. univ.~consumer_groups 	 false 	 false 	 false
+$31. univ.~consumers 	 false 	 false 	 false
+$32. univ.~followers 	 false 	 false 	 false
+$33. univ.~leader 	 false 	 false 	 false
+$34. univ.~partitions 	 false 	 false 	 false
+$35. univ.~producers 	 false 	 false 	 false
+$36. univ.~replicasInBroker 	 false 	 false 	 false
+$37. univ.~replicationFactor 	 false 	 false 	 false
+$38. univ.~subscribedTo 	 false 	 false 	 false
+$39. univ.~topics 	 false 	 false 	 false
+$40. univ.~zookeeper 	 false 	 false 	 false
+$41. ~replicationFactor 	 false 	 false 	 false
+$42. ~replicationFactor.univ 	 false 	 false 	 false
+$43.  	 false 	 undefined 	 undefined
+$44. Int 	 true 	 true 	 true
+$45. univ 	 false 	 false 	 false
+
+Time taken: 87.631958
+Preprocessing time: 16
+Parsing time: 8
+Generation time: 2

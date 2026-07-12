@@ -1,0 +1,41 @@
+Model name: kafka_final
+Filename: completion/kafka_final-complete.als
+Offset: 20377
+Term: .
+Vscode Position: line=648 character=13
+----------------------------------
+649 |   b not in k.
+----------------------------------
+Expected Completion word: zookeeper.brokers
+Expected Completion line: zookeeper.brokers
+Suggestion exists: true
+Completion List:
+# Suggestion 	 Exact 	 Syntactic 	 Semantic
+$1. consumer_groups.ConsumerGroup 	 false 	 undefined 	 undefined
+$2. producers.Producer 	 false 	 undefined 	 undefined
+$3. zookeeper.ZooKeeper 	 false 	 undefined 	 undefined
+$4. consumer_groups 	 false 	 undefined 	 undefined
+$5. consumer_groups.assignments 	 false 	 undefined 	 undefined
+$6. consumer_groups.consumers 	 false 	 undefined 	 undefined
+$7. consumer_groups.offsets 	 false 	 undefined 	 undefined
+$8. consumer_groups.offsets' 	 false 	 undefined 	 undefined
+$9. consumer_groups.subscribedTo 	 false 	 undefined 	 undefined
+$10. consumer_groups.univ 	 false 	 undefined 	 undefined
+$11. producers 	 false 	 undefined 	 undefined
+$12. producers.univ 	 false 	 undefined 	 undefined
+$13. replicationFactor 	 false 	 undefined 	 undefined
+$14. replicationFactor.Int 	 false 	 undefined 	 undefined
+$15. replicationFactor.univ 	 false 	 undefined 	 undefined
+$16. zookeeper 	 true 	 undefined 	 undefined
+$17. zookeeper.brokers 	 true 	 undefined 	 undefined
+$18. zookeeper.brokers 	 true 	 undefined 	 undefined
+$19. zookeeper.brokers' 	 false 	 undefined 	 undefined
+$20. zookeeper.brokers' 	 false 	 undefined 	 undefined
+$21. zookeeper.topics 	 false 	 undefined 	 undefined
+$22. zookeeper.univ 	 false 	 undefined 	 undefined
+$23.  	 false 	 undefined 	 undefined
+
+Time taken: 88.545417
+Preprocessing time: 17
+Parsing time: 8
+Generation time: 1

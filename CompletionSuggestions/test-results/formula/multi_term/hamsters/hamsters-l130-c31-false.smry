@@ -1,0 +1,19 @@
+Model name: hamsters
+Filename: completion/hamsters-complete.als
+Offset: 4379
+Term:  - 
+Vscode Position: line=129 character=31
+----------------------------------
+130 | 		some parent.x & (finished' - 
+----------------------------------
+Expected Completion word: undefined
+Expected Completion line: finished)
+Suggestion exists: false
+Completion List:
+# Suggestion 	 Exact 	 Syntactic 	 Semantic
+
+
+Time taken: 477.684417
+Preprocessing time: 10
+Parsing time: 5
+Generation time: 422

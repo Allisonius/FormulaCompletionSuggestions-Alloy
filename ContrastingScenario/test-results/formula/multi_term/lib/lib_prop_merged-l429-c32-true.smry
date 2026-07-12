@@ -1,0 +1,44 @@
+Model name: lib_prop_merged
+Filename: completion/lib_prop_merged-complete.als
+Offset: 9405
+Term: .
+Vscode Position: line=428 character=32
+----------------------------------
+429 |     ((b in L.books) and (b in L.
+----------------------------------
+Expected Completion word: loan.Member
+Expected Completion line: loan.Member)) => one (b ->Member & (L.loan))
+Suggestion exists: true
+Completion List:
+# Suggestion 	 Exact 	 Syntactic 	 Semantic
+$1. books.b 	 false 	 undefined 	 undefined
+$2. membersReservingOneBook.b 	 false 	 undefined 	 undefined
+$3. Renew.Member 	 false 	 false 	 false
+$4. Renew.Member 	 false 	 false 	 false
+$5. books.Book 	 false 	 false 	 false
+$6. loan.Member 	 true 	 true 	 true
+$7. loan.Member 	 true 	 true 	 true
+$8. members.Member 	 false 	 false 	 false
+$9. membersReservingOneBook.Book 	 false 	 false 	 false
+$10. Renew 	 false 	 false 	 false
+$11. Renew.univ 	 false 	 false 	 false
+$12. Renew.univ 	 false 	 false 	 false
+$13. Renew.~members 	 false 	 false 	 false
+$14. books 	 false 	 false 	 false
+$15. books 	 false 	 false 	 false
+$16. books.univ 	 false 	 false 	 false
+$17. loan 	 true 	 false 	 false
+$18. loan.univ 	 false 	 false 	 false
+$19. loan.univ 	 false 	 false 	 false
+$20. loan.~members 	 false 	 false 	 false
+$21. members 	 false 	 false 	 false
+$22. members.univ 	 false 	 false 	 false
+$23. membersReservingOneBook 	 false 	 false 	 false
+$24. membersReservingOneBook.univ 	 false 	 false 	 false
+$25. membersReservingOneBook.~books 	 false 	 false 	 false
+$26.  	 false 	 undefined 	 undefined
+
+Time taken: 51.089291
+Preprocessing time: 12
+Parsing time: 5
+Generation time: 1

@@ -1,0 +1,40 @@
+Model name: lib_prop_merged
+Filename: completion/lib_prop_merged-complete.als
+Offset: 7136
+Term: .
+Vscode Position: line=341 character=13
+----------------------------------
+342 |    LCR[m,l,l.
+----------------------------------
+Expected Completion word: LibOrd/next
+Expected Completion line: LibOrd/next]
+Suggestion exists: false
+Completion List:
+# Suggestion 	 Exact 	 Syntactic 	 Semantic
+$1. Renew.m 	 false 	 undefined 	 undefined
+$2. loan.m 	 false 	 undefined 	 undefined
+$3. members.m 	 false 	 undefined 	 undefined
+$4. Renew.Member 	 false 	 undefined 	 undefined
+$5. books.Book 	 false 	 undefined 	 undefined
+$6. loan.Member 	 false 	 undefined 	 undefined
+$7. members.Member 	 false 	 undefined 	 undefined
+$8. membersReservingOneBook.Book 	 false 	 undefined 	 undefined
+$9. Renew 	 false 	 undefined 	 undefined
+$10. Renew.univ 	 false 	 undefined 	 undefined
+$11. Renew.~members 	 false 	 undefined 	 undefined
+$12. books 	 false 	 undefined 	 undefined
+$13. books.univ 	 false 	 undefined 	 undefined
+$14. loan 	 false 	 undefined 	 undefined
+$15. loan.univ 	 false 	 undefined 	 undefined
+$16. loan.~members 	 false 	 undefined 	 undefined
+$17. members 	 false 	 undefined 	 undefined
+$18. members.univ 	 false 	 undefined 	 undefined
+$19. membersReservingOneBook 	 false 	 undefined 	 undefined
+$20. membersReservingOneBook.univ 	 false 	 undefined 	 undefined
+$21. membersReservingOneBook.~books 	 false 	 undefined 	 undefined
+$22.  	 false 	 undefined 	 undefined
+
+Time taken: 45.523208
+Preprocessing time: 12
+Parsing time: 6
+Generation time: 1

@@ -1,0 +1,50 @@
+Model name: kafka_final
+Filename: completion/kafka_final-complete.als
+Offset: 14564
+Term: .
+Vscode Position: line=460 character=48
+----------------------------------
+461 |   e not in k.zookeeper.topics.partitions.leader.
+----------------------------------
+Expected Completion word: events.elems
+Expected Completion line: events.elems
+Suggestion exists: true
+Completion List:
+# Suggestion 	 Exact 	 Syntactic 	 Semantic
+$1. events'.e 	 false 	 undefined 	 undefined
+$2. events.e 	 false 	 undefined 	 undefined
+$3. ~followers.p 	 false 	 undefined 	 undefined
+$4. ~leader.p 	 false 	 undefined 	 undefined
+$5. events'.KafkaEvent 	 false 	 undefined 	 undefined
+$6. events.KafkaEvent 	 false 	 undefined 	 undefined
+$7. ~followers.TopicPartition 	 false 	 undefined 	 undefined
+$8. ~leader.TopicPartition 	 false 	 undefined 	 undefined
+$9. ~replicasInBroker.Broker 	 false 	 undefined 	 undefined
+$10. events 	 true 	 undefined 	 undefined
+$11. events' 	 false 	 undefined 	 undefined
+$12. events'.univ 	 false 	 undefined 	 undefined
+$13. events.univ 	 false 	 undefined 	 undefined
+$14. ~followers.followers' 	 false 	 undefined 	 undefined
+$15. ~followers.leader 	 false 	 undefined 	 undefined
+$16. ~followers.leader' 	 false 	 undefined 	 undefined
+$17. ~leader.followers 	 false 	 undefined 	 undefined
+$18. ~leader.followers' 	 false 	 undefined 	 undefined
+$19. ~leader.leader' 	 false 	 undefined 	 undefined
+$20. ~replicasInBroker.replicasInBroker' 	 false 	 undefined 	 undefined
+$21. ~followers 	 false 	 undefined 	 undefined
+$22. ~followers.univ 	 false 	 undefined 	 undefined
+$23. ~followers.~assignedTo 	 false 	 undefined 	 undefined
+$24. ~followers.~partitions 	 false 	 undefined 	 undefined
+$25. ~leader 	 false 	 undefined 	 undefined
+$26. ~leader.univ 	 false 	 undefined 	 undefined
+$27. ~leader.~assignedTo 	 false 	 undefined 	 undefined
+$28. ~leader.~partitions 	 false 	 undefined 	 undefined
+$29. ~replicasInBroker 	 false 	 undefined 	 undefined
+$30. ~replicasInBroker.univ 	 false 	 undefined 	 undefined
+$31. ~replicasInBroker.~brokers 	 false 	 undefined 	 undefined
+$32.  	 false 	 undefined 	 undefined
+
+Time taken: 79.150833
+Preprocessing time: 16
+Parsing time: 8
+Generation time: 1

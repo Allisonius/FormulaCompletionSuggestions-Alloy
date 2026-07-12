@@ -1,0 +1,40 @@
+Model name: kafka_final
+Filename: completion/kafka_final-sig.als
+Offset: 2977
+Term: .
+Vscode Position: line=93 character=19
+----------------------------------
+94 |   Producer = Kafka.
+----------------------------------
+Expected Completion word: producers
+Expected Completion line: producers
+Suggestion exists: true
+Completion List:
+# Suggestion 	 Exact 	 Syntactic 	 Semantic
+$1. consumer_groups.ConsumerGroup 	 false 	 false 	 false
+$2. producers.Producer 	 false 	 false 	 false
+$3. zookeeper.ZooKeeper 	 false 	 false 	 false
+$4. consumer_groups 	 false 	 false 	 false
+$5. consumer_groups.assignments 	 false 	 false 	 false
+$6. consumer_groups.consumers 	 false 	 false 	 false
+$7. consumer_groups.offsets 	 false 	 false 	 false
+$8. consumer_groups.offsets' 	 false 	 false 	 false
+$9. consumer_groups.subscribedTo 	 false 	 false 	 false
+$10. consumer_groups.univ 	 false 	 false 	 false
+$11. producers 	 true 	 true 	 true
+$12. producers 	 true 	 true 	 true
+$13. producers.univ 	 false 	 false 	 false
+$14. replicationFactor 	 false 	 false 	 false
+$15. replicationFactor.Int 	 false 	 false 	 false
+$16. replicationFactor.univ 	 false 	 false 	 false
+$17. zookeeper 	 false 	 false 	 false
+$18. zookeeper.brokers 	 false 	 false 	 false
+$19. zookeeper.brokers' 	 false 	 false 	 false
+$20. zookeeper.topics 	 false 	 false 	 false
+$21. zookeeper.univ 	 false 	 false 	 false
+$22.  	 false 	 undefined 	 undefined
+
+Time taken: 89.257958
+Preprocessing time: 3
+Parsing time: 1
+Generation time: 1

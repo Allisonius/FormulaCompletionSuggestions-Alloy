@@ -1,0 +1,1 @@
+{"modelName":"Ledger-merged","filename":"completion/Ledger-merged-complete.als","offset":12753,"term":".","line":561,"character":42,"incompletionLine":"(b != Genesis => (one b.prev and no b.","completionList":"","evaluationResult":[],"completionGenerated":false,"suggestionExists":false,"expectedCompletionLine":"parents))","elapsedTimeInMs":41.3435}

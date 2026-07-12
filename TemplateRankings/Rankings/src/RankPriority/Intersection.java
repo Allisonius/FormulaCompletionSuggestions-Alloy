@@ -154,8 +154,27 @@ public class Intersection {
 		else if(template.equals("~" + incompleteTerm)) {
 			return 6;
 		}
+		if(template.equals("SIGNATURE")) {
+			return 7;
+		}
+		if(template.equals("VARIABLE")) {
+			return 8;
+		}
+		if(template.equals("RELATION")) {
+			return 9;
+		}
+		/*
+		if(template.equals("RELATION.VARIABLE")) {
+			return 10;
+		}
 
-
+		if(template.equals("SIGNATURE.RELATION")) {
+			return 10;
+		}
+		if(template.equals("VARIABLE.RELATION")) {
+			return 10;
+		}
+		*/
 		//rank built in set features last
 		if(template.equals("CONSTANT")) {
 			return Integer.MAX_VALUE;

@@ -1,0 +1,55 @@
+Model name: kafka_final
+Filename: completion/kafka_final-complete.als
+Offset: 12781
+Term: .
+Vscode Position: line=398 character=80
+----------------------------------
+399 |     all cg: cgs | all other_p : dom[cg.offsets] - p | cg.offsets'[other_p] = cg.
+----------------------------------
+Expected Completion word: offsets
+Expected Completion line: offsets[other_p]
+Suggestion exists: true
+Completion List:
+# Suggestion 	 Exact 	 Syntactic 	 Semantic
+$1. assignments.other_p 	 false 	 undefined 	 undefined
+$2. assignments.p 	 false 	 undefined 	 undefined
+$3. consumers.c_mult 	 false 	 undefined 	 undefined
+$4. ~consumer_groups.k 	 false 	 undefined 	 undefined
+$5. assignments.TopicPartition 	 false 	 undefined 	 undefined
+$6. consumers.Consumer 	 false 	 undefined 	 undefined
+$7. subscribedTo.Topic 	 false 	 undefined 	 undefined
+$8. ~consumer_groups.Kafka 	 false 	 undefined 	 undefined
+$9. assignments 	 false 	 undefined 	 undefined
+$10. assignments.followers 	 false 	 undefined 	 undefined
+$11. assignments.followers' 	 false 	 undefined 	 undefined
+$12. assignments.leader 	 false 	 undefined 	 undefined
+$13. assignments.leader' 	 false 	 undefined 	 undefined
+$14. assignments.univ 	 false 	 undefined 	 undefined
+$15. assignments.~assignedTo 	 false 	 undefined 	 undefined
+$16. assignments.~partitions 	 false 	 undefined 	 undefined
+$17. consumers 	 false 	 undefined 	 undefined
+$18. consumers.assignedTo 	 false 	 undefined 	 undefined
+$19. consumers.univ 	 false 	 undefined 	 undefined
+$20. offsets 	 true 	 undefined 	 undefined
+$21. offsets' 	 false 	 undefined 	 undefined
+$22. offsets'.Int 	 false 	 undefined 	 undefined
+$23. offsets'.univ 	 false 	 undefined 	 undefined
+$24. offsets'.~replicationFactor 	 false 	 undefined 	 undefined
+$25. offsets.Int 	 false 	 undefined 	 undefined
+$26. offsets.univ 	 false 	 undefined 	 undefined
+$27. offsets.~replicationFactor 	 false 	 undefined 	 undefined
+$28. subscribedTo 	 false 	 undefined 	 undefined
+$29. subscribedTo.partitions 	 false 	 undefined 	 undefined
+$30. subscribedTo.univ 	 false 	 undefined 	 undefined
+$31. subscribedTo.~topics 	 false 	 undefined 	 undefined
+$32. ~consumer_groups.producers 	 false 	 undefined 	 undefined
+$33. ~consumer_groups.replicationFactor 	 false 	 undefined 	 undefined
+$34. ~consumer_groups.zookeeper 	 false 	 undefined 	 undefined
+$35. ~consumer_groups 	 false 	 undefined 	 undefined
+$36. ~consumer_groups.univ 	 false 	 undefined 	 undefined
+$37.  	 false 	 undefined 	 undefined
+
+Time taken: 95.51925
+Preprocessing time: 16
+Parsing time: 7
+Generation time: 1

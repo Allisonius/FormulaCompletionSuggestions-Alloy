@@ -69,6 +69,30 @@ public class NotIn {
 			}
 		}
 		
+		if(template.equals("SIGNATURE")) {
+			return 11;
+		}
+		if(template.equals("VARIABLE")) {
+			return 14;
+		}
+		if(template.equals("RELATION")) {
+			return 13;
+		}
+		/*
+		if(template.equals("SIGNATURE.RELATION")) {
+			return 12;
+		}
+		if(template.equals("VARIABLE.RELATION")) {
+			return 12;
+		}
+		if(template.startsWith("SIGNATURE.RELATION")) {
+			return 14;
+		}
+		if(template.startsWith("VARIABLE.RELATION")) {
+			return 14;
+		}
+		*/
+		
 		//Priority: number of joins, favor transpose, then closure, then rclosures
 		String [] num_joins = template.split("\\.");
 		int closures = countClosure(template);

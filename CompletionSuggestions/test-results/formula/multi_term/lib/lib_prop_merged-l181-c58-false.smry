@@ -1,0 +1,45 @@
+Model name: lib_prop_merged
+Filename: completion/lib_prop_merged-complete.als
+Offset: 3717
+Term: .
+Vscode Position: line=180 character=58
+----------------------------------
+181 |  LL.membersReservingOneBook.b=L.membersReservingOneBook.b.
+----------------------------------
+Expected Completion word: delete
+Expected Completion line: delete[
+Suggestion exists: false
+Completion List:
+# Suggestion 	 Exact 	 Syntactic 	 Semantic
+$1. m 	 false 	 undefined 	 undefined
+$2. m.~members 	 false 	 undefined 	 undefined
+$3. ~members.L 	 false 	 undefined 	 undefined
+$4. ~members.LL 	 false 	 undefined 	 undefined
+$5. Member 	 false 	 undefined 	 undefined
+$6. Member.~members 	 false 	 undefined 	 undefined
+$7. ~members.Lib 	 false 	 undefined 	 undefined
+$8. univ.Renew 	 false 	 undefined 	 undefined
+$9. univ.Renew 	 false 	 undefined 	 undefined
+$10. univ.books 	 false 	 undefined 	 undefined
+$11. univ.loan 	 false 	 undefined 	 undefined
+$12. univ.loan 	 false 	 undefined 	 undefined
+$13. univ.maxNbLoans 	 false 	 undefined 	 undefined
+$14. univ.members 	 false 	 undefined 	 undefined
+$15. univ.membersReservingOneBook 	 false 	 undefined 	 undefined
+$16. ~members.Renew 	 false 	 undefined 	 undefined
+$17. ~members.books 	 false 	 undefined 	 undefined
+$18. ~members.loan 	 false 	 undefined 	 undefined
+$19. ~members.membersReservingOneBook 	 false 	 undefined 	 undefined
+$20. univ.~books 	 false 	 undefined 	 undefined
+$21. univ.~maxNbLoans 	 false 	 undefined 	 undefined
+$22. univ.~members 	 false 	 undefined 	 undefined
+$23. ~members 	 false 	 undefined 	 undefined
+$24. ~members.univ 	 false 	 undefined 	 undefined
+$25.  	 false 	 undefined 	 undefined
+$26.  	 false 	 undefined 	 undefined
+$27. univ 	 false 	 undefined 	 undefined
+
+Time taken: 32.769792
+Preprocessing time: 12
+Parsing time: 6
+Generation time: 1

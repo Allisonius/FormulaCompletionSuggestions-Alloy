@@ -1,0 +1,40 @@
+Model name: kafka_final
+Filename: completion/kafka_final-complete.als
+Offset: 21920
+Term: .
+Vscode Position: line=700 character=8
+----------------------------------
+701 |   Kafka.
+----------------------------------
+Expected Completion word: replicationFactor
+Expected Completion line: replicationFactor = repFactor
+Suggestion exists: true
+Completion List:
+# Suggestion 	 Exact 	 Syntactic 	 Semantic
+$1. replicationFactor.repFactor 	 false 	 false 	 false
+$2. consumer_groups.ConsumerGroup 	 false 	 false 	 false
+$3. producers.Producer 	 false 	 false 	 false
+$4. zookeeper.ZooKeeper 	 false 	 false 	 false
+$5. consumer_groups 	 false 	 false 	 false
+$6. consumer_groups.assignments 	 false 	 false 	 false
+$7. consumer_groups.consumers 	 false 	 false 	 false
+$8. consumer_groups.offsets 	 false 	 false 	 false
+$9. consumer_groups.offsets' 	 false 	 false 	 false
+$10. consumer_groups.subscribedTo 	 false 	 false 	 false
+$11. consumer_groups.univ 	 false 	 false 	 false
+$12. producers 	 false 	 false 	 false
+$13. producers.univ 	 false 	 false 	 false
+$14. replicationFactor 	 true 	 true 	 true
+$15. replicationFactor.Int 	 false 	 false 	 false
+$16. replicationFactor.univ 	 false 	 false 	 false
+$17. zookeeper 	 false 	 false 	 false
+$18. zookeeper.brokers 	 false 	 false 	 false
+$19. zookeeper.brokers' 	 false 	 false 	 false
+$20. zookeeper.topics 	 false 	 false 	 false
+$21. zookeeper.univ 	 false 	 false 	 false
+$22.  	 false 	 undefined 	 undefined
+
+Time taken: 77.588958
+Preprocessing time: 16
+Parsing time: 9
+Generation time: 0

@@ -1,0 +1,27 @@
+Model name: lib_prop_merged
+Filename: completion/lib_prop_merged-sig.als
+Offset: 323
+Term:  -> 
+Vscode Position: line=19 character=17
+----------------------------------
+20 |  loan: (books -> 
+----------------------------------
+Expected Completion word: members
+Expected Completion line: members),
+Suggestion exists: false
+Completion List:
+# Suggestion 	 Exact 	 Syntactic 	 Semantic
+$1. Book 	 false 	 false 	 false
+$2. Constants 	 false 	 false 	 false
+$3. Lib 	 false 	 false 	 false
+$4. LibOrd/Ord 	 false 	 undefined 	 undefined
+$5. Member 	 false 	 false 	 false
+$6. Int 	 false 	 false 	 false
+$7. String 	 false 	 false 	 false
+$8. none 	 false 	 false 	 false
+$9. univ 	 false 	 false 	 false
+
+Time taken: 135.966625
+Preprocessing time: 3
+Parsing time: 2
+Generation time: 1

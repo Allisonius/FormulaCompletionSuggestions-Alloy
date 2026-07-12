@@ -1,0 +1,1 @@
+{"modelName":"kafka_final","filename":"completion/kafka_final-sig.als","offset":4447,"term":".","line":132,"character":58,"incompletionLine":"all c : cg.consumers | c.assignedTo = cg.subscribedTo.","completionList":"","evaluationResult":[],"completionGenerated":false,"suggestionExists":false,"expectedCompletionLine":"partitions","elapsedTimeInMs":52.355292}

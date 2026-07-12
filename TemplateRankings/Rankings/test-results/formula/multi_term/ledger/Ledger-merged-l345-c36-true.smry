@@ -1,0 +1,93 @@
+Model name: Ledger-merged
+Filename: completion/Ledger-merged-complete.als
+Offset: 8172
+Term: .
+Vscode Position: line=344 character=36
+----------------------------------
+345 |     n2 in n1.peers implies n1 in n2.
+----------------------------------
+Expected Completion word: peers
+Expected Completion line: peers
+Suggestion exists: true
+Completion List:
+# Suggestion 	 Exact 	 Syntactic 	 Semantic
+$1. *peers.n1 	 false 	 undefined 	 undefined
+$2. *peers.n2 	 false 	 undefined 	 undefined
+$3. ^peers.n1 	 false 	 undefined 	 undefined
+$4. ^peers.n2 	 false 	 undefined 	 undefined
+$5. peers.n1 	 false 	 undefined 	 undefined
+$6. peers.n2 	 false 	 undefined 	 undefined
+$7. ~peers.n1 	 false 	 undefined 	 undefined
+$8. ~peers.n2 	 false 	 undefined 	 undefined
+$9. *peers.FullNode 	 false 	 undefined 	 undefined
+$10. *peers.LightNode 	 false 	 undefined 	 undefined
+$11. *peers.PeerNode 	 false 	 undefined 	 undefined
+$12. ^peers.FullNode 	 false 	 undefined 	 undefined
+$13. ^peers.LightNode 	 false 	 undefined 	 undefined
+$14. ^peers.PeerNode 	 false 	 undefined 	 undefined
+$15. peers.FullNode 	 false 	 undefined 	 undefined
+$16. peers.LightNode 	 false 	 undefined 	 undefined
+$17. peers.PeerNode 	 false 	 undefined 	 undefined
+$18. roles.Archive 	 false 	 undefined 	 undefined
+$19. roles.Miner 	 false 	 undefined 	 undefined
+$20. roles.Observer 	 false 	 undefined 	 undefined
+$21. roles.Role 	 false 	 undefined 	 undefined
+$22. roles.Validator 	 false 	 undefined 	 undefined
+$23. sync.BlockId 	 false 	 undefined 	 undefined
+$24. ~peers.FullNode 	 false 	 undefined 	 undefined
+$25. ~peers.LightNode 	 false 	 undefined 	 undefined
+$26. ~peers.PeerNode 	 false 	 undefined 	 undefined
+$27. *peers.bandwidthCap 	 false 	 undefined 	 undefined
+$28. *peers.roles 	 false 	 undefined 	 undefined
+$29. *peers.storageCap 	 false 	 undefined 	 undefined
+$30. *peers.sync 	 false 	 undefined 	 undefined
+$31. ^peers.bandwidthCap 	 false 	 undefined 	 undefined
+$32. ^peers.roles 	 false 	 undefined 	 undefined
+$33. ^peers.storageCap 	 false 	 undefined 	 undefined
+$34. ^peers.sync 	 false 	 undefined 	 undefined
+$35. bandwidthCap 	 false 	 undefined 	 undefined
+$36. bandwidthCap.Int 	 false 	 undefined 	 undefined
+$37. bandwidthCap.univ 	 false 	 undefined 	 undefined
+$38. bandwidthCap.~nonce 	 false 	 undefined 	 undefined
+$39. bandwidthCap.~storageCap 	 false 	 undefined 	 undefined
+$40. bandwidthCap.~storageCap 	 false 	 undefined 	 undefined
+$41. bandwidthCap.~unitVal 	 false 	 undefined 	 undefined
+$42. peers 	 true 	 undefined 	 undefined
+$43. peers 	 true 	 undefined 	 undefined
+$44. peers.bandwidthCap 	 false 	 undefined 	 undefined
+$45. peers.roles 	 false 	 undefined 	 undefined
+$46. peers.storageCap 	 false 	 undefined 	 undefined
+$47. peers.sync 	 false 	 undefined 	 undefined
+$48. peers.univ 	 false 	 undefined 	 undefined
+$49. roles 	 false 	 undefined 	 undefined
+$50. roles.univ 	 false 	 undefined 	 undefined
+$51. storageCap 	 false 	 undefined 	 undefined
+$52. storageCap.Int 	 false 	 undefined 	 undefined
+$53. storageCap.univ 	 false 	 undefined 	 undefined
+$54. storageCap.~bandwidthCap 	 false 	 undefined 	 undefined
+$55. storageCap.~bandwidthCap 	 false 	 undefined 	 undefined
+$56. storageCap.~nonce 	 false 	 undefined 	 undefined
+$57. storageCap.~unitVal 	 false 	 undefined 	 undefined
+$58. sync 	 false 	 undefined 	 undefined
+$59. sync.univ 	 false 	 undefined 	 undefined
+$60. sync.~id 	 false 	 undefined 	 undefined
+$61. ~peers.bandwidthCap 	 false 	 undefined 	 undefined
+$62. ~peers.roles 	 false 	 undefined 	 undefined
+$63. ~peers.storageCap 	 false 	 undefined 	 undefined
+$64. ~peers.sync 	 false 	 undefined 	 undefined
+$65. ~peers 	 false 	 undefined 	 undefined
+$66. ~peers 	 false 	 undefined 	 undefined
+$67. ~peers.univ 	 false 	 undefined 	 undefined
+$68. ^peers 	 false 	 undefined 	 undefined
+$69. ^peers 	 false 	 undefined 	 undefined
+$70. ^peers.univ 	 false 	 undefined 	 undefined
+$71.  	 false 	 undefined 	 undefined
+$72.  	 false 	 undefined 	 undefined
+$73. *peers 	 false 	 undefined 	 undefined
+$74. *peers 	 false 	 undefined 	 undefined
+$75. *peers.univ 	 false 	 undefined 	 undefined
+
+Time taken: 53.857709
+Preprocessing time: 11
+Parsing time: 6
+Generation time: 2

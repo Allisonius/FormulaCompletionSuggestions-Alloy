@@ -1,0 +1,19 @@
+Model name: Ledger-merged
+Filename: completion/Ledger-merged-complete.als
+Offset: 10485
+Term: .
+Vscode Position: line=450 character=7
+----------------------------------
+451 |     (t.
+----------------------------------
+Expected Completion word: undefined
+Expected Completion line: tt != Transfer implies t.payload in ContractPayload)
+Suggestion exists: false
+Completion List:
+# Suggestion 	 Exact 	 Syntactic 	 Semantic
+
+
+Time taken: 42.225958
+Preprocessing time: N/A
+Parsing time: N/A
+Generation time: N/A

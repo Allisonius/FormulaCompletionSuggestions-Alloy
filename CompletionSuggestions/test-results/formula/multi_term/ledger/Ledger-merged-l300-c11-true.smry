@@ -1,0 +1,75 @@
+Model name: Ledger-merged
+Filename: completion/Ledger-merged-complete.als
+Offset: 7312
+Term: .
+Vscode Position: line=299 character=11
+----------------------------------
+300 |   s.DU + s.
+----------------------------------
+Expected Completion word: EU
+Expected Completion line: EU = User
+Suggestion exists: true
+Completion List:
+# Suggestion 	 Exact 	 Syntactic 	 Semantic
+$1. *next.s 	 false 	 undefined 	 undefined
+$2. ^next.s 	 false 	 false 	 false
+$3. next.s 	 false 	 false 	 false
+$4. ~next.s 	 false 	 false 	 false
+$5. *next.First 	 false 	 undefined 	 undefined
+$6. *next.State 	 false 	 undefined 	 undefined
+$7. DU.DLTUser 	 false 	 false 	 false
+$8. DU.ExternalUser 	 false 	 false 	 false
+$9. DU.User 	 false 	 false 	 false
+$10. EU.DLTUser 	 false 	 false 	 false
+$11. EU.ExternalUser 	 false 	 false 	 false
+$12. EU.User 	 false 	 false 	 false
+$13. ^next.First 	 false 	 false 	 false
+$14. ^next.State 	 false 	 false 	 false
+$15. next.First 	 false 	 false 	 false
+$16. next.State 	 false 	 false 	 false
+$17. ~next.First 	 false 	 false 	 false
+$18. ~next.State 	 false 	 false 	 false
+$19. *next.DU 	 false 	 undefined 	 undefined
+$20. *next.DU 	 false 	 undefined 	 undefined
+$21. *next.EU 	 false 	 undefined 	 undefined
+$22. DU 	 false 	 false 	 false
+$23. DU 	 false 	 false 	 false
+$24. DU.univ 	 false 	 false 	 false
+$25. DU.~EU 	 false 	 false 	 false
+$26. DU.~EU 	 false 	 false 	 false
+$27. DU.~owner 	 false 	 false 	 false
+$28. DU.~receiver 	 false 	 false 	 false
+$29. DU.~sender 	 false 	 false 	 false
+$30. EU 	 true 	 true 	 true
+$31. EU.univ 	 false 	 false 	 false
+$32. EU.~DU 	 false 	 false 	 false
+$33. EU.~DU 	 false 	 false 	 false
+$34. EU.~owner 	 false 	 false 	 false
+$35. EU.~owner 	 false 	 false 	 false
+$36. EU.~receiver 	 false 	 false 	 false
+$37. EU.~receiver 	 false 	 false 	 false
+$38. EU.~sender 	 false 	 false 	 false
+$39. EU.~sender 	 false 	 false 	 false
+$40. ^next.DU 	 false 	 false 	 false
+$41. ^next.DU 	 false 	 false 	 false
+$42. ^next.EU 	 false 	 false 	 false
+$43. next 	 false 	 undefined 	 undefined
+$44. next.DU 	 false 	 false 	 false
+$45. next.DU 	 false 	 false 	 false
+$46. next.EU 	 false 	 false 	 false
+$47. next.univ 	 false 	 undefined 	 undefined
+$48. ~next.DU 	 false 	 false 	 false
+$49. ~next.DU 	 false 	 false 	 false
+$50. ~next.EU 	 false 	 false 	 false
+$51. ~next 	 false 	 undefined 	 undefined
+$52. ~next.univ 	 false 	 undefined 	 undefined
+$53. ^next 	 false 	 undefined 	 undefined
+$54. ^next.univ 	 false 	 undefined 	 undefined
+$55.  	 false 	 undefined 	 undefined
+$56. *next 	 false 	 undefined 	 undefined
+$57. *next.univ 	 false 	 undefined 	 undefined
+
+Time taken: 140.538459
+Preprocessing time: 15
+Parsing time: 6
+Generation time: 2

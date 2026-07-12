@@ -1,0 +1,49 @@
+Model name: lib_prop_merged
+Filename: completion/lib_prop_merged-complete.als
+Offset: 4607
+Term: .
+Vscode Position: line=222 character=11
+----------------------------------
+223 |  (b in Lib.
+----------------------------------
+Expected Completion word: books
+Expected Completion line: books) and (m in L.members)// b and m are in the Library
+Suggestion exists: true
+Completion List:
+# Suggestion 	 Exact 	 Syntactic 	 Semantic
+$1. Renew.m 	 false 	 undefined 	 undefined
+$2. Renew.m 	 false 	 undefined 	 undefined
+$3. books.b 	 false 	 undefined 	 undefined
+$4. loan.m 	 false 	 undefined 	 undefined
+$5. loan.m 	 false 	 undefined 	 undefined
+$6. members.m 	 false 	 undefined 	 undefined
+$7. membersReservingOneBook.b 	 false 	 undefined 	 undefined
+$8. Renew.Member 	 false 	 undefined 	 undefined
+$9. Renew.Member 	 false 	 undefined 	 undefined
+$10. books.Book 	 false 	 undefined 	 undefined
+$11. loan.Member 	 false 	 undefined 	 undefined
+$12. loan.Member 	 false 	 undefined 	 undefined
+$13. members.Member 	 false 	 undefined 	 undefined
+$14. membersReservingOneBook.Book 	 false 	 undefined 	 undefined
+$15. Renew 	 false 	 undefined 	 undefined
+$16. Renew.univ 	 false 	 undefined 	 undefined
+$17. Renew.univ 	 false 	 undefined 	 undefined
+$18. Renew.~members 	 false 	 undefined 	 undefined
+$19. books 	 true 	 undefined 	 undefined
+$20. books 	 true 	 undefined 	 undefined
+$21. books.univ 	 false 	 undefined 	 undefined
+$22. loan 	 false 	 undefined 	 undefined
+$23. loan.univ 	 false 	 undefined 	 undefined
+$24. loan.univ 	 false 	 undefined 	 undefined
+$25. loan.~members 	 false 	 undefined 	 undefined
+$26. members 	 false 	 undefined 	 undefined
+$27. members.univ 	 false 	 undefined 	 undefined
+$28. membersReservingOneBook 	 false 	 undefined 	 undefined
+$29. membersReservingOneBook.univ 	 false 	 undefined 	 undefined
+$30. membersReservingOneBook.~books 	 false 	 undefined 	 undefined
+$31.  	 false 	 undefined 	 undefined
+
+Time taken: 64.381375
+Preprocessing time: 12
+Parsing time: 6
+Generation time: 0

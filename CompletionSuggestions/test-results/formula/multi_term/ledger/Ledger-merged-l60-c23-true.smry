@@ -1,0 +1,67 @@
+Model name: Ledger-merged
+Filename: completion/Ledger-merged-sig.als
+Offset: 1426
+Term:  -> 
+Vscode Position: line=59 character=23
+----------------------------------
+60 |   hashes: PublicKey -> 
+----------------------------------
+Expected Completion word: DLTAddress
+Expected Completion line: one DLTAddress   // function: pubKey ↦ address
+Suggestion exists: true
+Completion List:
+# Suggestion 	 Exact 	 Syntactic 	 Semantic
+$1. AddrDerivation 	 false 	 false 	 false
+$2. Archive 	 false 	 false 	 false
+$3. Asset 	 false 	 false 	 false
+$4. AssetModel 	 false 	 false 	 false
+$5. BlockId 	 false 	 false 	 false
+$6. BlockMeta 	 false 	 false 	 false
+$7. BlockRec 	 false 	 false 	 false
+$8. ContractPayload 	 false 	 false 	 false
+$9. DLTAccount 	 false 	 false 	 false
+$10. DLTAddress 	 true 	 true 	 true
+$11. DLTUser 	 false 	 false 	 false
+$12. Deploy 	 false 	 false 	 false
+$13. ExternalUser 	 false 	 false 	 false
+$14. First 	 false 	 false 	 false
+$15. FullNode 	 false 	 false 	 false
+$16. Fungible 	 false 	 false 	 false
+$17. Genesis 	 false 	 false 	 false
+$18. Hash 	 false 	 false 	 false
+$19. Invoke 	 false 	 false 	 false
+$20. KeyPair 	 false 	 false 	 false
+$21. LightNode 	 false 	 false 	 false
+$22. Metadata 	 false 	 false 	 false
+$23. Miner 	 false 	 false 	 false
+$24. NonFungible 	 false 	 false 	 false
+$25. Observer 	 false 	 false 	 false
+$26. Payload 	 false 	 false 	 false
+$27. PeerNode 	 false 	 false 	 false
+$28. PosValue 	 false 	 false 	 false
+$29. PrivateKey 	 false 	 false 	 false
+$30. PublicKey 	 false 	 false 	 false
+$31. Role 	 false 	 false 	 false
+$32. Service 	 false 	 false 	 false
+$33. State 	 false 	 false 	 false
+$34. StateVar 	 false 	 false 	 false
+$35. Time 	 false 	 false 	 false
+$36. Token 	 false 	 false 	 false
+$37. TokenType 	 false 	 false 	 false
+$38. Transaction 	 false 	 false 	 false
+$39. Transfer 	 false 	 false 	 false
+$40. TransferPayload 	 false 	 false 	 false
+$41. Type 	 false 	 false 	 false
+$42. User 	 false 	 false 	 false
+$43. Validator 	 false 	 false 	 false
+$44. Value 	 false 	 false 	 false
+$45. Zero 	 false 	 false 	 false
+$46. Int 	 false 	 false 	 false
+$47. String 	 false 	 false 	 false
+$48. none 	 false 	 false 	 false
+$49. univ 	 false 	 false 	 false
+
+Time taken: 27.254125
+Preprocessing time: 1
+Parsing time: 0
+Generation time: 0

@@ -1,0 +1,60 @@
+Model name: Ledger-merged
+Filename: completion/Ledger-merged-complete.als
+Offset: 10423
+Term: .
+Vscode Position: line=449 character=7
+----------------------------------
+450 |     (t.
+----------------------------------
+Expected Completion word: tt
+Expected Completion line: tt = Transfer implies t.payload in TransferPayload) &&
+Suggestion exists: true
+Completion List:
+# Suggestion 	 Exact 	 Syntactic 	 Semantic
+$1. hash.Hash 	 false 	 false 	 false
+$2. meta.Metadata 	 false 	 false 	 false
+$3. payload.ContractPayload 	 false 	 false 	 false
+$4. payload.Payload 	 false 	 false 	 false
+$5. payload.TransferPayload 	 false 	 false 	 false
+$6. tt.Deploy 	 false 	 false 	 false
+$7. tt.Invoke 	 false 	 false 	 false
+$8. tt.Transfer 	 false 	 false 	 false
+$9. tt.Type 	 false 	 false 	 false
+$10. ~data.BlockRec 	 false 	 false 	 false
+$11. ~data.Genesis 	 false 	 false 	 false
+$12. hash 	 false 	 false 	 false
+$13. hash.*prev 	 false 	 undefined 	 undefined
+$14. hash.^prev 	 false 	 false 	 false
+$15. hash.prev 	 false 	 false 	 false
+$16. hash.univ 	 false 	 false 	 false
+$17. hash.~prev 	 false 	 false 	 false
+$18. meta 	 false 	 undefined 	 undefined
+$19. meta.univ 	 false 	 undefined 	 undefined
+$20. payload 	 false 	 false 	 false
+$21. payload.amount 	 false 	 false 	 false
+$22. payload.assigns 	 false 	 false 	 false
+$23. payload.atTime 	 false 	 false 	 false
+$24. payload.receiver 	 false 	 false 	 false
+$25. payload.sender 	 false 	 false 	 false
+$26. payload.token 	 false 	 false 	 false
+$27. payload.univ 	 false 	 false 	 false
+$28. tt 	 true 	 true 	 true
+$29. tt.univ 	 false 	 false 	 false
+$30. ~data.id 	 false 	 false 	 false
+$31. ~data.meta 	 false 	 false 	 false
+$32. ~data.parents 	 false 	 false 	 false
+$33. ~data.prev 	 false 	 false 	 false
+$34. ~data 	 false 	 false 	 false
+$35. ~data.*parents 	 false 	 false 	 false
+$36. ~data.*prev 	 false 	 undefined 	 undefined
+$37. ~data.^parents 	 false 	 false 	 false
+$38. ~data.^prev 	 false 	 false 	 false
+$39. ~data.univ 	 false 	 false 	 false
+$40. ~data.~parents 	 false 	 false 	 false
+$41. ~data.~prev 	 false 	 false 	 false
+$42.  	 false 	 undefined 	 undefined
+
+Time taken: 40.972708
+Preprocessing time: 11
+Parsing time: 6
+Generation time: 1

@@ -1,0 +1,132 @@
+Model name: Ledger-merged
+Filename: completion/Ledger-merged-complete.als
+Offset: 12697
+Term: .
+Vscode Position: line=559 character=41
+----------------------------------
+560 |     (b = Genesis  => (no b.prev and no b.
+----------------------------------
+Expected Completion word: parents
+Expected Completion line: parents)) and
+Suggestion exists: true
+Completion List:
+# Suggestion 	 Exact 	 Syntactic 	 Semantic
+$1. *parents.b 	 false 	 undefined 	 undefined
+$2. *prev.b 	 false 	 undefined 	 undefined
+$3. ^parents.b 	 false 	 undefined 	 undefined
+$4. ^prev.b 	 false 	 undefined 	 undefined
+$5. parents.b 	 false 	 undefined 	 undefined
+$6. prev.b 	 false 	 undefined 	 undefined
+$7. ~parents.b 	 false 	 undefined 	 undefined
+$8. ~prev.b 	 false 	 undefined 	 undefined
+$9. *parents.BlockRec 	 false 	 false 	 false
+$10. *parents.Genesis 	 false 	 false 	 false
+$11. *prev.BlockRec 	 false 	 undefined 	 undefined
+$12. *prev.Genesis 	 false 	 undefined 	 undefined
+$13. ^parents.BlockRec 	 false 	 false 	 false
+$14. ^parents.Genesis 	 false 	 false 	 false
+$15. ^prev.BlockRec 	 false 	 false 	 false
+$16. ^prev.Genesis 	 false 	 false 	 false
+$17. data.Transaction 	 false 	 false 	 false
+$18. id.BlockId 	 false 	 false 	 false
+$19. meta.BlockMeta 	 false 	 false 	 false
+$20. parents.BlockRec 	 false 	 false 	 false
+$21. parents.Genesis 	 false 	 false 	 false
+$22. prev.BlockRec 	 false 	 false 	 false
+$23. prev.Genesis 	 false 	 false 	 false
+$24. ~parents.BlockRec 	 false 	 false 	 false
+$25. ~parents.Genesis 	 false 	 false 	 false
+$26. ~prev.BlockRec 	 false 	 false 	 false
+$27. ~prev.Genesis 	 false 	 false 	 false
+$28. *parents.data 	 false 	 false 	 false
+$29. *parents.id 	 false 	 false 	 false
+$30. *parents.meta 	 false 	 undefined 	 undefined
+$31. *parents.prev 	 false 	 undefined 	 undefined
+$32. *prev.data 	 false 	 undefined 	 undefined
+$33. *prev.id 	 false 	 undefined 	 undefined
+$34. *prev.meta 	 false 	 undefined 	 undefined
+$35. *prev.parents 	 false 	 undefined 	 undefined
+$36. ^parents.data 	 false 	 false 	 false
+$37. ^parents.id 	 false 	 false 	 false
+$38. ^parents.meta 	 false 	 false 	 false
+$39. ^parents.prev 	 false 	 false 	 false
+$40. ^prev.data 	 false 	 false 	 false
+$41. ^prev.id 	 false 	 false 	 false
+$42. ^prev.meta 	 false 	 false 	 false
+$43. ^prev.parents 	 false 	 false 	 false
+$44. data 	 false 	 false 	 false
+$45. data.hash 	 false 	 false 	 false
+$46. data.meta 	 false 	 false 	 false
+$47. data.payload 	 false 	 false 	 false
+$48. data.tt 	 false 	 false 	 false
+$49. data.univ 	 false 	 false 	 false
+$50. id 	 false 	 false 	 false
+$51. id.univ 	 false 	 false 	 false
+$52. id.~sync 	 false 	 false 	 false
+$53. meta 	 false 	 undefined 	 undefined
+$54. meta.merkleRoot 	 false 	 false 	 false
+$55. meta.nonce 	 false 	 false 	 false
+$56. meta.timestamp 	 false 	 false 	 false
+$57. meta.univ 	 false 	 undefined 	 undefined
+$58. parents 	 true 	 true 	 true
+$59. parents.*prev 	 false 	 undefined 	 undefined
+$60. parents.^prev 	 false 	 false 	 false
+$61. parents.data 	 false 	 false 	 false
+$62. parents.id 	 false 	 false 	 false
+$63. parents.meta 	 false 	 false 	 false
+$64. parents.prev 	 false 	 false 	 false
+$65. parents.univ 	 false 	 false 	 false
+$66. parents.~prev 	 false 	 false 	 false
+$67. prev 	 false 	 undefined 	 undefined
+$68. prev.*parents 	 false 	 undefined 	 undefined
+$69. prev.^parents 	 false 	 false 	 false
+$70. prev.data 	 false 	 false 	 false
+$71. prev.id 	 false 	 false 	 false
+$72. prev.meta 	 false 	 false 	 false
+$73. prev.parents 	 false 	 false 	 false
+$74. prev.univ 	 false 	 undefined 	 undefined
+$75. prev.~parents 	 false 	 false 	 false
+$76. ~parents.data 	 false 	 false 	 false
+$77. ~parents.id 	 false 	 false 	 false
+$78. ~parents.meta 	 false 	 false 	 false
+$79. ~parents.prev 	 false 	 false 	 false
+$80. ~prev.data 	 false 	 false 	 false
+$81. ~prev.id 	 false 	 false 	 false
+$82. ~prev.meta 	 false 	 false 	 false
+$83. ~prev.parents 	 false 	 false 	 false
+$84. *parents.~prev 	 false 	 undefined 	 undefined
+$85. *prev.~parents 	 false 	 undefined 	 undefined
+$86. ^parents.~prev 	 false 	 false 	 false
+$87. ^prev.~parents 	 false 	 false 	 false
+$88. ~parents 	 false 	 false 	 false
+$89. ~parents.*prev 	 false 	 undefined 	 undefined
+$90. ~parents.^prev 	 false 	 false 	 false
+$91. ~parents.univ 	 false 	 false 	 false
+$92. ~parents.~prev 	 false 	 false 	 false
+$93. ~prev 	 false 	 undefined 	 undefined
+$94. ~prev.*parents 	 false 	 undefined 	 undefined
+$95. ~prev.^parents 	 false 	 false 	 false
+$96. ~prev.univ 	 false 	 undefined 	 undefined
+$97. ~prev.~parents 	 false 	 false 	 false
+$98. *parents.^prev 	 false 	 undefined 	 undefined
+$99. *prev.^parents 	 false 	 undefined 	 undefined
+$100. ^parents 	 false 	 false 	 false
+$101. ^parents.*prev 	 false 	 undefined 	 undefined
+$102. ^parents.^prev 	 false 	 false 	 false
+$103. ^parents.univ 	 false 	 false 	 false
+$104. ^prev 	 false 	 undefined 	 undefined
+$105. ^prev.*parents 	 false 	 undefined 	 undefined
+$106. ^prev.^parents 	 false 	 false 	 false
+$107. ^prev.univ 	 false 	 undefined 	 undefined
+$108.  	 false 	 undefined 	 undefined
+$109. *parents 	 false 	 false 	 false
+$110. *parents.*prev 	 false 	 undefined 	 undefined
+$111. *parents.univ 	 false 	 false 	 false
+$112. *prev 	 false 	 undefined 	 undefined
+$113. *prev.*parents 	 false 	 undefined 	 undefined
+$114. *prev.univ 	 false 	 undefined 	 undefined
+
+Time taken: 53.807458
+Preprocessing time: 11
+Parsing time: 5
+Generation time: 3

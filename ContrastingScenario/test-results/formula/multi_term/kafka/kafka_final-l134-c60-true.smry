@@ -1,0 +1,36 @@
+Model name: kafka_final
+Filename: completion/kafka_final-sig.als
+Offset: 4601
+Term: .
+Vscode Position: line=133 character=60
+----------------------------------
+134 |     all disj c1, c2 : cg.consumers | disj[c1.assignedTo, c2.
+----------------------------------
+Expected Completion word: assignedTo
+Expected Completion line: assignedTo]
+Suggestion exists: true
+Completion List:
+# Suggestion 	 Exact 	 Syntactic 	 Semantic
+$1. ~consumers.cg 	 false 	 undefined 	 undefined
+$2. assignedTo.TopicPartition 	 false 	 undefined 	 undefined
+$3. ~consumers.ConsumerGroup 	 false 	 undefined 	 undefined
+$4. assignedTo 	 true 	 undefined 	 undefined
+$5. assignedTo.followers 	 false 	 undefined 	 undefined
+$6. assignedTo.followers' 	 false 	 undefined 	 undefined
+$7. assignedTo.leader 	 false 	 undefined 	 undefined
+$8. assignedTo.leader' 	 false 	 undefined 	 undefined
+$9. assignedTo.univ 	 false 	 undefined 	 undefined
+$10. assignedTo.~partitions 	 false 	 undefined 	 undefined
+$11. ~consumers.assignments 	 false 	 undefined 	 undefined
+$12. ~consumers.offsets 	 false 	 undefined 	 undefined
+$13. ~consumers.offsets' 	 false 	 undefined 	 undefined
+$14. ~consumers.subscribedTo 	 false 	 undefined 	 undefined
+$15. ~consumers 	 false 	 undefined 	 undefined
+$16. ~consumers.univ 	 false 	 undefined 	 undefined
+$17. ~consumers.~consumer_groups 	 false 	 undefined 	 undefined
+$18.  	 false 	 undefined 	 undefined
+
+Time taken: 60.76875
+Preprocessing time: 2
+Parsing time: 1
+Generation time: 0

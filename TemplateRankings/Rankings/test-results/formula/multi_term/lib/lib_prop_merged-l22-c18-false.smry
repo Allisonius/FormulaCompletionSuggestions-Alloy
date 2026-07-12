@@ -1,0 +1,27 @@
+Model name: lib_prop_merged
+Filename: completion/lib_prop_merged-sig.als
+Offset: 399
+Term:  -> 
+Vscode Position: line=21 character=18
+----------------------------------
+22 |  Renew: (books -> 
+----------------------------------
+Expected Completion word: members
+Expected Completion line: members)
+Suggestion exists: false
+Completion List:
+# Suggestion 	 Exact 	 Syntactic 	 Semantic
+$1. Book 	 false 	 false 	 false
+$2. Constants 	 false 	 false 	 false
+$3. Lib 	 false 	 false 	 false
+$4. LibOrd/Ord 	 false 	 undefined 	 undefined
+$5. Member 	 false 	 false 	 false
+$6. Int 	 false 	 false 	 false
+$7. String 	 false 	 false 	 false
+$8. none 	 false 	 false 	 false
+$9. univ 	 false 	 false 	 false
+
+Time taken: 99.133958
+Preprocessing time: 2
+Parsing time: 0
+Generation time: 0

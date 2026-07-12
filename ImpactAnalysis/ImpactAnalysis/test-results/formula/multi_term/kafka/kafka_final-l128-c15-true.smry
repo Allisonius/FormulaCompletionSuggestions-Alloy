@@ -1,0 +1,51 @@
+Model name: kafka_final
+Filename: completion/kafka_final-sig.als
+Offset: 4140
+Term: .
+Vscode Position: line=127 character=15
+----------------------------------
+128 |     all p : cg.
+----------------------------------
+Expected Completion word: subscribedTo.partitions
+Expected Completion line: subscribedTo.partitions | one cg.offsets[p] and cg.offsets[p] =< p.leader.events.lastIdx
+Suggestion exists: true
+Completion List:
+# Suggestion 	 Exact 	 Syntactic 	 Semantic
+$1. assignments.TopicPartition 	 false 	 false 	 false
+$2. consumers.Consumer 	 false 	 false 	 false
+$3. subscribedTo.Topic 	 false 	 false 	 false
+$4. ~consumer_groups.Kafka 	 false 	 false 	 false
+$5. assignments 	 false 	 false 	 false
+$6. assignments.followers 	 false 	 false 	 false
+$7. assignments.followers' 	 false 	 false 	 false
+$8. assignments.leader 	 false 	 false 	 false
+$9. assignments.leader' 	 false 	 false 	 false
+$10. assignments.univ 	 false 	 false 	 false
+$11. assignments.~assignedTo 	 false 	 false 	 false
+$12. assignments.~partitions 	 false 	 false 	 false
+$13. consumers 	 false 	 false 	 false
+$14. consumers.assignedTo 	 false 	 false 	 false
+$15. consumers.univ 	 false 	 false 	 false
+$16. offsets 	 false 	 false 	 false
+$17. offsets' 	 false 	 false 	 false
+$18. offsets'.Int 	 false 	 false 	 false
+$19. offsets'.univ 	 false 	 false 	 false
+$20. offsets'.~replicationFactor 	 false 	 false 	 false
+$21. offsets.Int 	 false 	 false 	 false
+$22. offsets.univ 	 false 	 false 	 false
+$23. offsets.~replicationFactor 	 false 	 false 	 false
+$24. subscribedTo 	 true 	 false 	 false
+$25. subscribedTo.partitions 	 true 	 true 	 true
+$26. subscribedTo.univ 	 false 	 false 	 false
+$27. subscribedTo.~topics 	 false 	 false 	 false
+$28. ~consumer_groups.producers 	 false 	 false 	 false
+$29. ~consumer_groups.replicationFactor 	 false 	 false 	 false
+$30. ~consumer_groups.zookeeper 	 false 	 false 	 false
+$31. ~consumer_groups 	 false 	 false 	 false
+$32. ~consumer_groups.univ 	 false 	 false 	 false
+$33.  	 false 	 undefined 	 undefined
+
+Time taken: 63.7185
+Preprocessing time: 1
+Parsing time: 0
+Generation time: 2

@@ -1,0 +1,42 @@
+Model name: kafka_final
+Filename: completion/kafka_final-sig.als
+Offset: 2020
+Term: .
+Vscode Position: line=61 character=25
+----------------------------------
+62 |   TopicPartition = Topic.
+----------------------------------
+Expected Completion word: partitions
+Expected Completion line: partitions
+Suggestion exists: true
+Completion List:
+# Suggestion 	 Exact 	 Syntactic 	 Semantic
+$1. partitions.TopicPartition 	 false 	 false 	 false
+$2. ~subscribedTo.ConsumerGroup 	 false 	 false 	 false
+$3. ~topics.ZooKeeper 	 false 	 false 	 false
+$4. partitions 	 true 	 true 	 true
+$5. partitions 	 true 	 true 	 true
+$6. partitions.followers 	 false 	 false 	 false
+$7. partitions.followers' 	 false 	 false 	 false
+$8. partitions.leader 	 false 	 false 	 false
+$9. partitions.leader' 	 false 	 false 	 false
+$10. partitions.univ 	 false 	 false 	 false
+$11. partitions.~assignedTo 	 false 	 false 	 false
+$12. ~subscribedTo.assignments 	 false 	 false 	 false
+$13. ~subscribedTo.consumers 	 false 	 false 	 false
+$14. ~subscribedTo.offsets 	 false 	 false 	 false
+$15. ~subscribedTo.offsets' 	 false 	 false 	 false
+$16. ~topics.brokers 	 false 	 false 	 false
+$17. ~topics.brokers' 	 false 	 false 	 false
+$18. ~subscribedTo 	 false 	 false 	 false
+$19. ~subscribedTo.univ 	 false 	 false 	 false
+$20. ~subscribedTo.~consumer_groups 	 false 	 false 	 false
+$21. ~topics 	 false 	 false 	 false
+$22. ~topics.univ 	 false 	 false 	 false
+$23. ~topics.~zookeeper 	 false 	 false 	 false
+$24.  	 false 	 undefined 	 undefined
+
+Time taken: 129.053209
+Preprocessing time: 3
+Parsing time: 1
+Generation time: 4

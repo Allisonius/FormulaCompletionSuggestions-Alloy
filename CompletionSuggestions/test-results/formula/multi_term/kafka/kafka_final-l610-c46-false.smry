@@ -1,0 +1,19 @@
+Model name: kafka_final
+Filename: completion/kafka_final-complete.als
+Offset: 19070
+Term: .
+Vscode Position: line=609 character=46
+----------------------------------
+610 |     all rp : recover_partitions | let lr = rp.
+----------------------------------
+Expected Completion word: undefined
+Expected Completion line: leader | one new_f : PartitionReplica {
+Suggestion exists: false
+Completion List:
+# Suggestion 	 Exact 	 Syntactic 	 Semantic
+
+
+Time taken: 73.179875
+Preprocessing time: N/A
+Parsing time: N/A
+Generation time: N/A

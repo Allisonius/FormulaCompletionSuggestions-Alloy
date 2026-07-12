@@ -1,0 +1,27 @@
+Model name: lib_prop_merged
+Filename: completion/lib_prop_merged-complete.als
+Offset: 4846
+Term: .
+Vscode Position: line=225 character=7
+----------------------------------
+226 |  no (b.
+----------------------------------
+Expected Completion word: L.loan
+Expected Completion line: (L.loan)) // the book is not lent
+Suggestion exists: true
+Completion List:
+# Suggestion 	 Exact 	 Syntactic 	 Semantic
+$1. ~books.L 	 false 	 undefined 	 undefined
+$2. ~books.Lib 	 false 	 undefined 	 undefined
+$3. ~books.Renew 	 false 	 undefined 	 undefined
+$4. ~books.loan 	 false 	 undefined 	 undefined
+$5. ~books.members 	 false 	 undefined 	 undefined
+$6. ~books.membersReservingOneBook 	 false 	 undefined 	 undefined
+$7. ~books 	 false 	 undefined 	 undefined
+$8. ~books.univ 	 false 	 undefined 	 undefined
+$9.  	 true 	 undefined 	 undefined
+
+Time taken: 54.30675
+Preprocessing time: 12
+Parsing time: 6
+Generation time: 1

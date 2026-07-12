@@ -72,7 +72,7 @@ public class ContrastingScenario_WithTarget {
 		boolean benchmark = true;
 
 		//large models
-		/*String [] models = {"frankervrep", "git", "icd", "java_meta_model", "modelo-alloy"};
+		/*String [] models = {"frankervrep", "git", "icd", "java_meta_model", "modelo-alloy","hamsters","kafka","ledger","lib"};
 		boolean benchmark = false;*/
 		
 		//Where to store the results and result string to print at the end
@@ -1156,9 +1156,63 @@ public class ContrastingScenario_WithTarget {
 				}
 
 			}
+			
 			else {
 				suggestions.add(suggestion);
 			}
+		}
+		else if(model.equals("ledger")  ) {
+			String newLine = "";
+			if(suggestion.contains("next")) {
+				try {
+					String sug2 = suggestion.replaceAll("next", "(this//State <: next)");
+					newLine = param_start + incompleteLine + sug2 + expectedCompletionLine.substring(expectedTerm.length()) + param_end;
+					CompUtil.parseOneExpression_fromString(world, newLine);
+					suggestions.add(sug2);
+				}
+				catch(Exception e) {
+				}
+			}
+			else if(suggestion.contains("prev")) {
+				try {
+					String sug2 = suggestion.replaceAll("prev", "(this/Hash <: prev)");
+					newLine = param_start + incompleteLine + sug2 + expectedCompletionLine.substring(expectedTerm.length()) + param_end;
+					CompUtil.parseOneExpression_fromString(world, newLine);
+					suggestions.add(sug2);
+				}
+				catch(Exception e) {
+				}
+				try {
+					String sug2 = suggestion.replaceAll("prev", "(this/BlockRec <: prev)");
+					newLine = param_start + incompleteLine + sug2 + expectedCompletionLine.substring(expectedTerm.length()) + param_end;
+					CompUtil.parseOneExpression_fromString(world, sug2);
+					suggestions.add(sug2);
+				}
+				catch(Exception e) {
+				}
+			}
+			else if(suggestion.contains("meta")) {
+				try {
+					String sug2 = suggestion.replaceAll("meta", "(this/Transaction <: meta)");
+					newLine = param_start + incompleteLine + sug2 + expectedCompletionLine.substring(expectedTerm.length()) + param_end;
+					CompUtil.parseOneExpression_fromString(world, newLine);
+					suggestions.add(sug2);
+				}
+				catch(Exception e) {
+				}
+				try {
+					String sug2 = suggestion.replaceAll("meta", "(this/BlockRec <: meta)");
+					newLine = param_start + incompleteLine + sug2 + expectedCompletionLine.substring(expectedTerm.length()) + param_end;
+					CompUtil.parseOneExpression_fromString(world, sug2);
+					suggestions.add(sug2);
+				}
+				catch(Exception e) {
+				}
+			}
+			else {
+				suggestions.add(suggestion);
+			}
+			
 		}
 		else {
 			suggestions.add(suggestion);

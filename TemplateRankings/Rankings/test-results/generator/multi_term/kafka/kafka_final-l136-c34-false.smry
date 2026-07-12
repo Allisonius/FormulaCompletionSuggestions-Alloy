@@ -1,0 +1,19 @@
+Model name: kafka_final
+Filename: completion/kafka_final-sig.als
+Offset: 4699
+Term: .
+Vscode Position: line=135 character=34
+----------------------------------
+136 |     all c : cg.consumers | some c.
+----------------------------------
+Expected Completion word: undefined
+Expected Completion line: assignedTo
+Suggestion exists: false
+Completion List:
+# Suggestion 	 Exact 	 Syntactic 	 Semantic
+
+
+Time taken: 52.529917
+Preprocessing time: N/A
+Parsing time: N/A
+Generation time: N/A

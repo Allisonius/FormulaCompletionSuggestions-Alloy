@@ -1,0 +1,41 @@
+Model name: kafka_final
+Filename: completion/kafka_final-complete.als
+Offset: 22979
+Term: .
+Vscode Position: line=742 character=35
+----------------------------------
+743 |   Init[2] and some Kafka.zookeeper.
+----------------------------------
+Expected Completion word: topics.partitions.leader.events
+Expected Completion line: topics.partitions.leader.events
+Suggestion exists: true
+Completion List:
+# Suggestion 	 Exact 	 Syntactic 	 Semantic
+$1. brokers'.Broker 	 false 	 false 	 false
+$2. brokers.Broker 	 false 	 false 	 false
+$3. topics.Topic 	 false 	 false 	 false
+$4. ~zookeeper.Kafka 	 false 	 false 	 false
+$5. brokers 	 false 	 false 	 false
+$6. brokers' 	 false 	 false 	 false
+$7. brokers'.replicasInBroker 	 false 	 false 	 false
+$8. brokers'.replicasInBroker' 	 false 	 false 	 false
+$9. brokers'.univ 	 false 	 false 	 false
+$10. brokers'.~brokers 	 false 	 false 	 false
+$11. brokers.replicasInBroker 	 false 	 false 	 false
+$12. brokers.replicasInBroker' 	 false 	 false 	 false
+$13. brokers.univ 	 false 	 false 	 false
+$14. topics 	 true 	 false 	 false
+$15. topics.partitions 	 false 	 false 	 false
+$16. topics.univ 	 false 	 false 	 false
+$17. topics.~subscribedTo 	 false 	 false 	 false
+$18. ~zookeeper.consumer_groups 	 false 	 false 	 false
+$19. ~zookeeper.producers 	 false 	 false 	 false
+$20. ~zookeeper.replicationFactor 	 false 	 false 	 false
+$21. ~zookeeper 	 false 	 false 	 false
+$22. ~zookeeper.univ 	 false 	 false 	 false
+$23.  	 false 	 undefined 	 undefined
+
+Time taken: 85.191583
+Preprocessing time: 15
+Parsing time: 8
+Generation time: 1

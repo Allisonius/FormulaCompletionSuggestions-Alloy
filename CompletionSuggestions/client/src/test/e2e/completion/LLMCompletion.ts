@@ -3,12 +3,13 @@ import { exec } from "child_process";
 
 /**
  * AlloyLLMCompletionProvider generates completion suggestions for incomplete Alloy formulas
- * using the Copilot CLI. It receives declarations, extracts the incomplete formula block
- * from the document, builds a context-aware prompt, and returns a list of valid completion
- * expressions.
+ * using the VS Code Language Model API (GitHub Copilot). It receives declarations, extracts
+ * the incomplete formula block from the document, builds a context-aware prompt, and returns
+ * a list of valid completion expressions.
  */
 export class AlloyLLMCompletionProvider {
   private declarations: string;
+  private cache = new Map<string, vscode.CompletionItem[]>();
 
   constructor(declarations: string) {
     this.declarations = declarations;
@@ -17,11 +18,7 @@ export class AlloyLLMCompletionProvider {
   /**
    * Extracts the block (pred, fun, fact, assert) containing the given position.
    * This includes the block header and all content up to the cursor position,
-   * preserving block-level declarations like quantifier variables.
-   *
-   * @param documentText - The full text of the Alloy document
-   * @param position - The cursor position (0-indexed line and character)
-   * @returns The incomplete formula block up to the cursor position
+   * preserving block-lel declarations like quantifier variables.
    */
   public extractIncompleteFormula(
     documentText: string,
@@ -30,17 +27,13 @@ export class AlloyLLMCompletionProvider {
     const lines = documentText.split("\n");
     const targetLine = position.line;
 
-    // Find the start of the block containing the position
     let blockStartLine = -1;
     let braceDepth = 0;
 
-    // Scan backwards to find block start
     for (let i = targetLine; i >= 0; i--) {
       const line = lines[i];
 
-      // Count braces in reverse to track depth
       for (let j = line.length - 1; j >= 0; j--) {
-        // If we're on the target line, only count up to the cursor position
         if (i === targetLine && j >= position.character) {
           continue;
         }
@@ -51,21 +44,16 @@ export class AlloyLLMCompletionProvider {
         } else if (char === "{") {
           braceDepth--;
           if (braceDepth < 0) {
-            // Found the opening brace of our block
-            // Now find the block header (pred, fun, fact, assert)
             blockStartLine = i;
 
-            // Check if the block keyword is on a previous line
             const trimmedLine = line.trim();
             if (!trimmedLine.match(/^(pred|fun|fact|assert)\s+/)) {
-              // Look for the block keyword on previous lines
               for (let k = i - 1; k >= 0; k--) {
                 const prevLine = lines[k].trim();
                 if (prevLine.match(/^(pred|fun|fact|assert)\s+/)) {
                   blockStartLine = k;
                   break;
                 }
-                // Stop if we hit another block or declaration
                 if (
                   prevLine.match(
                     /^(sig|open|pred|fun|fact|assert|run|check)\s+/,
@@ -85,16 +73,13 @@ export class AlloyLLMCompletionProvider {
       }
     }
 
-    // If no block found, just return the current line up to cursor
     if (blockStartLine === -1) {
       return lines[targetLine].substring(0, position.character);
     }
 
-    // Extract from block start to cursor position
     const blockLines: string[] = [];
     for (let i = blockStartLine; i <= targetLine; i++) {
       if (i === targetLine) {
-        // Only include up to the cursor position on the target line
         blockLines.push(lines[i].substring(0, position.character));
       } else {
         blockLines.push(lines[i]);
@@ -104,73 +89,131 @@ export class AlloyLLMCompletionProvider {
     return blockLines.join("\n");
   }
 
+  private detectOperator(formula: string): string {
+    const trimmed = formula.trimEnd();
+    if (trimmed.endsWith("->")) return "->";
+    if (trimmed.endsWith(".")) return ".";
+    if (/\bin\s*$/.test(trimmed)) return "in";
+    if (/\bextends\s*$/.test(trimmed)) return "extends";
+    if (trimmed.endsWith("&")) return "&";
+    if (trimmed.endsWith("+")) return "+";
+    if (trimmed.endsWith("-")) return "-";
+    return "general";
+  }
+
+  private operatorGuidance(operator: string): string {
+    switch (operator) {
+      case ".":
+        return '"." (join) — suggest a field name or relation reachable from the left expression';
+      case "->":
+        return '"->" (product) — suggest a type or set for the right side of the product';
+      case "in":
+        return '"in" (membership) — suggest a signature or set the left expression can belong to';
+      case "extends":
+        return '"extends" — suggest a signature name to extend';
+      case "&":
+        return '"&" (intersection) — suggest a set of the same type as the left side';
+      case "+":
+        return '"+" (union) — suggest a set of the same type as the left side';
+      case "-":
+        return '"-" (difference) — suggest a set of the same type as the left side';
+      default:
+        return "general — suggest any valid Alloy expression or atom in scope";
+    }
+  }
+
   /**
-   * Builds a prompt for the LLM to generate Alloy formula completions.
-   *
-   * @param incompleteFormula - The incomplete formula that needs completion
-   * @returns The constructed prompt string
+   * Parses raw Alloy declarations into a compact structured summary so the LLM
+   * does not need to parse Alloy syntax itself.
+   */
+  private parseDeclarations(declarations: string): string {
+    const lines: string[] = [];
+    const normalized = declarations.replace(/\r?\n/g, " ").replace(/\s+/g, " ");
+
+    const sigPattern = /sig\s+(\w+)(?:\s+(in|extends)\s+(\w+))?\s*\{([^}]*)\}/g;
+    let match: RegExpExecArray | null;
+    while ((match = sigPattern.exec(normalized)) !== null) {
+      const name = match[1];
+      const rel = match[2];
+      const parent = match[3];
+      const body = match[4].trim();
+
+      let line = `• ${name}`;
+      if (parent) {
+        line += rel === "in" ? ` ⊆ ${parent}` : ` extends ${parent}`;
+      }
+      if (body) {
+        const fields = body
+          .split(",")
+          .map((f) => f.trim())
+          .filter(Boolean)
+          .join(", ");
+        line += ` { ${fields} }`;
+      }
+      lines.push(line);
+    }
+
+    return lines.length > 0 ? lines.join("\n") : declarations.trim();
+  }
+
+  /**
+   * Extracts quantifier variable bindings in scope from the formula text.
+   * e.g. "all p: Person | some c: Course |" → ["p: Person", "c: Course"]
+   */
+  private extractQuantifierVars(formula: string): string[] {
+    const pattern =
+      /\b(?:all|some|lone|one|no)\s+([\w,\s]+)\s*:\s*([\w\[\]]+)/g;
+    const vars: string[] = [];
+    let m: RegExpExecArray | null;
+    while ((m = pattern.exec(formula)) !== null) {
+      const names = m[1]
+        .split(",")
+        .map((n) => n.trim())
+        .filter(Boolean);
+      const type = m[2];
+      names.forEach((n) => vars.push(`${n}: ${type}`));
+    }
+    return vars;
+  }
+
+  /**
+   * Builds a concise, operator-aware prompt for the LLM.
    */
   public buildPrompt(incompleteFormula: string): string {
-    return `You are an expert in Alloy, a declarative specification language for expressing structural constraints and behavior.
+    const operator = this.detectOperator(incompleteFormula);
+    const structuredDecls = this.parseDeclarations(this.declarations);
+    const quantVars = this.extractQuantifierVars(incompleteFormula);
+    const scopeSection =
+      quantVars.length > 0
+        ? quantVars.join(", ")
+        : "none (use signature names directly)";
 
-Given the following Alloy model declaration:
-\`\`\`alloy
-${this.declarations}
-\`\`\`
+    return `You are an Alloy expression completion engine. Return ONLY a JSON array of 5–10 completions.
 
-And the following incomplete Alloy formula:
+Model signatures and fields:
+${structuredDecls}
+
+Quantifier variables in scope: ${scopeSection}
+
+Incomplete formula:
 \`\`\`alloy
 ${incompleteFormula}
 \`\`\`
 
-Generate a list of valid completions for this formula. Consider:
-1. Variables in scope from quantifiers (e.g., "all p: Person" makes "p" available)
-2. Fields/relations accessible from the current expression context
-3. Alloy operators: "." (join), "~" (transpose), "^" (transitive closure), "*" (reflexive-transitive closure)
-4. Type compatibility based on the declared signatures and relations
-5. The special constant "univ" (universal set)
+Operator context: ${this.operatorGuidance(operator)}
 
-Generate completions that would result in syntactically correct and type-valid Alloy expressions. Generate only expressions that can directly follow the incomplete part.
+Alloy operators: "." (join), "~" (transpose), "^" (transitive closure), "*" (reflexive-transitive closure), "+" (union), "&" (intersection), "->" (product).
+Special constants: none, univ, iden.
 
-Avoid:
-1. Entire formula, like "all p: Person | ...".
-2. Sub-formulas, like "a = b" or "some r".
-
-ACCEPTABLE COMPLETION EXAMPLES:
-- If "p" is a variable of type "Person" and "friends" is a field of type "Person -> Person", valid completions include:
-  - "p.friends"
-  - "p.friends.~friends"
-  - "p.friends + univ"
-  - "p.friends & univ"
-
-- If "r" is a relation of type "A -> B" and "s" is a relation of type "B -> C", valid completions include:
-  - "r.s"
-  - "r.s^"
-  - "r.s*"
-  - "~r"
-
-UNACCEPTABLE COMPLETION EXAMPLES:
-- "all p: Person | p.friends" (entire formula)
-- "some r" (sub-formula)
-- "a + b" (sub-formula)
-- "p.friends.age" (if "age" is not a valid field of "Person")
-
-Return ONLY a JSON array of completion strings, ordered by relevance. Each completion should be a valid expression that can follow the incomplete part.
-
-Example format: ["field1", "field1.subfield", "field2.~otherField", "variable"]
-
-Do not include any explanation, just the JSON array.`;
+Return format — JSON array only, no explanation:
+["completion1", "completion2", ...]`;
   }
 
   /**
    * Parses the LLM response text and converts it to CompletionItem array.
-   *
-   * @param responseText - The raw response text from the LLM
-   * @returns An array of vscode.CompletionItem objects
    */
   public parseResponse(responseText: string): vscode.CompletionItem[] {
     try {
-      // Try to extract JSON array from the response
       const jsonMatch = responseText.match(/\[[\s\S]*\]/);
       if (!jsonMatch) {
         console.warn("LLMCompletion: No JSON array found in response");
@@ -200,11 +243,6 @@ Do not include any explanation, just the JSON array.`;
 
   /**
    * Main entry point for generating completions using the LLM.
-   *
-   * @param documentText - The full text of the Alloy document
-   * @param position - The cursor position where completion is requested
-   * @param token - Cancellation token for the operation
-   * @returns A promise that resolves to an array of CompletionItem objects
    */
   public async getCompletions(
     documentText: string,
@@ -212,14 +250,20 @@ Do not include any explanation, just the JSON array.`;
     token: vscode.CancellationToken,
   ): Promise<vscode.CompletionItem[]> {
     try {
-      // Extract the incomplete formula block from the document
       const incompleteFormula = this.extractIncompleteFormula(
         documentText,
         position,
       );
-      const prompt = this.buildPrompt(incompleteFormula);
 
-      const responseText = await this.requestCompletionWithCopilotCli(
+      const cacheKey = `${this.declarations}|||${incompleteFormula}`;
+      const cached = this.cache.get(cacheKey);
+      if (cached) {
+        console.log("LLMCompletion: Cache hit");
+        return cached;
+      }
+
+      const prompt = this.buildPrompt(incompleteFormula);
+      const responseText = await this.requestCompletionWithVSCodeLM(
         prompt,
         token,
       );
@@ -228,10 +272,11 @@ Do not include any explanation, just the JSON array.`;
         return [];
       }
 
-      return this.parseResponse(responseText);
+      const items = this.parseResponse(responseText);
+      this.cache.set(cacheKey, items);
+      return items;
     } catch (error) {
       if (error instanceof vscode.CancellationError) {
-        // Request was cancelled, return empty
         return [];
       }
       console.warn("LLMCompletion: Error generating completions:", error);
@@ -239,14 +284,46 @@ Do not include any explanation, just the JSON array.`;
     }
   }
 
+  private async requestCompletionWithVSCodeLM(
+    prompt: string,
+    token: vscode.CancellationToken,
+  ): Promise<string> {
+    const models = await vscode.lm.selectChatModels({
+      vendor: "copilot",
+      family: "gpt-4.1-mini",
+    });
+
+    if (!models.length) {
+      // Fall back to Copilot CLI when the LM API is unavailable (e.g. not signed in)
+      console.warn(
+        "LLMCompletion: No Copilot LM model available, falling back to CLI",
+      );
+      return this.requestCompletionWithCopilotCli(prompt, token);
+    }
+
+    const response = await models[0].sendRequest(
+      [vscode.LanguageModelChatMessage.User(prompt)],
+      {},
+      token,
+    );
+
+    let text = "";
+    for await (const chunk of response.text) {
+      text += chunk;
+    }
+    return text;
+  }
+
   private requestCompletionWithCopilotCli(
     prompt: string,
     token: vscode.CancellationToken,
   ): Promise<string> {
     return new Promise((resolve) => {
-      const promptArg = this.toCopilotCliPromptArg(prompt);
-      const model = "gpt-4.1"; // You can make this configurable if needed
-      const command = `copilot --model ${model} -s -p ${promptArg}`;
+      const escaped = prompt
+        .replace(/\\/g, "\\\\")
+        .replace(/'/g, "\\'")
+        .replace(/\r?\n/g, "\\n");
+      const command = `copilot --model gpt-4.1 -s -p $'${escaped}'`;
 
       const child = exec(
         command,
@@ -255,31 +332,15 @@ Do not include any explanation, just the JSON array.`;
           if (token.isCancellationRequested) {
             return resolve("");
           }
-
           if (error) {
             console.warn("LLMCompletion: Copilot CLI failed:", error, stderr);
             return resolve("");
           }
-
-          if (stderr && stderr.trim().length > 0) {
-            console.warn("LLMCompletion: Copilot CLI stderr:", stderr);
-          }
-
           resolve(stdout);
         },
       );
 
-      token.onCancellationRequested(() => {
-        child.kill();
-      });
+      token.onCancellationRequested(() => child.kill());
     });
-  }
-
-  private toCopilotCliPromptArg(prompt: string): string {
-    const escaped = prompt
-      .replace(/\\/g, "\\\\")
-      .replace(/'/g, "\\'")
-      .replace(/\r?\n/g, "\\n");
-    return `$'${escaped}'`;
   }
 }

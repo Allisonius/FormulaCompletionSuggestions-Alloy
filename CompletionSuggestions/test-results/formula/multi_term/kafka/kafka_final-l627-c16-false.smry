@@ -1,0 +1,19 @@
+Model name: kafka_final
+Filename: completion/kafka_final-complete.als
+Offset: 19637
+Term: .
+Vscode Position: line=626 character=16
+----------------------------------
+627 |     dom[events'.
+----------------------------------
+Expected Completion word: undefined
+Expected Completion line: KafkaEvent] = dom[events.KafkaEvent] + recover_partitions.followers'
+Suggestion exists: false
+Completion List:
+# Suggestion 	 Exact 	 Syntactic 	 Semantic
+
+
+Time taken: 90.8055
+Preprocessing time: N/A
+Parsing time: N/A
+Generation time: N/A

@@ -1,0 +1,19 @@
+Model name: kafka_final
+Filename: completion/kafka_final-complete.als
+Offset: 8681
+Term: .
+Vscode Position: line=275 character=14
+----------------------------------
+276 |     let l = p.
+----------------------------------
+Expected Completion word: undefined
+Expected Completion line: leader | all f : p.followers | f.events = l.events
+Suggestion exists: false
+Completion List:
+# Suggestion 	 Exact 	 Syntactic 	 Semantic
+
+
+Time taken: 113.309
+Preprocessing time: N/A
+Parsing time: N/A
+Generation time: N/A

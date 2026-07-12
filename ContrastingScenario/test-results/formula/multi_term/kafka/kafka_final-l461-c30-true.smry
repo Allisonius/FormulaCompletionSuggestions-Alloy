@@ -1,0 +1,42 @@
+Model name: kafka_final
+Filename: completion/kafka_final-complete.als
+Offset: 14546
+Term: .
+Vscode Position: line=460 character=30
+----------------------------------
+461 |   e not in k.zookeeper.topics.
+----------------------------------
+Expected Completion word: partitions.leader.events.elems
+Expected Completion line: partitions.leader.events.elems
+Suggestion exists: true
+Completion List:
+# Suggestion 	 Exact 	 Syntactic 	 Semantic
+$1. partitions.p 	 false 	 undefined 	 undefined
+$2. partitions.TopicPartition 	 false 	 undefined 	 undefined
+$3. ~subscribedTo.ConsumerGroup 	 false 	 undefined 	 undefined
+$4. ~topics.ZooKeeper 	 false 	 undefined 	 undefined
+$5. partitions 	 true 	 undefined 	 undefined
+$6. partitions.followers 	 false 	 undefined 	 undefined
+$7. partitions.followers' 	 false 	 undefined 	 undefined
+$8. partitions.leader 	 false 	 undefined 	 undefined
+$9. partitions.leader' 	 false 	 undefined 	 undefined
+$10. partitions.univ 	 false 	 undefined 	 undefined
+$11. partitions.~assignedTo 	 false 	 undefined 	 undefined
+$12. ~subscribedTo.assignments 	 false 	 undefined 	 undefined
+$13. ~subscribedTo.consumers 	 false 	 undefined 	 undefined
+$14. ~subscribedTo.offsets 	 false 	 undefined 	 undefined
+$15. ~subscribedTo.offsets' 	 false 	 undefined 	 undefined
+$16. ~topics.brokers 	 false 	 undefined 	 undefined
+$17. ~topics.brokers' 	 false 	 undefined 	 undefined
+$18. ~subscribedTo 	 false 	 undefined 	 undefined
+$19. ~subscribedTo.univ 	 false 	 undefined 	 undefined
+$20. ~subscribedTo.~consumer_groups 	 false 	 undefined 	 undefined
+$21. ~topics 	 false 	 undefined 	 undefined
+$22. ~topics.univ 	 false 	 undefined 	 undefined
+$23. ~topics.~zookeeper 	 false 	 undefined 	 undefined
+$24.  	 false 	 undefined 	 undefined
+
+Time taken: 75.228708
+Preprocessing time: 16
+Parsing time: 7
+Generation time: 1

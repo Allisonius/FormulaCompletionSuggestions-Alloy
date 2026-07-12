@@ -65,7 +65,7 @@ public class RankList {
 		};*/
 
 		//Large models
-		String [] models = {"frankervrep","git","icd","java_meta_model", "modelo-alloy"};/**/
+		String [] models = {"frankervrep","git","icd","java_meta_model", "modelo-alloy","hamsters","kafka","ledger","lib"};
 				
 		//Where to store the results and result string to print at the end
 		String result_dir = "results" + File.separator;
@@ -198,7 +198,7 @@ public class RankList {
 							//Narrow in on completion term extraction
 							String [] temp = expectedCompletionLine.split(" ");
 							if(temp.length > 1) {
-								if ( temp[1].equals("->")) {
+								if ( temp[1].equals("->") || temp[1].equals("<:")|| temp[1].equals(":>")) {
 									expectedCompletionLine = temp[0] + " " + temp[1] + " " + temp[2];
 								}
 								else {

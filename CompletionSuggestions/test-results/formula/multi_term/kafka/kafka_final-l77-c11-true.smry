@@ -1,0 +1,58 @@
+Model name: kafka_final
+Filename: completion/kafka_final-sig.als
+Offset: 2493
+Term: .
+Vscode Position: line=76 character=11
+----------------------------------
+77 |     disj[p.
+----------------------------------
+Expected Completion word: leader
+Expected Completion line: (leader + followers),
+Suggestion exists: true
+Completion List:
+# Suggestion 	 Exact 	 Syntactic 	 Semantic
+$1. followers'.PartitionReplica 	 false 	 false 	 false
+$2. followers.PartitionReplica 	 false 	 false 	 false
+$3. leader'.PartitionReplica 	 false 	 false 	 false
+$4. leader.PartitionReplica 	 false 	 false 	 false
+$5. ~assignedTo.Consumer 	 false 	 false 	 false
+$6. ~partitions.Topic 	 false 	 false 	 false
+$7. followers 	 false 	 false 	 false
+$8. followers' 	 false 	 false 	 false
+$9. followers'.events 	 false 	 false 	 false
+$10. followers'.events' 	 false 	 false 	 false
+$11. followers'.univ 	 false 	 false 	 false
+$12. followers'.~followers 	 false 	 false 	 false
+$13. followers'.~leader 	 false 	 false 	 false
+$14. followers'.~replicasInBroker 	 false 	 false 	 false
+$15. followers.events 	 false 	 false 	 false
+$16. followers.events' 	 false 	 false 	 false
+$17. followers.univ 	 false 	 false 	 false
+$18. followers.~leader 	 false 	 false 	 false
+$19. followers.~replicasInBroker 	 false 	 false 	 false
+$20. leader 	 true 	 true 	 true
+$21. leader' 	 false 	 false 	 false
+$22. leader'.events 	 false 	 false 	 false
+$23. leader'.events' 	 false 	 false 	 false
+$24. leader'.univ 	 false 	 false 	 false
+$25. leader'.~followers 	 false 	 false 	 false
+$26. leader'.~leader 	 false 	 false 	 false
+$27. leader'.~replicasInBroker 	 false 	 false 	 false
+$28. leader.events 	 false 	 false 	 false
+$29. leader.events' 	 false 	 false 	 false
+$30. leader.univ 	 false 	 false 	 false
+$31. leader.~followers 	 false 	 false 	 false
+$32. leader.~replicasInBroker 	 false 	 false 	 false
+$33. ~assignedTo 	 false 	 false 	 false
+$34. ~assignedTo.univ 	 false 	 false 	 false
+$35. ~assignedTo.~consumers 	 false 	 false 	 false
+$36. ~partitions 	 false 	 false 	 false
+$37. ~partitions.univ 	 false 	 false 	 false
+$38. ~partitions.~subscribedTo 	 false 	 false 	 false
+$39. ~partitions.~topics 	 false 	 false 	 false
+$40.  	 true 	 undefined 	 undefined
+
+Time taken: 69.370042
+Preprocessing time: 4
+Parsing time: 2
+Generation time: 4

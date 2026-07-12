@@ -1,0 +1,64 @@
+Model name: kafka_final
+Filename: completion/kafka_final-complete.als
+Offset: 12529
+Term: .
+Vscode Position: line=395 character=31
+----------------------------------
+396 |     all other_cg : dom[offsets.
+----------------------------------
+Expected Completion word: Int
+Expected Completion line: Int] - cgs | other_cg.offsets' = other_cg.offsets
+Suggestion exists: true
+Completion List:
+# Suggestion 	 Exact 	 Syntactic 	 Semantic
+$1. ~replicationFactor.k 	 false 	 undefined 	 undefined
+$2. ~replicationFactor.Kafka 	 false 	 undefined 	 undefined
+$3. univ.assignedTo 	 false 	 undefined 	 undefined
+$4. univ.assignments 	 false 	 undefined 	 undefined
+$5. univ.brokers 	 false 	 undefined 	 undefined
+$6. univ.brokers' 	 false 	 undefined 	 undefined
+$7. univ.consumer_groups 	 false 	 undefined 	 undefined
+$8. univ.consumers 	 false 	 undefined 	 undefined
+$9. univ.events 	 false 	 undefined 	 undefined
+$10. univ.events' 	 false 	 undefined 	 undefined
+$11. univ.followers 	 false 	 undefined 	 undefined
+$12. univ.followers' 	 false 	 undefined 	 undefined
+$13. univ.leader 	 false 	 undefined 	 undefined
+$14. univ.leader' 	 false 	 undefined 	 undefined
+$15. univ.offsets 	 false 	 undefined 	 undefined
+$16. univ.offsets' 	 false 	 undefined 	 undefined
+$17. univ.partitions 	 false 	 undefined 	 undefined
+$18. univ.producers 	 false 	 undefined 	 undefined
+$19. univ.replicasInBroker 	 false 	 undefined 	 undefined
+$20. univ.replicasInBroker' 	 false 	 undefined 	 undefined
+$21. univ.replicationFactor 	 false 	 undefined 	 undefined
+$22. univ.subscribedTo 	 false 	 undefined 	 undefined
+$23. univ.topics 	 false 	 undefined 	 undefined
+$24. univ.zookeeper 	 false 	 undefined 	 undefined
+$25. ~replicationFactor.consumer_groups 	 false 	 undefined 	 undefined
+$26. ~replicationFactor.producers 	 false 	 undefined 	 undefined
+$27. ~replicationFactor.zookeeper 	 false 	 undefined 	 undefined
+$28. Int.~replicationFactor 	 false 	 undefined 	 undefined
+$29. univ.~assignedTo 	 false 	 undefined 	 undefined
+$30. univ.~brokers 	 false 	 undefined 	 undefined
+$31. univ.~consumer_groups 	 false 	 undefined 	 undefined
+$32. univ.~consumers 	 false 	 undefined 	 undefined
+$33. univ.~followers 	 false 	 undefined 	 undefined
+$34. univ.~leader 	 false 	 undefined 	 undefined
+$35. univ.~partitions 	 false 	 undefined 	 undefined
+$36. univ.~producers 	 false 	 undefined 	 undefined
+$37. univ.~replicasInBroker 	 false 	 undefined 	 undefined
+$38. univ.~replicationFactor 	 false 	 undefined 	 undefined
+$39. univ.~subscribedTo 	 false 	 undefined 	 undefined
+$40. univ.~topics 	 false 	 undefined 	 undefined
+$41. univ.~zookeeper 	 false 	 undefined 	 undefined
+$42. ~replicationFactor 	 false 	 undefined 	 undefined
+$43. ~replicationFactor.univ 	 false 	 undefined 	 undefined
+$44.  	 false 	 undefined 	 undefined
+$45. Int 	 true 	 undefined 	 undefined
+$46. univ 	 false 	 undefined 	 undefined
+
+Time taken: 91.10025
+Preprocessing time: 17
+Parsing time: 7
+Generation time: 2

@@ -1,0 +1,1 @@
+{"modelName":"kafka_final","filename":"completion/kafka_final-complete.als","offset":12325,"term":".","line":391,"character":34,"incompletionLine":"dom[offsets.Int] = dom[offsets'.","completionList":"","evaluationResult":[],"completionGenerated":false,"suggestionExists":false,"expectedCompletionLine":"Int]","elapsedTimeInMs":109.129916}

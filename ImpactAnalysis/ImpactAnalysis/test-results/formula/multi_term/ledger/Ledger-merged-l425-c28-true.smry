@@ -1,0 +1,57 @@
+Model name: Ledger-merged
+Filename: completion/Ledger-merged-complete.als
+Offset: 9907
+Term: .
+Vscode Position: line=424 character=28
+----------------------------------
+425 |       implies a.unitVal < c.
+----------------------------------
+Expected Completion word: unitVal
+Expected Completion line: unitVal && b.unitVal < c.unitVal
+Suggestion exists: true
+Completion List:
+# Suggestion 	 Exact 	 Syntactic 	 Semantic
+$1. owner.DLTUser 	 false 	 undefined 	 undefined
+$2. owner.ExternalUser 	 false 	 undefined 	 undefined
+$3. owner.User 	 false 	 undefined 	 undefined
+$4. ttype.Fungible 	 false 	 undefined 	 undefined
+$5. ttype.NonFungible 	 false 	 undefined 	 undefined
+$6. ttype.TokenType 	 false 	 undefined 	 undefined
+$7. ~asset.DLTAccount 	 false 	 undefined 	 undefined
+$8. ~token.ContractPayload 	 false 	 undefined 	 undefined
+$9. ~token.Payload 	 false 	 undefined 	 undefined
+$10. ~token.TransferPayload 	 false 	 undefined 	 undefined
+$11. owner 	 false 	 undefined 	 undefined
+$12. owner.univ 	 false 	 undefined 	 undefined
+$13. owner.~DU 	 false 	 undefined 	 undefined
+$14. owner.~EU 	 false 	 undefined 	 undefined
+$15. owner.~EU 	 false 	 undefined 	 undefined
+$16. owner.~receiver 	 false 	 undefined 	 undefined
+$17. owner.~sender 	 false 	 undefined 	 undefined
+$18. ttype 	 false 	 undefined 	 undefined
+$19. ttype.univ 	 false 	 undefined 	 undefined
+$20. unitVal 	 true 	 undefined 	 undefined
+$21. unitVal 	 true 	 undefined 	 undefined
+$22. unitVal.Int 	 false 	 undefined 	 undefined
+$23. unitVal.Int 	 false 	 undefined 	 undefined
+$24. unitVal.univ 	 false 	 undefined 	 undefined
+$25. unitVal.~bandwidthCap 	 false 	 undefined 	 undefined
+$26. unitVal.~nonce 	 false 	 undefined 	 undefined
+$27. unitVal.~storageCap 	 false 	 undefined 	 undefined
+$28. ~asset.identifiedBy 	 false 	 undefined 	 undefined
+$29. ~token.amount 	 false 	 undefined 	 undefined
+$30. ~token.assigns 	 false 	 undefined 	 undefined
+$31. ~token.atTime 	 false 	 undefined 	 undefined
+$32. ~token.receiver 	 false 	 undefined 	 undefined
+$33. ~token.sender 	 false 	 undefined 	 undefined
+$34. ~asset 	 false 	 undefined 	 undefined
+$35. ~asset.univ 	 false 	 undefined 	 undefined
+$36. ~token 	 false 	 undefined 	 undefined
+$37. ~token.univ 	 false 	 undefined 	 undefined
+$38. ~token.~payload 	 false 	 undefined 	 undefined
+$39.  	 false 	 undefined 	 undefined
+
+Time taken: 49.667833
+Preprocessing time: 11
+Parsing time: 6
+Generation time: 1

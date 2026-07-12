@@ -1,0 +1,19 @@
+Model name: kafka_final
+Filename: completion/kafka_final-sig.als
+Offset: 4214
+Term: .
+Vscode Position: line=127 character=89
+----------------------------------
+128 |     all p : cg.subscribedTo.partitions | one cg.offsets[p] and cg.offsets[p] =< p.leader.
+----------------------------------
+Expected Completion word: undefined
+Expected Completion line: events.lastIdx
+Suggestion exists: false
+Completion List:
+# Suggestion 	 Exact 	 Syntactic 	 Semantic
+
+
+Time taken: 43.419417
+Preprocessing time: N/A
+Parsing time: N/A
+Generation time: N/A

@@ -1,0 +1,118 @@
+Model name: lib_prop_merged
+Filename: completion/lib_prop_merged-complete.als
+Offset: 3855
+Term:  - 
+Vscode Position: line=184 character=15
+----------------------------------
+185 |  all bb:Book - 
+----------------------------------
+Expected Completion word: b
+Expected Completion line: b|LL.membersReservingOneBook.bb = L.membersReservingOneBook.bb
+Suggestion exists: true
+Completion List:
+# Suggestion 	 Exact 	 Syntactic 	 Semantic
+$1. L 	 false 	 undefined 	 undefined
+$2. L.Renew.Member 	 false 	 undefined 	 undefined
+$3. L.Renew.m 	 false 	 undefined 	 undefined
+$4. L.Renew.univ 	 false 	 undefined 	 undefined
+$5. L.books 	 false 	 undefined 	 undefined
+$6. L.loan.Member 	 false 	 undefined 	 undefined
+$7. L.loan.m 	 false 	 undefined 	 undefined
+$8. L.loan.univ 	 false 	 undefined 	 undefined
+$9. LL 	 false 	 undefined 	 undefined
+$10. LL.Renew.Member 	 false 	 undefined 	 undefined
+$11. LL.Renew.m 	 false 	 undefined 	 undefined
+$12. LL.Renew.univ 	 false 	 undefined 	 undefined
+$13. LL.books 	 false 	 undefined 	 undefined
+$14. LL.loan.Member 	 false 	 undefined 	 undefined
+$15. LL.loan.m 	 false 	 undefined 	 undefined
+$16. LL.loan.univ 	 false 	 undefined 	 undefined
+$17. Lib.Renew.m 	 false 	 undefined 	 undefined
+$18. Lib.loan.m 	 false 	 undefined 	 undefined
+$19. b 	 true 	 undefined 	 undefined
+$20. b 	 true 	 undefined 	 undefined
+$21. books.b.~books 	 false 	 undefined 	 undefined
+$22. m 	 false 	 undefined 	 undefined
+$23. m.~members.books 	 false 	 undefined 	 undefined
+$24. members.m.~members 	 false 	 undefined 	 undefined
+$25. univ.Renew.m 	 false 	 undefined 	 undefined
+$26. univ.loan.m 	 false 	 undefined 	 undefined
+$27. ~books.L 	 false 	 undefined 	 undefined
+$28. ~books.L.books 	 false 	 undefined 	 undefined
+$29. ~books.L.members 	 false 	 undefined 	 undefined
+$30. ~books.LL 	 false 	 undefined 	 undefined
+$31. ~books.LL.books 	 false 	 undefined 	 undefined
+$32. ~books.LL.members 	 false 	 undefined 	 undefined
+$33. ~books.members.m 	 false 	 undefined 	 undefined
+$34. ~members.L.books 	 false 	 undefined 	 undefined
+$35. ~members.L.members 	 false 	 undefined 	 undefined
+$36. ~members.LL.books 	 false 	 undefined 	 undefined
+$37. ~members.LL.members 	 false 	 undefined 	 undefined
+$38. Book 	 false 	 undefined 	 undefined
+$39. Constants 	 false 	 undefined 	 undefined
+$40. Lib 	 false 	 undefined 	 undefined
+$41. Lib.Renew.Member 	 false 	 undefined 	 undefined
+$42. Lib.Renew.univ 	 false 	 undefined 	 undefined
+$43. Lib.books 	 false 	 undefined 	 undefined
+$44. Lib.loan.Member 	 false 	 undefined 	 undefined
+$45. Lib.loan.univ 	 false 	 undefined 	 undefined
+$46. Member 	 false 	 undefined 	 undefined
+$47. Member.~members.books 	 false 	 undefined 	 undefined
+$48. books.Book.~books 	 false 	 undefined 	 undefined
+$49. members.Member.~members 	 false 	 undefined 	 undefined
+$50. univ.Renew.Member 	 false 	 undefined 	 undefined
+$51. univ.loan.Member 	 false 	 undefined 	 undefined
+$52. ~books.Lib 	 false 	 undefined 	 undefined
+$53. ~books.Lib.books 	 false 	 undefined 	 undefined
+$54. ~books.Lib.members 	 false 	 undefined 	 undefined
+$55. ~books.members.Member 	 false 	 undefined 	 undefined
+$56. ~maxNbLoans.Constants.maxNbLoans 	 false 	 undefined 	 undefined
+$57. ~members.Lib.books 	 false 	 undefined 	 undefined
+$58. ~members.Lib.members 	 false 	 undefined 	 undefined
+$59. books.univ.books 	 false 	 undefined 	 undefined
+$60. books.univ.maxNbLoans 	 false 	 undefined 	 undefined
+$61. books.univ.~books 	 false 	 undefined 	 undefined
+$62. books.univ.~maxNbLoans 	 false 	 undefined 	 undefined
+$63. books.univ.~members 	 false 	 undefined 	 undefined
+$64. maxNbLoans.Int.~maxNbLoans 	 false 	 undefined 	 undefined
+$65. maxNbLoans.univ.books 	 false 	 undefined 	 undefined
+$66. maxNbLoans.univ.members 	 false 	 undefined 	 undefined
+$67. maxNbLoans.univ.~books 	 false 	 undefined 	 undefined
+$68. maxNbLoans.univ.~maxNbLoans 	 false 	 undefined 	 undefined
+$69. maxNbLoans.univ.~members 	 false 	 undefined 	 undefined
+$70. members.univ.books 	 false 	 undefined 	 undefined
+$71. members.univ.maxNbLoans 	 false 	 undefined 	 undefined
+$72. members.univ.~books 	 false 	 undefined 	 undefined
+$73. members.univ.~maxNbLoans 	 false 	 undefined 	 undefined
+$74. members.univ.~members 	 false 	 undefined 	 undefined
+$75. univ.Renew.univ 	 false 	 undefined 	 undefined
+$76. univ.books 	 false 	 undefined 	 undefined
+$77. univ.loan.univ 	 false 	 undefined 	 undefined
+$78. univ.~members.books 	 false 	 undefined 	 undefined
+$79. ~books.members.univ 	 false 	 undefined 	 undefined
+$80. ~books.univ.books 	 false 	 undefined 	 undefined
+$81. ~books.univ.maxNbLoans 	 false 	 undefined 	 undefined
+$82. ~books.univ.members 	 false 	 undefined 	 undefined
+$83. ~maxNbLoans.univ.books 	 false 	 undefined 	 undefined
+$84. ~maxNbLoans.univ.maxNbLoans 	 false 	 undefined 	 undefined
+$85. ~maxNbLoans.univ.members 	 false 	 undefined 	 undefined
+$86. ~members.univ.books 	 false 	 undefined 	 undefined
+$87. ~members.univ.maxNbLoans 	 false 	 undefined 	 undefined
+$88. ~members.univ.members 	 false 	 undefined 	 undefined
+$89. ~books.univ 	 false 	 undefined 	 undefined
+$90. ~books.univ.~maxNbLoans 	 false 	 undefined 	 undefined
+$91. ~books.univ.~members 	 false 	 undefined 	 undefined
+$92. ~maxNbLoans.univ.~books 	 false 	 undefined 	 undefined
+$93. ~maxNbLoans.univ.~members 	 false 	 undefined 	 undefined
+$94. ~members.univ.~books 	 false 	 undefined 	 undefined
+$95. ~members.univ.~maxNbLoans 	 false 	 undefined 	 undefined
+$96. univ 	 false 	 undefined 	 undefined
+$97. Int 	 false 	 undefined 	 undefined
+$98. String 	 false 	 undefined 	 undefined
+$99. none 	 false 	 undefined 	 undefined
+$100. univ 	 false 	 undefined 	 undefined
+
+Time taken: 61.560542
+Preprocessing time: 12
+Parsing time: 6
+Generation time: 9

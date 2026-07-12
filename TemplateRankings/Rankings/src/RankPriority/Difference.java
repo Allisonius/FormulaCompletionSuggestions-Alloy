@@ -119,20 +119,34 @@ public class Difference {
 			return highest_ranked_template;
 		}
 		
-		if(template.contains("SIGNATURE")) {
-			return highest_ranked_template;
+		if(template.equals("SIGNATURE")) {
+			return 8;
 		}
-		if(template.contains("VARIABLE")) {
-			return highest_ranked_template;
+		if(template.equals("VARIABLE")) {
+			return 7;
 		}
-
+		if(template.equals("RELATION")) {
+			return 9;
+		}
+		/*
+		if(template.equals("SIGNATURE.RELATION")) {
+			return 10;
+		}
+		if(template.equals("VARIABLE.RELATION")) {
+			return 10;
+		}
+		if(template.equals("RELATION.VARIABLE")) {
+			return 10;
+		}
+*/
+		
 		if(template.equals("CONSTANT")) {
 			return Integer.MAX_VALUE;
 		}
 		if(template.equals("OTHER")) {
 			return Integer.MAX_VALUE;
 		}
-
+		
 		//Priority: number of joins, favor transpose, then closure, then rclosures
 		String [] num_joins = template.split("\\.");
 		int closures = countClosure(template);

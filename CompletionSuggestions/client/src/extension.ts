@@ -22,7 +22,6 @@ import {
   evaluateSuggestionCommandHandler,
   getModelStatsCommandHandler,
 } from "./commands-handlers";
-import { EvaluateSuggestionParams } from "./interfaces/commands";
 
 let client: LanguageClient;
 
@@ -30,73 +29,104 @@ const serverDebug = process.env["SERVER_DEBUG"] === "true" || false;
 export async function activate(context: vscode.ExtensionContext) {
   let serverRunner = new ServerRunner(context);
 
-  // Get the server options (this will check the port and start the server if necessary)
-  let serverOptions: ServerOptions;
+  // Server setup is attempted first, but failures must not prevent command registration.
+  // Commands are always registered so VS Code can find them regardless of server state.
   try {
+    let serverOptions: ServerOptions;
     if (serverDebug) {
       serverOptions = await serverRunner.getNoSpawnSocketServerOptions();
     } else {
       serverOptions = await serverRunner.getStdioServerOptions();
     }
+
+    const clientOptions: LanguageClientOptions = {
+      documentSelector: [{ scheme: "file", language: "alloy" }],
+      synchronize: {
+        fileEvents: vscode.workspace.createFileSystemWatcher("**/*.als"),
+      },
+    };
+
+    client = new LanguageClient(
+      "alloy",
+      "Alloy Language Server",
+      serverOptions,
+      clientOptions,
+    );
+
+    client.onNotification("alloy/updateModel", (message) => {
+      console.log("Notification received: " + message);
+    });
+
+    // Start the client. This will also launch the server
+    client
+      .start()
+      .then(() => {
+        console.log("Client started");
+      })
+      .catch((error) => {
+        console.error("Failed to start the client:", error);
+      });
+
+    console.log('"Alloy Language Extension" is now active!');
   } catch (error) {
     console.error("Failed to get server options or start the server:", error);
-    return;
   }
 
-  const clientOptions: LanguageClientOptions = {
-    documentSelector: [{ scheme: "file", language: "alloy" }],
-    synchronize: {
-      fileEvents: vscode.workspace.createFileSystemWatcher("**/*.als"),
-    },
-  };
-
-  client = new LanguageClient(
-    "alloy",
-    "Alloy Language Server",
-    serverOptions,
-    clientOptions
-  );
-
-  client.onNotification("alloy/updateModel", (message) => {
-    console.log("Notification received: " + message);
-  });
-
-  // Register commands and other features
+  // Register commands unconditionally. Client-dependent handlers guard against
+  // an uninitialized client at call time so the commands are always discoverable.
   const instanceViewCommand = vscode.commands.registerCommand(
     "alloy.showInstance",
     () => {
       AlloyInstanceDiagram.render(context.extensionUri);
-    }
+    },
   );
 
   const runCommandCommandDisposable = vscode.commands.registerCommand(
     "alloy.runCommand",
-    showInstanceCommandHandler(client, context)
+    async (alloyCommand: string | null) => {
+      if (!client) return null;
+      return showInstanceCommandHandler(client, context)(alloyCommand);
+    },
   );
 
   const showNextInstanceCommandDisposable = vscode.commands.registerCommand(
     "alloy.nextInstance",
-    showNextInstanceCommandHandler(client, context)
+    async () => {
+      if (!client) return null;
+      return showNextInstanceCommandHandler(client, context)();
+    },
   );
 
   const showLegacyViewCommandDisposable = vscode.commands.registerCommand(
     "alloy.showLegacyView",
-    showLegacyViewCommandHandler(client)
+    async (alloyCommand: string, isNextInstance: boolean | null) => {
+      if (!client) return null;
+      return showLegacyViewCommandHandler(client)(alloyCommand, isNextInstance);
+    },
   );
 
   const suggestionImpactCommandDisposable = vscode.commands.registerCommand(
     "alloy.suggestionImpact",
-    completionSuggestionImpactHandler(client, context)
+    async (suggestion: string, incompletionFormula: string, position: vscode.Position) => {
+      if (!client) return null;
+      return completionSuggestionImpactHandler(client, context)(suggestion, incompletionFormula, position);
+    },
   );
 
   const evaluateSuggestionCommandDisposable = vscode.commands.registerCommand(
     "alloy.evaluateSuggestions",
-    evaluateSuggestionCommandHandler(client, context)
+    async (params) => {
+      if (!client) return null;
+      return evaluateSuggestionCommandHandler(client, context)(params);
+    },
   );
 
   const getModelStatsCommandDisposable = vscode.commands.registerCommand(
     "alloy.getModelStats",
-    getModelStatsCommandHandler(client, context)
+    async () => {
+      if (!client) return null;
+      return getModelStatsCommandHandler(client, context)();
+    },
   );
 
   const inlineCompletionItemDisposable =
@@ -112,8 +142,8 @@ export async function activate(context: vscode.ExtensionContext) {
           if (context.selectedCompletionInfo.text.startsWith("^")) {
             items.items.push(
               new vscode.InlineCompletionItem(
-                context.selectedCompletionInfo.text.replace("^", "^^")
-              )
+                context.selectedCompletionInfo.text.replace("^", "^^"),
+              ),
             );
           }
           return items;
@@ -123,17 +153,6 @@ export async function activate(context: vscode.ExtensionContext) {
       },
     });
 
-  // Start the client. This will also launch the server
-  client
-    .start()
-    .then(() => {
-      console.log("Client started");
-    })
-    .catch((error) => {
-      console.error("Failed to start the client:", error);
-    });
-  console.log('"Alloy Language Extension" is now active!');
-
   context.subscriptions.push(
     instanceViewCommand,
     showNextInstanceCommandDisposable,
@@ -142,7 +161,7 @@ export async function activate(context: vscode.ExtensionContext) {
     inlineCompletionItemDisposable,
     suggestionImpactCommandDisposable,
     evaluateSuggestionCommandDisposable,
-    getModelStatsCommandDisposable
+    getModelStatsCommandDisposable,
   );
 }
 

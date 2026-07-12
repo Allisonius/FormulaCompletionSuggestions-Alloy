@@ -1,0 +1,48 @@
+Model name: Ledger-merged
+Filename: completion/Ledger-merged-complete.als
+Offset: 12037
+Term: .
+Vscode Position: line=525 character=32
+----------------------------------
+526 |   all b: BlockRec | some b.meta.
+----------------------------------
+Expected Completion word: merkleRoot
+Expected Completion line: merkleRoot
+Suggestion exists: true
+Completion List:
+# Suggestion 	 Exact 	 Syntactic 	 Semantic
+$1. ~meta.b 	 false 	 false 	 false
+$2. merkleRoot.DLTAddress 	 false 	 false 	 false
+$3. timestamp.Time 	 false 	 false 	 false
+$4. ~meta.BlockRec 	 false 	 false 	 false
+$5. ~meta.Genesis 	 false 	 false 	 false
+$6. merkleRoot 	 true 	 true 	 true
+$7. merkleRoot.univ 	 false 	 false 	 false
+$8. merkleRoot.~identifiedBy 	 false 	 false 	 false
+$9. nonce 	 false 	 false 	 false
+$10. nonce.Int 	 false 	 false 	 false
+$11. nonce.univ 	 false 	 false 	 false
+$12. nonce.~bandwidthCap 	 false 	 false 	 false
+$13. nonce.~storageCap 	 false 	 false 	 false
+$14. nonce.~unitVal 	 false 	 false 	 false
+$15. timestamp 	 false 	 false 	 false
+$16. timestamp.univ 	 false 	 false 	 false
+$17. timestamp.~atTime 	 false 	 false 	 false
+$18. ~meta.data 	 false 	 false 	 false
+$19. ~meta.id 	 false 	 false 	 false
+$20. ~meta.parents 	 false 	 false 	 false
+$21. ~meta.prev 	 false 	 false 	 false
+$22. ~meta 	 false 	 undefined 	 undefined
+$23. ~meta.*parents 	 false 	 undefined 	 undefined
+$24. ~meta.*prev 	 false 	 undefined 	 undefined
+$25. ~meta.^parents 	 false 	 false 	 false
+$26. ~meta.^prev 	 false 	 false 	 false
+$27. ~meta.univ 	 false 	 undefined 	 undefined
+$28. ~meta.~parents 	 false 	 false 	 false
+$29. ~meta.~prev 	 false 	 false 	 false
+$30.  	 false 	 undefined 	 undefined
+
+Time taken: 68.020375
+Preprocessing time: 13
+Parsing time: 6
+Generation time: 1

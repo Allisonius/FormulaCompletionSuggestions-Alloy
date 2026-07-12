@@ -1,0 +1,1 @@
+{"modelName":"kafka_final","filename":"completion/kafka_final-complete.als","offset":19070,"term":".","line":610,"character":46,"incompletionLine":"all rp : recover_partitions | let lr = rp.","completionList":"","evaluationResult":[],"completionGenerated":false,"suggestionExists":false,"expectedCompletionLine":"leader | one new_f : PartitionReplica {","elapsedTimeInMs":73.179875}

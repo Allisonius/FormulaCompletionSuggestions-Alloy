@@ -45,7 +45,7 @@ public class ImpactAnalysis_NoTarget {
 		boolean benchmark = true;
 
 		//large models
-		/*String [] models = {"git", "frankervrep", "icd", "java_meta_model","modelo-alloy"};
+		/*String [] models = {"git", "frankervrep", "icd", "java_meta_model","modelo-alloy","hamsters","kafka","ledger","lib"};
 		boolean benchmark = false;
 		*/
 		

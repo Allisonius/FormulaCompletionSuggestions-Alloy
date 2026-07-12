@@ -1,0 +1,31 @@
+Model name: lib_prop_merged
+Filename: completion/lib_prop_merged-complete.als
+Offset: 4391
+Term:  -> 
+Vscode Position: line=207 character=28
+----------------------------------
+208 |  LL.Renew = L.Renew - (b -> 
+----------------------------------
+Expected Completion word: m
+Expected Completion line: m)// same thing
+Suggestion exists: true
+Completion List:
+# Suggestion 	 Exact 	 Syntactic 	 Semantic
+$1. L 	 false 	 undefined 	 undefined
+$2. LL 	 false 	 undefined 	 undefined
+$3. b 	 false 	 undefined 	 undefined
+$4. m 	 true 	 undefined 	 undefined
+$5. Book 	 false 	 undefined 	 undefined
+$6. Constants 	 false 	 undefined 	 undefined
+$7. Lib 	 false 	 undefined 	 undefined
+$8. LibOrd/Ord 	 false 	 undefined 	 undefined
+$9. Member 	 false 	 undefined 	 undefined
+$10. Int 	 false 	 undefined 	 undefined
+$11. String 	 false 	 undefined 	 undefined
+$12. none 	 false 	 undefined 	 undefined
+$13. univ 	 false 	 undefined 	 undefined
+
+Time taken: 62.228958
+Preprocessing time: 12
+Parsing time: 6
+Generation time: 0

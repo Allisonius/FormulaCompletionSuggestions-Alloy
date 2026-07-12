@@ -99,20 +99,20 @@ async function main() {
       const extensionTestsPath = path.resolve(__dirname, "./multi-term-tests");
       const workspacePath = path.join(__dirname, "../../testFixture/");
 
-      // Use a persistent user-data directory to preserve LLM consent
-      // After first manual consent, subsequent runs will reuse it
-      const userDataDir = path.join(
-        __dirname,
-        "../../.vscode-test/llm-user-data",
-      );
+      // Short path required: Unix socket paths must be ≤103 chars
+      const userDataDir = "/tmp/alloy-llm-vsc";
 
       const model = process.argv[3] || "gpt-4.1";
 
-      // Download VS Code, unzip it and run the integration test
+      // GitHub.copilot must be installed so vscode.lm.selectChatModels() returns models
       await runTests({
         extensionDevelopmentPath,
         extensionTestsPath,
-        launchArgs: [workspacePath, "--user-data-dir", userDataDir],
+        launchArgs: [
+          workspacePath,
+          "--user-data-dir", userDataDir,
+          "--install-extension", "GitHub.copilot",
+        ],
         extensionTestsEnv: {
           LLM_COMPLETION: "true",
           LLM_MODEL: model,

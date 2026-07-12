@@ -1,0 +1,19 @@
+Model name: kafka_final
+Filename: completion/kafka_final-complete.als
+Offset: 12551
+Term: .
+Vscode Position: line=395 character=53
+----------------------------------
+396 |     all other_cg : dom[offsets.Int] - cgs | other_cg.
+----------------------------------
+Expected Completion word: undefined
+Expected Completion line: offsets' = other_cg.offsets
+Suggestion exists: false
+Completion List:
+# Suggestion 	 Exact 	 Syntactic 	 Semantic
+
+
+Time taken: 68.929375
+Preprocessing time: N/A
+Parsing time: N/A
+Generation time: N/A

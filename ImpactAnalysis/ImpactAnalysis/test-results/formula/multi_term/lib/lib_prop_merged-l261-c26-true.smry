@@ -1,0 +1,90 @@
+Model name: lib_prop_merged
+Filename: completion/lib_prop_merged-complete.als
+Offset: 5641
+Term:  - 
+Vscode Position: line=260 character=26
+----------------------------------
+261 |  LL.members = L.members - 
+----------------------------------
+Expected Completion word: m
+Expected Completion line: m
+Suggestion exists: true
+Completion List:
+# Suggestion 	 Exact 	 Syntactic 	 Semantic
+$1. L 	 false 	 undefined 	 undefined
+$2. L.members 	 false 	 undefined 	 undefined
+$3. LL 	 false 	 undefined 	 undefined
+$4. LL.members 	 false 	 undefined 	 undefined
+$5. m 	 true 	 undefined 	 undefined
+$6. m 	 true 	 undefined 	 undefined
+$7. members.m.~members 	 false 	 undefined 	 undefined
+$8. ~books.L.books 	 false 	 undefined 	 undefined
+$9. ~books.L.members 	 false 	 undefined 	 undefined
+$10. ~books.LL.books 	 false 	 undefined 	 undefined
+$11. ~books.LL.members 	 false 	 undefined 	 undefined
+$12. ~members.L 	 false 	 undefined 	 undefined
+$13. ~members.L.books 	 false 	 undefined 	 undefined
+$14. ~members.L.members 	 false 	 undefined 	 undefined
+$15. ~members.LL 	 false 	 undefined 	 undefined
+$16. ~members.LL.books 	 false 	 undefined 	 undefined
+$17. ~members.LL.members 	 false 	 undefined 	 undefined
+$18. Book 	 false 	 undefined 	 undefined
+$19. Book.~books.members 	 false 	 undefined 	 undefined
+$20. Constants 	 false 	 undefined 	 undefined
+$21. Lib 	 false 	 undefined 	 undefined
+$22. Member 	 false 	 undefined 	 undefined
+$23. Member 	 false 	 undefined 	 undefined
+$24. books.Book.~books 	 false 	 undefined 	 undefined
+$25. members.Member.~members 	 false 	 undefined 	 undefined
+$26. ~books.Lib.books 	 false 	 undefined 	 undefined
+$27. ~books.Lib.members 	 false 	 undefined 	 undefined
+$28. ~maxNbLoans.Constants.maxNbLoans 	 false 	 undefined 	 undefined
+$29. ~members.Lib 	 false 	 undefined 	 undefined
+$30. ~members.Lib.books 	 false 	 undefined 	 undefined
+$31. ~members.Lib.members 	 false 	 undefined 	 undefined
+$32. ~members.books.Book 	 false 	 undefined 	 undefined
+$33. books.univ.maxNbLoans 	 false 	 undefined 	 undefined
+$34. books.univ.members 	 false 	 undefined 	 undefined
+$35. books.univ.~books 	 false 	 undefined 	 undefined
+$36. books.univ.~maxNbLoans 	 false 	 undefined 	 undefined
+$37. books.univ.~members 	 false 	 undefined 	 undefined
+$38. maxNbLoans.Int.~maxNbLoans 	 false 	 undefined 	 undefined
+$39. maxNbLoans.univ.books 	 false 	 undefined 	 undefined
+$40. maxNbLoans.univ.members 	 false 	 undefined 	 undefined
+$41. maxNbLoans.univ.~books 	 false 	 undefined 	 undefined
+$42. maxNbLoans.univ.~maxNbLoans 	 false 	 undefined 	 undefined
+$43. maxNbLoans.univ.~members 	 false 	 undefined 	 undefined
+$44. members.univ.maxNbLoans 	 false 	 undefined 	 undefined
+$45. members.univ.members 	 false 	 undefined 	 undefined
+$46. members.univ.~books 	 false 	 undefined 	 undefined
+$47. members.univ.~maxNbLoans 	 false 	 undefined 	 undefined
+$48. members.univ.~members 	 false 	 undefined 	 undefined
+$49. univ.members 	 false 	 undefined 	 undefined
+$50. univ.~books.members 	 false 	 undefined 	 undefined
+$51. ~books.univ.books 	 false 	 undefined 	 undefined
+$52. ~books.univ.maxNbLoans 	 false 	 undefined 	 undefined
+$53. ~books.univ.members 	 false 	 undefined 	 undefined
+$54. ~maxNbLoans.univ.books 	 false 	 undefined 	 undefined
+$55. ~maxNbLoans.univ.maxNbLoans 	 false 	 undefined 	 undefined
+$56. ~maxNbLoans.univ.members 	 false 	 undefined 	 undefined
+$57. ~members.books.univ 	 false 	 undefined 	 undefined
+$58. ~members.univ.books 	 false 	 undefined 	 undefined
+$59. ~members.univ.maxNbLoans 	 false 	 undefined 	 undefined
+$60. ~members.univ.members 	 false 	 undefined 	 undefined
+$61. ~books.univ.~maxNbLoans 	 false 	 undefined 	 undefined
+$62. ~books.univ.~members 	 false 	 undefined 	 undefined
+$63. ~maxNbLoans.univ.~books 	 false 	 undefined 	 undefined
+$64. ~maxNbLoans.univ.~members 	 false 	 undefined 	 undefined
+$65. ~members.univ 	 false 	 undefined 	 undefined
+$66. ~members.univ.~books 	 false 	 undefined 	 undefined
+$67. ~members.univ.~maxNbLoans 	 false 	 undefined 	 undefined
+$68. univ 	 false 	 undefined 	 undefined
+$69. Int 	 false 	 undefined 	 undefined
+$70. String 	 false 	 undefined 	 undefined
+$71. none 	 false 	 undefined 	 undefined
+$72. univ 	 false 	 undefined 	 undefined
+
+Time taken: 65.371292
+Preprocessing time: 12
+Parsing time: 6
+Generation time: 8

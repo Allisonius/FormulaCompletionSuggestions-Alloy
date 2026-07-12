@@ -1,0 +1,1 @@
+{"modelName":"kafka_final","filename":"completion/kafka_final-sig.als","offset":4586,"term":".","line":134,"character":45,"incompletionLine":"all disj c1, c2 : cg.consumers | disj[c1.","completionList":"","evaluationResult":[],"completionGenerated":false,"suggestionExists":false,"expectedCompletionLine":"assignedTo, c2.assignedTo]","elapsedTimeInMs":62.686625}

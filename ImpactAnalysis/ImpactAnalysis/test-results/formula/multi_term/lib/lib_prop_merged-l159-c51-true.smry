@@ -1,0 +1,48 @@
+Model name: lib_prop_merged
+Filename: completion/lib_prop_merged-complete.als
+Offset: 3180
+Term: .
+Vscode Position: line=158 character=51
+----------------------------------
+159 |  all bb:Book - b|LL.membersReservingOneBook.bb = L.
+----------------------------------
+Expected Completion word: membersReservingOneBook.bb
+Expected Completion line: membersReservingOneBook.bb
+Suggestion exists: true
+Completion List:
+# Suggestion 	 Exact 	 Syntactic 	 Semantic
+$1. Renew.m 	 false 	 undefined 	 undefined
+$2. books.b 	 false 	 undefined 	 undefined
+$3. books.bb 	 false 	 undefined 	 undefined
+$4. loan.m 	 false 	 undefined 	 undefined
+$5. members.m 	 false 	 undefined 	 undefined
+$6. membersReservingOneBook.b 	 false 	 undefined 	 undefined
+$7. membersReservingOneBook.b 	 false 	 undefined 	 undefined
+$8. membersReservingOneBook.bb 	 true 	 undefined 	 undefined
+$9. membersReservingOneBook.bb 	 true 	 undefined 	 undefined
+$10. Renew.Member 	 false 	 undefined 	 undefined
+$11. books.Book 	 false 	 undefined 	 undefined
+$12. loan.Member 	 false 	 undefined 	 undefined
+$13. members.Member 	 false 	 undefined 	 undefined
+$14. membersReservingOneBook.Book 	 false 	 undefined 	 undefined
+$15. membersReservingOneBook.Book 	 false 	 undefined 	 undefined
+$16. Renew 	 false 	 undefined 	 undefined
+$17. Renew.univ 	 false 	 undefined 	 undefined
+$18. Renew.~members 	 false 	 undefined 	 undefined
+$19. books 	 false 	 undefined 	 undefined
+$20. books.univ 	 false 	 undefined 	 undefined
+$21. loan 	 false 	 undefined 	 undefined
+$22. loan.univ 	 false 	 undefined 	 undefined
+$23. loan.~members 	 false 	 undefined 	 undefined
+$24. members 	 false 	 undefined 	 undefined
+$25. members.univ 	 false 	 undefined 	 undefined
+$26. membersReservingOneBook 	 true 	 undefined 	 undefined
+$27. membersReservingOneBook.univ 	 false 	 undefined 	 undefined
+$28. membersReservingOneBook.univ 	 false 	 undefined 	 undefined
+$29. membersReservingOneBook.~books 	 false 	 undefined 	 undefined
+$30.  	 false 	 undefined 	 undefined
+
+Time taken: 58.376833
+Preprocessing time: 13
+Parsing time: 6
+Generation time: 1

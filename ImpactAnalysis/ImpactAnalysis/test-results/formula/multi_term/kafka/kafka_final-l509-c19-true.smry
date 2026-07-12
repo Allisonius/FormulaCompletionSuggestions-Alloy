@@ -1,0 +1,46 @@
+Model name: kafka_final
+Filename: completion/kafka_final-complete.als
+Offset: 15865
+Term: .
+Vscode Position: line=508 character=19
+----------------------------------
+509 |   b in k.zookeeper.
+----------------------------------
+Expected Completion word: brokers
+Expected Completion line: brokers
+Suggestion exists: true
+Completion List:
+# Suggestion 	 Exact 	 Syntactic 	 Semantic
+$1. brokers'.b 	 false 	 undefined 	 undefined
+$2. brokers.b 	 false 	 undefined 	 undefined
+$3. ~zookeeper.k 	 false 	 undefined 	 undefined
+$4. brokers'.Broker 	 false 	 undefined 	 undefined
+$5. brokers.Broker 	 false 	 undefined 	 undefined
+$6. topics.Topic 	 false 	 undefined 	 undefined
+$7. ~zookeeper.Kafka 	 false 	 undefined 	 undefined
+$8. brokers 	 true 	 undefined 	 undefined
+$9. brokers 	 true 	 undefined 	 undefined
+$10. brokers' 	 false 	 undefined 	 undefined
+$11. brokers' 	 false 	 undefined 	 undefined
+$12. brokers'.replicasInBroker 	 false 	 undefined 	 undefined
+$13. brokers'.replicasInBroker' 	 false 	 undefined 	 undefined
+$14. brokers'.univ 	 false 	 undefined 	 undefined
+$15. brokers'.~brokers 	 false 	 undefined 	 undefined
+$16. brokers.replicasInBroker 	 false 	 undefined 	 undefined
+$17. brokers.replicasInBroker' 	 false 	 undefined 	 undefined
+$18. brokers.univ 	 false 	 undefined 	 undefined
+$19. topics 	 false 	 undefined 	 undefined
+$20. topics.partitions 	 false 	 undefined 	 undefined
+$21. topics.univ 	 false 	 undefined 	 undefined
+$22. topics.~subscribedTo 	 false 	 undefined 	 undefined
+$23. ~zookeeper.consumer_groups 	 false 	 undefined 	 undefined
+$24. ~zookeeper.producers 	 false 	 undefined 	 undefined
+$25. ~zookeeper.replicationFactor 	 false 	 undefined 	 undefined
+$26. ~zookeeper 	 false 	 undefined 	 undefined
+$27. ~zookeeper.univ 	 false 	 undefined 	 undefined
+$28.  	 false 	 undefined 	 undefined
+
+Time taken: 77.161583
+Preprocessing time: 16
+Parsing time: 8
+Generation time: 0

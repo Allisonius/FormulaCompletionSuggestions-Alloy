@@ -1,6 +1,5 @@
 import { AlloyFileSetup } from "./AlloyFileSetup";
 import { getDocUri } from "../../../utilities/helper";
-import { get } from "http";
 
 const classroom = new AlloyFileSetup(
   "classroom",
@@ -338,6 +337,102 @@ const coursesV2Fixable = new AlloyFileSetup(
   getDocUri("completion/courses-v2-complete-fixable.als"),
 );
 
+const tcp = new AlloyFileSetup(
+  "tcp",
+  getDocUri("completion/tcp-sig.als"),
+  getDocUri("completion/tcp-complete.als"),
+);
+
+const kafkaFinal = new AlloyFileSetup(
+  "kafka_final",
+  getDocUri("completion/kafka_final-sig.als"),
+  getDocUri("completion/kafka_final-complete.als"),
+);
+
+const digitalWatch = new AlloyFileSetup(
+  "digital-watch",
+  getDocUri("completion/digital-watch-sig.als"),
+  getDocUri("completion/digital-watch-complete.als"),
+);
+
+const libPropMerged = new AlloyFileSetup(
+  "lib_prop_merged",
+  getDocUri("completion/lib_prop_merged-sig.als"),
+  getDocUri("completion/lib_prop_merged-complete.als"),
+);
+
+const needhamSchroederPublicKey = new AlloyFileSetup(
+  "needhamSchroederPublicKey",
+  getDocUri("completion/needhamSchroederPublicKey-sig.als"),
+  getDocUri("completion/needhamSchroederPublicKey-complete.als"),
+);
+
+const elevator = new AlloyFileSetup(
+  "elevator",
+  getDocUri("completion/elevator-sig.als"),
+  getDocUri("completion/elevator-complete.als"),
+);
+
+const aman = new AlloyFileSetup(
+  "aman",
+  getDocUri("completion/aman-sig.als"),
+  getDocUri("completion/aman-complete.als"),
+);
+
+const ertms = new AlloyFileSetup(
+  "ertms",
+  getDocUri("completion/ertms-sig.als"),
+  getDocUri("completion/ertms-complete.als"),
+);
+
+const c11Purturbed = new AlloyFileSetup(
+  "c11_purturbed",
+  getDocUri("completion/c11_purturbed-sig.als"),
+  getDocUri("completion/c11_purturbed-complete.als"),
+);
+
+const powerPurturbed = new AlloyFileSetup(
+  "power_purturbed",
+  getDocUri("completion/power_purturbed-sig.als"),
+  getDocUri("completion/power_purturbed-complete.als"),
+);
+
+const hamsters = new AlloyFileSetup(
+  "hamsters",
+  getDocUri("completion/hamsters-sig.als"),
+  getDocUri("completion/hamsters-complete.als"),
+);
+
+const androidPermission = new AlloyFileSetup(
+  "android-permission",
+  getDocUri("completion/android-permission-sig.als"),
+  getDocUri("completion/android-permission-complete.als"),
+);
+
+const mcaMerged = new AlloyFileSetup(
+  "mca-merged",
+  getDocUri("completion/mca-merged-sig.als"),
+  getDocUri("completion/mca-merged-complete.als"),
+);
+
+const dltSystemMerged = new AlloyFileSetup(
+  "DLTSystem-merged",
+  getDocUri("completion/DLTSystem-merged-sig.als"),
+  getDocUri("completion/DLTSystem-merged-complete.als"),
+);
+
+const governanceMerged = new AlloyFileSetup(
+  "Governance-merged",
+  getDocUri("completion/Governance-merged-sig.als"),
+  getDocUri("completion/Governance-merged-complete.als"),
+);
+
+const ledgerMerged = new AlloyFileSetup(
+  "Ledger-merged",
+  getDocUri("completion/Ledger-merged-sig.als"),
+  getDocUri("completion/Ledger-merged-complete.als"),
+);
+
 export {
   cTree,
   dll,
@@ -395,4 +490,20 @@ export {
   gitFixable,
   coursesv1Fixable,
   coursesV2Fixable,
+  tcp,
+  kafkaFinal,
+  digitalWatch,
+  libPropMerged,
+  needhamSchroederPublicKey,
+  elevator,
+  aman,
+  ertms,
+  c11Purturbed,
+  powerPurturbed,
+  hamsters,
+  androidPermission,
+  mcaMerged,
+  dltSystemMerged,
+  governanceMerged,
+  ledgerMerged,
 };

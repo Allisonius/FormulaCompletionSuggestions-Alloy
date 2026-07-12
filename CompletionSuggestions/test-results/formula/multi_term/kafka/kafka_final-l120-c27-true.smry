@@ -1,0 +1,32 @@
+Model name: kafka_final
+Filename: completion/kafka_final-sig.als
+Offset: 3809
+Term:  -> 
+Vscode Position: line=119 character=27
+----------------------------------
+120 |   assignments: Consumer -> 
+----------------------------------
+Expected Completion word: TopicPartition
+Expected Completion line: TopicPartition
+Suggestion exists: true
+Completion List:
+# Suggestion 	 Exact 	 Syntactic 	 Semantic
+$1. Broker 	 false 	 false 	 false
+$2. Consumer 	 false 	 false 	 false
+$3. ConsumerGroup 	 false 	 false 	 false
+$4. Kafka 	 false 	 false 	 false
+$5. KafkaEvent 	 false 	 false 	 false
+$6. PartitionReplica 	 false 	 false 	 false
+$7. Producer 	 false 	 false 	 false
+$8. Topic 	 false 	 false 	 false
+$9. TopicPartition 	 true 	 true 	 true
+$10. ZooKeeper 	 false 	 false 	 false
+$11. Int 	 false 	 false 	 false
+$12. String 	 false 	 false 	 false
+$13. none 	 false 	 false 	 false
+$14. univ 	 false 	 false 	 false
+
+Time taken: 48.5665
+Preprocessing time: 3
+Parsing time: 1
+Generation time: 0

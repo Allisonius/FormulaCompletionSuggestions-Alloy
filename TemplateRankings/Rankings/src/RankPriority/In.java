@@ -164,7 +164,29 @@ public class In {
 			}
 		}
 		
-
+		if(template.equals("SIGNATURE")) {
+			return 11;
+		}
+		if(template.equals("VARIABLE")) {
+			return 14;
+		}
+		if(template.equals("RELATION")) {
+			return 13;
+		}
+		/*
+		if(template.equals("SIGNATURE.RELATION")) {
+			return 12;
+		}
+		if(template.startsWith("SIGNATURE.RELATION")) {
+			return 14;
+		}
+		if(template.startsWith("VARIABLE.RELATION")) {
+			return 14;
+		}
+		if(template.equals("VARIABLE.RELATION")) {
+			return 12;
+		}
+		*/
 		
 		//rank built in set features last
 		if(template.equals("CONSTANT")) {

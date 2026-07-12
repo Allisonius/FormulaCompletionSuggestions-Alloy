@@ -265,6 +265,47 @@ public class Join {
 			}
 		}
 		
+		if(template.equals("SIGNATURE")) {
+			return 22;
+		}
+		if(template.equals("VARIABLE")) {
+			return 20;
+		}
+		if(template.equals("RELATION")) {
+			return 20;
+		}
+		
+		
+		if(template.equals("RELATION.VARIABLE")) {
+			return 21;
+		}
+		/*if(template.equals("SIGNATURE.RELATION")) {
+			return 21;
+		}
+	//	if(template.equals("RELATION.SIGNATURE")) {
+	//		return 22;
+	//	}*/
+		if(template.equals("RELATION.RELATION")) {
+			return 22;
+		}
+		if(template.equals("VARIABLE.RELATION")) {
+			return 23;
+		}
+		if(template.equals("RELATION.SIGNATURE")) {
+					return 24;
+		}
+		
+		//if(template.equals("SIGNATURE")) {
+		//	return highest_ranked_template + 2;
+		//}
+		if(template.equals("VARIABLE")) {
+			return highest_ranked_template + 1;
+		}
+		if(template.equals("RELATION")) {
+			return highest_ranked_template;
+		}
+
+		
 		//rank built in set features last
 		if(template.equals("CONSTANT")) {
 			return Integer.MAX_VALUE;
@@ -287,14 +328,14 @@ public class Join {
 		}
 		if(template.contains("SIGNATURE")) {
 			String temp [] = template.split("SIGNATURE");
-			vars += temp.length;
+			sigs += temp.length;
 		}
 		if(template.contains("RELATION")) {
 			String temp [] = template.split("RELATION");
-			vars += temp.length;
+			rels += temp.length;
 		}
 		
-		int rank = highest_ranked_template + 1 + + rels + (num_joins.length * 100000);
+		int rank = highest_ranked_template + 1 + sigs + (num_joins.length * 100000);
 		
 		rank += ops * 10000;
 		rank += transposes * 10;

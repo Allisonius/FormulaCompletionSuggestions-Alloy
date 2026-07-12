@@ -1,0 +1,22 @@
+Model name: lib_prop_merged
+Filename: completion/lib_prop_merged-sig.als
+Offset: 214
+Term: .
+Vscode Position: line=10 character=23
+----------------------------------
+11 |  all x : Constants | x.
+----------------------------------
+Expected Completion word: maxNbLoans
+Expected Completion line: maxNbLoans = 7
+Suggestion exists: true
+Completion List:
+# Suggestion 	 Exact 	 Syntactic 	 Semantic
+$1. maxNbLoans 	 true 	 true 	 true
+$2. maxNbLoans.Int 	 false 	 false 	 false
+$3. maxNbLoans.univ 	 false 	 false 	 false
+$4.  	 false 	 undefined 	 undefined
+
+Time taken: 133.482709
+Preprocessing time: 23
+Parsing time: 1
+Generation time: 8

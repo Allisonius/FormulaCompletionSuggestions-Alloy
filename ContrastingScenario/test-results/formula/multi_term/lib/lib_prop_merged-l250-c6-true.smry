@@ -1,0 +1,83 @@
+Model name: lib_prop_merged
+Filename: completion/lib_prop_merged-complete.als
+Offset: 5387
+Term:  in 
+Vscode Position: line=249 character=6
+----------------------------------
+250 |  m in 
+----------------------------------
+Expected Completion word: L.members
+Expected Completion line: L.members
+Suggestion exists: true
+Completion List:
+# Suggestion 	 Exact 	 Syntactic 	 Semantic
+$1. L 	 true 	 undefined 	 undefined
+$2. L.members 	 true 	 undefined 	 undefined
+$3. m 	 false 	 undefined 	 undefined
+$4. m 	 false 	 undefined 	 undefined
+$5. members.m.~members 	 false 	 undefined 	 undefined
+$6. ~books.L.books 	 false 	 undefined 	 undefined
+$7. ~books.L.members 	 false 	 undefined 	 undefined
+$8. ~members.L 	 false 	 undefined 	 undefined
+$9. ~members.L.books 	 false 	 undefined 	 undefined
+$10. ~members.L.members 	 false 	 undefined 	 undefined
+$11. Book 	 false 	 undefined 	 undefined
+$12. Book.~books.members 	 false 	 undefined 	 undefined
+$13. Constants 	 false 	 undefined 	 undefined
+$14. Lib 	 false 	 undefined 	 undefined
+$15. Lib.members 	 false 	 undefined 	 undefined
+$16. Member 	 false 	 undefined 	 undefined
+$17. books.Book.~books 	 false 	 undefined 	 undefined
+$18. members.Member.~members 	 false 	 undefined 	 undefined
+$19. ~books.Lib.books 	 false 	 undefined 	 undefined
+$20. ~books.Lib.members 	 false 	 undefined 	 undefined
+$21. ~maxNbLoans.Constants.maxNbLoans 	 false 	 undefined 	 undefined
+$22. ~members.Lib 	 false 	 undefined 	 undefined
+$23. ~members.Lib.books 	 false 	 undefined 	 undefined
+$24. ~members.Lib.members 	 false 	 undefined 	 undefined
+$25. ~members.books.Book 	 false 	 undefined 	 undefined
+$26. books.univ.maxNbLoans 	 false 	 undefined 	 undefined
+$27. books.univ.members 	 false 	 undefined 	 undefined
+$28. books.univ.~books 	 false 	 undefined 	 undefined
+$29. books.univ.~maxNbLoans 	 false 	 undefined 	 undefined
+$30. books.univ.~members 	 false 	 undefined 	 undefined
+$31. maxNbLoans.Int.~maxNbLoans 	 false 	 undefined 	 undefined
+$32. maxNbLoans.univ.books 	 false 	 undefined 	 undefined
+$33. maxNbLoans.univ.members 	 false 	 undefined 	 undefined
+$34. maxNbLoans.univ.~books 	 false 	 undefined 	 undefined
+$35. maxNbLoans.univ.~maxNbLoans 	 false 	 undefined 	 undefined
+$36. maxNbLoans.univ.~members 	 false 	 undefined 	 undefined
+$37. members.univ.maxNbLoans 	 false 	 undefined 	 undefined
+$38. members.univ.members 	 false 	 undefined 	 undefined
+$39. members.univ.~books 	 false 	 undefined 	 undefined
+$40. members.univ.~maxNbLoans 	 false 	 undefined 	 undefined
+$41. members.univ.~members 	 false 	 undefined 	 undefined
+$42. univ.members 	 false 	 undefined 	 undefined
+$43. univ.~books.members 	 false 	 undefined 	 undefined
+$44. ~books.univ.books 	 false 	 undefined 	 undefined
+$45. ~books.univ.maxNbLoans 	 false 	 undefined 	 undefined
+$46. ~books.univ.members 	 false 	 undefined 	 undefined
+$47. ~maxNbLoans.univ.books 	 false 	 undefined 	 undefined
+$48. ~maxNbLoans.univ.maxNbLoans 	 false 	 undefined 	 undefined
+$49. ~maxNbLoans.univ.members 	 false 	 undefined 	 undefined
+$50. ~members.books.univ 	 false 	 undefined 	 undefined
+$51. ~members.univ.books 	 false 	 undefined 	 undefined
+$52. ~members.univ.maxNbLoans 	 false 	 undefined 	 undefined
+$53. ~members.univ.members 	 false 	 undefined 	 undefined
+$54. ~books.univ.~maxNbLoans 	 false 	 undefined 	 undefined
+$55. ~books.univ.~members 	 false 	 undefined 	 undefined
+$56. ~maxNbLoans.univ.~books 	 false 	 undefined 	 undefined
+$57. ~maxNbLoans.univ.~members 	 false 	 undefined 	 undefined
+$58. ~members.univ 	 false 	 undefined 	 undefined
+$59. ~members.univ.~books 	 false 	 undefined 	 undefined
+$60. ~members.univ.~maxNbLoans 	 false 	 undefined 	 undefined
+$61. univ 	 false 	 undefined 	 undefined
+$62. Int 	 false 	 undefined 	 undefined
+$63. String 	 false 	 undefined 	 undefined
+$64. none 	 false 	 undefined 	 undefined
+$65. univ 	 false 	 undefined 	 undefined
+
+Time taken: 61.581875
+Preprocessing time: 13
+Parsing time: 7
+Generation time: 8

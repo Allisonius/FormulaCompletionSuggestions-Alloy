@@ -1,0 +1,90 @@
+Model name: kafka_final
+Filename: completion/kafka_final-sig.als
+Offset: 2747
+Term: .
+Vscode Position: line=85 character=30
+----------------------------------
+86 |     disj[p.(leader+followers).
+----------------------------------
+Expected Completion word: events.elems
+Expected Completion line: events.elems,
+Suggestion exists: true
+Completion List:
+# Suggestion 	 Exact 	 Syntactic 	 Semantic
+$1. ~followers.p 	 false 	 undefined 	 undefined
+$2. ~leader.p 	 false 	 undefined 	 undefined
+$3. PartitionReplica 	 false 	 undefined 	 undefined
+$4. PartitionReplica.events 	 false 	 undefined 	 undefined
+$5. PartitionReplica.events' 	 false 	 undefined 	 undefined
+$6. PartitionReplica.~followers 	 false 	 undefined 	 undefined
+$7. PartitionReplica.~leader 	 false 	 undefined 	 undefined
+$8. PartitionReplica.~replicasInBroker 	 false 	 undefined 	 undefined
+$9. events'.KafkaEvent 	 false 	 undefined 	 undefined
+$10. events.KafkaEvent 	 false 	 undefined 	 undefined
+$11. ~followers.TopicPartition 	 false 	 undefined 	 undefined
+$12. ~leader.TopicPartition 	 false 	 undefined 	 undefined
+$13. ~replicasInBroker.Broker 	 false 	 undefined 	 undefined
+$14. events 	 true 	 undefined 	 undefined
+$15. events' 	 false 	 undefined 	 undefined
+$16. events'.univ 	 false 	 undefined 	 undefined
+$17. events.univ 	 false 	 undefined 	 undefined
+$18. univ.assignedTo 	 false 	 undefined 	 undefined
+$19. univ.assignments 	 false 	 undefined 	 undefined
+$20. univ.brokers 	 false 	 undefined 	 undefined
+$21. univ.brokers' 	 false 	 undefined 	 undefined
+$22. univ.consumer_groups 	 false 	 undefined 	 undefined
+$23. univ.consumers 	 false 	 undefined 	 undefined
+$24. univ.events 	 false 	 undefined 	 undefined
+$25. univ.events' 	 false 	 undefined 	 undefined
+$26. univ.followers 	 false 	 undefined 	 undefined
+$27. univ.followers' 	 false 	 undefined 	 undefined
+$28. univ.leader 	 false 	 undefined 	 undefined
+$29. univ.leader' 	 false 	 undefined 	 undefined
+$30. univ.offsets 	 false 	 undefined 	 undefined
+$31. univ.offsets' 	 false 	 undefined 	 undefined
+$32. univ.partitions 	 false 	 undefined 	 undefined
+$33. univ.producers 	 false 	 undefined 	 undefined
+$34. univ.replicasInBroker 	 false 	 undefined 	 undefined
+$35. univ.replicasInBroker' 	 false 	 undefined 	 undefined
+$36. univ.replicationFactor 	 false 	 undefined 	 undefined
+$37. univ.subscribedTo 	 false 	 undefined 	 undefined
+$38. univ.topics 	 false 	 undefined 	 undefined
+$39. univ.zookeeper 	 false 	 undefined 	 undefined
+$40. ~followers.followers' 	 false 	 undefined 	 undefined
+$41. ~followers.leader 	 false 	 undefined 	 undefined
+$42. ~followers.leader' 	 false 	 undefined 	 undefined
+$43. ~leader.followers 	 false 	 undefined 	 undefined
+$44. ~leader.followers' 	 false 	 undefined 	 undefined
+$45. ~leader.leader' 	 false 	 undefined 	 undefined
+$46. ~replicasInBroker.replicasInBroker' 	 false 	 undefined 	 undefined
+$47. univ.~assignedTo 	 false 	 undefined 	 undefined
+$48. univ.~brokers 	 false 	 undefined 	 undefined
+$49. univ.~consumer_groups 	 false 	 undefined 	 undefined
+$50. univ.~consumers 	 false 	 undefined 	 undefined
+$51. univ.~followers 	 false 	 undefined 	 undefined
+$52. univ.~leader 	 false 	 undefined 	 undefined
+$53. univ.~partitions 	 false 	 undefined 	 undefined
+$54. univ.~producers 	 false 	 undefined 	 undefined
+$55. univ.~replicasInBroker 	 false 	 undefined 	 undefined
+$56. univ.~replicationFactor 	 false 	 undefined 	 undefined
+$57. univ.~subscribedTo 	 false 	 undefined 	 undefined
+$58. univ.~topics 	 false 	 undefined 	 undefined
+$59. univ.~zookeeper 	 false 	 undefined 	 undefined
+$60. ~followers 	 false 	 undefined 	 undefined
+$61. ~followers.univ 	 false 	 undefined 	 undefined
+$62. ~followers.~assignedTo 	 false 	 undefined 	 undefined
+$63. ~followers.~partitions 	 false 	 undefined 	 undefined
+$64. ~leader 	 false 	 undefined 	 undefined
+$65. ~leader.univ 	 false 	 undefined 	 undefined
+$66. ~leader.~assignedTo 	 false 	 undefined 	 undefined
+$67. ~leader.~partitions 	 false 	 undefined 	 undefined
+$68. ~replicasInBroker 	 false 	 undefined 	 undefined
+$69. ~replicasInBroker.univ 	 false 	 undefined 	 undefined
+$70. ~replicasInBroker.~brokers 	 false 	 undefined 	 undefined
+$71.  	 false 	 undefined 	 undefined
+$72. univ 	 false 	 undefined 	 undefined
+
+Time taken: 63.311666
+Preprocessing time: 2
+Parsing time: 1
+Generation time: 4

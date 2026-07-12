@@ -1,0 +1,65 @@
+Model name: kafka_final
+Filename: completion/kafka_final-complete.als
+Offset: 21276
+Term: .
+Vscode Position: line=675 character=83
+----------------------------------
+676 |   all other_p : dom[followers] - recover_partitions | other_p.followers' = other_p.
+----------------------------------
+Expected Completion word: followers
+Expected Completion line: followers
+Suggestion exists: true
+Completion List:
+# Suggestion 	 Exact 	 Syntactic 	 Semantic
+$1. followers'.PartitionReplica 	 false 	 undefined 	 undefined
+$2. followers.PartitionReplica 	 false 	 undefined 	 undefined
+$3. leader'.PartitionReplica 	 false 	 undefined 	 undefined
+$4. leader.PartitionReplica 	 false 	 undefined 	 undefined
+$5. ~assignedTo.Consumer 	 false 	 undefined 	 undefined
+$6. ~partitions.Topic 	 false 	 undefined 	 undefined
+$7. followers 	 true 	 undefined 	 undefined
+$8. followers' 	 false 	 undefined 	 undefined
+$9. followers'.events 	 false 	 undefined 	 undefined
+$10. followers'.events' 	 false 	 undefined 	 undefined
+$11. followers'.univ 	 false 	 undefined 	 undefined
+$12. followers'.~followers 	 false 	 undefined 	 undefined
+$13. followers'.~followers 	 false 	 undefined 	 undefined
+$14. followers'.~leader 	 false 	 undefined 	 undefined
+$15. followers'.~leader 	 false 	 undefined 	 undefined
+$16. followers'.~replicasInBroker 	 false 	 undefined 	 undefined
+$17. followers.events 	 false 	 undefined 	 undefined
+$18. followers.events' 	 false 	 undefined 	 undefined
+$19. followers.univ 	 false 	 undefined 	 undefined
+$20. followers.~leader 	 false 	 undefined 	 undefined
+$21. followers.~leader 	 false 	 undefined 	 undefined
+$22. followers.~replicasInBroker 	 false 	 undefined 	 undefined
+$23. leader 	 false 	 undefined 	 undefined
+$24. leader' 	 false 	 undefined 	 undefined
+$25. leader'.events 	 false 	 undefined 	 undefined
+$26. leader'.events' 	 false 	 undefined 	 undefined
+$27. leader'.univ 	 false 	 undefined 	 undefined
+$28. leader'.~followers 	 false 	 undefined 	 undefined
+$29. leader'.~followers 	 false 	 undefined 	 undefined
+$30. leader'.~leader 	 false 	 undefined 	 undefined
+$31. leader'.~leader 	 false 	 undefined 	 undefined
+$32. leader'.~replicasInBroker 	 false 	 undefined 	 undefined
+$33. leader.events 	 false 	 undefined 	 undefined
+$34. leader.events' 	 false 	 undefined 	 undefined
+$35. leader.univ 	 false 	 undefined 	 undefined
+$36. leader.~followers 	 false 	 undefined 	 undefined
+$37. leader.~followers 	 false 	 undefined 	 undefined
+$38. leader.~replicasInBroker 	 false 	 undefined 	 undefined
+$39. ~assignedTo 	 false 	 undefined 	 undefined
+$40. ~assignedTo.univ 	 false 	 undefined 	 undefined
+$41. ~assignedTo.~consumers 	 false 	 undefined 	 undefined
+$42. ~partitions 	 false 	 undefined 	 undefined
+$43. ~partitions.univ 	 false 	 undefined 	 undefined
+$44. ~partitions.~subscribedTo 	 false 	 undefined 	 undefined
+$45. ~partitions.~topics 	 false 	 undefined 	 undefined
+$46.  	 false 	 undefined 	 undefined
+$47.  	 false 	 undefined 	 undefined
+
+Time taken: 77.338583
+Preprocessing time: 16
+Parsing time: 7
+Generation time: 2

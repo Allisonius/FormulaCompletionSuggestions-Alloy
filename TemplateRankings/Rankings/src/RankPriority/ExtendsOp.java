@@ -10,11 +10,11 @@ public class ExtendsOp {
 		incompleteTerm = incompleteTerm.replaceAll("\\*", "");
 		incompleteTerm = incompleteTerm.replaceAll("\\^", "");
 
-		if(incompleteTerm.equals("SIGNATURE")) {
+		//if(incompleteTerm.equals("SIGNATURE")) {
 			if(template.equals("SIGNATURE")) {
 				return 1;
 			}
-		}
+		//}
 		//rank built in set features last
 		if(template.equals("CONSTANT")) {
 			return Integer.MAX_VALUE;
@@ -31,12 +31,13 @@ public class ExtendsOp {
 		
 		int ops = closures + rclosures + transposes;
 		
-		int rank = highest_ranked_template + 1 + (num_joins.length * 1000);
+		int rank = highest_ranked_template + 1 + (num_joins.length * 100000);
 		
 		rank += ops * 10000;
-		rank += transposes;
-		rank += closures * 10;
-		rank += rclosures * 100;
+		rank += transposes * 10;
+		rank += closures * 100;
+		rank += rclosures * 1000;
+		
 		
 		return rank;
 			

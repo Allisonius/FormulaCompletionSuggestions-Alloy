@@ -1,0 +1,22 @@
+Model name: lib_prop_merged
+Filename: completion/lib_prop_merged-complete.als
+Offset: 9052
+Term: .
+Vscode Position: line=416 character=38
+----------------------------------
+417 |     (m in b.(L.loan) => not (m in Int.
+----------------------------------
+Expected Completion word: L.membersReservingOneBook.b
+Expected Completion line: (L.membersReservingOneBook.b)))
+Suggestion exists: true
+Completion List:
+# Suggestion 	 Exact 	 Syntactic 	 Semantic
+$1. ~maxNbLoans.Constants 	 false 	 undefined 	 undefined
+$2. ~maxNbLoans 	 false 	 undefined 	 undefined
+$3. ~maxNbLoans.univ 	 false 	 undefined 	 undefined
+$4.  	 true 	 undefined 	 undefined
+
+Time taken: 35.632125
+Preprocessing time: 10
+Parsing time: 5
+Generation time: 0

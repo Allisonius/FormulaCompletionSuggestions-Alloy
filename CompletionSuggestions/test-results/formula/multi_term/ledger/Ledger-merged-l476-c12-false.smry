@@ -1,0 +1,19 @@
+Model name: Ledger-merged
+Filename: completion/Ledger-merged-complete.als
+Offset: 11062
+Term: .
+Vscode Position: line=475 character=12
+----------------------------------
+476 |     (some b.
+----------------------------------
+Expected Completion word: undefined
+Expected Completion line: parents and no b.prev)
+Suggestion exists: false
+Completion List:
+# Suggestion 	 Exact 	 Syntactic 	 Semantic
+
+
+Time taken: 51.978917
+Preprocessing time: N/A
+Parsing time: N/A
+Generation time: N/A

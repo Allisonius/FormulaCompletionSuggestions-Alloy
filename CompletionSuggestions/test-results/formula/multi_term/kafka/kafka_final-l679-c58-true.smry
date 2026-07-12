@@ -1,0 +1,43 @@
+Model name: kafka_final
+Filename: completion/kafka_final-complete.als
+Offset: 21396
+Term: .
+Vscode Position: line=678 character=58
+----------------------------------
+679 |   all b : dom[replicasInBroker] | b.replicasInBroker' = b.
+----------------------------------
+Expected Completion word: replicasInBroker
+Expected Completion line: replicasInBroker
+Suggestion exists: true
+Completion List:
+# Suggestion 	 Exact 	 Syntactic 	 Semantic
+$1. replicasInBroker'.PartitionReplica 	 false 	 undefined 	 undefined
+$2. replicasInBroker.PartitionReplica 	 false 	 undefined 	 undefined
+$3. ~brokers.ZooKeeper 	 false 	 undefined 	 undefined
+$4. replicasInBroker 	 true 	 undefined 	 undefined
+$5. replicasInBroker' 	 false 	 undefined 	 undefined
+$6. replicasInBroker'.events 	 false 	 undefined 	 undefined
+$7. replicasInBroker'.events' 	 false 	 undefined 	 undefined
+$8. replicasInBroker'.univ 	 false 	 undefined 	 undefined
+$9. replicasInBroker'.~followers 	 false 	 undefined 	 undefined
+$10. replicasInBroker'.~leader 	 false 	 undefined 	 undefined
+$11. replicasInBroker'.~replicasInBroker 	 false 	 undefined 	 undefined
+$12. replicasInBroker'.~replicasInBroker 	 false 	 undefined 	 undefined
+$13. replicasInBroker.events 	 false 	 undefined 	 undefined
+$14. replicasInBroker.events' 	 false 	 undefined 	 undefined
+$15. replicasInBroker.univ 	 false 	 undefined 	 undefined
+$16. replicasInBroker.~followers 	 false 	 undefined 	 undefined
+$17. replicasInBroker.~leader 	 false 	 undefined 	 undefined
+$18. ~brokers.brokers' 	 false 	 undefined 	 undefined
+$19. ~brokers.brokers' 	 false 	 undefined 	 undefined
+$20. ~brokers.topics 	 false 	 undefined 	 undefined
+$21. ~brokers 	 false 	 undefined 	 undefined
+$22. ~brokers.univ 	 false 	 undefined 	 undefined
+$23. ~brokers.~zookeeper 	 false 	 undefined 	 undefined
+$24.  	 false 	 undefined 	 undefined
+$25.  	 false 	 undefined 	 undefined
+
+Time taken: 78.506125
+Preprocessing time: 16
+Parsing time: 8
+Generation time: 1

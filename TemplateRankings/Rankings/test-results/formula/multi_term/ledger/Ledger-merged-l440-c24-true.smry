@@ -1,0 +1,60 @@
+Model name: Ledger-merged
+Filename: completion/Ledger-merged-complete.als
+Offset: 10190
+Term: .
+Vscode Position: line=439 character=24
+----------------------------------
+440 |     t1 != t2 implies t1.
+----------------------------------
+Expected Completion word: hash
+Expected Completion line: hash != t2.hash
+Suggestion exists: true
+Completion List:
+# Suggestion 	 Exact 	 Syntactic 	 Semantic
+$1. hash.Hash 	 false 	 undefined 	 undefined
+$2. meta.Metadata 	 false 	 undefined 	 undefined
+$3. payload.ContractPayload 	 false 	 undefined 	 undefined
+$4. payload.Payload 	 false 	 undefined 	 undefined
+$5. payload.TransferPayload 	 false 	 undefined 	 undefined
+$6. tt.Deploy 	 false 	 undefined 	 undefined
+$7. tt.Invoke 	 false 	 undefined 	 undefined
+$8. tt.Transfer 	 false 	 undefined 	 undefined
+$9. tt.Type 	 false 	 undefined 	 undefined
+$10. ~data.BlockRec 	 false 	 undefined 	 undefined
+$11. ~data.Genesis 	 false 	 undefined 	 undefined
+$12. hash 	 true 	 undefined 	 undefined
+$13. hash.*prev 	 false 	 undefined 	 undefined
+$14. hash.^prev 	 false 	 undefined 	 undefined
+$15. hash.prev 	 false 	 undefined 	 undefined
+$16. hash.univ 	 false 	 undefined 	 undefined
+$17. hash.~prev 	 false 	 undefined 	 undefined
+$18. meta 	 false 	 undefined 	 undefined
+$19. meta.univ 	 false 	 undefined 	 undefined
+$20. payload 	 false 	 undefined 	 undefined
+$21. payload.amount 	 false 	 undefined 	 undefined
+$22. payload.assigns 	 false 	 undefined 	 undefined
+$23. payload.atTime 	 false 	 undefined 	 undefined
+$24. payload.receiver 	 false 	 undefined 	 undefined
+$25. payload.sender 	 false 	 undefined 	 undefined
+$26. payload.token 	 false 	 undefined 	 undefined
+$27. payload.univ 	 false 	 undefined 	 undefined
+$28. tt 	 false 	 undefined 	 undefined
+$29. tt.univ 	 false 	 undefined 	 undefined
+$30. ~data.id 	 false 	 undefined 	 undefined
+$31. ~data.meta 	 false 	 undefined 	 undefined
+$32. ~data.parents 	 false 	 undefined 	 undefined
+$33. ~data.prev 	 false 	 undefined 	 undefined
+$34. ~data 	 false 	 undefined 	 undefined
+$35. ~data.*parents 	 false 	 undefined 	 undefined
+$36. ~data.*prev 	 false 	 undefined 	 undefined
+$37. ~data.^parents 	 false 	 undefined 	 undefined
+$38. ~data.^prev 	 false 	 undefined 	 undefined
+$39. ~data.univ 	 false 	 undefined 	 undefined
+$40. ~data.~parents 	 false 	 undefined 	 undefined
+$41. ~data.~prev 	 false 	 undefined 	 undefined
+$42.  	 false 	 undefined 	 undefined
+
+Time taken: 52.396
+Preprocessing time: 11
+Parsing time: 5
+Generation time: 2

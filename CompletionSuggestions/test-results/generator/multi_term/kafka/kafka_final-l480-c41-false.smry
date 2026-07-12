@@ -1,0 +1,19 @@
+Model name: kafka_final
+Filename: completion/kafka_final-complete.als
+Offset: 15142
+Term:  + 
+Vscode Position: line=479 character=41
+----------------------------------
+480 |   all r : PartitionReplica - p.(leader + 
+----------------------------------
+Expected Completion word: undefined
+Expected Completion line: followers) | r.events' = r.events
+Suggestion exists: false
+Completion List:
+# Suggestion 	 Exact 	 Syntactic 	 Semantic
+
+
+Time taken: 85.669208
+Preprocessing time: N/A
+Parsing time: N/A
+Generation time: N/A

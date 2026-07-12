@@ -1,0 +1,1 @@
+{"modelName":"kafka_final","filename":"completion/kafka_final-complete.als","offset":19637,"term":".","line":627,"character":16,"incompletionLine":"dom[events'.","completionList":"","evaluationResult":[],"completionGenerated":false,"suggestionExists":false,"expectedCompletionLine":"KafkaEvent] = dom[events.KafkaEvent] + recover_partitions.followers'","elapsedTimeInMs":90.8055}

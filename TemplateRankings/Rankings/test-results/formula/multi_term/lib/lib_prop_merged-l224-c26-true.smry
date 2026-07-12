@@ -1,0 +1,22 @@
+Model name: lib_prop_merged
+Filename: completion/lib_prop_merged-complete.als
+Offset: 4690
+Term: .
+Vscode Position: line=223 character=26
+----------------------------------
+224 |  (#((L.loan).m)<Constants.
+----------------------------------
+Expected Completion word: maxNbLoans
+Expected Completion line: maxNbLoans) //maxNbLoans is the number maximum of lend authorized
+Suggestion exists: true
+Completion List:
+# Suggestion 	 Exact 	 Syntactic 	 Semantic
+$1. maxNbLoans 	 true 	 undefined 	 undefined
+$2. maxNbLoans.Int 	 false 	 undefined 	 undefined
+$3. maxNbLoans.univ 	 false 	 undefined 	 undefined
+$4.  	 false 	 undefined 	 undefined
+
+Time taken: 55.202125
+Preprocessing time: 13
+Parsing time: 6
+Generation time: 1

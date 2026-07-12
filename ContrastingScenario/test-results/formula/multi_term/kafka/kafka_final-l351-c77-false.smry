@@ -1,0 +1,26 @@
+Model name: kafka_final
+Filename: completion/kafka_final-complete.als
+Offset: 11049
+Term: .
+Vscode Position: line=350 character=77
+----------------------------------
+351 |   all c: c_multiple | let cg = c.~consumers | cg.offsets'[p] = cg.offsets[p].
+----------------------------------
+Expected Completion word: add
+Expected Completion line: add[1]
+Suggestion exists: false
+Completion List:
+# Suggestion 	 Exact 	 Syntactic 	 Semantic
+$1. ~replicationFactor.k 	 false 	 undefined 	 undefined
+$2. ~replicationFactor.Kafka 	 false 	 undefined 	 undefined
+$3. ~replicationFactor.consumer_groups 	 false 	 undefined 	 undefined
+$4. ~replicationFactor.producers 	 false 	 undefined 	 undefined
+$5. ~replicationFactor.zookeeper 	 false 	 undefined 	 undefined
+$6. ~replicationFactor 	 false 	 undefined 	 undefined
+$7. ~replicationFactor.univ 	 false 	 undefined 	 undefined
+$8.  	 false 	 undefined 	 undefined
+
+Time taken: 48.7775
+Preprocessing time: 16
+Parsing time: 8
+Generation time: 1

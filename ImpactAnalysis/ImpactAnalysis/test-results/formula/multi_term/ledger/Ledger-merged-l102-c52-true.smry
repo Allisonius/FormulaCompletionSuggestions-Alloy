@@ -1,0 +1,63 @@
+Model name: Ledger-merged
+Filename: completion/Ledger-merged-sig.als
+Offset: 2498
+Term:  extends 
+Vscode Position: line=101 character=52
+----------------------------------
+102 | one sig Validator, Miner, Archive, Observer extends 
+----------------------------------
+Expected Completion word: Role
+Expected Completion line: Role {}
+Suggestion exists: true
+Completion List:
+# Suggestion 	 Exact 	 Syntactic 	 Semantic
+$1. AddrDerivation 	 false 	 false 	 false
+$2. Asset 	 false 	 false 	 false
+$3. AssetModel 	 false 	 false 	 false
+$4. BlockId 	 false 	 false 	 false
+$5. BlockMeta 	 false 	 false 	 false
+$6. BlockRec 	 false 	 false 	 false
+$7. ContractPayload 	 false 	 false 	 false
+$8. DLTAccount 	 false 	 false 	 false
+$9. DLTAddress 	 false 	 false 	 false
+$10. DLTUser 	 false 	 false 	 false
+$11. Deploy 	 false 	 false 	 false
+$12. ExternalUser 	 false 	 false 	 false
+$13. First 	 false 	 false 	 false
+$14. FullNode 	 false 	 false 	 false
+$15. Fungible 	 false 	 false 	 false
+$16. Genesis 	 false 	 false 	 false
+$17. Hash 	 false 	 false 	 false
+$18. Invoke 	 false 	 false 	 false
+$19. KeyPair 	 false 	 false 	 false
+$20. LightNode 	 false 	 false 	 false
+$21. Metadata 	 false 	 false 	 false
+$22. NonFungible 	 false 	 false 	 false
+$23. Payload 	 false 	 false 	 false
+$24. PeerNode 	 false 	 false 	 false
+$25. PosValue 	 false 	 false 	 false
+$26. PrivateKey 	 false 	 false 	 false
+$27. PublicKey 	 false 	 false 	 false
+$28. Role 	 true 	 true 	 true
+$29. Service 	 false 	 false 	 false
+$30. State 	 false 	 false 	 false
+$31. StateVar 	 false 	 false 	 false
+$32. Time 	 false 	 false 	 false
+$33. Token 	 false 	 false 	 false
+$34. TokenType 	 false 	 false 	 false
+$35. Transaction 	 false 	 false 	 false
+$36. Transfer 	 false 	 false 	 false
+$37. TransferPayload 	 false 	 false 	 false
+$38. Type 	 false 	 false 	 false
+$39. User 	 false 	 false 	 false
+$40. Value 	 false 	 false 	 false
+$41. Zero 	 false 	 false 	 false
+$42. Int 	 false 	 false 	 false
+$43. String 	 false 	 false 	 false
+$44. none 	 false 	 false 	 false
+$45. univ 	 false 	 false 	 false
+
+Time taken: 33.091417
+Preprocessing time: 1
+Parsing time: 0
+Generation time: 0

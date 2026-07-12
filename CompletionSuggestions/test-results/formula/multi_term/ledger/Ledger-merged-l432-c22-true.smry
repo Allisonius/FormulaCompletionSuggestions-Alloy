@@ -1,0 +1,51 @@
+Model name: Ledger-merged
+Filename: completion/Ledger-merged-complete.als
+Offset: 10041
+Term: .
+Vscode Position: line=431 character=22
+----------------------------------
+432 |   no h: Hash | h in h.
+----------------------------------
+Expected Completion word: prev
+Expected Completion line: ^prev
+Suggestion exists: true
+Completion List:
+# Suggestion 	 Exact 	 Syntactic 	 Semantic
+$1. *prev.h 	 false 	 undefined 	 undefined
+$2. ^prev.h 	 false 	 undefined 	 undefined
+$3. prev.h 	 false 	 undefined 	 undefined
+$4. ~prev.h 	 false 	 undefined 	 undefined
+$5. *prev.Hash 	 false 	 undefined 	 undefined
+$6. ^prev.Hash 	 false 	 undefined 	 undefined
+$7. prev.Hash 	 false 	 undefined 	 undefined
+$8. ~hash.Transaction 	 false 	 undefined 	 undefined
+$9. ~prev.Hash 	 false 	 undefined 	 undefined
+$10. prev 	 true 	 undefined 	 undefined
+$11. prev 	 true 	 undefined 	 undefined
+$12. prev.univ 	 false 	 undefined 	 undefined
+$13. prev.~hash 	 false 	 undefined 	 undefined
+$14. ~hash.meta 	 false 	 undefined 	 undefined
+$15. ~hash.payload 	 false 	 undefined 	 undefined
+$16. ~hash.tt 	 false 	 undefined 	 undefined
+$17. *prev.~hash 	 false 	 undefined 	 undefined
+$18. ^prev.~hash 	 false 	 undefined 	 undefined
+$19. ~hash 	 false 	 undefined 	 undefined
+$20. ~hash.univ 	 false 	 undefined 	 undefined
+$21. ~hash.~data 	 false 	 undefined 	 undefined
+$22. ~prev 	 false 	 undefined 	 undefined
+$23. ~prev 	 false 	 undefined 	 undefined
+$24. ~prev.univ 	 false 	 undefined 	 undefined
+$25. ~prev.~hash 	 false 	 undefined 	 undefined
+$26. ^prev 	 true 	 undefined 	 undefined
+$27. ^prev 	 true 	 undefined 	 undefined
+$28. ^prev.univ 	 false 	 undefined 	 undefined
+$29.  	 false 	 undefined 	 undefined
+$30.  	 false 	 undefined 	 undefined
+$31. *prev 	 false 	 undefined 	 undefined
+$32. *prev 	 false 	 undefined 	 undefined
+$33. *prev.univ 	 false 	 undefined 	 undefined
+
+Time taken: 66.23725
+Preprocessing time: 12
+Parsing time: 6
+Generation time: 1

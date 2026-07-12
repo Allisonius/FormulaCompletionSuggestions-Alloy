@@ -1,0 +1,56 @@
+Model name: kafka_final
+Filename: completion/kafka_final-complete.als
+Offset: 21023
+Term: .
+Vscode Position: line=672 character=41
+----------------------------------
+673 |   all pre_existing_replicas : dom[events.
+----------------------------------
+Expected Completion word: KafkaEvent
+Expected Completion line: KafkaEvent] | pre_existing_replicas.events' = pre_existing_replicas.events
+Suggestion exists: true
+Completion List:
+# Suggestion 	 Exact 	 Syntactic 	 Semantic
+$1. KafkaEvent 	 true 	 true 	 true
+$2. univ.assignedTo 	 false 	 false 	 false
+$3. univ.assignments 	 false 	 false 	 false
+$4. univ.brokers 	 false 	 false 	 false
+$5. univ.brokers' 	 false 	 false 	 false
+$6. univ.consumer_groups 	 false 	 false 	 false
+$7. univ.consumers 	 false 	 false 	 false
+$8. univ.events 	 false 	 false 	 false
+$9. univ.events' 	 false 	 false 	 false
+$10. univ.followers 	 false 	 false 	 false
+$11. univ.followers' 	 false 	 false 	 false
+$12. univ.leader 	 false 	 false 	 false
+$13. univ.leader' 	 false 	 false 	 false
+$14. univ.offsets 	 false 	 false 	 false
+$15. univ.offsets' 	 false 	 false 	 false
+$16. univ.partitions 	 false 	 false 	 false
+$17. univ.producers 	 false 	 false 	 false
+$18. univ.replicasInBroker 	 false 	 false 	 false
+$19. univ.replicasInBroker' 	 false 	 false 	 false
+$20. univ.replicationFactor 	 false 	 false 	 false
+$21. univ.subscribedTo 	 false 	 false 	 false
+$22. univ.topics 	 false 	 false 	 false
+$23. univ.zookeeper 	 false 	 false 	 false
+$24. univ.~assignedTo 	 false 	 false 	 false
+$25. univ.~brokers 	 false 	 false 	 false
+$26. univ.~consumer_groups 	 false 	 false 	 false
+$27. univ.~consumers 	 false 	 false 	 false
+$28. univ.~followers 	 false 	 false 	 false
+$29. univ.~leader 	 false 	 false 	 false
+$30. univ.~partitions 	 false 	 false 	 false
+$31. univ.~producers 	 false 	 false 	 false
+$32. univ.~replicasInBroker 	 false 	 false 	 false
+$33. univ.~replicationFactor 	 false 	 false 	 false
+$34. univ.~subscribedTo 	 false 	 false 	 false
+$35. univ.~topics 	 false 	 false 	 false
+$36. univ.~zookeeper 	 false 	 false 	 false
+$37.  	 false 	 undefined 	 undefined
+$38. univ 	 false 	 false 	 false
+
+Time taken: 97.283125
+Preprocessing time: 15
+Parsing time: 8
+Generation time: 1

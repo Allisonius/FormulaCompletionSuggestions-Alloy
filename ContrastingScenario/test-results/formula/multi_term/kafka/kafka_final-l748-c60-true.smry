@@ -1,0 +1,46 @@
+Model name: kafka_final
+Filename: completion/kafka_final-complete.als
+Offset: 23147
+Term: .
+Vscode Position: line=747 character=60
+----------------------------------
+748 |   Init[3] and some Kafka.zookeeper.topics.partitions.leader.
+----------------------------------
+Expected Completion word: events
+Expected Completion line: events
+Suggestion exists: true
+Completion List:
+# Suggestion 	 Exact 	 Syntactic 	 Semantic
+$1. events'.KafkaEvent 	 false 	 false 	 false
+$2. events.KafkaEvent 	 false 	 false 	 false
+$3. ~followers.TopicPartition 	 false 	 false 	 false
+$4. ~leader.TopicPartition 	 false 	 false 	 false
+$5. ~replicasInBroker.Broker 	 false 	 false 	 false
+$6. events 	 true 	 true 	 true
+$7. events' 	 false 	 false 	 false
+$8. events'.univ 	 false 	 false 	 false
+$9. events.univ 	 false 	 false 	 false
+$10. ~followers.followers' 	 false 	 false 	 false
+$11. ~followers.leader 	 false 	 false 	 false
+$12. ~followers.leader' 	 false 	 false 	 false
+$13. ~leader.followers 	 false 	 false 	 false
+$14. ~leader.followers' 	 false 	 false 	 false
+$15. ~leader.leader' 	 false 	 false 	 false
+$16. ~replicasInBroker.replicasInBroker' 	 false 	 false 	 false
+$17. ~followers 	 false 	 false 	 false
+$18. ~followers.univ 	 false 	 false 	 false
+$19. ~followers.~assignedTo 	 false 	 false 	 false
+$20. ~followers.~partitions 	 false 	 false 	 false
+$21. ~leader 	 false 	 false 	 false
+$22. ~leader.univ 	 false 	 false 	 false
+$23. ~leader.~assignedTo 	 false 	 false 	 false
+$24. ~leader.~partitions 	 false 	 false 	 false
+$25. ~replicasInBroker 	 false 	 false 	 false
+$26. ~replicasInBroker.univ 	 false 	 false 	 false
+$27. ~replicasInBroker.~brokers 	 false 	 false 	 false
+$28.  	 false 	 undefined 	 undefined
+
+Time taken: 71.899834
+Preprocessing time: 16
+Parsing time: 8
+Generation time: 1

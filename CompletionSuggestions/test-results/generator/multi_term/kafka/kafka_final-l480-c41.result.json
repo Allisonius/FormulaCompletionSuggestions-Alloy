@@ -1,0 +1,1 @@
+{"modelName":"kafka_final","filename":"completion/kafka_final-complete.als","offset":15142,"term":" + ","line":480,"character":41,"incompletionLine":"all r : PartitionReplica - p.(leader +","completionList":"","evaluationResult":[],"completionGenerated":false,"suggestionExists":false,"expectedCompletionLine":"followers) | r.events' = r.events","elapsedTimeInMs":85.669208}

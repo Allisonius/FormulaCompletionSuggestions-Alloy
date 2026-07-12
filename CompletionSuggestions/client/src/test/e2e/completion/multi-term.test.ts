@@ -1,5 +1,5 @@
+import "./command-registration.test";
 import { AlloyFileSetup } from "./AlloyFileSetup";
-import { getDocUri } from "../../../utilities/helper";
 import {
   graph,
   trash,
@@ -56,6 +56,22 @@ import {
   gitFixable,
   coursesv1Fixable,
   coursesV2Fixable,
+  tcp,
+  kafkaFinal,
+  digitalWatch,
+  libPropMerged,
+  needhamSchroederPublicKey,
+  elevator,
+  aman,
+  ertms,
+  c11Purturbed,
+  powerPurturbed,
+  hamsters,
+  androidPermission,
+  mcaMerged,
+  dltSystemMerged,
+  governanceMerged,
+  ledgerMerged,
   // address,
 } from "./models-runners";
 
@@ -102,17 +118,34 @@ import {
 // modeloAlloy.runMultiTermTests();
 // // onlineShop.runMultiTermTests();
 // frankervrep.runMultiTermTests();
-// // checkmate.runMultiTermTests();
+// checkmate.runMultiTermTests();
 // // chord.runMultiTermTests();
 // diffAndCD2.runMultiTermTests();
 
 // // LLM Redacted Models
 // gitRedacted.runMultiTermTests();
 
+// tcp.runMultiTermTests();
+// kafkaFinal.runMultiTermTests();
+// digitalWatch.runMultiTermTests();
+// libPropMerged.runMultiTermTests();
+// needhamSchroederPublicKey.runMultiTermTests();
+// elevator.runMultiTermTests();
+// aman.runMultiTermTests();
+// ertms.runMultiTermTests();
+// c11Purturbed.runMultiTermTests();
+// powerPurturbed.runMultiTermTests();
+// hamsters.runMultiTermTests();
+// androidPermission.runMultiTermTests();
+// mcaMerged.runMultiTermTests();
+dltSystemMerged.runMultiTermTests();
+governanceMerged.runMultiTermTests();
+ledgerMerged.runMultiTermTests();
+
 // Fixable Models
-modeloAlloyFixables.runMultiTermTests();
-javaMetaModelFixable.runMultiTermTests();
-randomSkiJumpingFixable.runMultiTermTests();
-gitFixable.runMultiTermTests();
-coursesv1Fixable.runMultiTermTests();
-coursesV2Fixable.runMultiTermTests();
+// modeloAlloyFixables.runMultiTermTests();
+// javaMetaModelFixable.runMultiTermTests();
+// randomSkiJumpingFixable.runMultiTermTests();
+// gitFixable.runMultiTermTests();
+// coursesv1Fixable.runMultiTermTests();
+// coursesV2Fixable.runMultiTermTests();

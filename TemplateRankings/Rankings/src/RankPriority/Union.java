@@ -82,6 +82,26 @@ public class Union {
 				return 1;
 			}
 		}
+		
+		if(template.equals("SIGNATURE")) {
+			return 6;
+		}
+		if(template.equals("VARIABLE")) {
+			return 5;
+		}
+		if(template.equals("RELATION")) {
+			return 7;
+		}
+		
+		/*
+		if(template.equals("SIGNATURE.RELATION")) {
+			return 8;
+		}
+		if(template.equals("VARIABLE.RELATION")) {
+			return 9;
+		}
+		*/
+		
 		//rank built in set features last
 		if(template.equals("CONSTANT")) {
 			return Integer.MAX_VALUE;

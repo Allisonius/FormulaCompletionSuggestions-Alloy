@@ -1,0 +1,95 @@
+Model name: lib_prop_merged
+Filename: completion/lib_prop_merged-complete.als
+Offset: 9384
+Term:  in 
+Vscode Position: line=428 character=11
+----------------------------------
+429 |     ((b in 
+----------------------------------
+Expected Completion word: L.books
+Expected Completion line: L.books) and (b in L.loan.Member)) => one (b ->Member & (L.loan))
+Suggestion exists: true
+Completion List:
+# Suggestion 	 Exact 	 Syntactic 	 Semantic
+$1. L 	 true 	 false 	 false
+$2. L.Renew.Member 	 false 	 false 	 false
+$3. L.Renew.univ 	 false 	 false 	 false
+$4. L.books 	 true 	 true 	 true
+$5. L.loan.Member 	 false 	 false 	 false
+$6. L.loan.univ 	 false 	 false 	 false
+$7. b 	 false 	 undefined 	 undefined
+$8. b 	 false 	 undefined 	 undefined
+$9. books.b.~books 	 false 	 undefined 	 undefined
+$10. ~books.L 	 false 	 false 	 false
+$11. ~books.L.books 	 false 	 false 	 false
+$12. ~books.L.members 	 false 	 false 	 false
+$13. ~members.L.books 	 false 	 false 	 false
+$14. ~members.L.members 	 false 	 false 	 false
+$15. Book 	 false 	 false 	 false
+$16. Constants 	 false 	 false 	 false
+$17. Lib 	 false 	 false 	 false
+$18. Lib.Renew.Member 	 false 	 false 	 false
+$19. Lib.Renew.univ 	 false 	 false 	 false
+$20. Lib.books 	 false 	 false 	 false
+$21. Lib.loan.Member 	 false 	 false 	 false
+$22. Lib.loan.univ 	 false 	 false 	 false
+$23. Member 	 false 	 false 	 false
+$24. Member.~members.books 	 false 	 false 	 false
+$25. books.Book.~books 	 false 	 false 	 false
+$26. members.Member.~members 	 false 	 false 	 false
+$27. univ.Renew.Member 	 false 	 false 	 false
+$28. univ.loan.Member 	 false 	 false 	 false
+$29. ~books.Lib 	 false 	 false 	 false
+$30. ~books.Lib.books 	 false 	 false 	 false
+$31. ~books.Lib.members 	 false 	 false 	 false
+$32. ~books.members.Member 	 false 	 false 	 false
+$33. ~maxNbLoans.Constants.maxNbLoans 	 false 	 false 	 false
+$34. ~members.Lib.books 	 false 	 false 	 false
+$35. ~members.Lib.members 	 false 	 false 	 false
+$36. books.univ.books 	 false 	 false 	 false
+$37. books.univ.maxNbLoans 	 false 	 false 	 false
+$38. books.univ.~books 	 false 	 false 	 false
+$39. books.univ.~maxNbLoans 	 false 	 false 	 false
+$40. books.univ.~members 	 false 	 false 	 false
+$41. maxNbLoans.Int.~maxNbLoans 	 false 	 false 	 false
+$42. maxNbLoans.univ.books 	 false 	 false 	 false
+$43. maxNbLoans.univ.members 	 false 	 false 	 false
+$44. maxNbLoans.univ.~books 	 false 	 false 	 false
+$45. maxNbLoans.univ.~maxNbLoans 	 false 	 false 	 false
+$46. maxNbLoans.univ.~members 	 false 	 false 	 false
+$47. members.univ.books 	 false 	 false 	 false
+$48. members.univ.maxNbLoans 	 false 	 false 	 false
+$49. members.univ.~books 	 false 	 false 	 false
+$50. members.univ.~maxNbLoans 	 false 	 false 	 false
+$51. members.univ.~members 	 false 	 false 	 false
+$52. univ.Renew.univ 	 false 	 false 	 false
+$53. univ.books 	 false 	 false 	 false
+$54. univ.loan.univ 	 false 	 false 	 false
+$55. univ.~members.books 	 false 	 false 	 false
+$56. ~books.members.univ 	 false 	 false 	 false
+$57. ~books.univ.books 	 false 	 false 	 false
+$58. ~books.univ.maxNbLoans 	 false 	 false 	 false
+$59. ~books.univ.members 	 false 	 false 	 false
+$60. ~maxNbLoans.univ.books 	 false 	 false 	 false
+$61. ~maxNbLoans.univ.maxNbLoans 	 false 	 false 	 false
+$62. ~maxNbLoans.univ.members 	 false 	 false 	 false
+$63. ~members.univ.books 	 false 	 false 	 false
+$64. ~members.univ.maxNbLoans 	 false 	 false 	 false
+$65. ~members.univ.members 	 false 	 false 	 false
+$66. ~books.univ 	 false 	 false 	 false
+$67. ~books.univ.~maxNbLoans 	 false 	 false 	 false
+$68. ~books.univ.~members 	 false 	 false 	 false
+$69. ~maxNbLoans.univ.~books 	 false 	 false 	 false
+$70. ~maxNbLoans.univ.~members 	 false 	 false 	 false
+$71. ~members.univ.~books 	 false 	 false 	 false
+$72. ~members.univ.~maxNbLoans 	 false 	 false 	 false
+$73. univ 	 false 	 false 	 false
+$74. Int 	 false 	 false 	 false
+$75. String 	 false 	 false 	 false
+$76. none 	 false 	 false 	 false
+$77. univ 	 false 	 false 	 false
+
+Time taken: 70.308709
+Preprocessing time: 14
+Parsing time: 7
+Generation time: 9

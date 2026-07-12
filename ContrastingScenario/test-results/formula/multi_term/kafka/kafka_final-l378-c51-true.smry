@@ -1,0 +1,56 @@
+Model name: kafka_final
+Filename: completion/kafka_final-complete.als
+Offset: 11929
+Term: .
+Vscode Position: line=377 character=51
+----------------------------------
+378 |   let cg = c.~consumers | cg.offsets[p] = p.leader.
+----------------------------------
+Expected Completion word: events.indsOf[e]
+Expected Completion line: events.indsOf[e]
+Suggestion exists: true
+Completion List:
+# Suggestion 	 Exact 	 Syntactic 	 Semantic
+$1. events'.e 	 false 	 undefined 	 undefined
+$2. events'.e 	 false 	 undefined 	 undefined
+$3. events.e 	 false 	 undefined 	 undefined
+$4. events.e 	 false 	 undefined 	 undefined
+$5. ~followers.p 	 false 	 undefined 	 undefined
+$6. ~leader.p 	 false 	 undefined 	 undefined
+$7. events'.KafkaEvent 	 false 	 undefined 	 undefined
+$8. events'.KafkaEvent 	 false 	 undefined 	 undefined
+$9. events.KafkaEvent 	 false 	 undefined 	 undefined
+$10. events.KafkaEvent 	 false 	 undefined 	 undefined
+$11. ~followers.TopicPartition 	 false 	 undefined 	 undefined
+$12. ~leader.TopicPartition 	 false 	 undefined 	 undefined
+$13. ~replicasInBroker.Broker 	 false 	 undefined 	 undefined
+$14. events 	 true 	 undefined 	 undefined
+$15. events' 	 false 	 undefined 	 undefined
+$16. events'.univ 	 false 	 undefined 	 undefined
+$17. events'.univ 	 false 	 undefined 	 undefined
+$18. events.univ 	 false 	 undefined 	 undefined
+$19. events.univ 	 false 	 undefined 	 undefined
+$20. ~followers.followers' 	 false 	 undefined 	 undefined
+$21. ~followers.leader 	 false 	 undefined 	 undefined
+$22. ~followers.leader' 	 false 	 undefined 	 undefined
+$23. ~leader.followers 	 false 	 undefined 	 undefined
+$24. ~leader.followers' 	 false 	 undefined 	 undefined
+$25. ~leader.leader' 	 false 	 undefined 	 undefined
+$26. ~replicasInBroker.replicasInBroker' 	 false 	 undefined 	 undefined
+$27. ~followers 	 false 	 undefined 	 undefined
+$28. ~followers.univ 	 false 	 undefined 	 undefined
+$29. ~followers.~assignedTo 	 false 	 undefined 	 undefined
+$30. ~followers.~partitions 	 false 	 undefined 	 undefined
+$31. ~leader 	 false 	 undefined 	 undefined
+$32. ~leader.univ 	 false 	 undefined 	 undefined
+$33. ~leader.~assignedTo 	 false 	 undefined 	 undefined
+$34. ~leader.~partitions 	 false 	 undefined 	 undefined
+$35. ~replicasInBroker 	 false 	 undefined 	 undefined
+$36. ~replicasInBroker.univ 	 false 	 undefined 	 undefined
+$37. ~replicasInBroker.~brokers 	 false 	 undefined 	 undefined
+$38.  	 false 	 undefined 	 undefined
+
+Time taken: 116.50075
+Preprocessing time: 16
+Parsing time: 8
+Generation time: 1

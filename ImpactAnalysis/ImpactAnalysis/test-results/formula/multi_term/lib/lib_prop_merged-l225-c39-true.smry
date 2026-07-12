@@ -1,0 +1,30 @@
+Model name: lib_prop_merged
+Filename: completion/lib_prop_merged-complete.als
+Offset: 4795
+Term:  -> 
+Vscode Position: line=224 character=39
+----------------------------------
+225 |  (L.membersReservingOneBook.b) = (0 -> 
+----------------------------------
+Expected Completion word: m
+Expected Completion line: m) // m is first in the list of reservation
+Suggestion exists: true
+Completion List:
+# Suggestion 	 Exact 	 Syntactic 	 Semantic
+$1. L 	 false 	 undefined 	 undefined
+$2. b 	 false 	 undefined 	 undefined
+$3. m 	 true 	 undefined 	 undefined
+$4. Book 	 false 	 undefined 	 undefined
+$5. Constants 	 false 	 undefined 	 undefined
+$6. Lib 	 false 	 undefined 	 undefined
+$7. LibOrd/Ord 	 false 	 undefined 	 undefined
+$8. Member 	 false 	 undefined 	 undefined
+$9. Int 	 false 	 undefined 	 undefined
+$10. String 	 false 	 undefined 	 undefined
+$11. none 	 false 	 undefined 	 undefined
+$12. univ 	 false 	 undefined 	 undefined
+
+Time taken: 63.941417
+Preprocessing time: 12
+Parsing time: 6
+Generation time: 0

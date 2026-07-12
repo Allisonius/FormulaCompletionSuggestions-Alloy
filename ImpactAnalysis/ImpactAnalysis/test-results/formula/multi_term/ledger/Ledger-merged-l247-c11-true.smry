@@ -1,0 +1,61 @@
+Model name: Ledger-merged
+Filename: completion/Ledger-merged-complete.als
+Offset: 6150
+Term: .
+Vscode Position: line=246 character=11
+----------------------------------
+247 |   no First.
+----------------------------------
+Expected Completion word: next
+Expected Completion line: next
+Suggestion exists: true
+Completion List:
+# Suggestion 	 Exact 	 Syntactic 	 Semantic
+$1. *next.First 	 false 	 undefined 	 undefined
+$2. *next.State 	 false 	 undefined 	 undefined
+$3. DU.DLTUser 	 false 	 undefined 	 undefined
+$4. DU.ExternalUser 	 false 	 undefined 	 undefined
+$5. DU.User 	 false 	 undefined 	 undefined
+$6. EU.DLTUser 	 false 	 undefined 	 undefined
+$7. EU.ExternalUser 	 false 	 undefined 	 undefined
+$8. EU.User 	 false 	 undefined 	 undefined
+$9. ^next.First 	 false 	 undefined 	 undefined
+$10. ^next.State 	 false 	 undefined 	 undefined
+$11. next.First 	 false 	 undefined 	 undefined
+$12. next.State 	 false 	 undefined 	 undefined
+$13. ~next.First 	 false 	 undefined 	 undefined
+$14. ~next.State 	 false 	 undefined 	 undefined
+$15. *next.DU 	 false 	 undefined 	 undefined
+$16. *next.EU 	 false 	 undefined 	 undefined
+$17. DU 	 false 	 undefined 	 undefined
+$18. DU.univ 	 false 	 undefined 	 undefined
+$19. DU.~EU 	 false 	 undefined 	 undefined
+$20. DU.~owner 	 false 	 undefined 	 undefined
+$21. DU.~receiver 	 false 	 undefined 	 undefined
+$22. DU.~sender 	 false 	 undefined 	 undefined
+$23. EU 	 false 	 undefined 	 undefined
+$24. EU.univ 	 false 	 undefined 	 undefined
+$25. EU.~DU 	 false 	 undefined 	 undefined
+$26. EU.~owner 	 false 	 undefined 	 undefined
+$27. EU.~receiver 	 false 	 undefined 	 undefined
+$28. EU.~sender 	 false 	 undefined 	 undefined
+$29. ^next.DU 	 false 	 undefined 	 undefined
+$30. ^next.EU 	 false 	 undefined 	 undefined
+$31. next 	 true 	 undefined 	 undefined
+$32. next.DU 	 false 	 undefined 	 undefined
+$33. next.EU 	 false 	 undefined 	 undefined
+$34. next.univ 	 false 	 undefined 	 undefined
+$35. ~next.DU 	 false 	 undefined 	 undefined
+$36. ~next.EU 	 false 	 undefined 	 undefined
+$37. ~next 	 false 	 undefined 	 undefined
+$38. ~next.univ 	 false 	 undefined 	 undefined
+$39. ^next 	 false 	 undefined 	 undefined
+$40. ^next.univ 	 false 	 undefined 	 undefined
+$41.  	 false 	 undefined 	 undefined
+$42. *next 	 false 	 undefined 	 undefined
+$43. *next.univ 	 false 	 undefined 	 undefined
+
+Time taken: 80.766
+Preprocessing time: 13
+Parsing time: 7
+Generation time: 3

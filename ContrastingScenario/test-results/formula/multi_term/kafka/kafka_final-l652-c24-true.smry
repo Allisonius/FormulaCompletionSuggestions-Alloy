@@ -1,0 +1,47 @@
+Model name: kafka_final
+Filename: completion/kafka_final-complete.als
+Offset: 20481
+Term: .
+Vscode Position: line=651 character=24
+----------------------------------
+652 |   no b.replicasInBroker.
+----------------------------------
+Expected Completion word: events
+Expected Completion line: events
+Suggestion exists: true
+Completion List:
+# Suggestion 	 Exact 	 Syntactic 	 Semantic
+$1. ~replicasInBroker.b 	 false 	 undefined 	 undefined
+$2. events'.KafkaEvent 	 false 	 undefined 	 undefined
+$3. events.KafkaEvent 	 false 	 undefined 	 undefined
+$4. ~followers.TopicPartition 	 false 	 undefined 	 undefined
+$5. ~leader.TopicPartition 	 false 	 undefined 	 undefined
+$6. ~replicasInBroker.Broker 	 false 	 undefined 	 undefined
+$7. events 	 true 	 undefined 	 undefined
+$8. events' 	 false 	 undefined 	 undefined
+$9. events'.univ 	 false 	 undefined 	 undefined
+$10. events.univ 	 false 	 undefined 	 undefined
+$11. ~followers.followers' 	 false 	 undefined 	 undefined
+$12. ~followers.leader 	 false 	 undefined 	 undefined
+$13. ~followers.leader' 	 false 	 undefined 	 undefined
+$14. ~leader.followers 	 false 	 undefined 	 undefined
+$15. ~leader.followers' 	 false 	 undefined 	 undefined
+$16. ~leader.leader' 	 false 	 undefined 	 undefined
+$17. ~replicasInBroker.replicasInBroker' 	 false 	 undefined 	 undefined
+$18. ~followers 	 false 	 undefined 	 undefined
+$19. ~followers.univ 	 false 	 undefined 	 undefined
+$20. ~followers.~assignedTo 	 false 	 undefined 	 undefined
+$21. ~followers.~partitions 	 false 	 undefined 	 undefined
+$22. ~leader 	 false 	 undefined 	 undefined
+$23. ~leader.univ 	 false 	 undefined 	 undefined
+$24. ~leader.~assignedTo 	 false 	 undefined 	 undefined
+$25. ~leader.~partitions 	 false 	 undefined 	 undefined
+$26. ~replicasInBroker 	 false 	 undefined 	 undefined
+$27. ~replicasInBroker.univ 	 false 	 undefined 	 undefined
+$28. ~replicasInBroker.~brokers 	 false 	 undefined 	 undefined
+$29.  	 false 	 undefined 	 undefined
+
+Time taken: 72.434209
+Preprocessing time: 16
+Parsing time: 8
+Generation time: 1

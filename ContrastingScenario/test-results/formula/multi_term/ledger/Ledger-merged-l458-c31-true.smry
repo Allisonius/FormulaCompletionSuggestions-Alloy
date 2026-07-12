@@ -1,0 +1,68 @@
+Model name: Ledger-merged
+Filename: completion/Ledger-merged-complete.als
+Offset: 10651
+Term: .
+Vscode Position: line=457 character=31
+----------------------------------
+458 |   all tp: TransferPayload | tp.
+----------------------------------
+Expected Completion word: amount
+Expected Completion line: amount != Zero
+Suggestion exists: true
+Completion List:
+# Suggestion 	 Exact 	 Syntactic 	 Semantic
+$1. amount.PosValue 	 false 	 false 	 false
+$2. amount.Value 	 false 	 false 	 false
+$3. amount.Zero 	 false 	 false 	 false
+$4. assigns.PosValue 	 false 	 false 	 false
+$5. assigns.Value 	 false 	 false 	 false
+$6. assigns.Zero 	 false 	 false 	 false
+$7. atTime.Time 	 false 	 false 	 false
+$8. receiver.DLTUser 	 false 	 false 	 false
+$9. receiver.ExternalUser 	 false 	 false 	 false
+$10. receiver.User 	 false 	 false 	 false
+$11. sender.DLTUser 	 false 	 false 	 false
+$12. sender.ExternalUser 	 false 	 false 	 false
+$13. sender.User 	 false 	 false 	 false
+$14. token.Asset 	 false 	 false 	 false
+$15. token.AssetModel 	 false 	 false 	 false
+$16. token.Token 	 false 	 false 	 false
+$17. ~payload.Transaction 	 false 	 false 	 false
+$18. amount 	 true 	 true 	 true
+$19. amount.univ 	 false 	 false 	 false
+$20. assigns 	 false 	 false 	 false
+$21. assigns.univ 	 false 	 false 	 false
+$22. assigns.~amount 	 false 	 false 	 false
+$23. atTime 	 false 	 false 	 false
+$24. atTime.univ 	 false 	 false 	 false
+$25. atTime.~timestamp 	 false 	 false 	 false
+$26. receiver 	 false 	 false 	 false
+$27. receiver.univ 	 false 	 false 	 false
+$28. receiver.~DU 	 false 	 false 	 false
+$29. receiver.~EU 	 false 	 false 	 false
+$30. receiver.~owner 	 false 	 false 	 false
+$31. receiver.~sender 	 false 	 false 	 false
+$32. sender 	 false 	 false 	 false
+$33. sender.univ 	 false 	 false 	 false
+$34. sender.~DU 	 false 	 false 	 false
+$35. sender.~EU 	 false 	 false 	 false
+$36. sender.~owner 	 false 	 false 	 false
+$37. sender.~receiver 	 false 	 false 	 false
+$38. token 	 false 	 false 	 false
+$39. token.owner 	 false 	 false 	 false
+$40. token.ttype 	 false 	 false 	 false
+$41. token.unitVal 	 false 	 false 	 false
+$42. token.univ 	 false 	 false 	 false
+$43. token.~asset 	 false 	 false 	 false
+$44. ~payload.hash 	 false 	 false 	 false
+$45. ~payload.meta 	 false 	 false 	 false
+$46. ~payload.tt 	 false 	 false 	 false
+$47. ~payload 	 false 	 false 	 false
+$48. ~payload.univ 	 false 	 false 	 false
+$49. ~payload.~data 	 false 	 false 	 false
+$50.  	 false 	 undefined 	 undefined
+
+Time taken: 70.83125
+Preprocessing time: 12
+Parsing time: 6
+Generation time: 2

@@ -1,0 +1,89 @@
+Model name: kafka_final
+Filename: completion/kafka_final-complete.als
+Offset: 11936
+Term: .
+Vscode Position: line=377 character=58
+----------------------------------
+378 |   let cg = c.~consumers | cg.offsets[p] = p.leader.events.
+----------------------------------
+Expected Completion word: indsOf
+Expected Completion line: indsOf[e]
+Suggestion exists: false
+Completion List:
+# Suggestion 	 Exact 	 Syntactic 	 Semantic
+$1. e 	 false 	 undefined 	 undefined
+$2. e 	 false 	 undefined 	 undefined
+$3. KafkaEvent 	 false 	 undefined 	 undefined
+$4. KafkaEvent 	 false 	 undefined 	 undefined
+$5. univ.assignedTo 	 false 	 undefined 	 undefined
+$6. univ.assignedTo 	 false 	 undefined 	 undefined
+$7. univ.assignments 	 false 	 undefined 	 undefined
+$8. univ.brokers 	 false 	 undefined 	 undefined
+$9. univ.brokers 	 false 	 undefined 	 undefined
+$10. univ.brokers' 	 false 	 undefined 	 undefined
+$11. univ.brokers' 	 false 	 undefined 	 undefined
+$12. univ.consumer_groups 	 false 	 undefined 	 undefined
+$13. univ.consumer_groups 	 false 	 undefined 	 undefined
+$14. univ.consumers 	 false 	 undefined 	 undefined
+$15. univ.consumers 	 false 	 undefined 	 undefined
+$16. univ.events 	 false 	 undefined 	 undefined
+$17. univ.events' 	 false 	 undefined 	 undefined
+$18. univ.followers 	 false 	 undefined 	 undefined
+$19. univ.followers 	 false 	 undefined 	 undefined
+$20. univ.followers' 	 false 	 undefined 	 undefined
+$21. univ.followers' 	 false 	 undefined 	 undefined
+$22. univ.leader 	 false 	 undefined 	 undefined
+$23. univ.leader 	 false 	 undefined 	 undefined
+$24. univ.leader' 	 false 	 undefined 	 undefined
+$25. univ.leader' 	 false 	 undefined 	 undefined
+$26. univ.offsets 	 false 	 undefined 	 undefined
+$27. univ.offsets' 	 false 	 undefined 	 undefined
+$28. univ.partitions 	 false 	 undefined 	 undefined
+$29. univ.partitions 	 false 	 undefined 	 undefined
+$30. univ.producers 	 false 	 undefined 	 undefined
+$31. univ.producers 	 false 	 undefined 	 undefined
+$32. univ.replicasInBroker 	 false 	 undefined 	 undefined
+$33. univ.replicasInBroker 	 false 	 undefined 	 undefined
+$34. univ.replicasInBroker' 	 false 	 undefined 	 undefined
+$35. univ.replicasInBroker' 	 false 	 undefined 	 undefined
+$36. univ.replicationFactor 	 false 	 undefined 	 undefined
+$37. univ.replicationFactor 	 false 	 undefined 	 undefined
+$38. univ.subscribedTo 	 false 	 undefined 	 undefined
+$39. univ.subscribedTo 	 false 	 undefined 	 undefined
+$40. univ.topics 	 false 	 undefined 	 undefined
+$41. univ.topics 	 false 	 undefined 	 undefined
+$42. univ.zookeeper 	 false 	 undefined 	 undefined
+$43. univ.zookeeper 	 false 	 undefined 	 undefined
+$44. univ.~assignedTo 	 false 	 undefined 	 undefined
+$45. univ.~assignedTo 	 false 	 undefined 	 undefined
+$46. univ.~brokers 	 false 	 undefined 	 undefined
+$47. univ.~brokers 	 false 	 undefined 	 undefined
+$48. univ.~consumer_groups 	 false 	 undefined 	 undefined
+$49. univ.~consumer_groups 	 false 	 undefined 	 undefined
+$50. univ.~consumers 	 false 	 undefined 	 undefined
+$51. univ.~consumers 	 false 	 undefined 	 undefined
+$52. univ.~followers 	 false 	 undefined 	 undefined
+$53. univ.~followers 	 false 	 undefined 	 undefined
+$54. univ.~leader 	 false 	 undefined 	 undefined
+$55. univ.~leader 	 false 	 undefined 	 undefined
+$56. univ.~partitions 	 false 	 undefined 	 undefined
+$57. univ.~partitions 	 false 	 undefined 	 undefined
+$58. univ.~producers 	 false 	 undefined 	 undefined
+$59. univ.~producers 	 false 	 undefined 	 undefined
+$60. univ.~replicasInBroker 	 false 	 undefined 	 undefined
+$61. univ.~replicasInBroker 	 false 	 undefined 	 undefined
+$62. univ.~replicationFactor 	 false 	 undefined 	 undefined
+$63. univ.~subscribedTo 	 false 	 undefined 	 undefined
+$64. univ.~subscribedTo 	 false 	 undefined 	 undefined
+$65. univ.~topics 	 false 	 undefined 	 undefined
+$66. univ.~topics 	 false 	 undefined 	 undefined
+$67. univ.~zookeeper 	 false 	 undefined 	 undefined
+$68. univ.~zookeeper 	 false 	 undefined 	 undefined
+$69.  	 false 	 undefined 	 undefined
+$70. univ 	 false 	 undefined 	 undefined
+$71. univ 	 false 	 undefined 	 undefined
+
+Time taken: 89.899
+Preprocessing time: 17
+Parsing time: 8
+Generation time: 1

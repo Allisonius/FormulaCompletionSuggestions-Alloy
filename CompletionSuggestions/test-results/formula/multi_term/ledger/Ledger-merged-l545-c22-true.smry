@@ -1,0 +1,82 @@
+Model name: Ledger-merged
+Filename: completion/Ledger-merged-complete.als
+Offset: 12409
+Term: .
+Vscode Position: line=544 character=22
+----------------------------------
+545 |   all n: FullNode | n.
+----------------------------------
+Expected Completion word: sync
+Expected Completion line: sync = BlockId
+Suggestion exists: true
+Completion List:
+# Suggestion 	 Exact 	 Syntactic 	 Semantic
+$1. *peers.n 	 false 	 false 	 false
+$2. ^peers.n 	 false 	 false 	 false
+$3. peers.n 	 false 	 false 	 false
+$4. ~peers.n 	 false 	 false 	 false
+$5. *peers.FullNode 	 false 	 false 	 false
+$6. *peers.LightNode 	 false 	 false 	 false
+$7. *peers.PeerNode 	 false 	 false 	 false
+$8. ^peers.FullNode 	 false 	 false 	 false
+$9. ^peers.LightNode 	 false 	 false 	 false
+$10. ^peers.PeerNode 	 false 	 false 	 false
+$11. peers.FullNode 	 false 	 false 	 false
+$12. peers.LightNode 	 false 	 false 	 false
+$13. peers.PeerNode 	 false 	 false 	 false
+$14. roles.Archive 	 false 	 false 	 false
+$15. roles.Miner 	 false 	 false 	 false
+$16. roles.Observer 	 false 	 false 	 false
+$17. roles.Role 	 false 	 false 	 false
+$18. roles.Validator 	 false 	 false 	 false
+$19. sync.BlockId 	 false 	 false 	 false
+$20. ~peers.FullNode 	 false 	 false 	 false
+$21. ~peers.LightNode 	 false 	 false 	 false
+$22. ~peers.PeerNode 	 false 	 false 	 false
+$23. *peers.bandwidthCap 	 false 	 false 	 false
+$24. *peers.roles 	 false 	 false 	 false
+$25. *peers.storageCap 	 false 	 false 	 false
+$26. *peers.sync 	 false 	 false 	 false
+$27. ^peers.bandwidthCap 	 false 	 false 	 false
+$28. ^peers.roles 	 false 	 false 	 false
+$29. ^peers.storageCap 	 false 	 false 	 false
+$30. ^peers.sync 	 false 	 false 	 false
+$31. bandwidthCap 	 false 	 false 	 false
+$32. bandwidthCap.Int 	 false 	 false 	 false
+$33. bandwidthCap.univ 	 false 	 false 	 false
+$34. bandwidthCap.~nonce 	 false 	 false 	 false
+$35. bandwidthCap.~storageCap 	 false 	 false 	 false
+$36. bandwidthCap.~unitVal 	 false 	 false 	 false
+$37. peers 	 false 	 false 	 false
+$38. peers.bandwidthCap 	 false 	 false 	 false
+$39. peers.roles 	 false 	 false 	 false
+$40. peers.storageCap 	 false 	 false 	 false
+$41. peers.sync 	 false 	 false 	 false
+$42. peers.univ 	 false 	 false 	 false
+$43. roles 	 false 	 false 	 false
+$44. roles.univ 	 false 	 false 	 false
+$45. storageCap 	 false 	 false 	 false
+$46. storageCap.Int 	 false 	 false 	 false
+$47. storageCap.univ 	 false 	 false 	 false
+$48. storageCap.~bandwidthCap 	 false 	 false 	 false
+$49. storageCap.~nonce 	 false 	 false 	 false
+$50. storageCap.~unitVal 	 false 	 false 	 false
+$51. sync 	 true 	 true 	 true
+$52. sync.univ 	 false 	 false 	 false
+$53. sync.~id 	 false 	 false 	 false
+$54. ~peers.bandwidthCap 	 false 	 false 	 false
+$55. ~peers.roles 	 false 	 false 	 false
+$56. ~peers.storageCap 	 false 	 false 	 false
+$57. ~peers.sync 	 false 	 false 	 false
+$58. ~peers 	 false 	 false 	 false
+$59. ~peers.univ 	 false 	 false 	 false
+$60. ^peers 	 false 	 false 	 false
+$61. ^peers.univ 	 false 	 false 	 false
+$62.  	 false 	 undefined 	 undefined
+$63. *peers 	 false 	 false 	 false
+$64. *peers.univ 	 false 	 false 	 false
+
+Time taken: 70.642541
+Preprocessing time: 12
+Parsing time: 6
+Generation time: 2

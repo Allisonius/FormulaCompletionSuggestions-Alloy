@@ -1,0 +1,81 @@
+Model name: Ledger-merged
+Filename: completion/Ledger-merged-complete.als
+Offset: 6997
+Term: .
+Vscode Position: line=287 character=12
+----------------------------------
+288 |   s2.EU = s.
+----------------------------------
+Expected Completion word: EU
+Expected Completion line: EU - r           // remove r from external-user set
+Suggestion exists: true
+Completion List:
+# Suggestion 	 Exact 	 Syntactic 	 Semantic
+$1. *next.s 	 false 	 undefined 	 undefined
+$2. *next.s2 	 false 	 undefined 	 undefined
+$3. DU.r 	 false 	 undefined 	 undefined
+$4. EU.r 	 false 	 undefined 	 undefined
+$5. ^next.s 	 false 	 undefined 	 undefined
+$6. ^next.s2 	 false 	 undefined 	 undefined
+$7. next.s 	 false 	 undefined 	 undefined
+$8. next.s2 	 false 	 undefined 	 undefined
+$9. ~next.s 	 false 	 undefined 	 undefined
+$10. ~next.s2 	 false 	 undefined 	 undefined
+$11. *next.First 	 false 	 undefined 	 undefined
+$12. *next.State 	 false 	 undefined 	 undefined
+$13. DU.DLTUser 	 false 	 undefined 	 undefined
+$14. DU.ExternalUser 	 false 	 undefined 	 undefined
+$15. DU.User 	 false 	 undefined 	 undefined
+$16. EU.DLTUser 	 false 	 undefined 	 undefined
+$17. EU.ExternalUser 	 false 	 undefined 	 undefined
+$18. EU.User 	 false 	 undefined 	 undefined
+$19. ^next.First 	 false 	 undefined 	 undefined
+$20. ^next.State 	 false 	 undefined 	 undefined
+$21. next.First 	 false 	 undefined 	 undefined
+$22. next.State 	 false 	 undefined 	 undefined
+$23. ~next.First 	 false 	 undefined 	 undefined
+$24. ~next.State 	 false 	 undefined 	 undefined
+$25. *next.DU 	 false 	 undefined 	 undefined
+$26. *next.EU 	 false 	 undefined 	 undefined
+$27. *next.EU 	 false 	 undefined 	 undefined
+$28. DU 	 false 	 undefined 	 undefined
+$29. DU.univ 	 false 	 undefined 	 undefined
+$30. DU.~EU 	 false 	 undefined 	 undefined
+$31. DU.~EU 	 false 	 undefined 	 undefined
+$32. DU.~owner 	 false 	 undefined 	 undefined
+$33. DU.~receiver 	 false 	 undefined 	 undefined
+$34. DU.~sender 	 false 	 undefined 	 undefined
+$35. EU 	 true 	 undefined 	 undefined
+$36. EU 	 true 	 undefined 	 undefined
+$37. EU.univ 	 false 	 undefined 	 undefined
+$38. EU.~DU 	 false 	 undefined 	 undefined
+$39. EU.~DU 	 false 	 undefined 	 undefined
+$40. EU.~owner 	 false 	 undefined 	 undefined
+$41. EU.~owner 	 false 	 undefined 	 undefined
+$42. EU.~receiver 	 false 	 undefined 	 undefined
+$43. EU.~receiver 	 false 	 undefined 	 undefined
+$44. EU.~sender 	 false 	 undefined 	 undefined
+$45. EU.~sender 	 false 	 undefined 	 undefined
+$46. ^next.DU 	 false 	 undefined 	 undefined
+$47. ^next.EU 	 false 	 undefined 	 undefined
+$48. ^next.EU 	 false 	 undefined 	 undefined
+$49. next 	 false 	 undefined 	 undefined
+$50. next.DU 	 false 	 undefined 	 undefined
+$51. next.EU 	 false 	 undefined 	 undefined
+$52. next.EU 	 false 	 undefined 	 undefined
+$53. next.univ 	 false 	 undefined 	 undefined
+$54. ~next.DU 	 false 	 undefined 	 undefined
+$55. ~next.EU 	 false 	 undefined 	 undefined
+$56. ~next.EU 	 false 	 undefined 	 undefined
+$57. ~next 	 false 	 undefined 	 undefined
+$58. ~next.univ 	 false 	 undefined 	 undefined
+$59. ^next 	 false 	 undefined 	 undefined
+$60. ^next.univ 	 false 	 undefined 	 undefined
+$61.  	 false 	 undefined 	 undefined
+$62. *next 	 false 	 undefined 	 undefined
+$63. *next.univ 	 false 	 undefined 	 undefined
+
+Time taken: 71.425958
+Preprocessing time: 12
+Parsing time: 5
+Generation time: 2

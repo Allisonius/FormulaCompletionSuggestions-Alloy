@@ -1,0 +1,77 @@
+Model name: lib_prop_merged
+Filename: completion/lib_prop_merged-complete.als
+Offset: 7511
+Term:  in 
+Vscode Position: line=360 character=18
+----------------------------------
+361 |              m in 
+----------------------------------
+Expected Completion word: LibOrd/last.members
+Expected Completion line: LibOrd/last.members
+Suggestion exists: false
+Completion List:
+# Suggestion 	 Exact 	 Syntactic 	 Semantic
+$1. m 	 false 	 false 	 false
+$2. m 	 false 	 false 	 false
+$3. members.m.~members 	 false 	 false 	 false
+$4. Book 	 false 	 false 	 false
+$5. Book.~books.members 	 false 	 false 	 false
+$6. Constants 	 false 	 false 	 false
+$7. Lib 	 false 	 false 	 false
+$8. Lib.members 	 false 	 false 	 false
+$9. Member 	 false 	 false 	 false
+$10. Member 	 false 	 false 	 false
+$11. books.Book.~books 	 false 	 false 	 false
+$12. members.Member.~members 	 false 	 false 	 false
+$13. ~books.Lib.books 	 false 	 false 	 false
+$14. ~books.Lib.members 	 false 	 false 	 false
+$15. ~maxNbLoans.Constants.maxNbLoans 	 false 	 false 	 false
+$16. ~members.Lib 	 false 	 false 	 false
+$17. ~members.Lib.books 	 false 	 false 	 false
+$18. ~members.Lib.members 	 false 	 false 	 false
+$19. ~members.books.Book 	 false 	 false 	 false
+$20. books.univ.maxNbLoans 	 false 	 false 	 false
+$21. books.univ.members 	 false 	 false 	 false
+$22. books.univ.~books 	 false 	 false 	 false
+$23. books.univ.~maxNbLoans 	 false 	 false 	 false
+$24. books.univ.~members 	 false 	 false 	 false
+$25. maxNbLoans.Int.~maxNbLoans 	 false 	 false 	 false
+$26. maxNbLoans.univ.books 	 false 	 false 	 false
+$27. maxNbLoans.univ.members 	 false 	 false 	 false
+$28. maxNbLoans.univ.~books 	 false 	 false 	 false
+$29. maxNbLoans.univ.~maxNbLoans 	 false 	 false 	 false
+$30. maxNbLoans.univ.~members 	 false 	 false 	 false
+$31. members.univ.maxNbLoans 	 false 	 false 	 false
+$32. members.univ.members 	 false 	 false 	 false
+$33. members.univ.~books 	 false 	 false 	 false
+$34. members.univ.~maxNbLoans 	 false 	 false 	 false
+$35. members.univ.~members 	 false 	 false 	 false
+$36. univ.members 	 false 	 false 	 false
+$37. univ.~books.members 	 false 	 false 	 false
+$38. ~books.univ.books 	 false 	 false 	 false
+$39. ~books.univ.maxNbLoans 	 false 	 false 	 false
+$40. ~books.univ.members 	 false 	 false 	 false
+$41. ~maxNbLoans.univ.books 	 false 	 false 	 false
+$42. ~maxNbLoans.univ.maxNbLoans 	 false 	 false 	 false
+$43. ~maxNbLoans.univ.members 	 false 	 false 	 false
+$44. ~members.books.univ 	 false 	 false 	 false
+$45. ~members.univ.books 	 false 	 false 	 false
+$46. ~members.univ.maxNbLoans 	 false 	 false 	 false
+$47. ~members.univ.members 	 false 	 false 	 false
+$48. ~books.univ.~maxNbLoans 	 false 	 false 	 false
+$49. ~books.univ.~members 	 false 	 false 	 false
+$50. ~maxNbLoans.univ.~books 	 false 	 false 	 false
+$51. ~maxNbLoans.univ.~members 	 false 	 false 	 false
+$52. ~members.univ 	 false 	 false 	 false
+$53. ~members.univ.~books 	 false 	 false 	 false
+$54. ~members.univ.~maxNbLoans 	 false 	 false 	 false
+$55. univ 	 false 	 false 	 false
+$56. Int 	 false 	 false 	 false
+$57. String 	 false 	 false 	 false
+$58. none 	 false 	 false 	 false
+$59. univ 	 false 	 false 	 false
+
+Time taken: 55.404958
+Preprocessing time: 12
+Parsing time: 6
+Generation time: 6

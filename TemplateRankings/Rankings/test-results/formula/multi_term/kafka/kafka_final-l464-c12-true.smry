@@ -1,0 +1,57 @@
+Model name: kafka_final
+Filename: completion/kafka_final-complete.als
+Offset: 14663
+Term: .
+Vscode Position: line=463 character=12
+----------------------------------
+464 |   no events.
+----------------------------------
+Expected Completion word: e
+Expected Completion line: e
+Suggestion exists: true
+Completion List:
+# Suggestion 	 Exact 	 Syntactic 	 Semantic
+$1. e 	 true 	 undefined 	 undefined
+$2. KafkaEvent 	 false 	 undefined 	 undefined
+$3. univ.assignedTo 	 false 	 undefined 	 undefined
+$4. univ.assignments 	 false 	 undefined 	 undefined
+$5. univ.brokers 	 false 	 undefined 	 undefined
+$6. univ.brokers' 	 false 	 undefined 	 undefined
+$7. univ.consumer_groups 	 false 	 undefined 	 undefined
+$8. univ.consumers 	 false 	 undefined 	 undefined
+$9. univ.events 	 false 	 undefined 	 undefined
+$10. univ.events' 	 false 	 undefined 	 undefined
+$11. univ.followers 	 false 	 undefined 	 undefined
+$12. univ.followers' 	 false 	 undefined 	 undefined
+$13. univ.leader 	 false 	 undefined 	 undefined
+$14. univ.leader' 	 false 	 undefined 	 undefined
+$15. univ.offsets 	 false 	 undefined 	 undefined
+$16. univ.offsets' 	 false 	 undefined 	 undefined
+$17. univ.partitions 	 false 	 undefined 	 undefined
+$18. univ.producers 	 false 	 undefined 	 undefined
+$19. univ.replicasInBroker 	 false 	 undefined 	 undefined
+$20. univ.replicasInBroker' 	 false 	 undefined 	 undefined
+$21. univ.replicationFactor 	 false 	 undefined 	 undefined
+$22. univ.subscribedTo 	 false 	 undefined 	 undefined
+$23. univ.topics 	 false 	 undefined 	 undefined
+$24. univ.zookeeper 	 false 	 undefined 	 undefined
+$25. univ.~assignedTo 	 false 	 undefined 	 undefined
+$26. univ.~brokers 	 false 	 undefined 	 undefined
+$27. univ.~consumer_groups 	 false 	 undefined 	 undefined
+$28. univ.~consumers 	 false 	 undefined 	 undefined
+$29. univ.~followers 	 false 	 undefined 	 undefined
+$30. univ.~leader 	 false 	 undefined 	 undefined
+$31. univ.~partitions 	 false 	 undefined 	 undefined
+$32. univ.~producers 	 false 	 undefined 	 undefined
+$33. univ.~replicasInBroker 	 false 	 undefined 	 undefined
+$34. univ.~replicationFactor 	 false 	 undefined 	 undefined
+$35. univ.~subscribedTo 	 false 	 undefined 	 undefined
+$36. univ.~topics 	 false 	 undefined 	 undefined
+$37. univ.~zookeeper 	 false 	 undefined 	 undefined
+$38.  	 false 	 undefined 	 undefined
+$39. univ 	 false 	 undefined 	 undefined
+
+Time taken: 95.98675
+Preprocessing time: 16
+Parsing time: 7
+Generation time: 2

@@ -1,0 +1,56 @@
+Model name: kafka_final
+Filename: completion/kafka_final-complete.als
+Offset: 5256
+Term: .
+Vscode Position: line=160 character=46
+----------------------------------
+161 |   k.zookeeper.topics.partitions.leader.events.
+----------------------------------
+Expected Completion word: elems
+Expected Completion line: elems
+Suggestion exists: false
+Completion List:
+# Suggestion 	 Exact 	 Syntactic 	 Semantic
+$1. KafkaEvent 	 false 	 undefined 	 undefined
+$2. univ.assignedTo 	 false 	 undefined 	 undefined
+$3. univ.assignments 	 false 	 undefined 	 undefined
+$4. univ.brokers 	 false 	 undefined 	 undefined
+$5. univ.brokers' 	 false 	 undefined 	 undefined
+$6. univ.consumer_groups 	 false 	 undefined 	 undefined
+$7. univ.consumers 	 false 	 undefined 	 undefined
+$8. univ.events 	 false 	 undefined 	 undefined
+$9. univ.events' 	 false 	 undefined 	 undefined
+$10. univ.followers 	 false 	 undefined 	 undefined
+$11. univ.followers' 	 false 	 undefined 	 undefined
+$12. univ.leader 	 false 	 undefined 	 undefined
+$13. univ.leader' 	 false 	 undefined 	 undefined
+$14. univ.offsets 	 false 	 undefined 	 undefined
+$15. univ.offsets' 	 false 	 undefined 	 undefined
+$16. univ.partitions 	 false 	 undefined 	 undefined
+$17. univ.producers 	 false 	 undefined 	 undefined
+$18. univ.replicasInBroker 	 false 	 undefined 	 undefined
+$19. univ.replicasInBroker' 	 false 	 undefined 	 undefined
+$20. univ.replicationFactor 	 false 	 undefined 	 undefined
+$21. univ.subscribedTo 	 false 	 undefined 	 undefined
+$22. univ.topics 	 false 	 undefined 	 undefined
+$23. univ.zookeeper 	 false 	 undefined 	 undefined
+$24. univ.~assignedTo 	 false 	 undefined 	 undefined
+$25. univ.~brokers 	 false 	 undefined 	 undefined
+$26. univ.~consumer_groups 	 false 	 undefined 	 undefined
+$27. univ.~consumers 	 false 	 undefined 	 undefined
+$28. univ.~followers 	 false 	 undefined 	 undefined
+$29. univ.~leader 	 false 	 undefined 	 undefined
+$30. univ.~partitions 	 false 	 undefined 	 undefined
+$31. univ.~producers 	 false 	 undefined 	 undefined
+$32. univ.~replicasInBroker 	 false 	 undefined 	 undefined
+$33. univ.~replicationFactor 	 false 	 undefined 	 undefined
+$34. univ.~subscribedTo 	 false 	 undefined 	 undefined
+$35. univ.~topics 	 false 	 undefined 	 undefined
+$36. univ.~zookeeper 	 false 	 undefined 	 undefined
+$37.  	 false 	 undefined 	 undefined
+$38. univ 	 false 	 undefined 	 undefined
+
+Time taken: 82.617333
+Preprocessing time: 16
+Parsing time: 8
+Generation time: 1

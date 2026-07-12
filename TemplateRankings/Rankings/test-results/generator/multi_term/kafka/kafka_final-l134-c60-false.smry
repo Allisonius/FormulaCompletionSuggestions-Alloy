@@ -1,0 +1,19 @@
+Model name: kafka_final
+Filename: completion/kafka_final-sig.als
+Offset: 4601
+Term: .
+Vscode Position: line=133 character=60
+----------------------------------
+134 |     all disj c1, c2 : cg.consumers | disj[c1.assignedTo, c2.
+----------------------------------
+Expected Completion word: undefined
+Expected Completion line: assignedTo]
+Suggestion exists: false
+Completion List:
+# Suggestion 	 Exact 	 Syntactic 	 Semantic
+
+
+Time taken: 79.508834
+Preprocessing time: N/A
+Parsing time: N/A
+Generation time: N/A

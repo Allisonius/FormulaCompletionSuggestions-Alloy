@@ -1,0 +1,42 @@
+Model name: kafka_final
+Filename: completion/kafka_final-sig.als
+Offset: 1506
+Term: .
+Vscode Position: line=46 character=20
+----------------------------------
+47 |   Topic = ZooKeeper.
+----------------------------------
+Expected Completion word: topics
+Expected Completion line: topics
+Suggestion exists: true
+Completion List:
+# Suggestion 	 Exact 	 Syntactic 	 Semantic
+$1. brokers'.Broker 	 false 	 false 	 false
+$2. brokers.Broker 	 false 	 false 	 false
+$3. topics.Topic 	 false 	 false 	 false
+$4. ~zookeeper.Kafka 	 false 	 false 	 false
+$5. brokers 	 false 	 false 	 false
+$6. brokers' 	 false 	 false 	 false
+$7. brokers'.replicasInBroker 	 false 	 false 	 false
+$8. brokers'.replicasInBroker' 	 false 	 false 	 false
+$9. brokers'.univ 	 false 	 false 	 false
+$10. brokers'.~brokers 	 false 	 false 	 false
+$11. brokers.replicasInBroker 	 false 	 false 	 false
+$12. brokers.replicasInBroker' 	 false 	 false 	 false
+$13. brokers.univ 	 false 	 false 	 false
+$14. topics 	 true 	 true 	 true
+$15. topics 	 true 	 true 	 true
+$16. topics.partitions 	 false 	 false 	 false
+$17. topics.univ 	 false 	 false 	 false
+$18. topics.~subscribedTo 	 false 	 false 	 false
+$19. ~zookeeper.consumer_groups 	 false 	 false 	 false
+$20. ~zookeeper.producers 	 false 	 false 	 false
+$21. ~zookeeper.replicationFactor 	 false 	 false 	 false
+$22. ~zookeeper 	 false 	 false 	 false
+$23. ~zookeeper.univ 	 false 	 false 	 false
+$24.  	 false 	 undefined 	 undefined
+
+Time taken: 195.2735
+Preprocessing time: 10
+Parsing time: 2
+Generation time: 6

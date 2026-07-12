@@ -1,0 +1,54 @@
+Model name: lib_prop_merged
+Filename: completion/lib_prop_merged-complete.als
+Offset: 5485
+Term:  & 
+Vscode Position: line=251 character=44
+----------------------------------
+252 |  no( Int.(L.membersReservingOneBook.Book) & 
+----------------------------------
+Expected Completion word: m
+Expected Completion line: m)// m has no reseravation
+Suggestion exists: false
+Completion List:
+# Suggestion 	 Exact 	 Syntactic 	 Semantic
+$1. L.membersReservingOneBook.Book 	 false 	 undefined 	 undefined
+$2. L.membersReservingOneBook.univ 	 false 	 undefined 	 undefined
+$3. Renew.m.~members 	 false 	 undefined 	 undefined
+$4. loan.m.~members 	 false 	 undefined 	 undefined
+$5. ~books.L.Renew 	 false 	 undefined 	 undefined
+$6. ~books.L.loan 	 false 	 undefined 	 undefined
+$7. ~members.L.Renew 	 false 	 undefined 	 undefined
+$8. ~members.L.loan 	 false 	 undefined 	 undefined
+$9. Lib.membersReservingOneBook.Book 	 false 	 undefined 	 undefined
+$10. Lib.membersReservingOneBook.univ 	 false 	 undefined 	 undefined
+$11. Renew.Member.~members 	 false 	 undefined 	 undefined
+$12. loan.Member.~members 	 false 	 undefined 	 undefined
+$13. univ.membersReservingOneBook.Book 	 false 	 undefined 	 undefined
+$14. ~books.Lib.Renew 	 false 	 undefined 	 undefined
+$15. ~books.Lib.loan 	 false 	 undefined 	 undefined
+$16. ~members.Lib.Renew 	 false 	 undefined 	 undefined
+$17. ~members.Lib.loan 	 false 	 undefined 	 undefined
+$18. Renew.univ.books 	 false 	 undefined 	 undefined
+$19. Renew.univ.maxNbLoans 	 false 	 undefined 	 undefined
+$20. Renew.univ.members 	 false 	 undefined 	 undefined
+$21. Renew.univ.~maxNbLoans 	 false 	 undefined 	 undefined
+$22. Renew.univ.~members 	 false 	 undefined 	 undefined
+$23. loan.univ.books 	 false 	 undefined 	 undefined
+$24. loan.univ.maxNbLoans 	 false 	 undefined 	 undefined
+$25. loan.univ.members 	 false 	 undefined 	 undefined
+$26. loan.univ.~maxNbLoans 	 false 	 undefined 	 undefined
+$27. loan.univ.~members 	 false 	 undefined 	 undefined
+$28. maxNbLoans.univ.Renew 	 false 	 undefined 	 undefined
+$29. maxNbLoans.univ.loan 	 false 	 undefined 	 undefined
+$30. univ.membersReservingOneBook.univ 	 false 	 undefined 	 undefined
+$31. ~books.univ.Renew 	 false 	 undefined 	 undefined
+$32. ~books.univ.loan 	 false 	 undefined 	 undefined
+$33. ~maxNbLoans.univ.Renew 	 false 	 undefined 	 undefined
+$34. ~maxNbLoans.univ.loan 	 false 	 undefined 	 undefined
+$35. ~members.univ.Renew 	 false 	 undefined 	 undefined
+$36. ~members.univ.loan 	 false 	 undefined 	 undefined
+
+Time taken: 74.906208
+Preprocessing time: 12
+Parsing time: 6
+Generation time: 8

@@ -1,0 +1,70 @@
+Model name: kafka_final
+Filename: completion/kafka_final-complete.als
+Offset: 16984
+Term: .
+Vscode Position: line=543 character=6
+----------------------------------
+544 |     p.
+----------------------------------
+Expected Completion word: followers
+Expected Completion line: followers' = p.followers - new_l
+Suggestion exists: true
+Completion List:
+# Suggestion 	 Exact 	 Syntactic 	 Semantic
+$1. followers'.l_replicas 	 false 	 false 	 false
+$2. followers'.lr 	 false 	 undefined 	 undefined
+$3. followers'.new_l 	 false 	 undefined 	 undefined
+$4. followers.l_replicas 	 false 	 false 	 false
+$5. followers.lr 	 false 	 undefined 	 undefined
+$6. followers.new_l 	 false 	 undefined 	 undefined
+$7. leader'.l_replicas 	 false 	 false 	 false
+$8. leader'.lr 	 false 	 undefined 	 undefined
+$9. leader'.new_l 	 false 	 undefined 	 undefined
+$10. leader.l_replicas 	 false 	 false 	 false
+$11. leader.lr 	 false 	 undefined 	 undefined
+$12. leader.new_l 	 false 	 undefined 	 undefined
+$13. followers'.PartitionReplica 	 false 	 false 	 false
+$14. followers.PartitionReplica 	 false 	 false 	 false
+$15. leader'.PartitionReplica 	 false 	 false 	 false
+$16. leader.PartitionReplica 	 false 	 false 	 false
+$17. ~assignedTo.Consumer 	 false 	 false 	 false
+$18. ~partitions.Topic 	 false 	 false 	 false
+$19. followers 	 true 	 true 	 true
+$20. followers' 	 false 	 false 	 false
+$21. followers'.events 	 false 	 false 	 false
+$22. followers'.events' 	 false 	 false 	 false
+$23. followers'.univ 	 false 	 false 	 false
+$24. followers'.~followers 	 false 	 false 	 false
+$25. followers'.~leader 	 false 	 false 	 false
+$26. followers'.~replicasInBroker 	 false 	 false 	 false
+$27. followers.events 	 false 	 false 	 false
+$28. followers.events' 	 false 	 false 	 false
+$29. followers.univ 	 false 	 false 	 false
+$30. followers.~leader 	 false 	 false 	 false
+$31. followers.~replicasInBroker 	 false 	 false 	 false
+$32. leader 	 false 	 false 	 false
+$33. leader' 	 false 	 false 	 false
+$34. leader'.events 	 false 	 false 	 false
+$35. leader'.events' 	 false 	 false 	 false
+$36. leader'.univ 	 false 	 false 	 false
+$37. leader'.~followers 	 false 	 false 	 false
+$38. leader'.~leader 	 false 	 false 	 false
+$39. leader'.~replicasInBroker 	 false 	 false 	 false
+$40. leader.events 	 false 	 false 	 false
+$41. leader.events' 	 false 	 false 	 false
+$42. leader.univ 	 false 	 false 	 false
+$43. leader.~followers 	 false 	 false 	 false
+$44. leader.~replicasInBroker 	 false 	 false 	 false
+$45. ~assignedTo 	 false 	 false 	 false
+$46. ~assignedTo.univ 	 false 	 false 	 false
+$47. ~assignedTo.~consumers 	 false 	 false 	 false
+$48. ~partitions 	 false 	 false 	 false
+$49. ~partitions.univ 	 false 	 false 	 false
+$50. ~partitions.~subscribedTo 	 false 	 false 	 false
+$51. ~partitions.~topics 	 false 	 false 	 false
+$52.  	 false 	 undefined 	 undefined
+
+Time taken: 98.142041
+Preprocessing time: 16
+Parsing time: 8
+Generation time: 1

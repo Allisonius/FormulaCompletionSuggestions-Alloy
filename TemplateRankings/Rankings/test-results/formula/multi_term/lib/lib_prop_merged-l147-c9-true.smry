@@ -1,0 +1,22 @@
+Model name: lib_prop_merged
+Filename: completion/lib_prop_merged-complete.als
+Offset: 2829
+Term: .
+Vscode Position: line=146 character=9
+----------------------------------
+147 |  no (Int.
+----------------------------------
+Expected Completion word: L.membersReservingOneBook.b
+Expected Completion line: (L.membersReservingOneBook.b) & m) //it can't be reserved more than one Time by the same member
+Suggestion exists: true
+Completion List:
+# Suggestion 	 Exact 	 Syntactic 	 Semantic
+$1. ~maxNbLoans.Constants 	 false 	 undefined 	 undefined
+$2. ~maxNbLoans 	 false 	 undefined 	 undefined
+$3. ~maxNbLoans.univ 	 false 	 undefined 	 undefined
+$4.  	 true 	 undefined 	 undefined
+
+Time taken: 68.92625
+Preprocessing time: 14
+Parsing time: 6
+Generation time: 0

@@ -1,0 +1,46 @@
+Model name: kafka_final
+Filename: completion/kafka_final-complete.als
+Offset: 19512
+Term: .
+Vscode Position: line=622 character=17
+----------------------------------
+623 |       new_f in b.
+----------------------------------
+Expected Completion word: replicasInBroker
+Expected Completion line: replicasInBroker'
+Suggestion exists: true
+Completion List:
+# Suggestion 	 Exact 	 Syntactic 	 Semantic
+$1. replicasInBroker'.lr 	 false 	 undefined 	 undefined
+$2. replicasInBroker'.new_f 	 false 	 undefined 	 undefined
+$3. replicasInBroker.lr 	 false 	 undefined 	 undefined
+$4. replicasInBroker.new_f 	 false 	 undefined 	 undefined
+$5. replicasInBroker'.PartitionReplica 	 false 	 undefined 	 undefined
+$6. replicasInBroker.PartitionReplica 	 false 	 undefined 	 undefined
+$7. ~brokers.ZooKeeper 	 false 	 undefined 	 undefined
+$8. replicasInBroker 	 true 	 undefined 	 undefined
+$9. replicasInBroker 	 true 	 undefined 	 undefined
+$10. replicasInBroker' 	 false 	 undefined 	 undefined
+$11. replicasInBroker' 	 false 	 undefined 	 undefined
+$12. replicasInBroker'.events 	 false 	 undefined 	 undefined
+$13. replicasInBroker'.events' 	 false 	 undefined 	 undefined
+$14. replicasInBroker'.univ 	 false 	 undefined 	 undefined
+$15. replicasInBroker'.~followers 	 false 	 undefined 	 undefined
+$16. replicasInBroker'.~leader 	 false 	 undefined 	 undefined
+$17. replicasInBroker'.~replicasInBroker 	 false 	 undefined 	 undefined
+$18. replicasInBroker.events 	 false 	 undefined 	 undefined
+$19. replicasInBroker.events' 	 false 	 undefined 	 undefined
+$20. replicasInBroker.univ 	 false 	 undefined 	 undefined
+$21. replicasInBroker.~followers 	 false 	 undefined 	 undefined
+$22. replicasInBroker.~leader 	 false 	 undefined 	 undefined
+$23. ~brokers.brokers' 	 false 	 undefined 	 undefined
+$24. ~brokers.topics 	 false 	 undefined 	 undefined
+$25. ~brokers 	 false 	 undefined 	 undefined
+$26. ~brokers.univ 	 false 	 undefined 	 undefined
+$27. ~brokers.~zookeeper 	 false 	 undefined 	 undefined
+$28.  	 false 	 undefined 	 undefined
+
+Time taken: 103.414625
+Preprocessing time: 16
+Parsing time: 7
+Generation time: 1

@@ -1,0 +1,17 @@
+assignedTo
+~consumers
+assignedTo.followers
+assignedTo.followers'
+assignedTo.leader
+assignedTo.leader'
+~consumers.assignments
+~consumers.offsets
+~consumers.offsets'
+~consumers.subscribedTo
+assignedTo.TopicPartition
+
+assignedTo.univ
+assignedTo.~partitions
+~consumers.univ
+~consumers.ConsumerGroup
+~consumers.~consumer_groups

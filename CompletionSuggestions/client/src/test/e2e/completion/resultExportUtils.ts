@@ -39,6 +39,37 @@ export class CompletionResultExportUtils {
     this.ignoreTrueCases = ignoreTrueCases;
   }
 
+  private _appendResultToCsv = (modelDir: string, modelName: string, result: any) => {
+    const csvPath = `${modelDir}/${modelName}-results.csv`;
+    const columns = [
+      "modelName", "filename", "offset", "term", "line", "character",
+      "incompletionLine", "completionList", "completionGenerated", "suggestionExists",
+      "expectedCompletionWord", "expectedCompletionLine", "elapsedTimeInMs",
+      "preprocessingTime", "parsingTime", "generationTime",
+      "evaluationResult_count", "evaluationResult_exact_matches",
+      "evaluationResult_syntactic_matches", "evaluationResult_semantic_matches",
+      "evaluationResult_semantic_match_count",
+    ];
+
+    const evalArr: any[] = Array.isArray(result.evaluationResult) ? result.evaluationResult : [];
+    const derived: Record<string, any> = {
+      evaluationResult_count: evalArr.length,
+      evaluationResult_exact_matches: evalArr.some((e) => e.doesMatchExactly),
+      evaluationResult_syntactic_matches: evalArr.some((e) => e.doesMatchSyntactically),
+      evaluationResult_semantic_matches: evalArr.some((e) => e.doesMatchSemantically),
+      evaluationResult_semantic_match_count: evalArr.filter((e) => e.doesMatchSemantically).length,
+    };
+
+    const formatValue = (v: any) =>
+      v === undefined || v === null ? "" : typeof v === "string" ? JSON.stringify(v) : String(v);
+    const row = columns.map((col) => formatValue(col in derived ? derived[col] : result[col])).join(",") + "\n";
+    if (!fs.existsSync(csvPath)) {
+      fs.writeFileSync(csvPath, columns.join(",") + "\n" + row);
+    } else {
+      fs.appendFileSync(csvPath, row);
+    }
+  };
+
   private _exportResultToFile = (
     modelName: String,
     position: vscode.Position,
@@ -68,6 +99,8 @@ export class CompletionResultExportUtils {
       `${modelDir}/${modelName}-${suffix}.result.json`,
       JSON.stringify(result),
     );
+
+    this._appendResultToCsv(modelDir, String(modelName), result);
   };
 
   private _exportResultToConsole = (summary: String, result: any) => {
@@ -91,15 +124,15 @@ export class CompletionResultExportUtils {
     timeMeasuringItem: vscode.CompletionItem | null,
   ) => {
     filename = filename.split("/testFixture/").pop();
-    const findSuggestions = (completionList: vscode.CompletionItem[]) => {
-      return completionList.some(
-        (item) =>
-          item.label.toString().trim() ===
-            evaluationResult.expectedTerm.trim() ||
-          (variant === TEST_VARIANT.multi_term &&
-            removedText.trim().startsWith(item.label.toString().trim())),
-      );
-    };
+    // const findSuggestions = (completionList: vscode.CompletionItem[]) => {
+    //   return completionList.some(
+    //     (item) =>
+    //       item.label.toString().trim() ===
+    //         evaluationResult.expectedTerm.trim() ||
+    //       (variant === TEST_VARIANT.multi_term &&
+    //         removedText.trim().startsWith(item.label.toString().trim())),
+    //   );
+    // };
 
     const findSuggestions2 = (
       evaluationResult: EvaluateSuggestionsResponse,
@@ -112,27 +145,27 @@ export class CompletionResultExportUtils {
     // Structural(default) sorting
     // const suggestionExists = findSuggestions(completionList.items);
     const suggestionExists = findSuggestions2(evaluationResult);
-    const suggestionInTop1 = findSuggestions(completionList.items.slice(0, 1));
-    const suggestionInTop5 = findSuggestions(completionList.items.slice(0, 5));
-    const suggestionInTop10 = findSuggestions(
-      completionList.items.slice(0, 10),
-    );
+    // const suggestionInTop1 = findSuggestions(completionList.items.slice(0, 1));
+    // const suggestionInTop5 = findSuggestions(completionList.items.slice(0, 5));
+    // const suggestionInTop10 = findSuggestions(
+    //   completionList.items.slice(0, 10),
+    // );
 
     // Alphabetical sorting
     var alphaSorted = [...completionList.items].sort((a, b) =>
       a.label.toString().localeCompare(b.label.toString()),
     );
-    const suggestionInTop1Alpha = findSuggestions(alphaSorted.slice(0, 1));
-    const suggestionInTop5Alpha = findSuggestions(alphaSorted.slice(0, 5));
-    const suggestionInTop10Alpha = findSuggestions(alphaSorted.slice(0, 10));
+    // const suggestionInTop1Alpha = findSuggestions(alphaSorted.slice(0, 1));
+    // const suggestionInTop5Alpha = findSuggestions(alphaSorted.slice(0, 5));
+    // const suggestionInTop10Alpha = findSuggestions(alphaSorted.slice(0, 10));
 
     // Sorted by length
     var lengthSorted = [...completionList.items].sort(
       (a, b) => a.label.toString().length - b.label.toString().length,
     );
-    const suggestionInTop1Len = findSuggestions(lengthSorted.slice(0, 1));
-    const suggestionInTop5Len = findSuggestions(lengthSorted.slice(0, 5));
-    const suggestionInTop10Len = findSuggestions(lengthSorted.slice(0, 10));
+    // const suggestionInTop1Len = findSuggestions(lengthSorted.slice(0, 1));
+    // const suggestionInTop5Len = findSuggestions(lengthSorted.slice(0, 5));
+    // const suggestionInTop10Len = findSuggestions(lengthSorted.slice(0, 10));
 
     const evaluationSummary = evaluationResult
       ? evaluationResult.evaluations
@@ -177,15 +210,15 @@ Generation time: ${timeMeasuringItem ? timeMeasuringItem.documentation : "N/A"}`
       evaluationResult: evaluationResult.evaluations,
       completionGenerated: completionList.items.length > 0,
       suggestionExists: suggestionExists,
-      suggestionInTop1: suggestionInTop1,
-      suggestionInTop5: suggestionInTop5,
-      suggestionInTop10: suggestionInTop10,
-      suggestionInTop1Alpha: suggestionInTop1Alpha,
-      suggestionInTop5Alpha: suggestionInTop5Alpha,
-      suggestionInTop10Alpha: suggestionInTop10Alpha,
-      suggestionInTop1Len: suggestionInTop1Len,
-      suggestionInTop5Len: suggestionInTop5Len,
-      suggestionInTop10Len: suggestionInTop10Len,
+      // suggestionInTop1: suggestionInTop1,
+      // suggestionInTop5: suggestionInTop5,
+      // suggestionInTop10: suggestionInTop10,
+      // suggestionInTop1Alpha: suggestionInTop1Alpha,
+      // suggestionInTop5Alpha: suggestionInTop5Alpha,
+      // suggestionInTop10Alpha: suggestionInTop10Alpha,
+      // suggestionInTop1Len: suggestionInTop1Len,
+      // suggestionInTop5Len: suggestionInTop5Len,
+      // suggestionInTop10Len: suggestionInTop10Len,
       expectedCompletionWord: evaluationResult.expectedTerm,
       expectedCompletionLine: removedText.trim(),
       elapsedTimeInMs: elapsedTimeInMs,
